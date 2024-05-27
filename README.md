@@ -26,6 +26,6 @@ The primary purposes of this wiki are:
 The wiki is divided into several main categories, each containing related topics. The categories are:
 
 - **Courses**
-  - Microsoft Power BI for Business Intelligence and Data Science
+  - [Microsoft Power BI for Business Intelligence and Data Science](https://github.com/IAugustoMZ/personalWiki/tree/main/courses/microsoft_power_bi_for_business_intelligence_and_data_science)
  
 Each category is further divided into subtopics, making it easy to navigate and find specific information.
