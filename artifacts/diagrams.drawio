@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3" pages="5">
   <diagram name="dataSciencePyramid" id="DbNamG5MRup3jd3d_bjc">
     <mxGraphModel dx="2853" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,6 +130,79 @@
         </mxCell>
         <mxCell id="N2isrXNHpm2FeMdlXk6H-1" value="Nuvem?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fgYOF5jZMFqjwgvNLgVr-1">
           <mxGeometry x="350" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Xs_7mK-yLLohJPti7uqo" name="distributedSystem">
+    <mxGraphModel dx="2853" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="STbMFeLqpqqGobAGAeqq-1" value="Sistema de Processamento Distribuído" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-2" value="Sistema de Armazenamento Distribuído" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="20" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-4" value="Ambiente de Rede" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-5" value="Várias máquinas funcionando&amp;nbsp;&lt;div&gt;como uma&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="250" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-6" value="Sistema de Arquivos Local" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-7" value="Sistema Operacional" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="380" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-8" value="Hardware" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="20" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="STbMFeLqpqqGobAGAeqq-10" value="Computador Local" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DEBzv4MC-AlJX_nD2J3f" name="hadoop">
+    <mxGraphModel dx="2026" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TbFli32gm4BY8x_ldCzf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TbFli32gm4BY8x_ldCzf-1" target="TbFli32gm4BY8x_ldCzf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TbFli32gm4BY8x_ldCzf-1" target="TbFli32gm4BY8x_ldCzf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TbFli32gm4BY8x_ldCzf-1" target="TbFli32gm4BY8x_ldCzf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-1" value="Name Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-2" value="Data Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-3" value="Data Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-4" value="Data Node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TbFli32gm4BY8x_ldCzf-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="229.5" as="sourcePoint" />
+            <mxPoint x="310" y="229.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
