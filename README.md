@@ -28,5 +28,7 @@ The wiki is divided into several main categories, each containing related topics
 - **Courses**
   - [Microsoft Power BI for Business Intelligence and Data Science](https://github.com/IAugustoMZ/personalWiki/tree/main/courses/microsoft_power_bi_for_business_intelligence_and_data_science)
   - [Fundamentos de Engenharia de Dados](https://github.com/IAugustoMZ/personalWiki/tree/main/courses/data_engineering_fundamentals)
- 
+  - [Formação Engenheiro de Dados](https://github.com/IAugustoMZ/personalWiki/tree/main/courses/data_engineer_formation)
+    - [Cursos de Aperfeiçoamento Profissional - Bônus da Formação](https://github.com/IAugustoMZ/personalWiki/tree/main/courses/data_engineer_formation/personal_improvement_bonus) 
+
 Each category is further divided into subtopics, making it easy to navigate and find specific information.
