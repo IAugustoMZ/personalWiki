@@ -1,0 +1,12 @@
+services:
+  personal_wiki_etl:
+    image: personal_wiki_etl
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: personal_wiki_etl_container
+    ports:
+      - "5001:5001"
+    volumes:
+      - E:\LocalPortfolio\PersonalProjects\personalWiki:/personal_wiki
+    command: ["tail", "-f", "/dev/null"]
