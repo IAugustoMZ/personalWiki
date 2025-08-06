@@ -1,0 +1,2330 @@
+[
+  {
+    "question": "What is the primary goal of Business Intelligence (BI)?",
+    "options": {
+      "A": "To build predictive models using machine learning",
+      "B": "To automate workflows and create custom apps",
+      "C": "To transform data into business decision-making insights",
+      "D": "To store and manage structured data in the cloud"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following is NOT part of the Microsoft Power Platform?",
+    "options": {
+      "A": "Power BI",
+      "B": "Power Virtual Agents",
+      "C": "Power Query",
+      "D": "Power Automate"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which Power BI version is best suited for embedding dashboards in web applications?",
+    "options": {
+      "A": "Power BI Mobile",
+      "B": "Power BI Embedded",
+      "C": "Power BI Desktop",
+      "D": "Power BI Pro"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the limitation of using Power BI Desktop alone?",
+    "options": {
+      "A": "Inability to create dashboards",
+      "B": "Requires a corporate email",
+      "C": "Cannot share dashboards online",
+      "D": "Does not allow data transformation"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which tool in Power BI is primarily used for data transformation?",
+    "options": {
+      "A": "Dataverse",
+      "B": "Power Virtual Agents",
+      "C": "Power Query",
+      "D": "SQL Server"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is Dataverse used for in the Power BI interface?",
+    "options": {
+      "A": "Creating custom visuals",
+      "B": "Running machine learning algorithms",
+      "C": "Integrating data from multiple sources",
+      "D": "Exporting reports to mobile devices"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following features is exclusive to Power BI Pro or higher plans?",
+    "options": {
+      "A": "Creating dashboards",
+      "B": "Accessing data from SQL Server",
+      "C": "Sharing and integrating dashboards",
+      "D": "Importing data manually"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which file installation source has limitations such as no update notifications for Power BI?",
+    "options": {
+      "A": "Power BI Embedded",
+      "B": "App Store installation",
+      "C": "Power BI Pro installation",
+      "D": "SQL Server integration"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which component of Power BI's interface is used for integrating with R and Python?",
+    "options": {
+      "A": "Modeling",
+      "B": "Visuals",
+      "C": "Transform Data",
+      "D": "Dataverse"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What type of data does Big Data primarily focus on processing?",
+    "options": {
+      "A": "Historical financial data",
+      "B": "Non-structured data from various formats",
+      "C": "Structured SQL data only",
+      "D": "Real-time transactional data"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main purpose of Business Intelligence (BI)?",
+    "options": {
+      "A": "To automate workflows and build web applications",
+      "B": "To analyze unstructured data in real-time",
+      "C": "To transform data into business decision-making tools",
+      "D": "To classify large datasets using AI"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which component of Power BI allows for embedding dashboards into web applications?",
+    "options": {
+      "A": "Power BI Mobile",
+      "B": "Power BI Embedded",
+      "C": "Power BI Premium",
+      "D": "Power BI Server"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following best describes the Power Platform?",
+    "options": {
+      "A": "A cloud database engine developed by Google",
+      "B": "A set of tools for automating, analyzing, and interacting with data",
+      "C": "An on-premises business suite for data visualization",
+      "D": "A specialized IDE for Python-based development"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a limitation of installing Power BI via the App Store?",
+    "options": {
+      "A": "Inability to connect to SQL Server",
+      "B": "Lack of data modeling functionality",
+      "C": "No notification of updates",
+      "D": "No ability to create dashboards"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which tool within Power BI is specifically used for data transformation?",
+    "options": {
+      "A": "Dataverse",
+      "B": "Power Apps",
+      "C": "Power Automate",
+      "D": "Power Query"
+    },
+    "correct_option": "D",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the function of Dataverse in Power BI?",
+    "options": {
+      "A": "Running Python scripts for data analysis",
+      "B": "Providing a single point of integration for multiple data sources",
+      "C": "Creating mobile dashboards",
+      "D": "Sharing dashboards across devices"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which version of Power BI is required for sharing and integration capabilities?",
+    "options": {
+      "A": "Power BI Desktop",
+      "B": "Power BI Mobile",
+      "C": "Power BI Pro",
+      "D": "Power BI Embedded"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which functionality is part of Power BI's visual tools?",
+    "options": {
+      "A": "Integration with R and Python",
+      "B": "Running SQL queries",
+      "C": "Creating automated workflows",
+      "D": "Managing cloud-based backups"
+    },
+    "correct_option": "A",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which source is NOT mentioned as a data input method in Power BI?",
+    "options": {
+      "A": "Data Hub",
+      "B": "Manual input",
+      "C": "Google Sheets",
+      "D": "SQL Server"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the goal of Data Science?",
+    "options": {
+      "A": "To store dashboards locally",
+      "B": "To automate file downloads",
+      "C": "To apply math, statistics, and computing for predictive analysis",
+      "D": "To generate business reports for past data only"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main function of Microsoft Power BI?",
+    "options": {
+      "A": "To automate business processes through chatbots",
+      "B": "To visualize and analyze data through dashboards and reports",
+      "C": "To develop custom mobile applications",
+      "D": "To manage SQL Server databases"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which Power Platform component is designed to automate workflows?",
+    "options": {
+      "A": "Power BI",
+      "B": "Power Apps",
+      "C": "Power Automate",
+      "D": "Power Virtual Agents"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the function of Power BI Premium?",
+    "options": {
+      "A": "To develop custom mobile apps",
+      "B": "To allow self-service BI and mobile applications",
+      "C": "To embed dashboards in web applications",
+      "D": "To manage SQL Server reports locally"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which version of Power BI is free and used for creating dashboards locally?",
+    "options": {
+      "A": "Power BI Premium",
+      "B": "Power BI Pro",
+      "C": "Power BI Desktop",
+      "D": "Power BI Embedded"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does Power Query in Power BI allow users to do?",
+    "options": {
+      "A": "Run SQL queries on cloud data",
+      "B": "Visualize dashboards on mobile devices",
+      "C": "Perform data transformation and custom calculations",
+      "D": "Create custom applications"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the purpose of the 'Dataverse' in Power BI?",
+    "options": {
+      "A": "To store visualization templates",
+      "B": "To access corporate email tools",
+      "C": "To serve as a unified data repository from multiple sources",
+      "D": "To build chatbots for data interaction"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is one limitation of installing Power BI via the App Store?",
+    "options": {
+      "A": "Inability to build reports",
+      "B": "No update notifications are provided",
+      "C": "No access to SQL Server data",
+      "D": "Dashboards cannot be created"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which statement best defines Big Data?",
+    "options": {
+      "A": "A method of storing large SQL files for backup",
+      "B": "A system for managing user permissions in Power BI",
+      "C": "The process of collecting and processing unstructured data from various sources",
+      "D": "A tool for visualizing historical business trends"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which tool or integration allows for advanced statistical and programming features in Power BI?",
+    "options": {
+      "A": "SQL Server",
+      "B": "Dataverse",
+      "C": "Power Apps",
+      "D": "R and Python integration"
+    },
+    "correct_option": "D",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main purpose of anomaly detection in data analysis?",
+    "options": {
+      "A": "To ensure all data points conform to a normal distribution",
+      "B": "To identify unusual patterns or behaviors in data",
+      "C": "To optimize dashboards for performance",
+      "D": "To convert unstructured data into structured format"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which method involves training a model with labeled normal and anomalous data?",
+    "options": {
+      "A": "Unsupervised learning",
+      "B": "Semi-supervised learning",
+      "C": "Supervised learning",
+      "D": "Density-based methods"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "In anomaly detection, what characterizes data points identified by density-based methods?",
+    "options": {
+      "A": "They appear in areas with a high concentration of other data points",
+      "B": "They are always labeled as outliers in the training data",
+      "C": "They lie in regions with low data point density",
+      "D": "They follow a predefined statistical distribution"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which algorithm is suitable for detecting multivariate anomalies?",
+    "options": {
+      "A": "Linear Regression",
+      "B": "Decision Trees",
+      "C": "Isolation Forest",
+      "D": "K-Means Clustering"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+{
+    "question": "Which of the following is a common application of anomaly detection in Business Intelligence and Power BI?",
+    "options": {
+        "A": "Detecting financial transaction fraud",
+        "B": "Identifying unusual patterns or segments in business data",
+        "C": "Monitoring system logs",
+        "D": "Predicting equipment failure"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+},
+  {
+    "question": "What does the Isolation Forest algorithm return when applied to data?",
+    "options": {
+      "A": "A decision tree classification",
+      "B": "A cluster membership label",
+      "C": "A probability score for anomaly likelihood",
+      "D": "A list of top correlated variables"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a typical use of anomaly detection in predictive maintenance?",
+    "options": {
+      "A": "Detecting air quality issues",
+      "B": "Classifying consumer behavior",
+      "C": "Monitoring sensor data for signs of failure",
+      "D": "Filtering spam emails"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following is a semi-supervised anomaly detection approach?",
+    "options": {
+      "A": "Training only with anomalous data",
+      "B": "Using clustering algorithms exclusively",
+      "C": "Training on partially labeled datasets",
+      "D": "Training only with normal data"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which Power BI compatible language uses the '%>%' operator for data operations?",
+    "options": {
+      "A": "DAX",
+      "B": "SQL",
+      "C": "R",
+      "D": "Python"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a key design decision when implementing anomaly detection?",
+    "options": {
+      "A": "Choosing the most recent dataset",
+      "B": "Defining a threshold for classifying anomalies",
+      "C": "Using only supervised learning techniques",
+      "D": "Avoiding outlier removal in preprocessing"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the primary objective of anomaly detection?",
+    "options": {
+      "A": "To increase data collection frequency",
+      "B": "To classify users by their behavior",
+      "C": "To identify unusual patterns in data",
+      "D": "To replace missing data points"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following is a characteristic of anomalies?",
+    "options": {
+      "A": "They follow the general data trend",
+      "B": "They are similar to their neighbors",
+      "C": "They show unusual frequency, magnitude, or behavior",
+      "D": "They are generated synthetically"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What statistical methods are used for anomaly detection?",
+    "options": {
+      "A": "Linear Regression and Time Series",
+    "B": "Hypothesis Testing, Probability Distribution, and Measures of Dispersion",
+      "C": "Deep Learning and Data Augmentation",
+      "D": "Fourier Transform and Wavelets"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which machine learning method uses labeled data for anomaly detection?",
+    "options": {
+      "A": "Unsupervised learning",
+      "B": "Reinforcement learning",
+      "C": "Supervised learning",
+      "D": "Density estimation"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How are anomalies identified in unsupervised learning?",
+    "options": {
+      "A": "They are predicted using labeled classes",
+      "B": "They are the most frequent values",
+      "C": "They do not fit well into learned clusters or patterns",
+      "D": "They are manually flagged"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which approach combines labeled and unlabeled data for training?",
+    "options": {
+      "A": "Isolation Forest",
+      "B": "Supervised learning",
+      "C": "Semi-supervised learning",
+      "D": "Density-based clustering"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main idea behind density-based methods for anomaly detection?",
+    "options": {
+      "A": "Anomalies are the most central points in a cluster",
+      "B": "Anomalies are those that belong to no class",
+      "C": "Anomalies appear in low-density regions of the dataset",
+      "D": "Anomalies occur only in time-series data"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What characterizes anomalies in neighborhood-based methods?",
+    "options": {
+      "A": "They are the closest to cluster centroids",
+      "B": "They have similar behavior to their neighbors",
+      "C": "They differ significantly from neighboring data points",
+      "D": "They always appear in dense regions"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which algorithm is suitable for multivariate anomaly detection?",
+    "options": {
+      "A": "Naive Bayes",
+      "B": "Isolation Forest",
+      "C": "K-Means",
+      "D": "Logistic Regression"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the Isolation Forest algorithm return?",
+    "options": {
+      "A": "Cluster labels",
+      "B": "Regression output",
+      "C": "Anomaly score indicating outlier likelihood",
+      "D": "Prediction of class membership"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a use case of anomaly detection in cybersecurity?",
+    "options": {
+      "A": "Tracking marketing segments",
+      "B": "Monitoring stock levels",
+      "C": "Detecting unusual traffic patterns",
+      "D": "Classifying customer reviews"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How is anomaly detection applied in predictive maintenance?",
+    "options": {
+      "A": "By evaluating customer churn",
+      "B": "By identifying degraded performance or sensor faults",
+      "C": "By predicting sales trends",
+      "D": "By analyzing environmental conditions"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which example represents anomaly detection in environmental monitoring?",
+    "options": {
+      "A": "Identifying extreme weather events",
+      "B": "Analyzing email spam",
+      "C": "Measuring user engagement",
+      "D": "Detecting fake news"
+    },
+    "correct_option": "A",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How is anomaly detection useful in marketing and sales?",
+    "options": {
+      "A": "Forecasting inflation",
+      "B": "Identifying unusual consumer segments",
+      "C": "Balancing inventory",
+      "D": "Measuring server uptime"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a typical anomaly detection task in social media analysis?",
+    "options": {
+      "A": "Detecting low-resolution images",
+      "B": "Identifying spam or abusive content",
+      "C": "Summarizing long articles",
+      "D": "Translating user posts"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does a lower number of divisions in Isolation Forest imply?",
+    "options": {
+      "A": "The point is normal",
+      "B": "The point may be a multivariate outlier",
+      "C": "The algorithm failed to converge",
+      "D": "The dataset is fully labeled"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which operator is commonly used in R for data concatenation in anomaly detection workflows?",
+    "options": {
+      "A": "%%",
+      "B": "%in%",
+      "C": "%>%",
+      "D": "%/%"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What type of decision is the anomaly threshold setting considered?",
+    "options": {
+      "A": "A user interface customization",
+      "B": "A runtime performance setting",
+      "C": "A project design decision",
+      "D": "A hardware configuration"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a common goal across all anomaly detection applications?",
+    "options": {
+      "A": "To predict class labels",
+      "B": "To identify deviations from normal behavior",
+      "C": "To optimize system memory",
+      "D": "To clean all missing data"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+{
+    "question": "Which chart type is commonly used to analyze total values by category in Power BI?",
+    "options": {
+        "A": "Stacked bar chart",
+        "B": "Waterfall chart",
+        "C": "Donut chart",
+        "D": "Map chart"
+    },
+    "correct_option": "A",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+},
+{
+    "question": "Which visual is suitable for comparing average values across different groups in Power BI?",
+    "options": {
+        "A": "Treemap",
+        "B": "Line chart",
+        "C": "Scatter plot",
+        "D": "Radar chart"
+    },
+    "correct_option": "A",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+},
+  {
+    "question": "What is the primary focus of Business Intelligence (BI)?",
+    "options": {
+      "A": "Predicting future scenarios",
+      "B": "Analyzing past data for decision-making",
+      "C": "Developing data science models",
+      "D": "Cleaning unstructured data"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does cardinality represent in Power BI data models?",
+    "options": {
+      "A": "Data update frequency",
+      "B": "Granularity of text fields",
+      "C": "Nature of relationships between tables",
+      "D": "Color scheme of dashboards"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What type of cardinality is most likely to cause referential integrity problems?",
+    "options": {
+      "A": "One-to-one",
+      "B": "One-to-many",
+      "C": "Many-to-many",
+      "D": "Self-join"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What should be used to fix a many-to-many relationship in Power BI?",
+    "options": {
+      "A": "Concatenate the tables",
+      "B": "Remove all duplicates",
+      "C": "Use an intermediate table with one-to-many relationships",
+      "D": "Apply a filter condition"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a visual indicator used to measure goal achievement in Power BI?",
+    "options": {
+      "A": "KPI",
+      "B": "Slicer",
+      "C": "Treemap",
+      "D": "Scatter plot"
+    },
+    "correct_option": "A",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the key purpose of using filters in dashboards?",
+    "options": {
+      "A": "To modify visual layout",
+      "B": "To change file format",
+      "C": "To enable better decision-making through data segmentation",
+      "D": "To reduce file size"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which type of data model provides a unified view of organizational data?",
+    "options": {
+      "A": "Relational-only",
+      "B": "Physical model",
+      "C": "Conceptual model",
+      "D": "Star schema model"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why is the Star Schema model recommended in BI?",
+    "options": {
+      "A": "It creates complex nested joins",
+      "B": "It simplifies data access and ensures consistency",
+      "C": "It is the only model supported in Power BI",
+      "D": "It stores unstructured data efficiently"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following is NOT a level of data modeling?",
+    "options": {
+      "A": "Conceptual",
+      "B": "Logical",
+      "C": "Abstract",
+      "D": "Physical"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why might relationships not be automatically detected in Power BI?",
+    "options": {
+      "A": "The tables are too large",
+      "B": "The data model is in read-only mode",
+      "C": "There are inconsistencies in the data",
+      "D": "The software version is outdated"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What technique can be used to identify duplicates in key columns?",
+    "options": {
+      "A": "Filter pane",
+      "B": "KPI visual",
+      "C": "Grouping feature",
+      "D": "Slicer tool"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What kind of issues can lead to conceptual errors in dashboards?",
+    "options": {
+      "A": "Low contrast in visuals",
+      "B": "Incorrect application of business rules",
+      "C": "File extension mismatches",
+      "D": "Missing font packs"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What role do dashboards play in storytelling?",
+    "options": {
+      "A": "They are used for image editing",
+      "B": "They display complex code",
+      "C": "They provide visual narratives based on data",
+      "D": "They encrypt user credentials"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which design feature is important for final dashboard layouts?",
+    "options": {
+      "A": "Line spacing and margins",
+    "B": "Titles, versioning, color styles",
+      "C": "Data type conversions",
+      "D": "Loading animations"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What happens if there are strange characters or extra spaces in keys?",
+    "options": {
+      "A": "They improve data compression",
+      "B": "They cause loading errors",
+      "C": "They may break relationships",
+      "D": "They are automatically fixed by Power BI"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What can users do to troubleshoot steps taken during data preparation?",
+    "options": {
+      "A": "Use the query settings pane",
+      "B": "Review the 'applied steps' history",
+      "C": "Check the file properties",
+      "D": "Reinstall Power BI"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a risk of many-to-many relationships in Power BI?",
+    "options": {
+      "A": "They increase rendering speed",
+      "B": "They simplify logic",
+      "C": "They may violate referential integrity",
+      "D": "They enable better filters"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a best practice before loading an entire folder of files?",
+    "options": {
+      "A": "Disable automatic updates",
+      "B": "Ensure high resolution of images",
+      "C": "Check data quality",
+      "D": "Increase file path length"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a conceptual data model focused on?",
+    "options": {
+      "A": "Storage mechanisms",
+      "B": "Data types only",
+      "C": "Relationships and data concepts",
+      "D": "ETL processes"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is one benefit of using a star schema in Power BI?",
+    "options": {
+      "A": "Reduces visual complexity",
+      "B": "Improves performance and consistency",
+      "C": "Avoids the need for filters",
+      "D": "Minimizes column naming conventions"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the importance of knowing the business model in data modeling?",
+    "options": {
+      "A": "It simplifies DAX formulas",
+      "B": "It helps avoid legal issues",
+      "C": "It guides the correct structure and relationships",
+      "D": "It enables real-time collaboration"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which relationship type implies no duplication in either table?",
+    "options": {
+      "A": "One-to-one",
+      "B": "One-to-many",
+      "C": "Many-to-one",
+      "D": "Many-to-many"
+    },
+    "correct_option": "A",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why are visual titles important in dashboards?",
+    "options": {
+      "A": "They enhance load times",
+      "B": "They provide clear context to the user",
+      "C": "They replace data labels",
+      "D": "They increase font compatibility"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a benefit of segmenting data in dashboards?",
+    "options": {
+      "A": "It avoids model relationships",
+      "B": "It increases column count",
+      "C": "It allows more personalized insights",
+      "D": "It ensures mobile compatibility"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which business question can be answered with a stacked bar chart?",
+    "options": {
+      "A": "How many sales by country considering shipping priority?",
+      "B": "What is the average discount per product?",
+      "C": "What is the overall profit margin?",
+      "D": "How many duplicates exist in a table?"
+    },
+    "correct_option": "A",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the primary purpose of data modeling in Power BI?",
+    "options": {
+      "A": "To visualize charts and graphs in dashboards",
+      "B": "To store raw data from various sources",
+      "C": "To represent and organize relationships between datasets",
+      "D": "To publish dashboards to the Power BI service"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which type of relationship in Power BI should generally be avoided due to potential referential integrity issues?",
+    "options": {
+      "A": "One-to-many",
+      "B": "Many-to-one",
+      "C": "One-to-one",
+      "D": "Many-to-many"
+    },
+    "correct_option": "D",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "In Power BI, what does the cardinality 'one-to-many' signify?",
+    "options": {
+      "A": "One item in the right table relates to many in the left",
+      "B": "One item in the left table relates to many in the right",
+      "C": "Each item relates only to one item in another table",
+      "D": "Many items in both tables relate to many in the other"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which Power BI visual is best suited to display geographic data like average sales by country?",
+    "options": {
+      "A": "Bar chart",
+      "B": "Donut chart",
+      "C": "Map",
+      "D": "Line chart"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What should you do if Power BI fails to automatically detect relationships between tables?",
+    "options": {
+      "A": "Reload the dataset",
+      "B": "Add duplicate columns",
+      "C": "Manually define the relationships",
+      "D": "Convert all columns to strings"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which modeling schema is recommended for consistency and easy access in BI systems?",
+    "options": {
+      "A": "Flat Schema",
+      "B": "Star Schema",
+      "C": "Tree Schema",
+      "D": "Circular Schema"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What key feature helps track data origin and flow in data governance within Power BI?",
+    "options": {
+      "A": "Data warehouse",
+      "B": "Dashboard filters",
+      "C": "Data lineage",
+      "D": "Conditional formatting"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+{
+    "question": "Which graph type is commonly used to analyze data by category and subcategory in Business Intelligence tools like Power BI?",
+    "options": {
+        "A": "Scatter plot",
+        "B": "Stacked bar chart",
+        "C": "Line chart",
+        "D": "Gauge chart"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+},
+  {
+    "question": "In Power BI, how can you detect issues in data relationships due to duplicated keys?",
+    "options": {
+      "A": "By renaming the table",
+      "B": "By using aggregation functions",
+      "C": "By checking for duplicate values in primary key columns",
+      "D": "By deleting all null values"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following is a best practice for building effective dashboards in Power BI?",
+    "options": {
+      "A": "Avoid using filters to simplify the layout",
+      "B": "Use many bright colors to attract attention",
+      "C": "Apply segmentation, consistent styles, and clear titles",
+      "D": "Display raw data instead of summarized metrics"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main use of the M Language in Power BI?",
+    "options": {
+      "A": "Perform statistical forecasting",
+      "B": "Create dashboards",
+      "C": "Transform and clean data in Power Query",
+      "D": "Design user interfaces"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which Power BI feature uses DAX expressions?",
+    "options": {
+      "A": "Power Query",
+      "B": "Data model creation",
+      "C": "Data visualization",
+      "D": "Calculated measures and columns"
+    },
+    "correct_option": "D",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "When should a waterfall chart be used in Power BI?",
+    "options": {
+      "A": "To display geographical data",
+      "B": "To compare values over time",
+      "C": "To show how individual values contribute to a total",
+      "D": "To evaluate linear trends"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What distinguishes DAX measures from calculated columns?",
+    "options": {
+      "A": "Measures are row-based, columns are aggregate",
+      "B": "Columns are for visuals, measures for storage",
+      "C": "Measures return a single value, columns calculate per row",
+      "D": "Columns work on dashboards, measures in Power Query"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which Power BI graph is suitable for comparing proportions across many categories?",
+    "options": {
+      "A": "Treemap",
+      "B": "Funnel",
+      "C": "Line chart",
+      "D": "Scatter plot"
+    },
+    "correct_option": "A",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the Net Promoter Score (NPS) measure?",
+    "options": {
+      "A": "Brand awareness",
+      "B": "Customer loyalty based on recommendations",
+      "C": "Sales effectiveness",
+      "D": "Campaign ROI"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the purpose of recency analysis in marketing dashboards?",
+    "options": {
+      "A": "To analyze future purchase trends",
+      "B": "To identify the most frequent buyers",
+      "C": "To measure the time since the last customer purchase",
+      "D": "To compare product prices"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why is it important to avoid excess charts in a Power BI report?",
+    "options": {
+      "A": "It reduces report size",
+      "B": "It limits storage consumption",
+      "C": "It prevents high cognitive load on users",
+      "D": "It slows down report refresh"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the benefit of using segmentation visuals like blocks in Power BI?",
+    "options": {
+      "A": "They improve performance",
+      "B": "They allow exporting visuals to Excel",
+      "C": "They enable logical grouping and filtering",
+      "D": "They automatically correct data types"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the KPI 'conversion rate' measure?",
+    "options": {
+      "A": "Number of customer complaints",
+      "B": "Proportion of users performing a desired action",
+      "C": "Product return frequency",
+      "D": "Total purchase value"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+{
+    "question": "Which visual is useful for analyzing data trends across multiple categories in Power BI?",
+    "options": {
+        "A": "Scatter plot with small multiples",
+        "B": "Line chart with gradient fill",
+        "C": "Matrix with headers",
+        "D": "Bullet chart"
+    },
+    "correct_option": "A",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+},
+  {
+    "question": "What is a 'funnel chart' best suited for in Power BI?",
+    "options": {
+      "A": "Tracking multi-step processes",
+      "B": "Analyzing customer satisfaction",
+      "C": "Visualizing correlations",
+      "D": "Comparing quarterly revenue"
+    },
+    "correct_option": "A",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What should be considered when defining the color theme in a Power BI dashboard?",
+    "options": {
+      "A": "Visualizing all metrics in red tones",
+      "B": "Applying grayscale for all visuals",
+      "C": "Using a consistent color guide for the entire report",
+      "D": "Selecting colors based on user gender"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does 'average ticket' measure in commercial KPIs?",
+    "options": {
+      "A": "The total cost of advertising",
+      "B": "The average revenue per transaction",
+      "C": "The amount spent on customer service",
+      "D": "The number of leads generated"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the significance of the 'sales cycle' KPI?",
+    "options": {
+      "A": "It measures product shelf life",
+      "B": "It tracks seasonal sales changes",
+      "C": "It represents the average time to close a sale",
+      "D": "It counts the number of leads"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is an appropriate use of 'smart narrative' in Power BI?",
+    "options": {
+      "A": "To create animated infographics",
+      "B": "To auto-generate summaries based on report visuals",
+      "C": "To write user manuals",
+      "D": "To conduct text analysis from surveys"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How can cross-filtering affect visualizations in Power BI?",
+    "options": {
+      "A": "It breaks all charts",
+      "B": "It disables tooltips",
+      "C": "It dynamically adjusts connected visuals",
+      "D": "It only affects slicers"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main purpose of using the 'band chart' in Power BI?",
+    "options": {
+      "A": "To visualize sales trends over time",
+      "B": "To compare two columns using stacked bars and segments",
+      "C": "To highlight negative values",
+      "D": "To display maps with regions"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How can Power BI help improve storytelling through pagination in complex reports?",
+    "options": {
+      "A": "By exporting multiple charts to PDF",
+      "B": "By duplicating visual styles across tabs",
+      "C": "By distributing visual content across multiple pages to reduce cognitive load and guide user navigation",
+      "D": "By compressing all visuals into a single scrollable canvas"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What strategic use of filters in Power BI can enhance business decision-making in dashboards?",
+    "options": {
+      "A": "They allow exporting filtered visuals to CSV",
+      "B": "They isolate disconnected datasets for analysis",
+      "C": "They direct attention to specific subsets of data relevant to the business context",
+      "D": "They are used solely for aesthetic layout adjustment"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why is it important to validate observed data patterns against business logic during dashboard development?",
+    "options": {
+      "A": "To meet user interface guidelines",
+      "B": "To ensure alignment with marketing goals only",
+      "C": "To confirm insights are actionable and reflect true business performance",
+      "D": "To enhance compatibility with external APIs"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "In the context of marketing dashboards, why is it crucial to align KPIs such as ROI and CAC with campaign objectives?",
+    "options": {
+      "A": "To optimize the use of DAX calculations",
+      "B": "To ensure data types are compatible",
+      "C": "To measure the efficiency and profitability of campaign investments",
+      "D": "To standardize Power Query steps"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a key consideration when using 'key influencers' in executive dashboards?",
+    "options": {
+      "A": "Minimizing interactivity with other visuals",
+      "B": "Hiding statistical relevance",
+      "C": "Translating statistical significance into business-relevant explanations",
+      "D": "Using it only with financial datasets"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How can reusable DAX measures improve dashboard performance in Power BI?",
+    "options": {
+      "A": "They allow creation of custom visuals",
+      "B": "They execute faster by caching results used across multiple visuals",
+      "C": "They reduce the need for Power Query transformations",
+      "D": "They automatically detect outliers in data"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+{
+    "question": "What strategic advantage does using conditional columns offer in Power BI dashboards?",
+    "options": {
+        "A": "They reduce report file size",
+        "B": "They enable advanced security filtering",
+        "C": "They apply business logic to attribute engineering without manual data replacement",
+        "D": "They eliminate the need for calculated measures"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+},
+  {
+    "question": "Why is it critical to align logistics KPIs such as 'cycle time' and 'transportation cost' with real-time visuals in Power BI?",
+    "options": {
+      "A": "To ensure data anonymization before export",
+      "B": "To automate DAX translation for multilingual users",
+      "C": "To provide operational insight that supports supply chain agility and cost control",
+      "D": "To simplify Power BI Desktop interface"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "In what scenario should an expert Power BI user utilize the FILTER function inside CALCULATE?",
+    "options": {
+      "A": "To build disconnected tables",
+      "B": "To count total rows across all datasets",
+      "C": "To apply row-level logic for precise measure calculation",
+      "D": "To format text columns dynamically"
+    },
+    "correct_option": "C",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How does structuring a 'measures table' benefit enterprise-grade Power BI solutions?",
+    "options": {
+      "A": "It limits the need for role-level security",
+      "B": "It streamlines metric discoverability, standardizes KPIs, and improves model maintainability",
+      "C": "It prevents users from editing calculated columns",
+      "D": "It disables direct query mode for sensitive datasets"
+    },
+    "correct_option": "B",
+    "difficulty": 1,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What DAX function is typically used to avoid division errors when calculating ratios in Power BI?",
+    "options": {
+      "A": "CALCULATE",
+      "B": "COUNTROWS",
+      "C": "DIVIDE",
+      "D": "FILTER"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which DAX function allows filtering of a dataset within a CALCULATE expression?",
+    "options": {
+      "A": "SUMX",
+      "B": "FILTER",
+      "C": "VALUES",
+      "D": "ALL"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which measure would best represent the frequency of employee absences over a period?",
+    "options": {
+      "A": "Turnover Rate",
+      "B": "Absenteeism Level",
+      "C": "Average Time to Fill Positions",
+      "D": "Engagement"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "In HR dashboards, what metric helps evaluate recruitment efficiency?",
+    "options": {
+      "A": "Average time to fill positions",
+      "B": "Engagement level",
+      "C": "Performance evaluation",
+      "D": "Absenteeism level"
+    },
+    "correct_option": "A",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why should you use the AVERAGE function instead of SUM for certain KPIs?",
+    "options": {
+      "A": "It creates conditional columns automatically",
+      "B": "It shows distribution rather than total values",
+      "C": "It simplifies relationship modeling",
+      "D": "It is required for measures with string data"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the benefit of using COUNTROWS in Power BI dashboards?",
+    "options": {
+      "A": "To format axis labels",
+      "B": "To calculate total values over time",
+      "C": "To count records in a table or filtered context",
+      "D": "To combine multiple tables"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the recommended approach when using bar charts with categorical data in Power BI?",
+    "options": {
+      "A": "Display absolute values only",
+      "B": "Show as percentages of the total",
+      "C": "Use stacked bar mode only",
+      "D": "Use log scale"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which logistics KPI best reflects delivery accuracy?",
+    "options": {
+      "A": "Transport cost",
+      "B": "Return rate",
+      "C": "On-time delivery rate",
+      "D": "Stock accuracy"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the purpose of the 'storage utilization rate' metric?",
+    "options": {
+      "A": "To measure product returns",
+      "B": "To identify sales per warehouse",
+      "C": "To assess warehouse space efficiency",
+      "D": "To determine inventory turnover"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How can a user calculate the average hiring cost in Power BI?",
+    "options": {
+      "A": "Using the MAX function on the salary column",
+      "B": "Dividing total hiring expenses by COUNTROWS of hires",
+      "C": "Using AVERAGE on the employee satisfaction score",
+      "D": "Summing all expenses in a visual level filter"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the 'transportation cost' KPI represent in logistics dashboards?",
+    "options": {
+      "A": "The amount refunded due to delays",
+      "B": "The average cost to transport each order",
+      "C": "The price of goods sold",
+      "D": "The difference between revenue and expense"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What kind of transformation is useful to implement conditional logic in Power BI data modeling?",
+    "options": {
+      "A": "Drill-through pages",
+      "B": "Hierarchical filters",
+      "C": "Conditional columns",
+      "D": "Dynamic slicers"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which KPI would most effectively reflect the effectiveness of training programs?",
+    "options": {
+      "A": "Employee satisfaction",
+      "B": "Training participation rate",
+      "C": "Performance evaluation",
+      "D": "Turnover rate"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the best DAX function to use when calculating averages with potential null values?",
+    "options": {
+      "A": "COUNTROWS",
+      "B": "DIVIDE",
+      "C": "AVERAGE",
+      "D": "CALCULATE"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a key advantage of creating a table of measures in Power BI?",
+    "options": {
+      "A": "Increases data refresh speed",
+      "B": "Groups calculated metrics for easier reuse and editing",
+      "C": "Replaces all visuals in the report",
+      "D": "Allows exporting DAX code"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "How does 'customer service level' impact logistics performance evaluation?",
+    "options": {
+      "A": "Indicates fulfillment of product demand",
+      "B": "Shows the number of damaged items",
+      "C": "Reflects overall customer satisfaction with delivery service",
+      "D": "Measures supply chain frequency"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which visual type is best suited for showing time trends of logistics metrics?",
+    "options": {
+      "A": "Scatter plot",
+      "B": "Line chart with date hierarchy",
+      "C": "Pie chart",
+      "D": "Stacked column"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why is data transformation essential when building dashboards for HR and Logistics?",
+    "options": {
+      "A": "To preserve Power BI version control",
+      "B": "To ensure clarity and usability for business users",
+      "C": "To match Excel formats",
+      "D": "To increase SQL performance"
+    },
+    "correct_option": "B",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What metric would be most relevant for analyzing warehouse space efficiency?",
+    "options": {
+      "A": "Return rate",
+      "B": "Stock accuracy",
+      "C": "Storage utilization rate",
+      "D": "ROI index"
+    },
+    "correct_option": "C",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following DAX functions would best allow filtering and calculating KPIs dynamically?",
+    "options": {
+      "A": "CALCULATE with FILTER",
+      "B": "SUM with RANKX",
+      "C": "ALLSELECTED with SELECTEDVALUE",
+      "D": "VALUES with CONCATENATE"
+    },
+    "correct_option": "A",
+    "difficulty": 2,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the KPI 'turnover rate' measure in HR dashboards?",
+    "options": {
+      "A": "Hiring expenses",
+      "B": "Employee turnover frequency",
+      "C": "Time taken to fill a position",
+      "D": "Job satisfaction levels"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What type of transformation is useful to assess employee categories in HR data?",
+    "options": {
+      "A": "Drill-through filters",
+      "B": "Manual replacement of column names",
+      "C": "Creation of conditional columns",
+      "D": "Adding new data sources"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which HR KPI helps assess employee presence and consistency?",
+    "options": {
+      "A": "Average time to fill positions",
+      "B": "Performance evaluation",
+      "C": "Absenteeism level",
+      "D": "Training participation rate"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What kind of Power BI visual is commonly used to monitor delivery trends over time?",
+    "options": {
+      "A": "Donut chart",
+      "B": "Matrix",
+      "C": "Line chart",
+      "D": "Scatter plot"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which logistics metric focuses on matching system inventory with actual stock levels?",
+    "options": {
+      "A": "Return rate",
+      "B": "Stock accuracy",
+      "C": "Customer service level",
+      "D": "On-time delivery rate"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why is it important to display data as 'Top N' in bar charts with many categories?",
+    "options": {
+      "A": "To remove duplicate data",
+      "B": "To highlight key contributors and reduce clutter",
+      "C": "To improve export speed",
+      "D": "To sort values alphabetically"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What Power BI function should be used to count how many entries exist in a filtered context?",
+    "options": {
+      "A": "SUM",
+      "B": "AVERAGE",
+      "C": "COUNTROWS",
+      "D": "RANKX"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which HR KPI reflects how employees perceive their job experience?",
+    "options": {
+      "A": "Employee satisfaction",
+      "B": "Turnover rate",
+      "C": "Hiring cost",
+      "D": "Absenteeism level"
+    },
+    "correct_option": "A",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is a common use of the AVERAGE function in Power BI?",
+    "options": {
+      "A": "To find the maximum date in a table",
+      "B": "To combine two string values",
+      "C": "To compute the mean value of a numeric column",
+      "D": "To create relationships between tables"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the KPI 'taxa de devolução' track in logistics?",
+    "options": {
+      "A": "Delivery speed",
+      "B": "Damaged products",
+      "C": "Customer return rate",
+      "D": "Staff absenteeism"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What DAX expression is suitable for creating calculated metrics with filtering logic?",
+    "options": {
+      "A": "CALCULATE + FILTER",
+      "B": "SUM + COUNT",
+      "C": "DIVIDE + AVERAGE",
+      "D": "MAX + VALUES"
+    },
+    "correct_option": "A",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "In HR dashboards, which KPI can indicate high employee engagement with development programs?",
+    "options": {
+      "A": "Turnover rate",
+      "B": "Training participation rate",
+      "C": "Hiring cost",
+      "D": "Performance evaluation"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why might conditional columns be used in HR analytics?",
+    "options": {
+      "A": "To remove all null values",
+      "B": "To categorize data based on business rules",
+      "C": "To create new tables",
+      "D": "To export filters to Excel"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What role does 'engagement level' play in performance evaluation?",
+    "options": {
+      "A": "Measures task completion time",
+      "B": "Reflects the degree of employee involvement",
+      "C": "Shows frequency of sick leaves",
+      "D": "Represents the recruitment cost"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which visual is recommended to examine top categories of returns in logistics?",
+    "options": {
+      "A": "Matrix table",
+      "B": "Top N bar chart",
+      "C": "Line chart",
+      "D": "Histogram"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What should be checked first when DAX measures behave unexpectedly?",
+    "options": {
+      "A": "Field formatting options",
+      "B": "Visual title",
+      "C": "Filter context",
+      "D": "Visual color theme"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which HR KPI may indicate potential internal conflict or disengagement?",
+    "options": {
+      "A": "Turnover rate",
+      "B": "Hiring cost",
+      "C": "Average time to fill positions",
+      "D": "On-time delivery rate"
+    },
+    "correct_option": "A",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What type of DAX logic is used to calculate KPIs only for specific categories?",
+    "options": {
+      "A": "IF + OR",
+      "B": "CALCULATE + FILTER",
+      "C": "AVERAGE + SUM",
+      "D": "COUNT + FORMAT"
+    },
+    "correct_option": "B",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which logistics KPI can directly impact customer satisfaction?",
+    "options": {
+      "A": "Stock accuracy",
+      "B": "Return rate",
+      "C": "Cycle time",
+      "D": "Customer service level"
+    },
+    "correct_option": "D",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Why is data labeling important in Power BI dashboards?",
+    "options": {
+      "A": "It enables export to PDF",
+      "B": "It reduces file size",
+      "C": "It improves readability and interpretation",
+      "D": "It increases query speed"
+    },
+    "correct_option": "C",
+    "difficulty": 3,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the main purpose of Power BI?",
+    "options": {
+      "A": "To write emails",
+      "B": "To browse the internet",
+      "C": "To create interactive data dashboards",
+      "D": "To design web pages"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which function in DAX is used to calculate averages?",
+    "options": {
+      "A": "SUM",
+      "B": "MAX",
+      "C": "AVERAGE",
+      "D": "COUNT"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does HR stand for in dashboards?",
+    "options": {
+      "A": "Home Resources",
+      "B": "Human Resources",
+      "C": "Help Requests",
+      "D": "Hardware Register"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of these is a common HR metric?",
+    "options": {
+      "A": "Time spent online",
+      "B": "Delivery delay",
+      "C": "Employee satisfaction",
+      "D": "Internet speed"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+    {
+    "question": "Which Power BI feature is used to perform calculations on data?",
+    "options": {
+      "A": "Formatting tab",
+      "B": "Slicers",
+      "C": "Measures",
+      "D": "Bookmarks"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does a line chart usually represent?",
+    "options": {
+      "A": "Comparison of parts to whole",
+      "B": "Geographic data",
+      "C": "Trends over time",
+      "D": "Text information"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which tool is used in Power BI for data transformation?",
+    "options": {
+      "A": "DAX Studio",
+      "B": "Power Query",
+      "C": "PowerPoint",
+      "D": "Excel Solver"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which visual is best for displaying percentage of total values?",
+    "options": {
+      "A": "Pie chart",
+      "B": "Map",
+      "C": "Table",
+      "D": "Card"
+    },
+    "correct_option": "A",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What type of data does a KPI usually show?",
+    "options": {
+      "A": "Images",
+      "B": "Web links",
+      "C": "Performance indicators",
+      "D": "Error messages"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Which of the following is a Power BI visual element?",
+    "options": {
+      "A": "Button",
+      "B": "Formula bar",
+      "C": "Database schema",
+      "D": "Network tab"
+    },
+    "correct_option": "A",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What does the DAX function COUNTROWS return?",
+    "options": {
+      "A": "Total characters in a column",
+      "B": "Total rows in a table",
+      "C": "Total unique columns",
+      "D": "Total words in a report"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the default language used for calculations in Power BI?",
+    "options": {
+      "A": "SQL",
+      "B": "Python",
+      "C": "DAX",
+      "D": "R"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "Where can you create a new measure in Power BI?",
+    "options": {
+      "A": "By importing a CSV",
+      "B": "Using 'New Measure' option from the table",
+      "C": "Using slicers",
+      "D": "From the title bar"
+    },
+    "correct_option": "B",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What kind of column lets you set rules to categorize data in Power BI?",
+    "options": {
+      "A": "Conditional column",
+      "B": "Lookup column",
+      "C": "Static column",
+      "D": "Hyperlink column"
+    },
+    "correct_option": "A",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the typical outcome of using the CALCULATE function?",
+    "options": {
+      "A": "Changing colors of visuals",
+      "B": "Running SQL queries",
+      "C": "Modifying a measure’s filter context",
+      "D": "Filtering text data only"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  },
+  {
+    "question": "What is the role of the 'properties pane' in Power BI?",
+    "options": {
+      "A": "To filter table rows",
+      "B": "To manage report pages",
+      "C": "To customize data formatting and settings",
+      "D": "To connect to the internet"
+    },
+    "correct_option": "C",
+    "difficulty": 4,
+    "category": "Business Intelligence",
+    "subcategory": "PowerBI"
+  }
+]
+
