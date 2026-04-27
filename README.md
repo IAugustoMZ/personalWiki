@@ -36,6 +36,7 @@ The wiki is divided into several main categories, each containing related topics
 - **Formação Engenheiro de Dados (Data Engineer Formation)**
   - Infrastructure as Code (Terraform, AWS, Azure, Databricks)
   - Data Warehouse Modeling, Implementation, and Governance
+  - Data Engineering: Airbyte, DBT, and SQL
   - Professional Improvement Bonus Courses
 
 Each category is further divided into subtopics, making it easy to navigate and find specific information.
