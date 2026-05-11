@@ -4,9 +4,12 @@ Welcome to my Personal Knowledge Wiki! This wiki serves as a repository for the 
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Purpose](#purpose)
-3. [Structure](#structure)
+- [Personal Knowledge Wiki](#personal-knowledge-wiki)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Structure](#structure)
+    - [Courses](#courses)
 
 ## Introduction
 
