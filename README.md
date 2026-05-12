@@ -30,16 +30,20 @@ The wiki is divided into several main categories, each containing related topics
 
 ### Courses
 
-- **Microsoft Power BI for Business Intelligence and Data Science**
+**Microsoft Power BI for Business Intelligence and Data Science**
   - Concepts, tools, and best practices for Power BI in business intelligence and data science.
 
-- **Data Engineering Fundamentals**
+**Data Engineering Fundamentals**
   - Core principles and foundational knowledge for data engineering.
 
-- **Formação Engenheiro de Dados (Data Engineer Formation)**
-  - Infrastructure as Code (Terraform, AWS, Azure, Databricks)
-  - Data Warehouse Modeling, Implementation, and Governance
-  - Data Engineering: Airbyte, DBT, and SQL
-  - Professional Improvement Bonus Courses
+**Formação Engenheiro de Dados (Data Engineer Formation)**
+  - **Infrastructure as Code (Terraform, AWS, Azure, Databricks)**
+    - Recent additions: new notes on various IaC topics and cloud platforms.
+  - **Data Warehouse Modeling, Implementation, and Governance**
+    - New topics: Migration Strategies, Backup & Disaster Recovery, Reverse ETL implementation.
+  - **Data Engineering: Airbyte, DBT, and SQL**
+    - New content: Cursors, primary keys in incremental sync, and best practices for data movement.
+  - **Professional Improvement Bonus Courses**
+    - New modules: Web Scraping Analytics (Selenium, Beautiful Soup), Soft Skills (Result Focus).
 
-Each category is further divided into subtopics, making it easy to navigate and find specific information.
+Each category is further divided into subtopics, making it easy to navigate and find specific information. See the `courses/` directory for detailed notes and the latest updates.
