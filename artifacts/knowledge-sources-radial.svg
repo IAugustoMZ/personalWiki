@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-labelledby="title description">
+  <title id="title">Fontes de conhecimento — diagrama radial</title>
+  <desc id="description">Diagrama radial com o núcleo "ampliar fontes de conhecimento" ao centro, e sete formas satélites ao redor conectadas por setas fluidas: artigos acadêmicos de faculdades renomadas, podcasts, livros, redes sociais, profissionais de referência, eventos, e desafios como meetups, hackathons e dojos.</desc>
+
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#17324D" flood-opacity="0.12"/>
+    </filter>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#17324D" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .guide { fill: none; stroke: #64748B; stroke-width: 5; stroke-linecap: round; marker-end: url(#arrow); opacity: 0.8; }
+      .sat-title { font-size: 15px; font-weight: 700; letter-spacing: 0.2px; fill: #17324D; }
+      .sat-detail { font-size: 11.5px; font-weight: 550; fill: #64748B; }
+      .core-title { font-size: 16px; font-weight: 800; letter-spacing: 0.3px; fill: #FFFFFF; }
+      .core-detail { font-size: 12px; font-weight: 600; fill: #C8DCF1; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1000" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="1164" height="964" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="64" font-size="25" font-weight="800" letter-spacing="2" fill="#17324D">FONTES DE CONHECIMENTO</text>
+    <text x="54" y="89" font-size="14" font-weight="500" fill="#64748B">onde ampliar o repertório continuamente</text>
+  </g>
+
+  <!-- Núcleo central -->
+  <g filter="url(#shadow)">
+    <circle cx="600" cy="500" r="98" fill="#17324D" stroke="#FFFFFF" stroke-width="4"/>
+    <circle cx="600" cy="500" r="86" fill="none" stroke="#6ED4C1" stroke-width="2" stroke-opacity="0.85"/>
+  </g>
+
+  <!-- Setas fluidas saindo da borda do núcleo em direção a cada satélite -->
+  <g>
+    <path class="guide" d="M 575 407 C 562 360, 550 320, 540 292"/>
+    <path class="guide" d="M 682 435 C 730 405, 775 385, 820 350"/>
+    <path class="guide" d="M 698 500 C 760 500, 810 500, 865 500"/>
+    <path class="guide" d="M 682 565 C 730 605, 770 640, 810 675"/>
+    <path class="guide" d="M 594 598 C 588 650, 582 700, 575 760"/>
+    <path class="guide" d="M 524 578 C 465 610, 415 635, 380 668"/>
+    <path class="guide" d="M 503 491 C 435 480, 370 465, 313 448"/>
+  </g>
+
+  <g class="font">
+    <text class="core-title" x="600" y="488" text-anchor="middle">AMPLIAR</text>
+    <text class="core-title" x="600" y="508" text-anchor="middle">FONTES DE</text>
+    <text class="core-title" x="600" y="528" text-anchor="middle">CONHECIMENTO</text>
+  </g>
+
+  <!-- Satélites: mistura de círculos e elipses -->
+  <g class="font">
+
+    <!-- F1: artigos acadêmicos (topo) -->
+    <g filter="url(#soft-shadow)">
+      <circle cx="510" cy="200" r="88" fill="#FFFFFF" stroke="#F5B4AE" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="510" y="194" text-anchor="middle">ARTIGOS</text>
+    <text class="sat-title" x="510" y="212" text-anchor="middle">ACADÊMICOS</text>
+    <text class="sat-detail" x="510" y="230" text-anchor="middle">faculdades renomadas</text>
+
+    <!-- F2: podcasts (topo-direita) -->
+    <g filter="url(#soft-shadow)">
+      <ellipse cx="880" cy="270" rx="108" ry="76" fill="#FFFFFF" stroke="#F3D18F" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="880" y="266" text-anchor="middle">PODCASTS</text>
+    <text class="sat-detail" x="880" y="286" text-anchor="middle">áudio sob demanda</text>
+
+    <!-- F3: livros (direita) -->
+    <g filter="url(#soft-shadow)">
+      <circle cx="955" cy="500" r="84" fill="#FFFFFF" stroke="#AEBDFD" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="955" y="494" text-anchor="middle">LIVROS</text>
+    <text class="sat-detail" x="955" y="514" text-anchor="middle">leitura de fundo</text>
+
+    <!-- F4: redes sociais (baixo-direita) -->
+    <g filter="url(#soft-shadow)">
+      <ellipse cx="890" cy="760" rx="112" ry="78" fill="#FFFFFF" stroke="#E6B3D2" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="890" y="754" text-anchor="middle">REDES</text>
+    <text class="sat-title" x="890" y="772" text-anchor="middle">SOCIAIS</text>
+    <text class="sat-detail" x="890" y="790" text-anchor="middle">conteúdo do dia a dia</text>
+
+    <!-- F5: profissionais de referência (baixo) -->
+    <g filter="url(#soft-shadow)">
+      <circle cx="555" cy="855" r="90" fill="#FFFFFF" stroke="#8DD5C8" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="555" y="843" text-anchor="middle">PROFISSIONAIS</text>
+    <text class="sat-title" x="555" y="861" text-anchor="middle">DE REFERÊNCIA</text>
+    <text class="sat-detail" x="555" y="879" text-anchor="middle">mentores e referências</text>
+
+    <!-- F6: eventos (baixo-esquerda) -->
+    <g filter="url(#soft-shadow)">
+      <ellipse cx="290" cy="740" rx="108" ry="76" fill="#FFFFFF" stroke="#B9A7E8" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="290" y="736" text-anchor="middle">EVENTOS</text>
+    <text class="sat-detail" x="290" y="756" text-anchor="middle">imersão presencial</text>
+
+    <!-- F7: desafios (esquerda) -->
+    <g filter="url(#soft-shadow)">
+      <circle cx="210" cy="440" r="98" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="2.5"/>
+    </g>
+    <text class="sat-title" x="210" y="424" text-anchor="middle">DESAFIOS</text>
+    <text class="sat-detail" x="210" y="444" text-anchor="middle">meetups, hackathons,</text>
+    <text class="sat-detail" x="210" y="460" text-anchor="middle">dojos</text>
+  </g>
+</svg>

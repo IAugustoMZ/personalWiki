@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200" role="img" aria-labelledby="title description">
+  <title id="title">Camadas do cérebro — níveis lógicos</title>
+  <desc id="description">Sequência vertical de cinco blocos, cada um ligado ao seguinte por duas setas (uma descendo, uma subindo): identidade (quem?), crenças e valores (por quê?), capacidades (como?), comportamentos (o quê?) e ambiente (onde? quando?). Uma chave à direita engloba identidade e crenças/valores, com o texto "mudanças devem acontecer aqui para serem significativas".</desc>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#17324D" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-down" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+    <marker id="arrow-up" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .label { font-size: 19px; font-weight: 750; letter-spacing: 0.3px; fill: #17324D; }
+      .detail { font-size: 14px; font-weight: 550; fill: #64748B; }
+      .flow-out { fill: none; stroke: #64748B; stroke-width: 2.5; stroke-linecap: round; marker-end: url(#arrow-down); }
+      .flow-in { fill: none; stroke: #94A3B8; stroke-width: 2.5; stroke-linecap: round; marker-end: url(#arrow-up); }
+      .brace-text { font-size: 15px; font-weight: 650; fill: #991B1B; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="1200" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="964" height="1164" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="64" font-size="25" font-weight="800" letter-spacing="2" fill="#17324D">NÍVEIS LÓGICOS</text>
+    <text x="54" y="89" font-size="14" font-weight="500" fill="#64748B">as camadas do cérebro</text>
+  </g>
+
+  <!-- Cinco blocos empilhados verticalmente, centralizados -->
+  <g filter="url(#shadow)">
+    <rect x="285" y="140" width="330" height="120" rx="18" fill="#FFFFFF" stroke="#F5B4AE" stroke-width="2"/>
+    <rect x="285" y="352" width="330" height="120" rx="18" fill="#FFFFFF" stroke="#F3D18F" stroke-width="2"/>
+    <rect x="285" y="564" width="330" height="120" rx="18" fill="#FFFFFF" stroke="#AEBDFD" stroke-width="2"/>
+    <rect x="285" y="776" width="330" height="120" rx="18" fill="#FFFFFF" stroke="#8DD5C8" stroke-width="2"/>
+    <rect x="285" y="988" width="330" height="120" rx="18" fill="#FFFFFF" stroke="#E6B3D2" stroke-width="2"/>
+  </g>
+
+  <!-- Duas setas entre cada par de blocos: uma descendo, uma subindo -->
+  <g>
+    <path class="flow-out" d="M 433 260 L 433 350"/>
+    <path class="flow-in"  d="M 467 350 L 467 260"/>
+
+    <path class="flow-out" d="M 433 472 L 433 562"/>
+    <path class="flow-in"  d="M 467 562 L 467 472"/>
+
+    <path class="flow-out" d="M 433 684 L 433 774"/>
+    <path class="flow-in"  d="M 467 774 L 467 684"/>
+
+    <path class="flow-out" d="M 433 896 L 433 986"/>
+    <path class="flow-in"  d="M 467 986 L 467 896"/>
+  </g>
+
+  <g class="font">
+    <!-- Bloco 1: Identidade -->
+    <text class="label" x="450" y="195" text-anchor="middle">IDENTIDADE</text>
+    <text class="detail" x="450" y="222" text-anchor="middle">quem?</text>
+
+    <!-- Bloco 2: Crenças / Valores -->
+    <text class="label" x="450" y="407" text-anchor="middle">CRENÇAS E VALORES</text>
+    <text class="detail" x="450" y="434" text-anchor="middle">por quê?</text>
+
+    <!-- Bloco 3: Capacidades -->
+    <text class="label" x="450" y="619" text-anchor="middle">CAPACIDADES</text>
+    <text class="detail" x="450" y="646" text-anchor="middle">como?</text>
+
+    <!-- Bloco 4: Comportamentos -->
+    <text class="label" x="450" y="831" text-anchor="middle">COMPORTAMENTOS</text>
+    <text class="detail" x="450" y="858" text-anchor="middle">o quê?</text>
+
+    <!-- Bloco 5: Ambiente -->
+    <text class="label" x="450" y="1043" text-anchor="middle">AMBIENTE</text>
+    <text class="detail" x="450" y="1070" text-anchor="middle">onde? quando?</text>
+  </g>
+
+  <!-- Chave envolvendo os blocos 1 e 2 (à direita), com texto lateral -->
+  <g class="font">
+    <!-- Chave matemática { : dois arcos côncavos que se encontram numa ponta central -->
+    <path d="M 630 140
+             Q 670 140 670 185
+             Q 670 200 690 206
+             Q 670 212 670 227
+             Q 670 472 630 472"
+          fill="none" stroke="#991B1B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Caixa de texto ao lado da ponta da chave -->
+    <g filter="url(#shadow)">
+      <rect x="715" y="255" width="245" height="102" rx="16" fill="#FEF2F2" stroke="#F3A9A9" stroke-width="2"/>
+    </g>
+    <text class="brace-text" x="837" y="288" text-anchor="middle">mudanças devem</text>
+    <text class="brace-text" x="837" y="310" text-anchor="middle">acontecer aqui para</text>
+    <text class="brace-text" x="837" y="332" text-anchor="middle">serem significativas</text>
+
+    <!-- Conector da ponta da chave até a caixa de texto -->
+    <path d="M 690 206 L 715 250" fill="none" stroke="#991B1B" stroke-width="1.5" stroke-dasharray="3 4" opacity="0.6"/>
+  </g>
+</svg>

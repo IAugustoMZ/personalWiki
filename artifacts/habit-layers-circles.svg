@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="900" viewBox="0 0 1000 900" role="img" aria-labelledby="title description">
+  <title id="title">Três camadas da mudança do hábito</title>
+  <desc id="description">Três círculos concêntricos representam as camadas da mudança de hábito. O círculo mais externo é resultados, o círculo mediano é processos, e o círculo mais central é identidade. Uma seta sai do centro até uma caixa de texto rotulando identidade.</desc>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#17324D" flood-opacity="0.12"/>
+    </filter>
+    <filter id="soft-shadow" x="-25%" y="-30%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#17324D" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .ring-title { font-size: 19px; font-weight: 750; letter-spacing: 0.6px; fill: #17324D; }
+      .ring-detail { font-size: 13px; font-weight: 550; fill: #64748B; }
+      .guide { fill: none; stroke: #64748B; stroke-width: 2; stroke-linecap: round; marker-end: url(#arrow); }
+      .callout-text { font-size: 16px; font-weight: 750; letter-spacing: 0.4px; fill: #17324D; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="900" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="964" height="864" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="64" font-size="25" font-weight="800" letter-spacing="2" fill="#17324D">CAMADAS DO HÁBITO</text>
+    <text x="54" y="89" font-size="14" font-weight="500" fill="#64748B">identidade, processos e resultados</text>
+  </g>
+
+  <!-- Três círculos concêntricos -->
+  <g filter="url(#shadow)">
+    <circle cx="420" cy="480" r="270" fill="#FFFFFF" fill-opacity="0.9" stroke="#8DD5C8" stroke-width="3"/>
+    <circle cx="420" cy="480" r="180" fill="#FFFFFF" fill-opacity="0.94" stroke="#F3D18F" stroke-width="3"/>
+    <circle cx="420" cy="480" r="92" fill="#FFFFFF" stroke="#F5B4AE" stroke-width="3"/>
+  </g>
+
+  <g class="font">
+    <!-- Anel externo: resultados -->
+    <text class="ring-title" x="420" y="248" text-anchor="middle">RESULTADOS</text>
+    <text class="ring-detail" x="420" y="271" text-anchor="middle">o quê você obtém</text>
+
+    <!-- Anel mediano: processos -->
+    <text class="ring-title" x="420" y="338" text-anchor="middle">PROCESSOS</text>
+    <text class="ring-detail" x="420" y="361" text-anchor="middle">o quê você faz</text>
+
+    <!-- Núcleo: identidade -->
+    <text class="ring-title" x="420" y="474" text-anchor="middle" font-size="18">IDENTIDADE</text>
+    <text class="ring-detail" x="420" y="497" text-anchor="middle">quem você é</text>
+  </g>
+
+  <!-- Seta do centro até a caixa de texto -->
+  <path class="guide" d="M 512 480 L 700 480"/>
+
+  <g class="font">
+    <g filter="url(#soft-shadow)">
+      <rect x="712" y="432" width="230" height="96" rx="16" fill="#FEF2F2" stroke="#F3A9A9" stroke-width="2"/>
+    </g>
+    <text class="callout-text" x="827" y="468" text-anchor="middle">mudança começa</text>
+    <text class="callout-text" x="827" y="492" text-anchor="middle">de dentro para fora</text>
+    <text class="ring-detail" x="827" y="513" text-anchor="middle">identidade → processo → resultado</text>
+  </g>
+</svg>
