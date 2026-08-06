@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">Matriz de Eisenhower: urgência e importância</title>
+  <desc id="description">Uma matriz com quatro quadrantes. O eixo vertical representa importância e o horizontal representa urgência. Os quadrantes mostram atividades a agendar, fazer agora, eliminar ou minimizar e delegar.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#17324D" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748B"/>
+    </marker>
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .quadrant-title { font-size: 19px; font-weight: 800; letter-spacing: 0.25px; fill: #17324D; }
+      .item { font-size: 15px; font-weight: 550; fill: #475569; }
+      .axis { font-size: 16px; font-weight: 800; letter-spacing: 1.3px; fill: #17324D; }
+      .scale { font-size: 13px; font-weight: 650; fill: #64748B; }
+      .number { font-size: 14px; font-weight: 800; fill: #17324D; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="1164" height="864" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="64" font-size="25" font-weight="800" letter-spacing="2" fill="#17324D">MATRIZ DE EISENHOWER</text>
+    <text x="54" y="89" font-size="14" font-weight="500" fill="#64748B">priorize o que merece seu tempo</text>
+  </g>
+
+  <!-- Eixos -->
+  <path d="M 116 450 L 1080 450" fill="none" stroke="#64748B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 600 804 L 600 126" fill="none" stroke="#64748B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <!-- Cartões dos quadrantes -->
+  <g filter="url(#shadow)">
+    <rect x="142" y="144" width="426" height="276" rx="20" fill="#FFFFFF" stroke="#8DD5C8" stroke-width="2.5"/>
+    <rect x="632" y="144" width="426" height="276" rx="20" fill="#FFFFFF" stroke="#F5B4AE" stroke-width="2.5"/>
+    <rect x="142" y="480" width="426" height="276" rx="20" fill="#FFFFFF" stroke="#E6B3D2" stroke-width="2.5"/>
+    <rect x="632" y="480" width="426" height="276" rx="20" fill="#FFFFFF" stroke="#F3D18F" stroke-width="2.5"/>
+  </g>
+
+  <g class="font">
+    <!-- Q1: esquerda e acima -->
+    <circle cx="178" cy="182" r="16" fill="#E8F8F4"/>
+    <text class="number" x="178" y="187" text-anchor="middle">Q1</text>
+    <text class="quadrant-title" x="205" y="188">AGENDAR E TRABALHAR</text>
+    <text class="quadrant-title" x="205" y="214">REGULARMENTE</text>
+    <line x1="174" y1="238" x2="536" y2="238" stroke="#D7EEE9" stroke-width="2"/>
+    <text class="item" x="178" y="273">• atividade de longo prazo</text>
+    <text class="item" x="178" y="307">• desenvolvimento pessoal</text>
+    <text class="item" x="178" y="341">• inovação, autocuidado</text>
+
+    <!-- Q2: direita e acima -->
+    <circle cx="668" cy="182" r="16" fill="#FDECEB"/>
+    <text class="number" x="668" y="187" text-anchor="middle">Q2</text>
+    <text class="quadrant-title" x="695" y="196">FAZER AGORA</text>
+    <line x1="664" y1="238" x2="1026" y2="238" stroke="#F8D8D5" stroke-width="2"/>
+    <text class="item" x="668" y="273">• prazo limite de entrega</text>
+    <text class="item" x="668" y="307">• imprevistos</text>
+    <text class="item" x="668" y="341">• problemas urgentes e prazos apertados</text>
+
+    <!-- Q3: esquerda e abaixo -->
+    <circle cx="178" cy="518" r="16" fill="#FBEFF6"/>
+    <text class="number" x="178" y="523" text-anchor="middle">Q3</text>
+    <text class="quadrant-title" x="205" y="532">ELIMINAR / MINIMIZAR</text>
+    <line x1="174" y1="574" x2="536" y2="574" stroke="#F4DCE9" stroke-width="2"/>
+    <text class="item" x="178" y="609">• redes sociais</text>
+    <text class="item" x="178" y="643">• séries e filmes</text>
+    <text class="item" x="178" y="677">• procrastinadores que roubam tempo</text>
+    <text class="item" x="198" y="702">quando em demasia</text>
+
+    <!-- Q4: direita e abaixo -->
+    <circle cx="668" cy="518" r="16" fill="#FFF6E6"/>
+    <text class="number" x="668" y="523" text-anchor="middle">Q4</text>
+    <text class="quadrant-title" x="695" y="532">DELEGUE</text>
+    <line x1="664" y1="574" x2="1026" y2="574" stroke="#F9E8C5" stroke-width="2"/>
+    <text class="item" x="668" y="609">• é possível dizer não?</text>
+    <text class="item" x="668" y="643">• algumas reuniões</text>
+    <text class="item" x="668" y="677">• problemas externos</text>
+    <text class="item" x="668" y="711">• não contribuem para meus objetivos</text>
+  </g>
+
+  <g class="font">
+    <text class="axis" x="600" y="850" text-anchor="middle">URGÊNCIA</text>
+    <text class="scale" x="148" y="826">menor</text>
+    <text class="scale" x="1016" y="826">maior</text>
+    <text class="axis" x="78" y="466" text-anchor="middle" transform="rotate(-90 78 466)">IMPORTÂNCIA</text>
+    <text class="scale" x="92" y="756" text-anchor="middle" transform="rotate(-90 92 756)">menor</text>
+    <text class="scale" x="92" y="166" text-anchor="middle" transform="rotate(-90 92 166)">maior</text>
+  </g>
+</svg>
