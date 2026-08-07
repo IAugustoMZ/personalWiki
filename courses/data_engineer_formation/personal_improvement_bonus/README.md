@@ -5,8 +5,9 @@
 ## Tópicos cobertos
 
 - Autoconhecimento, comunicação, propósito, hábitos, estudo e planejamento de carreira.
-- Transição profissional, capacitação, experiência prática, networking e desenvolvimento de portfólio.
+- Transição profissional, capacitação, experiência prática, networking, pitch de apresentação e desenvolvimento de portfólio.
 - Gestão do tempo e priorização, incluindo a matriz de Eisenhower.
+- Suporte emocional e bem-estar na jornada de transição de carreira.
 - Web scraping e automação com Selenium, Beautiful Soup, DuckDB e Firecrawl.
 - Consultoria, ferramentas de IA e temas de desenvolvimento profissional.
 
