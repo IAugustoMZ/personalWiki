@@ -11,6 +11,6 @@
 - Web scraping e automação com Selenium, Beautiful Soup, DuckDB e Firecrawl.
 - Consultoria, ferramentas de IA e temas de desenvolvimento profissional.
 
-As notas vão de `00_def_pib_08012024.md` a `50_def_pib_28052025.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, estão em [Artefatos](../../../artifacts/README.md).
+As notas vão de `00_def_pib_08012024.md` a `51_def_pib_29052025.md`. Diagramas relacionados, inclusive a matriz de Eisenhower e o círculo de controle, estão em [Artefatos](../../../artifacts/README.md).
 
 Voltar para [Formação Engenheiro de Dados](../README.md).

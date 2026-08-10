@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">Círculo de controle — o ovo no prato</title>
+  <desc id="description">Analogia do prato com um ovo frito, visto de cima. O prato representa o que não controlo nem influencio, a clara ao redor representa o que eu influencio, e a gema amarela ao centro representa o que eu controlo, destacada em vermelho com a anotação manuscrita "Devo focar aqui!".</desc>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#17324D" flood-opacity="0.16"/>
+    </filter>
+    <filter id="soft-shadow" x="-25%" y="-30%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#17324D" flood-opacity="0.10"/>
+    </filter>
+    <filter id="yolk-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#DC2626" flood-opacity="0.35"/>
+    </filter>
+
+    <radialGradient id="plateBody" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="78%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E9EEF3"/>
+    </radialGradient>
+    <radialGradient id="plateRim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#DCE4EC"/>
+    </radialGradient>
+    <radialGradient id="whiteBody" cx="42%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4F1E8"/>
+    </radialGradient>
+    <radialGradient id="yolkBody" cx="38%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#FFD666"/>
+      <stop offset="55%" stop-color="#FCB934"/>
+      <stop offset="100%" stop-color="#E8930F"/>
+    </radialGradient>
+
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .eyebrow { font-size: 14px; font-weight: 600; letter-spacing: 2px; fill: #64748B; }
+      .h1 { font-size: 26px; font-weight: 800; letter-spacing: 1.5px; fill: #17324D; }
+      .zone-title { font-size: 18px; font-weight: 750; letter-spacing: 0.4px; fill: #17324D; }
+      .zone-detail { font-size: 13.5px; font-weight: 500; fill: #64748B; }
+      .yolk-title { font-size: 20px; font-weight: 800; letter-spacing: 0.4px; fill: #7C2D12; }
+      .yolk-detail { font-size: 12.5px; font-weight: 650; fill: #92400E; }
+      .guide { fill: none; stroke: #94A3B8; stroke-width: 1.6; stroke-dasharray: 1 5; stroke-linecap: round; }
+      .cursive { font-family: "Segoe Script", "Brush Script MT", cursive; font-size: 30px; font-weight: 700; fill: #DC2626; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="1164" height="864" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="60" class="eyebrow">GUIA DE TRANSIÇÃO DE CARREIRA</text>
+    <text x="54" y="90" class="h1">CÍRCULO DE CONTROLE — O OVO NO PRATO</text>
+    <text x="54" y="114" font-size="14" font-weight="500" fill="#64748B">onde investir energia diante da incerteza</text>
+  </g>
+
+  <!-- ==================== PRATO ==================== -->
+  <g filter="url(#shadow)">
+    <circle cx="560" cy="500" r="330" fill="url(#plateRim)"/>
+    <circle cx="560" cy="500" r="330" fill="none" stroke="#CBD5E1" stroke-width="2"/>
+    <circle cx="560" cy="500" r="298" fill="url(#plateBody)"/>
+    <circle cx="560" cy="500" r="298" fill="none" stroke="#D9E2EC" stroke-width="1.5"/>
+  </g>
+  <circle cx="560" cy="500" r="255" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- ==================== CLARA (o que eu influencio) ==================== -->
+  <path filter="url(#soft-shadow)" fill="url(#whiteBody)" stroke="#E4DCC6" stroke-width="2"
+        d="M 560 288
+           C 660 282, 742 322, 768 400
+           C 792 470, 776 520, 800 560
+           C 826 604, 802 656, 748 668
+           C 700 678, 672 646, 610 656
+           C 542 668, 486 686, 428 654
+           C 366 620, 344 566, 356 502
+           C 344 450, 358 388, 410 344
+           C 452 308, 504 292, 560 288 Z"/>
+
+  <!-- ==================== GEMA (o que eu controlo) ==================== -->
+  <g filter="url(#yolk-glow)">
+    <circle cx="560" cy="500" r="132" fill="url(#yolkBody)" stroke="#DC2626" stroke-width="6"/>
+  </g>
+  <circle cx="560" cy="500" r="146" fill="none" stroke="#DC2626" stroke-width="2" stroke-opacity="0.35"/>
+  <ellipse cx="512" cy="450" rx="42" ry="24" fill="#FFE8A3" fill-opacity="0.75"/>
+
+  <g class="font" text-anchor="middle">
+    <text class="yolk-title" x="560" y="492">O QUE EU</text>
+    <text class="yolk-title" x="560" y="518">CONTROLO</text>
+    <text class="yolk-detail" x="560" y="542">atitude · esforço · reação</text>
+  </g>
+
+  <!-- ==================== Rótulo: clara / o que eu influencio ==================== -->
+  <path class="guide" d="M 700 370 L 862 300"/>
+  <g class="font">
+    <text class="zone-title" x="876" y="288">O QUE EU INFLUENCIO</text>
+    <text class="zone-detail" x="876" y="311">relacionamentos, reputação,</text>
+    <text class="zone-detail" x="876" y="329">oportunidades que ajudo a criar</text>
+  </g>
+
+  <!-- ==================== Rótulo: prato / não controlo nem influencio ==================== -->
+  <path class="guide" d="M 792 620 L 900 700"/>
+  <g class="font">
+    <text class="zone-title" x="914" y="695">NÃO CONTROLO</text>
+    <text class="zone-title" x="914" y="718">NEM INFLUENCIO</text>
+    <text class="zone-detail" x="914" y="741">contexto externo, mercado,</text>
+    <text class="zone-detail" x="914" y="759">decisões de terceiros</text>
+  </g>
+
+  <!-- ==================== Chamada cursiva sobre a gema ==================== -->
+  <path d="M 560 636 C 560 690, 560 730, 560 762" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"
+        marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#DC2626"/>
+    </marker>
+  </defs>
+  <text class="font cursive" x="560" y="812" text-anchor="middle" transform="rotate(-4 560 812)">Devo focar aqui!</text>
+</svg>
