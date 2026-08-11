@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">Framework SMART — metas empilhadas</title>
+  <desc id="description">Cinco caixas empilhadas, uma para cada letra do acrônimo SMART: S de specific, strategic, significant; M de measurable, meaningful, motivational; A de attainable, achievable, adjustable; R de relevant, realistic, results; T de timely, tractable, tangible.</desc>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#17324D" flood-opacity="0.13"/>
+    </filter>
+    <filter id="letter-shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#17324D" flood-opacity="0.18"/>
+    </filter>
+
+    <linearGradient id="rowS" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="rowM" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="rowA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#86EFAC"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="rowR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#AEBDFD"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="rowT" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E6B3D2"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+    </linearGradient>
+
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .eyebrow { font-size: 14px; font-weight: 600; letter-spacing: 2px; fill: #64748B; }
+      .h1 { font-size: 26px; font-weight: 800; letter-spacing: 1.5px; fill: #17324D; }
+      .sub { font-size: 14px; font-weight: 500; fill: #64748B; }
+      .letter { font-size: 44px; font-weight: 800; fill: #FFFFFF; }
+      .word { font-size: 21px; font-weight: 750; letter-spacing: 0.3px; fill: #17324D; }
+      .trait { font-size: 14.5px; font-weight: 550; fill: #64748B; }
+      .trait-sep { fill: #CBD5E1; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="1164" height="864" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="60" class="eyebrow">ESTABELECENDO METAS</text>
+    <text x="54" y="90" class="h1">FRAMEWORK SMART</text>
+    <text x="54" y="114" class="sub">cinco critérios para transformar um objetivo em algo tangível</text>
+  </g>
+
+  <!-- ==================== Pilha de caixas ==================== -->
+  <!-- Layout: x 75-1125, largura 1050; 5 linhas de 122px com 12px de gap, iniciando em y=150 -->
+
+  <g filter="url(#shadow)">
+    <rect x="75" y="150" width="1050" height="122" rx="18" fill="#FFFFFF" stroke="#F5B4AE" stroke-width="2"/>
+    <rect x="75" y="284" width="1050" height="122" rx="18" fill="#FFFFFF" stroke="#F3D18F" stroke-width="2"/>
+    <rect x="75" y="418" width="1050" height="122" rx="18" fill="#FFFFFF" stroke="#8DD5C8" stroke-width="2"/>
+    <rect x="75" y="552" width="1050" height="122" rx="18" fill="#FFFFFF" stroke="#AEBDFD" stroke-width="2"/>
+    <rect x="75" y="686" width="1050" height="122" rx="18" fill="#FFFFFF" stroke="#E6B3D2" stroke-width="2"/>
+  </g>
+
+  <!-- Selos de letra -->
+  <g filter="url(#letter-shadow)">
+    <circle cx="152" cy="211" r="46" fill="url(#rowS)"/>
+    <circle cx="152" cy="345" r="46" fill="url(#rowM)"/>
+    <circle cx="152" cy="479" r="46" fill="url(#rowA)"/>
+    <circle cx="152" cy="613" r="46" fill="url(#rowR)"/>
+    <circle cx="152" cy="747" r="46" fill="url(#rowT)"/>
+  </g>
+  <g class="font letter" text-anchor="middle" dominant-baseline="central">
+    <text x="152" y="213">S</text>
+    <text x="152" y="347">M</text>
+    <text x="152" y="481">A</text>
+    <text x="152" y="615">R</text>
+    <text x="152" y="749">T</text>
+  </g>
+
+  <!-- Divisórias verticais entre selo e conteúdo -->
+  <line x1="228" y1="172" x2="228" y2="250" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="228" y1="306" x2="228" y2="384" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="228" y1="440" x2="228" y2="518" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="228" y1="574" x2="228" y2="652" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="228" y1="708" x2="228" y2="786" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Linha S -->
+  <g class="font">
+    <text class="word" x="264" y="203">SPECIFIC</text>
+    <text class="trait" x="264" y="240">specific · strategic · significant</text>
+  </g>
+
+  <!-- Linha M -->
+  <g class="font">
+    <text class="word" x="264" y="337">MEASURABLE</text>
+    <text class="trait" x="264" y="374">measurable · meaningful · motivational</text>
+  </g>
+
+  <!-- Linha A -->
+  <g class="font">
+    <text class="word" x="264" y="471">ATTAINABLE</text>
+    <text class="trait" x="264" y="508">attainable · achievable · adjustable</text>
+  </g>
+
+  <!-- Linha R -->
+  <g class="font">
+    <text class="word" x="264" y="605">RELEVANT</text>
+    <text class="trait" x="264" y="642">relevant · realistic · results</text>
+  </g>
+
+  <!-- Linha T -->
+  <g class="font">
+    <text class="word" x="264" y="739">TIMELY</text>
+    <text class="trait" x="264" y="776">timely · tractable · tangible</text>
+  </g>
+
+  <!-- ==================== Rodapé ==================== -->
+  <text class="font sub" x="600" y="848" text-anchor="middle">quanto mais tangível a meta, mais concreto o caminho até ela</text>
+</svg>
