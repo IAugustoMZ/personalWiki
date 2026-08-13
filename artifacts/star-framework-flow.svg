@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title description">
+  <title id="title">Metodologia STAR — perguntas comportamentais</title>
+  <desc id="description">Fluxo horizontal com quatro etapas em sequência: S de situação, explique o contexto; T de tarefa, aborde a responsabilidade; A de ação, o que foi feito para resolver a situação; R de resultado, qual foi o impacto.</desc>
+
+  <defs>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#17324D" flood-opacity="0.13"/>
+    </filter>
+    <filter id="letter-shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#17324D" flood-opacity="0.18"/>
+    </filter>
+
+    <linearGradient id="colS" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="colT" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="colA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8DD5C8"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="colR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#AEBDFD"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+
+    <style>
+      .font { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .eyebrow { font-size: 14px; font-weight: 600; letter-spacing: 2px; fill: #64748B; }
+      .h1 { font-size: 26px; font-weight: 800; letter-spacing: 1.5px; fill: #17324D; }
+      .sub { font-size: 14px; font-weight: 500; fill: #64748B; }
+      .letter { font-size: 46px; font-weight: 800; fill: #FFFFFF; }
+      .word { font-size: 19px; font-weight: 750; letter-spacing: 0.3px; fill: #17324D; }
+      .desc { font-size: 14px; font-weight: 500; fill: #64748B; }
+      .connector { stroke: #94A3B8; stroke-width: 3; stroke-linecap: round; marker-end: url(#arrow); opacity: 0.8; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="620" rx="28" fill="#F8FAFC"/>
+  <rect x="18" y="18" width="1164" height="584" rx="22" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <g class="font">
+    <text x="54" y="60" class="eyebrow">PERGUNTAS COMPORTAMENTAIS</text>
+    <text x="54" y="90" class="h1">METODOLOGIA STAR</text>
+    <text x="54" y="114" class="sub">estrutura para organizar respostas com exemplos específicos e experiências anteriores</text>
+  </g>
+
+  <!-- ==================== Colunas em sequência ==================== -->
+  <!-- Layout: x 54-1146, 4 colunas de 258px com 24px de gap, iniciando em y=160, altura 380 -->
+
+  <g filter="url(#shadow)">
+    <rect x="54" y="160" width="258" height="380" rx="18" fill="#FFFFFF" stroke="#F5B4AE" stroke-width="2"/>
+    <rect x="336" y="160" width="258" height="380" rx="18" fill="#FFFFFF" stroke="#F3D18F" stroke-width="2"/>
+    <rect x="618" y="160" width="258" height="380" rx="18" fill="#FFFFFF" stroke="#8DD5C8" stroke-width="2"/>
+    <rect x="900" y="160" width="258" height="380" rx="18" fill="#FFFFFF" stroke="#AEBDFD" stroke-width="2"/>
+  </g>
+
+  <!-- Setas de sequência entre colunas -->
+  <line class="connector" x1="316" y1="350" x2="332" y2="350"/>
+  <line class="connector" x1="598" y1="350" x2="614" y2="350"/>
+  <line class="connector" x1="880" y1="350" x2="896" y2="350"/>
+
+  <!-- Selos de letra -->
+  <g filter="url(#letter-shadow)">
+    <circle cx="183" cy="228" r="44" fill="url(#colS)"/>
+    <circle cx="465" cy="228" r="44" fill="url(#colT)"/>
+    <circle cx="747" cy="228" r="44" fill="url(#colA)"/>
+    <circle cx="1029" cy="228" r="44" fill="url(#colR)"/>
+  </g>
+  <g class="font letter" text-anchor="middle" dominant-baseline="central">
+    <text x="183" y="230">S</text>
+    <text x="465" y="230">T</text>
+    <text x="747" y="230">A</text>
+    <text x="1029" y="230">R</text>
+  </g>
+
+  <!-- Divisórias horizontais entre selo e conteúdo -->
+  <line x1="90" y1="290" x2="276" y2="290" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="372" y1="290" x2="558" y2="290" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="654" y1="290" x2="840" y2="290" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="936" y1="290" x2="1122" y2="290" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Coluna S -->
+  <g class="font" text-anchor="middle">
+    <text class="word" x="183" y="322">SITUAÇÃO</text>
+    <text class="desc" x="183" y="356">explique o</text>
+    <text class="desc" x="183" y="378">contexto</text>
+  </g>
+
+  <!-- Coluna T -->
+  <g class="font" text-anchor="middle">
+    <text class="word" x="465" y="322">TAREFA</text>
+    <text class="desc" x="465" y="356">aborde a minha</text>
+    <text class="desc" x="465" y="378">responsabilidade</text>
+  </g>
+
+  <!-- Coluna A -->
+  <g class="font" text-anchor="middle">
+    <text class="word" x="747" y="322">AÇÃO</text>
+    <text class="desc" x="747" y="356">o que foi feito para</text>
+    <text class="desc" x="747" y="378">resolver a situação</text>
+  </g>
+
+  <!-- Coluna R -->
+  <g class="font" text-anchor="middle">
+    <text class="word" x="1029" y="322">RESULTADO</text>
+    <text class="desc" x="1029" y="356">qual foi</text>
+    <text class="desc" x="1029" y="378">o impacto</text>
+  </g>
+
+  <!-- ==================== Rodapé ==================== -->
+  <text class="font sub" x="600" y="578" text-anchor="middle">uma resposta completa percorre as quatro etapas, do contexto ao impacto mensurável</text>
+</svg>
