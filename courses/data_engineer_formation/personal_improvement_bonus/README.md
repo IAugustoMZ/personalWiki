@@ -1,6 +1,6 @@
 # Cursos de Aperfeiçoamento Profissional
 
-54 notas complementares da formação, com foco em carreira, habilidades profissionais e ferramentas práticas.
+55 notas complementares da formação, com foco em carreira, habilidades profissionais e ferramentas práticas.
 
 ## Tópicos cobertos
 
@@ -9,9 +9,10 @@
 - Preparação para entrevistas: linguagem corporal, metodologia STAR, rapport e entrevistas em grupo ou remotas.
 - Gestão do tempo e priorização, incluindo a matriz de Eisenhower.
 - Suporte emocional e bem-estar na jornada de transição de carreira.
+- Administração de sistemas Linux com Docker e Kubernetes: containers, imagens, Dockerfile e conceitos de microsserviços.
 - Web scraping e automação com Selenium, Beautiful Soup, DuckDB e Firecrawl.
 - Consultoria, ferramentas de IA e temas de desenvolvimento profissional.
 
-As notas vão de `00_def_pib_08012024.md` a `54_def_pib_04062025.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, o círculo de controle, o framework SMART de metas, o diagrama radial de marca pessoal e o fluxo da metodologia STAR, estão em [Artefatos](../../../artifacts/README.md).
+As notas vão de `00_def_pib_08012024.md` a `55_def_pib_05062025.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, o círculo de controle, o framework SMART de metas, o diagrama radial de marca pessoal e o fluxo da metodologia STAR, estão em [Artefatos](../../../artifacts/README.md).
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
