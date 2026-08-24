@@ -5,6 +5,7 @@ Coleção de módulos da formação, combinando infraestrutura, modelagem, trans
 ## Módulos
 
 - [Infraestrutura como Código com Terraform, AWS, Azure e Databricks](iac_terraform_aws_azure_databricks/README.md)
+- [Armazenamento e Gestão de Dados com Datalake e Datalakehouse](armazenamento_gestao_dados_datalake_datalakehouse/README.md)
 - [Modelagem, Implementação e Governança de Data Warehouses](modeling_implementation_governance_data_warehouses/README.md)
 - [Engenharia de Dados com Airbyte, dbt e SQL](data_engineering_airbyte_dbt_sql/README.md)
 - [SQL para Análise de Dados e Data Science](sql_analise_dados/README.md)
