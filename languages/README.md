@@ -6,7 +6,7 @@ Anotações de sessões de estudo de idiomas (Duolingo), organizadas por idioma.
 
 - [Español](spanish/00_lan_spn_10082026.md) — vocabulário básico.
 - [中文 (Chinês)](chinese/00_lan_chn_10082026.md) — vocabulário e diálogos.
-- [日本語 (Japonês)](japanese/00_lan_jpn_10082026.md) — vocabulário e frases.
+- [日本語 (Japonês)](japanese/01_lan_jpn_25082026.md) — vocabulário e frases.
 
 ## Convenções
 
