@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-10 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, e design/implementação prática de Data Lakes locais.
+11 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, e design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído.
 
 ## Tópicos cobertos
 
@@ -13,6 +13,7 @@
 - Futuro de Data Lakes e Data Lakehouses: tendências tecnológicas (IA/ML, eficiência de consulta, interoperabilidade), regulamentação (GDPR/LGPD), automação e self-service, sustentabilidade.
 - Construção eficiente de Data Lakes: 4 estágios (landing zone, data science environment, offload para DW, operações críticas) e abordagem ágil iterativa com foco em valor de negócio e feedback contínuo.
 - Planejamento e design de Data Lakes on-premises: 6 etapas (avaliação de requisitos, arquitetura/design, infraestrutura, implementação/integração, monitoramento, adaptação/escalabilidade); implementação prática com Hadoop+Spark em Docker Desktop (5 VMs, YARN, SSH).
+- Implementação de camadas de armazenamento e processamento distribuído: carregamento de dados em HDFS (hdfs dfs commands), scripts PySpark com spark-submit, processamento em memória distribuída, particionamento de dados e pipelines de transformação.
 
 ## Notas
 
@@ -26,5 +27,6 @@
 - `07_def_agdd_27062025.md`
 - `08_def_agdd_02072025.md`
 - `09_def_agdd_04072025.md`
+- `10_def_agdd_08072025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
