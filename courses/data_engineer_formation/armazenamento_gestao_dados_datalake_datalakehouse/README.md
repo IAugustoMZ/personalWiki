@@ -30,5 +30,6 @@
 - `09_def_agdd_04072025.md`
 - `10_def_agdd_08072025.md`
 - `11_def_agdd_10072025.md`
+- `12_def_agdd_01082025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
