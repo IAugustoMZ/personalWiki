@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-13 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, e design de solução com Terraform e automação.
+14 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, e otimização/escalabilidade com gerenciamento de custos.
 
 ## Tópicos cobertos
 
@@ -16,6 +16,7 @@
 - Implementação de camadas de armazenamento e processamento distribuído: carregamento de dados em HDFS (hdfs dfs commands), scripts PySpark com spark-submit, processamento em memória distribuída, particionamento de dados e pipelines de transformação.
 - Monitoramento, segurança operacional, performance e manutenção: acompanhamento via YARN/HDFS/History Server; autenticação/autorização (RBAC); políticas de segurança, criptografia, auditoria; otimização (particionamento, indexação, caching, query optimization); backup/recuperação automatizado; ferramentas de gerenciamento (AWS Lake Formation, Azure Data Lake, GCP Dataproc, Cloudera, Databricks, CloudWatch, Splunk, Prometheus/Grafana, ELK Stack).
 - Design de solução para Data Lake/Lakehouse em nuvem: planejamento arquitetônico (requisitos, plataforma, design), Infraestrutura como Código com Terraform (modularidade, gerenciamento de estado), implementação de segurança (IAM, criptografia, auditoria), integração e automação com CI/CD e data pipelines, monitoramento/otimização de custos, documentação e treinamento.
+- IAM roles e access keys para segurança de acesso; otimização e escalabilidade (desacoplamento, auto-scaling, metadados, data pipelines); monitoramento e gerenciamento de custos (CloudWatch, CloudTrail, Config, Cost Explorer, Budgets, classes de armazenamento, Instâncias Reservadas); estratégia de backup/recuperação (automatização, versionamento, replicação cross-region, RTO/RPO, AWS Elastic Disaster Recovery, PITR).
 
 ## Notas
 
@@ -33,5 +34,6 @@
 - `11_def_agdd_10072025.md`
 - `12_def_agdd_01082025.md`
 - `13_def_agdd_04082025.md`
+- `14_def_agdd_05082025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
