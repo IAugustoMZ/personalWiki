@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-16 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, e governança com linhagem, observabilidade, qualidade e políticas de dados.
+17 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, e enriquecimento de dados com documentação e metadados.
 
 ## Tópicos cobertos
 
@@ -19,6 +19,7 @@
 - IAM roles e access keys para segurança de acesso; otimização e escalabilidade (desacoplamento, auto-scaling, metadados, data pipelines); monitoramento e gerenciamento de custos (CloudWatch, CloudTrail, Config, Cost Explorer, Budgets, classes de armazenamento, Instâncias Reservadas); estratégia de backup/recuperação (automatização, versionamento, replicação cross-region, RTO/RPO, AWS Elastic Disaster Recovery, PITR).
 - Linhagem de dados (data lineage) para rastreabilidade e conformidade regulatória (GDPR/LGPD); ferramentas (Apache Atlas, Collibra, Talend, Informatica); observabilidade em Data Lake (coleta abrangente, monitoramento real-time, alertas, visualização, correlação e contexto com Kafka, Prometheus, Grafana, Kibana, Elastic Stack, Datadog); monitoramento e alertas (Prometheus, Grafana, ELK, PagerDuty, Slack, Opsgenie); qualidade de dados com 5 dimensões (precisão, completude, consistência, relevância, atualidade).
 - Estratégia para qualidade de dados: políticas, conselho de governança, automatização de validação/limpeza (ETL, ML), cultura organizacional, monitoramento contínuo. Governança de dados: definição, benefícios (qualidade, conformidade, eficiência), implementação de políticas e controles (conselho, documentação, treinamento), controles de acesso/segurança (MFA, IAM, criptografia), monitoramento/auditoria, gestão de qualidade. Ferramentas: Collibra, Informatica Axon, Alation (AI-driven), Talend Data Fabric.
+- Enriquecimento de dados: processo de melhorar qualidade/utilidade adicionando contexto (APIs públicas, dados comerciais, ML/IA); casos de uso (segmentação de clientes, finanças/seguros, manufatura/logística, governo, P&D); ferramentas boto3 para AWS, hash/SHA-256 para linhagem, observabilidade via snapshots/estatísticas, qualidade baseada em regras de negócio, mascaramento de dados (substituição, embaralhamento, truncamento, criptografia) para privacidade/segurança, automação com bash scripts e Grafana. Documentação e metadados: arquitetura, objetivos, fontes, formatos, transformações, políticas; metadados descrevem características (origem, estrutura, esquema, contexto, acesso) para descoberta e conformidade.
 
 ## Notas
 
@@ -39,5 +40,6 @@
 - `14_def_agdd_05082025.md`
 - `15_def_agdd_06082025.md`
 - `16_def_agdd_07082025.md`
+- `17_def_agdd_11082025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
