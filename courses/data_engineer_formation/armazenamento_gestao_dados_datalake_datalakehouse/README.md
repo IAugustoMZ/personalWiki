@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-17 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, e enriquecimento de dados com documentação e metadados.
+22 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), e introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms).
 
 ## Tópicos cobertos
 
@@ -20,6 +20,9 @@
 - Linhagem de dados (data lineage) para rastreabilidade e conformidade regulatória (GDPR/LGPD); ferramentas (Apache Atlas, Collibra, Talend, Informatica); observabilidade em Data Lake (coleta abrangente, monitoramento real-time, alertas, visualização, correlação e contexto com Kafka, Prometheus, Grafana, Kibana, Elastic Stack, Datadog); monitoramento e alertas (Prometheus, Grafana, ELK, PagerDuty, Slack, Opsgenie); qualidade de dados com 5 dimensões (precisão, completude, consistência, relevância, atualidade).
 - Estratégia para qualidade de dados: políticas, conselho de governança, automatização de validação/limpeza (ETL, ML), cultura organizacional, monitoramento contínuo. Governança de dados: definição, benefícios (qualidade, conformidade, eficiência), implementação de políticas e controles (conselho, documentação, treinamento), controles de acesso/segurança (MFA, IAM, criptografia), monitoramento/auditoria, gestão de qualidade. Ferramentas: Collibra, Informatica Axon, Alation (AI-driven), Talend Data Fabric.
 - Enriquecimento de dados: processo de melhorar qualidade/utilidade adicionando contexto (APIs públicas, dados comerciais, ML/IA); casos de uso (segmentação de clientes, finanças/seguros, manufatura/logística, governo, P&D); ferramentas boto3 para AWS, hash/SHA-256 para linhagem, observabilidade via snapshots/estatísticas, qualidade baseada em regras de negócio, mascaramento de dados (substituição, embaralhamento, truncamento, criptografia) para privacidade/segurança, automação com bash scripts e Grafana. Documentação e metadados: arquitetura, objetivos, fontes, formatos, transformações, políticas; metadados descrevem características (origem, estrutura, esquema, contexto, acesso) para descoberta e conformidade.
+- Convergência entre Data Lakes e Data Lakehouses: plataforma unificada combinando flexibilidade, escalabilidade e governança; vantagens (simplicidade, suporte a dados estruturados/não-estruturados, desempenho, custos reduzidos, escalabilidade, governança unificada); camadas de armazenamento (escalável, econômico em nuvem), camada de processamento (Apache Spark, query engines), e camada de governança (metadados, catálogos, controles de acesso).
+- Segurança e Governança em Data Lakehouse: controle de acesso baseado em funções (RBAC), criptografia de dados (em repouso e em trânsito com TLS), auditoria e monitoramento de acessos/consultas, isolamento de rede (VPN, firewalls), gestão de identidades e chaves (OAuth, MFA); governança federada com políticas regionais e padrões globais; catálogo de dados centralizado (Apache Atlas, AWS Glue) com esquemas, descrições e metadados.
+- Plataforma Databricks: data lakehouse unificada baseada em Apache Spark com suporte a dados estruturados e não-estruturados; workspace com notebooks (Python, Scala, SQL, R), jobs e workflows, integrações via conectores de ingestão, dashboards e consultas; clean rooms para processamento seguro apontando para armazenamento externo sem upload de dados; Delta Live Tables para criação declarativa e otimizada de pipelines de dados contínuos ou em lotes com rastreamento de linhagem; catalog com suporte a busca vetorial; monitoramento e execução de jobs em workflows.
 
 ## Notas
 
@@ -41,5 +44,9 @@
 - `15_def_agdd_06082025.md`
 - `16_def_agdd_07082025.md`
 - `17_def_agdd_11082025.md`
+- `18_def_agdd_12082025.md`
+- `19_def_agdd_13082025.md`
+- `20_def_agdd_14082025.md`
+- `21_def_agdd_15082025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
