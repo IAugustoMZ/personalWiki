@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-22 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), e introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms).
+23 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), e introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms).
 
 ## Tópicos cobertos
 
@@ -23,6 +23,7 @@
 - Convergência entre Data Lakes e Data Lakehouses: plataforma unificada combinando flexibilidade, escalabilidade e governança; vantagens (simplicidade, suporte a dados estruturados/não-estruturados, desempenho, custos reduzidos, escalabilidade, governança unificada); camadas de armazenamento (escalável, econômico em nuvem), camada de processamento (Apache Spark, query engines), e camada de governança (metadados, catálogos, controles de acesso).
 - Segurança e Governança em Data Lakehouse: controle de acesso baseado em funções (RBAC), criptografia de dados (em repouso e em trânsito com TLS), auditoria e monitoramento de acessos/consultas, isolamento de rede (VPN, firewalls), gestão de identidades e chaves (OAuth, MFA); governança federada com políticas regionais e padrões globais; catálogo de dados centralizado (Apache Atlas, AWS Glue) com esquemas, descrições e metadados.
 - Plataforma Databricks: data lakehouse unificada baseada em Apache Spark com suporte a dados estruturados e não-estruturados; workspace com notebooks (Python, Scala, SQL, R), jobs e workflows, integrações via conectores de ingestão, dashboards e consultas; clean rooms para processamento seguro apontando para armazenamento externo sem upload de dados; Delta Live Tables para criação declarativa e otimizada de pipelines de dados contínuos ou em lotes com rastreamento de linhagem; catalog com suporte a busca vetorial; monitoramento e execução de jobs em workflows.
+- Pipelines com Delta Live Tables em Databricks: integração de dados via Airbyte (autenticação OAuth/PAT, sincronização full refresh/incremental com append/overwrite/dedup, cursor para tracking incremental); carregamento manual para casos pontuais; suporte multilíngue (Python, Scala, SQL, R) e Databricks Connect para IDEs (VS Code, PyCharm, RStudio, IntelliJ); SQL Warehouse para execução SQL-only; notebooks com cluster Spark em nuvem, resultados intermediários em memória; gráficos com pySpark+matplotlib; DataFrame Spark otimizado para ambientes distribuídos; auto-shutdown para economia; costs menores que infraestrutura equivalente.
 
 ## Notas
 
@@ -48,5 +49,6 @@
 - `19_def_agdd_13082025.md`
 - `20_def_agdd_14082025.md`
 - `21_def_agdd_15082025.md`
+- `22_def_agdd_19082025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
