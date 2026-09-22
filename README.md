@@ -5,6 +5,7 @@ Repositório pessoal de anotações de estudo, questões de revisão e diagramas
 ## Navegação
 
 - [Cursos](courses/README.md) — trilhas de Power BI e engenharia de dados.
+- [Certificações](certifications/README.md) — notas e recursos para certificações profissionais (Databricks, etc).
 - [Artefatos](artifacts/README.md) — diagramas e imagens referenciados pelas notas.
 - [Questões](questions/README.md) — bancos de perguntas para revisão.
 - [Idiomas](languages/README.md) — anotações de estudo de espanhol, chinês e japonês.
