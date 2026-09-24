@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-28 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms), Delta Live Tables vs Delta Lake, operações CRUD em Delta Lake, time travel, segurança com Delta Lake, e introdução a pipelines ETL com camadas Bronze/Silver/Gold.
+30 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms), Delta Live Tables vs Delta Lake, operações CRUD em Delta Lake, time travel, segurança com Delta Lake, e introdução a pipelines ETL com camadas Bronze/Silver/Gold.
 
 ## Tópicos cobertos
 
@@ -28,6 +28,10 @@
 - Fluxo de operações em Delta Lake: ingestão (CSV, JSON, Parquet, APIs), conversão para tabelas Delta com metadados e logs, armazenamento com ACID, operações de leitura/escrita com consistência e snapshots, otimização (compactação, particionamento, vaccum), consulta e análise sem duplicação. Otimizações: compactação de arquivos, particionamento por colunas filtro, vaccum para limpeza, manutenção de índices/estatísticas, esquema evolutivo; otimizações de query: data skipping, optimize para reorganização, streaming incremental, caching, time travel, suporte a Spark Analyzer Optimizer.
 - Delta Live Tables vs Delta Lake: DLT como funcionalidade Databricks para pipelines declarativos automatizados; Delta Lake como framework open source de armazenamento agnóstico. Operações CRUD em Delta Lake (CREATE/INSERT, READ/SELECT, UPDATE com condition/set, DELETE). Time Travel: acesso a versões anteriores via timestamps/version numbers, auditoria, debugging, recuperação de dados (VACCUM com política de retenção). Segurança e Governança: controle de acesso IAM e RBAC, auditoria via logs de transações, time travel para análise retrospectiva, validação de qualidade de dados, políticas de retenção e limpeza, criptografia em repouso e em trânsito.
 - Pipeline ETL e Camadas Bronze, Silver, Gold: arquitetura medalhão em Data Lakes/pipelines de dados. Delta Live Tables: automatização, confiabilidade, incrementalidade, monitoramento em tempo real para pipelines ETL, data warehouses/lakehouses, data quality assurance, ML/análise avançada, auditoria e rastreamento.
+- Camadas medalha (Bronze/Silver/Gold): preservação de dados brutos (Bronze), limpeza e validação (Silver), refinamento e consumo (Gold); benefícios de escalabilidade, confiabilidade, flexibilidade e auditoria.
+- Monitoramento e alertas: acompanhamento de status de jobs, métricas de desempenho, notificações automáticas, integração com ferramentas externas (Datadog, Prometheus, Azure Monitor).
+- Estratégias de escalabilidade: auto-scaling de clusters, cluster pools, separação de workloads, particionamento de dados, Delta Lake otimizations, caching, otimizações de shuffle, multi-tenancy, clusters de streaming, ajustes de configurações Spark.
+- Catálogo de dados e qualidade: organização centralizada de tabelas/esquemas, visão de descoberta/linhagem/metadados, carregamento com wildcard patterns, pipelines triggered vs contínuos, streaming com STREAM, restrições de qualidade com CONSTRAINT, visualização de grafo de DAG, lineage tracking (upstream/downstream), monitoramento integrado.
 
 ## Notas
 
@@ -59,5 +63,7 @@
 - `25_def_agdd_28082025.md`
 - `26_def_agdd_29082025.md`
 - `27_def_agdd_30082025.md`
+- `28_def_agdd_31082025.md`
+- `29_def_agdd_02092025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
