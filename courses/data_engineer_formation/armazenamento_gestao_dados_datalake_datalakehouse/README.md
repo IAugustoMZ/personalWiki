@@ -1,6 +1,6 @@
 # Armazenamento e Gestão de Dados com Datalake e Datalakehouse
 
-30 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms), Delta Live Tables vs Delta Lake, operações CRUD em Delta Lake, time travel, segurança com Delta Lake, e introdução a pipelines ETL com camadas Bronze/Silver/Gold.
+32 notas sobre arquitetura de armazenamento de dados: diferenças entre Data Lake e Data Lakehouse, evolução dos conceitos, componentes e arquiteturas de referência, segurança/privacidade, ferramentas de mercado, planejamento de custos (on-premises, nuvem e análise comparativa), futuro tecnológico, metodologia de implementação ágil, design/implementação prática de Data Lakes locais com camadas de armazenamento e processamento distribuído, segurança operacional, performance, backup/recuperação, ferramentas de gerenciamento, design de solução com Terraform e automação, otimização/escalabilidade com gerenciamento de custos, governança com linhagem/observabilidade/qualidade, enriquecimento de dados com documentação e metadados, convergência entre Data Lakes e Data Lakehouses (arquitetura, vantagens, design), segurança e governança em Data Lakehouse (RBAC, criptografia, auditoria, catálogo de dados), introdução à plataforma Databricks (workspace, notebooks, data ingestion, workflows, Delta Live Tables, clean rooms), Delta Live Tables vs Delta Lake, operações CRUD em Delta Lake, time travel, segurança com Delta Lake, e introdução a pipelines ETL com camadas Bronze/Silver/Gold.
 
 ## Tópicos cobertos
 
@@ -32,6 +32,12 @@
 - Monitoramento e alertas: acompanhamento de status de jobs, métricas de desempenho, notificações automáticas, integração com ferramentas externas (Datadog, Prometheus, Azure Monitor).
 - Estratégias de escalabilidade: auto-scaling de clusters, cluster pools, separação de workloads, particionamento de dados, Delta Lake otimizations, caching, otimizações de shuffle, multi-tenancy, clusters de streaming, ajustes de configurações Spark.
 - Catálogo de dados e qualidade: organização centralizada de tabelas/esquemas, visão de descoberta/linhagem/metadados, carregamento com wildcard patterns, pipelines triggered vs contínuos, streaming com STREAM, restrições de qualidade com CONSTRAINT, visualização de grafo de DAG, lineage tracking (upstream/downstream), monitoramento integrado.
+- RAG (Retrieval-Augmented Generation) para IA Generativa: técnica que complementa LLMs com conhecimento externo via bancos de dados vetoriais; reduz alucinações, mantém dados atualizados, permite respostas contextuais e específicas de domínio.
+- Embeddings e Bancos Vetoriais: transformação de textos/palavras em vetores numéricos capturando relações semânticas; indexação com k-d trees e locality-sensitive hashing para buscas por similaridade; aplicações em busca, recomendação, classificação, clustering.
+- Engenharia de Prompt (Prompt Engineering): criação de instruções claras e estratégicas para orientar LLMs; princípios de clareza, especificidade, contexto, formato, iteração; técnicas avançadas como encadeamento de prompts, instruções fixas de contexto, feedback iterativo.
+- LangChain Framework: framework para aplicações com LLMs integradas a dados externos e ferramentas; recursos de cadeias de operações, memória contextual, integração de dados externos, agentes autônomos; necessidade de chunking para textos grandes.
+- Gestão de Metadados no Databricks: Unity Catalog para catalogação centralizada, RBAC para permissões, auditoria, integração com governança (tags, versionamento, retenção); solução de problemas comuns (cluster, desempenho, jobs, conectividade, permissões).
+- Melhores Práticas Databricks: 10 áreas (gerenciamento de clusters, otimização de dados, desenvolvimento de notebooks, metadados/governança, segurança/acesso, otimização de desempenho, colaboração, automação/workflows, gerenciamento de custos, aprendizado contínuo); jobs para automação de processos de dados.
 
 ## Notas
 
@@ -65,5 +71,7 @@
 - `27_def_agdd_30082025.md`
 - `28_def_agdd_31082025.md`
 - `29_def_agdd_02092025.md`
+- `30_def_agdd_03092025.md`
+- `31_def_agdd_08092025.md`
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
