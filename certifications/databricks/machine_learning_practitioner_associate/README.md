@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-7 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação e deployment de modelos de machine learning na plataforma Databricks.
+8 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação e deployment de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -17,7 +17,10 @@
 - ML Lifecycle (business problem, data collection, preprocessing, feature engineering, model training, evaluation, deployment, monitoring)
 - MLflow Components (tracking, evaluation, models, registry & deployments, autologging, experiment-run hierarchy)
 - Model Evaluation Metrics (regression: R², MAE, MSE, RMSE, MAPE; classification: accuracy, precision, recall, F₁, log loss, ROC AUC; clustering: silhouette score, elbow method)
-- Hyperparameter Tuning (fundamentals of controlling training process to maximize model performance)
+- Hyperparameter Tuning (fundamentals of controlling training process to maximize model performance; grid/random/Bayesian optimization with Optuna)
+- Validation and Cross-Validation (3-way split, k-fold cross-validation for reliable generalization estimates)
+- Optuna for Hyperparameter Tuning (framework-agnostic, trial/study/parameter terminology, objective function, dynamic search space, MLflow integration, pruning strategy)
+- Genie Code for AI-Assisted ML Development (autonomous AI partner for data teams, data discovery/EDA/training/deployment/monitoring, MCP connections, instructions/skills, end-to-end model development phases)
 
 ## Notas
 
@@ -28,5 +31,6 @@
 - `04_dtb_mlpa_19082026.md`
 - `05_dtb_mlpa_20082026.md`
 - `06_dtb_mlpa_21082026.md`
+- `07_dtb_mlpa_24082026.md`
 
 Voltar para [Databricks Certifications](../README.md).
