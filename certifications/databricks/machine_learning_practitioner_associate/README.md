@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-9 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação e deployment de modelos de machine learning na plataforma Databricks.
+10 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment e monitoramento de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -21,6 +21,7 @@
 - Validation and Cross-Validation (3-way split, k-fold cross-validation for reliable generalization estimates)
 - Optuna for Hyperparameter Tuning (framework-agnostic, trial/study/parameter terminology, objective function, dynamic search space, MLflow integration, pruning strategy)
 - Genie Code for AI-Assisted ML Development (autonomous AI partner for data teams, data discovery/EDA/training/deployment/monitoring, MCP connections, instructions/skills, end-to-end model development phases)
+- Model Deployment (batch inference with SparkUDF/ai_query, streaming/pipeline deployment, real-time Model Serving, MLflow Model Registry, Unity Catalog governance, model aliases, edge deployment with ONNX/TensorFlow Lite)
 
 ## Notas
 
@@ -33,5 +34,6 @@
 - `06_dtb_mlpa_21082026.md`
 - `07_dtb_mlpa_24082026.md`
 - `08_dtb_mlpa_28082026.md`
+- `09_dtb_mlpa_01092026.md`
 
 Voltar para [Databricks Certifications](../README.md).

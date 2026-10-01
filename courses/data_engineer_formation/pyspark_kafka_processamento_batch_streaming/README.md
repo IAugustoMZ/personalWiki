@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-4 notas sobre processamento distribuído de dados, ferramentas, padrões ETL e integração com bancos de dados.
+6 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados e otimizações de performance.
 
 ## Tópicos cobertos
 
@@ -16,7 +16,9 @@
 - PySpark SparkSession e Transformações: schema e estrutura de dados, filter com operadores relacionais, regex_replace para limpeza, otimização de loops e memória.
 - JDBC Drivers e Conexão com Bancos: Java Database Connectivity API, tipos de drivers (Bridge, Native API, Middleware, Nativo), portabilidade entre SGBDs, submissão de jobs com drivers JAR.
 - Performance e Otimização de Código Python: perfilamento, estruturas de dados eficientes (numpy, sets), evitar redundâncias, programação concorrente/paralela, caching, gestão de memória, Cython/Numba.
+- Operações Avançadas em PySpark (Parte I): tipos de dados complexos (Array vs Map), método collect() para trazer dados ao driver, withColumn para derivar colunas, operações aritméticas/strings/data-hora, funções de agregação, UDFs, MapType para pares chave-valor.
+- RDD vs DataFrame e Operações Distribuídas (Parte II): abstração RDD (imutável, particionado, controle fino) vs DataFrame (alto nível, otimização automática), particionamento strategies (hash, range), repartition() vs coalesce(), time operations, window functions (rank, lag, lead, quantis).
 
-As notas vão de `00_def_spkbst_19092025.md` a `03_def_spkbst_24092025.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `07_def_spkbst_01102025.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
