@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-6 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados e otimizações de performance.
+8 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters e otimizações de performance.
 
 ## Tópicos cobertos
 
@@ -18,7 +18,9 @@
 - Performance e Otimização de Código Python: perfilamento, estruturas de dados eficientes (numpy, sets), evitar redundâncias, programação concorrente/paralela, caching, gestão de memória, Cython/Numba.
 - Operações Avançadas em PySpark (Parte I): tipos de dados complexos (Array vs Map), método collect() para trazer dados ao driver, withColumn para derivar colunas, operações aritméticas/strings/data-hora, funções de agregação, UDFs, MapType para pares chave-valor.
 - RDD vs DataFrame e Operações Distribuídas (Parte II): abstração RDD (imutável, particionado, controle fino) vs DataFrame (alto nível, otimização automática), particionamento strategies (hash, range), repartition() vs coalesce(), time operations, window functions (rank, lag, lead, quantis).
+- Armazenamento Distribuído e Cluster Spark (Parte III): conceitos de distributed storage (redundância, escalabilidade, acesso concorrente), modos de gerenciamento do cluster (Standalone, YARN, Mesos, Kubernetes), componentes YARN (Resource Manager, Node Manager), alocação dinâmica, vantagens do Spark.
+- Instalação e Configuração Multi-Node Cluster Spark e HDFS (Parte IV): big data processing (ETL/ELT), análise em tempo real, ML/AI em escala, graph processing, consultas/agregações, integração de dados, benefícios conjuntos Spark+HDFS+YARN (escalabilidade, resiliência, gerenciamento de recursos, flexibilidade).
 
-As notas vão de `00_def_spkbst_19092025.md` a `07_def_spkbst_01102025.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `09_def_spkbst_13102025.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
