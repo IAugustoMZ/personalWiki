@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-8 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters e otimizações de performance.
+13 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -20,7 +20,10 @@
 - RDD vs DataFrame e Operações Distribuídas (Parte II): abstração RDD (imutável, particionado, controle fino) vs DataFrame (alto nível, otimização automática), particionamento strategies (hash, range), repartition() vs coalesce(), time operations, window functions (rank, lag, lead, quantis).
 - Armazenamento Distribuído e Cluster Spark (Parte III): conceitos de distributed storage (redundância, escalabilidade, acesso concorrente), modos de gerenciamento do cluster (Standalone, YARN, Mesos, Kubernetes), componentes YARN (Resource Manager, Node Manager), alocação dinâmica, vantagens do Spark.
 - Instalação e Configuração Multi-Node Cluster Spark e HDFS (Parte IV): big data processing (ETL/ELT), análise em tempo real, ML/AI em escala, graph processing, consultas/agregações, integração de dados, benefícios conjuntos Spark+HDFS+YARN (escalabilidade, resiliência, gerenciamento de recursos, flexibilidade).
+- PySpark para Processamento Distribuído em Batch (Parte I): conceito de batch processing (dados coletados em blocos, eficiência para grandes volumes), limpeza e tratamento de dados faltantes (remoção de linhas, preenchimento, interpolação, uso de indicadores), normalização para reduzir redundância e melhorar integridade, desnormalização para consultas mais rápidas.
+- Particionamento de Dados e Engenharia de Atributos (Parte II): estratégias de particionamento (por coluna, dinâmico, bucketing, hierárquico, intervalos de valores, combinado) para melhorar performance de consultas; engenharia de atributos para transformar dados brutos em features para ML; ajuste do número de partições para balancear paralelização e gerenciamento.
+- Processamento de Streaming e Machine Learning em Tempo Real: processamento contínuo de dados de múltiplas fontes com baixa latência (sem armazenamento intermediário), detecção de anomalias, monitoramento em tempo real; integração de ML/Deep Learning com streaming (CNN, RNN) para reconhecimento facial e análise de sentimentos; arquitetura de Autoencoder (encoder-decoder) para compressão e redução de dimensionalidade de dados.
 
-As notas vão de `00_def_spkbst_19092025.md` a `09_def_spkbst_13102025.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `12_def_spkbst_25102025.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
