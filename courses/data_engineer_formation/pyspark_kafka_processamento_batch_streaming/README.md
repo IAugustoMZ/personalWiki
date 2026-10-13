@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-13 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações e aprendizado de máquina em tempo real.
+15 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -23,7 +23,9 @@
 - PySpark para Processamento Distribuído em Batch (Parte I): conceito de batch processing (dados coletados em blocos, eficiência para grandes volumes), limpeza e tratamento de dados faltantes (remoção de linhas, preenchimento, interpolação, uso de indicadores), normalização para reduzir redundância e melhorar integridade, desnormalização para consultas mais rápidas.
 - Particionamento de Dados e Engenharia de Atributos (Parte II): estratégias de particionamento (por coluna, dinâmico, bucketing, hierárquico, intervalos de valores, combinado) para melhorar performance de consultas; engenharia de atributos para transformar dados brutos em features para ML; ajuste do número de partições para balancear paralelização e gerenciamento.
 - Processamento de Streaming e Machine Learning em Tempo Real: processamento contínuo de dados de múltiplas fontes com baixa latência (sem armazenamento intermediário), detecção de anomalias, monitoramento em tempo real; integração de ML/Deep Learning com streaming (CNN, RNN) para reconhecimento facial e análise de sentimentos; arquitetura de Autoencoder (encoder-decoder) para compressão e redução de dimensionalidade de dados.
+- PySpark Streaming Fundamentals (Parte I): DStream & micro-batches, receivers, window operations, stateful operations, checkpointing; data cleaning & treatment (filtragem, deduplicação, normalização), windowed operations, stateful processing (updateStateByKey, mapWithState), data persistence (databases, data lakes, HDFS, Kafka, Elasticsearch), integration with external sources (Kafka, Kinesis, files, databases, sockets), monitoring/debugging, backpressure & rate limiting.
+- Multi-Node Cluster Spark, HDFS e Kafka (Parte II): quando usar Apache Kafka (real-time pipelines, low-latency systems, event processing, data integration, IoT workloads, microsserviços), arquitetura Kafka (Producer, Consumer, Broker, Zookeeper/Kafka Controller), gerenciamento de coordenação, balanceamento de carga.
 
-As notas vão de `00_def_spkbst_19092025.md` a `12_def_spkbst_25102025.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `14_def_spkbst_02112025.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
