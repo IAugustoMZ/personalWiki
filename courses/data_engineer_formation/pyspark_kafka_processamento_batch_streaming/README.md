@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-15 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações e aprendizado de máquina em tempo real.
+16 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, arquitetura distribuída e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -25,7 +25,8 @@
 - Processamento de Streaming e Machine Learning em Tempo Real: processamento contínuo de dados de múltiplas fontes com baixa latência (sem armazenamento intermediário), detecção de anomalias, monitoramento em tempo real; integração de ML/Deep Learning com streaming (CNN, RNN) para reconhecimento facial e análise de sentimentos; arquitetura de Autoencoder (encoder-decoder) para compressão e redução de dimensionalidade de dados.
 - PySpark Streaming Fundamentals (Parte I): DStream & micro-batches, receivers, window operations, stateful operations, checkpointing; data cleaning & treatment (filtragem, deduplicação, normalização), windowed operations, stateful processing (updateStateByKey, mapWithState), data persistence (databases, data lakes, HDFS, Kafka, Elasticsearch), integration with external sources (Kafka, Kinesis, files, databases, sockets), monitoring/debugging, backpressure & rate limiting.
 - Multi-Node Cluster Spark, HDFS e Kafka (Parte II): quando usar Apache Kafka (real-time pipelines, low-latency systems, event processing, data integration, IoT workloads, microsserviços), arquitetura Kafka (Producer, Consumer, Broker, Zookeeper/Kafka Controller), gerenciamento de coordenação, balanceamento de carga.
+- Tópicos, Partições, Replicação e Offset no Kafka (Parte III): conceitos de tópicos (canais de comunicação), partições (distribuição e paralelismo), replicação (fator de replicação, líder e réplicas), offset (identificador de mensagens); fluxo de dados (produção, armazenamento, consumo, coordenação); integração HDFS+Spark+Kafka (ingestão real-time, processamento flexível, armazenamento persistente).
 
-As notas vão de `00_def_spkbst_19092025.md` a `14_def_spkbst_02112025.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `15_def_spkbst_30012026.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
