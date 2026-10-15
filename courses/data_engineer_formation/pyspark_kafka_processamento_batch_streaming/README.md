@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-16 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, arquitetura distribuída e aprendizado de máquina em tempo real.
+18 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, arquitetura distribuída, segurança e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -26,7 +26,9 @@
 - PySpark Streaming Fundamentals (Parte I): DStream & micro-batches, receivers, window operations, stateful operations, checkpointing; data cleaning & treatment (filtragem, deduplicação, normalização), windowed operations, stateful processing (updateStateByKey, mapWithState), data persistence (databases, data lakes, HDFS, Kafka, Elasticsearch), integration with external sources (Kafka, Kinesis, files, databases, sockets), monitoring/debugging, backpressure & rate limiting.
 - Multi-Node Cluster Spark, HDFS e Kafka (Parte II): quando usar Apache Kafka (real-time pipelines, low-latency systems, event processing, data integration, IoT workloads, microsserviços), arquitetura Kafka (Producer, Consumer, Broker, Zookeeper/Kafka Controller), gerenciamento de coordenação, balanceamento de carga.
 - Tópicos, Partições, Replicação e Offset no Kafka (Parte III): conceitos de tópicos (canais de comunicação), partições (distribuição e paralelismo), replicação (fator de replicação, líder e réplicas), offset (identificador de mensagens); fluxo de dados (produção, armazenamento, consumo, coordenação); integração HDFS+Spark+Kafka (ingestão real-time, processamento flexível, armazenamento persistente).
+- Broker e Controller no Kafka (Parte IV): funções de Broker (armazenamento, distribuição, replicação de dados), Controller (eleição dinâmica, gerenciamento de partições, detecção de falhas, sincronização de réplicas); Zookeeper vs Apache Kafka Raft (KRaft) - arquitetura unificada, desempenho melhorado, manutenção simplificada, maior resiliência.
+- Segurança e Autenticação no Kafka (Parte V): mecanismos de autenticação (SASL, SSL/TLS), criptografia de comunicação com certificados digitais, autorização via ACLs (Access Control Lists) para operações de tópicos, grupos de consumidores, recursos.
 
-As notas vão de `00_def_spkbst_19092025.md` a `15_def_spkbst_30012026.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `17_def_spkbst_13022026.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
