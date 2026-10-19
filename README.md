@@ -14,6 +14,20 @@ Repositório pessoal de anotações de estudo, questões de revisão e diagramas
 
 O repositório inclui `Dockerfile` e `docker-compose.yml` para um ambiente Python 3.11. As dependências estão listadas em `requirements.txt`.
 
+## Criando Novas Entradas
+
+Use o Makefile para criar novas entradas facilmente:
+
+```bash
+make new-entry
+```
+
+O script interativo guiará você por:
+1. Seleção da pasta de destino
+2. Detecção da última entrada numerada
+3. Entrada da data em `DDMMYYYY`
+4. Criação da nova nota baseada no template anterior
+
 ## Convenções
 
 - As notas seguem o padrão `NN_<sigla>_DDMMYYYY.md`, preservando a sequência de estudo.
