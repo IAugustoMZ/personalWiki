@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-20 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, arquitetura distribuída, segurança, confiabilidade e aprendizado de máquina em tempo real.
+23 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, segurança, confiabilidade, NoSQL e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -30,7 +30,9 @@
 - Segurança e Autenticação no Kafka (Parte V): mecanismos de autenticação (SASL, SSL/TLS), criptografia de comunicação com certificados digitais, autorização via ACLs (Access Control Lists) para operações de tópicos, grupos de consumidores, recursos.
 - Kafka como Plataforma de Streaming (Parte VI): não é um banco de dados, pub/sub model, anatomia de mensagens (key, value, timestamps, headers), Produtores (particionamento, ordenação), Consumidores (grupos, offset control), Kafka Connect (source/sink connectors), JARs & Maven repository.
 - Acknowledgments e Garantias de Entrega no Kafka (Parte VII): ACKs (0/1/all), Delivery Guarantees (at most once/at least once/exactly once), relação entre ACKs e garantias de confiabilidade na entrega.
+- Parquet & Error Handling com Kafka/Spark (Parte VIII): formato Parquet (columnar, compression, schema), error handling & retries (Kafka: retries/DLTs/ACKs, Spark: reprocessing/checkpointing/DLQ), throughput optimizations (batch size, compression, partitioning, caching), Kafka Streams API (KStream/KTable/GlobalKTable, state local, garantia exactly-once).
+- KSQL & Stream Processing com Windowing (Parte IX): KSQL SQL-like queries, JOINs (stream-to-stream/stream-to-table/table-to-table), Windowing (time-based/sliding/tumbling/session), time series operations (agregações, tendências, imputation), MongoDB NoSQL (BSON, sharding, replicação, índices).
 
-As notas vão de `00_def_spkbst_19092025.md` a `19_def_spkbst_22022026.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `23_def_spkbst_10032026.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
