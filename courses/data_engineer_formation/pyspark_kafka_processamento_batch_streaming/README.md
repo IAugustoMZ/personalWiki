@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-23 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, segurança, confiabilidade, NoSQL e aprendizado de máquina em tempo real.
+24 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, coordenação, segurança, confiabilidade, NoSQL e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -32,7 +32,8 @@
 - Acknowledgments e Garantias de Entrega no Kafka (Parte VII): ACKs (0/1/all), Delivery Guarantees (at most once/at least once/exactly once), relação entre ACKs e garantias de confiabilidade na entrega.
 - Parquet & Error Handling com Kafka/Spark (Parte VIII): formato Parquet (columnar, compression, schema), error handling & retries (Kafka: retries/DLTs/ACKs, Spark: reprocessing/checkpointing/DLQ), throughput optimizations (batch size, compression, partitioning, caching), Kafka Streams API (KStream/KTable/GlobalKTable, state local, garantia exactly-once).
 - KSQL & Stream Processing com Windowing (Parte IX): KSQL SQL-like queries, JOINs (stream-to-stream/stream-to-table/table-to-table), Windowing (time-based/sliding/tumbling/session), time series operations (agregações, tendências, imputation), MongoDB NoSQL (BSON, sharding, replicação, índices).
+- Zookeeper e Integração Kafka com Bancos de Dados (Parte X): Zookeeper (metadata management, broker coordination, failure detection, being replaced by KRaft), Kafka database integration (Kafka Connect, CDC/Change Data Capture, serialization/deserialization), Kafka Connect Sinks/Sources (automated producers/consumers), multi-stream processing (synchronization, watermarking, scalability, load balancing).
 
-As notas vão de `00_def_spkbst_19092025.md` a `23_def_spkbst_10032026.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `24_def_spkbst_12032026.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).

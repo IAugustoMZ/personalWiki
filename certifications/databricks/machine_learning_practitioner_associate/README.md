@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-18 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
+19 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -30,6 +30,7 @@
 - MLOps on Databricks Unified Platform (DataOps tasks/tools: Spark, UC, Delta, SDP, SQL, Feature Store, Data Profiling; Databricks SQL features, Lakeflow Jobs orchestration with DAGs/tasks/triggers; ModelOps: Model Registry, MLflow tracking, Git Folders)
 - Developer Tools and Declarative Automation (Git Folders operations with PAT, DevOps tools: UC, Model Serving, Lakeflow Jobs, CI/CD, Developer tools overview: Declarative Automation Bundles/CLI/SDKs/REST API, Terraform provider, DAB concepts & benefits)
 - Architecting MLOps Solutions (importance of MLOps architecture: simplicity/efficiency/scalability/collaboration, infrastructure vs workflow, recommended architecture with best practices, four phases: Infra Setup/Development/Staging/Production, manual setup vs Terraform/MLOps Stacks)
+- MLOps Environment Setup and Development (create Databricks environment: UC metastore, workspaces, catalogs, service principal; optimize for efficiency: DABs, git, CLI, monitoring, security; development workflow: EDA/ML/validation, MLflows tracking, git versioning, UC governance, lakehouse integration)
 
 ## Notas
 
@@ -52,5 +53,6 @@
 - `16_dtb_mlpa_22092026.md`
 - `17_dtb_mlpa_23092026.md`
 - `18_dtb_mlpa_24092026.md`
+- `19_dtb_mlpa_25092026.md`
 
 Voltar para [Databricks Certifications](../README.md).
