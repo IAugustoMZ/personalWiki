@@ -28,6 +28,20 @@ O script interativo guiará você por:
 3. Entrada da data em `DDMMYYYY`
 4. Criação da nova nota baseada no template anterior
 
+## Site de Documentação
+
+As notas podem ser lidas como site, com busca e navegação, usando MkDocs com o tema Material:
+
+```bash
+poetry install --with docs
+make docs          # http://127.0.0.1:8000, recarrega ao salvar
+make docs-build    # build estrito: falha em links quebrados
+```
+
+Sem `make`, use diretamente `poetry run mkdocs serve` e `poetry run mkdocs build --strict`.
+
+A navegação está em `mkdocs.yml` (seção `nav`) e aponta para o README de cada pasta, que já funciona como índice das notas. Os links relativos funcionam igual no GitHub e no site (`docs_dir: .` com o plugin `same-dir`). O tema é escuro, com paleta azul, prata e cinza definida em `stylesheets/tech.css`.
+
 ## Convenções
 
 - As notas seguem o padrão `NN_<sigla>_DDMMYYYY.md`, preservando a sequência de estudo.
