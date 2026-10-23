@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-19 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
+20 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -54,5 +54,7 @@
 - `17_dtb_mlpa_23092026.md`
 - `18_dtb_mlpa_24092026.md`
 - `19_dtb_mlpa_25092026.md`
+- `20_dtb_mlpa_28092026.md`
+- `21_dtb_mlpa_29092026.md`
 
 Voltar para [Databricks Certifications](../README.md).
