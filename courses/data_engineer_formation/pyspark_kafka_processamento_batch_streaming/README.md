@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-27 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, coordenação, segurança, confiabilidade, NoSQL e aprendizado de máquina em tempo real.
+28 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, coordenação, segurança, confiabilidade, NoSQL e aprendizado de máquina em tempo real.
 
 ## Tópicos cobertos
 
@@ -33,7 +33,8 @@
 - Parquet & Error Handling com Kafka/Spark (Parte VIII): formato Parquet (columnar, compression, schema), error handling & retries (Kafka: retries/DLTs/ACKs, Spark: reprocessing/checkpointing/DLQ), throughput optimizations (batch size, compression, partitioning, caching), Kafka Streams API (KStream/KTable/GlobalKTable, state local, garantia exactly-once).
 - KSQL & Stream Processing com Windowing (Parte IX): KSQL SQL-like queries, JOINs (stream-to-stream/stream-to-table/table-to-table), Windowing (time-based/sliding/tumbling/session), time series operations (agregações, tendências, imputation), MongoDB NoSQL (BSON, sharding, replicação, índices).
 - Zookeeper e Integração Kafka com Bancos de Dados (Parte X): Zookeeper (metadata management, broker coordination, failure detection, being replaced by KRaft), Kafka database integration (Kafka Connect, CDC/Change Data Capture, serialization/deserialization), Kafka Connect Sinks/Sources (automated producers/consumers), multi-stream processing (synchronization, watermarking, scalability, load balancing).
+- Otimização de Desempenho e Monitoramento de Pipelines PySpark-Kafka (batch size, fetch.max.bytes, retenção, compressão, persistência com cache/persist, particionamento, structured streaming com maxOffsetsPerTrigger, checkpoints e offsets; métricas de throughput, latência, erros, recursos e checkpoints; Grafana, Prometheus, Spark UI e alertas; SLAs/SLIs e testes de carga)
 
-As notas vão de `00_def_spkbst_19092025.md` a `27_def_spkbst_20032026.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `28_def_spkbst_23032026.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
