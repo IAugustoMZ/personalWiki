@@ -40,7 +40,7 @@ make docs-build    # build estrito: falha em links quebrados
 
 Sem `make`, use diretamente `poetry run mkdocs serve` e `poetry run mkdocs build --strict`.
 
-A navegação está em `mkdocs.yml` (seção `nav`) e aponta para o README de cada pasta, que já funciona como índice das notas. Os links relativos funcionam igual no GitHub e no site (`docs_dir: .` com o plugin `same-dir`). O tema é escuro, com paleta azul, prata e cinza definida em `stylesheets/tech.css`.
+A navegação é gerada automaticamente por `wiki_nav.py`, que encontra os READMEs e todas as notas Markdown nas pastas de conteúdo; `mkdocs.yml` configura o site e carrega esse hook. Os links relativos funcionam igual no GitHub e no site (`docs_dir: .` com o plugin `same-dir`). O tema é escuro, com paleta azul, prata e cinza definida em `stylesheets/tech.css`.
 
 ## Convenções
 

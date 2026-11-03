@@ -1,6 +1,6 @@
 # PySpark e Apache Kafka para Processamento de Dados em Batch e Streaming
 
-29 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, coordenação, segurança, confiabilidade, NoSQL e aprendizado de máquina em tempo real.
+34 notas sobre processamento distribuído, operações em DataFrames, padrões ETL, integração com bancos de dados, gerenciamento de clusters, otimizações de performance, processamento em batch e streaming, engenharia de dados com PySpark, Kafka para integrações, produção/consumo de mensagens, processamento SQL, arquitetura distribuída, coordenação, segurança, confiabilidade, NoSQL, aprendizado de máquina em tempo real, recuperação de falhas e réplicas, segurança e monitoramento de clusters, escalabilidade horizontal e disaster recovery.
 
 ## Tópicos cobertos
 
@@ -35,6 +35,6 @@
 - Zookeeper e Integração Kafka com Bancos de Dados (Parte X): Zookeeper (metadata management, broker coordination, failure detection, being replaced by KRaft), Kafka database integration (Kafka Connect, CDC/Change Data Capture, serialization/deserialization), Kafka Connect Sinks/Sources (automated producers/consumers), multi-stream processing (synchronization, watermarking, scalability, load balancing).
 - Otimização de Desempenho e Monitoramento de Pipelines PySpark-Kafka (batch size, fetch.max.bytes, retenção, compressão, persistência com cache/persist, particionamento, structured streaming com maxOffsetsPerTrigger, checkpoints e offsets; métricas de throughput, latência, erros, recursos e checkpoints; Grafana, Prometheus, Spark UI e alertas; SLAs/SLIs e testes de carga)
 
-As notas vão de `00_def_spkbst_19092025.md` a `29_def_spkbst_24032026.md`.
+As notas vão de `00_def_spkbst_19092025.md` a `33_def_spkbst_06042026.md`.
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
