@@ -6,6 +6,7 @@
 
 site_name: Personal Wiki
 site_description: Notas de estudo sobre dados, engenharia de dados, Databricks, idiomas e questões de revisão.
+site_url: https://IAugustoMZ.github.io/personalWiki/
 docs_dir: .
 site_dir: .cache/site
 use_directory_urls: true
@@ -33,9 +34,20 @@ theme:
   icon:
     logo: material/notebook-outline
   palette:
-    scheme: slate
-    primary: blue grey
-    accent: light blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Usar tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Usar tema claro
   features:
     - navigation.tabs
     - navigation.sections
@@ -69,7 +81,11 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.arithmatex:
       generic: true
 

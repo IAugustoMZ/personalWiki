@@ -1,12 +1,33 @@
-# Artefatos
+<h1 align="center">Biblioteca de Artefatos</h1>
 
-Diagramas e imagens que dão suporte às notas em `courses/`.
+<p align="center">
+  <strong>Diagramas que tornam sistemas, processos e frameworks visíveis.</strong><br>
+  Fontes editáveis e exportações usadas pelas notas do wiki.
+</p>
 
-## Conteúdo
+<p align="center">
+  <img src="https://cdn.simpleicons.org/diagramsdotnet/F08705" height="28" alt="diagrams.net"> &nbsp;
+  <img src="https://cdn.simpleicons.org/svg/FFB13B" height="28" alt="SVG"> &nbsp;
+  <img src="https://cdn.simpleicons.org/mermaid/FF3670" height="28" alt="Mermaid">
+</p>
 
-- Arquivos-fonte draw.io (`.drawio`) e suas exportações PNG (`.drawio.png`) para temas de engenharia de dados, governança, arquitetura, comunicação e carreira.
-- Diagramas SVG autorais com um estilo visual compartilhado: ikigai, framework de transição de carreira, níveis lógicos, camadas de hábito, fontes de conhecimento, círculo de controle, matriz de Eisenhower, framework SMART de metas, diagrama radial de marca pessoal, fluxo da metodologia STAR e comparação de arquiteturas de Data Warehouse/Data Lake/Datalakehouse em swim lanes.
-- Diagramas Databricks (Delta Lake flow, Lakehouse overview, Unity Catalog namespace, embeddings pipeline).
-- Imagens pontuais de joins e outros exemplos usados nas anotações.
+## Catálogo visual
 
-Os arquivos desta pasta são recursos visuais; a explicação conceitual correspondente está nas notas dos [cursos](../courses/README.md).
+| Família | Exemplos |
+|---|---|
+| **Arquitetura de dados** | lakehouse, data mesh, data warehouse, pipelines e sistemas distribuídos |
+| **Databricks e ML** | Delta Lake, Unity Catalog, embeddings, serving e ciclo de vida de modelos |
+| **Governança e processos** | ciclo de DataOps, observabilidade, mudança e estratégia |
+| **Carreira e desenvolvimento** | ikigai, matriz de Eisenhower, SMART, controle e marca pessoal |
+| **Comunicação** | perfis, frameworks e fluxos de comunicação |
+
+## Formatos
+
+- `.drawio` — fonte editável para continuar o trabalho no diagrams.net.
+- `.png` — exportação rápida para notas e apresentações.
+- `.svg` — ilustrações vetoriais preservando nitidez em qualquer tamanho.
+
+Os artefatos são recursos visuais; a explicação conceitual correspondente está nas notas dos
+[cursos](../courses/README.md).
+
+Voltar para a [Personal Knowledge Wiki](../README.md).

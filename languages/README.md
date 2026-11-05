@@ -1,15 +1,33 @@
-# Estudos de Idiomas
+<h1 align="center">Laboratório de Idiomas</h1>
 
-Anotações de sessões de estudo de idiomas (Duolingo), organizadas por idioma.
+<p align="center">
+  <strong>Pequenas sessões, revisão constante e vocabulário em contexto.</strong><br>
+  Registros de estudo para espanhol, chinês e japonês.
+</p>
+
+<p align="center">
+  <img src="https://cdn.simpleicons.org/duolingo/58CC02" height="28" alt="Duolingo"> &nbsp;
+  🇪🇸 &nbsp; 中文 &nbsp; 日本語
+</p>
 
 ## Idiomas
 
-- [Español](spanish/00_lan_spn_10082026.md) — vocabulário básico.
-- [中文 (Chinês)](chinese/00_lan_chn_10082026.md) — vocabulário e diálogos.
-- [日本語 (Japonês)](japanese/01_lan_jpn_25082026.md) — vocabulário e frases.
+| Idioma | Porta de entrada | Foco atual |
+|---|---|---|
+| **Español** | [Abrir notas](spanish/00_lan_spn_10082026.md) | vocabulário e frases básicas |
+| **中文 · Chinês** | [Abrir notas](chinese/00_lan_chn_10082026.md) | vocabulário e diálogos |
+| **日本語 · Japonês** | [Abrir notas](japanese/01_lan_jpn_25082026.md) | vocabulário e frases |
 
-## Convenções
+## Ciclo de revisão
 
-- As notas seguem o padrão `NN_lan_<sigla>_DDMMYYYY.md`, uma pasta por idioma.
+```mermaid
+flowchart LR
+    A["Sessão curta"] --> B["Registrar palavras"]
+    B --> C["Criar frases"]
+    C --> D["Revisar em outro dia"]
+    D --> A
+```
 
-Voltar para [Personal Knowledge Wiki](../README.md).
+As notas seguem o padrão `NN_lan_<sigla>_DDMMYYYY.md`, com uma pasta dedicada para cada idioma.
+
+Voltar para a [Personal Knowledge Wiki](../README.md).
