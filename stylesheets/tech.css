@@ -15,6 +15,15 @@
   overflow: hidden;
 }
 
+/* Keep the inline technology logos compact in the MkDocs rendering. */
+.md-typeset img[src*="cdn.simpleicons.org"] {
+  width: 28px !important;
+  height: 28px !important;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .md-typeset .grid.cards > ul > li {
   border-color: var(--md-default-fg-color--lightest);
   transition: border-color 160ms ease, transform 160ms ease;
