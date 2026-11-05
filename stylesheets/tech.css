@@ -24,6 +24,21 @@
   vertical-align: middle;
 }
 
+.md-typeset .card-icon {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.25rem;
+  color: var(--md-accent-fg-color);
+  vertical-align: middle;
+}
+
+.md-typeset .card-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
 .md-typeset .grid.cards > ul > li {
   border-color: var(--md-default-fg-color--lightest);
   transition: border-color 160ms ease, transform 160ms ease;
