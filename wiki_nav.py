@@ -1,4 +1,4 @@
-"""Build the site navigation from the wiki's folders, so every note is listed automatically."""
+"""Build the site navigation from every Markdown page in the wiki."""
 
 import re
 from pathlib import Path
@@ -48,10 +48,17 @@ def _build(folder: Path, docs_dir: Path) -> list:
 
 def on_files(files, config, **kwargs):
     docs_dir = Path(config["docs_dir"])
-    sections = [{"Início": "README.md"}]
-    for name in ("courses", "certifications", "languages", "questions", "artifacts"):
-        folder = docs_dir / name
-        if folder.is_dir():
-            sections.append({_section_title(folder): _build(folder, docs_dir)})
+    home = [{"Visão geral": "README.md"}]
+    for page in sorted(docs_dir.glob("*.md"), key=lambda p: p.name):
+        if page.name != "README.md":
+            home.append({_first_heading(page) or page.stem: page.relative_to(docs_dir).as_posix()})
+
+    sections = [{"Início": home}]
+    for folder in sorted(docs_dir.iterdir(), key=lambda p: p.name):
+        if not folder.is_dir() or folder.name.startswith(".") or folder.name in SKIP_DIRS:
+            continue
+        items = _build(folder, docs_dir)
+        if items:
+            sections.append({_section_title(folder): items})
     config["nav"] = sections
     return files
