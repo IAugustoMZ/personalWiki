@@ -190,12 +190,12 @@ Este wiki é público e está publicado em
 [`IAugustoMZ.github.io/personalWiki`](https://IAugustoMZ.github.io/personalWiki/). Publicar o
 site torna o conteúdo acessível, mas não transfere automaticamente os direitos de reutilização.
 
-Para este tipo de material, a separação mais clara é:
+As regras formais estão em [`LICENSE.md`](LICENSE.md) e [`LICENSE-CODE.md`](LICENSE-CODE.md):
 
-- **Prosa, anotações e diagramas:** recomendação de [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), permitindo compartilhamento e adaptação com atribuição, mas sem uso comercial.
-- **Exemplos de código:** recomendação de [MIT](https://opensource.org/license/mit), quando o trecho for suficientemente original e destinado a ser reutilizado como código.
+- **Prosa, anotações e diagramas:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), permitindo compartilhamento e adaptação com atribuição, mas sem uso comercial.
+- **Exemplos de código originais:** [MIT](LICENSE-CODE.md), permitindo reutilização, modificação e distribuição com preservação do aviso de copyright.
 - **Conteúdo de terceiros:** permanece sujeito à licença e aos direitos do autor original; referências não são uma autorização para redistribuição.
 
-Enquanto uma licença formal não for adicionada ao repositório, considere o conteúdo **todos os
-direitos reservados**, exceto quando uma nota indicar explicitamente outra licença. Esta é uma
-orientação editorial, não aconselhamento jurídico.
+Quando uma nota, imagem ou arquivo indicar uma licença diferente, aquela indicação específica
+prevalece. A licença não concede direitos sobre marcas, logos ou conteúdo de terceiros. Esta é
+uma orientação editorial, não aconselhamento jurídico.
