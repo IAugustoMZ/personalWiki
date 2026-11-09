@@ -15,7 +15,19 @@
 
 | Arquivo | Tema | Relacionado |
 |---|---|---|
-| [`bi_powerbi.json`](bi_powerbi.json) | Business Intelligence e Power BI | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
+| [`bi_powerbi.json`](bi_powerbi.json) | Business Intelligence e Power BI (179 perguntas) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
+| [`bi_powerbi_round2.json`](bi_powerbi_round2.json) | Power BI, rodada 2 (20 perguntas, 5 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
+| [`bi_powerbi_round3.json`](bi_powerbi_round3.json) | Power BI, rodada 3 (40 perguntas, 10 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
+
+## Validação
+
+Antes de registrar uma nova rodada, valide-a com o script de regras:
+
+```bash
+python questions/validate_questions.py questions/bi_powerbi_round3.json --per-flavor 10
+```
+
+O script confere quantidade por nível, alternativas, referências a material não visível ao aluno, blocos de código, equações LaTeX e marcadores de Markdown.
 
 ## Estratégia de uso
 
