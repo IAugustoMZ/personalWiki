@@ -1,6 +1,6 @@
 # Cursos de Aperfeiçoamento Profissional
 
-70 notas complementares da formação, com foco em carreira, habilidades profissionais e ferramentas práticas.
+71 notas complementares da formação, com foco em carreira, habilidades profissionais e ferramentas práticas.
 
 ## Tópicos cobertos
 
@@ -14,6 +14,6 @@
 - IA Generativa e Agentes de IA: vibe coding, riscos e segurança de modelos LLM/SLM; Langflow para criação visual de fluxos autônomos de IA; n8n como plataforma robusta de automação com integração de IA Generativa, GroqAPI e ferramentas; cuidados e governança na aplicação de IA em automação e RPA.
 - Consultoria, ferramentas de IA e temas de desenvolvimento profissional.
 
-As notas vão de `00_def_pib_08012024.md` a `69_def_pib_21052026.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, o círculo de controle, o framework SMART de metas, o diagrama radial de marca pessoal e o fluxo da metodologia STAR, estão em [Artefatos](../../../artifacts/README.md).
+As notas vão de `00_def_pib_08012024.md` a `70_def_pib_22052026.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, o círculo de controle, o framework SMART de metas, o diagrama radial de marca pessoal e o fluxo da metodologia STAR, estão em [Artefatos](../../../artifacts/README.md).
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
