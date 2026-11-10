@@ -1,0 +1,611 @@
+{
+  "approved_by": "user",
+  "approved_on": "2026-11-09",
+  "topic": {
+    "subsubcategory_id": 41,
+    "name": "Chinese"
+  },
+  "pinyin_format": "tone marks applied during Timesheet import",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nzhè shì kāfēi.\n```",
+      "options": {
+        "A": "This is coffee.",
+        "B": "I want coffee.",
+        "C": "Coffee is hot.",
+        "D": "Where is coffee?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "zhè shì means 'this is'; kāfēi means coffee."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nwǒ shuō zhōngwén hé yīngwén.\n```",
+      "options": {
+        "A": "I study two languages.",
+        "B": "I speak Chinese and English.",
+        "C": "I teach English.",
+        "D": "I like Chinese."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "shuō means speak and hé means and."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Translate $chá + shuǐ = chá hé shuǐ$.",
+      "options": {
+        "A": "Tea and water",
+        "B": "Hot tea",
+        "C": "Water and coffee",
+        "D": "Tea or water"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "chá is tea, shuǐ is water, and hé is and."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Translate $rè + shuǐ = rè shuǐ$.",
+      "options": {
+        "A": "Cold water",
+        "B": "Hot water",
+        "C": "Tea water",
+        "D": "A cup of water"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "rè means hot and shuǐ means water."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does shuǐ mean?",
+      "options": {
+        "A": "Tea",
+        "B": "Water",
+        "C": "Soup",
+        "D": "Sugar"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "shuǐ means water."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does mǐfàn mean?",
+      "options": {
+        "A": "Rice or a meal",
+        "B": "Milk tea",
+        "C": "Porridge",
+        "D": "Vegetables"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "mǐfàn means cooked rice or a meal."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does dòufu mean?",
+      "options": {
+        "A": "Coffee",
+        "B": "Tofu",
+        "C": "Soup",
+        "D": "Ice"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "dòufu means tofu."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does zhōu mean?",
+      "options": {
+        "A": "Rice porridge",
+        "B": "Green tea",
+        "C": "Restaurant",
+        "D": "Luggage"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "zhōu means rice porridge."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does nǐ ne mean?",
+      "options": {
+        "A": "Where are you?",
+        "B": "And you?",
+        "C": "Thank you.",
+        "D": "My name is..."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "nǐ ne asks 'and you?'"
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Translate: zhè shì chá.",
+      "options": {
+        "A": "This is tea.",
+        "B": "I want tea.",
+        "C": "Tea is here.",
+        "D": "Tea and water."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "zhè shì means this is; chá means tea."
+    },
+    {
+      "number": 11,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nwǒ shì rìběn rén, nǐ ne?\n```",
+      "options": {
+        "A": "I am in Japan. Where are you?",
+        "B": "I am Japanese. And you?",
+        "C": "This is Japan. And you?",
+        "D": "I speak Japanese and Chinese."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "rìběn rén means Japanese person."
+    },
+    {
+      "number": 12,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\ntā shàng yīnyuè kè.\n```",
+      "options": {
+        "A": "She likes music.",
+        "B": "She attends a music class.",
+        "C": "She teaches music.",
+        "D": "She is a musician."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "shàng kè means attend a class; yīnyuè is music."
+    },
+    {
+      "number": 13,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Translate $wǒ + de + māma = wǒ de māma$.",
+      "options": {
+        "A": "Your mother",
+        "B": "My mother",
+        "C": "Her mother",
+        "D": "Mother and I"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "wǒ is I or my, de marks possession, and māma is mother."
+    },
+    {
+      "number": 14,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Translate $bù + xǐhuan + shùxué = bù xǐhuan shùxué$.",
+      "options": {
+        "A": "Like mathematics",
+        "B": "Do not like mathematics",
+        "C": "Teach mathematics",
+        "D": "Study mathematics"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "bù negates xǐhuan, 'like'; shùxué is mathematics."
+    },
+    {
+      "number": 15,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Translate: tā bù xǐhuan shùxué.",
+      "options": {
+        "A": "She studies mathematics.",
+        "B": "She does not like mathematics.",
+        "C": "He does not like music.",
+        "D": "She is a mathematics teacher."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "bù xǐhuan means does not like."
+    },
+    {
+      "number": 16,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does yīshēng mean?",
+      "options": {
+        "A": "Teacher",
+        "B": "Doctor",
+        "C": "Student",
+        "D": "Lawyer"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "yīshēng means doctor."
+    },
+    {
+      "number": 17,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Translate: nǐ shì yīshēng, duì bu duì?",
+      "options": {
+        "A": "Are you a doctor, right?",
+        "B": "You are a doctor, right?",
+        "C": "I am a doctor, right?",
+        "D": "Is the doctor here?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "duì bu duì asks for confirmation, like 'right?'"
+    },
+    {
+      "number": 18,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Translate: zhè shì wǒ de bàba.",
+      "options": {
+        "A": "This is your father.",
+        "B": "This is my father.",
+        "C": "My father is here.",
+        "D": "This father is a teacher."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "wǒ de means my; bàba means father."
+    },
+    {
+      "number": 19,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Translate: wǒ chángcháng qù chāoshì mǎi cài.",
+      "options": {
+        "A": "I often go to the supermarket to buy food.",
+        "B": "I do not often eat at a restaurant.",
+        "C": "I go to the bookstore to read.",
+        "D": "I buy tea at the station."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "chángcháng is often, chāoshì is supermarket, and mǎi is buy."
+    },
+    {
+      "number": 20,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does bù cháng mean?",
+      "options": {
+        "A": "Always",
+        "B": "Not often",
+        "C": "Sometimes",
+        "D": "Together"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "bù negates cháng, so the phrase means not often."
+    },
+    {
+      "number": 21,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nwǒ yào liǎng bēi lǜchá.\n```",
+      "options": {
+        "A": "I want two cups of green tea.",
+        "B": "I drink two green teas.",
+        "C": "Two cups want green tea.",
+        "D": "I want green tea without ice."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "yào means want, liǎng bēi means two cups, and lǜchá is green tea."
+    },
+    {
+      "number": 22,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nchēpiào zài qiánbāo lǐ.\n```",
+      "options": {
+        "A": "The wallet is in the ticket.",
+        "B": "The ticket is in the wallet.",
+        "C": "The ticket is at the station.",
+        "D": "The wallet is here."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "chēpiào is ticket, qiánbāo is wallet, and lǐ means inside."
+    },
+    {
+      "number": 23,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Translate $liǎng + bēi + lǜchá = liǎng bēi lǜchá$.",
+      "options": {
+        "A": "Two cups of green tea",
+        "B": "A cup of milk tea",
+        "C": "Two green books",
+        "D": "Three cups of green tea"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "liǎng is two, bēi is a cup classifier, and lǜchá is green tea."
+    },
+    {
+      "number": 24,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Translate $shǒujī + zài + zhèlǐ = shǒujī zài zhèlǐ$.",
+      "options": {
+        "A": "The phone is here.",
+        "B": "The phone is new.",
+        "C": "Where is the phone?",
+        "D": "This is a phone."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "shǒujī is phone, zài marks location, and zhèlǐ is here."
+    },
+    {
+      "number": 25,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Translate: wǒ yào yì bēi nǎichá, bú yào táng, bú yào bīng.",
+      "options": {
+        "A": "I want one milk tea, no sugar, no ice.",
+        "B": "I want milk and tea with sugar and ice.",
+        "C": "This is one cup of cold tea.",
+        "D": "I often drink milk tea."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "bú yào means do not want; táng is sugar and bīng is ice."
+    },
+    {
+      "number": 26,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Translate: xǐshǒujiān zài nǎlǐ?",
+      "options": {
+        "A": "Where is the restroom?",
+        "B": "The restroom is here.",
+        "C": "This is my restroom.",
+        "D": "Where is the train station?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "xǐshǒujiān is restroom; zài nǎlǐ asks where it is."
+    },
+    {
+      "number": 27,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Translate: nǐ hǎo, wǒ jiào Wáng Míng.",
+      "options": {
+        "A": "Hello, I am a teacher.",
+        "B": "Hello, my name is Wang Ming.",
+        "C": "Hello, Wang Ming is here.",
+        "D": "Hello, I like Wang Ming."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "nǐ hǎo is hello and wǒ jiào means my name is."
+    },
+    {
+      "number": 28,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Translate: wǒmen jīntiān yǒu sì jié kè.",
+      "options": {
+        "A": "We have four classes today.",
+        "B": "We study history every day.",
+        "C": "There are four new classmates.",
+        "D": "We like four lessons."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "wǒmen is we, jīntiān is today, and sì jié kè is four classes."
+    },
+    {
+      "number": 29,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Translate: Wáng Míng hé Lǐ Tiānměi dōu shì tóngxué.",
+      "options": {
+        "A": "Wang Ming and Li Tianmei are both classmates.",
+        "B": "Wang Ming calls Li Tianmei a teacher.",
+        "C": "Wang Ming and Li Tianmei study history.",
+        "D": "Wang Ming is Li Tianmei's class."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "hé is and, dōu is both, and tóngxué is classmate."
+    },
+    {
+      "number": 30,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Translate: zhēn de ma?",
+      "options": {
+        "A": "Where is it?",
+        "B": "Is it true?",
+        "C": "What is your name?",
+        "D": "Is it new?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "zhēn de means true or really; ma makes a question."
+    },
+    {
+      "number": 31,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nwǒ de nǚ'ér yě shì xuéshēng.\n```",
+      "options": {
+        "A": "My daughter is also a student.",
+        "B": "My mother is a student.",
+        "C": "Your daughter is also a teacher.",
+        "D": "My daughter likes school."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "wǒ de nǚ'ér is my daughter, yě is also, and xuéshēng is student."
+    },
+    {
+      "number": 32,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\nwǒmen jīntiān shàng lìshǐ kè.\n```",
+      "options": {
+        "A": "We have history class today.",
+        "B": "We like history today.",
+        "C": "We are history students.",
+        "D": "Today is a new class."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "shàng kè means have a class; lìshǐ is history."
+    },
+    {
+      "number": 33,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Translate $tā + de + nǚ'ér = tā de nǚ'ér$.",
+      "options": {
+        "A": "Her daughter",
+        "B": "Her mother",
+        "C": "Their daughter",
+        "D": "The daughter is here"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "tā de marks her possession and nǚ'ér means daughter."
+    },
+    {
+      "number": 34,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Translate $wǒmen + dōu + xǐhuan + lìshǐ = wǒmen dōu xǐhuan lìshǐ$.",
+      "options": {
+        "A": "We all like history.",
+        "B": "We have history today.",
+        "C": "They all teach history.",
+        "D": "History likes us."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "wǒmen is we, dōu is all, xǐhuan is like, and lìshǐ is history."
+    },
+    {
+      "number": 35,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Translate: tā bù cháng qù chāoshì.",
+      "options": {
+        "A": "He does not often go to the supermarket.",
+        "B": "He goes to the supermarket every day.",
+        "C": "She does not often go to the bookstore.",
+        "D": "He buys food at the restaurant."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "tā is he, bù cháng is not often, and chāoshì is supermarket."
+    },
+    {
+      "number": 36,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Translate: āiyā, wǒ de xíngli zài nǎlǐ?",
+      "options": {
+        "A": "Oh no, where is my luggage?",
+        "B": "Thank you, my ticket is here.",
+        "C": "Is my train station new?",
+        "D": "I want two bags."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "āiyā is an exclamation, xíngli is luggage, and zài nǎlǐ asks where it is."
+    },
+    {
+      "number": 37,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Translate: zhè shì nǐ de lǎogōng ma?",
+      "options": {
+        "A": "Is this your husband?",
+        "B": "This is my husband.",
+        "C": "Is your father here?",
+        "D": "Is this your daughter?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "nǐ de is your, lǎogōng is husband, and ma makes a question."
+    },
+    {
+      "number": 38,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Translate: duì, wǒ shì zhōngwén lǎoshī.",
+      "options": {
+        "A": "Yes, I am a Chinese teacher.",
+        "B": "No, I speak Chinese.",
+        "C": "Yes, she is a teacher.",
+        "D": "Correct, this is Chinese."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "duì confirms, wǒ shì means I am, and zhōngwén lǎoshī is Chinese teacher."
+    },
+    {
+      "number": 39,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Translate: dì yī zhàntái zài zhèlǐ.",
+      "options": {
+        "A": "The first platform is here.",
+        "B": "The first train is there.",
+        "C": "The station is first.",
+        "D": "The ticket is here."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "dì yī means first, zhàntái is platform, and zài zhèlǐ is here."
+    },
+    {
+      "number": 40,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Translate: bú kèqi.",
+      "options": {
+        "A": "Thank you.",
+        "B": "You are welcome.",
+        "C": "No sugar.",
+        "D": "Excuse me."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "bú kèqi is the usual answer to thanks and means you are welcome."
+    }
+  ]
+}

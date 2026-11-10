@@ -18,6 +18,7 @@
 | [`bi_powerbi.json`](bi_powerbi.json) | Business Intelligence e Power BI (179 perguntas) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
 | [`bi_powerbi_round2.json`](bi_powerbi_round2.json) | Power BI, rodada 2 (20 perguntas, 5 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
 | [`bi_powerbi_round3.json`](bi_powerbi_round3.json) | Power BI, rodada 3 (40 perguntas, 10 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
+| [`chinese_duolingo_levels_01_09_round1.json`](chinese_duolingo_levels_01_09_round1.json) | Chinês: Duolingo, níveis 1–9 (40 perguntas, 10 por nível) | [Notas de Chinês](../languages/chinese/00_lan_chn_10082026.md) |
 
 ## Validação
 
