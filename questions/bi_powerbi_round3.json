@@ -1,0 +1,611 @@
+{
+  "topic": {
+    "subsubcategory_id": 38,
+    "name": "[Course] - Microsoft Power BI para Business Intelligence e Data Science"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the DAX measure that returns the total sales:\n\n```dax\nTotal Sales = ____(Fact_Sales[Sales])\n```",
+      "options": {
+        "A": "DISTINCTCOUNT",
+        "B": "SUM",
+        "C": "AVERAGE",
+        "D": "COUNTROWS"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "SUM adds the values of a column in the current filter context. The other functions compute an average, a row count, or a count of distinct values."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the Power Query step that replaces every \"?\" with null, only in the named column:\n\n```m\nNoQuestionMarks = Table.ReplaceValue(Promoted, \"?\", null, Replacer.ReplaceValue, {\"____\"})\n```",
+      "options": {
+        "A": "Segment",
+        "B": "CustomerID",
+        "C": "Age",
+        "D": "Name"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The list argument limits the replacement to the named columns. Replacing \"?\" before the type conversion matters, because a text column accepts \"?\" as a valid value."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Profit is defined per order line as $\\text{Profit}_i = \\text{Sales}_i - \\text{Shipping}_i$. Which expression gives the profit margin percentage over all lines?",
+      "options": {
+        "A": "$\\frac{\\sum_i \\text{Profit}_i}{\\sum_i \\text{Sales}_i} \\times 100$",
+        "B": "$\\frac{\\sum_i \\text{Shipping}_i}{\\sum_i \\text{Sales}_i} \\times 100$",
+        "C": "$\\frac{\\max_i \\text{Profit}_i}{\\max_i \\text{Sales}_i} \\times 100$",
+        "D": "$\\frac{1}{n}\\sum_i \\frac{\\text{Profit}_i}{\\text{Sales}_i} \\times 100$"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The margin is the ratio of summed profit to summed sales, so every dollar of sales counts equally. An average of line margins would give a small line the same weight as a large one."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Average ticket is $\\frac{\\sum_i \\text{Sales}_i}{|\\{\\text{Order ID}\\}|}$. What does the denominator count?",
+      "options": {
+        "A": "Order lines",
+        "B": "Distinct orders",
+        "C": "Distinct products",
+        "D": "Months in the period"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The denominator counts distinct order IDs. An order with two lines is counted once, so the average is per order, not per line."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Power Platform product is used to build chatbots?",
+      "options": {
+        "A": "Power BI",
+        "B": "Power Automate",
+        "C": "Power Apps",
+        "D": "Power Virtual Agents"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Power Virtual Agents builds chatbots. Power Automate automates workflows, Power Apps builds custom apps, and Power BI analyzes and visualizes data."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Power BI version embeds dashboards inside a web application?",
+      "options": {
+        "A": "Power BI Desktop",
+        "B": "Power BI Pro",
+        "C": "Power BI Mobile",
+        "D": "Power BI Embedded"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Power BI Embedded places dashboards inside web applications, so users see them within the application itself."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In a star schema, what does a fact table store?",
+      "options": {
+        "A": "Numeric measures recorded at the grain of one event, linked to dimension tables by keys",
+        "B": "Only dates",
+        "C": "Data governance rules",
+        "D": "Descriptive attributes such as names and regions"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The fact table holds measures at a defined grain, such as one order line. Dimension tables describe the entities those rows refer to."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which visual shows the share of a whole across many categories as proportional areas?",
+      "options": {
+        "A": "Treemap",
+        "B": "Card",
+        "C": "Map",
+        "D": "Scatter chart"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A treemap sizes each rectangle by its share of the total, which suits more categories than a waterfall chart."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is the main purpose of a slicer in a Power BI report?",
+      "options": {
+        "A": "Publishing the report to mobile devices",
+        "B": "Filtering the visuals on the page interactively",
+        "C": "Writing DAX measures",
+        "D": "Connecting to a database"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A slicer lets viewers filter all linked visuals on the page without editing the model."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does the Column Distribution view in Power Query show?",
+      "options": {
+        "A": "The DAX formulas of the model",
+        "B": "The report theme colors",
+        "C": "Small distribution charts, outliers and distinct values for each column",
+        "D": "The SQL query plan"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Column Distribution shows the spread of values, outliers and the number of distinct and unique values, which helps spot data quality issues early."
+    },
+    {
+      "number": 11,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the 3-month moving average measure. The date table is marked as a date table.\n\n```dax\nSales MA3 =\nCALCULATE(\n    AVERAGE(Fact_Sales[sales]),\n    ____(Dim_Month[month], MAX(Dim_Month[month]), -3, MONTH)\n)\n```",
+      "options": {
+        "A": "DATESBETWEEN",
+        "B": "SAMEPERIODLASTYEAR",
+        "C": "FILTER",
+        "D": "DATESINPERIOD"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "DATESINPERIOD returns a window of dates that ends at the latest selected month and goes back three months, so the average covers exactly those months."
+    },
+    {
+      "number": 12,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the measure so it returns a blank instead of a division error when total sales is zero:\n\n```dax\nProfit Margin % = ____([Didactic Profit], [Total Sales])\n```",
+      "options": {
+        "A": "DIVIDE",
+        "B": "DIV",
+        "C": "SUMX",
+        "D": "ROUND"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "DIVIDE is the safe division function in DAX. It returns a blank, or an alternate result you pass, when the denominator is zero."
+    },
+    {
+      "number": 13,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A monthly target for average sale value is 350. Which expression gives the target attainment percentage for a month whose average sale value is $\\bar{x}_m$?",
+      "options": {
+        "A": "$\\frac{\\bar{x}_m - 350}{\\bar{x}_m}$",
+        "B": "$\\frac{350}{\\bar{x}_m} \\times 100$",
+        "C": "$\\frac{\\bar{x}_m}{350} \\times 100$",
+        "D": "$\\bar{x}_m - 350$"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Attainment is the actual value divided by the target, times 100. An average of 280 against 350 gives 80%."
+    },
+    {
+      "number": 14,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Which formula gives the year-over-year growth of monthly sales $S_m$?",
+      "options": {
+        "A": "$\\frac{S_m - S_{m-1}}{S_m}$",
+        "B": "$S_m - S_{m-12}$",
+        "C": "$\\frac{S_m - S_{m-12}}{S_{m-12}} \\times 100$",
+        "D": "$\\frac{S_m}{S_{m+12}} \\times 100$"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Growth compares the month with the same month one year earlier, which is 12 steps back in monthly data. Dividing by the earlier value turns the difference into a percentage."
+    },
+    {
+      "number": 15,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why should a date table be marked as a date table before using time intelligence functions?",
+      "options": {
+        "A": "So the columns are hidden from the report",
+        "B": "So Power Query runs faster",
+        "C": "So the report can be published to mobile",
+        "D": "So the time functions can rely on a continuous, unique date column"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Time intelligence functions need one row per date with no gaps. Marking the table tells Power BI which column to use."
+    },
+    {
+      "number": 16,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why is DISTINCTCOUNT preferred over COUNT when counting orders that have several lines?",
+      "options": {
+        "A": "It counts each order ID once, however many lines it has",
+        "B": "It is faster on every dataset",
+        "C": "It ignores blank values in the sales column",
+        "D": "It works only on dates"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "COUNT would count order lines. DISTINCTCOUNT of the order ID counts each order once, which is the right unit for order-level metrics."
+    },
+    {
+      "number": 17,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "In Power Query, which action keeps only the first row for each CustomerID?",
+      "options": {
+        "A": "Split the name column",
+        "B": "Remove duplicates on the CustomerID column",
+        "C": "Unpivot the table",
+        "D": "Filter rows where Age is null"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Removing duplicates by a key keeps one row per key value, which prevents a customer from being counted several times."
+    },
+    {
+      "number": 18,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A dashboard must compare actual sales with a target using a single headline number. Which visual fits best?",
+      "options": {
+        "A": "Scatter chart",
+        "B": "Map",
+        "C": "KPI indicator",
+        "D": "Treemap"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A KPI visual shows one actual value against its goal and the status, which is the purpose of a headline indicator."
+    },
+    {
+      "number": 19,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which layout practice most improves the legibility of a Power BI dashboard?",
+      "options": {
+        "A": "Maximum number of colors for every series",
+        "B": "No titles, so the charts speak for themselves",
+        "C": "Hiding the filters",
+        "D": "Few visuals per page, clear titles and a consistent color style"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Clear titles, few visuals and a consistent palette let readers find the message quickly. Dense, multicolor pages slow interpretation."
+    },
+    {
+      "number": 20,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the Power Query step that keeps one row per customer:\n\n```m\nNoDuplicates = Table.____(Promoted, {\"CustomerID\"})\n```",
+      "options": {
+        "A": "Distinct",
+        "B": "Duplicate",
+        "C": "Unique",
+        "D": "Group"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Table.Distinct keeps the first row for each key combination, which is how duplicate customer rows are removed."
+    },
+    {
+      "number": 21,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "This measure averages the sales of each selected ship mode, so a selection of several modes returns the wrong total. Complete the correct version:\n\n```dax\nSales Per Mode = ____(VALUES(Dim_ShipMode[ShipMode]), [Total Sales])\n```",
+      "options": {
+        "A": "COUNTX",
+        "B": "SUMX",
+        "C": "AVERAGEX",
+        "D": "MAXX"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "SUMX adds the measure across the selected modes, so the result equals the total for the selection. AVERAGEX would divide that total by the number of modes."
+    },
+    {
+      "number": 22,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the step that reads order dates written in the Brazilian Portuguese format:\n\n```m\nDates = Table.TransformColumnTypes(Source, {{\"OrderDate\", type date}}, \"____\")\n```",
+      "options": {
+        "A": "Replacer.ReplaceValue",
+        "B": "65001",
+        "C": "pt-BR",
+        "D": "UTF-8"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The culture argument controls how text dates are parsed. Without it, 03/04 can be read as March 4 or April 3 depending on the machine."
+    },
+    {
+      "number": 23,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A forecast model is fitted on 36 months and tested on the last 6. Which accuracy measure should choose the model?\n\n$$\n\\text{MAPE} = \\frac{100}{h}\\sum_{t \\in \\text{holdout}} \\left|\\frac{y_t - \\hat{y}_t}{y_t}\\right|\n$$",
+      "options": {
+        "A": "MAPE computed on the holdout months, where $h$ is the number of held-out months",
+        "B": "The sum of all $y_t$",
+        "C": "The ratio of the mean forecast to the mean actual",
+        "D": "MAPE computed on the training fit only"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The model must be judged on months it did not see during fitting. Error on the holdout shows out-of-sample accuracy, while training fit can look good because the model adapted to those months."
+    },
+    {
+      "number": 24,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Under the interquartile rule, with $\\text{IQR} = Q_3 - Q_1$, which condition flags a value $x$ as an outlier?",
+      "options": {
+        "A": "$x > \\bar{x} + 3\\sigma$ only",
+        "B": "$x < Q_1 - 1.5\\,\\text{IQR}$ or $x > Q_3 + 1.5\\,\\text{IQR}$",
+        "C": "$x < \\text{median}$",
+        "D": "$|x - \\bar{x}| < \\sigma$"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The IQR fences are two-sided and depend on the spread of the middle half of the data, so they are robust to extreme values. The 3-sigma rule uses the mean and standard deviation, which extreme values distort."
+    },
+    {
+      "number": 25,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A monthly sales series shows a repeating yearly pattern and a steady upward drift. Which model captures both components explicitly?",
+      "options": {
+        "A": "A correlation matrix",
+        "B": "Holt-Winters with additive trend and additive seasonality",
+        "C": "A simple moving average of one month",
+        "D": "A constant mean forecast"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Holt-Winters models level, trend and seasonality explicitly. A moving average of one month removes neither the seasonality nor the drift."
+    },
+    {
+      "number": 26,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Before choosing the number of customer segments with clustering, which two checks justify the choice?",
+      "options": {
+        "A": "The number of rows in the dashboard",
+        "B": "The date of the last refresh",
+        "C": "The elbow in inertia and the silhouette score across candidate values of k",
+        "D": "The number of colors in the report theme"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Inertia shows where adding clusters stops reducing error much, and the silhouette score shows how well separated the clusters are. Together they justify k."
+    },
+    {
+      "number": 27,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why apply a log transform before standardizing recency, frequency and monetary features for segmentation?",
+      "options": {
+        "A": "It converts counts into dates",
+        "B": "It removes every outlier",
+        "C": "Clustering algorithms require integer input",
+        "D": "Heavily skewed spending would otherwise dominate the distance between customers"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A skewed feature with very large values dominates Euclidean distance. The log transform reduces the skew, and standardization then puts the features on the same scale."
+    },
+    {
+      "number": 28,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A dashboard computes a KPI for each segment and then averages the segment KPIs. Why can the result differ from the KPI computed over all rows?",
+      "options": {
+        "A": "The average of ratios ignores segment sizes, while the ratio of summed parts weights each row equally",
+        "B": "The dashboard rounds each segment separately",
+        "C": "DAX cannot compute averages",
+        "D": "The segments overlap by definition"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "An unweighted average of segment ratios treats a small segment like a large one. The correct approach is to aggregate the sums first and then divide."
+    },
+    {
+      "number": 29,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "When several teams calculate the same KPI in their own reports, what failure appears first?",
+      "options": {
+        "A": "Higher license cost of Power BI Desktop",
+        "B": "Different numbers for the same metric, which damages trust in every report",
+        "C": "Slower refresh of the source database",
+        "D": "Loss of the date table"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Competing definitions produce conflicting numbers, and the loss of trust is the primary damage. Governed shared measures prevent it."
+    },
+    {
+      "number": 30,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What is the main reason to keep simple rule-based baselines, such as a z-score or IQR rule, when evaluating an anomaly detection model?",
+      "options": {
+        "A": "They replace the need for labeled data",
+        "B": "They make the dashboard faster",
+        "C": "They define the minimum performance any learned model must beat on labeled cases",
+        "D": "They are required by the report theme"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A baseline is the bar a more complex model must clear. If a learned model does not beat simple rules on labeled cases, its extra complexity is not justified."
+    },
+    {
+      "number": 31,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A CEO wants one definition of profit margin that every report reuses. Complete the shared measure:\n\n```dax\nProfit Margin % = DIVIDE(____, [Total Sales])\n```",
+      "options": {
+        "A": "[Shipping Cost]",
+        "B": "[Orders]",
+        "C": "Fact_Sales[Sales]",
+        "D": "[Didactic Profit]"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "One governed measure defines the ratio in one place. Every report that reuses it inherits the same numerator and denominator, so the margin cannot drift between teams."
+    },
+    {
+      "number": 32,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A shared cleaning function must return a number from text, and it is reused across datasets. Complete the final step:\n\n```m\n(value as nullable text) as nullable number =>\n    let\n        cleaned = Text.Replace(value, \"?\", \"\")\n    in\n        ____(cleaned)\n```",
+      "options": {
+        "A": "Number.FromText",
+        "B": "Text.Upper",
+        "C": "Table.Distinct",
+        "D": "Date.FromText"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A reusable function turns the cleaned text into a number, so every dataset that calls it gets the same parsing rule. This is how a cleaning standard scales beyond one report."
+    },
+    {
+      "number": 33,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A CEO compares business units of very different sizes. Which metric gives a fair comparison of profitability?\n\n$$\n\\frac{\\sum_{u} \\text{Profit}_u}{\\sum_{u} \\text{Sales}_u}\n$$",
+      "options": {
+        "A": "The unit with the highest single profit line",
+        "B": "The ratio of summed profit to summed sales across units",
+        "C": "The mean of each unit's profit divided by its sales",
+        "D": "The total profit, ignoring sales"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The ratio of sums weights each unit by its sales, so large and small units are compared on the same basis. A mean of ratios treats a small unit like a large one."
+    },
+    {
+      "number": 34,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A roadmap must choose a forecasting model. Forecast error on the holdout is $e_t = y_t - \\hat{y}_t$. Which decision rule best supports the investment?\n\n$$\n\\text{choose the model minimizing } \\frac{1}{h}\\sum_{t=1}^{h} |e_t|\n$$",
+      "options": {
+        "A": "The model with the highest training R-squared",
+        "B": "The most complex model",
+        "C": "The model with the smallest error on the training data",
+        "D": "The model with the smallest mean absolute error over the h held-out months"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Held-out error approximates how the model will behave on future months. Training error rewards overfitting, and complexity alone does not improve forecasts."
+    },
+    {
+      "number": 35,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "The company plans to reuse one semantic model across all departments to cut reporting costs. Which is the main risk to manage?",
+      "options": {
+        "A": "Power BI cannot share a model across reports",
+        "B": "Each department must buy its own license for the model",
+        "C": "The model stops refreshing after one month",
+        "D": "A change to a shared definition propagates to every report, so versioning and governance must control it"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Reuse multiplies both the benefit and the blast radius of a change. Governance, ownership and versioning of shared definitions protect the investment."
+    },
+    {
+      "number": 36,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Why does a scaled BI program invest in data lineage and governance?",
+      "options": {
+        "A": "So any number can be traced to its sources and transformations for audit and trust",
+        "B": "So dashboards load faster on mobile",
+        "C": "So the date table can be removed",
+        "D": "So report colors become standard"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Lineage shows where a figure came from. Auditable traceability is what lets executives trust a number that drives a decision."
+    },
+    {
+      "number": 37,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Before adding fraud-oriented anomaly detection to the roadmap, which question should the CEO ask first?",
+      "options": {
+        "A": "Which date format is preferred?",
+        "B": "What is the cost of false alarms compared with the cost of missed cases?",
+        "C": "Which chart colors match the brand?",
+        "D": "How many visuals fit on a page?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The decision threshold depends on the relative cost of false positives and false negatives. That trade-off sets the acceptable model behavior before any technical choice."
+    },
+    {
+      "number": 38,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A company centralizes one model for all departments. Which trade-off does it accept?",
+      "options": {
+        "A": "No trade-off, because the model is shared",
+        "B": "Lower security in exchange for speed",
+        "C": "Consistent definitions across departments in exchange for slower local changes",
+        "D": "Faster local changes in exchange for inconsistent numbers"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Centralization buys one set of definitions, which is valuable, but local teams must go through the shared model to change a metric."
+    },
+    {
+      "number": 39,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which strategic indicator best shows that Power BI is changing decisions, not only producing reports?",
+      "options": {
+        "A": "The number of pages published per month",
+        "B": "The number of visuals per dashboard",
+        "C": "The number of users who opened the report once",
+        "D": "Decisions taken at KPI reviews that are traceably linked to a specific metric and its target"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Impact shows up when a recorded decision cites a metric and its target. Page counts and one-time views measure activity, not influence."
+    },
+    {
+      "number": 40,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Why does a sound BI roadmap put descriptive analytics before predictive models?",
+      "options": {
+        "A": "Descriptive analytics establishes trusted definitions and baselines needed to validate any prediction",
+        "B": "Predictions are not allowed in business intelligence",
+        "C": "Descriptive analytics is cheaper and therefore always done first",
+        "D": "Predictive models need no data"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A forecast is only as credible as the history and definitions behind it. Descriptive work provides those baselines and the reference for checking predictions."
+    }
+  ],
+  "approved_by": "user",
+  "approved_on": "2026-11-09",
+  "source_round": "round 3 (10 per flavor, all approved)"
+}

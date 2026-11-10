@@ -1,0 +1,311 @@
+{
+  "topic": {
+    "subsubcategory_id": 38,
+    "name": "[Course] - Microsoft Power BI para Business Intelligence e Data Science"
+  },
+  "approved_by": "user",
+  "approved_on": "2026-11-09",
+  "source_round": "round 2 (5 per flavor)",
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "question_text": "Which Power BI product is free and used to build reports on a local computer?",
+      "options": {
+        "A": "Power BI Pro",
+        "B": "Power BI Premium",
+        "C": "Power BI Desktop",
+        "D": "Power BI Mobile"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Power BI Desktop is the free tool for building dashboards on your own machine. Its limit is that reports stay local, so sharing them online requires Pro or Premium.",
+      "kind": "concept"
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "question_text": "In Power Query, what does each applied transformation step correspond to in the underlying code?",
+      "options": {
+        "A": "A DAX measure",
+        "B": "An SQL view",
+        "C": "A Power Query M instruction",
+        "D": "A PDF report"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Each step you apply in Power Query is recorded as an M instruction. You can open the Advanced Editor to read or customize that code.",
+      "kind": "concept"
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "question_text": "A dashboard must show how many sales occurred in each product category. Which visual fits best?",
+      "options": {
+        "A": "Card",
+        "B": "Map",
+        "C": "Waterfall",
+        "D": "Bar chart"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Counts across categories are a comparison, which a bar chart shows clearly. A card shows one number, a map needs geographic data, and a waterfall shows how parts add up to a total.",
+      "kind": "concept"
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "question_text": "Two tables have a many-to-many relationship. What is the recommended approach in Power BI?",
+      "options": {
+        "A": "Delete one of the tables",
+        "B": "Add a bridge (intermediate) table that links them through one-to-many relationships",
+        "C": "Merge both tables into one column",
+        "D": "Turn off cross-filtering"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Many-to-many relationships cause integrity problems and slower queries. A bridge table turns them into one-to-many relationships, which keeps filters predictable.",
+      "kind": "concept"
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "question_text": "A KPI has a monthly target of 350 for average sale value. What does the target represent?",
+      "options": {
+        "A": "Last year's total sales",
+        "B": "The goal the business aims to reach each month",
+        "C": "The number of sales lines in the month",
+        "D": "The discount applied to sales"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A target is the goal a KPI is compared against. Attainment is actual divided by target, so a value of 280 against 350 means 80% attainment.",
+      "kind": "concept"
+    },
+    {
+      "number": 6,
+      "difficulty": "medium",
+      "question_text": "Total profit is 3,160 and total sales is 3,490. Monthly margins are 87.29%, 91.00%, and 91.43%, which average 89.91%. Which margin should a KPI card show as the business margin?",
+      "options": {
+        "A": "89.91%, the average of the monthly margins",
+        "B": "91.43%, the highest monthly margin",
+        "C": "90.54%, total profit divided by total sales",
+        "D": "87.29%, the lowest monthly margin"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Margin is total profit divided by total sales. Averaging monthly percentages gives every month the same weight regardless of its size, so the result can differ from the true ratio.",
+      "kind": "concept"
+    },
+    {
+      "number": 7,
+      "difficulty": "medium",
+      "question_text": "Two tables should be linked on a CustomerID column, but Power BI does not create the relationship automatically. What is the most useful first check?",
+      "options": {
+        "A": "Confirm that CustomerID has no duplicates on the \"one\" side and matches exactly in both tables",
+        "B": "Change the visual type",
+        "C": "Add another report page",
+        "D": "Publish the report to Power BI Mobile"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Power BI only creates a relationship when the keys are consistent. Duplicates on the \"one\" side, or extra spaces and mismatched values, block detection. Counting values by group reveals duplicates quickly.",
+      "kind": "concept"
+    },
+    {
+      "number": 8,
+      "difficulty": "medium",
+      "question_text": "A monthly KPI has a target of 350, and this month's average sale value is 280. What is the best way to present it to a manager?",
+      "options": {
+        "A": "Only the 280",
+        "B": "Only the 350",
+        "C": "Total sales for the year",
+        "D": "The 280, with 80% attainment and a \"below target\" status"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A KPI is most useful when it shows the actual value, the target, the attainment percentage (280 ÷ 350 = 80%), and a clear status. A single number without the target hides whether the result is good.",
+      "kind": "concept"
+    },
+    {
+      "number": 9,
+      "difficulty": "medium",
+      "question_text": "A page had 1,200 visitors and 96 purchases. What is the conversion rate?",
+      "options": {
+        "A": "12.5%",
+        "B": "8%",
+        "C": "0.8%",
+        "D": "96%"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Conversion rate is the share of visitors who complete the desired action: 96 ÷ 1,200 = 8%.",
+      "kind": "concept"
+    },
+    {
+      "number": 10,
+      "difficulty": "medium",
+      "question_text": "A numeric column was loaded as text and contains \"?\" values. Power Query's quality summary counts them as valid. Why?",
+      "options": {
+        "A": "Because the column is typed as text, so \"?\" counts as valid text",
+        "B": "Because \"?\" is treated as null",
+        "C": "Because \"?\" is a number",
+        "D": "Because the quality summary ignores text"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Quality checks evaluate values against the column's type. A numeric column typed as text accepts \"?\", so the type should be set to a number and non-numeric values handled explicitly.",
+      "kind": "concept"
+    },
+    {
+      "number": 11,
+      "difficulty": "hard",
+      "question_text": "The margin by Category does not add up to the total margin on the dashboard. Which change fixes the cause in the model rather than in the visuals?",
+      "options": {
+        "A": "Average each row's margin",
+        "B": "Hide the table",
+        "C": "Define margin as a measure, DIVIDE(total profit, total sales), so it recalculates for each filter context",
+        "D": "Convert the margin to a text column"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Averaging row-level or category-level percentages breaks at other filter levels. Build the base sums as measures, then derive the ratio with DIVIDE so it is correct for any selection.",
+      "kind": "concept"
+    },
+    {
+      "number": 12,
+      "difficulty": "hard",
+      "question_text": "A team sets prices using a \"profit\" equal to sales minus shipping cost, which gives margins near 90%. What is the most systemic problem?",
+      "options": {
+        "A": "The display precision is too low",
+        "B": "The dataset is too small",
+        "C": "Shipping cost should be added to sales",
+        "D": "The profit definition ignores product cost, so margins overstate real profitability"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Sales minus shipping leaves out the cost of the goods sold, so it is not a gross margin. Pricing decisions need the full cost definition, checked against accounting.",
+      "kind": "concept"
+    },
+    {
+      "number": 13,
+      "difficulty": "hard",
+      "question_text": "Monthly averages of sale value are 500 in March (3 lines) and 280 in April (5 lines), against a target of 350. A manager wants to know whether the trend is real. What is the most defensible answer?",
+      "options": {
+        "A": "Averages from so few lines are unstable, so no trend conclusion should be drawn yet",
+        "B": "The trend is real, since March is 143% of target",
+        "C": "Always use the median instead of the average",
+        "D": "Ignore the target"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "With only 3 to 5 lines per month, one order can move the average sharply. Check the sample size for each period before reading a trend.",
+      "kind": "concept"
+    },
+    {
+      "number": 14,
+      "difficulty": "hard",
+      "question_text": "A monthly total breaks after a refresh on a computer with a different regional setting, because dates load as text. Which fix addresses the cause?",
+      "options": {
+        "A": "Rename the visual",
+        "B": "Convert the date column to a Date type using the correct locale during transformation, and validate it on load",
+        "C": "Delete the month slicer",
+        "D": "Replace the chart with a card"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Date formats depend on regional settings: 03/04 is March 4 in one locale and April 3 in another. Typing the column explicitly with the correct locale fixes parsing at the source.",
+      "kind": "concept"
+    },
+    {
+      "number": 15,
+      "difficulty": "hard",
+      "question_text": "A many-to-many relationship between Sales and Shipping double-counts sales in totals. What is the systemic remedy?",
+      "options": {
+        "A": "Use DISTINCTCOUNT on the sales amount",
+        "B": "Remove the date table",
+        "C": "Turn off cross-filtering",
+        "D": "Add an intermediate table so each link is one-to-many and each sale is aggregated once"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A many-to-many join repeats rows on both sides, so sums are inflated. A bridge table restores one-to-many links, and each sale is then counted once.",
+      "kind": "concept"
+    },
+    {
+      "number": 16,
+      "difficulty": "expert",
+      "question_text": "You are planning a three-year Power BI roadmap covering sales, shipping, and forecasting. Which sequencing minimizes risk?",
+      "options": {
+        "A": "Forecasting first, to impress stakeholders",
+        "B": "Governed data model and metric definitions first, then descriptive KPIs, then segmentation and forecasting",
+        "C": "Machine learning first, since models refresh automatically",
+        "D": "Mobile rollout first"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Forecasts and segments inherit the quality of the data model and the metric definitions. Stabilizing those first avoids rework and conflicting numbers later.",
+      "kind": "concept"
+    },
+    {
+      "number": 17,
+      "difficulty": "expert",
+      "question_text": "A board proposes cutting prices because a margin of about 90% looks healthy, and that margin excludes product cost. What is the most critical response?",
+      "options": {
+        "A": "Approve, since the dashboard shows a healthy margin",
+        "B": "Hide the margins from the board",
+        "C": "Reject the basis for the decision, define a gross margin that includes product cost, and reconcile it with accounting",
+        "D": "Collect a larger sample before deciding"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A metric that ignores a major cost is a simplification, not a business result. Critical review means checking the definition before acting on the number.",
+      "kind": "concept"
+    },
+    {
+      "number": 18,
+      "difficulty": "expert",
+      "question_text": "Monthly KPI averages rest on 2, 3, and 5 lines. Which long-term governance decision is strongest?",
+      "options": {
+        "A": "Require a minimum sample size or a rolling window before judging target attainment, and show the line count next to the KPI",
+        "B": "Drop the target",
+        "C": "Keep the monthly averages as they are",
+        "D": "Use only card visuals"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Governance should define when a KPI is reliable. Setting a minimum volume or rolling window, and showing the count beside the metric, lets readers judge its strength.",
+      "kind": "concept"
+    },
+    {
+      "number": 19,
+      "difficulty": "expert",
+      "question_text": "You want to add anomaly detection to a sales dashboard. Which staged approach is most sound?",
+      "options": {
+        "A": "Start with deep learning models",
+        "B": "Limit anomaly detection to marketing data",
+        "C": "Skip simple rules and go straight to a model",
+        "D": "Start with statistical baselines such as the IQR rule or z-score, document the threshold assumption, and adopt a learned model only if it beats those baselines on labeled cases"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Simple rules are transparent and cheap, and they set the bar any model must clear. The threshold or contamination assumption controls how many points get flagged, so it must be documented.",
+      "kind": "concept"
+    },
+    {
+      "number": 20,
+      "difficulty": "expert",
+      "question_text": "Over five years, a company wants Power BI for reporting only, with no warehouse and no star schema. What is the strongest argument against that?",
+      "options": {
+        "A": "Star schemas are unnecessary for reporting",
+        "B": "Excel is enough for any amount of data",
+        "C": "As sources and users grow, a governed star schema keeps metrics consistent and reduces rework, at the cost of upfront modeling",
+        "D": "Power BI replaces data governance"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A star schema separates measures from descriptive dimensions, which keeps queries fast and definitions shared. The upfront modeling cost is repaid as the number of reports and sources grows.",
+      "kind": "concept"
+    }
+  ]
+}
