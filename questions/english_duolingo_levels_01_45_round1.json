@@ -1,0 +1,3215 @@
+{
+  "approved_by": "user (bulk generation request, delegated approval)",
+  "approved_on": "2026-11-11",
+  "topic": {
+    "subsubcategory_id": 43,
+    "name": "English"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the description of a car that is small and red:\n```text\nI have a ____ car.\n```",
+      "options": {
+        "A": "red small",
+        "B": "small red",
+        "C": "smalls red",
+        "D": "small reds"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Adjectives go before the noun, never change for number, and size usually comes before colour: `a small red car`. Another example: `a big blue bag`."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The present simple question pattern is $\\text{Does} + \\text{she} + \\text{base verb}\\,?$. Which question asks if she teaches?",
+      "options": {
+        "A": "Does she teach?",
+        "B": "Does she teaches?",
+        "C": "Do she teach?",
+        "D": "Is she teach?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "After `does` the main verb goes back to the base form, without `-s`. Another example: `Does he work here?`"
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "A doctor gives you a paper that lets you buy certain medicine at the pharmacy. What is it called?",
+      "options": {
+        "A": "a receipt",
+        "B": "a prescription",
+        "C": "an appointment",
+        "D": "a symptom"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A `prescription` is the doctor's written order for medicine. An `appointment` is a scheduled visit, and a `receipt` shows proof of payment."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "The customer wants a smaller version of a shirt. Complete the question:\n```text\nThis shirt is too big. Do you have a smaller ____?\n```",
+      "options": {
+        "A": "one",
+        "B": "ones",
+        "C": "it",
+        "D": "them"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The pronoun `one` replaces a singular countable noun so that it is not repeated (`ones` replaces a plural). Another example: `I like the red ones.`"
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Questions in the present continuous follow $\\text{Wh-word} + \\text{am/is/are} + \\text{subject} + \\text{verb}_{-ing}\\,?$. Which question asks what you are doing now?",
+      "options": {
+        "A": "What are you doing?",
+        "B": "What you are doing?",
+        "C": "What do you doing?",
+        "D": "What are you do?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "When the auxiliary is `be`, do not add `do`/`does`; just move `be` before the subject. Another example: `Where is she going?`"
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete: \"He doesn't ____ on Sundays.\"",
+      "options": {
+        "A": "work",
+        "B": "works",
+        "C": "working",
+        "D": "to work"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "After the auxiliary `doesn't` the main verb stays in the base form (present simple negative, third person). Another example: `She doesn't eat meat.`"
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is the English word for the person who trains and directs a sports team?",
+      "options": {
+        "A": "coach",
+        "B": "fan",
+        "C": "referee",
+        "D": "stadium"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The `coach` trains the team. A `referee` controls the match and fans watch it. Another example: `The coach is happy with the team.`"
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the shopping question:\n```text\nHow much ____ these jeans?\n```",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "does",
+        "D": "be"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Jeans is a plural noun, so the question uses `How much are ...?` (singular items use `is`). Another example: `How much is this shirt?`"
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word names the room in a shop where you try on clothes?",
+      "options": {
+        "A": "checkout",
+        "B": "aisle",
+        "C": "fitting room",
+        "D": "stockroom"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The `fitting room` is where customers try on clothes. The `checkout` is where you pay and an `aisle` is a corridor between shelves."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{a/an} + \\text{adjective} + \\text{noun}$ to describe a house that is old. Which phrase is correct?",
+      "options": {
+        "A": "an old house",
+        "B": "a house old",
+        "C": "a old house",
+        "D": "an house old"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The adjective goes before the noun, and the article agrees with the first sound after it: `old` starts with a vowel sound, so `an`. Another example: `a new phone`."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the invitation:\n```text\n____ go to the park!\n```",
+      "options": {
+        "A": "Lets to",
+        "B": "Let's",
+        "C": "Let to",
+        "D": "We lets"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Let's` plus the base verb invites someone to do something together: `Let's go`. Do not add `to` after it. Another example: `Let's eat lunch.`"
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete the negative: \"I ____ a doctor.\"",
+      "options": {
+        "A": "don't",
+        "B": "amn't",
+        "C": "am not",
+        "D": "not"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The negative of the verb `be` is formed with `not` after the verb (present simple of to be); `do` is not used, and `amn't` does not exist in standard English. Another example: `They are not at home.`"
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete: \"The movie is ____. I'm bored.\"",
+      "options": {
+        "A": "bored",
+        "B": "bore",
+        "C": "boring",
+        "D": "boringly"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adjectives in `-ing` describe what causes a feeling, while `-ed` adjectives describe how a person feels. Another example: `The trip is tiring, so I am tired.`"
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence says that a person is \"30 years old\" correctly?",
+      "options": {
+        "A": "I have thirty years.",
+        "B": "I have thirty.",
+        "C": "I am having thirty years.",
+        "D": "I am thirty years old."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Age is expressed with the verb `be` (present simple of to be for age), not with `have` as in Portuguese. Another example: `My son is five.`"
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word is NOT one of the seven coordinating conjunctions in the acronym FANBOYS?",
+      "options": {
+        "A": "because",
+        "B": "for",
+        "C": "nor",
+        "D": "yet"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "FANBOYS stands for for, and, nor, but, or, yet, so. `Because` is a subordinating conjunction, not a coordinating one."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Feelings follow $\\text{subject} + \\text{be} + \\text{adjective}$. Which sentence says that you need food?",
+      "options": {
+        "A": "I am hungry.",
+        "B": "I have hungry.",
+        "C": "I am with hungry.",
+        "D": "Am hungry."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In English hunger, thirst, cold and fear are expressed with `be` plus an adjective, never with `have`. Another example: `She is thirsty.`"
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which reply politely refuses an offer of tea?",
+      "options": {
+        "A": "No, please.",
+        "B": "Yes, thank you.",
+        "C": "Here you are.",
+        "D": "No, thank you."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`No, thank you` (or `No, thanks`) refuses politely, while `Yes, please` accepts. A bare `Yes` or `No` sounds abrupt."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete this warning: \"____ cross here; it is dangerous.\"",
+      "options": {
+        "A": "Don't",
+        "B": "Not",
+        "C": "Doesn't",
+        "D": "No"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The negative imperative is formed with `Don't` + base verb (negative imperative), with no subject. Another example: `Don't turn left.`"
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The polite offer pattern is $\\text{Would} + \\text{you} + \\text{like} + \\text{drink}\\,?$. Which sentence follows it?",
+      "options": {
+        "A": "You would like some water?",
+        "B": "Do you would like some water?",
+        "C": "Would you like some water?",
+        "D": "Would like you some water?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In an offer the auxiliary `would` comes first, then the subject `you`, then `like`. Another example: `Would you like a coffee?`"
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Plans use $\\text{subject} + \\text{be} + \\text{going to} + \\text{base verb}$. Which sentence says that we plan to travel next week?",
+      "options": {
+        "A": "We are going to traveling next week.",
+        "B": "We going to travel next week.",
+        "C": "We are going to travel next week.",
+        "D": "We are go to travel next week."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After `going to` the verb stays in the base form, and `be` must agree with the subject. Another example: `I'm going to book a hotel.`"
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Say that you love music in general: \"I love ____.\"",
+      "options": {
+        "A": "the music",
+        "B": "a music",
+        "C": "music",
+        "D": "musics"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "For general statements with plural or uncountable nouns, English uses no article (zero article); `music` is also uncountable, so it has no `a` and no plural. Another example: `Dogs are friendly.`"
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The present continuous is built as $\\text{subject} + \\text{am/is/are} + \\text{verb}_{-ing}$. Which sentence says that they are playing now?",
+      "options": {
+        "A": "They playing now.",
+        "B": "They are playing now.",
+        "C": "They is playing now.",
+        "D": "They are play now."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The auxiliary `be` agrees with the subject, and the main verb takes `-ing`. Another example: `She is reading a book.`"
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In most of Brazil, which season is it in July?",
+      "options": {
+        "A": "Summer",
+        "B": "Winter",
+        "C": "Spring",
+        "D": "Fall"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Brazil is in the southern hemisphere, so July is winter there. Months and days are capitalized in English, but season names are not."
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete: \"She is ____ best player in the team.\"",
+      "options": {
+        "A": "a",
+        "B": "the",
+        "C": "an",
+        "D": "more"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Superlatives are always used with `the`: `the best`, `the fastest`, `the most popular`. Another example: `This is the biggest stadium.`"
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete: \"There isn't ____ sugar.\"",
+      "options": {
+        "A": "some",
+        "B": "a",
+        "C": "an",
+        "D": "any"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Any` is used in negatives and questions with uncountable nouns (some/any), and uncountable nouns never take `a`/`an`. Another example: `Do you have any milk?`"
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the question and answer:\n```text\nA: ____ keys are these?\nB: They are mine.\n```",
+      "options": {
+        "A": "Who's",
+        "B": "Whose",
+        "C": "Who",
+        "D": "Whom"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Whose` asks who owns something. `Who's` is only the short form of `who is`. Another example: `Whose bag is this? It's hers.`"
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the question about a job:\n```text\nWhere ____ she work?\n```",
+      "options": {
+        "A": "do",
+        "B": "does",
+        "C": "is",
+        "D": "has"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present simple questions with he, she or it use `does` plus the base verb: `Where does she work?` Another example: `What does he do?`"
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Questions with the verb be follow $\\text{Wh-word} + \\text{am/is/are} + \\text{subject}$. Which question asks about someone's origin?",
+      "options": {
+        "A": "Where you are from?",
+        "B": "Where are you from?",
+        "C": "Where do you are from?",
+        "D": "Where from are you?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In a question the verb `be` comes before the subject, and no `do` is added. Another example: `Who is she?`"
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does \"It was a draw\" tell you about a match?",
+      "options": {
+        "A": "The home team won",
+        "B": "The match was cancelled",
+        "C": "One player was hurt",
+        "D": "Neither team won"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A `draw` (or `tie`) is a match that ends with the same score. Other result words: `win`, `lose`, `beat`."
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which phrase uses the correct indefinite article (`a` or `an`)?",
+      "options": {
+        "A": "a hour",
+        "B": "an university",
+        "C": "an hour",
+        "D": "a apple"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Indefinite articles (`a`/`an`) depend on the SOUND that follows, not on the letter. `Hour` begins with a vowel sound (the h is silent), so `an hour`; `university` begins with a /j/ sound, so `a university`."
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Two complete ideas can be joined with $\\text{clause}_1 + \\text{,} + \\text{FANBOYS} + \\text{clause}_2$. Which sentence joins \"I was tired\" and \"I went to bed\" correctly?",
+      "options": {
+        "A": "I was tired, I went to bed.",
+        "B": "I was tired so, I went to bed.",
+        "C": "I was tired, so, I went to bed.",
+        "D": "I was tired, so I went to bed."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A comma plus a coordinating conjunction (here `so`) joins two independent clauses; a comma alone creates a comma splice. Another example: `It rained, so we stayed home.`"
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Short adjectives compare with $\\text{adjective} + \\text{-er} + \\text{than}$. Complete: \"This shirt is ____ that one.\" (cheap)",
+      "options": {
+        "A": "more cheap than",
+        "B": "cheap than",
+        "C": "cheaper than",
+        "D": "cheaper that"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Short adjectives add `-er` and the comparison is introduced by `than`. Another example: `Her bag is smaller than mine.`"
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which verb describes the action of getting a coat onto your body?",
+      "options": {
+        "A": "take off",
+        "B": "put on",
+        "C": "fit",
+        "D": "carry"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Put on` is the action of dressing, `wear` is to have clothes on, and `take off` is the opposite action. Another example: `Put on your jacket.`"
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the polite offer:\n```text\n____ you like some tea?\n```",
+      "options": {
+        "A": "Are",
+        "B": "Is",
+        "C": "Would",
+        "D": "Does"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A polite offer in English uses `Would you like ...?`, with the auxiliary `would` placed before the subject `you`. Another example: `Would you like some coffee?`"
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct -ing form: \"They are ____ in the park.\" (run)",
+      "options": {
+        "A": "runing",
+        "B": "runnning",
+        "C": "runeing",
+        "D": "running"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Spelling rule for the present continuous: a short verb ending in consonant-vowel-consonant doubles its final consonant before `-ing`. Another example: `swim` becomes `swimming`."
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does the English word \"parents\" mean?",
+      "options": {
+        "A": "All relatives",
+        "B": "Grandparents only",
+        "C": "Uncles and aunts",
+        "D": "Mother and father"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Parents` means only a person's mother and father. It is a false friend of the Portuguese word for relatives; the English word for relatives is `relatives`."
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about a family:\n```text\nMy sister ____ two children.\n```",
+      "options": {
+        "A": "have",
+        "B": "haves",
+        "C": "is have",
+        "D": "has"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "With he, she, it or a singular noun (my sister), the verb `have` becomes `has`. Another example: `He has a big family.`"
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In the United States, what is the usual word for the paper that shows what you owe at the end of a meal?",
+      "options": {
+        "A": "check",
+        "B": "ticket",
+        "C": "tip",
+        "D": "menu"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In American English the bill is called `the check` (British English: `the bill`). A `tip` is extra money left for good service."
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the short answer:\n```text\nA: Are you tired?\nB: Yes, I ____.\n```",
+      "options": {
+        "A": "am",
+        "B": "are",
+        "C": "do",
+        "D": "is"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A short answer repeats the verb `be` from the question, and `I` takes `am`. The affirmative short answer is not contracted. Another example: `Is she a nurse? Yes, she is.`"
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Possession can be written as $\\text{owner} + \\text{'s} + \\text{thing}$. How do you say \"the brother of Ana\" with this pattern?",
+      "options": {
+        "A": "Ana brother's",
+        "B": "brother Ana's",
+        "C": "Ana's the brother",
+        "D": "Ana's brother"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "With the possessive `'s` the owner comes first and the thing owned second, the opposite order of Portuguese. Another example: `Tom's sister`."
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "An invitation follows $\\text{Let's} + \\text{base verb}$. Which sentence invites a friend to eat lunch together?",
+      "options": {
+        "A": "Let's eat lunch together.",
+        "B": "Let's to eat lunch together.",
+        "C": "Let's eating lunch together.",
+        "D": "Let's eats lunch together."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Let's` is always followed by the plain base verb, with no `to`, no `-ing` and no `-s`. Another example: `Let's go home.`"
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In \"She works as a nurse\", what does \"as\" introduce?",
+      "options": {
+        "A": "The company she works for",
+        "B": "Her role or job title",
+        "C": "The place where she works",
+        "D": "The people she works with"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Work as` plus a profession says what function someone has. Other prepositions: `at` and `in` for places, `for` for the employer, `with` for people."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Look out of the window and complete: \"Look! It ____.\"",
+      "options": {
+        "A": "rains",
+        "B": "rain",
+        "C": "is rain",
+        "D": "is raining"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Use the present continuous (`be` plus verb-ing) for something happening right now. The present simple (`It rains a lot in spring`) is for habits and facts. Another example: `Be quiet! I'm studying.`"
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence has the adjective \"tall\" in the correct form?",
+      "options": {
+        "A": "They are talls women.",
+        "B": "They are tall womans.",
+        "C": "They are tall women.",
+        "D": "They are women tall."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adjectives are invariable (they never take plural or gender endings) and go before the noun. Only the noun changes: `woman` becomes `women`. Another example: `two small dogs`."
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete: \"The room is ____ small to hold ten people.\"",
+      "options": {
+        "A": "too",
+        "B": "very",
+        "C": "so",
+        "D": "enough"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Too` plus adjective means more than is acceptable and is followed by `to` plus a verb (degree adverb `too`). `Very` only intensifies. Another example: `This coat is too expensive for me to buy.`"
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the allergy sentence:\n```text\nI'm allergic ____ peanuts.\n```",
+      "options": {
+        "A": "with",
+        "B": "of",
+        "C": "for",
+        "D": "to"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The adjective `allergic` is followed by the preposition `to`. Another example: `She is allergic to milk.`"
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Weather follows $\\text{It} + \\text{is} + \\text{adjective}$. Which sentence says that the weather is sunny?",
+      "options": {
+        "A": "Is sunny.",
+        "B": "He is sunny.",
+        "C": "It is sunny.",
+        "D": "It sunny is."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A weather sentence needs the dummy subject `it` and the verb `is` before the adjective. Another example: `It is cloudy today.`"
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the weather sentence:\n```text\n____ is very cold today.\n```",
+      "options": {
+        "A": "Is",
+        "B": "It",
+        "C": "Are",
+        "D": "Has"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "English sentences need a subject, so weather is described with the empty subject `it`: `It is cold`. Another example: `It is sunny.`"
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "How do you say you travel to work using the bus? \"I go to work ____.\"",
+      "options": {
+        "A": "by the bus",
+        "B": "with bus",
+        "C": "in bus",
+        "D": "by bus"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "For means of transport, use `by` plus the noun with no article (prepositions of transport). Another example: `She goes to school by car.`"
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about a feeling:\n```text\nShe is worried ____ the test.\n```",
+      "options": {
+        "A": "of",
+        "B": "to",
+        "C": "about",
+        "D": "at"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Worried` takes the preposition `about`, while `afraid` takes `of`. Another example: `We are excited about the party.`"
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct sentence with the job \"engineer\".",
+      "options": {
+        "A": "My father is an engineer.",
+        "B": "My father is engineer.",
+        "C": "My father is a engineer.",
+        "D": "My father has engineer."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A singular profession after `be` needs an article, which agrees with the sound that follows: `an engineer`. Another example: `She is a nurse.`"
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct sentence: \"The jacket isn't ____.\"",
+      "options": {
+        "A": "enough long",
+        "B": "long of enough",
+        "C": "too enough long",
+        "D": "long enough"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Enough` comes AFTER an adjective (`big enough`) but BEFORE a noun (`enough money`) - the position of enough. Another example: `These shoes are not comfortable enough.`"
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "In \"I stayed home, for I was ill\", what does \"for\" express?",
+      "options": {
+        "A": "The reason",
+        "B": "A contrast",
+        "C": "A choice",
+        "D": "A time"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "As a coordinating conjunction, formal `for` introduces the cause or reason, like `because`. Another example: `He was happy, for he had won.`"
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct question: \"Who ____ coming to the party?\"",
+      "options": {
+        "A": "does",
+        "B": "do",
+        "C": "be",
+        "D": "is"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "When `who` is the subject of the question, the verb follows directly with no inversion and no `do/does`: `Who is coming?` (questions with who as subject). Another example: `Who is knocking?`"
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Give the right instruction to a tourist:\n```text\nA: How do I get to the station?\nB: ____ straight and turn left.\n```",
+      "options": {
+        "A": "Goes",
+        "B": "Go",
+        "C": "Going",
+        "D": "To go"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Directions use the imperative: the plain base verb with no subject, no `-s` and no `to`. Another example: `Take the second street on the right.`"
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Complete the contraction rule $\\text{I} + \\text{am} + \\text{not} \\rightarrow ?$ Which is the correct negative for \"I am happy\"?",
+      "options": {
+        "A": "I amn't happy.",
+        "B": "I aren't happy.",
+        "C": "I'm not happy.",
+        "D": "I don't happy."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "There is no standard contraction `amn't`; with `I`, contract the subject and the verb: `I'm not`. For other persons: `She isn't`, `They aren't`."
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the comparison:\n```text\nThis dress is cheaper ____ that one.\n```",
+      "options": {
+        "A": "that",
+        "B": "as",
+        "C": "than",
+        "D": "then"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Comparatives are followed by `than` (not `that` or `then`). Another example: `Tennis is harder than ping-pong.`"
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Advice follows $\\text{subject} + \\text{should} + \\text{base verb}$. Which sentence advises a sick person to rest?",
+      "options": {
+        "A": "You should to rest.",
+        "B": "You should rests.",
+        "C": "You should rest.",
+        "D": "You shoulds rest."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Modal verbs like `should` are followed by the plain base verb, with no `to` and no `-s`. Another example: `She shouldn't go to work today.`"
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the second clause:\n```text\nHe can't swim, nor ____ a bike.\n```",
+      "options": {
+        "A": "can he ride",
+        "B": "he can ride",
+        "C": "he rides",
+        "D": "he ride"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "After `nor` that starts a clause, the order is inverted: auxiliary + subject + base verb. Another example: `I don't like fish, nor do I like meat.`"
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete: \"We don't have ____ belts.\"",
+      "options": {
+        "A": "some",
+        "B": "a",
+        "C": "an",
+        "D": "any"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Any` is used with plural nouns in negatives and questions, while `a/an` cannot be used with plurals (some/any). Another example: `Do you have any other colors?`"
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete: \"I ____ the answer.\"",
+      "options": {
+        "A": "am knowing",
+        "B": "know",
+        "C": "knowing",
+        "D": "knowns"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Stative verbs (know, want, like, need, believe) are normally not used in the continuous form. Another example: `She likes tea` (not `is liking`)."
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "An indirect question uses $\\text{Could you tell me} + \\text{wh-word} + \\text{subject} + \\text{verb}$ (statement word order). Which is the polite form of \"Where is the bank?\"",
+      "options": {
+        "A": "Could you tell me where the bank is?",
+        "B": "Could you tell me where is the bank?",
+        "C": "Could you tell me where does the bank is?",
+        "D": "Could you tell me is the bank where?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Inside an indirect question the word order goes back to subject + verb. Another example: `Do you know how far the station is?`"
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A possessive pronoun replaces $\\text{my} + \\text{noun}$ with $\\text{mine}$. Rewrite \"This is my bag\" with a possessive pronoun.",
+      "options": {
+        "A": "This bag is my.",
+        "B": "This bag is mine bag.",
+        "C": "This bag is me.",
+        "D": "This bag is mine."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Possessive adjectives (my, your, her) need a noun after them; possessive pronouns (mine, yours, hers) stand alone. Another example: `Those keys are hers.`"
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the main difference between \"very\" and \"too\" before an adjective?",
+      "options": {
+        "A": "\"Too\" means more than is acceptable or needed; \"very\" only intensifies",
+        "B": "They are exactly the same",
+        "C": "\"Very\" is only for negatives",
+        "D": "\"Too\" means 'also' before adjectives"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`The room is very big` is just a high degree. `The room is too small` means it is a problem. Another example: `It's too cold to swim.`"
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct question about the price of \"shoes\".",
+      "options": {
+        "A": "How much are these shoes?",
+        "B": "How much is these shoes?",
+        "C": "How much are this shoes?",
+        "D": "How many is these shoes?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Price questions use `How much` and the form of `be` that agrees with the item: `is` for singular, `are` for plural (subject-verb agreement). Another example: `How much is this hat?`"
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Object questions follow $\\text{Who} + \\text{be} + \\text{subject} + \\text{verb}_{-ing}\\,?$. Which question asks about the person Ana is calling?",
+      "options": {
+        "A": "Who Ana is calling?",
+        "B": "Who is Ana calling?",
+        "C": "Who does Ana calling?",
+        "D": "Who calling is Ana?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "When the question word is the object, the auxiliary `be` moves before the subject. When `who` is the subject, there is no inversion: `Who is calling?`"
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about a body part:\n```text\nI have a headache. My head ____.\n```",
+      "options": {
+        "A": "hurt",
+        "B": "hurts",
+        "C": "hurtes",
+        "D": "hurting"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Hurt` is a verb, and with a singular subject (my head) it takes the third person `-s`. With a plural subject there is no `-s`: `My eyes hurt`."
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which request sounds the most polite when ordering food?",
+      "options": {
+        "A": "I'd like the soup, please.",
+        "B": "I want the soup.",
+        "C": "Give me the soup.",
+        "D": "Soup, now."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`I'd like`, `Could I have` and `Can I get` are polite; `I want` sounds direct and a bare noun or command can sound rude."
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Mention rule: $\\text{first mention} = a/an \\;\\rightarrow\\; \\text{next mention} = the$. Which text follows it?",
+      "options": {
+        "A": "I have the cat. A cat is black.",
+        "B": "I have a cat. The cat is black.",
+        "C": "I have a cat. A cat is black.",
+        "D": "I have cat. The cat is black."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Use `a/an` to introduce something new and `the` when it is already known. Another example: `I see a dog. The dog is brown.`"
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which is the best way to ask a patient where the pain is?",
+      "options": {
+        "A": "What is your ache?",
+        "B": "How many pain?",
+        "C": "Where does it hurt?",
+        "D": "Which hurt you?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Hurt` is the verb for pain, and it needs the auxiliary `does` in the present simple question: `Where does it hurt?` Another example: `Does your head hurt?`"
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct question: \"Does he ____ tennis on Sundays?\"",
+      "options": {
+        "A": "plays",
+        "B": "playing",
+        "C": "to play",
+        "D": "play"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "After `do/does` the main verb stays in the base form (present simple questions). Another example: `Does she go running?`"
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does the question \"What do you do?\" usually ask about?",
+      "options": {
+        "A": "Your hobbies",
+        "B": "What you are doing at this moment",
+        "C": "Your job",
+        "D": "Where you live"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In English `What do you do?` is a standard way to ask about someone's profession. To ask what someone is doing right now, use `What are you doing?`"
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "For an irregular plural noun, the possessive is $\\text{plural noun} + \\text{'s}$. Which phrase means \"the room of the children\"?",
+      "options": {
+        "A": "the childrens' room",
+        "B": "the childrens room",
+        "C": "the children' room",
+        "D": "the children's room"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Children` does not end in -s, so the possessive takes apostrophe + s. Regular plurals only add an apostrophe (`my parents' house`)."
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correctly punctuated sentence with \"however\".",
+      "options": {
+        "A": "I wanted to go, however, I had to work.",
+        "B": "I wanted to go; however, I had to work.",
+        "C": "I wanted to go however I had to work.",
+        "D": "I wanted to go. however, I had to work."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`However` is a conjunctive adverb, not a FANBOYS conjunction, so it needs a semicolon (or full stop) before it and a comma after it; a comma alone makes a comma splice. Another example: `He studied hard; therefore, he passed.`"
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The rule $\\text{verb ending in -ch, -sh, -x, -o} + \\text{-es}$ gives the third person singular. What is the third person form of \"fix\"?",
+      "options": {
+        "A": "fixes",
+        "B": "fixs",
+        "C": "fixies",
+        "D": "fixing"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Verbs ending in -ch, -sh, -s, -x, -z or -o add `-es` in the present simple third person. Another example: `watch` becomes `watches`."
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A polite wish with a verb follows $\\text{I'd like to} + \\text{base verb}$. Which sentence politely asks to try a jacket on?",
+      "options": {
+        "A": "I'd like to try this jacket on.",
+        "B": "I'd like try this jacket on.",
+        "C": "I'd like trying this jacket on.",
+        "D": "I'd to like try this jacket on."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`I'd like` is followed by a noun or by `to` + base verb. Another example: `I'd like to order.`"
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A host asks a choice question. Complete the guest's answer:\n```text\nA: Would you like tea or coffee?\nB: ____, please.\n```",
+      "options": {
+        "A": "Yes",
+        "B": "No",
+        "C": "Coffee",
+        "D": "Both yes"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A question with `or` offers a choice, so the answer names one option instead of saying yes or no. Another example: `Hot or cold? Cold, please.`"
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about a man's mother:\n```text\nThis is my brother. ____ mother is a doctor.\n```",
+      "options": {
+        "A": "Her",
+        "B": "He",
+        "C": "Hers",
+        "D": "His"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A possessive adjective agrees with the OWNER, not with the thing owned. The owner is a man, so `his`. Another example: `Ana loves her father.`"
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct sentence: \"Before ____ to bed, I brush my teeth.\"",
+      "options": {
+        "A": "go",
+        "B": "to go",
+        "C": "going",
+        "D": "goes"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After the prepositions `before` and `after` a verb takes the `-ing` form (gerund). Another example: `After working, I go home.`"
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the correlative structure:\n```text\nShe is not only smart ____ also funny.\n```",
+      "options": {
+        "A": "and",
+        "B": "or",
+        "C": "but",
+        "D": "so"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The pair is `not only ... but also ...`, used to add a second quality. Another example: `Both my sister and my brother live here.`"
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "When is the verb \"go\" used with a sport or activity?",
+      "options": {
+        "A": "With team sports played with a ball",
+        "B": "With martial arts and yoga",
+        "C": "With board games like chess",
+        "D": "With individual activities ending in -ing, such as swimming"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Use `go` + -ing for activities where you move on your own (`go swimming`), `play` for ball games and competitions (`play tennis`), and `do` for martial arts, yoga and exercise."
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete: \"We are proud ____ you.\"",
+      "options": {
+        "A": "of",
+        "B": "about",
+        "C": "for",
+        "D": "to"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Adjectives of feeling take fixed prepositions: `proud of`, `afraid of`, `worried about`, `interested in`. Another example: `I am proud of my son.`"
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does \"The post office is opposite the park\" mean?",
+      "options": {
+        "A": "It is next to the park",
+        "B": "It is directly across from the park",
+        "C": "It is inside the park",
+        "D": "It is far from the park"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Opposite` means on the other side, facing something. `Next to` means beside it. Another example: `The bank is opposite the school.`"
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct sentence with the verb \"play\".",
+      "options": {
+        "A": "She plays a piano and a football.",
+        "B": "She plays the piano and a football.",
+        "C": "She plays the piano and football.",
+        "D": "She plays the piano and the football."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Musical instruments take `the` after `play`, while sports take no article (articles with play). Another example: `He plays the guitar and tennis.`"
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly describes the weather using \"windy\"?",
+      "options": {
+        "A": "It is windy today.",
+        "B": "Is windy today.",
+        "C": "There is windy today.",
+        "D": "Have windy today."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "English needs an explicit subject, so weather uses the dummy subject `it` (impersonal it). Another example: `It is raining.`"
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct polite request that starts with \"Could I\".",
+      "options": {
+        "A": "Could I to have the menu, please?",
+        "B": "Could I having the menu, please?",
+        "C": "Could I have the menu, please?",
+        "D": "Could I has the menu, please?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The modal `could` is followed directly by the base verb (modal verbs for polite requests). Another example: `Can I get a coffee, please?`"
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "How do \"my\" and \"mine\" differ?",
+      "options": {
+        "A": "\"My\" is plural and \"mine\" is singular",
+        "B": "\"My\" comes before a noun; \"mine\" stands alone",
+        "C": "\"Mine\" is used only for people",
+        "D": "\"My\" is formal and \"mine\" informal"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Possessive adjectives need a noun (`my bag`), while possessive pronouns replace it (`the bag is mine`). The same applies to your/yours and her/hers."
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the difference between \"I'd like tea\" and \"I like tea\"?",
+      "options": {
+        "A": "They mean exactly the same",
+        "B": "\"I'd like\" is only used for the past",
+        "C": "\"I like\" is more polite than \"I'd like\"",
+        "D": "\"I'd like\" is a polite wish for now; \"I like\" states a general taste"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`I'd like` is the contraction of `I would like` and politely asks for something now. `I like` talks about what you generally enjoy."
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the contrast:\n```text\nThe table is heavy, ____ the chair is light.\n```",
+      "options": {
+        "A": "so",
+        "B": "because",
+        "C": "nor",
+        "D": "but"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`But` joins two clauses that contrast, and a comma goes before it when both sides have a subject and verb. Another example: `It is sunny, but it is cold.`"
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why does English say \"It is cold\" instead of just \"Is cold\"?",
+      "options": {
+        "A": "Every English sentence needs a subject, so weather uses the empty subject \"it\"",
+        "B": "\"It\" means the temperature itself",
+        "C": "\"Is cold\" is correct in formal English",
+        "D": "English never uses the verb \"to be\" for weather"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Portuguese can omit the subject, but English cannot. The dummy subject `it` fills that place in weather, time and distance sentences. Another example: `It is ten o'clock.`"
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Opinion adjectives come before size, and size before colour: $\\text{opinion} + \\text{size} + \\text{colour} + \\text{noun}$. Which is the natural phrase for a nice, big, red car?",
+      "options": {
+        "A": "a red big nice car",
+        "B": "a nice big red car",
+        "C": "a big red nice car",
+        "D": "a nice red big car"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Adjective order: opinion, size, (age,) colour, then the noun. Another example: `a beautiful small white house`."
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A customer returns a faulty shirt and gets the money back. What is that money called?",
+      "options": {
+        "A": "change",
+        "B": "a refund",
+        "C": "a tip",
+        "D": "a discount"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A `refund` is money returned after you give back something you bought. `Change` is the money returned when you pay more than the price, and a `discount` is a reduction in price."
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{How much} + \\text{uncountable noun}$ for amounts you cannot count one by one. Which question is correct?",
+      "options": {
+        "A": "How many money do you have?",
+        "B": "How much moneys do you have?",
+        "C": "How much money do you have?",
+        "D": "How many moneys do you have?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Much` goes with uncountable nouns (money, water, rice) and `many` with countable plurals (shirts). Another example: `How many shirts do you want?`"
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The spelling rule $\\text{-ie} \\rightarrow \\text{-y} + \\text{-ing}$ applies to some verbs. Complete: \"The cat is ____ on the sofa.\" (lie)",
+      "options": {
+        "A": "lying",
+        "B": "lieing",
+        "C": "liing",
+        "D": "lyeing"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Verbs ending in -ie change it to -y before -ing (lie becomes lying, die becomes dying, tie becomes tying)."
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which two Portuguese verbs does the English verb \"to be\" cover?",
+      "options": {
+        "A": "ser and ter",
+        "B": "ser and estar",
+        "C": "estar and ter",
+        "D": "ficar and ir"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "English has a single verb for both permanent and temporary states: `He is tall` (ser) and `He is tired` (estar). Context decides the meaning."
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about a decided plan:\n```text\nThey ____ travel to Italy in June.\n```",
+      "options": {
+        "A": "going to",
+        "B": "is going to",
+        "C": "are going to",
+        "D": "are go to"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A plan already decided uses `be going to` + base verb, and `be` agrees with the subject (`they are`). Another example: `She is going to book a flight.`"
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct sentence with the adjective \"white\".",
+      "options": {
+        "A": "I have two whites cats.",
+        "B": "I have two white cats.",
+        "C": "I have two cats whites.",
+        "D": "I have white two cats."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Adjectives come before the noun and do not take plural endings (adjective position and invariability). Another example: `She has long black hair.`"
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A speaker answers \"For forty minutes.\" Which question was asked?",
+      "options": {
+        "A": "How often do you run?",
+        "B": "How far do you run?",
+        "C": "What do you run?",
+        "D": "How long do you run?"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`How long` asks about duration and is answered with `for` + a period of time. `How often` asks about frequency (`twice a week`)."
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question:\n```text\nWhy ____ the baby crying?\n```",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "does",
+        "D": "do"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A present continuous question uses the correct form of `be` before the subject. `The baby` is singular, so `is`. Another example: `Why are they laughing?`"
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete with the correct verb form:\n```text\nShe ____ English every evening. (study)\n```",
+      "options": {
+        "A": "studys",
+        "B": "studyes",
+        "C": "study",
+        "D": "studies"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In the present simple, a verb ending in consonant + y changes y to `-ies` for he, she and it. Another example: `try` becomes `tries`."
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the short dialogue.\n```text\nA: Are you from Brazil?\nB: Yes, ____.\n```",
+      "options": {
+        "A": "I am",
+        "B": "I'm",
+        "C": "I do",
+        "D": "I be"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A short affirmative answer repeats the verb in its full form and is not contracted: \"Yes, I am.\" The same is true for \"Yes, she is.\" and \"Yes, they are.\" Contractions are fine in the negative: \"No, I'm not.\""
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the airport question.\n```text\nExcuse me, where ____ the restrooms?\nThey're over there, next to gate 12.\n```",
+      "options": {
+        "A": "is",
+        "B": "do",
+        "C": "be",
+        "D": "are"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In \"Where ... ?\" questions the verb *to be* agrees with the noun that follows: \"the restrooms\" is plural, so \"Where are the restrooms?\" For a singular noun: \"Where is the exit?\""
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the dialogue.\n```text\nGuest: Can I have ____ water, please?\nWaiter: Sorry, we don't have ____ water at this table.\n```",
+      "options": {
+        "A": "any / some",
+        "B": "some / some",
+        "C": "some / any",
+        "D": "any / any"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Some* is used in requests and affirmative sentences; *any* is used in negatives and ordinary questions. So: \"Can I have some water?\" but \"We don't have any water.\""
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the pair of verb forms that completes the sentence.\n```text\nAnna ____ in a bank, but today she ____ from home.\n(work)               (work)\n```",
+      "options": {
+        "A": "is working / works",
+        "B": "work / is working",
+        "C": "works / works",
+        "D": "works / is working"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The present simple (with -s for she) describes a regular situation: \"Anna works in a bank.\" The present continuous describes what is happening around now or today: \"she is working from home.\" Another pair: \"He plays football on Sundays, but today he is playing tennis.\""
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the exchange about a pet.\n```text\nA: Does your dog ____ a name?\nB: Yes, he ____. It's Max.\n```",
+      "options": {
+        "A": "has / does",
+        "B": "have / has",
+        "C": "have / does",
+        "D": "has / has"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After \"does\" the main verb returns to its base form (\"have\", not \"has\"), and the short answer repeats the auxiliary: \"Yes, he does.\" Another example: \"Does she have a cat? Yes, she does.\""
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the exchange about a house.\n```text\nA: ____ there any windows in the kitchen?\nB: Yes, there ____. There are two.\n```",
+      "options": {
+        "A": "Are / are",
+        "B": "Is / is",
+        "C": "Are / is",
+        "D": "Do / do"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "With a plural noun (\"windows\") the question uses \"Are there ...?\" and the short answer repeats the verb: \"Yes, there are.\" Another example: \"Is there a garden? Yes, there is.\""
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the question tag.\n```text\nI'm late, ____?\n```",
+      "options": {
+        "A": "amn't I",
+        "B": "isn't I",
+        "C": "am not I",
+        "D": "aren't I"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The standard question tag for \"I am\" is \"aren't I?\" because \"amn't\" does not exist in standard English. With other subjects the tag mirrors the auxiliary: \"She's tired, isn't she?\""
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the job description.\n```text\nAnna ____ an engineer at a bank in London.\n```",
+      "options": {
+        "A": "works as",
+        "B": "works like",
+        "C": "work as",
+        "D": "is work as"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Work as* introduces a job or role (\"works as an engineer\"); *like* would mean \"in the same way as\". With a singular subject like Anna the verb takes -s: \"works\". Another example: \"He works as a driver for a delivery company.\""
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the request in a classroom.\n```text\nStudent: Excuse me, could you ____ that word, please?\nTeacher: Of course. It's \"borrow\".\n```",
+      "options": {
+        "A": "repeat",
+        "B": "to repeat",
+        "C": "repeating",
+        "D": "repeats"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "After a modal verb such as *could*, *can* or *may*, the next verb is in the base form with no \"to\" and no -s. Another example: \"May I use your dictionary?\""
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the prepositions in order.\n```text\nThe meeting is ____ Thursday, ____ 3:30 p.m., ____ October.\n```",
+      "options": {
+        "A": "in, at, on",
+        "B": "on, at, in",
+        "C": "at, on, in",
+        "D": "on, in, at"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Days take *on* (on Thursday), clock times take *at* (at 3:30 p.m.), and months take *in* (in October). Another example: \"on Monday at nine in July\"."
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence about a punctual person.\n```text\nMy brother ____ late for class. He's very punctual.\n```",
+      "options": {
+        "A": "never is",
+        "B": "does never",
+        "C": "is never",
+        "D": "is not never"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A frequency adverb goes after the verb *to be* (\"is never\") but before other main verbs (\"never arrives\"). *Never* is already negative, so it cannot be combined with *not* or *do*. Another example: \"She is always on time.\""
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the hotel dialogue.\n```text\nReceptionist: How ____ are you staying?\nGuest: ____ three nights, from Friday.\n```",
+      "options": {
+        "A": "many / At",
+        "B": "long / In",
+        "C": "long / For",
+        "D": "much / Since"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "\"How long ...?\" asks about duration, and *for* + a period answers it (\"for three nights\"). *Since* needs a starting point and *in* means \"after that time\". Another example: \"How long is the flight? For two hours.\""
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The pattern for asking about origin is $\\text{Where} + \\text{am/is/are} + \\text{subject} + \\text{from}\\,?$ Which question uses it correctly for two friends, Ken and Mia?",
+      "options": {
+        "A": "Where Ken and Mia are from?",
+        "B": "Where do Ken and Mia from?",
+        "C": "Where are Ken and Mia from?",
+        "D": "Where is Ken and Mia from?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Ken and Mia together are \"they\", so the verb is *are*, and the verb comes before the subject in the question. Singular version: \"Where is Ken from?\""
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{There} + \\text{is/are} + \\text{noun}$ to say that an airport gate has two exits nearby. Which sentence is correct?",
+      "options": {
+        "A": "There are two exits near the gate.",
+        "B": "There is two exits near the gate.",
+        "C": "Has two exits near the gate.",
+        "D": "It have two exits near the gate."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "To state that something exists, English uses *there* + *be*, and *be* agrees with the noun: \"There are two exits\" (plural), \"There is an exit\" (singular). Portuguese \"tem\" must not be translated as \"has\" here."
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply $\\text{a} + \\text{container} + \\text{of} + \\text{uncountable noun}$ to order milk in a glass. Which phrase is correct?",
+      "options": {
+        "A": "a glass of milk",
+        "B": "a glass milk",
+        "C": "a glass of milks",
+        "D": "one glass from milk"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Uncountable nouns such as *milk* need a unit word followed by *of*: \"a glass of milk\", \"a piece of cheese\", \"a bowl of soup\". The uncountable noun itself stays singular and has no plural -s."
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The clock shows 7:50. For times after the half hour, English uses $\\text{minutes to the next hour} = 60 - 50 = 10$. How do you say the time?",
+      "options": {
+        "A": "It's ten past seven.",
+        "B": "It's ten to seven.",
+        "C": "It's ten to eight.",
+        "D": "It's fifty to eight."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After 30 minutes, English counts the minutes remaining until the next hour: 60 - 50 = 10, and the next hour is eight, so \"ten to eight\". Another example: 3:55 is \"five to four\"."
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the rule $\\text{plural noun ending in -s} + \\text{'}$ to rewrite \"the bowls of the dogs\" with a possessive. Which phrase is correct?",
+      "options": {
+        "A": "the dog's bowls",
+        "B": "the dogs's bowls",
+        "C": "the bowls dogs'",
+        "D": "the dogs' bowls"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "For a regular plural ending in -s, the possessive adds only an apostrophe after the s: \"the dogs' bowls\". \"The dog's bowls\" would mean the bowls of one dog. The owner comes first in English, before the thing owned."
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the question pattern $\\text{Are there any} + \\text{plural noun} + \\text{place}\\,?$ to ask whether a bedroom has windows. Which question fits?",
+      "options": {
+        "A": "Are there any windows in the bedroom?",
+        "B": "Is there any windows in the bedroom?",
+        "C": "There are any windows in the bedroom?",
+        "D": "Have any windows the bedroom?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Existence questions in the plural invert *there are* to \"Are there any ...?\" and use *any* with plural nouns. Singular version: \"Is there a window in the bedroom?\""
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $\\text{subject}_{3sg} + \\text{has to} + \\text{verb}_{\\text{base}}$ to say that Maria is obliged to call the client. Which sentence is correct?",
+      "options": {
+        "A": "Maria have to call the client.",
+        "B": "Maria has to call the client.",
+        "C": "Maria has to calls the client.",
+        "D": "Maria has call the client."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Obligation with *have to* changes to *has to* for he, she, it and Maria, and the following verb stays in the base form: \"has to call\". Another example: \"He has to finish the report.\""
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Today is Friday. Use $\\text{event day} = \\text{today} - 2\\ \\text{days}$ to say when a call happened two days ago. Which sentence is correct?",
+      "options": {
+        "A": "She called me on Sunday.",
+        "B": "She called me in Wednesday.",
+        "C": "She called me at Wednesday.",
+        "D": "She called me on Wednesday."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Friday minus two days is Wednesday, and days of the week take *on*: \"on Wednesday\". Sunday would be two days later, and *in* and *at* are used for months and clock times."
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "You see your dentist every six months. Using $\\text{times per year} = 12 \\div 6 = 2$, which sentence reports it correctly?",
+      "options": {
+        "A": "I see my dentist two times by year.",
+        "B": "I see my dentist second a year.",
+        "C": "I see my dentist twice years.",
+        "D": "I see my dentist twice a year."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Twelve months divided by six gives two visits, and English has the special words *once*, *twice*, then \"three times\". The pattern is frequency + *a* + period: \"twice a year\", \"once a month\"."
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A hotel room costs 85 dollars per night. Use $\\text{total} = \\text{nights} \\times \\text{rate}$ for three nights. Which total is correct?",
+      "options": {
+        "A": "Two hundred fifteen dollars",
+        "B": "Two hundred forty-five dollars",
+        "C": "Two hundred fifty-five dollars",
+        "D": "Three hundred fifty-five dollars"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "3 x 85 = 255, said \"two hundred fifty-five\". Compound numbers from 21 to 99 are hyphenated in writing: fifty-five. Another example: 4 x 20 = 80, \"eighty dollars\"."
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $\\text{age} = \\text{current year} - \\text{birth year}$ for a woman born in 1998 (her birthday this year has already passed; the year is 2026). Which sentence gives her age correctly in English?",
+      "options": {
+        "A": "She has twenty-eight.",
+        "B": "She is twenty-eight.",
+        "C": "She has twenty-eight years.",
+        "D": "She is twenty-eight years."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "2026 - 1998 = 28. English expresses age with the verb *to be*, not *to have*: \"She is twenty-eight\" or \"She is twenty-eight years old\". Portuguese \"tem 28 anos\" should not be translated word for word."
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the question pattern $\\text{Did} + \\text{subject} + \\text{verb}_{\\text{base}} + \\text{object}\\,?$ to ask about the statement \"You left your bag on the bus.\" Which question is correct?",
+      "options": {
+        "A": "Did you left your bag on the bus?",
+        "B": "Do you left your bag on the bus?",
+        "C": "Were you leave your bag on the bus?",
+        "D": "Did you leave your bag on the bus?"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In past-tense questions the auxiliary *did* carries the past, so the main verb returns to its base form: \"leave\", not \"left\". Another example: \"Did she find her keys?\""
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct? Think about verb agreement with *police*.",
+      "options": {
+        "A": "The police is outside the house.",
+        "B": "The polices are outside the house.",
+        "C": "The police has outside the house.",
+        "D": "The police are outside the house."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: nouns with plural agreement. *Police* has no -s but takes a plural verb (\"are\"), as do *people* and *the staff* in many contexts. Another example: \"The people are friendly.\""
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "A friend writes: \"She doesn't works here.\" Which correction is right?",
+      "options": {
+        "A": "She don't works here.",
+        "B": "She not works here.",
+        "C": "She doesn't work here.",
+        "D": "She doesn't working here."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: negative present simple. The third-person -s moves to the auxiliary (\"does\"), so the main verb stays in the base form. Another example: \"He doesn't like tea.\""
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which option completes \"____ cold in the room?\"",
+      "options": {
+        "A": "Is",
+        "B": "Is it",
+        "C": "Does it",
+        "D": "Has it"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: obligatory subject (dummy *it*) in questions with *to be*. English always needs a subject, even for temperature or weather, unlike the Portuguese \"Está frio?\". Another example: \"Is it raining?\""
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly describes a gradual change, using *get* + an adjective?",
+      "options": {
+        "A": "The days are getting more long.",
+        "B": "The days are getting longer.",
+        "C": "The days are being longer.",
+        "D": "The days are get longer."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: *get* + comparative adjective in the present continuous for gradual change. Short adjectives take -er (long, longer), not \"more\". Another example: \"It is getting colder.\""
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence is natural for describing a pupil's regular attendance at classes (a fixed expression with *school*)?",
+      "options": {
+        "A": "She goes to school by bus every day.",
+        "B": "She goes to the school by bus every day.",
+        "C": "She goes in school by bus every day.",
+        "D": "She goes at school by bus every day."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: no article in fixed expressions with *school* when the focus is the activity (study), not the building. Compare: \"I'm going to the school to meet the principal.\" Another fixed expression: \"She is in class.\""
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "A gym sign says: \"Visitors ____ wear a helmet, but they can if they want.\" Which option fits?",
+      "options": {
+        "A": "mustn't",
+        "B": "don't have to",
+        "C": "can't",
+        "D": "shouldn't to"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: *don't have to* (no obligation) versus *mustn't* (prohibition). \"Don't have to\" means it is optional, which matches \"but they can if they want\". Another example: \"You don't have to pay now.\""
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the correct form to complete \"How about ____ out tonight?\"",
+      "options": {
+        "A": "eating",
+        "B": "eat",
+        "C": "to eat",
+        "D": "eaten"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *How about* is followed by a verb in the -ing form (gerund). Another example: \"How about taking a taxi?\""
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the correct comparison: \"This roller coaster is ____ the carousel.\"",
+      "options": {
+        "A": "more fast than",
+        "B": "fastest than",
+        "C": "more faster than",
+        "D": "faster than"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: comparative of short adjectives. One-syllable adjectives take -er + *than* (\"fast, faster than\"); only long adjectives use \"more\" (more exciting than). Never combine both. Another example: \"taller than\"."
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "A girl is 1.0 m tall and the minimum height is 1.2 m. Complete: \"She isn't ____ to ride.\"",
+      "options": {
+        "A": "tall enough",
+        "B": "enough tall",
+        "C": "too tall",
+        "D": "tall too"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: position of *enough*. It comes after an adjective (\"tall enough\") but before a noun (\"enough time\"). Another example: \"He is old enough to drive.\""
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence has the adverb *always* in the correct position?",
+      "options": {
+        "A": "I eat always breakfast at home.",
+        "B": "Always I eat breakfast at home.",
+        "C": "I always eat breakfast at home.",
+        "D": "I eat breakfast always at home."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: position of frequency adverbs. They go before the main verb and never between the verb and its object. Another example: \"She usually walks to work.\""
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete: \"I lost my keys. I can't find ____.\"",
+      "options": {
+        "A": "they",
+        "B": "it",
+        "C": "their",
+        "D": "them"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: object pronouns. After a verb, the plural noun \"keys\" is replaced by the object pronoun *them* (not the subject pronoun *they*). Another example: \"I met my friends and I called them.\""
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete: \"Anna loves ____ brother, and Tom loves ____ sister.\"",
+      "options": {
+        "A": "his / her",
+        "B": "her / his",
+        "C": "she / he",
+        "D": "her / her"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: possessive adjectives agree with the owner, not with the thing owned. Anna is female, so her brother; Tom is male, so his sister. Another example: \"Paul and his mother\" versus \"Paula and her mother\"."
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which option completes \"I have ____ work to do today.\"",
+      "options": {
+        "A": "many",
+        "B": "a few",
+        "C": "a lot of",
+        "D": "several"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: uncountable nouns. *Work* (as in \"labor\") is uncountable, so it takes *a lot of* or *much*, not *many*, *a few* or *several*. Another example: \"She has a lot of homework.\""
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which option completes \"The dog is wagging ____ tail.\"",
+      "options": {
+        "A": "it's",
+        "B": "its",
+        "C": "its'",
+        "D": "it"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: possessive determiner *its* (no apostrophe) versus the contraction *it's* (= it is or it has). Test: if \"it is\" fits, use \"it's\". Another example: \"The bird built its nest.\""
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which statement about the words *English* and *British* is accurate?",
+      "options": {
+        "A": "A person from Wales is British but not English.",
+        "B": "English and British are always interchangeable.",
+        "C": "British refers only to people from London.",
+        "D": "Everyone from the United Kingdom is English."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*English* refers to England, while *British* refers to the whole United Kingdom (England, Scotland, Wales and Northern Ireland). So a Welsh or Scottish person is British, but not English."
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A Brazilian learner says, \"Actually, I live in Lisbon,\" meaning \"at the moment\". What will an English speaker understand, and which word was needed?",
+      "options": {
+        "A": "It sounds natural; actually means the same as currently.",
+        "B": "It sounds like \"in fact\"; the learner should have used \"currently\".",
+        "C": "It sounds like \"eventually\"; the learner needed \"lately\".",
+        "D": "It sounds like \"for a long time\"; the learner needed \"actual\"."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Actually* is a false friend of Portuguese \"atualmente\": it means \"in fact\" or \"to tell the truth\". The English word for \"at the present time\" is *currently* (or *nowadays*)."
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A customer tells a waiter, \"I want a burger.\" Why might this be a poor choice, and what is better?",
+      "options": {
+        "A": "It is grammatically wrong; \"I am wanting a burger\" is correct.",
+        "B": "It sounds blunt; \"I'd like a burger, please\" is softer.",
+        "C": "It is too polite; \"Give me a burger\" is better.",
+        "D": "It means you are hungry in general; \"I like a burger\" is better."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*I want* is grammatical but sounds direct when serving staff are involved. *I'd like* (= I would like) or *Could I have ...?* are the usual polite forms. Note that *I like* means a general preference, not an order."
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why is \"I am knowing the answer\" considered incorrect?",
+      "options": {
+        "A": "The present continuous is only used with the pronoun \"I\" in questions.",
+        "B": "*Know* is irregular and has no -ing form.",
+        "C": "The verb *to be* cannot be combined with another verb.",
+        "D": "*Know* is a state verb, so it normally stays in the present simple: \"I know the answer\"."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "State verbs (know, like, want, need, understand, have for possession) describe conditions rather than actions, so they usually avoid the continuous. Compare the action use: \"I am having lunch.\""
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which statement about the plural of *fish* is accurate?",
+      "options": {
+        "A": "The only correct plural is fishes.",
+        "B": "Fish has no plural and cannot be counted.",
+        "C": "Fish usually stays the same in the plural: three fish.",
+        "D": "The plural is fishs."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Fish* is an unchanging plural in everyday English (\"one fish, three fish\"). *Fishes* is used mainly in technical contexts to talk about different species. Similar nouns: sheep and deer."
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A British hotel clerk says your room is on the \"first floor\". Where is it?",
+      "options": {
+        "A": "At street level.",
+        "B": "In the basement.",
+        "C": "One level above the ground floor.",
+        "D": "On the roof."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In British English the entrance level is the *ground floor* and the *first floor* is the one above it. In American English the entrance level is usually the *first floor*, so check the variety being used."
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A Brazilian tourist wants to buy novels and asks, \"Where is a library?\" What is the problem?",
+      "options": {
+        "A": "A library lends books; the shop they want is a bookstore.",
+        "B": "Nothing; library means a shop that sells books.",
+        "C": "The word is correct but it should be \"libary\".",
+        "D": "A library only has dictionaries."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Library* is a false friend of Portuguese \"livraria\". A library is where you borrow books (Portuguese \"biblioteca\"); a shop that sells them is a *bookstore* (US) or *bookshop* (UK)."
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A guest wants a document proving they paid and asks the front desk for \"a reception\". Which word did they need?",
+      "options": {
+        "A": "lobby",
+        "B": "receiver",
+        "C": "reservation",
+        "D": "receipt"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Receipt* (silent p, /rɪˈsiːt/) is the paper that proves a payment. *Reception* is the front desk (Portuguese \"recepção\"), so the two are easy to mix up. Another example: \"Could I have a receipt, please?\""
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why do speakers say \"a pair of scissors\" or \"two pairs of jeans\" instead of using a plain number?",
+      "options": {
+        "A": "They are uncountable, like water.",
+        "B": "Scissors and jeans are plural-only nouns, so they are counted with \"pair(s) of\".",
+        "C": "They are always singular, like \"news\".",
+        "D": "It is only a style choice with no rule."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Nouns for objects with two parts (scissors, jeans, trousers, glasses) have no singular form, so they take plural verbs and are counted with \"pair of\": \"My jeans are blue\" / \"three pairs of jeans\"."
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which sentence expresses age correctly in English?",
+      "options": {
+        "A": "My mother has fifty-two years.",
+        "B": "My mother is fifty-two.",
+        "C": "My mother have fifty-two.",
+        "D": "My mother is with fifty-two years."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "English uses *to be* for age (and for hunger, thirst, cold and heat: \"I am hungry\"), where Portuguese uses *ter*. Questions follow the same pattern: \"How old is your mother?\""
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which sentence uses the correct word? \"I don't know ____ it will rain tomorrow.\"",
+      "options": {
+        "A": "weather",
+        "B": "whether",
+        "C": "wether",
+        "D": "whither"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Whether* is a conjunction meaning \"if\" in indirect questions; *weather* is the state of the atmosphere. They sound alike in most accents, so rely on meaning: \"The weather is nice, but I don't know whether it will last.\""
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A student says, \"I made a test yesterday,\" meaning that they sat an exam. What would a native speaker most likely understand?",
+      "options": {
+        "A": "That the student created a test; the right verb is \"took\".",
+        "B": "That the student passed the exam with a high mark.",
+        "C": "That the student failed the exam.",
+        "D": "Nothing is wrong; make and take are interchangeable here."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Fixed collocations matter: you *take* (or sit) a test, *do* homework and *make* a mistake. \"Make a test\" suggests the student wrote or prepared a test, like a teacher would."
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the most natural and polite English for a customer speaking to a waiter.\n```text\nPT: Eu quero um café, por favor.\nEN: ____\n```",
+      "options": {
+        "A": "I want a coffee, please.",
+        "B": "I like a coffee, please.",
+        "C": "I'd like a coffee, please.",
+        "D": "I am wanting a coffee, please."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*I'd like* (= I would like) is the standard polite way to order. *I want* is understood but sounds blunt, *I like* only states a general preference, and *want* is a state verb that avoids the continuous. Another polite form: \"Could I have the bill, please?\""
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Fill in the blank with the word that really means \"at the present time\".\n```text\nPT: Eu moro em Lisboa atualmente.\nEN: I ____ live in Lisbon.\n```",
+      "options": {
+        "A": "currently",
+        "B": "actually",
+        "C": "eventually",
+        "D": "finally"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Currently* means \"at the present time\". *Actually* (\"in fact\"), *eventually* (\"in the end\") and *finally* are false-friend traps for Portuguese \"atualmente\" and \"eventualmente\". Another example: \"She currently works from home.\""
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the natural translation.\n```text\nPT: Ele nunca atende o telefone.\nEN: He ____ the phone.\n```",
+      "options": {
+        "A": "never attends",
+        "B": "never answers",
+        "C": "doesn't never answer",
+        "D": "answers never"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "To pick up a call, English uses *answer*; *attend* means \"be present at\" (attend a class), a false friend of \"atender\". *Never* is already negative and goes before the main verb, so no *doesn't* is needed."
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the pair that completes the sentences.\n```text\nI'm ____. The class is so ____.\n```",
+      "options": {
+        "A": "boring / bored",
+        "B": "bored / bored",
+        "C": "boring / boring",
+        "D": "bored / boring"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Adjectives in -ed describe how a person feels (bored, tired, excited); adjectives in -ing describe what causes the feeling (boring, tiring, exciting). \"I am boring\" would mean \"I am a dull person\"."
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the verbs that complete the translation.\n```text\nPT: Cometi um erro e preciso fazer a lição de casa de novo.\nEN: I ____ a mistake and I need to ____ my homework again.\n```",
+      "options": {
+        "A": "did / make",
+        "B": "made / make",
+        "C": "made / do",
+        "D": "did / do"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Fixed collocations: you *make* a mistake but *do* homework (and do an exercise). Portuguese uses \"fazer\" for both, which causes the error. Another pair: \"take a test\", \"make a decision\"."
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the pair that completes a polite request and its reply.\n```text\nNeighbor: Would you mind ____ the window?\nYou (willing): ____.\n```",
+      "options": {
+        "A": "to close / Not at all",
+        "B": "close / Of course not",
+        "C": "closed / Not at all",
+        "D": "closing / Not at all"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Mind* is followed by an -ing form, and a negative answer (\"Not at all\", \"Of course not\") means \"I don't mind\", that is, \"yes, I'll do it\". Avoid answering \"Yes\" or \"Sure\" here because they sound ambiguous."
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the weather forecast.\n```text\nTomorrow it ____ cloudy, and it ____ snow tonight.\n```",
+      "options": {
+        "A": "is being / doesn't",
+        "B": "will is / won't",
+        "C": "will be / don't",
+        "D": "will be / won't"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Predictions use *will* + base verb; *will be* is the future of *to be*, and the negative is *won't* (will not). \"Tomorrow it will be cloudy and it won't snow.\" Another example: \"It will rain on Sunday.\""
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the questions at a theme park.\n```text\nHow ____ rides are there, and how ____ time do we have?\n```",
+      "options": {
+        "A": "much / many",
+        "B": "many / many",
+        "C": "many / much",
+        "D": "much / much"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*How many* goes with countable plural nouns (rides); *how much* goes with uncountable nouns (time, money, water). Another example: \"How much milk do we need? How many eggs?\""
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the booking request.\n```text\nI'd like a double room ____ three nights, ____ Monday to Thursday.\n```",
+      "options": {
+        "A": "for / from",
+        "B": "during / since",
+        "C": "in / from",
+        "D": "for / since"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*For* gives the length of a stay (\"for three nights\"), while *from ... to* gives the period. *Since* needs a past starting point with no end, and \"in three nights\" would mean \"three nights from now\"."
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence about a missing wallet.\n```text\nI ____ my wallet on the train yesterday.\n```",
+      "options": {
+        "A": "lose",
+        "B": "loose",
+        "C": "loosed",
+        "D": "lost"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Lost* is the past of the verb *lose* (pronounced /luːz/ in the present). *Loose* (/luːs/) is an adjective meaning \"not tight\", and \"loosed\" is not the past of lose. Another example: \"She lost her umbrella last week.\""
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the directions.\n```text\nGo straight and ____ left ____ the café.\n```",
+      "options": {
+        "A": "turn to / at",
+        "B": "turn / in",
+        "C": "turn / at",
+        "D": "make / at"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Directions use *turn left/right* with no preposition before the direction, then *at* for the landmark where you turn. Another example: \"Turn right at the bank.\""
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the correct possessive for the translation.\n```text\nPT: A casa dos meus pais é grande.\nEN: ____ house is big.\n```",
+      "options": {
+        "A": "My parent's",
+        "B": "My parents'",
+        "C": "My parents's",
+        "D": "The my parents"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A plural ending in -s takes only an apostrophe: \"my parents' house\" (the house of my two parents). \"My parent's\" would mean one parent, and an English possessive never combines with \"the\" as in \"the my\"."
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Apply the superlative rule $\\text{the} + \\text{adjective} + \\text{-est}$ with its spelling changes (double the final consonant after a short vowel; $-y \\to -iest$) to \"hot\" and \"scary\". Which pair is correct?",
+      "options": {
+        "A": "the hottest, the scariest",
+        "B": "the hotest, the scariest",
+        "C": "the hottest, the scaryest",
+        "D": "the most hot, the most scarier"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Hot ends in vowel + consonant, so the t doubles (hottest); scary ends in consonant + y, so y becomes i (scariest). Another example: big, the biggest; funny, the funniest."
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A month has 30 days. You go to the gym every other day, so $30 \\div 2 = 15$. Which sentence reports this correctly?",
+      "options": {
+        "A": "I go to the gym fifteen time a month.",
+        "B": "I go to the gym fifteen times a month.",
+        "C": "I go to the gym every fifteen days.",
+        "D": "I go to the gym fifteen times every months."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Frequency is expressed as number + *times* + *a* + period: \"fifteen times a month\". \"Every fifteen days\" would mean twice a month. After *every* the noun stays singular (every month)."
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build a sentence with the pattern $\\text{subject} + \\text{be} + \\text{adverb} + \\text{adjective}$ from the words: she / never / late / is. Which result is correct?",
+      "options": {
+        "A": "She never is late.",
+        "B": "She is late never.",
+        "C": "Never she is late.",
+        "D": "She is never late."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Frequency adverbs come after *am/is/are* but before other verbs: \"She is never late\" versus \"She never arrives late\". Another example: \"They are always on time.\""
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{Would you mind} + \\text{verb}_{-ing} + \\text{object}\\,?$ to politely ask a neighbor to turn down the music. Which sentence follows the pattern?",
+      "options": {
+        "A": "Would you mind turn down the music?",
+        "B": "Would you mind to turn down the music?",
+        "C": "Would you mind turning down the music?",
+        "D": "Do you mind to turning down the music?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After *mind* the next verb is a gerund (-ing). Compare *Would you like to ...* (with \"to\"), which has a different pattern. Another example: \"Would you mind waiting a moment?\""
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "The clock shows 6:35. Using the rule $\\text{minutes to the next hour} = 60 - m$ for $m > 30$, which sentence is correct?",
+      "options": {
+        "A": "It's twenty-five past seven.",
+        "B": "It's twenty-five to six.",
+        "C": "It's thirty-five to seven.",
+        "D": "It's twenty-five to seven."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "60 - 35 = 25 minutes remain until seven o'clock, so \"twenty-five to seven\". \"Past\" is used only up to the half hour (6:20 is \"twenty past six\")."
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A room costs 90 dollars per night. A guest stays 2 nights and pays a one-time cleaning fee of 15 dollars. Using $\\text{total} = 90 \\times 2 + 15$, which amount is correct?",
+      "options": {
+        "A": "One hundred ninety-five dollars",
+        "B": "One hundred eighty-five dollars",
+        "C": "Two hundred five dollars",
+        "D": "One hundred fifty-five dollars"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "90 x 2 = 180, plus 15 = 195, said \"one hundred ninety-five\". Multiplication is done before the one-time fee is added."
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A train travels at 200 km/h and a bus at 100 km/h. Use the pattern $\\text{A} + \\text{is not as} + \\text{adjective} + \\text{as} + \\text{B}$ to compare them with \"fast\". Which sentence is true and correct?",
+      "options": {
+        "A": "The train is not as fast as the bus.",
+        "B": "The bus is not so faster than the train.",
+        "C": "The bus is as fast as the train.",
+        "D": "The bus is not as fast as the train."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The slower vehicle comes first in the \"not as ... as\" pattern, and the adjective stays in its basic form (\"fast\", not \"faster\"). Another example: \"My room is not as big as yours.\""
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{Wh-word} + \\text{did} + \\text{subject} + \\text{verb}_{\\text{base}}\\,?$ to ask where the action happened in \"She left her bag at the station.\" Which question is correct?",
+      "options": {
+        "A": "Where did she left her bag?",
+        "B": "Where did she leave her bag?",
+        "C": "Where she left her bag?",
+        "D": "Where does she leave her bag?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The auxiliary *did* marks the past, so the main verb goes back to the base form (leave). Another example: \"When did they arrive?\""
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Apply $\\text{verb} + \\text{-s / -es / -ies}$ (third person singular) to \"study\", \"watch\" and \"go\" with the subject \"he\". Which set is correct?",
+      "options": {
+        "A": "studys, watchs, gos",
+        "B": "studies, watches, goes",
+        "C": "studies, watchs, goes",
+        "D": "studyes, watches, goes"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Consonant + y becomes -ies (studies); verbs ending in -ch, -sh, -s, -x, -z or -o add -es (watches, goes). Other verbs add -s (plays)."
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A New York forecast says \"It's 77 degrees.\" Use $C = (F - 32) \\div 1.8$ to interpret it. What kind of weather is this?",
+      "options": {
+        "A": "A warm day, about 25 degrees Celsius",
+        "B": "A very hot day, about 45 degrees Celsius",
+        "C": "A freezing day below zero",
+        "D": "A cool day, about 10 degrees Celsius"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "(77 - 32) / 1.8 = 25 degrees Celsius. The United States uses Fahrenheit, where 32 degrees is freezing and 77 degrees is pleasantly warm."
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "In US writing the date format is $\\text{month}/\\text{day}/\\text{year}$. How should you read 03/04/2027 in the United States?",
+      "options": {
+        "A": "March fourth",
+        "B": "April third",
+        "C": "March third",
+        "D": "April fourth"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In the US format the first number is the month (03 = March) and the second is the day (04 = fourth), so \"March fourth\". Most of Brazil and the UK use day/month/year, so the same digits would mean 3 April."
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{number} + \\text{pairs of} + \\text{plural-only noun}$ to say that you own 3 pairs of jeans. Which phrase is correct?",
+      "options": {
+        "A": "three jeans",
+        "B": "three pairs of jean",
+        "C": "three pairs of jeans",
+        "D": "three pair jeans"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Plural-only nouns (jeans, scissors, trousers, glasses) are counted with \"pair(s) of\", and the noun itself stays plural. Another example: \"two pairs of scissors\"."
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct articles: \"I'm ____ engineer from ____ Netherlands.\"",
+      "options": {
+        "A": "a / the",
+        "B": "an / the",
+        "C": "an / (no article)",
+        "D": "the / the"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: indefinite article by sound, and *the* with plural-form country names. *An* precedes a vowel sound (an engineer), and countries like the Netherlands, the Philippines and the United States take *the*. Another example: \"I'm a teacher from Brazil.\""
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete: \"There is a sofa in the living room. ____ sofa is blue.\"",
+      "options": {
+        "A": "The",
+        "B": "A",
+        "C": "An",
+        "D": "Some"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: definite article for a noun already mentioned. The first mention uses *a/an* (\"a sofa\"); the second mention uses *the* because both speakers now know which sofa. Another example: \"I have a dog. The dog is friendly.\""
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct word: \"____ keys are these?\"",
+      "options": {
+        "A": "Whose",
+        "B": "Who's",
+        "C": "Who",
+        "D": "Whom's"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *whose* (possession) versus *who's* (= who is). \"Whose keys are these?\" asks the owner. Test: if you can replace it with \"who is\", use *who's*. Another example: \"Who's at the door?\""
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct form: \"What does 'borrow' ____?\"",
+      "options": {
+        "A": "means",
+        "B": "meaning",
+        "C": "to mean",
+        "D": "mean"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: question with *does* + base verb. The auxiliary *does* already carries the third-person -s, so the main verb stays in the base form. Another example: \"What does this word mean?\""
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which option completes \"I'll see you ____ tomorrow.\" correctly?",
+      "options": {
+        "A": "(no preposition)",
+        "B": "on",
+        "C": "in",
+        "D": "at"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: time expressions without prepositions. Words such as *tomorrow*, *yesterday*, *today*, *tonight*, *next week* and *every day* take no preposition. Another example: \"We travel next week.\""
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which question is grammatical? Pay attention to where the adverb *ever* goes.",
+      "options": {
+        "A": "Do you eat ever breakfast at work?",
+        "B": "Ever do you eat breakfast at work?",
+        "C": "Do you ever eat breakfast at work?",
+        "D": "Do ever you eat breakfast at work?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: position of adverbs in present-simple questions. The frequency adverb goes between the subject and the base verb: \"Do you ever ...?\" It never separates the verb from its object. Another example: \"Does she often travel?\""
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete the polite request: \"I'd like ____ a room for two nights.\"",
+      "options": {
+        "A": "to book",
+        "B": "book",
+        "C": "booking",
+        "D": "booked"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *would like* + *to* + infinitive. Without \"to\" the structure is incorrect after *would like*. Another example: \"We'd like to see the menu.\""
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct pair: \"My brother ____ twenty years old and ____ two sons.\"",
+      "options": {
+        "A": "has / has",
+        "B": "is / has",
+        "C": "is / have",
+        "D": "has / have"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: *be* for age and *have/has* for possession, with third-person agreement. Age uses *is*; the possessed children use *has* with a singular subject. Another example: \"My sister is 30 and has a daughter.\""
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "How do you write the possessive of \"the room of the children\"?",
+      "options": {
+        "A": "the childrens' room",
+        "B": "the childrens room",
+        "C": "the children's room",
+        "D": "the children' room"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: possessive of irregular plurals. A plural that does not end in -s (children, men, women, people) takes 's like a singular noun. Only regular plurals ending in -s take just an apostrophe (the dogs' bowls)."
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence is standard English for saying you are very busy? Think about *any* and negation.",
+      "options": {
+        "A": "I don't have no time.",
+        "B": "I don't have any time.",
+        "C": "I don't have nothing time.",
+        "D": "I no have time."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: negation with *any* (no double negatives). Standard English uses a single negative element: \"I don't have any time\" or \"I have no time\". Another example: \"She doesn't know anybody.\""
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence has the correct word order for an *indirect question* (a question inside a polite request)?",
+      "options": {
+        "A": "Do you know where is the bank?",
+        "B": "Do you know where the bank is?",
+        "C": "Do you know where does the bank?",
+        "D": "Do you know where the bank it is?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: word order in indirect questions. After \"Do you know ...\", the question word is followed by statement order (subject + verb) with no inversion. Direct question: \"Where is the bank?\" Another example: \"Can you tell me what time it is?\""
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct form: \"Drive ____ in the rain.\"",
+      "options": {
+        "A": "careful",
+        "B": "carefulness",
+        "C": "care",
+        "D": "carefully"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: adverbs of manner. To describe how an action is done, use an adverb (-ly), not an adjective. Another example: \"Walk slowly on ice.\" (Exception: good becomes *well*.)"
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete the suggestion: \"Let's ____ now.\"",
+      "options": {
+        "A": "to go",
+        "B": "going",
+        "C": "go",
+        "D": "goes"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: *Let's* (= let us) + base verb, with no \"to\". Negative: \"Let's not wait.\" Another example: \"Let's start the meeting.\""
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the preposition: \"Sarah is interested ____ biology.\"",
+      "options": {
+        "A": "at",
+        "B": "on",
+        "C": "in",
+        "D": "about"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: adjective + fixed preposition. *Interested* is followed by *in*. Portuguese \"interessada em\" matches, but other pairs do not, so learn them as chunks. Another example: \"She is good at math.\""
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A colleague passes you in the corridor and says, \"How are you?\" without stopping. What is the most appropriate reply?",
+      "options": {
+        "A": "A detailed account of your health problems",
+        "B": "\"I am from Brazil.\"",
+        "C": "\"Fine, thanks. And you?\"",
+        "D": "No reply, because it is not a real question"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In English, \"How are you?\" is usually a greeting, not a request for details. The expected reply is short and reciprocal (\"Fine, thanks. And you?\"). Save details for when the person stops and asks again."
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "At check-in, an agent asks about your bags. Which answer sounds natural?",
+      "options": {
+        "A": "\"I have two luggages.\"",
+        "B": "\"I have a luggages.\"",
+        "C": "\"I have two luggage's.\"",
+        "D": "\"I have two pieces of luggage.\""
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Luggage* and *baggage* are uncountable, so they have no plural and no a/an. Count them with \"pieces of\" (or use a countable word such as \"bags\" or \"suitcases\")."
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which request is most appropriate when speaking to a waiter in a formal restaurant?",
+      "options": {
+        "A": "\"Give me the menu.\"",
+        "B": "\"I want the menu.\"",
+        "C": "\"Could I have the menu, please?\"",
+        "D": "\"The menu, now.\""
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Polite requests use *Could I have ...?* or *I'd like ...* plus *please*. Bare imperatives and \"I want\" sound abrupt in service situations. Another example: \"Could we have the bill, please?\""
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which statement about referring to pets in English is accurate?",
+      "options": {
+        "A": "A pet must always be called \"it\".",
+        "B": "Owners often use \"he\" or \"she\" for a named pet, and \"it\" for an unknown animal.",
+        "C": "A pet takes the same gender as its owner.",
+        "D": "Only \"they\" can be used for animals."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "English is flexible: an unfamiliar animal is \"it\", but a pet with a name often becomes \"he\" or \"she\". The possessive depends on the owner's gender (his dog, her dog), not the animal's."
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You booked a visit to the dentist. Which word is best for it?",
+      "options": {
+        "A": "meeting",
+        "B": "date",
+        "C": "compromise",
+        "D": "appointment"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "An *appointment* is a scheduled visit with a professional such as a doctor or dentist. A *meeting* is a business gathering, a *date* is romantic (or a calendar day), and *compromise* is a false friend of Portuguese \"compromisso\"."
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which strategy is the most effective for stopping confusion among \"at\", \"on\" and \"in\" with time expressions?",
+      "options": {
+        "A": "Memorize whole chunks with examples (at 7, on Monday, in July) and test yourself with gap-fill practice.",
+        "B": "Translate each preposition word for word from Portuguese.",
+        "C": "Avoid prepositions of time altogether.",
+        "D": "Use only \"at\" for every time expression."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Prepositions rarely map one to one between languages, so chunking works better than translation: at + clock time, on + day/date, in + month/year/part of day. Retrieval practice like gap-fills strengthens memory more than rereading."
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner finds their keys and then says, \"I look for my keys,\" meaning that the search was successful. What is the issue?",
+      "options": {
+        "A": "Nothing is wrong; look for means to find.",
+        "B": "*Look for* describes the search; the result is expressed by *find*: \"I found my keys\".",
+        "C": "It should be \"look at\", meaning to find.",
+        "D": "It should be \"watch for my keys\"."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Look for* = search (a process), *find* = discover (a result), *look at* = direct your eyes toward. Another example: \"I'm looking for my wallet. Oh, I found it!\""
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian writes, \"Is raining a lot today.\" What is the most useful rule to learn from this error?",
+      "options": {
+        "A": "English always requires a subject; for weather, use dummy *it*: \"It's raining a lot today.\"",
+        "B": "English never uses the verb *to be* with the weather.",
+        "C": "The verb should be \"has\": \"Has rain today\".",
+        "D": "Weather sentences need no verb."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Portuguese can omit the subject (\"Está chovendo\"), but English needs one, so it uses an empty *it* for weather, time and distance: \"It's cold\", \"It's six o'clock\"."
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "An American mother says, \"My daughter is in college.\" What does she mean?",
+      "options": {
+        "A": "Her daughter attends a primary school.",
+        "B": "Her daughter is a university-level student.",
+        "C": "Her daughter is in secondary school.",
+        "D": "Her daughter works in a library."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In American English, *college* means higher education (like a university), and is a false friend of Portuguese \"colégio\". Primary and secondary education use *school* (elementary school, high school)."
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian emails a manager: \"You mustn't come to tomorrow's meeting,\" meaning \"It's not necessary for you to attend.\" What impression does it give, and what is better?",
+      "options": {
+        "A": "It sounds correct and neutral; mustn't means not necessary.",
+        "B": "It sounds like a prohibition; \"You don't have to come\" expresses no obligation.",
+        "C": "It sounds too informal; \"You can't to come\" is better.",
+        "D": "It sounds like a question; \"Must you come?\" is better."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Mustn't* expresses prohibition (it is forbidden), while *don't have to* expresses absence of obligation (it is optional). Another example: \"You mustn't smoke here\" versus \"You don't have to wear a tie.\""
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian says about a roller coaster, \"It's really funny!\" meaning that it is enjoyable. What is the problem?",
+      "options": {
+        "A": "Nothing; funny means enjoyable.",
+        "B": "It should be \"funnier\".",
+        "C": "It should be \"funnily\".",
+        "D": "*Funny* means \"amusing\" or \"strange\"; for an enjoyable experience use *fun*."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Fun* (enjoyable) and *funny* (that makes you laugh, or odd) are different. \"The ride is fun\" praises it, while \"the ride is funny\" may mean it makes you laugh or seems strange."
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "After finishing a themed lesson with vocabulary and grammar tables, which routine best consolidates it over a week?",
+      "options": {
+        "A": "Translate sentences from memory, check the answers, and repeat after 1, 3 and 7 days.",
+        "B": "Reread the tables three times on the same day.",
+        "C": "Move to the next lesson and never come back.",
+        "D": "Copy the vocabulary list once and keep it in a drawer."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Active recall with spaced repetition beats passive rereading: producing answers from memory strengthens retrieval, and reviewing after increasing intervals fights forgetting. Mix vocabulary with full sentences so grammar is practiced too."
+    }
+  ],
+  "registered": {
+    "question_ids": [
+      551,
+      552,
+      553,
+      554,
+      555,
+      556,
+      557,
+      558,
+      559,
+      560,
+      561,
+      562,
+      563,
+      564,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      574,
+      575,
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642,
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659,
+      660,
+      661,
+      662,
+      663,
+      664,
+      665,
+      666,
+      667,
+      668,
+      669,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      677,
+      678,
+      679,
+      680,
+      681,
+      682,
+      683,
+      684,
+      685,
+      686,
+      687,
+      688,
+      689,
+      690,
+      691,
+      692,
+      693,
+      694,
+      695,
+      696,
+      697,
+      698,
+      699,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      706,
+      707,
+      708,
+      709,
+      710,
+      711,
+      712,
+      713,
+      714,
+      715,
+      716,
+      717,
+      718,
+      719,
+      720,
+      721,
+      722,
+      723,
+      724,
+      725,
+      726,
+      727,
+      728,
+      729,
+      730,
+      731,
+      732,
+      733,
+      734,
+      735,
+      736,
+      737,
+      738,
+      739,
+      740,
+      741,
+      742,
+      743,
+      744,
+      745,
+      746,
+      747,
+      748,
+      749,
+      750
+    ],
+    "skipped": 0
+  }
+}

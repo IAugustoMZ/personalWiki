@@ -1,0 +1,3215 @@
+{
+  "approved_by": "user (bulk generation request, delegated approval)",
+  "approved_on": "2026-11-11",
+  "topic": {
+    "subsubcategory_id": 40,
+    "name": "Spanish"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In Spanish, how is the question \"How much is it?\" written correctly?",
+      "options": {
+        "A": "Cuánto es?",
+        "B": "¿Cuánto es",
+        "C": "¿Cuánto es?",
+        "D": "¡Cuánto es?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Spanish questions open with an inverted question mark and close with a normal one: `¿Cuánto es?`. Exclamations work the same way with `¡ ... !`, for example `¡Qué rico!`."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "You are ordering politely at a café counter.\n\n```text\nCamarero: ¿Qué desea?\nTú:       ____ un café con leche, por favor.\n(I would like a coffee with milk, please.)\n```",
+      "options": {
+        "A": "Quisiera",
+        "B": "Quisimos",
+        "C": "Quisieron",
+        "D": "Quisiste"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Quisiera` is the polite way to say 'I would like', softer than the blunt `Quiero`. `Me gustaría` is another polite option: `Me gustaría un té, por favor`."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Spanish forms the plural of a noun ending in a consonant with $\\text{singular} + \\text{-es}$ (a written accent may disappear). What is the plural of *limón*?",
+      "options": {
+        "A": "limónes",
+        "B": "limones",
+        "C": "limons",
+        "D": "limonos"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A noun ending in a consonant adds `-es`, and the accent is no longer needed because the stress stays on the same syllable: `limón` becomes `limones`. Another example: `ratón` becomes `ratones`."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says \"cold water\", given that *agua* is a feminine noun that takes *el* in the singular?",
+      "options": {
+        "A": "el agua frío",
+        "B": "la agua fría",
+        "C": "el agua fríos",
+        "D": "el agua fría"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Feminine nouns that begin with a stressed *a* use the article *el* in the singular, but the adjective still agrees in the feminine: `el agua fría`, and in the plural `las aguas frías`. Another example: `el águila blanca`."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the answer about where someone comes from.\n\n```text\n¿De dónde eres?\n— Soy ____ Brasil.\n(I am from Brazil.)\n```",
+      "options": {
+        "A": "en",
+        "B": "a",
+        "C": "de",
+        "D": "por"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Origin is expressed with `ser de` + place: `Soy de Brasil`. Where you live uses `vivir en`: `Vivo en España`."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which verb form completes \"Nosotros ____ de España\"?",
+      "options": {
+        "A": "son",
+        "B": "sois",
+        "C": "soy",
+        "D": "somos"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "This is the present tense of *ser*: yo `soy`, tú `eres`, él/ella `es`, nosotros `somos`, vosotros `sois`, ellos `son`. Another example: `Ellos son de Chile`."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Spanish negation follows $\\text{no} + \\text{conjugated verb} + \\text{rest of the sentence}$. How do you negate \"Hablo inglés\"?",
+      "options": {
+        "A": "Hablo no inglés",
+        "B": "No yo hablo inglés",
+        "C": "Hablo inglés no",
+        "D": "No hablo inglés"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`No` goes directly before the conjugated verb. Another example: `Es española` becomes `No es española`."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does the word *estadounidense* mean?",
+      "options": {
+        "A": "From any country in the Americas",
+        "B": "From Argentina",
+        "C": "From the United States",
+        "D": "From Italy"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Estadounidense` refers specifically to someone or something from the United States and has the same form for men and women. `Americano` can refer to anyone from the Americas."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Spanish adjective means \"shy\"?",
+      "options": {
+        "A": "tímido",
+        "B": "terco",
+        "C": "celoso",
+        "D": "perezoso"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Tímido/tímida` means shy. `Terco` means stubborn, `celoso` jealous and `perezoso` lazy."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Comparisons follow $\\text{subject} + \\text{ser} + \\text{más} + \\text{adjective} + \\text{que} + \\text{comparison}$. Which sentence means \"Ana is taller than Luis\"?",
+      "options": {
+        "A": "Ana es más alta de Luis",
+        "B": "Ana es más alto que Luis",
+        "C": "Ana es mucho alta como Luis",
+        "D": "Ana es más alta que Luis"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The adjective agrees with the subject (`alta` for Ana) and the comparison is introduced by `que`. Another example: `Luis es menos tímido que yo`."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes \"Es un ____ amigo\" (a good friend)?",
+      "options": {
+        "A": "bueno",
+        "B": "bien",
+        "C": "buen",
+        "D": "buena"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Bueno* drops its final *-o* (apocope) before a masculine singular noun: `un buen amigo`. Before a feminine noun it stays complete: `una buena amiga`."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about a trip to the shop.\n\n```text\nVoy ____ supermercado a comprar fruta.\n(I am going to the supermarket to buy fruit.)\n```",
+      "options": {
+        "A": "a el",
+        "B": "al",
+        "C": "en el",
+        "D": "del"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The preposition `a` and the article `el` always contract into `al`: `Voy al cine`. Before `la` there is no contraction: `Voy a la farmacia`."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Near-future plans use $\\text{ir (conjugated)} + a + \\text{infinitive}$. Which sentence means \"We are going to eat\"?",
+      "options": {
+        "A": "Vamos a comer",
+        "B": "Vamos comer",
+        "C": "Vamos a comemos",
+        "D": "Vais a comer"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The conjugated form of `ir` (`vamos` for *nosotros*) is followed by `a` and an infinitive. Another example: `Voy a comprar pan`."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Where would you go to *sacar dinero* (withdraw money)?",
+      "options": {
+        "A": "la biblioteca",
+        "B": "el banco",
+        "C": "el museo",
+        "D": "la farmacia"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Sacar dinero` means to withdraw money, which you do at `el banco` (or at a cash machine). In `la biblioteca` you read, in `la farmacia` you buy medicine."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the weather description.\n\n```text\nEn invierno ____ mucho frío.\n(In winter it is very cold.)\n```",
+      "options": {
+        "A": "está",
+        "B": "es",
+        "C": "tiene",
+        "D": "hace"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Weather in Spanish uses the impersonal `hacer`: `hace frío`, `hace calor`, `hace sol`, `hace viento`. Only the third person singular `hace` is used."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which verb form completes \"En las montañas ____ mucho en enero\" (it snows a lot)?",
+      "options": {
+        "A": "nevea",
+        "B": "neva",
+        "C": "nieva",
+        "D": "nieve"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "This is the present tense of the stem-changing verb *nevar* (e → ie), used impersonally in the third person singular. Another example: `llover` becomes `llueve` (o → ue)."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does *Llueve mucho* mean?",
+      "options": {
+        "A": "It is very cold",
+        "B": "It snows a lot",
+        "C": "It is very windy",
+        "D": "It rains a lot"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Llueve` comes from `llover` (to rain). Similar verbs are `nieva` (it snows) and `truena` (it thunders)."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Someone asks where a piece of furniture is.\n\n```text\n— ¿Dónde está el sofá?\n— El sofá ____ en el salón.\n(The sofa is in the living room.)\n```",
+      "options": {
+        "A": "está",
+        "B": "hay",
+        "C": "es",
+        "D": "tiene"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The location of a specific, known object uses `estar`: `El sofá está en el salón`. `Hay` introduces something new: `Hay un sofá en el salón`."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "To express a large amount of an uncountable noun, use $\\text{hay} + \\text{mucho/a} + \\text{noun}$ (agreeing with the noun). Which sentence means \"There is a lot of light\"?",
+      "options": {
+        "A": "Hay mucho luz",
+        "B": "Hay muy luz",
+        "C": "Hay muy luminosa",
+        "D": "Hay mucha luz"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Luz` is feminine, so the quantifier is `mucha`. `Muy` is only used before adjectives and adverbs. Another example: `Hay mucha agua`."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is *la estantería* in a house?",
+      "options": {
+        "A": "A staircase",
+        "B": "A bookshelf",
+        "C": "A carpet",
+        "D": "A curtain"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`La estantería` is a shelf unit for books. A staircase is `la escalera`, a carpet `la alfombra` and a curtain `la cortina`."
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about weekend sport.\n\n```text\nMis amigos ____ al fútbol los sábados.\n(My friends play soccer on Saturdays.)\n```",
+      "options": {
+        "A": "jugan",
+        "B": "juegan",
+        "C": "juegamos",
+        "D": "jugamos"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Jugar* changes u → ue in the stressed forms, so the third person plural is `juegan`. `Jugamos` and `jugáis` keep the *u*."
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes \"Nosotros ____ al tenis los domingos\"?",
+      "options": {
+        "A": "jugamos",
+        "B": "juegamos",
+        "C": "jugan",
+        "D": "juegan"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Jugar* is a stem-changing verb (u → ue), but the change does not occur in the *nosotros* and *vosotros* forms: `jugamos`, `jugáis`. Compare `juego`, `juegas`, `juega`, `juegan`."
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Spanish word means \"goalkeeper\"?",
+      "options": {
+        "A": "el portero",
+        "B": "el árbitro",
+        "C": "el delantero",
+        "D": "el campeón"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`El portero` is the goalkeeper. `El árbitro` is the referee, `el delantero` the forward/striker and `el campeón` the champion."
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "The teacher addresses one student informally.\n\n```text\nProfesor: ____ el libro en la página diez. (tú)\n(Open the book on page ten.)\n```",
+      "options": {
+        "A": "Abres",
+        "B": "Abra",
+        "C": "Abre",
+        "D": "Abren"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The affirmative command for *tú* uses the same form as the third person singular of the present: `abre`, `escucha`, `repite`. `Abra` is the *usted* command."
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Negative commands for *tú* follow $\\text{no} + \\text{subjunctive}(\\text{tú})$; for -ar verbs the ending is -es. Which means \"Don't speak\"?",
+      "options": {
+        "A": "No habla",
+        "B": "No hables",
+        "C": "No hable",
+        "D": "No hablas"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Negative *tú* commands use the present subjunctive: `no hables`, `no abras`, `no escribas`. The affirmative form (`habla`) is not used with `no`."
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes \"____ el ejercicio, por favor\" (an informal command, *tú*, meaning \"Do the exercise\")?",
+      "options": {
+        "A": "Haz",
+        "B": "Hace",
+        "C": "Hagas",
+        "D": "Hacer"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Hacer* has an irregular affirmative command for *tú*: `haz`. Others in the same group: `di`, `ve`, `pon`, `sal`, `sé`, `ten`, `ven`. Example: `Pon el libro en la mesa`."
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The absolute superlative follows $\\text{adjective stem} + \\text{-ísimo}$. What is the absolute superlative of *rápido*?",
+      "options": {
+        "A": "rapidísimo",
+        "B": "rápidísimo",
+        "C": "rapidísmo",
+        "D": "muy rápidísimo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The final vowel is replaced by `-ísimo`, and the stress moves, so the original accent disappears: `rapidísimo`. Other examples: `caro` becomes `carísimo`, `rico` becomes `riquísimo`."
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "A waiter serves soup that is cold at this very moment. Which verb completes \"La sopa ____ fría\"?",
+      "options": {
+        "A": "es",
+        "B": "hay",
+        "C": "tiene",
+        "D": "está"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Estar* describes a temporary state or condition, such as the temperature of a dish right now: `La sopa está fría`. *Ser* would describe a general characteristic. Another example: `El postre está riquísimo`."
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In a Spanish set meal, what does *de segundo* refer to?",
+      "options": {
+        "A": "The main course",
+        "B": "The dessert",
+        "C": "The starter",
+        "D": "The drink"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A set menu is ordered `de primero` (first course), `de segundo` (main course) and `de postre` (dessert). Example: `De segundo, pescado`."
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the request in a clothes shop.\n\n```text\nBusco una camisa ____.\n(I am looking for a white shirt.)\n```",
+      "options": {
+        "A": "blanco",
+        "B": "blancas",
+        "C": "blanca",
+        "D": "blancos"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Colors that end in *-o* agree with the noun in gender and number, and they come after it. `Camisa` is feminine singular, so `blanca`. Another example: `unos zapatos negros`."
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Fit in clothes follows $\\text{me} + \\text{quedar} + \\text{adjective}$, where the verb agrees with the garment. Which sentence means \"The pants are big on me\"?",
+      "options": {
+        "A": "Los pantalones me quedan grandes",
+        "B": "Los pantalones me queda grande",
+        "C": "Los pantalones me quedo grandes",
+        "D": "Los pantalones me quedan grande"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Quedar` works like `gustar`: the verb agrees with the thing, not the person. `Pantalones` is plural, so `quedan`, and the adjective is plural too: `grandes`. Another example: `La falda me queda pequeña`."
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is *el probador* in a clothes shop?",
+      "options": {
+        "A": "The cash desk",
+        "B": "The fitting room",
+        "C": "The coat hanger",
+        "D": "The size label"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`El probador` is where you try on clothes, from `probarse` (to try on). Example: `¿Puedo probarme este vestido?`"
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Ask for one more of something.\n\n```text\n— ¿Quieres más café?\n— Sí, quiero ____ café.\n(Yes, I want another coffee.)\n```",
+      "options": {
+        "A": "un otro",
+        "B": "otra",
+        "C": "otro",
+        "D": "uno otro"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Otro` never takes the indefinite article in Spanish, unlike Portuguese 'um outro':`otro café`, `otra casa`. The same applies after `medio`, `cien` and `mil`."
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which word completes \"¿Tienes un libro? — Sí, tengo ____\"?",
+      "options": {
+        "A": "un",
+        "B": "uno",
+        "C": "una",
+        "D": "lo"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "When the masculine noun is not repeated, `un` becomes `uno`: `Tengo uno`. With a feminine noun the form stays `una`: `¿Tienes una hoja? — Sí, tengo una`."
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Before a masculine noun, $\\text{veintiuno} \\rightarrow \\text{veintiún}$ (with a written accent). How do you say \"twenty-one years\" as an age?",
+      "options": {
+        "A": "veintiuno años",
+        "B": "veintiún años",
+        "C": "veintiuna años",
+        "D": "veinte un años"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The number *uno* loses its final vowel before a masculine noun: `veintiún años`, `treinta y un años`. Before a feminine noun it is `veintiuna personas`."
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about a kitchen item.\n\n```text\nLa olla va en la ____.\n(The pot goes in the kitchen.)\n```",
+      "options": {
+        "A": "jardín",
+        "B": "cuenta",
+        "C": "escalera",
+        "D": "cocina"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`La cocina` is the kitchen, the natural place for `la olla` (the pot). `El jardín` is the garden and `la escalera` the staircase."
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Replace the object with a pronoun: \"Tenemos que entregar el trabajo\" becomes \"Tenemos que ____\".",
+      "options": {
+        "A": "entregarle",
+        "B": "lo entregar",
+        "C": "entregarlo",
+        "D": "entregarla"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "This is the placement of direct object pronouns with an infinitive: the pronoun attaches to the end of the infinitive (`entregarlo`) or goes before the whole verb phrase (`Lo tenemos que entregar`). `Trabajo` is masculine, so `lo`."
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the question about how to arrive somewhere.\n\n```text\n¿Cómo ____ llega al museo?\n(How does one get to the museum?)\n```",
+      "options": {
+        "A": "me",
+        "B": "lo",
+        "C": "se",
+        "D": "le"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The impersonal *se* + third person singular expresses a general action: `¿Cómo se llega al museo?`, `Se tarda diez minutos`. No specific subject is mentioned."
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which pronoun completes \"¿Cómo ____ llamas?\" (asking a friend's name)?",
+      "options": {
+        "A": "me",
+        "B": "se",
+        "C": "te",
+        "D": "le"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Llamarse* is a reflexive verb, and the pronoun matches the subject: `me llamo`, `te llamas`, `se llama`. The pronoun goes before the verb. Example: `Nos llamamos Luis y Eva`."
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Someone you have just met says \"Mucho gusto\". Which reply is natural?",
+      "options": {
+        "A": "Hasta luego",
+        "B": "De nada",
+        "C": "Perdone",
+        "D": "Igualmente"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Mucho gusto` (nice to meet you) is answered with `Igualmente` (likewise) or `Encantado/Encantada`. `De nada` answers `gracias`."
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "After the half hour, tell the time with $\\text{Son las} + (\\text{next hour}) + \\text{menos} + \\text{minutes}$. How do you say 3:50?",
+      "options": {
+        "A": "Son las tres menos diez",
+        "B": "Son las cuatro y diez",
+        "C": "Son las cuatro menos diez",
+        "D": "Son las diez menos cuatro"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "At 3:50 it is ten minutes before four, so `Son las cuatro menos diez`. Likewise 3:45 is `Son las cuatro menos cuarto`. Up to the half hour you add with `y`: `Son las tres y media`."
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which word completes \"Estoy ____ cansado\" (I am very tired)?",
+      "options": {
+        "A": "mucho",
+        "B": "muy",
+        "C": "mucha",
+        "D": "tanta"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Muy* goes before adjectives and adverbs, while *mucho/a* goes before nouns or after verbs. Compare `muy cansado` with `mucha hambre` and `Me gusta mucho`."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which animal *maúlla*?",
+      "options": {
+        "A": "El perro",
+        "B": "El caballo",
+        "C": "La vaca",
+        "D": "El gato"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`Maullar` is the verb for a cat's meow. The dog `ladra`, the cow `muge`, the horse `relincha`."
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which preposition completes \"Veo ____ mi tío en el parque\"?",
+      "options": {
+        "A": "a",
+        "B": "de",
+        "C": "con",
+        "D": "por"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "This is the personal *a*: a direct object that is a specific person takes `a`. Another example: `Llamo a mis padres`. It is not used for things: `Veo la televisión`."
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes \"Me ____ las baladas\" (I like ballads)?",
+      "options": {
+        "A": "gusta",
+        "B": "gustan",
+        "C": "gusto",
+        "D": "gustas"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Gustar* agrees with the thing that is liked, not with the person: singular `Me gusta el jazz`, plural `Me gustan las baladas`. With an infinitive it is singular: `Me gusta cantar`."
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the answer using an object pronoun.\n\n```text\nCompro el pan.  →  ____ compro.\n(I buy it.)\n```",
+      "options": {
+        "A": "Lo",
+        "B": "La",
+        "C": "Le",
+        "D": "Los"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The direct object pronoun agrees in gender and number with the noun it replaces: `el pan` is masculine singular, so `lo`. For `la leche` it would be `La compro`."
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "When an indirect object pronoun meets a direct one in the third person, $\\text{le/les} + \\text{lo/la/los/las} \\rightarrow \\text{se} + \\text{lo/la/los/las}$. Rewrite \"Doy el libro a Ana\" with both pronouns: \"____ doy\".",
+      "options": {
+        "A": "Le lo",
+        "B": "Se lo",
+        "C": "Lo le",
+        "D": "Lo se"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Le lo` does not exist: `le` or `les` becomes `se` before `lo`, `la`, `los` or `las`. Another example: `Mando la carta a mis padres` becomes `Se la mando`."
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Age is expressed with $\\text{tener}_{\\text{conjugated}} + \\text{number} + \\text{años}$. Which sentence means \"My sister is 22\"?",
+      "options": {
+        "A": "Mi hermana es veintidós años",
+        "B": "Mi hermana tiene veintidós años",
+        "C": "Mi hermana está veintidós años",
+        "D": "Mi hermana hace veintidós años"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Spanish uses `tener`, literally 'to have', for age. Another example: `¿Cuántos años tiene tu amigo?`"
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What do you say to someone on their birthday?",
+      "options": {
+        "A": "¡Bienvenido!",
+        "B": "¡Buen provecho!",
+        "C": "¡Hasta luego!",
+        "D": "¡Feliz cumpleaños!"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`¡Feliz cumpleaños!` or `¡Felicidades!` wish someone a happy birthday. `¡Bienvenido!` is welcome and `¡Hasta luego!` is see you later."
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does the Spanish word *olla* mean?",
+      "options": {
+        "A": "Pot",
+        "B": "Window",
+        "C": "Garden",
+        "D": "Welcome"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`La olla` is a cooking pot and belongs in `la cocina`. Window is `la ventana`, garden `el jardín` and welcome `la bienvenida`."
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A customer in a shop says *Me queda grande*. What is the problem?",
+      "options": {
+        "A": "It is too expensive",
+        "B": "It is too big on me",
+        "C": "I like it a lot",
+        "D": "I want a bigger discount"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Quedar` + adjective describes how clothes fit: `Me queda grande` is too big, `Me queda estrecho` is too tight. The size is the adjective, not the price."
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which article completes \"____ puente es muy largo\" (The bridge is very long)?",
+      "options": {
+        "A": "La",
+        "B": "Las",
+        "C": "Lo",
+        "D": "El"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "This is the gender of nouns that differ from Portuguese: `el puente`, `el viaje`, `el mensaje` are masculine, whereas `la leche`, `la sal`, `la sangre` are feminine. Example: `el garaje`."
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which clock time does *las diez de la noche* describe?",
+      "options": {
+        "A": "10:00",
+        "B": "22:00",
+        "C": "12:00",
+        "D": "20:00"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Spanish does not say a.m. or p.m. in speech; it adds `de la mañana`, `de la tarde` or `de la noche`. So `las diez de la noche` is 22:00 and `las ocho de la mañana` is 08:00."
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the order in a restaurant.\n\n```text\nCamarero: ¿Qué desea?\nTú:       Quisiera la sopa ____ primero.\n(I'd like the soup as a starter.)\n```",
+      "options": {
+        "A": "en",
+        "B": "con",
+        "C": "por",
+        "D": "de"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The courses of a menu are introduced with `de`: `de primero`, `de segundo`, `de postre`. Example: `De postre, flan`."
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about feelings.\n\n```text\nEstoy harto ____ esperar.\n(I'm fed up with waiting.)\n```",
+      "options": {
+        "A": "con",
+        "B": "por",
+        "C": "de",
+        "D": "en"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Some emotion adjectives are tied to a specific preposition: `harto de`, `orgulloso de`, `preocupado por`, `enfadado con`. Example: `Estamos orgullosos de ti`."
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does the sentence *El oso es omnívoro* tell you about bears?",
+      "options": {
+        "A": "They eat only plants",
+        "B": "They eat only meat",
+        "C": "They eat both plants and meat",
+        "D": "They eat only fish"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Omnívoro` means eating both plants and animals. `Herbívoro` is plant-eating (`La vaca es herbívora`) and `carnívoro` is meat-eating (`El león es carnívoro`)."
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which verb form completes \"Nos ____ dos vasos\" (We are missing two glasses)?",
+      "options": {
+        "A": "falta",
+        "B": "faltamos",
+        "C": "faltan",
+        "D": "faltáis"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Faltar* works like *gustar*: the verb agrees with the thing that is missing, not with the person. `Me falta un tenedor` but `Nos faltan dos vasos`."
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "It is raining heavily and you are about to leave the house. Which item do you need?",
+      "options": {
+        "A": "las gafas de sol",
+        "B": "el bañador",
+        "C": "el paraguas",
+        "D": "la gorra"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`El paraguas` is the umbrella. Sunglasses (`las gafas de sol`) and a swimsuit (`el bañador`) are for sunny weather and the beach."
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which possessive completes \"Nosotros vivimos en ____ casa nueva\"?",
+      "options": {
+        "A": "nuestro",
+        "B": "nuestras",
+        "C": "nuestra",
+        "D": "mi"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Nuestro* and *vuestro* agree in gender and number with the thing possessed: `nuestra casa`, `nuestros amigos`. Unlike them, `mi`, `tu` and `su` only change for number: `mi casa`, `mis casas`."
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I am going to tell you this\" with the pronouns \"te\" and \"lo\"?",
+      "options": {
+        "A": "Lo te voy a decir",
+        "B": "Te lo voy a decir",
+        "C": "Voy te lo a decir",
+        "D": "Te voy lo a decir"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This is the order of object pronouns: indirect before direct (`te lo`), and the pair stays together, either before the conjugated verb or attached to the infinitive (`Voy a decírtelo`). Another example: `Me lo da`."
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which verb completes \"____ a su hermano\" (I know her brother, I have met him)?",
+      "options": {
+        "A": "Conozco",
+        "B": "Sé",
+        "C": "Conozo",
+        "D": "Sabo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Conocer* is used for being acquainted with people and places, and the personal *a* precedes a specific person. *Saber* is for facts and skills: `Sé que Luis vive aquí`. Both are irregular in the first person."
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which verb form completes \"A ella le ____ las tormentas\" (Storms frighten her)?",
+      "options": {
+        "A": "asustan",
+        "B": "asusta",
+        "C": "asustamos",
+        "D": "asustas"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Asustar* follows the *gustar* pattern: the pronoun (*le*) shows who feels it and the verb agrees with the cause, here plural `las tormentas`. Another example: `Me preocupan los exámenes`."
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which preposition completes \"El trabajo es ____ el lunes\" (The work is due on Monday)?",
+      "options": {
+        "A": "por",
+        "B": "de",
+        "C": "desde",
+        "D": "para"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Para* marks a deadline or purpose looking forward: `La tarea es para el viernes`, `Usamos el ordenador para buscar información`. *Por* usually expresses cause or means: `Mando el informe por correo`."
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "A waiter speaks politely to a stranger. Which form completes \"¿Qué ____ usted?\"?",
+      "options": {
+        "A": "deseas",
+        "B": "desea",
+        "C": "deseo",
+        "D": "deseamos"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The formal pronoun *usted* takes the third person singular verb form: `¿Qué desea usted?`. *Tú* would be `¿Qué quieres?`. Another example: `¿Cómo está usted?`"
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about a pet.\n\n```text\nLe doy de comer ____ mi gato.\n(I feed my cat.)\n```",
+      "options": {
+        "A": "de",
+        "B": "con",
+        "C": "en",
+        "D": "a"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A direct object that is a pet or other specific, beloved animal takes the personal *a*: `Cuido a mi gato`, `Saco a pasear a mi perro`."
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does *Te echo de menos* mean?",
+      "options": {
+        "A": "I owe you",
+        "B": "I miss you",
+        "C": "I feel sorry for you",
+        "D": "I am fed up with you"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Echar de menos` means to miss someone, mostly used in Spain. In Latin America you often hear `extrañar`: `Extraño a mi familia`."
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "When planning a project, *Por último, practicamos la presentación* tells you that practicing the presentation is:",
+      "options": {
+        "A": "the first step",
+        "B": "the final step",
+        "C": "an optional step",
+        "D": "a step repeated every day"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Por último` and `finalmente` introduce the last step, after `primero`, `luego` and `después`. Example: `Primero elegimos el tema; por último, entregamos el informe`."
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Approximate quantities follow $\\text{unos/unas} + \\text{number} + \\text{plural noun}$, agreeing with the noun's gender. *Silla* (chair) is feminine. Which sentence means \"There are about twenty chairs\"?",
+      "options": {
+        "A": "Hay unos veinte sillas",
+        "B": "Hay una veinte sillas",
+        "C": "Hay unas veinte sillas",
+        "D": "Hay unas veinte silla"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Before a number, `unos/unas` means 'about'. It agrees with the counted noun: `unos treinta alumnos`, `unas veinte sillas`."
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Exclamations follow $\\text{¡Qué} + \\text{noun} + \\text{tan} + \\text{adjective}!$. Which one means \"What a good dessert!\"?",
+      "options": {
+        "A": "¡Qué un postre tan bueno!",
+        "B": "¡Qué postre tan bien!",
+        "C": "¡Cuál postre tan bueno!",
+        "D": "¡Qué postre tan bueno!"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "After `qué` in an exclamation there is no indefinite article. `Tan` (or `más`) before the adjective intensifies it: `¡Qué día tan bonito!`"
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A couple celebrates the date of their wedding each year. Which word names this celebration?",
+      "options": {
+        "A": "cumpleaños",
+        "B": "enhorabuena",
+        "C": "aniversario",
+        "D": "propina"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Aniversario` is the yearly date of an event (wedding, founding of a company), while `cumpleaños` is a birthday. `Nuestro aniversario de boda es en junio`."
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A known object's location follows $\\text{definite article} + \\text{noun} + \\text{estar} + \\text{preposition of place}$. Which sentence means \"The lamp is on the table\"?",
+      "options": {
+        "A": "La lámpara hay encima de la mesa",
+        "B": "Hay la lámpara encima de la mesa",
+        "C": "La lámpara está encima de la mesa",
+        "D": "La lámpara es encima de la mesa"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A noun with a definite article is a known object, so its location uses `estar`: `La lámpara está encima de la mesa`. `Hay` goes with indefinite things: `Hay una lámpara encima de la mesa`."
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which Spanish verb means \"to play\" a musical instrument, as in \"____ la guitarra\"?",
+      "options": {
+        "A": "jugar",
+        "B": "bailar",
+        "C": "tocar",
+        "D": "cantar"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "`Tocar` is used with instruments: `Toca la guitarra`. `Jugar` is used for games and sports (`jugar al fútbol`), `bailar` is to dance and `cantar` is to sing."
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question about origin.\n\n```text\n— ¿____ eres?\n— Soy de Lima.\n```",
+      "options": {
+        "A": "De dónde",
+        "B": "Adónde",
+        "C": "Dónde",
+        "D": "Cuándo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`¿De dónde?` asks about origin, `¿Dónde?` asks about location and `¿Adónde?` asks about destination (`¿Adónde vas?`). The answer `Soy de Lima` gives the origin."
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "How do you say that a woman is French? \"Ella es ____\".",
+      "options": {
+        "A": "francesa",
+        "B": "francés",
+        "C": "francese",
+        "D": "francesas"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Nationalities ending in a consonant add *-a* for the feminine, and the written accent is dropped: `francés` → `francesa`, `alemán` → `alemana`. Another example: `español` → `española`."
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "For times after the half hour use $\\text{Son las} + (\\text{next hour}) + \\text{menos} + \\text{minutes}$. How do you say 6:45?",
+      "options": {
+        "A": "Son las seis menos cuarto",
+        "B": "Son las siete y cuarto",
+        "C": "Son las seis y cuarto",
+        "D": "Son las siete menos cuarto"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "At 6:45 it is a quarter before seven: `Son las siete menos cuarto`. `Son las seis y cuarto` would be 6:15."
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The *usted* command is built as $\\text{yo form} - \\text{-o} + \\text{-e}$ for -ar verbs, with spelling changes where needed. What is the *usted* command of *cruzar* (yo cruzo)?",
+      "options": {
+        "A": "Cruze",
+        "B": "Cruza",
+        "C": "Cruce",
+        "D": "Cruzo"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The letter *z* changes to *c* before *e*: `cruce`. Similar changes: `llegar` becomes `llegue` and `buscar` becomes `busque`. Example: `Cruce la calle`."
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which form completes \"Ayer mis primos ____ de Valencia\" (came)?",
+      "options": {
+        "A": "vinieron",
+        "B": "venieron",
+        "C": "vienen",
+        "D": "vinieran"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "This is the irregular preterite of *venir*: `vine`, `viniste`, `vino`, `vinimos`, `vinisteis`, `vinieron`. Another example: `hacer` has `hice`, `hizo`, `hicieron`."
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the reply.\n\n```text\n— No me gusta el ruido.\n— A mí ____.\n(Me neither.)\n```",
+      "options": {
+        "A": "también",
+        "B": "tampoco",
+        "C": "nunca",
+        "D": "siempre"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Agreeing with a negative statement uses `tampoco` (neither), while agreeing with an affirmative one uses `también`: `Me gusta bailar. — A mí también`."
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A forecast uses $\\text{ir a} + \\text{infinitive}$. How do you say \"Tomorrow it is going to be cold\"?",
+      "options": {
+        "A": "Mañana va hacer frío",
+        "B": "Mañana va a hace frío",
+        "C": "Mañana vamos a hacer frío",
+        "D": "Mañana va a hacer frío"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Weather verbs stay in the third person singular, so `va a` + `hacer frío`. Another example: `Mañana va a llover`."
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Portuguese *esquisito* means \"odd\". Which Spanish adjective actually means \"delicious, exquisite\" and is therefore a false friend for Brazilians?",
+      "options": {
+        "A": "exquisito",
+        "B": "raro",
+        "C": "extraño",
+        "D": "aburrido"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Exquisito` means very tasty or refined, so `Este café está exquisito` is a compliment. The meaning 'odd' is expressed with `raro` or `extraño`."
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "How do *Mi primo es listo* and *Mi primo está listo* differ?",
+      "options": {
+        "A": "My cousin is ready / My cousin is clever",
+        "B": "My cousin is clever / My cousin is ready",
+        "C": "My cousin is lazy / My cousin is tired",
+        "D": "My cousin is funny / My cousin is angry"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Some adjectives change meaning with the verb: `ser listo` means to be clever, whereas `estar listo` means to be ready. Another pair: `es aburrido` (he is boring) and `está aburrido` (he is bored)."
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about preferences.\n\n```text\nPrefiero el jazz ____ rock.\n(I prefer jazz to rock.)\n```",
+      "options": {
+        "A": "al",
+        "B": "que",
+        "C": "del",
+        "D": "a el"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The pattern is `preferir A a B`, and `a` + `el` contracts to `al`: `Prefiero el jazz al rock`. Another example: `Prefiero el té al café`."
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which verb completes \"Mi hermano ____ aburrido hoy porque no tiene nada que hacer\"?",
+      "options": {
+        "A": "es",
+        "B": "está",
+        "C": "hay",
+        "D": "tiene"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This contrasts *ser* and *estar* with adjectives. `Estar aburrido` means to be bored right now, whereas `ser aburrido` means to be boring by nature. Another example: `Está nervioso hoy` versus `Es nervioso`."
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which article completes \"____ lunes voy al gimnasio\" (every Monday)?",
+      "options": {
+        "A": "El",
+        "B": "Las",
+        "C": "Lo",
+        "D": "Los"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Days of the week are masculine; the plural *los* + day expresses a habit, while singular *el* + day refers to one specific day. `Los sábados duermo hasta tarde` versus `El sábado hay fiesta`."
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the phrase about a celebration.\n\n```text\nEs su ____ cumpleaños.\n(It is his third birthday.)\n```",
+      "options": {
+        "A": "tercero",
+        "B": "tercer",
+        "C": "tres",
+        "D": "terceros"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The ordinals *primero* and *tercero* drop the final *-o* before a masculine singular noun: `el primer cumpleaños`, `su tercer cumpleaños`."
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "After a meal you hand over the money and say *Quédese con el cambio*. What do you mean?",
+      "options": {
+        "A": "Keep the change",
+        "B": "Please change my plate",
+        "C": "I would like to change tables",
+        "D": "Can I pay by card?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`El cambio` is the change you get back after paying, so `Quédese con el cambio` means that the waiter can keep it as a tip. Tip is `la propina`."
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Irregular comparatives follow $\text{ser} + \text{mejor/peor} + \text{que}$, without *más*. Which sentence means \"This record is better than the previous one\"?",
+      "options": {
+        "A": "Este disco es más bueno que el anterior",
+        "B": "Este disco es mejor que el anterior",
+        "C": "Este disco es más mejor que el anterior",
+        "D": "Este disco es mejor de el anterior"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Bueno` has the irregular comparative `mejor` (and `malo` has `peor`), so `más bueno` and `más mejor` are wrong. Another example: `La letra es peor que la melodía`."
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "*Sé nadar* and *Puedo nadar* are not identical. What does *saber* + infinitive express?",
+      "options": {
+        "A": "Being allowed to do something",
+        "B": "Knowing how to do something (a learned skill)",
+        "C": "Needing to do something",
+        "D": "Wanting to do something"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Saber` + infinitive expresses a skill you have learned: `Sé tocar la guitarra`. `Poder` expresses possibility or permission, and `tener que` expresses obligation."
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the difference in meaning between *Soy de Madrid* and *Vivo en Madrid*?",
+      "options": {
+        "A": "The first says where you live; the second says where you are from",
+        "B": "The first says where you are from; the second says where you live",
+        "C": "Both mean the same thing",
+        "D": "The first is formal and the second is informal"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "`Ser de` + place expresses origin, while `vivir en` + place expresses residence. A person can say `Soy de Lima, pero vivo en Madrid`."
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence in class.\n\n```text\nPerdone, profesora, no ____ la pregunta.\n(I don't understand the question.)\n```",
+      "options": {
+        "A": "entendo",
+        "B": "entiende",
+        "C": "entendemos",
+        "D": "entiendo"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Entender* changes e → ie in the stressed forms: `entiendo`, `entiendes`, `entiende`. The first person singular is `entiendo`, not *entendo*."
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A pronoun can precede a verb phrase: $\\text{pronoun} + \\text{conjugated verb} + \\text{infinitive}$. How do you say \"We have to deliver it\", replacing *el trabajo*?",
+      "options": {
+        "A": "Lo tenemos que entregar",
+        "B": "Tenemos que lo entregar",
+        "C": "Le tenemos que entregar",
+        "D": "Lo tenemos que entregarlo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The direct object pronoun `lo` goes before the whole phrase or is attached to the infinitive (`Tenemos que entregarlo`), but never in the middle and never twice."
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "*Su casa es grande* can mean his, her, their or your house. How can you make clear that it is Pedro's house?",
+      "options": {
+        "A": "Pedro's casa es grande",
+        "B": "La Pedro casa es grande",
+        "C": "La casa de Pedro es grande",
+        "D": "Su Pedro casa es grande"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Spanish has no possessive 's, so you use `de` + owner: `la casa de Pedro`, `los hijos de María`. With `del` for masculine: `el hermano del jefe`."
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question in a clothes shop.\n\n```text\n¿Puedo ____ esta chaqueta?\n(Can I try on this jacket?)\n```",
+      "options": {
+        "A": "probarme",
+        "B": "probarse",
+        "C": "probarte",
+        "D": "probarnos"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Probarse* (to try on) is reflexive, and with an infinitive the pronoun matches the subject: `Puedo probarme`. It can also go before: `Me puedo probar`."
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence about how you travel.\n\n```text\nVoy a la estación ____ autobús.\n(I go to the station by bus.)\n```",
+      "options": {
+        "A": "por",
+        "B": "con",
+        "C": "en",
+        "D": "a"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Means of transport use `en`: `en autobús`, `en tren`, `en metro`, `en bicicleta`. The exception is `a pie` (on foot)."
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "You want to ask the teacher for a pen. Which verb means \"to ask for something\" (to make a request) rather than \"to ask a question\"?",
+      "options": {
+        "A": "pedir",
+        "B": "preguntar",
+        "C": "responder",
+        "D": "pensar"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Pedir` means to request something (`Pido un bolígrafo`), while `preguntar` means to ask a question (`Pregunto al profesor`). They are often confused because Portuguese and English use one verb for both."
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "With an infinitive, two attached pronouns follow $\\text{infinitive} + \\text{indirect} + \\text{direct}$ and need a written accent. Complete: \"Quiero ____\" (I want to give it, *el libro*, to my mother).",
+      "options": {
+        "A": "regalárselo",
+        "B": "regalarselo",
+        "C": "regalarlose",
+        "D": "regalárlose"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "`Le` + `lo` becomes `se lo`, and with two pronouns attached to an infinitive the stress is kept with an accent: `regalárselo`, `decírtelo`, `dármelo`. With only one pronoun there is no accent: `comprarlo`."
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Equality of degree follows $\\text{subject} + \\text{ser} + \\text{tan} + \\text{adjective} + \\text{como} + \\text{comparison}$. Which sentence means \"I am as patient as my mother\"?",
+      "options": {
+        "A": "Soy tan paciente como mi madre",
+        "B": "Soy tan paciente que mi madre",
+        "C": "Soy tanto paciente como mi madre",
+        "D": "Soy tan paciente de mi madre"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The pattern for 'as ... as' is `tan` + adjective + `como`. Another example: `Es tan cómodo como mi casa antigua`."
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question about habits.\n\n```text\n— ¿Con qué ____ entrenas?\n— Tres veces a la semana.\n(How often do you train?)\n```",
+      "options": {
+        "A": "hora",
+        "B": "cantidad",
+        "C": "razón",
+        "D": "frecuencia"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "`¿Con qué frecuencia...?` asks how often something happens. The answer uses `veces`: `dos veces al mes`."
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which option fills the gaps in \"¿____ llegas tarde? — ____ pierdo el autobús\"?",
+      "options": {
+        "A": "Porque / Por qué",
+        "B": "Porqué / Por que",
+        "C": "Por que / Porqué",
+        "D": "Por qué / Porque"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In questions use *por qué* (two words, with accent); in answers use *porque*. *Porqué* is a noun meaning 'the reason' (`No sé el porqué`)."
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The relative superlative follows $\\text{ser} + \\text{el/la} + \\text{noun} + \\text{más} + \\text{adjective} + \\text{de} + \\text{group}$. Which sentence means \"He is the fastest player on the team\"?",
+      "options": {
+        "A": "Es el jugador más rápido en el equipo",
+        "B": "Es el jugador rápido más del equipo",
+        "C": "Es el más jugador rápido del equipo",
+        "D": "Es el jugador más rápido del equipo"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The group is introduced with `de` (here `de` + `el` = `del`), never with `en`. Another example: `Es la canción más famosa del disco`."
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "A tourist politely asks an elderly stranger how he is, using the pattern \"¿Cómo ____ usted?\". Which complete question is correct?",
+      "options": {
+        "A": "¿Cómo está usted?",
+        "B": "¿Cómo estáis usted?",
+        "C": "¿Cómo es usted?",
+        "D": "¿Cómo estás usted?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: formal address with *usted* takes the third-person singular of *estar* (\"está\"), not the second-person \"estás\". *Ser* (\"es\") would describe identity, not how someone feels. Another example: \"¿De dónde es usted?\" (not *¿De dónde eres usted?*)."
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "To ask a stranger where he or she comes from politely, use the pattern $\\text{¿De dónde} + \\text{ser}_{3sg} + \\text{usted}\\,?$. Which question follows the pattern?",
+      "options": {
+        "A": "¿De dónde son usted?",
+        "B": "¿De dónde es usted?",
+        "C": "¿De dónde eres usted?",
+        "D": "¿De dónde está usted?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The formal pronoun *usted* always pairs with the third-person singular form, here \"es\" from *ser* (origin is expressed with *ser*). \"Eres\" is the informal *tú* form and \"está\" is used for temporary states. Informal equivalent: \"¿De dónde eres?\"."
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the dialogue:\n```text\n— ¿Cuántos años ____ tu padre?\n— Mi padre ____ cincuenta años.\n```",
+      "options": {
+        "A": "es / tiene",
+        "B": "está / tiene",
+        "C": "tiene / tiene",
+        "D": "tiene / es"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In Spanish age is expressed with *tener* (\"tiene cincuenta años\"), literally \"has fifty years\". Using *ser* or *estar* for age is a typical Portuguese-speaker slip. Third-person singular is \"tiene\" in both lines."
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the correct possessive: \"____ hermanas viven en Sevilla\" (our sisters).",
+      "options": {
+        "A": "Nuestros",
+        "B": "Nuestro",
+        "C": "Nuestra",
+        "D": "Nuestras"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: possessives *nuestro/vuestro* agree in gender and number with the thing possessed, not with the owner. \"Hermanas\" is feminine plural, so \"nuestras\". Another example: \"Nuestros abuelos son simpáticos\"."
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which word completes the question about existence: \"¿____ un baño por aquí?\"",
+      "options": {
+        "A": "Hay",
+        "B": "Es",
+        "C": "Hacen",
+        "D": "Está"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *haber* in its impersonal form \"hay\" introduces something indefinite (\"un baño\") whose existence is asked about. *Estar* locates something already identified (\"¿Dónde está el baño?\"). Another example: \"Hay tres libros en la mesa\"."
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in both blanks with the correct contraction:\n```text\nEl banco está cerca ____ parque.\nMañana voy ____ parque con mis hijos.\n```",
+      "options": {
+        "A": "del / del",
+        "B": "del / al",
+        "C": "de el / a el",
+        "D": "al / del"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In Spanish \"de + el\" must contract to \"del\" and \"a + el\" must contract to \"al\"; writing them separately is an error. Notice the two contractions are different: \"cerca del parque\" but \"voy al parque\". Feminine nouns do not contract: \"cerca de la plaza\"."
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Duration pattern: $\\text{Hace} + \\text{period} + \\text{que} + \\text{verb}_{present}$. Which sentence correctly says \\\"I have been studying Spanish for two years\\\"?",
+      "options": {
+        "A": "Desde dos años estudio español.",
+        "B": "Hace dos años que estudié español.",
+        "C": "Hace dos años que estudio español.",
+        "D": "Hay dos años que estudio español."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "To say how long an action has been going on, Spanish uses \"hace + time + que\" followed by the present tense (or \"desde hace + time\"). \"Hay\" cannot be used for time, and \"desde\" needs \"hace\" with a quantity. Another example: \"Hace tres meses que vivo aquí\"."
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A Brazilian reads \"Ayer asistí a la reunión de padres.\" Which understanding is correct?",
+      "options": {
+        "A": "Yesterday I helped organize the parents' meeting.",
+        "B": "Yesterday I watched the parents' meeting on television.",
+        "C": "Yesterday I skipped the parents' meeting.",
+        "D": "Yesterday I attended the parents' meeting."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Asistir a\" means to be present at an event; it is a false friend of Portuguese \"assistir\" (to watch). To say \"watch\" in Spanish use \"ver\" (\"ver una película\"). The helper sense exists too (\"asistir a un enfermo\"), but with \"a la reunión\" it means attend."
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form is correct: \"¿Cuánto ____ las manzanas?\"",
+      "options": {
+        "A": "cuestan",
+        "B": "cuesta",
+        "C": "costan",
+        "D": "cuestas"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *costar* has an o to ue stem change in the present (\"cuesta\", \"cuestan\"), and the verb agrees with the thing that costs. \"Las manzanas\" is plural, so \"cuestan\" (third-person plural). Another example: \"¿Cuánto cuesta este kilo de uvas?\"."
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the order at the market:\n```text\n— Buenos días. Quiero dos kilos ____ naranjas y una botella ____ agua, por favor.\n```",
+      "options": {
+        "A": "en / de",
+        "B": "de / de",
+        "C": "a / de",
+        "D": "de / con"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Quantities and containers are linked to the thing measured with \"de\" and no article: \"un kilo de manzanas\", \"una botella de agua\", \"un vaso de leche\". Prepositions like \"a\" or \"en\" are not used for measures."
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the pair of correct present-tense forms:\n```text\nYo ____ (dormir) ocho horas y ____ (empezar) a trabajar a las nueve.\n```",
+      "options": {
+        "A": "duermo / empezo",
+        "B": "dormo / empiezo",
+        "C": "duermo / empiezo",
+        "D": "dormo / empezo"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Both verbs have a stem change in the first-person singular: *dormir* o to ue (\"duermo\") and *empezar* e to ie (\"empiezo\"). Regular-looking forms like *dormo* or *empezo* are wrong. Note that \"nosotros\" keeps the stem: \"dormimos\", \"empezamos\"."
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Telling time: use $\\text{Es la una}$ for one o'clock and $\\text{Son las} + n$ for the other hours. Which is correct for 1:30?",
+      "options": {
+        "A": "Son las una y media.",
+        "B": "Son la una y media.",
+        "C": "Es las una y media.",
+        "D": "Es la una y media."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The verb and the article agree with the hour: only one o'clock is singular (\"Es la una\"), every other hour is plural (\"Son las dos / tres...\"). Half past is \"y media\". Another example: \"Son las tres y cuarto\"."
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct: \"A mi hermana ____ los cómics\"?",
+      "options": {
+        "A": "le gustan",
+        "B": "gustan",
+        "C": "me gustan",
+        "D": "le gusta"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: with *gustar* the verb agrees with the thing that pleases (\"los cómics\", plural, so \"gustan\") and the indirect pronoun matches the person (\"a mi hermana\" = \"le\"). \"Me\" would refer to the speaker. Another example: \"A mis padres les gusta el café\"."
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "María says: \"Hoy estoy aburrida en clase.\" What does she mean?",
+      "options": {
+        "A": "She is angry at the class.",
+        "B": "She is bored today in class.",
+        "C": "She is a boring person in class.",
+        "D": "She is sleepy because of the class."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Estar aburrido/a\" describes a temporary feeling (bored), while \"ser aburrido/a\" describes a characteristic (boring). Contrast: \"Mi profesor es aburrido\" (he is a boring person). The choice of *estar* versus *ser* changes the meaning of the adjective."
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the pair of verbs:\n```text\nMi hermana ____ sed, pero yo ____ hambre.\n```",
+      "options": {
+        "A": "tiene / estoy",
+        "B": "está / estoy",
+        "C": "tiene / tengo",
+        "D": "es / soy"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Physical sensations such as hunger, thirst, cold and sleepiness use *tener* + noun in Spanish (\"tengo hambre\", \"tiene sed\"), not *estar* or *ser*. Portuguese \"estar com fome\" must be rebuilt as \"tener hambre\"."
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "On the menu of a restaurant in Madrid you read \"tortilla española\". What will you probably be served?",
+      "options": {
+        "A": "A sweet crepe.",
+        "B": "A thin corn or wheat flatbread.",
+        "C": "A tortilla chip salad.",
+        "D": "A thick potato omelette."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In Spain \"tortilla\" is an omelette (usually with potato and egg). In Mexico and Central America \"tortilla\" is the thin flatbread of corn or wheat used for tacos. Regional meaning changes the dish, so check the country."
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Transport pattern: $\\text{ir} + \\text{a} + \\text{place} + \\text{en} + \\text{vehicle}$, except walking, which uses a fixed phrase. Which sentence means \\\"I go to work on foot\\\"?",
+      "options": {
+        "A": "Voy al trabajo a pie.",
+        "B": "Voy al trabajo en el pie.",
+        "C": "Voy al trabajo en pie.",
+        "D": "Voy al trabajo por pie."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Vehicles take \"en\" (\"en autobús\", \"en coche\"), but walking is the fixed phrase \"a pie\". \"En pie\" means standing up. Another example: \"Voy a la escuela a pie\"."
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A Brazilian in Mexico wants to say \"I'll take the bus\" and uses \"coger\" (as heard in Spain). What is the best advice?",
+      "options": {
+        "A": "Use \"agarrar\" because it is the only polite verb everywhere.",
+        "B": "Use \"tomar\" (\"voy a tomar el autobús\"), because \"coger\" has a vulgar meaning in parts of Latin America.",
+        "C": "Use \"coger\" only in the plural.",
+        "D": "Keep \"coger\"; it is neutral in every Spanish-speaking country."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Coger el autobús\" is normal in Spain, but in Mexico, Argentina and other countries \"coger\" can mean something vulgar. \"Tomar\" is neutral everywhere (\"tomar el metro\", \"tomar un taxi\"). When unsure about region, prefer the neutral verb."
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly states that your sister is a dentist, as in \"Mi hermana es ____\"?",
+      "options": {
+        "A": "Mi hermana es dentisa.",
+        "B": "Mi hermana es dentisto.",
+        "C": "Mi hermana es dentista.",
+        "D": "Mi hermana son dentistas."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: nouns ending in *-ista* have the same form for masculine and feminine; only the article changes (\"el dentista\", \"la dentista\"). Also, profession after *ser* appears without an article. Another example: \"Mi padre es taxista\"."
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Obligation pattern: $\\text{tener que} + \\text{infinitive}$. Which sentence says \\\"I have to work on Saturdays\\\"?",
+      "options": {
+        "A": "Tengo que trabajo los sábados.",
+        "B": "Tengo trabajar los sábados.",
+        "C": "Tengo de trabajar los sábados.",
+        "D": "Tengo que trabajar los sábados."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Personal obligation is expressed with \"tener que\" followed by an infinitive; both \"que\" and the infinitive are required, and the verb after \"que\" is not conjugated. \"Los sábados\" expresses a repeated habit. Another example: \"Tenemos que salir ahora\"."
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete the request to a friend: \"____ la mesa, por favor.\" (poner, tú imperative)",
+      "options": {
+        "A": "Pon",
+        "B": "Pones",
+        "C": "Pone",
+        "D": "Poner"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: affirmative *tú* imperative of *poner* is irregular: \"pon\". The same group includes \"haz\", \"ve\", \"sal\", \"ven\", \"di\", \"ten\", \"sé\". Another example: \"Haz la cama, por favor\"."
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Answer the question using the imperative and an object pronoun:\n```text\n— ¿Lavo los platos?\n— Sí, ____ ahora.\n```",
+      "options": {
+        "A": "lávalo",
+        "B": "lávalos",
+        "C": "lava los",
+        "D": "lávales"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In affirmative commands the object pronoun is attached to the end of the verb, and the accent is added to keep the stress: \"lávalos\". The pronoun must match \"los platos\" (masculine plural, \"los\"). Another example: \"Ciérrala\" (the door)."
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form is correct: \"Me ____ las manos\" (my hands hurt)?",
+      "options": {
+        "A": "duelan",
+        "B": "dolen",
+        "C": "duelen",
+        "D": "duele"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: *doler* works like *gustar* and has an o to ue stem change; the verb agrees with the body part that hurts. \"Las manos\" is plural, so \"duelen\". Another example: \"Me duele la cabeza\"."
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the correct pair:\n```text\nAna ____ aburrida hoy porque la película ____ aburrida.\n```",
+      "options": {
+        "A": "es / está",
+        "B": "es / es",
+        "C": "está / está",
+        "D": "está / es"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "With adjectives such as *aburrido*, *estar* describes a temporary state (Ana is bored) and *ser* describes an inherent quality (the film is boring). The same adjective changes meaning with the verb. Another example: \"Mi amigo es listo\" (clever) versus \"Mi amigo está listo\" (ready)."
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which interrogative word completes the question: \"¿____ huevos lleva la tortilla?\"",
+      "options": {
+        "A": "Cuántos",
+        "B": "Cuánta",
+        "C": "Cuántas",
+        "D": "Cuánto"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *cuánto* agrees in gender and number with the noun it quantifies. \"Huevos\" is masculine plural, so \"cuántos\". Another example: \"¿Cuánta harina necesitamos?\" (feminine singular)."
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Allergy pattern: $\\text{ser alérgico} + a + \\text{el} + \\text{noun}$ with the required contraction. Which sentence is correct for \\\"I am allergic to seafood\\\"?",
+      "options": {
+        "A": "Soy alérgico en el marisco.",
+        "B": "Soy alérgico al marisco.",
+        "C": "Soy alérgico de el marisco.",
+        "D": "Soy alérgico del marisco."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Alérgico\" is followed by the preposition \"a\", and \"a + el\" contracts to \"al\". \"De\" is not used. Another example: \"Mi hija es alérgica a la leche\"."
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A recipe says \"Añada una pizca de pimienta.\" What should you add?",
+      "options": {
+        "A": "A pinch of bell pepper.",
+        "B": "A pinch of paprika.",
+        "C": "A pinch of black pepper.",
+        "D": "A pinch of chili flakes."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "\"Pimienta\" is the ground spice (black pepper), while \"pimiento\" is the vegetable (bell pepper). The two words are close in spelling and often mixed up by Portuguese speakers. Another example: \"Me gustan los pimientos rellenos\"."
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct: \"Pedro ____ guapo hoy con ese traje.\"",
+      "options": {
+        "A": "hay",
+        "B": "es",
+        "C": "tiene",
+        "D": "está"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: *estar* + adjective expresses a temporary appearance or impression (how someone looks right now), while *ser* + adjective expresses a permanent trait (\"Pedro es guapo\"). Another example: \"Ana está muy elegante esta noche\"."
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the correct pair:\n```text\nMi hermana ____ el pelo largo y ____ muy simpática.\n```",
+      "options": {
+        "A": "tiene / es",
+        "B": "es / es",
+        "C": "es / tiene",
+        "D": "tiene / tiene"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Hair and eyes are described with *tener* + definite article (\"tiene el pelo largo\"), while character traits use *ser* (\"es simpática\"). Another example: \"Mi padre tiene los ojos verdes y es muy alto\"."
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which Spanish word means \"wide\" (not \"long\"), as in a wide street?",
+      "options": {
+        "A": "largo",
+        "B": "ancho",
+        "C": "grande",
+        "D": "lejos"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Ancho\" means wide; \"largo\" means long (the opposite of \"corto\"). Portuguese \"largo\" means wide, so Spanish \"largo\" is a false friend. Another example: \"una calle ancha\", \"un pelo largo\"."
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "A woman is introduced to Mr. López and says \"____ de conocerle.\" Which complete sentence is correct?",
+      "options": {
+        "A": "Encantado de conocerle.",
+        "B": "Encantadas de conocerle.",
+        "C": "Encantada de conocerle.",
+        "D": "Encantado de conocerla."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: \"encantado/a\" agrees with the gender of the speaker, not with the person met. A woman says \"encantada\"; a man says \"encantado\". The formal object pronoun \"le\" refers to Mr. López. Another example: \"Encantado de conocerla, señora\" (said by a man to a woman)."
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Title pattern: $\\text{article} + \\text{señor} + \\text{surname}$ when talking about someone, without the article when speaking to him. Which is correct for \\\"Mr. López is not here\\\"?",
+      "options": {
+        "A": "El señor López no es aquí.",
+        "B": "Señor López no está aquí.",
+        "C": "El señor don López no está aquí.",
+        "D": "El señor López no está aquí."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "When you talk about a person with a title, Spanish uses the definite article (\"el señor López\", \"la doctora Ruiz\"); the article drops when you address them directly (\"Buenos días, señor López\"). Location uses *estar*, not *ser*."
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "At a hotel desk, the clerk asks: \"¿Cuál es su apellido?\" What does he want to know?",
+      "options": {
+        "A": "Your surname.",
+        "B": "Your first name.",
+        "C": "Your nickname.",
+        "D": "Your home address."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Apellido\" means surname/family name; the Portuguese false friend \"apelido\" (nickname) is \"apodo\" in Spanish. Another example: \"Me llamo Ana, mi apellido es García\"."
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which pronoun completes the negative sentence: \"En la fiesta no veo a ____.\"",
+      "options": {
+        "A": "alguien",
+        "B": "nadie",
+        "C": "nada",
+        "D": "ningún"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: after \"no\" Spanish uses negative words (double negation): \"nadie\" for people. \"Alguien\" is the affirmative counterpart, and \"nada\" is for things. Another example: \"No hay nada en la nevera\"."
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence:\n```text\nMi hijo es intolerante ____ lactosa.\n```",
+      "options": {
+        "A": "en la",
+        "B": "de la",
+        "C": "a la",
+        "D": "con la"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "\"Intolerante\" (and \"alérgico\") takes the preposition \"a\": \"intolerante a la lactosa\", \"alérgico al gluten\". Using \"de\" is an interference from Portuguese expressions with \"de\"."
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A friend says: \"Mi dieta incluye muchas legumbres.\" Which foods is she referring to?",
+      "options": {
+        "A": "Leafy vegetables such as lettuce and spinach.",
+        "B": "Dairy products.",
+        "C": "Fresh fruit.",
+        "D": "Lentils, chickpeas and beans."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Legumbres\" are dried pulses (lentejas, garbanzos, frijoles); they are not the same as general vegetables, called \"verduras\" or \"hortalizas\". Another example: \"El cocido madrileño lleva garbanzos\"."
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form is correct: \"Nosotros ____ a las once\" (acostarse)?",
+      "options": {
+        "A": "nos acostamos",
+        "B": "se acostamos",
+        "C": "acostamos",
+        "D": "nos acuestamos"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: reflexive pronoun (\"nos\") plus a present form; stem-changing verbs like *acostarse* (o to ue) keep the original stem in *nosotros* and *vosotros* (\"nos acostamos\", \"os acostáis\"). Another example: \"Yo me acuesto a las once\"."
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into Spanish: \"I will brush my teeth after eating.\"\n```text\nVoy a ____ después de comer.\n```",
+      "options": {
+        "A": "lavarte los dientes",
+        "B": "lavarme los dientes",
+        "C": "lavar mis dientes",
+        "D": "lavar me los dientes"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The reflexive pronoun attaches to the infinitive (\"lavarme\"), and body parts take the definite article instead of a possessive (\"los dientes\", not \"mis dientes\"). Another example: \"Quiero ducharme ahora\"."
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Grooming pattern: $\\text{pronoun} + \\text{verb}_{conj} + \\text{article} + \\text{body part}$. Which sentence means \\\"I wash my hands\\\"?",
+      "options": {
+        "A": "Lavo me las manos.",
+        "B": "Me lavo mis manos.",
+        "C": "Me lavo las manos.",
+        "D": "Lavo mis manos."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "With reflexive grooming verbs Spanish uses the reflexive pronoun plus the definite article for the body part: \"me lavo las manos\". The possessive is redundant because the pronoun already shows whose hands. Another example: \"Se cepilla los dientes\"."
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form is correct: \"Me ____ los idiomas\" (languages interest me)?",
+      "options": {
+        "A": "interesa",
+        "B": "interesamos",
+        "C": "intereso",
+        "D": "interesan"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: *interesar* works like *gustar*: the verb agrees with the thing that interests, here the plural \"los idiomas\". Another example: \"Me interesa la historia\" (singular)."
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence about a hobby:\n```text\n____ al ajedrez los domingos con mi abuelo.\n```",
+      "options": {
+        "A": "Juego",
+        "B": "Hago",
+        "C": "Toco",
+        "D": "Practico a"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Games and sports use \"jugar a\" (\"juego al ajedrez\", \"juega al fútbol\"), while musical instruments use \"tocar\" (\"toco la guitarra\"). \"Hacer\" and \"practicar a\" do not fit with games. Note the contraction in \"jugar al\"."
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Duration pattern: $\\text{verb}_{present} + \\text{desde hace} + \\text{period}$. Which sentence means \\\"I have played the guitar for five years\\\"?",
+      "options": {
+        "A": "Toqué la guitarra desde hace cinco años.",
+        "B": "Toco la guitarra desde hace cinco años.",
+        "C": "Toco la guitarra hace cinco años.",
+        "D": "Toco la guitarra desde cinco años."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Desde hace\" + period tells how long a situation has lasted and is used with the present tense when the activity continues. \"Hace cinco años\" alone means \"five years ago\" and needs a past tense. Another example: \"Vivo aquí desde hace tres años\"."
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Plan pattern: $\\text{ir a} + \\text{infinitive}$. Which sentence says \\\"We are going to swim tomorrow\\\"?",
+      "options": {
+        "A": "Vamos nadar mañana.",
+        "B": "Vamos a nadamos mañana.",
+        "C": "Vamos a nadar mañana.",
+        "D": "Vamos de nadar mañana."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The near future is built with a conjugated *ir*, the preposition \"a\", and an infinitive: \"vamos a nadar\". Omitting \"a\" or conjugating the second verb is wrong. Another example: \"Voy a estudiar esta noche\"."
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the correct form:\n```text\nLos domingos suelo ____ al parque con mis hijos.\n```",
+      "options": {
+        "A": "de ir",
+        "B": "voy",
+        "C": "yendo",
+        "D": "ir"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Soler\" (to be used to, to usually do) is followed directly by an infinitive without any preposition: \"suelo ir\". Writing \"suelo de ir\" or \"suelo voy\" is wrong. Another example: \"Suele cenar a las nueve\"."
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Someone tells you: \"En la playa lo paso muy bien.\" What does this person mean?",
+      "options": {
+        "A": "He or she has a very good time at the beach.",
+        "B": "He or she goes past the beach very quickly.",
+        "C": "He or she rarely visits the beach.",
+        "D": "He or she spends a lot of money at the beach."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Pasarlo bien\" is a fixed expression meaning to have a good time; \"pasarlo mal\" means the opposite. The pronoun \"lo\" is part of the idiom. Another example: \"Lo pasamos genial en la fiesta\"."
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which preposition completes the sentence: \"Llego ____ la oficina a las ocho.\"",
+      "options": {
+        "A": "de",
+        "B": "a",
+        "C": "por",
+        "D": "en"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: *llegar* takes the preposition \"a\" for the destination (\"llegar a Madrid\"), not \"en\". Another example: \"Llegamos a casa muy tarde\"."
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Transport pattern: $\\text{subir a} + \\text{el} + \\text{vehicle}$ contracts to \\\"al\\\". Which sentence means \\\"I get on the bus\\\"?",
+      "options": {
+        "A": "Subo del autobús.",
+        "B": "Subo el autobús.",
+        "C": "Subo al autobús.",
+        "D": "Subo a el autobús."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "\"Subir a\" is used for getting on a vehicle, and \"a + el\" must contract to \"al\"; the opposite action is \"bajar de\" (\"me bajo del autobús\"). Writing \"a el\" is incorrect."
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in the blank:\n```text\nVoy a la universidad ____ autobús y vuelvo ____ pie.\n```",
+      "options": {
+        "A": "a / en",
+        "B": "por / a",
+        "C": "en / en",
+        "D": "en / a"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Vehicles take \"en\" (\"en autobús\", \"en tren\") and walking uses \"a pie\". Swapping them gives \"a autobús\" or \"en pie\" (which means standing). Another example: \"Voy a casa en bicicleta\"."
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A friend writes: \"La olla va en la cocina.\" What does the sentence say?",
+      "options": {
+        "A": "The pot goes (belongs) in the kitchen.",
+        "B": "The wave goes into the kitchen.",
+        "C": "The olive is in the kitchen.",
+        "D": "The hole is next to the kitchen."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Olla\" is a cooking pot; it is not the Portuguese \"olha\" (look). The verb \"ir\" is used for the place where something belongs or is kept. Another example: \"Los platos van en el armario\"."
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "At a family party you greet your aunt, who has just arrived. Which welcome is correct?",
+      "options": {
+        "A": "¡Bienvenido, tía!",
+        "B": "¡Bienvenida, tía!",
+        "C": "¡Bienvenidas, tía!",
+        "D": "¡Bienvenidos, tía!"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Bienvenido\" agrees in gender and number with the person welcomed: a woman is \"bienvenida\", a man \"bienvenido\", several people \"bienvenidos/bienvenidas\". Another example: \"¡Bienvenidos a mi casa!\" for a mixed group."
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You are at the reception desk of a bank in Mexico City and must ask an older client his name. Which is the best choice?",
+      "options": {
+        "A": "Buenos días, señor. ¿Cómo se llama usted?",
+        "B": "¿Qué tal? ¿Cómo andas, tío?",
+        "C": "Chao, ¿tu nombre?",
+        "D": "Hola, chico. ¿Cómo te llamas?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In a professional setting with an older stranger use the formal register: greeting by time of day, \"señor\", the pronoun *usted* and a third-person verb (\"se llama\"). Informal forms like \"te llamas\", \"¿Qué tal?\" or \"chao\" are for friends. Rule of thumb: when in doubt, start formal."
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "A learner writes \"Tu estas bien?\". Which corrected version fixes every error (accents and punctuation)?",
+      "options": {
+        "A": "Tú estás bien?",
+        "B": "¿Tú estás bien?",
+        "C": "¿Tú estas bien?",
+        "D": "¿Tu estás bien?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the pronoun *tú* (you) carries an accent to differ from the possessive *tu* (your); the verb \"estás\" is stressed on the last syllable and needs its accent; and Spanish questions open with \"¿\". Another example: \"Tu hermano es mi amigo, ¿y tú?\"."
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "\"Su casa es grande\" can be ambiguous. How can you make clear that the house belongs to a woman you just mentioned?",
+      "options": {
+        "A": "Use \"casa suya la de ella\".",
+        "B": "Use \"su de ella casa\".",
+        "C": "Use \"la casa de ella\".",
+        "D": "Use \"la casa su ella\"."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Because \"su\" can mean his, her, your (formal) or their, Spanish clarifies with \"de él\", \"de ella\", \"de usted\" or \"de ellos\" after the noun: \"la casa de ella\". The other options are not valid structures. Another example: \"la casa de usted\"."
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Introduction pattern: $\\text{Te presento} + \\text{a} + \\text{possessive} + \\text{noun} + \\text{name}$. Which sentence correctly introduces your female cousin Marta to a friend?",
+      "options": {
+        "A": "Te presento a mis prima Marta.",
+        "B": "Te presento mi prima Marta.",
+        "C": "Te presento a mi primo Marta.",
+        "D": "Te presento a mi prima Marta."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "When the direct object is a specific person, Spanish requires the personal \"a\" (\"presento a\"), and the possessive and noun must agree: \"mi prima\" (feminine singular). Without the \"a\" or with mismatched gender/number the sentence is wrong. Another example: \"Te presento a mis hermanos\"."
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Pair the two patterns: $\\text{Hay} + \\text{un/una} + \\text{noun}$ (existence of something unspecified) and $\\text{el/la} + \\text{noun} + \\text{estar}_{conj}$ (location of something known). Which pair says \\\"There is a pharmacy near here\\\" and \\\"The pharmacy is near here\\\"?",
+      "options": {
+        "A": "Hay una farmacia cerca de aquí. / La farmacia está cerca de aquí.",
+        "B": "Hay una farmacia cerca de aquí. / La farmacia hay cerca de aquí.",
+        "C": "Está una farmacia cerca de aquí. / La farmacia hay cerca de aquí.",
+        "D": "Está una farmacia cerca de aquí. / La farmacia está cerca de aquí."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Hay\" introduces something new or indefinite (\"una farmacia\"), while \"estar\" says where an already identified item is (\"la farmacia\"). \"Hay\" cannot be combined with a definite subject. Another pair: \"Hay dos bancos en la calle\" / \"Los bancos están en la calle\"."
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the dialogue with the correct object pronoun:\n```text\n— ¿Ves mis llaves?\n— No, no ____ veo.\n```",
+      "options": {
+        "A": "lo",
+        "B": "las",
+        "C": "los",
+        "D": "les"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The direct-object pronoun replaces \"mis llaves\" (feminine plural), so it is \"las\" and goes before the conjugated verb. Another example: \"¿Ves los libros? — Sí, los veo\"."
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I like Spanish very much\"?",
+      "options": {
+        "A": "Me gusta muy el español.",
+        "B": "Me gusto mucho el español.",
+        "C": "Me gusta mucho el español.",
+        "D": "Me gusta muy mucho español."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: *muy* modifies adjectives and adverbs (\"muy bien\"), while *mucho* modifies verbs (\"me gusta mucho\"). *Gustar* also needs the indirect pronoun \"me\", not a reflexive \"me gusto\". Another example: \"Estudio mucho por la noche\"."
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian reads \"Me duele la lengua después de comer sopa caliente.\" What does the sentence say?",
+      "options": {
+        "A": "Their language skills hurt.",
+        "B": "Their lip hurts.",
+        "C": "Their throat hurts.",
+        "D": "Their tongue hurts."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Lengua\" means both tongue and language (\"la lengua española\"), so context decides. With \"doler\" the body-part meaning applies. For languages, \"idioma\" avoids the ambiguity. Another example: \"Hablo tres idiomas\"."
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Comparison pattern: $\\text{subject} + \\text{ser}_{conj} + \\text{más} + \\text{adj} + \\text{que} + \\text{noun}$ with the adjective agreeing with the subject. Which sentence means \\\"The oranges are cheaper than the apples\\\"?",
+      "options": {
+        "A": "Las naranjas son más baratas que las manzanas.",
+        "B": "Las naranjas son más barato que las manzanas.",
+        "C": "Las naranjas son más baratas de las manzanas.",
+        "D": "Las naranjas son más que baratas las manzanas."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Comparatives of superiority use \"más + adjective + que\", and the adjective agrees with the subject (\"naranjas\" is feminine plural, so \"baratas\"). \"De\" is reserved for superlatives or numbers. Another example: \"Mi hermano es más alto que mi padre\"."
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You are shopping in a market in Lima and want avocados. Which word will local vendors most likely use?",
+      "options": {
+        "A": "aguacate",
+        "B": "palta",
+        "C": "pera",
+        "D": "papaya"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In Peru, Chile and Argentina avocado is \"palta\", while in Spain and Mexico it is \"aguacate\". Both are understood in many places, but using the local word sounds more natural. Another example: \"fresa\" in Spain versus \"frutilla\" in Chile for strawberry."
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the correct pair of present forms:\n```text\nEllos ____ (pedir) café, pero yo ____ (pedir) té.\n```",
+      "options": {
+        "A": "piden / pedo",
+        "B": "pedimos / pido",
+        "C": "piden / pido",
+        "D": "pedan / pido"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Pedir* has an e to i stem change in all forms except *nosotros* and *vosotros*: \"pido\", \"pides\", \"pide\", \"piden\". Regular-looking \"pedo\" is wrong. Another example: \"Nosotros pedimos pizza\"."
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence: \"Mi padre ____ llegar tarde a casa\" (usually does)?",
+      "options": {
+        "A": "suela",
+        "B": "sueler",
+        "C": "sule",
+        "D": "suele"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: *soler* (o to ue) means to usually do something and is followed directly by an infinitive: \"suele llegar\". It has no past-tense meaning here and cannot take a preposition. Another example: \"Suelo cenar a las nueve\"."
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"Pedro likes María\"?",
+      "options": {
+        "A": "A Pedro le gusta María.",
+        "B": "A María le gusta Pedro.",
+        "C": "Pedro le gusta María.",
+        "D": "Pedro gusta a María."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: with *gustar* the person who likes appears as the indirect object (\"a Pedro le...\") and the thing or person liked is the grammatical subject. \"Pedro gusta a María\" reverses the meaning: María likes Pedro. Another example: \"A mi madre le gustan las flores\"."
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Fan pattern: $\\text{ser} + \\text{aficionado/a} + a + \\text{article}_{contracted} + \\text{noun}$. Which sentence means \\\"She is a great fan of the cinema\\\"?",
+      "options": {
+        "A": "Es muy aficionada en el cine.",
+        "B": "Es muy aficionada al cine.",
+        "C": "Es muy aficionado al cine.",
+        "D": "Es muy aficionada a el cine."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Aficionado\" agrees with the person (feminine here, \"aficionada\"), takes the preposition \"a\" and contracts with the article: \"al cine\". \"A el\" is not allowed. Another example: \"Soy aficionado a la fotografía\"."
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Desire pattern: $\\text{subject} + \\text{querer}_{conj} + \\text{infinitive}$. Which sentence means \\\"We want to eat now\\\"?",
+      "options": {
+        "A": "Queremos comemos ahora.",
+        "B": "Quieremos comer ahora.",
+        "C": "Queremos comer ahora.",
+        "D": "Queremos a comer ahora."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Querer* has an e to ie stem change except for *nosotros* and *vosotros*, so it is \"queremos\", not \"quieremos\". The second verb stays in the infinitive without a preposition. Another example: \"Queréis salir ahora\"."
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A recipe lists only \"aceite\". You need olive oil specifically. Which phrase is unambiguous?",
+      "options": {
+        "A": "aceite vegetal de oliva solo",
+        "B": "oliva aceite",
+        "C": "aceite solo",
+        "D": "aceite de oliva"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Aceite\" alone can mean cooking oil in general, so specify the type: \"aceite de oliva\" or \"aceite de girasol\". Noun + \"de\" + noun is the usual structure; reversing the order is not grammatical."
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which is the correct formal command for \"cruzar\" in \"____ la calle y siga recto\"?",
+      "options": {
+        "A": "Cruce",
+        "B": "Cruze",
+        "C": "Cruzar",
+        "D": "Cruza"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: formal (*usted*) imperative of *cruzar* takes the subjunctive-form ending \"-e\", and z changes to c before e: \"cruce\". \"Cruza\" is the informal *tú* command. Another example: \"Empiece\" (from *empezar*)."
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the answer to a question about distance:\n```text\n— ¿Está lejos la farmacia?\n— No, está ____ dos cuadras.\n```",
+      "options": {
+        "A": "por",
+        "B": "a",
+        "C": "en",
+        "D": "de"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Distance is expressed with \"a\": \"a dos cuadras\", \"a cinco minutos\", \"a diez kilómetros\". In many Latin American countries \"cuadra\" means block (in Spain, \"manzana\"). Another example: \"La estación está a diez minutos\"."
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the answer to \"¿A qué te dedicas?\":\n```text\n— ____ camarero en un restaurante de Madrid.\n```",
+      "options": {
+        "A": "Tengo",
+        "B": "Trabajo",
+        "C": "Soy",
+        "D": "Estoy"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Professions use *ser* with no article: \"soy camarero\". \"Estoy\" would describe a temporary state, and \"trabajo camarero\" needs \"de\" or \"como\" (\"trabajo de camarero\"). Another example: \"Mi madre es profesora\"."
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Mexican colleague tells you: \"Hoy tengo mucha chamba.\" What does she mean?",
+      "options": {
+        "A": "She has a lot of luck today.",
+        "B": "She has a lot of free time today.",
+        "C": "She has a lot of friends today.",
+        "D": "She has a lot of work today."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Chamba\" is Mexican colloquial for work; in Spain you hear \"curro\" and in Argentina \"laburo\". These are informal and should not be used in formal writing, where \"trabajo\" is standard."
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Recent-past pattern: $\\text{acabar}_{conj} + \\text{de} + \\text{infinitive}$. Which sentence means \\\"I have just washed the dishes\\\"?",
+      "options": {
+        "A": "Acabo de lavar los platos.",
+        "B": "Acabo lavar los platos.",
+        "C": "He acabado lavar los platos.",
+        "D": "Acabo de lavé los platos."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Acabar de\" + infinitive expresses an action that has just happened; \"de\" and the infinitive are both required. Another example: \"Acabamos de llegar\"."
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Which pair uses the typical past forms in Spain and in Mexico?\n```text\n(Spain) Ya ____ los platos.\n(Mexico) Ya ____ los platos.\n```",
+      "options": {
+        "A": "lavé / he lavado",
+        "B": "he lavado / lavé",
+        "C": "he lavé / lavo",
+        "D": "lavado / lavé"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "For actions in the recent past, Spain commonly uses the present perfect (\"ya he lavado\"), while most of Latin America prefers the simple past (\"ya lavé\"). Both are understood everywhere. Another example: \"Hoy he comido temprano\" (Spain) versus \"Hoy comí temprano\" (Mexico)."
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence with the correct indirect pronoun:\n```text\nA ella ____ duele la cabeza.\n```",
+      "options": {
+        "A": "se",
+        "B": "lo",
+        "C": "le",
+        "D": "la"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Doler* works like *gustar* and needs an indirect-object pronoun matching the person: \"le\" for ella/él/usted. \"Lo\" and \"la\" are direct-object pronouns. Another example: \"A nosotros nos duelen los pies\"."
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A friend tells you she failed an important exam. Which reply is the most appropriate?",
+      "options": {
+        "A": "Mucho gusto. ¡Hasta mañana!",
+        "B": "¡Qué rico! ¿Dónde está el baño?",
+        "C": "Perdón, no entiendo.",
+        "D": "Lo siento mucho. ¡Ánimo, la próxima vez saldrá mejor!"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Lo siento mucho\" expresses sympathy and \"¡Ánimo!\" encourages. \"Mucho gusto\" is for meeting someone and \"perdón\" is for apologizing or asking for repetition. Another example: \"Lo siento, ¡cuídate!\"."
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct for a sign at a market: \"En este mercado ____ frutas frescas.\"",
+      "options": {
+        "A": "se venden",
+        "B": "se vendan",
+        "C": "venden se",
+        "D": "se vende"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the passive *se* (pasiva refleja) makes the verb agree with the thing sold: \"frutas\" is plural, so \"se venden\". With a singular noun: \"se vende pan\". Another example: \"Se alquilan habitaciones\"."
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the order (salad with tomato but without onion):\n```text\nUna ensalada ____ tomate, pero ____ cebolla, por favor.\n```",
+      "options": {
+        "A": "sin / con",
+        "B": "con / sin",
+        "C": "con / con",
+        "D": "sin / sin"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Con\" means with and \"sin\" means without; both are followed by a noun without article. The sentence logic (tomato yes, onion no) selects the order. Another example: \"Un café sin azúcar\"."
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the food label:\n```text\nEste yogur no lleva ____.\n```",
+      "options": {
+        "A": "conservas",
+        "B": "preservativos",
+        "C": "conservantes",
+        "D": "reservantes"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "\"Conservantes\" are food preservatives. \"Preservativo\" in Spanish means condom, a classic false friend for Portuguese speakers. \"Conservas\" are canned foods. Another example: \"Sin colorantes ni conservantes\"."
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence: \"Es un ____ chico y todos lo quieren\"?",
+      "options": {
+        "A": "bueno",
+        "B": "buena",
+        "C": "bien",
+        "D": "buen"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: *bueno* drops the final -o (apocope) before a masculine singular noun: \"un buen chico\". After the noun it is complete: \"un chico bueno\". Same for *malo* (\"mal\") and *primero* (\"primer\"). Another example: \"el primer día\"."
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Description pattern: $\\text{tener} + \\text{el} + \\text{pelo} + \\text{adj}_1 + \\text{y} + \\text{adj}_2$. Which sentence means \\\"She has long black hair\\\"?",
+      "options": {
+        "A": "Tiene el pelo largo y negro.",
+        "B": "Es el pelo largo y negro.",
+        "C": "Tiene el pelo larga y negra.",
+        "D": "Tiene su pelo largo y negra."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Hair is described with *tener* and the definite article; the adjectives agree with \"pelo\" (masculine singular): \"largo y negro\". Another example: \"Mi hermano tiene los ojos azules\"."
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You need to describe a heavier-set coworker in a formal report with tact. Which phrase is the most appropriate?",
+      "options": {
+        "A": "Es un gordo.",
+        "B": "Es de complexión robusta.",
+        "C": "Está gordísimo.",
+        "D": "Es muy gordo."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "\"Gordo\" is direct and can sound offensive in formal settings; euphemisms like \"de complexión robusta\" or \"corpulento\" are more tactful. Register matters as much as vocabulary in Spanish."
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which pronoun completes the formal question: \"¿Cómo ____ llama usted?\"",
+      "options": {
+        "A": "te",
+        "B": "le",
+        "C": "se",
+        "D": "me"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: *llamarse* is reflexive and the pronoun matches the subject; *usted* takes the third-person form, so \"se llama\". Informal: \"¿Cómo te llamas?\". Another example: \"¿Cómo se llaman ustedes?\"."
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the polite instruction:\n```text\nSeñor López, ____ por aquí, por favor.\n```",
+      "options": {
+        "A": "ven",
+        "B": "viene",
+        "C": "vengan",
+        "D": "venga"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The formal command with *usted* uses the subjunctive form: *venir* gives \"venga\". \"Ven\" is the informal *tú* command, and \"vengan\" would be for several people (*ustedes*). Another example: \"Pase, por favor\"."
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Polite request pattern: $\\text{¿Podría} + \\text{usted} + \\text{infinitive} + \\text{pronoun}\\,?$. Which sentence politely asks a stranger \\\"Could you help me?\\\"",
+      "options": {
+        "A": "¿Podría usted ayudarme, por favor?",
+        "B": "¿Poder usted ayudarme, por favor?",
+        "C": "¿Podrías usted ayudarme, por favor?",
+        "D": "¿Podría usted ayudar me, por favor?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The conditional \"podría\" softens a request, and with *usted* it is third-person singular (\"podría\"), not \"podrías\" (tú). Object pronouns attach to the infinitive (\"ayudarme\"). Another example: \"¿Podría decirme la hora?\"."
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Preference pattern: $\\text{preferir}_{conj} + A + \\text{a} + B$. Which sentence means \\\"I prefer fish to meat\\\"?",
+      "options": {
+        "A": "Prefiero el pescado sobre la carne.",
+        "B": "Prefiero el pescado a la carne.",
+        "C": "Prefiero el pescado que la carne.",
+        "D": "Prefiero el pescado de la carne."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In Spanish *preferir* compares with \"a\", not \"que\": \"prefiero el té al café\" (with a + el = al). Using \"que\" or \"de\" is a transfer error. Another example: \"Prefiere la playa a la montaña\"."
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which of these sentences about \"never eating fish\" is NOT grammatical?",
+      "options": {
+        "A": "Nunca como pescado.",
+        "B": "No como pescado nunca.",
+        "C": "Nunca no como pescado.",
+        "D": "No como nunca pescado."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: double negation. If \"nunca\" comes after the verb, \"no\" must come before the verb; if \"nunca\" comes before the verb, \"no\" is not used. \"Nunca no\" is wrong. Another example: \"Nadie vino\" / \"No vino nadie\"."
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A colleague in Madrid asks: \"¿A qué hora comes normalmente?\" What is he asking?",
+      "options": {
+        "A": "At what time you usually have breakfast.",
+        "B": "At what time you usually go to bed.",
+        "C": "At what time you usually have a snack at night.",
+        "D": "At what time you usually have lunch."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In Spain \"comer\" often means to have lunch, the main meal, and \"la comida\" is lunch. Dinner is \"cenar\" and breakfast is \"desayunar\". Usage varies by country."
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I have to get up at seven\"?",
+      "options": {
+        "A": "Tengo que levantarme a las siete.",
+        "B": "Tengo que me levantar a las siete.",
+        "C": "Tengo levantarme a las siete.",
+        "D": "Tengo que levantarse a las siete."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the reflexive pronoun attaches to the infinitive (\"levantarme\") or goes before the conjugated verb (\"me tengo que levantar\"); it cannot be placed before an infinitive. The pronoun must match the subject. Another example: \"Quiero acostarme temprano\"."
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the routine:\n```text\nA las siete ____ (despertarse, yo) y luego ____ (ducharse, yo).\n```",
+      "options": {
+        "A": "me despierto / me duchas",
+        "B": "me despierto / me ducho",
+        "C": "despierto / ducho",
+        "D": "me despierto / ducho"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Reflexive verbs need their pronoun in each clause, and *despertarse* has an e to ie stem change in yo. Without the pronoun, \"despierto\" means waking someone else. Another example: \"Me levanto y me visto\"."
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Progressive pattern: $\\text{estar}_{conj} + \\text{gerund} + \\text{pronoun}_{attached}$ (the accent keeps the stress). Which sentence means \\\"I am getting dressed\\\"?",
+      "options": {
+        "A": "Estoy vistiendome.",
+        "B": "Estoy vistirme.",
+        "C": "Estoy vistiéndome.",
+        "D": "Estoy me vistiendo."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "When a pronoun attaches to a gerund, an accent is added to preserve the stress: \"vistiéndome\". Alternatively the pronoun goes first: \"me estoy vistiendo\". Another example: \"Está duchándose\"."
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which pronoun completes the sentence: \"A mis padres ____ encanta viajar.\"",
+      "options": {
+        "A": "los",
+        "B": "le",
+        "C": "se",
+        "D": "les"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: *encantar* works like *gustar* and needs an indirect-object pronoun that matches \"a mis padres\" (third-person plural): \"les\". The verb stays singular because the subject is the infinitive \"viajar\". Another example: \"A mi hermana le encanta cantar\"."
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence:\n```text\nSoy aficionado ____ cine y ____ fotografía.\n```",
+      "options": {
+        "A": "al / a la",
+        "B": "a / a",
+        "C": "a el / a la",
+        "D": "del / de la"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Aficionado\" is followed by \"a\", which contracts with masculine singular \"el\" (\"al cine\") and stays \"a la\" before feminine nouns. \"A el\" is never written. Another example: \"Es aficionada al teatro\"."
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which study strategy best prevents errors such as \"Yo gusto el chocolate\" when learning *gustar*?",
+      "options": {
+        "A": "Memorize \"gusto\" as the first-person form of *gustar*.",
+        "B": "Start with the indirect pronoun (me, te, le...) and make the verb agree with the thing that pleases.",
+        "C": "Always use \"yo\" as the subject.",
+        "D": "Translate word by word from Portuguese \"eu gosto\"."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Gustar* literally means \"to be pleasing to\": the thing liked is the subject and the person is an indirect object (\"me gusta el chocolate\", \"me gustan los dulces\"). Transferring Portuguese \"gostar\" word by word produces the typical mistake. Practicing with the pronoun first builds the correct pattern."
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form is correct: \"Después de ____ voy a ducharme.\"",
+      "options": {
+        "A": "comiendo",
+        "B": "comí",
+        "C": "comer",
+        "D": "como"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: after a preposition such as *antes de* or *después de*, Spanish uses the infinitive, not a conjugated form or a gerund. Another example: \"Antes de dormir, leo un libro\"."
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Sequence pattern: $\\text{Antes de} + \\text{infinitive} + , + \\text{main clause}$. Which sentence means \\\"Before leaving, I turn off the light\\\"?",
+      "options": {
+        "A": "Antes de saliendo, apago la luz.",
+        "B": "Antes de salgo, apago la luz.",
+        "C": "Antes salir, apago la luz.",
+        "D": "Antes de salir, apago la luz."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Antes de\" requires an infinitive when the subject of both actions is the same: \"antes de salir\". Conjugated forms or gerunds are incorrect here. Another example: \"Después de cenar, veo la tele\"."
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A friend says: \"Salgo a correr para despejar la mente.\" What is the purpose of running?",
+      "options": {
+        "A": "To clear the head and relax.",
+        "B": "To lose his mind.",
+        "C": "To empty the house.",
+        "D": "To wake up the neighbors."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "\"Despejar la mente\" is a fixed expression meaning to clear one's mind; \"despejar\" literally means to clear (a space). Another example: \"Despejar el cielo\" (the sky clears)."
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which contraction completes the sentence: \"Me bajo ____ autobús en la plaza.\"",
+      "options": {
+        "A": "en el",
+        "B": "del",
+        "C": "al",
+        "D": "por el"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: *bajar de* (to get off) combines with the article as \"de + el\" = \"del\". The opposite verb *subir a* gives \"al\" (\"subo al autobús\"). Another example: \"Me bajo del tren en Sevilla\"."
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the standard preposition:\n```text\nTardo una hora ____ llegar a la oficina.\n```",
+      "options": {
+        "A": "por",
+        "B": "a",
+        "C": "en",
+        "D": "de"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Tardar en* + infinitive is the standard construction for how long something takes: \"tardo una hora en llegar\". Portuguese \"levo uma hora para chegar\" suggests \"para\", but Spanish uses \"en\". Another example: \"Tardamos poco en terminar\"."
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "At a bus stop in Santiago de Chile someone says \"Estoy esperando el micro.\" What is the person waiting for?",
+      "options": {
+        "A": "A taxi.",
+        "B": "A microphone.",
+        "C": "A subway train.",
+        "D": "A bus."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "\"Micro\" is a bus in Chile, \"colectivo\" in Argentina, \"camión\" in Mexico and \"guagua\" in the Caribbean. Knowing regional names helps when travelling."
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A friend says \"La olla va en la cocina\" instead of \"La olla está en la cocina.\" What is the difference in meaning?",
+      "options": {
+        "A": "\"Va\" says where the pot belongs; \"está\" says where it is right now.",
+        "B": "There is no difference.",
+        "C": "\"Va\" says the pot is moving; \"está\" says the pot is cooking.",
+        "D": "\"Va\" is formal and \"está\" is informal."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Ir* is used for the designated place of an object (\"el pan va en la bolsa\"), whereas *estar* simply locates it. Tip: ask \"does it belong there?\" versus \"is it there now?\"."
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You welcome a group of friends, mixed men and women, who have just arrived at your house. Which expression is correct?",
+      "options": {
+        "A": "¡Bienvenidas!",
+        "B": "¡Bienvenidos!",
+        "C": "¡Bienvenido!",
+        "D": "¡Bienvenida!"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Plural adjectives take the masculine form for mixed groups: \"bienvenidos\". The feminine \"bienvenidas\" is used only when everyone is female. Another example: \"los hermanos\" can mean brothers and sisters."
+    }
+  ],
+  "registered": {
+    "question_ids": [
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514,
+      515,
+      516,
+      517,
+      518,
+      519,
+      520,
+      521,
+      522,
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529,
+      530,
+      531,
+      532,
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541,
+      542,
+      543,
+      544,
+      545,
+      546,
+      547,
+      548,
+      549,
+      550
+    ],
+    "skipped": 0
+  }
+}

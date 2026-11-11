@@ -1,7 +1,7 @@
 """Validate a generate-questions round before it is presented or registered.
 
 Usage:
-    python questions/validate_questions.py <round.json> [--per-flavor N]
+    python questions/validate_questions.py <round.json> [--per-flavor N|E,M,H,X] [--grammar]
 
 Exits 0 when every check passes, 1 otherwise. The reference and Markdown rules mirror
 services/learning/question_import_validation.py in the timesheet back end (ADR-009); keep them in sync.
@@ -18,7 +18,7 @@ from collections import Counter
 from pathlib import Path
 
 FLAVORS = ("easy", "medium", "hard", "expert")
-KINDS = ("concept", "code", "equation")
+KINDS = ("concept", "code", "equation", "grammar")
 LETTERS = ("A", "B", "C", "D")
 
 REFERENCE_PATTERNS = [
@@ -100,9 +100,23 @@ def check_question(q: dict, errors: list[str]) -> None:
         errors.append(f"{label}: code questions need a blank marker ({BLANK}) or a name to recall")
     if kind == "equation" and not re.search(r"\$[^$]+\$|\$\$", text):
         errors.append(f"{label}: equation questions need LaTeX math in question_text")
+    if kind == "grammar" and "```" not in text and not re.search(r"[\"“'`*_]", text):
+        errors.append(f"{label}: grammar questions must quote the sentence or pattern being tested")
 
 
-def validate(data: dict, per_flavor: int | None) -> list[str]:
+def parse_per_flavor(raw: str | None) -> dict[str, int] | None:
+    """Accept one number (same n for every flavor) or four comma-separated numbers in FLAVORS order."""
+    if raw is None:
+        return None
+    parts = [int(p) for p in str(raw).split(",")]
+    if len(parts) == 1:
+        parts = parts * len(FLAVORS)
+    if len(parts) != len(FLAVORS):
+        raise ValueError(f"--per-flavor takes 1 or {len(FLAVORS)} numbers (easy,medium,hard,expert)")
+    return dict(zip(FLAVORS, parts))
+
+
+def validate(data: dict, per_flavor: "int | dict[str, int] | None", require_grammar: bool = False) -> list[str]:
     errors: list[str] = []
 
     topic = data.get("topic", {})
@@ -122,13 +136,17 @@ def validate(data: dict, per_flavor: int | None) -> list[str]:
 
     by_flavor = Counter(q.get("difficulty") for q in questions)
     if per_flavor is not None:
+        expected = per_flavor if isinstance(per_flavor, dict) else dict.fromkeys(FLAVORS, per_flavor)
         for flavor in FLAVORS:
-            if by_flavor[flavor] != per_flavor:
-                errors.append(f"flavor {flavor}: expected {per_flavor} questions, found {by_flavor[flavor]}")
-        minimum = max(1, math.ceil(0.2 * per_flavor))
+            if by_flavor[flavor] != expected[flavor]:
+                errors.append(f"flavor {flavor}: expected {expected[flavor]} questions, found {by_flavor[flavor]}")
         for flavor in FLAVORS:
+            if expected[flavor] == 0:  # partial round: this flavor is generated elsewhere
+                continue
+            minimum = max(1, math.ceil(0.2 * expected[flavor]))
             in_flavor = [q for q in questions if q.get("difficulty") == flavor]
-            for kind in ("code", "equation"):
+            required_kinds = ("code", "equation") + (("grammar",) if require_grammar else ())
+            for kind in required_kinds:
                 found = sum(1 for q in in_flavor if q.get("kind") == kind)
                 if found < minimum:
                     errors.append(
@@ -140,11 +158,20 @@ def validate(data: dict, per_flavor: int | None) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("path", type=Path)
-    parser.add_argument("--per-flavor", type=int, default=None, help="expected questions per flavor (n)")
+    parser.add_argument(
+        "--per-flavor",
+        default=None,
+        help="expected questions per flavor: n, or easy,medium,hard,expert counts such as 50,50,0,0 for a half round",
+    )
+    parser.add_argument(
+        "--grammar",
+        action="store_true",
+        help="language rounds: require at least ceil(0.2 * n) grammar questions per flavor",
+    )
     args = parser.parse_args()
 
     data = json.loads(args.path.read_text(encoding="utf-8"))
-    errors = validate(data, args.per_flavor)
+    errors = validate(data, parse_per_flavor(args.per_flavor), args.grammar)
     if errors:
         print(f"FAILED: {len(errors)} problem(s)")
         for error in errors:
