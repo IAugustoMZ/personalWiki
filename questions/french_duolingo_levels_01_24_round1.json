@@ -1,0 +1,3215 @@
+{
+  "approved_by": "user (bulk generation request, delegated approval)",
+  "approved_on": "2026-11-11",
+  "topic": {
+    "subsubcategory_id": 45,
+    "name": "French"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{moins} + \\text{adjective} + \\text{que}$. Which sentence says \"Lyon is less big than Paris\"?",
+      "options": {
+        "A": "Lyon est plus grand que Paris.",
+        "B": "Lyon est aussi grand que Paris.",
+        "C": "Lyon est moins grand que Paris.",
+        "D": "Lyon est moins grand de Paris."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Moins ... que* expresses inferiority, *plus ... que* superiority and *aussi ... que* equality. The second term is always introduced by *que*."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does *le beau-frère* mean?",
+      "options": {
+        "A": "the handsome brother",
+        "B": "the brother-in-law",
+        "C": "the grandfather",
+        "D": "the nephew"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Beau-* / *belle-* prefixes in-law relatives: *le beau-frère* (brother-in-law), *la belle-sœur* (sister-in-law). The nephew is *le neveu* and the grandfather is *le grand-père*."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which sentence is the polite way to order a coffee in a French café?",
+      "options": {
+        "A": "Je veux un café.",
+        "B": "Je suis un café, s'il vous plaît.",
+        "C": "Je fais un café.",
+        "D": "Je voudrais un café, s'il vous plaît."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Je voudrais* (\"I would like\") is the courteous form for ordering. *Je veux* (\"I want\") sounds blunt in a shop or café. Another polite order: *Je voudrais un thé, s'il vous plaît.*"
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the comparison.\n\n```text\nMa sœur est plus ____ que moi.   (My sister is older than me.)\n```",
+      "options": {
+        "A": "âgé",
+        "B": "vieux",
+        "C": "âgée",
+        "D": "ancienne"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "To compare ages of people, French uses *plus âgé(e)* and the adjective agrees with the person: a sister is *âgée*. *Vieux* is not used for this comparison and *ancienne* means \"former/ancient\"."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Regular -ir verbs follow $\\text{stem} + \\text{ending}$ with endings -is, -is, -it, -issons, -issez, -issent. What is the *nous* form of *finir*?",
+      "options": {
+        "A": "finons",
+        "B": "finissez",
+        "C": "finit",
+        "D": "finissons"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Stem *fin-* + *-issons* gives *nous finissons*. Other example: *Nous choisissons un gâteau.*"
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The imparfait follows $\\text{stem}_{nous} + \\text{ending}$ with endings -ais for *je*. What is the imparfait of *parler* for *je*?",
+      "options": {
+        "A": "je parlai",
+        "B": "je parlerais",
+        "C": "je parlait",
+        "D": "je parlais"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The *nous* stem of *parler* is *parl-* (from *nous parlons*), so *je parlais*. Another: *j'habitais*, *tu habitais*."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does *Il y a des livres sur la table* mean?",
+      "options": {
+        "A": "He has books on the table.",
+        "B": "There are books on the table.",
+        "C": "The books are under the table.",
+        "D": "They want books at the table."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Il y a* means \"there is / there are\" and never changes for the plural. *Sur* means \"on\"; \"under\" would be *sous*."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct tense: `Quand j'étais petit, nous ____ chez mes grands-parents chaque été.` (habitual action)",
+      "options": {
+        "A": "allons",
+        "B": "allions",
+        "C": "irons",
+        "D": "allaient"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the imparfait for habits in the past. Take the *nous* stem (*all-*) and add *-ions*: *nous allions*. Another: *Nous mangions chez ma tante le dimanche.*"
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{subject} + \\text{avoir}_{conj} + \\text{past participle}$. How do you say \"We danced\"?",
+      "options": {
+        "A": "Nous avons dansé.",
+        "B": "Nous avons dansons.",
+        "C": "Nous a dansé.",
+        "D": "Nous sommes dansé."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The passé composé of *danser* is the auxiliary *avoir* + the participle *dansé*. Another: *J'ai chanté.*"
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the near future $\\text{aller}_{conj} + \\text{infinitive}$. How do you say \"We are going to dance\"?",
+      "options": {
+        "A": "Nous allons danser.",
+        "B": "Nous sommes danser.",
+        "C": "Nous allez danser.",
+        "D": "Nous allons dansons."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The near future conjugates *aller* and keeps the verb in the infinitive: *nous allons danser*. Another: *Elle va chanter.*"
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{du} + \\text{day}_1 + \\text{au} + \\text{day}_2$. How do you say \"from Monday to Friday\"?",
+      "options": {
+        "A": "de lundi à vendredi",
+        "B": "le lundi au vendredi",
+        "C": "du lundi à vendredi",
+        "D": "du lundi au vendredi"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Days of a range are introduced by *du ... au ...*: *du lundi au vendredi*. Hours use *de ... à ...*: *de neuf heures à dix-sept heures*."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct demonstrative: `____ homme porte un chapeau.`",
+      "options": {
+        "A": "Ce",
+        "B": "Cet",
+        "C": "Cette",
+        "D": "Ces"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: demonstrative adjectives. *Ce* goes before a masculine consonant (*ce pantalon*), *cet* before a masculine vowel or mute h (*cet hôtel*), *cette* before feminine and *ces* before plurals."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Compute $4 \\times 20$ and write the result in French.",
+      "options": {
+        "A": "quatre-vingts",
+        "B": "soixante-dix",
+        "C": "quatre-vingt-dix",
+        "D": "cent"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "$4 \\times 20 = 80$, literally \"four twenties\": *quatre-vingts*. 70 is *soixante-dix* and 90 is *quatre-vingt-dix*."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct form of *finir*: `Ils ____ leur travail.`",
+      "options": {
+        "A": "finissent",
+        "B": "finit",
+        "C": "finisent",
+        "D": "finissons"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: present tense of regular -ir verbs. The *ils/elles* ending is *-issent*: *ils finissent*, *elles choisissent*."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank with the correct form of *avoir*.\n\n```text\nI have two brothers.  →  J'____ deux frères.\n```",
+      "options": {
+        "A": "as",
+        "B": "ai",
+        "C": "a",
+        "D": "ont"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Avoir* in the present is *j'ai, tu as, il a, nous avons, vous avez, ils ont*. After *je*, the form is *ai* and the pronoun elides to *j'*."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence used to order a drink politely.\n\n```text\nServeur : Qu'est-ce que vous désirez ?\nVous : Je ____ un thé, s'il vous plaît.\n```",
+      "options": {
+        "A": "voudrait",
+        "B": "voudriez",
+        "C": "voudrions",
+        "D": "voudrais"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "With *je* the polite form of *vouloir* is *voudrais* (\"I would like\"). *Voudrait* is for *il/elle*, *voudriez* for *vous* and *voudrions* for *nous*."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct agreement: `des chaussures ____` (black shoes)",
+      "options": {
+        "A": "noires",
+        "B": "noir",
+        "C": "noire",
+        "D": "noirs"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: colour adjective agreement. Colours agree with the noun in gender and number: feminine plural *noires*. Another: *une robe verte*, *des robes vertes*."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In a clothes shop, what does *un costume* mean?",
+      "options": {
+        "A": "A party costume",
+        "B": "A swimsuit",
+        "C": "A suit",
+        "D": "A winter coat"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Un costume* is a men's suit. It is a false friend of the English \"costume\". A swimsuit is *un maillot de bain* and a coat is *un manteau*."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct auxiliary: `Elle ____ allée au bar hier soir.`",
+      "options": {
+        "A": "a",
+        "B": "est",
+        "C": "ont",
+        "D": "suis"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: passé composé with *être*. *Aller* uses *être*, and the participle agrees with the subject: *elle est allée*, *ils sont allés*."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct preposition: `J'habite ____ Canada.`",
+      "options": {
+        "A": "en",
+        "B": "à",
+        "C": "aux",
+        "D": "au"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: prepositions with countries. Masculine singular countries take *au* (*au Brésil, au Japon*); feminine ones take *en* (*en France*); plural ones take *aux* (*aux États-Unis*)."
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the question.\n\n```text\nCombien ____ ces chaussures ?   (How much do these shoes cost?)\n```",
+      "options": {
+        "A": "coûte",
+        "B": "coûtons",
+        "C": "coûtent",
+        "D": "coûtez"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The subject *ces chaussures* is plural, so the verb takes the third person plural ending *-ent*: *coûtent*. With a singular subject: *Combien coûte ce pull ?*"
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "At a café the server asks *Sur place ou à emporter ?* You want your coffee to take away. What do you answer?",
+      "options": {
+        "A": "À emporter, s'il vous plaît.",
+        "B": "Sur place, merci.",
+        "C": "De rien.",
+        "D": "L'addition, s'il vous plaît."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Sur place* means \"to have here\" and *à emporter* means \"to take away\". *De rien* is \"you're welcome\" and *l'addition* is \"the bill\"."
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Compute $6 + 4$ and write the result in French.",
+      "options": {
+        "A": "dix",
+        "B": "neuf",
+        "C": "huit",
+        "D": "onze"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "$6 + 4 = 10$, which is *dix*. Numbers 1-10: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix."
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Compute $12 + 5$ and write the result in French.",
+      "options": {
+        "A": "seize",
+        "B": "dix-huit",
+        "C": "dix-neuf",
+        "D": "dix-sept"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "$12 + 5 = 17$, which is *dix-sept* (hyphenated). 16 is *seize*, 18 is *dix-huit* and 19 is *dix-neuf*."
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct verb: `Nous ____ danser ce soir.` (We are going to dance tonight.)",
+      "options": {
+        "A": "allez",
+        "B": "vont",
+        "C": "allons",
+        "D": "sommes"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: the near future with *aller* + infinitive. With *nous* the verb is *allons*: *Nous allons danser*. With *ils*: *Ils vont chanter*."
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct word: `Elle n'a pas ____ sœur.` (She has no sister.)",
+      "options": {
+        "A": "de",
+        "B": "une",
+        "C": "la",
+        "D": "des"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: negation of *avoir* with *pas de*. After *ne ... pas*, indefinite articles become *de* (or *d'*): *Je n'ai pas de frère*, *Nous n'avons pas d'enfants*."
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does *parce que* mean?",
+      "options": {
+        "A": "why",
+        "B": "when",
+        "C": "with whom",
+        "D": "because"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Pourquoi* asks \"why?\" and *parce que* answers it: *Pourquoi tu pars ? — Parce que je suis fatigué.* \"When\" is *quand* and \"with whom\" is *avec qui*."
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct word: `Je travaille ici ____ trois ans.` (I started three years ago and still work here.)",
+      "options": {
+        "A": "il y a",
+        "B": "depuis",
+        "C": "dans",
+        "D": "pour"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: *depuis* with the present tense. An action that began in the past and continues now uses *depuis* + present: *J'habite ici depuis un an*. *Il y a trois ans* would only place a past moment."
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which month is *août*?",
+      "options": {
+        "A": "August",
+        "B": "April",
+        "C": "July",
+        "D": "June"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Août* is August. French months are written in lower case (*août*, *mars*, *juin*). April is *avril*, July is *juillet* and June is *juin*."
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence giving a date.\n\n```text\nMon anniversaire est ____ quinze mars.   (My birthday is on March 15th.)\n```",
+      "options": {
+        "A": "la",
+        "B": "au",
+        "C": "aux",
+        "D": "le"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Dates use *le* + number + month: *le quinze mars*. Another: *C'est le dix juin.*"
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the preposition for the season.\n\n```text\nIl neige ____ hiver.   (It snows in winter.)\n```",
+      "options": {
+        "A": "au",
+        "B": "en",
+        "C": "aux",
+        "D": "sur"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Most seasons take *en*: *en hiver, en été, en automne*. Only spring is different: *au printemps*."
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the feminine form of *un chanteur* (a singer).",
+      "options": {
+        "A": "une chanteur",
+        "B": "une chanteuse",
+        "C": "une chantrice",
+        "D": "une chantière"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: feminine of professions. Nouns in *-eur* usually become *-euse* (*un serveur → une serveuse*), while *-teur* often becomes *-trice* (*un acteur → une actrice*)."
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about work.\n\n```text\nJe travaille ____ une banque.   (I work in a bank.)\n```",
+      "options": {
+        "A": "en",
+        "B": "dans",
+        "C": "chez",
+        "D": "au"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Dans* + indefinite article places you inside a workplace: *dans une banque, dans un hôpital*. *Chez* is used with a company or person (*chez Renault*)."
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence about origin.\n\n```text\nJe ____ du Brésil.   (I come from Brazil.)\n```",
+      "options": {
+        "A": "vient",
+        "B": "venons",
+        "C": "venez",
+        "D": "viens"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Venir* in the present: *je viens, tu viens, il vient, nous venons, vous venez, ils viennent*. For a masculine country, \"from\" is *du*: *Je viens du Brésil.*"
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does *la campagne* mean?",
+      "options": {
+        "A": "a political campaign",
+        "B": "the countryside",
+        "C": "a mountain",
+        "D": "a beach"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*La campagne* is the countryside and is a false friend of the English \"campaign\". *La montagne* is the mountain and *la plage* is the beach."
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the preposition.\n\n```text\nLe stylo est ____ le livre et le cahier.   (The pen is between the book and the notebook.)\n```",
+      "options": {
+        "A": "sous",
+        "B": "entre",
+        "C": "sur",
+        "D": "derrière"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Entre* means \"between\". The other options mean \"under\", \"on\" and \"behind\". Another use: *La banque est entre la poste et le café.*"
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which letter links the verb and the pronoun in the inverted question `Parle-__-il français ?`",
+      "options": {
+        "A": "t",
+        "B": "s",
+        "C": "n",
+        "D": "d"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: question inversion with a liaison *-t-*. When a verb ends in a vowel and the subject is *il/elle/on*, a *-t-* is inserted: *Parle-t-il ?*, *Habite-t-elle à Paris ?*"
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the reflexive pattern $\\text{subject} + \\text{pronoun}_{refl.} + \\text{verb}_{conj}$ with *s'appeler*. How does a person say \"My name is Léa\"?",
+      "options": {
+        "A": "Je appelle Léa.",
+        "B": "Je m'appelle Léa.",
+        "C": "Je te appelle Léa.",
+        "D": "Je s'appelle Léa."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The reflexive pronoun for *je* is *me* (*m'* before a vowel): *Je m'appelle Léa*. For *tu*: *Tu t'appelles Léa*; for *il*: *Il s'appelle Paul*."
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does the French word *parents* mean?",
+      "options": {
+        "A": "Relatives in general",
+        "B": "Cousins",
+        "C": "Mother and father",
+        "D": "Grandparents"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Les parents* are the mother and father. It is a false friend of the English \"relatives\"; for relatives in general French uses *la famille* or *les proches*."
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which French word gives the size of a pair of shoes?",
+      "options": {
+        "A": "la pointure",
+        "B": "la taille",
+        "C": "la caisse",
+        "D": "la réduction"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*La pointure* is the shoe size (*Je fais du 40*), while *la taille* is the clothing size. *La caisse* is the cash desk and *la réduction* is a discount."
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is *un stage* in a work context?",
+      "options": {
+        "A": "a theatre stage",
+        "B": "a work contract",
+        "C": "an internship",
+        "D": "a salary"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Un stage* is an internship, and the person doing it is *un stagiaire*. A contract is *un contrat* and a salary is *un salaire*."
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which French word means \"accountant\"?",
+      "options": {
+        "A": "un avocat",
+        "B": "un cuisinier",
+        "C": "un comptable",
+        "D": "un infirmier"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Un comptable* is an accountant; its feminine form is the same, *une comptable*. *Un avocat* is a lawyer, *un cuisinier* a cook and *un infirmier* a nurse."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct partitive article: `Je voudrais ____ confiture, s'il vous plaît.` (jam is feminine and uncountable here)",
+      "options": {
+        "A": "du",
+        "B": "des",
+        "C": "de la",
+        "D": "de l'"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: the partitive article. A feminine uncountable noun takes *de la* (*de la confiture*), a masculine one *du* (*du pain*), and a vowel start *de l'* (*de l'eau*). Plural uses *des*."
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the correct contraction: `La clé est à côté ____ téléphone.`",
+      "options": {
+        "A": "de le",
+        "B": "de la",
+        "C": "du",
+        "D": "des"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: the contraction of *de* + *le*. *De* + *le* becomes *du*: *près du bureau*. *De la* and *de l'* stay unchanged, and *de* + *les* becomes *des*."
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence with the right verb form.\n\n```text\nElles ____ le train à huit heures.   (They take the train at eight o'clock.)\n```",
+      "options": {
+        "A": "prennent",
+        "B": "prend",
+        "C": "prenons",
+        "D": "prenez"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Prendre* in the present: *je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent*. *Elles* takes *prennent*."
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Apply the inversion pattern $\\text{question word} + \\text{verb} - \\text{pronoun}$. How do you ask \"Where do you (tu) live?\"",
+      "options": {
+        "A": "Où habites-tu ?",
+        "B": "Où tu habites-tu ?",
+        "C": "Habites où-tu ?",
+        "D": "Où est-ce que habites-tu ?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Inversion puts the verb before the pronoun, joined by a hyphen: *Où habites-tu ?* The informal alternatives are *Où est-ce que tu habites ?* and *Tu habites où ?*"
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does the verb *trinquer* mean?",
+      "options": {
+        "A": "to dance",
+        "B": "to leave early",
+        "C": "to laugh",
+        "D": "to clink glasses and toast"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Trinquer* is to clink glasses. Toasts include *Santé !* and *Tchin-tchin !*. Dancing is *danser* and laughing is *rire*."
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the past-tense sentence.\n\n```text\nNous ____ fêté l'anniversaire de Paul.   (We celebrated Paul's birthday.)\n```",
+      "options": {
+        "A": "sommes",
+        "B": "avez",
+        "C": "avons",
+        "D": "ont"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Fêter* forms its passé composé with *avoir*: *nous avons fêté*. Another: *Ils ont dansé.*"
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the formal greeting.\n\n```text\nBonjour, comment ____-vous ?   (Hello, how are you? - formal)\n```",
+      "options": {
+        "A": "allons",
+        "B": "vas",
+        "C": "vont",
+        "D": "allez"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The formal question uses *vous*, and *aller* with *vous* is *allez*: *Comment allez-vous ?* Informally: *Comment vas-tu ?*"
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{Où} + \\text{être}_{conj} + \\text{possessive} + \\text{noun}$. Which question asks where \"my keys\" are?",
+      "options": {
+        "A": "Où est mes clés ?",
+        "B": "Où sont ma clés ?",
+        "C": "Où sont mes clés ?",
+        "D": "Où est mon clés ?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Les clés* is plural, so the verb is *sont* and the possessive is *mes*. With a singular noun: *Où est ma clé ?*"
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A person introduces *mon beau-père*. What decides whether this is a father-in-law or a stepfather?",
+      "options": {
+        "A": "The accent on the vowel.",
+        "B": "Whether the word is singular or plural.",
+        "C": "The context, since French uses the same word for both.",
+        "D": "Whether a hyphen is written."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Beau-père* means both father-in-law and stepfather; the matching feminine *belle-mère* is mother-in-law or stepmother. Only the context tells which relationship is meant."
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "In *Son père est médecin*, what does the possessive *son* tell you?",
+      "options": {
+        "A": "The owner is a man.",
+        "B": "The owner is a woman.",
+        "C": "The noun *père* is masculine singular; the owner can be either a man or a woman.",
+        "D": "The noun *père* is plural."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "French possessives agree with the thing possessed, not with the owner. *Son père* can be \"his father\" or \"her father\"; context decides. With a feminine noun the form changes: *sa mère*."
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "I am $20$ years old and my sister is $5$ years older, so her age is $20 + 5$. Which sentence is correct?",
+      "options": {
+        "A": "Ma sœur a vingt-cinq ans.",
+        "B": "Ma sœur est vingt-cinq ans.",
+        "C": "Ma sœur a cinq ans.",
+        "D": "Ma sœur a vingt ans."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "$20 + 5 = 25$ and age uses *avoir*: *vingt-cinq ans*. Note *vingt et un* (21) uses *et*, but 22-29 use hyphens."
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n\n```text\nOn vit ____ ici qu'ailleurs.   (One lives better here than elsewhere.)\n```",
+      "options": {
+        "A": "meilleur",
+        "B": "plus bien",
+        "C": "plus bon",
+        "D": "mieux"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Bien* is an adverb and its comparative is *mieux*; the adjective *bon* has the comparative *meilleur*. *Plus bien* and *plus bon* do not exist."
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Léa's father is twice as old as her 25-year-old brother, so his age is $2 \\times 25$. Which sentence states it correctly?",
+      "options": {
+        "A": "Il est cinquante ans.",
+        "B": "Il a quarante ans.",
+        "C": "Il a cinquante ans.",
+        "D": "Il a soixante ans."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "$2 \\times 25 = 50$ and French states age with *avoir*: *il a cinquante ans*. Never *être* for age."
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which pair of seasons both take the preposition *en* (\"in\")?",
+      "options": {
+        "A": "le printemps and l'été",
+        "B": "le printemps and l'hiver",
+        "C": "l'été and l'hiver (*en été*, *en hiver*)",
+        "D": "le printemps and l'automne"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Summer, autumn and winter take *en* (*en été, en automne, en hiver*), while spring is the exception: *au printemps*."
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{adorer} + \\text{article}_{def.} + \\text{noun}$ to say \"I love music\".",
+      "options": {
+        "A": "J'adore la musique.",
+        "B": "J'adore musique.",
+        "C": "J'adore une musique.",
+        "D": "J'adore de la musique."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "With verbs of liking in a general sense, French needs the definite article: *J'adore la musique*, *Je déteste les jeux vidéo*. A bare noun is not allowed."
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct pronoun: `Je dîne chez ____.` (at his place)",
+      "options": {
+        "A": "il",
+        "B": "lui",
+        "C": "le",
+        "D": "son"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: stressed (tonic) pronouns after prepositions. After *chez, avec, pour* the stressed forms are used: *moi, toi, lui, elle, nous, vous, eux, elles*. Example: *Je pars avec eux.*"
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question.\n\n```text\nTu ____ où est la gare ?   (Do you know where the station is?)\n```",
+      "options": {
+        "A": "sais",
+        "B": "connais",
+        "C": "sait",
+        "D": "connaît"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Savoir* introduces a fact or an embedded question (*Tu sais où est la gare ?*), while *connaître* takes a person or place directly (*Tu connais Paris ?*). With *tu*, *savoir* is *sais*."
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct possessive: `____ amie s'appelle Léa.` (my friend, a girl)",
+      "options": {
+        "A": "Ma",
+        "B": "Mes",
+        "C": "Mon",
+        "D": "Ton"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: possessive adjectives before a vowel. Before a feminine noun beginning with a vowel, French uses the masculine form for sound: *mon amie*, *ton école*, *son idée*."
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the shop dialogue.\n\n```text\nVendeuse : Quelle est votre taille ?\nClient : Je ____ du 42.\n```",
+      "options": {
+        "A": "suis",
+        "B": "ai",
+        "C": "fais",
+        "D": "vais"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "To state a clothing size you use *faire du* + number: *Je fais du 42*, *Je fais du 38*. For letter sizes use *être en*: *Je suis en M.*"
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the order, making the article and adjective agree with the noun.\n\n```text\nClient : ____, s'il vous plaît.   (A sparkling water)\n```",
+      "options": {
+        "A": "Un eau gazeuse",
+        "B": "Du eau gazeux",
+        "C": "Des eau gazeuse",
+        "D": "Une eau gazeuse"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Eau* is feminine, so it takes *une*, and the adjective agrees: *gazeuse*. Compare *un jus d'orange* (masculine)."
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct participle: `Elle s'est bien ____.` (She had a great time.)",
+      "options": {
+        "A": "amusée",
+        "B": "amusé",
+        "C": "amusés",
+        "D": "amusées"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: agreement of the participle in reflexive passé composé. Reflexive verbs use *être* and the participle agrees with the subject: *elle s'est amusée*, *ils se sont amusés*."
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct auxiliary: `Il ____ devenu directeur.`",
+      "options": {
+        "A": "a",
+        "B": "ont",
+        "C": "suis",
+        "D": "est"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: passé composé with *être*. *Devenir* takes *être* and the participle agrees: *il est devenu*, *elle est devenue*."
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which is the correct inverted question for `Il parle français.`?",
+      "options": {
+        "A": "Parle-il français ?",
+        "B": "Parles-il français ?",
+        "C": "Il parle-t-il français ?",
+        "D": "Parle-t-il français ?"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: question inversion with the liaison *-t-*. Verbs ending in a vowel add *-t-* before *il/elle/on*: *Parle-t-il ?*, *Habite-t-elle ici ?*"
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A shop assistant says *Ça fait soixante-quinze euros.* How much must the customer pay?",
+      "options": {
+        "A": "65 euros",
+        "B": "85 euros",
+        "C": "95 euros",
+        "D": "75 euros"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Soixante-quinze* is literally \"sixty-fifteen\": 60 + 15 = 75. French builds 70-79 on soixante (*soixante-dix* = 70) and 90-99 on quatre-vingt (*quatre-vingt-quinze* = 95)."
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n\n```text\nElle ____ directrice.   (She is becoming a director.)\n```",
+      "options": {
+        "A": "deviens",
+        "B": "devient",
+        "C": "devenons",
+        "D": "viennent"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Devenir* follows *venir*: *je deviens, tu deviens, il/elle devient, nous devenons, vous devenez, ils deviennent*. With *elle*, the form is *devient*."
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{subject} + \\text{être}_{conj} + \\text{participle}_{agreed}$. How do you say \"They (feminine) went\"?",
+      "options": {
+        "A": "Elles ont allées.",
+        "B": "Elles sont allées.",
+        "C": "Elles sont allé.",
+        "D": "Elles est allées."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Aller* takes *être* and the participle agrees with the subject: feminine plural gives *allées*. Example: *Il est parti*, *Elles sont parties*."
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct structure: `Cette robe est ____ chère ____ cette jupe.` (more expensive than)",
+      "options": {
+        "A": "plus ... que",
+        "B": "plus ... de",
+        "C": "aussi ... de",
+        "D": "moins ... comme"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the comparative of superiority: *plus + adjective + que*. Examples: *Ce pull est moins cher que ce manteau*, *Ce sac est aussi joli que ce chapeau*."
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the negative sentence.\n\n```text\nIl n'y a ____ stylo ici.   (There is no pen here.)\n```",
+      "options": {
+        "A": "pas un",
+        "B": "pas le",
+        "C": "pas des",
+        "D": "pas de"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "After a negation, the indefinite article becomes *de*: *Il n'y a pas de stylo*. Similarly: *Je n'ai pas de sœur.*"
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which greeting is the most formal?",
+      "options": {
+        "A": "Comment allez-vous ?",
+        "B": "Salut ! Ça va ?",
+        "C": "Coucou !",
+        "D": "Quoi de neuf ?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Comment allez-vous ?* uses *vous* and full inversion, so it suits strangers, superiors and customers. *Salut*, *Coucou* and *Quoi de neuf ?* are friendly and informal."
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Apply the contraction rule $\\text{à} + \\text{les} \\to ?$ to complete: *Nous allons ____ toilettes.*",
+      "options": {
+        "A": "à les",
+        "B": "aux",
+        "C": "au",
+        "D": "à la"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*À* + *les* contracts to *aux*, just as *à* + *le* gives *au*. Example: *Elle parle aux enfants.*"
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which English sentences can the French present tense *Je mange* translate?",
+      "options": {
+        "A": "\"I eat\" and \"I am eating\"",
+        "B": "\"I ate\" and \"I had eaten\"",
+        "C": "\"I will have eaten\" only",
+        "D": "\"I was eating\" only"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The French present covers both the simple present (habit) and the present continuous (action in progress). For emphasis you can add *être en train de*: *Je suis en train de manger.*"
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the past-tense sentence.\n\n```text\nIls ____ rentrés tard.   (They came home late.)\n```",
+      "options": {
+        "A": "sont",
+        "B": "ont",
+        "C": "est",
+        "D": "êtes"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Rentrer* is a movement verb, so it uses *être* in the passé composé and the participle agrees with the subject: *ils sont rentrés*, *elle est rentrée*."
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A formal question follows $\\text{Que} + \\text{verb} + \\text{-} + \\text{subject}$. Which question is equivalent to *Qu'est-ce que tu fais ?*",
+      "options": {
+        "A": "Que fais-tu ?",
+        "B": "Qu'est-ce que fais-tu ?",
+        "C": "Que tu fais-tu ?",
+        "D": "Qui fais-tu ?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Qu'est-ce que* + subject + verb and *Que* + verb-subject mean the same. Example: *Qu'est-ce que vous désirez ?* = *Que désirez-vous ?*"
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{le/la/les} + \\text{plus} + \\text{adjective} + \\text{de}$. How do you say \"the most beautiful city of France\"?",
+      "options": {
+        "A": "la plus belle ville en France",
+        "B": "la plus beau ville de France",
+        "C": "la belle plus ville de France",
+        "D": "la plus belle ville de France"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "After a superlative, \"in/of\" is expressed with *de*: *la plus belle ville de France*, *le plus grand musée du monde*. The adjective agrees with the feminine noun (*belle*)."
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which statement best explains why *Je voudrais café, s'il vous plaît* is incorrect?",
+      "options": {
+        "A": "*Café* is feminine, so *voudrais* must change.",
+        "B": "*Voudrais* can only be used with plural nouns.",
+        "C": "French nouns normally need an article, such as *un café* or *du café*.",
+        "D": "*S'il vous plaît* must always come before the verb."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "French does not drop the article before a noun the way a bare noun can in some languages. Say *Je voudrais un café* (one cup) or *Je voudrais du café* (some coffee). Likewise: *Je voudrais de l'eau.*"
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct verb: `Je ____ Paris.` (I know Paris, I have been there.)",
+      "options": {
+        "A": "connais",
+        "B": "sais",
+        "C": "savons",
+        "D": "connaît"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: *savoir* versus *connaître*. *Connaître* is used for people and places (*Je connais Marie*), *savoir* for facts and skills (*Je sais nager*)."
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct form: `Il revient ____ États-Unis.` (He is coming back from the United States.)",
+      "options": {
+        "A": "des",
+        "B": "du",
+        "C": "de",
+        "D": "aux"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: prepositions of origin with plural countries. Plural countries use *des* (*des États-Unis*); masculine singular uses *du* (*du Canada*); feminine uses *de/d'* (*de France*, *d'Italie*)."
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence with the irregular verb.\n\n```text\nVous ____ du sport tous les jours.   (You do sport every day.)\n```",
+      "options": {
+        "A": "faisez",
+        "B": "faisons",
+        "C": "font",
+        "D": "faites"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Faire* is irregular: *je fais, tu fais, il fait, nous faisons, vous faites, ils font*. The *vous* form is *faites*, not *-ez*."
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct spelling: `Nous ____ à midi.` (manger)",
+      "options": {
+        "A": "mangons",
+        "B": "mangeons",
+        "C": "manjons",
+        "D": "mangeont"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: spelling change of verbs in *-ger*. The *e* is kept before *-ons* to keep the soft *g* sound: *nous mangeons*, *nous voyageons*."
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does the speaker say: *Je suis de Lyon, mais j'habite à Paris.*?",
+      "options": {
+        "A": "They live in Lyon but come from Paris.",
+        "B": "They are travelling from Lyon to Paris.",
+        "C": "They come from Lyon but currently live in Paris.",
+        "D": "They work in Lyon and live in Paris."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Être de* gives origin (*Je suis de Lyon*), while *habiter à* gives the present home (*j'habite à Paris*). *Mais* marks the contrast between the two."
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Someone points at a bag and asks *C'est à qui ?* What are they asking?",
+      "options": {
+        "A": "Where is it?",
+        "B": "Whose is it?",
+        "C": "How much is it?",
+        "D": "Who gave it to you?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*C'est à qui ?* asks about ownership; the answer is *C'est à moi* / *C'est à lui* or *C'est le mien*. Asking about location uses *Où est ... ?* and price uses *Combien ça coûte ?*"
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "How does *dans la voiture* differ from *en voiture*?",
+      "options": {
+        "A": "Both mean exactly the same thing.",
+        "B": "*Dans la voiture* means by car; *en voiture* means inside the car.",
+        "C": "*Dans la voiture* means inside the car; *en voiture* means by car.",
+        "D": "*En voiture* means in front of the car."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Dans* + article locates something inside a place (*Le parapluie est dans la voiture*). *En* + noun without article describes the means of transport (*Je vais au travail en voiture*)."
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A jacket costs $4 \\times 20 + 10$ euros. How is that price said in French?",
+      "options": {
+        "A": "soixante-dix euros",
+        "B": "quatre-vingts euros",
+        "C": "quatre-vingt-dix euros",
+        "D": "cent euros"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "$4 \\times 20 + 10 = 90$, which is *quatre-vingt-dix* (\"four-twenty-ten\"). 70 is *soixante-dix* and 80 is *quatre-vingts*."
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the negative near future $\\text{ne} + \\text{aller}_{conj} + \\text{pas} + \\text{infinitive}$. How do you say \"I am not going to come\"?",
+      "options": {
+        "A": "Je vais ne pas venir.",
+        "B": "Je ne vais pas venir.",
+        "C": "Je ne viens pas aller.",
+        "D": "Je ne vais venir pas."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In the near future the negation wraps the conjugated *aller*, and the infinitive stays after *pas*: *Je ne vais pas venir*, *Ils ne vont pas chanter*."
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the reflexive pronoun.\n\n```text\nJe ____ présente : je m'appelle Léa.\n```",
+      "options": {
+        "A": "m'",
+        "B": "se",
+        "C": "te",
+        "D": "me"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Reflexive verbs need a pronoun that matches the subject: *je me présente*, *tu te présentes*, *il se présente*. *M'* is only used before a vowel (*je m'appelle*)."
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the answer with the correct pronoun.\n\n```text\nTu as vu mes clés ?\nOui, je ____ ai vues sur le canapé.\n```",
+      "options": {
+        "A": "le",
+        "B": "la",
+        "C": "les",
+        "D": "leur"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Mes clés* is feminine plural, so the direct object pronoun is *les*, placed before the auxiliary: *Je les ai vues.* The participle *vues* agrees with the plural feminine object."
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{present} + \\text{depuis} + \\text{duration}$. How do you say \"I have worked here for three years\" (and still do)?",
+      "options": {
+        "A": "J'ai travaillé ici depuis trois ans.",
+        "B": "Je travaillais ici depuis trois ans.",
+        "C": "Je travaille ici il y a trois ans.",
+        "D": "Je travaille ici depuis trois ans."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "For an action that began in the past and continues, French uses the present with *depuis*: *J'habite ici depuis un an*. *Pendant* describes a finished duration: *J'ai travaillé pendant cinq ans.*"
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the preposition required by the verb.\n\n```text\nJe ressemble ____ ma mère.   (I look like my mother.)\n```",
+      "options": {
+        "A": "de",
+        "B": "avec",
+        "C": "à",
+        "D": "pour"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Ressembler* is always followed by *à*: *ressembler à quelqu'un*. Another: *Elle ressemble à son père.*"
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which way of writing the first day of January is correct in French?",
+      "options": {
+        "A": "le premier janvier",
+        "B": "le un janvier",
+        "C": "le premier de janvier",
+        "D": "le janvier 1"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The first of the month is the only date that uses an ordinal (*premier*); all others use cardinals (*le deux mars*). Months are not capitalised in French."
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the indirect object pronoun.\n\n```text\nC'est l'anniversaire de ma sœur. Je ____ offre un cadeau.   (to her)\n```",
+      "options": {
+        "A": "leur",
+        "B": "lui",
+        "C": "le",
+        "D": "me"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Lui* replaces \"to him/to her\" before the verb; *leur* replaces \"to them\". Example: *Nous leur offrons un jeu.*"
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct word: `Elle ne vit ____ ici.` (She no longer lives here.)",
+      "options": {
+        "A": "pas",
+        "B": "plus",
+        "C": "ni",
+        "D": "personne"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: negative adverbs *ne ... plus* (\"no longer\"). Compare *ne ... pas* (not), *ne ... jamais* (never): *Nous n'avons plus de contact.*"
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{être} + \\text{en train de} + \\text{infinitive}$. How do you say \"She is in the middle of reading\"?",
+      "options": {
+        "A": "Elle est en train lire.",
+        "B": "Elle est en train de lire.",
+        "C": "Elle a en train de lire.",
+        "D": "Elle va en train de lire."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Être en train de* + infinitive stresses that an action is happening right now: *Je suis en train de manger*, *Elle est en train de lire*."
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"There are books on the table\"?",
+      "options": {
+        "A": "Ils y ont des livres sur la table.",
+        "B": "Il y a des livres sur la table.",
+        "C": "Il y ont des livres sur la table.",
+        "D": "Il y sont des livres sur la table."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the invariable expression *il y a*. It never changes for the plural: *Il y a un livre / Il y a des livres*. The negative is *Il n'y a pas de livres*."
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A job advert offers a *CDI*. What kind of contract is this?",
+      "options": {
+        "A": "A fixed-term contract",
+        "B": "An unpaid internship",
+        "C": "A freelance invoice",
+        "D": "A permanent contract (open-ended)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*CDI* stands for *contrat à durée indéterminée* (permanent), while *CDD* is *contrat à durée déterminée* (fixed term). An internship is *un stage*."
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Two coffees cost 3 euros each and one croissant costs 2 euros, so the total is $2 \\times 3 + 2$ euros. How does the server announce the total?",
+      "options": {
+        "A": "Ça fait huit euros.",
+        "B": "Ça fait sept euros.",
+        "C": "Ça fait neuf euros.",
+        "D": "Ça fait six euros."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "$2 \\times 3 + 2 = 8$, so *Ça fait huit euros* (\"that comes to eight euros\"). Other numbers: sept (7), neuf (9), six (6)."
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct pronoun: `Nous ____ offrons un jeu.` (to them)",
+      "options": {
+        "A": "lui",
+        "B": "leur",
+        "C": "les",
+        "D": "nous"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: indirect object pronouns. *Lui* replaces \"to him/her\" and *leur* replaces \"to them\", both before the verb: *Je lui donne un cadeau*."
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which sequence of connectors tells a story in its natural order?",
+      "options": {
+        "A": "enfin, d'abord, ensuite",
+        "B": "d'abord, ensuite, enfin",
+        "C": "ensuite, enfin, d'abord",
+        "D": "enfin, ensuite, d'abord"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*D'abord* (first) opens the story, *ensuite* / *puis* (then) continue it and *enfin* (finally) closes it. Example: *D'abord nous avons dîné, ensuite nous avons dansé, enfin nous sommes rentrés.*"
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the correct article: `Je voudrais ____ croissants, s'il vous plaît.` (some croissants)",
+      "options": {
+        "A": "du",
+        "B": "de la",
+        "C": "un",
+        "D": "des"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: indefinite article plural *des*. Plural nouns take *des* (*des croissants*, *des biscuits*) whatever their gender. *Du* and *de la* are used with singular uncountable nouns."
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner introduces himself in French with “Je suis appelé Paulo.” Which diagnosis and correction is right?",
+      "options": {
+        "A": "French uses the reflexive verb *s'appeler* (literally “to call oneself”), so the natural sentence is “Je m'appelle Paulo.”",
+        "B": "The sentence is fine: “être” plus a past participle is the usual way to give a name.",
+        "C": "The verb must stay in the infinitive after “être”: “Je suis appeler Paulo.”",
+        "D": "A direct object pronoun must follow the verb: “J'appelle-moi Paulo.”"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Names are given with the reflexive verb *s'appeler*: “je m'appelle”, “tu t'appelles”, “il s'appelle”. A word-for-word copy of Portuguese “sou chamado” sounds wrong. Another example: “Comment tu t'appelles ?” (What is your name?)."
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “She is Brazilian” (about a woman)?",
+      "options": {
+        "A": "Elle est brésilien.",
+        "B": "Elle est brésiliene.",
+        "C": "Elle est brésiliennes.",
+        "D": "Elle est brésilienne."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Gender agreement of nationality adjectives: the ending *-ien* becomes *-ienne* in the feminine (the *n* is doubled before the added *-e*), and the plural only adds *-s* on top of that. Another example: “Elle est italienne.” / “Elles sont italiennes.”"
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nShe is a teacher.\nElle est ____.\n```",
+      "options": {
+        "A": "une professeure",
+        "B": "la professeure",
+        "C": "professeure",
+        "D": "professeures"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After *être* a profession is used like an adjective, with no article: “Elle est professeure.” The article comes back with *c'est*: “C'est une professeure.” The singular subject also rules out the plural form."
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{subject} + \\text{ne} + \\text{être}_{conj} + \\text{pas} + \\text{complement}$ to say “They (masculine) are not Canadian.” Which sentence results?",
+      "options": {
+        "A": "Ils sont ne pas canadiens.",
+        "B": "Ils ne sont canadiens pas.",
+        "C": "Ils ne êtes pas canadiens.",
+        "D": "Ils ne sont pas canadiens."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "In a simple tense the two parts of the negation wrap the conjugated verb: *ne* before it, *pas* right after it. The third-person plural of *être* is “sont”, and the adjective agrees (“canadiens”). Another example: “Nous ne sommes pas amis.”"
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A Brazilian learner wants to tell a friend that a colleague is tired and says “Il est fatigant.” What does this French sentence actually mean, and what should be said?",
+      "options": {
+        "A": "It means he is tired; the sentence is correct.",
+        "B": "It means he is lazy; to say he is tired, use “Il est paresseux.”",
+        "C": "It means he is tiresome (he wears other people out); to say he is tired, use “Il est fatigué.”",
+        "D": "It means he is sleepy; to say he is tired, use “Il est endormi.”"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A suffix trap: *fatigant* (-ant) describes what causes tiredness in others, while *fatigué* (past participle) describes who feels tired. Compare “Ce voyage est fatigant” (this trip is exhausting) with “Je suis fatigué après ce voyage.”"
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete with the correct form: “Marie et son frère Paul sont très ____.” (gentil, kind)",
+      "options": {
+        "A": "gentils",
+        "B": "gentilles",
+        "C": "gentil",
+        "D": "gentille"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Agreement in a mixed group: when a plural subject contains at least one masculine member, the adjective takes the masculine plural (*-s*). Another example: “Léa et Tom sont contents.” Only a group made up entirely of women would take “gentilles”."
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nMy sister is brave.\nMa sœur est ____.\n```",
+      "options": {
+        "A": "courageux",
+        "B": "courageuze",
+        "C": "courageuxe",
+        "D": "courageuse"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The masculine ending *-eux* becomes *-euse* in the feminine: courageux / courageuse, paresseux / paresseuse. The spelling with *z* or *-xe* does not exist. Another example: “Elle est généreuse.”"
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply the rule $\\text{-if} \\rightarrow \\text{-ive}$ for feminine adjectives to complete: “Ma mère est très ____.” (sportif)",
+      "options": {
+        "A": "sportive",
+        "B": "sportife",
+        "C": "sportifs",
+        "D": "sportif"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Feminine formation: adjectives in *-if* change to *-ive* (the *f* becomes *v* before the added *-e*). Another example: “actif” becomes “active”, so “Elle est très active.” The plural “sportifs” would also be the wrong number here."
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner writes “J'ai étudié le français depuis deux ans” to mean “I have been studying French for two years.” What is the problem?",
+      "options": {
+        "A": "With *depuis* an action that is still going on is expressed in the present tense: “J'étudie le français depuis deux ans.”",
+        "B": "*Depuis* needs the future tense: “J'étudierai le français depuis deux ans.”",
+        "C": "*Depuis* must be replaced by “pendant” while keeping the passé composé, otherwise the sentence is wrong.",
+        "D": "Nothing is wrong: the passé composé is always required to express a duration."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "French says “I study since two years” where Portuguese or English use a perfect form: present tense + *depuis* + duration for something that began in the past and continues. Another example: “Il habite à Lyon depuis 2019.”"
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “I study French” (as a language you are learning)?",
+      "options": {
+        "A": "J'étudie français.",
+        "B": "J'étudie le français.",
+        "C": "J'étudie en français.",
+        "D": "J'étudie au français."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Verbs such as *étudier*, *apprendre* and *aimer* keep the definite article before a language name: “le français”. Only *parler* and the preposition *en* drop it (“Je parle français”, “Je lis en français”). “J'étudie en français” would mean you study using French as the working language."
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nThey are learning Chinese.\nIls ____ chinois.\n```",
+      "options": {
+        "A": "apprenent",
+        "B": "apprends",
+        "C": "apprennent",
+        "D": "apprenons"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Apprendre* follows *prendre*: the third-person plural doubles the *n* and adds *-ent*: “ils apprennent”, “ils comprennent”. “Apprenons” belongs to *nous*, and “apprends” to *je* and *tu*."
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{subject} + \\text{le/la/l'/les} + \\text{verb}_{conj}$ to replace the object in “Il étudie l'allemand.” Which sentence results?",
+      "options": {
+        "A": "Il étudie-le.",
+        "B": "Il le étudie.",
+        "C": "Il l'étudie.",
+        "D": "Il étudie l'."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In French the object pronoun goes before the conjugated verb, and *le/la* becomes *l'* before a vowel sound: “Il l'étudie.” Another example: “Nous aimons ces langues” becomes “Nous les aimons.”"
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner says “J'habite dans Paris.” A French speaker would correct this to “J'habite à Paris.” Why?",
+      "options": {
+        "A": "*Dans* is only correct with country names, so “dans Paris” must become “dans France”.",
+        "B": "*À* is required only because Paris starts with a consonant sound.",
+        "C": "City names take the preposition *à* to express where you live; *dans* is kept for enclosed spaces such as a building (“dans un immeuble”).",
+        "D": "Both are interchangeable; the correction is purely stylistic."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Prepositions of place depend on the type of place: *à* + city (à Lyon), *en* + feminine country (en France), *au* + masculine country (au Brésil), *dans* + building or enclosed space. Another example: “Elle habite à Marseille, dans un petit appartement.”"
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “Ils ont acheté un ____ appartement.” (beau, beautiful)",
+      "options": {
+        "A": "bel",
+        "B": "beau",
+        "C": "belle",
+        "D": "beaux"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Beau*, *nouveau* and *vieux* have a special masculine singular form before a vowel sound: bel, nouvel, vieil. Another example: “un vieil escalier”. Before a consonant the usual form is used: “un beau jardin”."
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nThey live in the United States.\nIls habitent ____ États-Unis.\n```",
+      "options": {
+        "A": "aux",
+        "B": "en",
+        "C": "au",
+        "D": "dans"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Country names that are plural take *aux* (à + les): “aux États-Unis”, “aux Pays-Bas”. Feminine singular countries take *en* (en France) and masculine singular countries take *au* (au Canada)."
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{il n'y a pas} + \\text{de (d')} + \\text{noun}$ to say “There is no elevator.” (un ascenseur)",
+      "options": {
+        "A": "Il n'y a pas un ascenseur.",
+        "B": "Il n'y a pas de l'ascenseur.",
+        "C": "Il n'y a pas d'ascenseur.",
+        "D": "Il ne y a pas ascenseur."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After a negation of existence, the indefinite article disappears and *de* is used, shortened to *d'* before a vowel: “Il n'y a pas d'ascenseur.” Another example: “Il n'y a pas de garage.” Note also that *ne* + *y* becomes “n'y”."
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner wants to say “I'm going to the dentist's (office)” and writes “Je vais au dentiste.” What is the standard way to say it?",
+      "options": {
+        "A": "“Je vais à le dentiste.” — *à* must stay separate from *le* before people.",
+        "B": "“Je vais dans le dentiste.” — *dans* is used with professions.",
+        "C": "The sentence is already correct: *au* works with people and places alike.",
+        "D": "“Je vais chez le dentiste.” — *chez* is used for going to a person's home or workplace, and takes no extra contraction."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Chez* + person or profession means “at/to X's place”: “chez le médecin”, “chez Marie”, “chez moi”. *Au* is for places (“au parc”). Another example: “Elle va chez le coiffeur.”"
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “Nous allons ____ supermarché.”",
+      "options": {
+        "A": "au",
+        "B": "à le",
+        "C": "à la",
+        "D": "aux"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Contraction of the preposition *à* with the masculine singular article: à + le → *au*. Similarly à + les → *aux*, whereas *à la* and *à l'* do not contract. Another example: “Il va au cinéma”, but “Il va à la poste”."
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nThere are a lot of shops in my neighbourhood.\nIl y a beaucoup ____ magasins dans mon quartier.\n```",
+      "options": {
+        "A": "des",
+        "B": "de",
+        "C": "du",
+        "D": "de la"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Expressions of quantity (*beaucoup*, *peu*, *trop*, *assez*) are followed by *de* with no article: “beaucoup de magasins”. Another example: “Il y a trop de bruit.”"
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{subject} + y + \\text{verb}_{conj}$, where *y* replaces “à + place”, to rewrite “Elle va à l'école.”",
+      "options": {
+        "A": "Elle va y.",
+        "B": "Elle y vont.",
+        "C": "Elle la va.",
+        "D": "Elle y va."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The pronoun *y* replaces a phrase made of *à* + place and goes right before the conjugated verb. Another example: “Nous allons à la gare” becomes “Nous y allons.” “Elle y va” keeps the third-person singular verb form."
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "You stop an elderly stranger in the street and ask “Tu peux me dire où est la gare ?” What is the main problem?",
+      "options": {
+        "A": "Grammar: *pouvoir* cannot be followed by another verb.",
+        "B": "Word order: the question should begin with “Où” followed by the subject.",
+        "C": "Nothing: *tu* is the safe default with every adult.",
+        "D": "Register: *tu* is too familiar for a stranger; a polite request would be “Excusez-moi, pouvez-vous me dire où est la gare ?”"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "French separates *tu* (friends, family, peers) from *vous* (strangers, customers, superiors). When in doubt, use *vous*, as in “Excusez-moi, pourriez-vous m'aider ?”"
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form completes this instruction given to a friend (tu)? “____ à gauche, puis continue tout droit.”",
+      "options": {
+        "A": "Tournes",
+        "B": "Tourner",
+        "C": "Tourne",
+        "D": "Tournons"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Imperative of a regular *-er* verb in the *tu* form: the final *-s* of the present tense is dropped (tu tournes → *tourne*). Another example: “Continue tout droit.” The *vous* form keeps its ending: “Tournez.”"
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nKeep going until the station.\nContinuez ____ la gare.\n```",
+      "options": {
+        "A": "jusque",
+        "B": "jusqu'à",
+        "C": "depuis",
+        "D": "à jusqu'"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Jusqu'à* (until, as far as) is followed directly by the place or time: “jusqu'à la gare”, “jusqu'au feu” (à + le → au). *Depuis* marks a starting point, not an endpoint."
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{Ne} + \\text{verb}_{imp,\\,vous} + \\text{pas} + \\text{complement}$ to politely tell a stranger “Don't take this street.” (prendre)",
+      "options": {
+        "A": "Ne pas prenez cette rue.",
+        "B": "Prenez ne pas cette rue.",
+        "C": "Ne prends pas cette rue.",
+        "D": "Ne prenez pas cette rue."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The negative imperative wraps the verb just like other negations: *ne* + verb + *pas*. With a stranger the *vous* form (“prenez”) is required; “prends” is the *tu* form. Another example: “Ne traversez pas ici.”"
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "How should the number 250 be written out in words in French?",
+      "options": {
+        "A": "deux cents cinquante",
+        "B": "deux cent et cinquante",
+        "C": "deux cinquante cent",
+        "D": "deux cent cinquante"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Cent* takes a plural *-s* only when it is multiplied and ends the number (“deux cents”). If another number follows, the *s* is dropped: “deux cent cinquante”, “trois cent six”. No *et* is used with *cent*. Another example: 300 is “trois cents”, 305 is “trois cent cinq”."
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “Elle est ____ hier.” (partir)",
+      "options": {
+        "A": "parti",
+        "B": "parties",
+        "C": "partie",
+        "D": "partir"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Passé composé with *être*: the past participle agrees in gender and number with the subject. Since the subject is feminine singular, “partie” is needed. Another example: “Ils sont arrivés” / “Elles sont arrivées.”"
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nMy parents arrived at noon.\nMes parents ____ arrivés à midi.\n```",
+      "options": {
+        "A": "ont",
+        "B": "sont",
+        "C": "est",
+        "D": "sommes"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Arriver* is a verb of motion conjugated with *être* in the passé composé, so the plural subject requires “sont” and an agreeing participle (“arrivés”). With *avoir* it would be “ont”, which is wrong for this verb."
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply $\\text{subject} + \\text{avoir}_{conj} + \\text{participle}$, with the regular participle of *-re* verbs formed as $\\text{stem} + \\text{-u}$, to complete: “Elle ____ sa valise.” (perdre, to lose)",
+      "options": {
+        "A": "a perdé",
+        "B": "a perdu",
+        "C": "est perdu",
+        "D": "a perdre"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Passé composé of *perdre*: auxiliary *avoir* + participle. Regular *-re* verbs form the participle with *-u* (perdre → perdu, attendre → attendu). Another example: “Nous avons attendu une heure.”"
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "You walk into a French bakery and say straight away “Une baguette, s'il vous plaît.” What would a baker expect that is missing?",
+      "options": {
+        "A": "A greeting first: “Bonjour, Madame/Monsieur”, followed by a polite request such as “Je voudrais une baguette, s'il vous plaît.”",
+        "B": "Nothing: short orders without a greeting are the norm in shops.",
+        "C": "A familiar “Salut !” since bakeries are casual places.",
+        "D": "A question in the *tu* form, such as “Tu me donnes une baguette ?”"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In French shops, greeting before asking is expected, and the conditional “Je voudrais…” sounds more courteous than “Je veux…”. Ending with “Merci, bonne journée” completes the exchange."
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “Il n'y a plus ____ croissants.”",
+      "options": {
+        "A": "des",
+        "B": "de",
+        "C": "les",
+        "D": "du"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "After a negation of quantity (*ne … plus*, *ne … pas*), the indefinite or partitive article (un, une, des, du) is replaced by *de* (*d'* before a vowel). Another example: “Je n'ai pas de monnaie.”"
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the dialogue.\n```text\n— Vous voulez des croissants ?\n— Oui, j'____ voudrais quatre.\n```",
+      "options": {
+        "A": "en",
+        "B": "y",
+        "C": "les",
+        "D": "leur"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The pronoun *en* replaces “de + noun” expressing a quantity (des croissants) and stays in the sentence along with the number: “J'en voudrais quatre.” *Y* replaces “à + place”, and *les* would replace a specific, definite noun."
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply $\\text{expression of quantity} + \\text{de (d')} + \\text{noun}$ to say “a lot of almonds.” (des amandes)",
+      "options": {
+        "A": "beaucoup des amandes",
+        "B": "beaucoup de les amandes",
+        "C": "beaucoup de amandes",
+        "D": "beaucoup d'amandes"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "After *beaucoup*, *trop*, *assez*, *un peu*, the noun is introduced by *de* with no article, and *de* elides to *d'* before a vowel: “beaucoup d'amandes”. Another example: “assez d'argent”."
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A host says to a guest “Faites comme chez vous.” What does this mean?",
+      "options": {
+        "A": "Make yourself at home: *chez vous* means “at your place”, so the guest is invited to feel as comfortable as in their own house.",
+        "B": "Please bring your own food, as you would at your own house.",
+        "C": "Follow the same rules as the people in this house.",
+        "D": "You should leave soon, like someone who is just passing through."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Chez* + pronoun means “at the home of”: “chez moi”, “chez nous”. The expression is a standard welcome formula; a related one is “Bienvenue chez nous.”"
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which pronoun completes the sentence? “Je ____ sers du vin.” (I am serving Marie some wine.)",
+      "options": {
+        "A": "le",
+        "B": "la",
+        "C": "lui",
+        "D": "l'"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Servir quelque chose à quelqu'un*: the person is an indirect object (introduced by *à*), so the third-person pronoun is *lui* (to him/her); the plural is *leur*. Another example: “Je leur offre un apéritif.” *Le/la/l'* would replace a direct object."
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the dialogue.\n```text\n— Où sont les verres ?\n— Je ____ nettoie.\n```",
+      "options": {
+        "A": "leur",
+        "B": "lui",
+        "C": "le",
+        "D": "les"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "“Les verres” is a plural direct object (nettoyer quelque chose), so it is replaced by *les* placed before the verb: “Je les nettoie.” *Leur* replaces an indirect object (a person), which does not apply here."
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply $\\text{verb}_{imp,\\,tu} = \\text{verb}_{pres,\\,tu} - \\text{-s}$ (for *-er* verbs and *ouvrir*) to tell a friend: “Open the window!” (ouvrir)",
+      "options": {
+        "A": "Ouvres la fenêtre !",
+        "B": "Ouvre la fenêtre !",
+        "C": "Ouvrir la fenêtre !",
+        "D": "Ouvrez la fenêtre !"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In the *tu* imperative, verbs whose present form ends in *-es* (and *ouvrir*, *offrir*…) lose the final *-s*: tu ouvres → *ouvre*. “Ouvrez” is the *vous* form. Another example: “Range ta chambre !”"
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which sentence says that the trip itself lasts fifteen minutes (“I get there in fifteen minutes”)?",
+      "options": {
+        "A": "J'y vais dans quinze minutes.",
+        "B": "J'y vais il y a quinze minutes.",
+        "C": "J'y vais en quinze minutes.",
+        "D": "J'y vais depuis quinze minutes."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*En* + duration describes how long an action takes. *Dans* + duration places an event that far in the future (“J'y vais dans quinze minutes” = I'm going there in fifteen minutes' time), and *il y a* + duration means “ago”."
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which auxiliary completes the sentence? “Elle ____ descendue à Bastille.”",
+      "options": {
+        "A": "a",
+        "B": "est",
+        "C": "ont",
+        "D": "sont"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Descendre* (without a direct object) is a verb of movement that forms the passé composé with *être*, with agreement of the participle: “Elle est descendue.” Another example: “Nous sommes montés dans le bus.” (Note: with a direct object it takes *avoir*, as in “Elle a descendu l'escalier”.)"
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nWalk along the river.\nMarchez ____ de la rivière.\n```",
+      "options": {
+        "A": "le long",
+        "B": "au bout",
+        "C": "près",
+        "D": "en face"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The preposition *le long de* means “along”: “Marchez le long de la rivière.” *Au bout de* means “at the end of” and *en face de* means “opposite”. *Près* would need “près de” and means “near”."
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply $\\text{subject} + \\text{se} + \\text{être}_{conj} + \\text{participle}_{agr}$ to complete what a woman says: “Je me ____ trompée.” — choose the auxiliary form that fits the pattern.",
+      "options": {
+        "A": "ai",
+        "B": "suis",
+        "C": "est",
+        "D": "sommes"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Pronominal verbs such as *se tromper* form the passé composé with *être*: “je me suis trompée”, and the participle agrees with the subject (feminine here, hence the extra *e*). Another example: “Elle s'est levée tôt.”"
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner writes “Je lave mes mains avant de manger.” What is the more natural French sentence?",
+      "options": {
+        "A": "“Je me lave mes mains avant de manger.” — the possessive must be kept.",
+        "B": "“Je me lave les mains avant de manger.” — French uses a reflexive verb and the definite article for one's own body parts.",
+        "C": "“Je lave les mains me avant de manger.” — the pronoun goes after the object.",
+        "D": "The original sentence is perfectly natural."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "With reflexive verbs and body parts, the reflexive pronoun already shows whose body part it is, so the definite article replaces the possessive: “Il se brosse les dents”, “Elle se lave les cheveux.”"
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "How do you correctly make this sentence negative? “Tu te lèves tôt.”",
+      "options": {
+        "A": "Tu te ne lèves pas tôt.",
+        "B": "Tu ne lèves te pas tôt.",
+        "C": "Tu ne te pas lèves tôt.",
+        "D": "Tu ne te lèves pas tôt."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Negation of a pronominal verb: *ne* comes before the reflexive pronoun and *pas* after the verb (ne + pronoun + verb + pas). Another example: “Je ne me couche jamais tard.”"
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nNous nous ____ à minuit.   (se coucher)\n```",
+      "options": {
+        "A": "couchez",
+        "B": "couchent",
+        "C": "couchons",
+        "D": "couches"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The reflexive pronoun *nous* is followed by the *nous* verb form, ending in *-ons*: “nous nous couchons”. The *vous* form would be “vous vous couchez”. Another example: “Nous nous levons à sept heures.”"
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the clock pattern $H\\ \\text{heures et quart} = H{:}15$ to say “I get up at 6:15.”",
+      "options": {
+        "A": "Je me lève à six heures moins le quart.",
+        "B": "Je me lève à sept heures et quart.",
+        "C": "Je me lève à six heures et quart.",
+        "D": "Je me lève à six heures et demie."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "“Et quart” adds fifteen minutes to the hour, “et demie” adds thirty, and “moins le quart” subtracts fifteen from the next hour (6:45 is “sept heures moins le quart”). Another example: “Je finis à cinq heures et demie.”"
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner translates “Je n'ai que dix euros” as “I don't have ten euros.” What does the sentence really mean?",
+      "options": {
+        "A": "“I only have ten euros.” — *ne … que* is restrictive, not a real negation.",
+        "B": "“I never have ten euros.”",
+        "C": "“I have no money at all.”",
+        "D": "“I have more than ten euros.”"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Ne … que* means “only”, even though it contains *ne*. Another example: “Il ne boit que de l'eau” (He only drinks water). The article is not replaced by *de* here, unlike after *ne … pas*."
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “I didn't see anyone” (passé composé)?",
+      "options": {
+        "A": "Je n'ai personne vu.",
+        "B": "Je ne personne ai vu.",
+        "C": "Je n'ai pas vu personne.",
+        "D": "Je n'ai vu personne."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "With compound tenses, *personne* goes after the past participle, whereas *rien* goes between the auxiliary and the participle (“Je n'ai rien vu”). Another example: “Elle n'a vu personne.” Adding *pas* next to *personne* is incorrect in standard French."
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the translation.\n```text\nShe said nothing.\nElle n'a ____ dit.\n```",
+      "options": {
+        "A": "personne",
+        "B": "rien",
+        "C": "plus",
+        "D": "aucun"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Ne … rien* means “nothing”, and in the passé composé *rien* sits between the auxiliary and the participle: “Elle n'a rien dit.” *Personne* would mean “nobody” and goes after the participle."
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Apply $\\text{subject} + \\text{ne} + \\text{avoir}_{conj} + \\text{pas} + \\text{de (d')} + \\text{noun}$ to say “She has no friends.” (des amis)",
+      "options": {
+        "A": "Elle n'a pas des amis.",
+        "B": "Elle n'a pas d'amis.",
+        "C": "Elle n'a pas de les amis.",
+        "D": "Elle ne pas a d'amis."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "After a negation the indefinite or partitive article (un, une, des, du) becomes *de* (*d'* before a vowel). Another example: “Je ne bois pas de café.” Exception: with *être*, the article stays (“Ce n'est pas un chat”)."
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which group of grammar tools is most directly useful for describing a typical day (waking up, showering, leaving at 7:30, rarely watching TV)?",
+      "options": {
+        "A": "Partitive articles (du, de la, des) and expressions of quantity such as *beaucoup de*.",
+        "B": "Reflexive verbs (se lever, se laver), clock times with *à* and *vers*, and frequency adverbs such as *toujours* and *rarement*.",
+        "C": "Ordinal numbers and imperative forms used to give directions.",
+        "D": "The pronouns *y* and *en* with prepositions of place."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A daily routine combines pronominal verbs (je me lève), times (à sept heures, vers midi) and frequency (je ne me couche jamais tard). Matching the grammar tool to the communicative goal is an efficient way to plan study."
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly asks “Are you Brazilian?” using the *est-ce que* structure?",
+      "options": {
+        "A": "Est-ce que tu es brésilien ?",
+        "B": "Est-ce que es-tu brésilien ?",
+        "C": "Es-tu est-ce que brésilien ?",
+        "D": "Est-ce tu es brésilien ?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Question formation: *Est-ce que* is placed in front of a normal statement (subject + verb), so no inversion is needed. Inversion is an alternative: “Es-tu brésilien ?” Another example: “Est-ce que vous parlez anglais ?”"
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You are introduced in France to your partner's grandmother, whom you have never met. She asks “Comment vous appelez-vous ?” Which reply is best?",
+      "options": {
+        "A": "“Je m'appelle Paulo, et toi ?” — using *tu* shows warmth right away.",
+        "B": "“Salut ! Moi, c'est Paulo.” — a casual opening puts her at ease.",
+        "C": "“Je m'appelle Paulo. Enchanté, Madame. Et vous ?” — formal address, with *vous* kept throughout.",
+        "D": "“Je suis appelé Paulo, Madame.” — it is more polite to use the passive."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Register matters: with an older person you meet for the first time, keep to *vous* and polite formulas (Enchanté, Madame). Switching to *tu* is normally proposed by the older or more senior person. In French, a slightly too formal approach is safer than a too familiar one."
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which word completes the sentence? “Ton frère ? ____ un excellent médecin.”",
+      "options": {
+        "A": "C'est",
+        "B": "Il est",
+        "C": "Elle est",
+        "D": "Ce sont"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Presenting or identifying someone with a determiner and a noun uses *c'est*: “C'est un excellent médecin.” *Il/elle est* is followed by a bare profession or an adjective (“Il est médecin”, “Il est gentil”). Another example: “Ma sœur ? C'est une avocate remarquable.”"
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "In casual conversation among friends, the pattern $\\text{subject} + \\text{ne} + \\text{verb}_{conj} + \\text{pas} + \\text{adj}$ is often shortened by dropping $\\text{ne}$. Which is the casual spoken version of “Je ne suis pas sûr” ?",
+      "options": {
+        "A": "Je pas suis sûr.",
+        "B": "Je suis pas sûr.",
+        "C": "Je ne suis sûr.",
+        "D": "Suis pas je sûr."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In informal speech, *ne* is often dropped and *pas* alone carries the negation, still placed right after the verb: “Je suis pas sûr”, “Je sais pas”. In careful writing (emails, exams) keep both parts: “Je ne suis pas sûr.”"
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the pair of words that keeps the register consistent in this exchange with a manager.\n```text\n— Bonjour, Monsieur Martin. Comment ____ ?\n— Très bien, merci. Et ____ ?\n```",
+      "options": {
+        "A": "vas-tu … toi",
+        "B": "allez-vous … toi",
+        "C": "vas-tu … vous",
+        "D": "allez-vous … vous"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "With a superior the formal pair is used: “Comment allez-vous ?” and “Et vous ?”. Mixing registers (*allez-vous* with *toi*) sounds careless. Among friends, the matching informal pair is “Comment vas-tu ?” and “Et toi ?”"
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You want to master feminine forms of French adjectives. Which study strategy is the most efficient?",
+      "options": {
+        "A": "Memorise one long alphabetical list of adjectives and never use them in sentences.",
+        "B": "Always add -e to the masculine form, which works for every adjective.",
+        "C": "Group adjectives by ending pattern (-eux/-euse, -if/-ive, -ent/-ente, invariable -e) and practise masculine/feminine pairs inside short sentences.",
+        "D": "Copy the Portuguese rule, since feminine formation is identical in both languages."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Feminine formation follows regular suffix patterns (courageux → courageuse, actif → active, patient → patiente), with some adjectives ending in *-e* that do not change (drôle, calme). Learning patterns in context beats memorising isolated words, and the shortcut “just add -e” fails for many adjectives."
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence means “He was a great (important) man”, as opposed to a tall one?",
+      "options": {
+        "A": "C'était un homme grand.",
+        "B": "C'était une grand homme.",
+        "C": "C'était un homme grande.",
+        "D": "C'était un grand homme."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Some adjectives change meaning with their position: *grand* before the noun means “great, important”, while after the noun it means “tall”. Another example: “un ancien professeur” (a former teacher) versus “un bâtiment ancien” (an old building). The gender mismatches in the other options are errors."
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{subject} + \\text{n'} + \\text{est} + \\text{pas du tout} + \\text{adj}_{agr}$ to say that a woman is not at all jealous. (jaloux)",
+      "options": {
+        "A": "Elle n'est pas du tout jaloux.",
+        "B": "Elle ne est pas du tout jalouse.",
+        "C": "Elle n'est pas tout du jalouse.",
+        "D": "Elle n'est pas du tout jalouse."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Pas du tout* intensifies the negation and stays after the verb; the adjective agrees with the subject (jaloux → jalouse) and *ne* elides before *est*. Another example: “Il n'est pas du tout timide.”"
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the word that mildly says your colleague talks a little (not a harsh criticism).\n```text\nMon collègue est ____ bavard, mais il est très gentil.\n```",
+      "options": {
+        "A": "trop",
+        "B": "très",
+        "C": "un peu",
+        "D": "beaucoup"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Un peu* softens the remark (“a bit talkative”), whereas *trop* means “too much” and is a real criticism. *Beaucoup* cannot directly modify an adjective (it needs a verb: “il parle beaucoup”), and *très* would intensify rather than soften."
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner uses *entendre* to say that he deliberately plays a podcast to focus on it: “J'entends un podcast chaque matin.” Which statement best captures the difference between *écouter* and *entendre*?",
+      "options": {
+        "A": "*Écouter* is to listen on purpose (“J'écoute un podcast”), while *entendre* is to hear or perceive sounds without necessarily trying.",
+        "B": "They are interchangeable synonyms and the choice is purely stylistic.",
+        "C": "*Écouter* means to hear accidentally, and *entendre* means to listen carefully.",
+        "D": "*Entendre* is reserved for speaking, and *écouter* for reading."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Active listening requires *écouter* (écouter de la musique); *entendre* describes perception (J'entends du bruit dans la rue). *Entendre* also means “to understand” in some set phrases, which makes it a trap for learners."
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly asks “Does he speak English?” using inversion?",
+      "options": {
+        "A": "Parle-il anglais ?",
+        "B": "Parles-il anglais ?",
+        "C": "Parle t'il anglais ?",
+        "D": "Parle-t-il anglais ?"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Inversion with a verb that ends in a vowel in the third person: a euphonic *-t-* is inserted between the verb and *il/elle/on*: “Parle-t-il”, “Aime-t-elle”. Another example: “Étudie-t-elle le japonais ?”"
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Transform the *est-ce que* question into a formal inversion following $\\text{verb}_{conj}\\text{-}\\text{pronoun} + \\text{object}$: “Est-ce que vous comprenez l'anglais ?”",
+      "options": {
+        "A": "Vous comprenez-vous l'anglais ?",
+        "B": "Est-ce comprenez-vous l'anglais ?",
+        "C": "Comprenez-vous l'anglais ?",
+        "D": "Comprend-vous l'anglais ?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In inversion the subject pronoun moves after the verb and is linked by a hyphen, while *est-ce que* disappears: “Comprenez-vous…”. The verb keeps the *vous* ending (“-ez”). Another example: “Parlez-vous allemand ?”"
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the form that completes this polite request.\n```text\nPardon, je ne comprends pas. Pouvez-vous ____, s'il vous plaît ?\n```",
+      "options": {
+        "A": "répétez",
+        "B": "répéter",
+        "C": "répétant",
+        "D": "répété"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "After a conjugated modal verb such as *pouvoir*, the next verb stays in the infinitive: “Pouvez-vous répéter ?” The same pattern appears in “Pouvez-vous parler plus lentement ?”"
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner compares two kitchens and writes “Cette cuisine est plus bonne que l'autre.” What is the correct form and why?",
+      "options": {
+        "A": "“Cette cuisine est meilleure que l'autre.” — the comparative of *bon* is irregular: *meilleur(e)*.",
+        "B": "“Cette cuisine est plus meilleure que l'autre.” — a double comparative is required.",
+        "C": "“Cette cuisine est mieux que l'autre.” — *mieux* is the comparative of every adjective.",
+        "D": "“Cette cuisine est plus bien que l'autre.” — *bien* replaces *bon* in comparisons."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Bon* has the irregular comparative *meilleur* (adjective, agrees with the noun), while *mieux* is the comparative of the adverb *bien* (“Il chante mieux”). Never combine *plus* with *meilleur*. Another example: “Ces croissants sont meilleurs.”"
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete the superlative: “C'est la pièce ____ grande de la maison.”",
+      "options": {
+        "A": "plus",
+        "B": "la plus",
+        "C": "le plus",
+        "D": "plus que"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Superlative of an adjective placed after the noun: definite article that agrees with the noun + *plus* + adjective: “la pièce la plus grande”. Since *pièce* is feminine, “la plus” is required. Another example: “C'est le quartier le plus animé de la ville.”"
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{A} + \\text{être} + \\text{aussi} + \\text{adj}_{agr} + \\text{que} + \\text{B}$ to say “My kitchen is as big as the living room.”",
+      "options": {
+        "A": "Ma cuisine est aussi grand que le salon.",
+        "B": "Ma cuisine est aussi grande comme le salon.",
+        "C": "Ma cuisine est plus grande que le salon.",
+        "D": "Ma cuisine est aussi grande que le salon."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A comparison of equality uses *aussi … que*, and the adjective agrees with the first noun (“cuisine” is feminine, hence “grande”). The comparison word is *que*, not *comme*. Another example: “Ce salon est moins grand que la chambre.”"
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the correct preposition to complete the sentence.\n```text\nNous habitons ____ troisième étage.\n```",
+      "options": {
+        "A": "à le",
+        "B": "en",
+        "C": "au",
+        "D": "sur le"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Floors are expressed with *à* + article, and *à* + *le* contracts to *au*: “au troisième étage”, “au premier”. The uncontracted “à le” is never written. Another example: “Il habite au rez-de-chaussée.”"
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which set of expressions for means of transport is correct in standard French?",
+      "options": {
+        "A": "à voiture, en pied, à train, en vélo",
+        "B": "de pied, de voiture, de train, de vélo",
+        "C": "sur pied, sur voiture, sur train, sur vélo",
+        "D": "à pied, en voiture, en train, à vélo"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Walking and cycling take *à* (à pied, à vélo), while enclosed vehicles take *en* (en voiture, en train, en avion, en bus). Calques of Portuguese “de ônibus” (“de bus”) are wrong. Another option is the verb *prendre*: “Je prends le métro.”"
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “L'hôpital est loin ____ centre.”",
+      "options": {
+        "A": "du",
+        "B": "de le",
+        "C": "de la",
+        "D": "des"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Contraction of *de* with the masculine singular article: de + le → *du*. Likewise de + les → *des*; *de la* and *de l'* do not contract. Another example: “La banque est à côté du café.”"
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{tous les} + \\text{day}_{plural}$ to say “every Sunday”.",
+      "options": {
+        "A": "tous le dimanche",
+        "B": "tous les dimanche",
+        "C": "chaque les dimanches",
+        "D": "tous les dimanches"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Tous les* + plural noun expresses regular repetition: “tous les dimanches”, “tous les jours”. Alternatively, *chaque* + singular noun (“chaque dimanche”) says the same. The two cannot be mixed."
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the answer.\n```text\n— Tu vas au parc ce soir ?\n— Non, je n'____ vais pas.\n```",
+      "options": {
+        "A": "en",
+        "B": "y",
+        "C": "la",
+        "D": "le"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Y* replaces “à + place” (au parc → *y*), and in the negation it sits between *ne* and the verb: “Je n'y vais pas.” *En* would replace “de + noun”, which is not present here."
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "On a street sign you read: “Il ne faut pas traverser ici.” What does it mean?",
+      "options": {
+        "A": "You do not need to cross here (it is optional).",
+        "B": "You must not cross here (it is prohibited or unsafe).",
+        "C": "You will not be able to cross here later.",
+        "D": "You should cross here, as it is the safest place."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Il faut* expresses necessity, but in the negative *il ne faut pas* expresses prohibition, not absence of need. To say “you don't have to”, French uses “Il n'est pas nécessaire de…” or “Vous n'êtes pas obligé de…”."
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "How do you politely tell a stranger “Follow me!”?",
+      "options": {
+        "A": "Suivez-moi !",
+        "B": "Moi suivez !",
+        "C": "Me suivez !",
+        "D": "Suivez-me !"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In the affirmative imperative, the object pronoun follows the verb with a hyphen, and *me* becomes the stressed form *moi*: “Suivez-moi !”. In the negative the pronoun returns before the verb: “Ne me suivez pas !” Another example: “Aidez-moi, s'il vous plaît.”"
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Ordinals follow $\\text{cardinal} + \\text{-ième}$ with spelling adjustments (a final *e* is dropped, and *cinq* adds *u*). Complete: “Prenez la ____ rue à droite.” (5th)",
+      "options": {
+        "A": "cinquième",
+        "B": "cinqième",
+        "C": "cinquiem",
+        "D": "cinqueme"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Ordinal formation: cardinal + *-ième* (deux → deuxième, trois → troisième), with the spelling changes quatre → quatrième and cinq → *cinquième*. Exceptions: *premier/première* and *second/seconde*. Another example: “Prenez la deuxième à gauche.”"
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the correct verb form.\n```text\nPardon, vous ____ m'indiquer la gare, s'il vous plaît ?\n```",
+      "options": {
+        "A": "peut",
+        "B": "pouvons",
+        "C": "pouvez",
+        "D": "peux"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Pouvoir* in the present: je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent. The subject *vous* requires “pouvez”, followed by an infinitive (“m'indiquer”). Another example: “Pouvez-vous répéter ?”"
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "At an airport check-in desk you want to ask for two bags to be checked. Which sentence is the most appropriate in tone?",
+      "options": {
+        "A": "“Je veux enregistrer deux valises.”",
+        "B": "“Bonjour, je voudrais enregistrer deux valises, s'il vous plaît.”",
+        "C": "“Tu enregistres mes deux valises.”",
+        "D": "“Enregistrer deux valises, maintenant.”"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Je voudrais* (conditional) softens a request and is standard at service desks; *je veux* sounds blunt. Combined with a greeting and *s'il vous plaît* it is the correct register. Another polite form: “Pourriez-vous m'aider ?”"
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Someone asks “Vous avez des valises ?” You have two. Which answer is correct?",
+      "options": {
+        "A": "Oui, j'en ai deux.",
+        "B": "Oui, je les ai deux.",
+        "C": "Oui, j'ai en deux.",
+        "D": "Oui, je en ai deux."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The pronoun *en* replaces “de/des + noun” in a quantified answer and must be kept next to the number: “J'en ai deux.” It goes before the verb, and *je* elides to *j'*. Another example: “Il y a des places ? — Oui, il y en a trois.”"
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "To say 16:45 informally, use $H{:}45 = (H+1)\\ \\text{heures moins le quart}$. Which expression results?",
+      "options": {
+        "A": "cinq heures moins le quart",
+        "B": "quatre heures moins le quart",
+        "C": "cinq heures et quart",
+        "D": "quatre heures et quart"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "At minute 45 French looks forward to the next hour and subtracts a quarter: 16:45 is “cinq heures moins le quart” (5 o'clock minus a quarter). “Quatre heures moins le quart” is 15:45, and “et quart” adds fifteen minutes. Another example: 9:45 = “dix heures moins le quart”."
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the correct form of the passé composé.\n```text\nLe vol ____ il y a deux heures.   (décoller)\n```",
+      "options": {
+        "A": "est décollé",
+        "B": "a décolle",
+        "C": "est décollée",
+        "D": "a décollé"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Décoller* is not part of the small group of motion verbs that take *être*; it uses *avoir* in the passé composé, even though it describes movement. Do not assume that every verb of movement takes *être* (list: aller, arriver, partir, venir, sortir…). Another example: “L'avion a atterri.”"
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian shopper wants to say that a cake contains no preservatives and writes “sans préservatifs” on a label. What should be written instead?",
+      "options": {
+        "A": "“sans conservateurs” — in French *préservatif* means condom, a classic false friend.",
+        "B": "“sans conservatifs” — the standard word is a close calque.",
+        "C": "“sans préservatifs” is correct for food.",
+        "D": "“sans pré-servants” is the standard word."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Food preservatives are *conservateurs*; *préservatif* means condom. It is a well-known false friend for Portuguese speakers (conservantes). Check similar-looking words in a dictionary before using them in contexts like food labels."
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "You point at a single feminine item in a display of tarts and say “Je voudrais ____-là.” Which pronoun fits?",
+      "options": {
+        "A": "celui",
+        "B": "ceux",
+        "C": "celle",
+        "D": "celles"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Demonstrative pronouns agree in gender and number with the noun they replace: celui (masc. sg.), celle (fem. sg.), ceux (masc. pl.), celles (fem. pl.). Since *tarte* is feminine singular: “celle-là” (that one). Another example: “Je prends celui-ci” for a masculine item."
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{subject} + \\text{verb}_{conj} + \\text{pronoun} + \\text{infinitive}$ to replace the object in “Je voudrais prendre la baguette.”",
+      "options": {
+        "A": "Je voudrais la prendre.",
+        "B": "Je la voudrais prendre.",
+        "C": "Je voudrais prendre la.",
+        "D": "Je voudrais prendre-la."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "With a modal verb plus an infinitive, the object pronoun goes right before the infinitive it belongs to (the verb it complements): “Je voudrais la prendre”. Another example: “Il peut les acheter.”"
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the request.\n```text\nCette baguette est trop longue. Coupez-____ en deux, s'il vous plaît.\n```",
+      "options": {
+        "A": "le",
+        "B": "la",
+        "C": "lui",
+        "D": "leur"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Baguette* is a feminine noun used as a direct object, so the pronoun is *la*; in the affirmative imperative it follows the verb with a hyphen. *Lui/leur* are indirect object pronouns for people. In the negative: “Ne la coupez pas.”"
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner wants to tell a host “I'll help you prepare dinner” and writes “Je vais vous assister à préparer le dîner.” What is the problem?",
+      "options": {
+        "A": "Nothing: *assister* means to help in all contexts.",
+        "B": "*Assister* is only used with objects, never with people.",
+        "C": "*Assister* (à) means to attend/be present; the verb for helping is *aider*: “Je vais vous aider à préparer le dîner.”",
+        "D": "The verb should be *servir*, which means to help."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "False friend: *assister à* = to attend or be present at (“assister à une réunion”), never to help; to help someone is *aider*. Another example: “Il m'a aidé à ranger la maison.”"
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "How do you correctly negate “Nous allons mettre la table” (near future)?",
+      "options": {
+        "A": "Nous ne allons pas mettre la table.",
+        "B": "Nous n'allons pas mettre la table.",
+        "C": "Nous n'allons mettre pas la table.",
+        "D": "Nous allons pas ne mettre la table."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In the near future (*aller* + infinitive), the negation wraps the conjugated auxiliary *aller*, not the infinitive: ne … pas around “allons”, with *ne* elided before the vowel. Another example: “Ils ne vont pas arriver avant huit heures.”"
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use the near-future pattern $\\text{subject} + \\text{aller}_{conj} + \\text{infinitive}$ to say “They are going to arrive at eight.”",
+      "options": {
+        "A": "Ils vont arrivent à huit heures.",
+        "B": "Ils vont arriver à huit heures.",
+        "C": "Ils allez arriver à huit heures.",
+        "D": "Ils vont arrivé à huit heures."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Futur proche: the conjugated form of *aller* (ils vont) followed by the verb in the infinitive (arriver); only *aller* changes with the subject. Another example: “Je vais préparer le dîner.”"
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence with the right pronoun.\n```text\nLe fromage ? Ne ____ oublie pas !\n```",
+      "options": {
+        "A": "le",
+        "B": "lui",
+        "C": "me",
+        "D": "l'"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Negative imperative with a direct object pronoun: the pronoun goes before the verb, and *le* elides to *l'* before a vowel sound: “Ne l'oublie pas.” Writing “Ne le oublie” is never correct. Another example: “Ne la mange pas !”"
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian learner hears a French person say “Continuez tout droit” and turns right. Why is this a typical mistake?",
+      "options": {
+        "A": "*Tout droit* means “turn right” because it resembles the Portuguese word.",
+        "B": "*Tout droit* means “go back” in directions.",
+        "C": "*Droit* here means straight, not the Portuguese *direito* (right); to turn right, French says “à droite”.",
+        "D": "*Tout droit* means “turn around the corner”."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "False friend: *tout droit* = straight ahead, while *à droite* = to the right. The adjective *droit(e)* also means “straight” in other contexts (une ligne droite). Another example: “Tournez à gauche, puis allez tout droit.”"
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which pronoun replaces “du centre” in the sentence “Il revient du centre” ?",
+      "options": {
+        "A": "y",
+        "B": "le",
+        "C": "en",
+        "D": "lui"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*En* replaces a phrase introduced by *de* (including “de + place”): “Il en revient.” *Y* replaces “à + place”: “Il y va.” Another example: “Je viens de la gare” becomes “J'en viens.”"
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "With the imperative of *aller* plus *y*, the pattern is $\\text{va} + \\text{-s} + \\text{-y}$ (a *s* is added for liaison). Tell a friend “Go there!”",
+      "options": {
+        "A": "Va-y !",
+        "B": "Y va !",
+        "C": "Vas-y !",
+        "D": "Va-le !"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In the *tu* imperative, *aller* is irregular (va) but takes a euphonic *-s* before *y* or *en*: “Vas-y !”. The *vous* form is “Allez-y !” and the *nous* form “Allons-y !”"
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the connector that fits the sequence.\n```text\nD'abord, prenez la ligne 1. ____, changez à Châtelet. Enfin, descendez à Bastille.\n```",
+      "options": {
+        "A": "Avant",
+        "B": "Pendant",
+        "C": "Pourtant",
+        "D": "Ensuite"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Sequencing instructions: *d'abord* (first) → *ensuite* or *puis* (then) → *enfin* (finally). *Avant* means “before”, *pendant* “during” and *pourtant* “however”, so they break the sequence."
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "How does the meaning change between “Je réveille mon fils à sept heures” and “Je me réveille à sept heures” ?",
+      "options": {
+        "A": "Both sentences mean “I wake up at seven”.",
+        "B": "The first sentence means my son wakes up, and the second means I wake him up.",
+        "C": "In the first sentence I wake up my son (someone else); in the second I wake up myself (I wake up).",
+        "D": "The first sentence is the standard one; the second is only used in writing."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Reflexive pronouns show that the action falls on the subject: *se réveiller* (to wake up), *se lever* (to get up) versus *réveiller quelqu'un*, *lever quelqu'un*. Another example: “Elle se couche tôt” versus “Elle couche son enfant.”"
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “Je me détends en ____ du sport.” (faire)",
+      "options": {
+        "A": "faissant",
+        "B": "faisant",
+        "C": "fesant",
+        "D": "faitant"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The gerund (*en* + present participle) is built from the *nous* stem of the present (nous faisons → fais-) plus *-ant*, which gives “faisant”, even though the stem is spelled with *ai*. Another example: “Il écoute de la musique en cuisinant.”"
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{en} + \\text{stem}_{nous} + \\text{-ant}$ to complete: “Elle lit le journal en ____ son café.” (prendre)",
+      "options": {
+        "A": "prennant",
+        "B": "prendant",
+        "C": "prenent",
+        "D": "prenant"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The *nous* form of *prendre* is “nous prenons”, so the stem is *pren-* and the gerund is “en prenant”. The doubled *n* appears only in the *ils* form (prennent). Another example: “Je me détends en lisant.”"
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the word that matches the meaning “I never get up before seven.”\n```text\nJe ne me lève ____ avant sept heures.\n```",
+      "options": {
+        "A": "jamais",
+        "B": "pas",
+        "C": "rien",
+        "D": "personne"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Ne … jamais* means “never”: “Je ne me lève jamais avant sept heures.” With *ne … pas* the sentence would only deny a single occasion (“I'm not getting up before seven”). *Rien* and *personne* refer to things and people."
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You are writing a formal complaint email to a hotel. Which sentence is the most appropriate in this register?",
+      "options": {
+        "A": "“Je suis pas satisfait du service.”",
+        "B": "“Je ne suis pas satisfait du service.”",
+        "C": "“J'suis pas content du service.”",
+        "D": "“Pas satisfait du tout, le service !”"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In formal writing both parts of the negation are kept (*ne … pas*). Dropping *ne* is typical of casual speech, texting or familiar writing. Another example: formal “Je ne comprends pas” versus spoken “Je comprends pas.”"
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Someone asks “Tu ne viens pas à la fête ?” and you actually are coming. Which reply uses the word reserved for contradicting a negative question?",
+      "options": {
+        "A": "Si, je viens.",
+        "B": "Oui, je viens.",
+        "C": "Non, je viens.",
+        "D": "Pas, je viens."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Replies to a negative question: *si* contradicts the negation (“Si, je viens”), while *non* confirms it (“Non, je ne viens pas”). Another example: “Tu n'aimes pas ça ? — Si, j'aime ça.”"
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{subject} + \\text{ne} + \\text{verb} + \\text{ni} + A + \\text{ni} + B$ to say “I eat neither meat nor fish.”",
+      "options": {
+        "A": "Je ne mange pas ni viande ni poisson.",
+        "B": "Je ne mange ni viande ni poisson.",
+        "C": "Je ne mange ni viande ou poisson.",
+        "D": "Je mange ne ni viande ni poisson."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Ne … ni … ni …* means “neither … nor …”; it already contains the negation, so *pas* is not added, and the nouns are used without articles. Another example: “Elle ne parle ni anglais ni espagnol.”"
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the structure that means “He only drinks water.”\n```text\nIl ____ de l'eau.\n```",
+      "options": {
+        "A": "ne boit pas",
+        "B": "ne boit que",
+        "C": "ne boit plus",
+        "D": "ne boit jamais"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Ne … que* is restrictive (“only”), not negative: “Il ne boit que de l'eau.” *Ne … pas / plus / jamais* would change the meaning to not / no longer / never, and would also require *d'eau* instead of *de l'eau*."
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You want to retain the most frequent irregular verbs (être, avoir, aller, faire, prendre, pouvoir, vouloir). Which strategy is most effective?",
+      "options": {
+        "A": "Memorise only the *je* form of each verb and deduce the rest by adding -er endings.",
+        "B": "Skip them: irregular verbs can be left to context and are rarely needed.",
+        "C": "Learn them once in a table and never revisit them.",
+        "D": "Practise them in short personal sentences using every person, and spend extra time on the *nous* and *vous* forms, where irregularities are least intuitive."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Irregular verbs are the backbone of everyday French and do not follow the regular *-er* pattern (nous faisons, vous faites, ils vont). Active recall in personal sentences, with spaced review, fixes forms better than reading a table once."
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form completes the sentence? “On ____ au cinéma ce soir.” (aller)",
+      "options": {
+        "A": "va",
+        "B": "vont",
+        "C": "allons",
+        "D": "allez"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The pronoun *on* (one, we, people) takes the third-person singular verb form even when it means “we” in everyday speech: “On va au cinéma.” Another example: “On mange à huit heures.”"
+    }
+  ],
+  "registered": {
+    "question_ids": [
+      751,
+      752,
+      753,
+      754,
+      755,
+      756,
+      757,
+      758,
+      759,
+      760,
+      761,
+      762,
+      763,
+      764,
+      765,
+      766,
+      767,
+      768,
+      769,
+      770,
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808,
+      809,
+      810,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      818,
+      819,
+      820,
+      821,
+      822,
+      823,
+      824,
+      825,
+      826,
+      827,
+      828,
+      829,
+      830,
+      831,
+      832,
+      833,
+      834,
+      835,
+      836,
+      837,
+      838,
+      839,
+      840,
+      841,
+      842,
+      843,
+      844,
+      845,
+      846,
+      847,
+      848,
+      849,
+      850,
+      851,
+      852,
+      853,
+      854,
+      855,
+      856,
+      857,
+      858,
+      859,
+      860,
+      861,
+      862,
+      863,
+      864,
+      865,
+      866,
+      867,
+      868,
+      869,
+      870,
+      871,
+      872,
+      873,
+      874,
+      875,
+      876,
+      877,
+      878,
+      879,
+      880,
+      881,
+      882,
+      883,
+      884,
+      885,
+      886,
+      887,
+      888,
+      889,
+      890,
+      891,
+      892,
+      893,
+      894,
+      895,
+      896,
+      897,
+      898,
+      899,
+      900,
+      901,
+      902,
+      903,
+      904,
+      905,
+      906,
+      907,
+      908,
+      909,
+      910,
+      911,
+      912,
+      913,
+      914,
+      915,
+      916,
+      917,
+      918,
+      919,
+      920,
+      921,
+      922,
+      923,
+      924,
+      925,
+      926,
+      927,
+      928,
+      929,
+      930,
+      931,
+      932,
+      933,
+      934,
+      935,
+      936,
+      937,
+      938,
+      939,
+      940,
+      941,
+      942,
+      943,
+      944,
+      945,
+      946,
+      947,
+      948,
+      949,
+      950
+    ],
+    "skipped": 0
+  }
+}

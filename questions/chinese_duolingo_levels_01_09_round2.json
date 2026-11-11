@@ -1,0 +1,3216 @@
+{
+  "approved_by": "user (bulk generation request, delegated approval)",
+  "approved_on": "2026-11-11",
+  "topic": {
+    "subsubcategory_id": 41,
+    "name": "Chinese"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"I want milk\".\n\n```text\n我要____。 (wǒ yào ____.)\nEnglish: I want milk.\n```",
+      "options": {
+        "A": "牛奶 (niúnǎi)",
+        "B": "苹果 (píngguǒ)",
+        "C": "鱼 (yú)",
+        "D": "面包 (miànbāo)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "牛奶 (niúnǎi) means milk. 苹果 (píngguǒ) is apple, 鱼 (yú) is fish and 面包 (miànbāo) is bread. Another sentence with the same frame: 我要面包 (wǒ yào miànbāo) = I want bread."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"Hot water\".\n\n```text\n____水。 (____ shuǐ.)\nEnglish: Hot water.\n```",
+      "options": {
+        "A": "冷 (lěng)",
+        "B": "很 (hěn)",
+        "C": "吗 (ma)",
+        "D": "热 (rè)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "热 (rè) means hot and goes before the noun, so 热水 (rè shuǐ) = hot water. 冷 (lěng) would give 冷水 (lěng shuǐ), cold water. 很 (hěn) and 吗 (ma) are not adjectives that can modify a noun here."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the pattern $\\text{X} + \\text{hé} + \\text{Y}$ (X and Y are nouns) to say \"bread and egg\". Which phrase is built correctly? (bread = 面包 miànbāo, egg = 鸡蛋 jīdàn)",
+      "options": {
+        "A": "面包是鸡蛋 (miànbāo shì jīdàn)",
+        "B": "和面包鸡蛋 (hé miànbāo jīdàn)",
+        "C": "面包和鸡蛋 (miànbāo hé jīdàn)",
+        "D": "面包鸡蛋和 (miànbāo jīdàn hé)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The connector 和 (hé) goes between the two nouns: noun + 和 + noun. 是 (shì) would mean \"is\" (bread is egg), and 和 cannot sit at the start or the end. Another phrase: 茶和水 (chá hé shuǐ) = tea and water."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "When two third tones meet, the rule is $T_3 + T_3 \\rightarrow T_2 + T_3$. How is 水果 (shuǐguǒ), \"fruit\", actually pronounced?",
+      "options": {
+        "A": "shuǐguó",
+        "B": "shuǐguǒ",
+        "C": "shuìguǒ",
+        "D": "shuíguǒ"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The first of two consecutive third-tone syllables is spoken with a second tone, while the pinyin spelling stays shuǐguǒ. The same happens in 你好 (nǐ hǎo), spoken as ní hǎo, and 米酒 (mǐjiǔ), spoken as míjiǔ."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"This is not tea\" using the negation 不 (bù)?",
+      "options": {
+        "A": "这是不茶。 (zhè shì bù chá.)",
+        "B": "不这是茶。 (bù zhè shì chá.)",
+        "C": "这不是茶。 (zhè bú shì chá.)",
+        "D": "这是茶不。 (zhè shì chá bù.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: negation with 不 (bù) + 是 (shì). 不 goes immediately before the verb, and before a fourth-tone syllable such as 是 it is read bú. Another example: 那不是汤。 (nà bú shì tāng.) = That is not soup."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which is the correct way to ask \"What is this?\" in Chinese?",
+      "options": {
+        "A": "这是什么？ (zhè shì shénme?)",
+        "B": "这是什么吗？ (zhè shì shénme ma?)",
+        "C": "什么是这？ (shénme shì zhè?)",
+        "D": "这什么是？ (zhè shénme shì?)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: question words take the place of the answer. 什么 (shénme) sits where the answer would be (这是豆腐 / 这是什么), and a sentence that already has a question word does not take 吗 (ma). Another example: 那是什么茶？ (nà shì shénme chá?) = What tea is that?"
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly asks \"Is this tea or coffee?\" (a choice between two options)?",
+      "options": {
+        "A": "这是茶还是咖啡吗？ (zhè shì chá háishi kāfēi ma?)",
+        "B": "这是茶和咖啡？ (zhè shì chá hé kāfēi?)",
+        "C": "这是茶是咖啡？ (zhè shì chá shì kāfēi?)",
+        "D": "这是茶还是咖啡？ (zhè shì chá háishi kāfēi?)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: alternative questions with 还是 (háishi) = \"or\". The two options are linked by 还是 and no 吗 is added, because the question is already formed. 和 (hé) means \"and\" and cannot offer a choice. Another example: 那是汤还是粥？ (nà shì tāng háishi zhōu?) = Is that soup or porridge?"
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 好喝 (hǎohē) mean?",
+      "options": {
+        "A": "Tasty (to drink)",
+        "B": "Tasty (to eat)",
+        "C": "Hot to drink",
+        "D": "Cheap"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "好喝 (hǎohē) is used for drinks and soups: 茶很好喝 (chá hěn hǎohē) = The tea is tasty. For solid food the word is 好吃 (hǎochī), as in 豆腐很好吃 (dòufu hěn hǎochī)."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 啤酒 (píjiǔ) mean?",
+      "options": {
+        "A": "Beer",
+        "B": "Fruit juice",
+        "C": "Rice wine",
+        "D": "Milk"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "啤酒 (píjiǔ) is beer. Fruit juice is 果汁 (guǒzhī), milk is 牛奶 (niúnǎi), and rice wine is 米酒 (mǐjiǔ)."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"I am a student\".\n\n```text\n我____学生。 (wǒ ____ xuésheng.)\nEnglish: I am a student.\n```",
+      "options": {
+        "A": "说 (shuō)",
+        "B": "是 (shì)",
+        "C": "不 (bù)",
+        "D": "吗 (ma)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "是 (shì) links the subject to a profession: 我是学生 (wǒ shì xuésheng). 说 (shuō) means to speak, 不 (bù) is \"not\" and 吗 (ma) only forms questions. Another sentence: 她是律师 (tā shì lǜshī) = She is a lawyer."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"They all speak Chinese\".\n\n```text\n他们____说中文。 (tāmen ____ shuō Zhōngwén.)\nEnglish: They all speak Chinese.\n```",
+      "options": {
+        "A": "吗 (ma)",
+        "B": "的 (de)",
+        "C": "都 (dōu)",
+        "D": "和 (hé)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "都 (dōu) means \"all\" and goes after the subject and before the verb: 他们都说中文 (tāmen dōu shuō Zhōngwén). 吗, 的 and 和 do not fit between subject and verb in this meaning. Another sentence: 我们都是老师 (wǒmen dōu shì lǎoshī) = We are all teachers."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the sentence formula $\\text{subject} + \\text{shuō} + \\text{language}$ to say \"She speaks English\". Which sentence matches? (she = 她 tā, English = 英文 Yīngwén)",
+      "options": {
+        "A": "说她英文。 (shuō tā Yīngwén.)",
+        "B": "她英文说。 (tā Yīngwén shuō.)",
+        "C": "她说英文。 (tā shuō Yīngwén.)",
+        "D": "她说是英文。 (tā shuō shì Yīngwén.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The verb 说 (shuō) sits between the subject and the language, with no preposition and no extra 是 (shì). Another sentence: 我说中文。 (wǒ shuō Zhōngwén.) = I speak Chinese."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject} + \\text{yě} + \\text{shì} + \\text{noun}$ to say \"I am also a teacher\" (teacher = 老师 lǎoshī). Which sentence fits?",
+      "options": {
+        "A": "我是也老师。 (wǒ shì yě lǎoshī.)",
+        "B": "也我是老师。 (yě wǒ shì lǎoshī.)",
+        "C": "我也是老师。 (wǒ yě shì lǎoshī.)",
+        "D": "我是老师也。 (wǒ shì lǎoshī yě.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "也 (yě) = \"also\" goes after the subject and directly before the verb. Another sentence: 他也是学生。 (tā yě shì xuésheng.) = He is also a student."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence means \"I can speak Chinese\" (an ability that was learned)?",
+      "options": {
+        "A": "我会说中文。 (wǒ huì shuō Zhōngwén.)",
+        "B": "我说会中文。 (wǒ shuō huì Zhōngwén.)",
+        "C": "会我说中文。 (huì wǒ shuō Zhōngwén.)",
+        "D": "我说中文会。 (wǒ shuō Zhōngwén huì.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the modal verb 会 (huì) for learned ability. Order: subject + 会 + verb + object. Another example: 她会说英文。 (tā huì shuō Yīngwén.) = She can speak English."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"We are all teachers\"?",
+      "options": {
+        "A": "我们都是老师。 (wǒmen dōu shì lǎoshī.)",
+        "B": "我们是都老师。 (wǒmen shì dōu lǎoshī.)",
+        "C": "都我们是老师。 (dōu wǒmen shì lǎoshī.)",
+        "D": "我们是老师都。 (wǒmen shì lǎoshī dōu.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the adverb 都 (dōu), \"all\", always comes before the verb, after the subject. Another example: 他们都说中文。 (tāmen dōu shuō Zhōngwén.) = They all speak Chinese."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"She does not speak Chinese\"?",
+      "options": {
+        "A": "她说不中文。 (tā shuō bù Zhōngwén.)",
+        "B": "不她说中文。 (bù tā shuō Zhōngwén.)",
+        "C": "她不说中文。 (tā bù shuō Zhōngwén.)",
+        "D": "她说中文不。 (tā shuō Zhōngwén bù.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: negation with 不 (bù) directly before the verb, here 说 (shuō). Because 说 is first tone, 不 keeps its fourth tone: bù. Another example: 我不说日文。 (wǒ bù shuō Rìwén.) = I do not speak Japanese."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "How is 不对 (\"not correct\") pronounced in natural speech?",
+      "options": {
+        "A": "bù duì",
+        "B": "bǔ duì",
+        "C": "bū duì",
+        "D": "bú duì"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Before a fourth-tone syllable, 不 changes from bù to bú. Since 对 (duì) is fourth tone, 不对 is read bú duì. Likewise 不是 is bú shì and 不客气 is bú kèqi."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 律师 (lǜshī) mean?",
+      "options": {
+        "A": "Lawyer",
+        "B": "Nurse",
+        "C": "Police officer",
+        "D": "Engineer"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "律师 (lǜshī) is a lawyer. A nurse is 护士 (hùshi), a police officer is 警察 (jǐngchá) and an engineer is 工程师 (gōngchéngshī)."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to ask \"Is he your son?\".\n\n```text\n他是你____儿子吗？ (tā shì nǐ ____ érzi ma?)\nEnglish: Is he your son?\n```",
+      "options": {
+        "A": "也 (yě)",
+        "B": "的 (de)",
+        "C": "没有 (méiyǒu)",
+        "D": "和 (hé)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "的 (de) marks possession: 你的儿子 (nǐ de érzi) = your son. 也 means \"also\", 没有 means \"not have\" and 和 means \"and\"; none of them forms \"your\". Another phrase: 我的妈妈 (wǒ de māma) = my mother."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to ask \"Do you have an older brother?\".\n\n```text\n你____哥哥吗？ (nǐ ____ gēge ma?)\nEnglish: Do you have an older brother?\n```",
+      "options": {
+        "A": "的 (de)",
+        "B": "谁 (shéi)",
+        "C": "都 (dōu)",
+        "D": "有 (yǒu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "有 (yǒu) means \"to have\": 你有哥哥吗？ (nǐ yǒu gēge ma?). 的 (de) is a possession marker, 谁 (shéi) is \"who\" and 都 (dōu) is \"all\". Another sentence: 我有妹妹。 (wǒ yǒu mèimei.) = I have a younger sister."
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the possession formula $\\text{possessor} + \\text{de} + \\text{possessed}$ to say \"the teacher's book\" (teacher = 老师 lǎoshī, book = 书 shū).",
+      "options": {
+        "A": "书的老师 (shū de lǎoshī)",
+        "B": "老师书的 (lǎoshī shū de)",
+        "C": "的老师书 (de lǎoshī shū)",
+        "D": "老师的书 (lǎoshī de shū)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The possessor comes first, then 的 (de), then the thing possessed. 书的老师 (shū de lǎoshī) would reverse the roles (\"the book's teacher\"). Another phrase: 朋友的爸爸 (péngyou de bàba) = the friend's father."
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject}_1\\ \\text{subject}_2 + \\text{dōu} + \\text{shì} + \\text{noun}$ to say \"My dad and mom are both teachers\" (dad and mom = 爸爸妈妈 bàba māma). Which sentence fits?",
+      "options": {
+        "A": "我爸爸妈妈是都老师。 (wǒ bàba māma shì dōu lǎoshī.)",
+        "B": "都我爸爸妈妈是老师。 (dōu wǒ bàba māma shì lǎoshī.)",
+        "C": "我爸爸妈妈都是老师。 (wǒ bàba māma dōu shì lǎoshī.)",
+        "D": "我爸爸妈妈是老师都。 (wǒ bàba māma shì lǎoshī dōu.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "都 (dōu) is placed right before the verb 是 (shì), after the whole subject. Another sentence: 他们都是我的朋友。 (tāmen dōu shì wǒ de péngyou.) = They are all my friends."
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly asks \"Whose book is this?\"?",
+      "options": {
+        "A": "这是的谁书？ (zhè shì de shéi shū?)",
+        "B": "这是谁的书？ (zhè shì shéi de shū?)",
+        "C": "这谁是书的？ (zhè shéi shì shū de?)",
+        "D": "谁的这是书？ (shéi de zhè shì shū?)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: 谁的 (shéi de), \"whose\", works like any possessor + 的 and stays in the slot of the answer: 这是我的书 → 这是谁的书. No 吗 is added. Another example: 那是谁的手机？ (nà shì shéi de shǒujī?) = Whose phone is that?"
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I do not have a younger brother\"?",
+      "options": {
+        "A": "我不有弟弟。 (wǒ bù yǒu dìdi.)",
+        "B": "没有我弟弟。 (méiyǒu wǒ dìdi.)",
+        "C": "我有没弟弟。 (wǒ yǒu méi dìdi.)",
+        "D": "我没有弟弟。 (wǒ méiyǒu dìdi.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: the verb 有 (yǒu) is negated with 没 (méi), giving 没有 (méiyǒu), never with 不. Another example: 我没有女儿。 (wǒ méiyǒu nǚ'ér.) = I do not have a daughter."
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I have a younger sister\" with a measure word?",
+      "options": {
+        "A": "我有一妹妹。 (wǒ yǒu yī mèimei.)",
+        "B": "我有个一妹妹。 (wǒ yǒu ge yī mèimei.)",
+        "C": "我一个有妹妹。 (wǒ yí ge yǒu mèimei.)",
+        "D": "我有一个妹妹。 (wǒ yǒu yí ge mèimei.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: measure words (classifiers). Chinese puts number + measure word + noun, and 个 (ge) is the most common measure word. Note that 一 becomes yí before a fourth tone. Another example: 我有两个姐姐。 (wǒ yǒu liǎng ge jiějie.) = I have two older sisters."
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 爷爷 (yéye) mean?",
+      "options": {
+        "A": "Older brother",
+        "B": "Father",
+        "C": "Paternal grandfather",
+        "D": "Husband"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "爷爷 (yéye) is the father's father. The paternal grandmother is 奶奶 (nǎinai). An older brother is 哥哥 (gēge), father is 爸爸 (bàba) and husband is 老公 (lǎogōng)."
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word means \"younger brother\"?",
+      "options": {
+        "A": "哥哥 (gēge)",
+        "B": "弟弟 (dìdi)",
+        "C": "妹妹 (mèimei)",
+        "D": "姐姐 (jiějie)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "弟弟 (dìdi) is a younger brother, 哥哥 (gēge) an older brother, 妹妹 (mèimei) a younger sister and 姐姐 (jiějie) an older sister. Chinese distinguishes older from younger siblings."
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"I want four glasses of water\".\n\n```text\n我要____杯水。 (wǒ yào ____ bēi shuǐ.)\nEnglish: I want four glasses of water.\n```",
+      "options": {
+        "A": "十 (shí)",
+        "B": "四 (sì)",
+        "C": "七 (qī)",
+        "D": "两 (liǎng)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "四 (sì) is four. 十 (shí) is ten, 七 (qī) is seven and 两 (liǎng) is two before a measure word. Full sentence: 我要四杯水 (wǒ yào sì bēi shuǐ)."
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"Less sugar, thank you\".\n\n```text\n____糖，谢谢。 (____ táng, xièxie.)\nEnglish: Less sugar, thank you.\n```",
+      "options": {
+        "A": "少 (shǎo)",
+        "B": "多 (duō)",
+        "C": "热 (rè)",
+        "D": "几 (jǐ)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "少 (shǎo) means little or less, so 少糖 (shǎo táng) = less sugar. 多 (duō) means more, as in 多冰 (duō bīng) = more ice. 热 (rè) is hot and 几 (jǐ) is \"how many\"."
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{number} + \\text{bēi} + \\text{drink}$ to say \"five glasses of juice\" (five = 五 wǔ, juice = 果汁 guǒzhī).",
+      "options": {
+        "A": "杯五果汁 (bēi wǔ guǒzhī)",
+        "B": "五杯果汁 (wǔ bēi guǒzhī)",
+        "C": "五果汁杯 (wǔ guǒzhī bēi)",
+        "D": "果汁五杯 (guǒzhī wǔ bēi)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The order is number, then measure word 杯 (bēi), then the thing counted. Another phrase: 七杯茶 (qī bēi chá) = seven cups of tea."
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Solve $3 + 4 = ?$ and give the answer as a Chinese number (pinyin).",
+      "options": {
+        "A": "qī (七)",
+        "B": "liù (六)",
+        "C": "bā (八)",
+        "D": "jiǔ (九)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "3 + 4 = 7, and seven is 七 (qī). Six is 六 (liù), eight is 八 (bā) and nine is 九 (jiǔ). The numbers 1 to 10 are 一 yī, 二 èr, 三 sān, 四 sì, 五 wǔ, 六 liù, 七 qī, 八 bā, 九 jiǔ, 十 shí."
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says \"two glasses of milk\"?",
+      "options": {
+        "A": "二杯牛奶 (èr bēi niúnǎi)",
+        "B": "杯两牛奶 (bēi liǎng niúnǎi)",
+        "C": "两牛奶杯 (liǎng niúnǎi bēi)",
+        "D": "两杯牛奶 (liǎng bēi niúnǎi)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: measure words and the number two. Before a measure word, \"two\" is 两 (liǎng), not 二 (èr). Another example: 两个同学 (liǎng ge tóngxué) = two classmates."
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"She also does not want ice\"?",
+      "options": {
+        "A": "她也不要冰。 (tā yě bú yào bīng.)",
+        "B": "她不也要冰。 (tā bù yě yào bīng.)",
+        "C": "也她不要冰。 (yě tā bú yào bīng.)",
+        "D": "她不要也冰。 (tā bú yào yě bīng.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: adverb order, 也 (yě) before the negation 不. The sequence is subject + 也 + 不 + verb. Another example: 我也不喝咖啡。 (wǒ yě bù hē kāfēi.) = I also do not drink coffee."
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which question correctly asks \"How many glasses do you want?\"?",
+      "options": {
+        "A": "你几杯要？ (nǐ jǐ bēi yào?)",
+        "B": "你要杯几？ (nǐ yào bēi jǐ?)",
+        "C": "你要几杯？ (nǐ yào jǐ bēi?)",
+        "D": "你要几杯吗？ (nǐ yào jǐ bēi ma?)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: the question word 几 (jǐ), \"how many\" (small numbers), takes the place of the number before the measure word, and no 吗 is added. Another example: 你有几个哥哥？ (nǐ yǒu jǐ ge gēge?) = How many older brothers do you have?"
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 可乐 (kělè) mean?",
+      "options": {
+        "A": "Fruit juice",
+        "B": "Beer",
+        "C": "Milk",
+        "D": "Cola / soft drink"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "可乐 (kělè) is cola. Juice is 果汁 (guǒzhī), beer is 啤酒 (píjiǔ) and milk is 牛奶 (niúnǎi). Ordering: 请给我一杯可乐 (qǐng gěi wǒ yì bēi kělè) = A cola, please."
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which measure word is used to count cups or glasses of drinks?",
+      "options": {
+        "A": "节 (jié)",
+        "B": "杯 (bēi)",
+        "C": "吗 (ma)",
+        "D": "的 (de)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "杯 (bēi) counts glasses and cups: 一杯茶 (yì bēi chá). 节 (jié) counts classes, 吗 (ma) is a question particle and 的 (de) is a possession marker."
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to say \"His name is Zhang Wei\".\n\n```text\n他____张伟。 (tā ____ Zhāng Wěi.)\nEnglish: His name is Zhang Wei.\n```",
+      "options": {
+        "A": "有 (yǒu)",
+        "B": "说 (shuō)",
+        "C": "叫 (jiào)",
+        "D": "喜欢 (xǐhuān)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "叫 (jiào) means \"to be called\" and introduces a name: 他叫张伟 (tā jiào Zhāng Wěi). Another sentence: 我叫李天美 (wǒ jiào Lǐ Tiānměi) = My name is Li Tianmei."
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank to ask \"How many classes do you have today?\".\n\n```text\n你们今天有____节课？ (nǐmen jīntiān yǒu ____ jié kè?)\nEnglish: How many classes do you have today?\n```",
+      "options": {
+        "A": "什么 (shénme)",
+        "B": "几 (jǐ)",
+        "C": "吗 (ma)",
+        "D": "谁 (shéi)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "几 (jǐ) means \"how many\" and is placed before the measure word 节 (jié). 什么 (shénme) is \"what\", 吗 (ma) is a yes/no particle and 谁 (shéi) is \"who\"."
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject} + \\text{yǒu} + \\text{yí} + \\text{ge} + \\text{noun}$ to say \"We have a new classmate\" (we = 我们 wǒmen, new classmate = 新同学 xīn tóngxué).",
+      "options": {
+        "A": "我们有一个新同学。 (wǒmen yǒu yí ge xīn tóngxué.)",
+        "B": "我们一个有新同学。 (wǒmen yí ge yǒu xīn tóngxué.)",
+        "C": "有我们一个新同学。 (yǒu wǒmen yí ge xīn tóngxué.)",
+        "D": "我们新同学有一个。 (wǒmen xīn tóngxué yǒu yí ge.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The verb 有 (yǒu) comes right after the subject, followed by number + measure word 个 (ge) + noun. Another sentence: 我有一个朋友。 (wǒ yǒu yí ge péngyou.) = I have a friend."
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Solve $2 + 2 = ?$ for the number of classes, and say it with the class measure word. Which phrase is the total?",
+      "options": {
+        "A": "三节课 (sān jié kè)",
+        "B": "四节课 (sì jié kè)",
+        "C": "五节课 (wǔ jié kè)",
+        "D": "六节课 (liù jié kè)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "2 + 2 = 4, and four classes is 四节课 (sì jié kè): number + 节 (jié) + 课 (kè). Five classes would be 五节课 (wǔ jié kè)."
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says \"three classmates\"?",
+      "options": {
+        "A": "三个同学们 (sān ge tóngxuémen)",
+        "B": "三个同学 (sān ge tóngxué)",
+        "C": "三同学们 (sān tóngxuémen)",
+        "D": "三们同学 (sān men tóngxué)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the plural marker 们 (men). It marks plural people (同学们, 我们, 你们) but is not used together with a number. Another example: 五个学生 (wǔ ge xuésheng) = five students, not 五个学生们."
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"They also all like history\"?",
+      "options": {
+        "A": "他们都也喜欢历史。 (tāmen dōu yě xǐhuān lìshǐ.)",
+        "B": "他们喜欢也都历史。 (tāmen xǐhuān yě dōu lìshǐ.)",
+        "C": "也他们都喜欢历史。 (yě tāmen dōu xǐhuān lìshǐ.)",
+        "D": "他们也都喜欢历史。 (tāmen yě dōu xǐhuān lìshǐ.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: order of adverbs, 也 (yě) before 都 (dōu), both before the verb. Another example: 我们也都是学生。 (wǒmen yě dōu shì xuésheng.) = We are also all students."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 昨天 (zuótiān) mean?",
+      "options": {
+        "A": "Today",
+        "B": "Tomorrow",
+        "C": "Yesterday",
+        "D": "Every day"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "昨天 (zuótiān) is yesterday, 今天 (jīntiān) is today and 明天 (míngtiān) is tomorrow."
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 很高兴认识你 (hěn gāoxìng rènshi nǐ) mean?",
+      "options": {
+        "A": "Thank you very much",
+        "B": "See you tomorrow",
+        "C": "Nice to meet you",
+        "D": "What is your name?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "很高兴认识你 (hěn gāoxìng rènshi nǐ) literally means \"very happy to know you\", the usual way to say \"Nice to meet you\". A possible reply: 我也很高兴认识你 (wǒ yě hěn gāoxìng rènshi nǐ) = I am also glad to meet you."
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 教室 (jiàoshì) mean?",
+      "options": {
+        "A": "Classroom",
+        "B": "School",
+        "C": "Teacher",
+        "D": "Friend"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "教室 (jiàoshì) is a classroom. A school is 学校 (xuéxiào), a teacher is 老师 (lǎoshī) and a friend is 朋友 (péngyou)."
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Translate: 我的手机不见了。 (wǒ de shǒujī bú jiàn le.)",
+      "options": {
+        "A": "My phone is new.",
+        "B": "My phone is here.",
+        "C": "My phone is hot.",
+        "D": "My phone is missing."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "不见了 (bú jiàn le) means \"has disappeared / cannot be found\", and 手机 (shǒujī) is a mobile phone. So the sentence says the phone is missing."
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 怎么了？ (zěnme le?) mean?",
+      "options": {
+        "A": "How much is it?",
+        "B": "What's wrong?",
+        "C": "Where are you?",
+        "D": "Who is it?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "怎么了？ (zěnme le?) asks \"What happened?\" or \"What's wrong?\", used when someone seems upset or worried."
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 我知道。 (wǒ zhīdào.) mean?",
+      "options": {
+        "A": "I am here.",
+        "B": "I know.",
+        "C": "I want it.",
+        "D": "I do not have it."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "知道 (zhīdào) means \"to know\" (a fact). 我知道 (wǒ zhīdào) = I know. The negative is 我不知道 (wǒ bù zhīdào) = I do not know."
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does 包 (bāo) mean in 在你的包里吗？ (zài nǐ de bāo lǐ ma?) = \"Is it in your ... ?\"?",
+      "options": {
+        "A": "Wallet",
+        "B": "Bag",
+        "C": "Hand",
+        "D": "Phone"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "包 (bāo) is a bag. A wallet is 钱包 (qiánbāo), a hand is 手 (shǒu) and a phone is 手机 (shǒujī)."
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Translate: 在你的手里。 (zài nǐ de shǒu lǐ.)",
+      "options": {
+        "A": "It is in your hand.",
+        "B": "It is in your bag.",
+        "C": "It is on the table.",
+        "D": "It is at my house."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "手 (shǒu) is hand and 在……里 (zài … lǐ) means \"in\". So 在你的手里 (zài nǐ de shǒu lǐ) = in your hand."
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question so that it offers a choice.\n\n```text\n你要茶____咖啡？ (nǐ yào chá ____ kāfēi?)\nEnglish: Do you want tea or coffee?\n```",
+      "options": {
+        "A": "和 (hé)",
+        "B": "吗 (ma)",
+        "C": "还是 (háishi)",
+        "D": "是 (shì)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "还是 (háishi) means \"or\" in questions that offer alternatives. 和 (hé) means \"and\" and would turn it into \"tea and coffee\". 吗 (ma) is a sentence-final particle, not a connector. Another question: 你要水还是果汁？ (nǐ yào shuǐ háishi guǒzhī?) = Do you want water or juice?"
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the question that fits the answer in this short dialogue.\n\n```text\nA: 这是____？ (zhè shì ____?)\nB: 不是，这是冰咖啡。 (bú shì, zhè shì bīng kāfēi.)\n```",
+      "options": {
+        "A": "热咖啡吗 (rè kāfēi ma)",
+        "B": "什么 (shénme)",
+        "C": "热咖啡什么 (rè kāfēi shénme)",
+        "D": "咖啡还是 (kāfēi háishi)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The reply 不是 (bú shì), \"No, it isn't\", only answers a yes/no question, so A asked 这是热咖啡吗？ (zhè shì rè kāfēi ma?) = Is this hot coffee? With 什么 (shénme) the question would be answered directly with a noun, and the other options are not complete questions."
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{noun} + \\text{hěn} + \\text{adjective}$ to say \"The tea is delicious (to drink)\". (tea = 茶 chá; delicious to eat = 好吃 hǎochī; delicious to drink = 好喝 hǎohē)",
+      "options": {
+        "A": "茶很好吃。 (chá hěn hǎochī.)",
+        "B": "茶很好喝。 (chá hěn hǎohē.)",
+        "C": "茶好很喝。 (chá hǎo hěn hē.)",
+        "D": "很茶好喝。 (hěn chá hǎohē.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The predicate adjective follows 很 (hěn), and the adjective must match the action: 好喝 (hǎohē) for drinks, 好吃 (hǎochī) for solid food. Another sentence: 面包很好吃。 (miànbāo hěn hǎochī.) = The bread is tasty."
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Apply the rule $T_3 + T_3 \\rightarrow T_2 + T_3$ to 很好 (hěn hǎo), \"very good\". How is it actually pronounced?",
+      "options": {
+        "A": "hěn háo",
+        "B": "hèn hǎo",
+        "C": "hěn hǎo",
+        "D": "hén hǎo"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Both syllables are third tone, so the first is spoken as second tone: hén hǎo, though the spelling remains hěn hǎo. The same applies to 你好 (nǐ hǎo), spoken ní hǎo."
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence misuses the connector `和` (hé)?",
+      "options": {
+        "A": "咖啡和茶 (kāfēi hé chá)",
+        "B": "米饭和汤 (mǐfàn hé tāng)",
+        "C": "我要茶和我要水。 (wǒ yào chá hé wǒ yào shuǐ.)",
+        "D": "豆腐和粥 (dòufu hé zhōu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: 和 (hé) joins nouns (A 和 B), not whole clauses. To combine two requests, write 我要茶和水 (wǒ yào chá hé shuǐ) = I want tea and water, or use a comma between clauses."
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete the sentence correctly: \"This is hot soup\".\n\n```text\n这是____。\n```",
+      "options": {
+        "A": "汤热 (tāng rè)",
+        "B": "是热汤 (shì rè tāng)",
+        "C": "热是汤 (rè shì tāng)",
+        "D": "热汤 (rè tāng)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: a modifier comes before the noun it describes, so \"hot soup\" is 热汤 (rè tāng), giving 这是热汤 (zhè shì rè tāng). Another example: 冰咖啡 (bīng kāfēi) = iced coffee."
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "In `汤很好喝` (tāng hěn hǎohē), what is the main job of `很` (hěn)?",
+      "options": {
+        "A": "It makes the sentence plural.",
+        "B": "It turns the sentence into a question.",
+        "C": "It negates the adjective.",
+        "D": "It links the subject to an adjective predicate; here it hardly means \"very\"."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: adjective predicates. Chinese adjectives used as predicates normally take a degree word such as 很 (hěn) in front; in this neutral use it is weak and simply links the subject and the adjective. Without it the sentence tends to sound like a comparison. Another example: 米饭很好吃。 (mǐfàn hěn hǎochī.) = The rice is tasty."
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is 面条 (miàntiáo)?",
+      "options": {
+        "A": "Bread",
+        "B": "Fish",
+        "C": "Noodles",
+        "D": "Egg"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "面条 (miàntiáo) means noodles. Do not confuse it with 面包 (miànbāo), bread. Fish is 鱼 (yú) and egg is 鸡蛋 (jīdàn)."
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Translate: 冰牛奶 (bīng niúnǎi).",
+      "options": {
+        "A": "Iced milk",
+        "B": "Hot milk",
+        "C": "Sweet milk",
+        "D": "Milk with sugar"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "冰 (bīng) means ice, and before a noun it means \"iced\": 冰牛奶 (bīng niúnǎi) = iced milk. Compare 冷水 (lěng shuǐ) = cold water and 热水 (rè shuǐ) = hot water."
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the confirmation question.\n\n```text\nA: 你是医生，____？ (nǐ shì yīshēng, ____?)\nB: 不对，我是律师。 (bú duì, wǒ shì lǜshī.)\n```",
+      "options": {
+        "A": "什么 (shénme)",
+        "B": "还是 (háishi)",
+        "C": "和 (hé)",
+        "D": "对不对 (duì bu duì)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "对不对？ (duì bu duì?) = \"right?\" is added after a statement to ask for confirmation, and the answer 不对 (bú duì) = \"not right\" fits it. 什么 asks \"what\", 还是 means \"or\" and 和 means \"and\"."
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question about someone's job.\n\n```text\nA: 你____什么工作？ (nǐ ____ shénme gōngzuò?)\nB: 我是护士。 (wǒ shì hùshi.)\n```",
+      "options": {
+        "A": "说 (shuō)",
+        "B": "会 (huì)",
+        "C": "做 (zuò)",
+        "D": "叫 (jiào)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "你做什么工作？ (nǐ zuò shénme gōngzuò?) literally \"What work do you do?\" and is the standard way to ask someone's job. 说 means speak, 会 means can, and 叫 means be called."
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject} + \\text{bú huì} + \\text{shuō} + \\text{language}$ to say \"He cannot speak Japanese\" (Japanese = 日文 Rìwén).",
+      "options": {
+        "A": "他会不说日文。 (tā huì bù shuō Rìwén.)",
+        "B": "他不会说日文。 (tā bú huì shuō Rìwén.)",
+        "C": "他不说会日文。 (tā bù shuō huì Rìwén.)",
+        "D": "他说不会日文。 (tā shuō bú huì Rìwén.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The negation 不 comes directly before 会 (huì), which stays before the main verb 说 (shuō). Since 会 is fourth tone, 不 is read bú. Another sentence: 我不会说法文。 (wǒ bú huì shuō Fǎwén.) = I cannot speak French."
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject} + \\text{huì} + \\text{shuō} + \\text{language} + \\text{ma}$ to ask \"Can she speak English?\" (English = 英文 Yīngwén).",
+      "options": {
+        "A": "她会说英文吗？ (tā huì shuō Yīngwén ma?)",
+        "B": "她吗会说英文？ (tā ma huì shuō Yīngwén?)",
+        "C": "吗她会说英文？ (ma tā huì shuō Yīngwén?)",
+        "D": "她会吗说英文？ (tā huì ma shuō Yīngwén?)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The particle 吗 (ma) always closes the sentence and the rest keeps its statement order. Another question: 你会说中文吗？ (nǐ huì shuō Zhōngwén ma?) = Can you speak Chinese?"
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "What is the difference between `我说中文` (wǒ shuō Zhōngwén) and `我会说中文` (wǒ huì shuō Zhōngwén)?",
+      "options": {
+        "A": "会 (huì) puts the sentence in the past.",
+        "B": "会 (huì) adds the idea of a learned ability: \"I can speak Chinese\".",
+        "C": "会 (huì) turns the sentence into a question.",
+        "D": "会 (huì) negates the sentence."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the modal verb 会 (huì). 我说中文 states that I speak Chinese, while 我会说中文 says I know how to, an acquired skill. The negative is 不会 (bú huì). Another example: 他会说日文。 (tā huì shuō Rìwén.) = He can speak Japanese."
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "When is the tag question `对不对？` (duì bu duì?) the best choice?",
+      "options": {
+        "A": "When you have no idea and want neutral information.",
+        "B": "When you want to know what someone does for a living.",
+        "C": "When you want to offer two options.",
+        "D": "When you already assume something and want the listener to confirm it."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: tag questions with 对不对 (duì bu duì), a verb-not-verb pattern. It asks for confirmation of a supposition: 他是老师，对不对？ (tā shì lǎoshī, duì bu duì?) = He is a teacher, right? The particle 吗 (ma) is more neutral."
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"She is my doctor\"?",
+      "options": {
+        "A": "她的我是医生。 (tā de wǒ shì yīshēng.)",
+        "B": "她是医生的我。 (tā shì yīshēng de wǒ.)",
+        "C": "她是我的医生。 (tā shì wǒ de yīshēng.)",
+        "D": "我的是她医生。 (wǒ de shì tā yīshēng.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: possession with 的 (de) after a 是 (shì) sentence: possessor + 的 + thing. Another example: 他是我的同事。 (tā shì wǒ de tóngshì.) = He is my coworker."
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which statement about 英文 (Yīngwén) and 英语 (Yīngyǔ) is correct?",
+      "options": {
+        "A": "Only 英文 can be used after 说 (shuō).",
+        "B": "英语 means English and 英文 means England.",
+        "C": "英文 is Chinese and 英语 is Japanese.",
+        "D": "Both mean English and both are natural in daily speech."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The endings 文 (wén) and 语 (yǔ) both mean \"language\". 我说英文 (wǒ shuō Yīngwén) and 我说英语 (wǒ shuō Yīngyǔ) are both natural. Similarly 日文 (Rìwén) and 日语 (Rìyǔ) mean Japanese."
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does 同事 (tóngshì) mean?",
+      "options": {
+        "A": "Coworker",
+        "B": "Classmate",
+        "C": "Neighbor",
+        "D": "Boss"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "同事 (tóngshì) is a coworker. A classmate is 同学 (tóngxué) and a manager is 经理 (jīnglǐ). 同 (tóng) suggests \"same\"."
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence with the right word.\n\n```text\n他们____是我的朋友。 (tāmen ____ shì wǒ de péngyou.)\nEnglish: All of them are my friends.\n```",
+      "options": {
+        "A": "也 (yě)",
+        "B": "吗 (ma)",
+        "C": "没有 (méiyǒu)",
+        "D": "都 (dōu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "都 (dōu) means \"all\", placed before the verb. 也 (yě) would mean \"also\". 吗 (ma) forms questions and 没有 (méiyǒu) means \"not have\". Another sentence: 我们都是学生。 (wǒmen dōu shì xuésheng.) = We are all students."
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the answer in this dialogue.\n\n```text\nA: 你有哥哥吗？ (nǐ yǒu gēge ma?)\nB: ____，我有一个姐姐。 (____, wǒ yǒu yí ge jiějie.)\nEnglish: No, I don't (have an older brother); I have an older sister.\n```",
+      "options": {
+        "A": "不有 (bù yǒu)",
+        "B": "没有 (méiyǒu)",
+        "C": "有 (yǒu)",
+        "D": "不是 (bú shì)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A short negative answer to a 有 (yǒu) question repeats the verb in its negative form: 没有 (méiyǒu). 不有 does not exist, 有 would mean \"yes\", and 不是 answers a 是 (shì) question."
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{possessor} + \\text{de} + \\text{possessed}$ with \"my younger brother\" (我弟弟 wǒ dìdi) as possessor and \"book\" (书 shū) as the possessed item.",
+      "options": {
+        "A": "弟弟我的书 (dìdi wǒ de shū)",
+        "B": "我弟弟的书 (wǒ dìdi de shū)",
+        "C": "我的书弟弟 (wǒ de shū dìdi)",
+        "D": "书的我弟弟 (shū de wǒ dìdi)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The whole possessor phrase comes first, then 的 (de), then the possessed thing. Another phrase: 我妈妈的手机 (wǒ māma de shǒujī) = my mother's phone."
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject} + \\text{yě} + \\text{bú} + \\text{shì} + \\text{noun}$ to say \"My mother is also not a teacher\" (老师 lǎoshī).",
+      "options": {
+        "A": "我的妈妈也不是老师。 (wǒ de māma yě bú shì lǎoshī.)",
+        "B": "我的妈妈不也是老师。 (wǒ de māma bù yě shì lǎoshī.)",
+        "C": "我的妈妈是也不老师。 (wǒ de māma shì yě bù lǎoshī.)",
+        "D": "也我的妈妈不是老师。 (yě wǒ de māma bú shì lǎoshī.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The adverb order is 也 (yě), then 不 (bù/bú), then the verb. Another sentence: 她也不是医生。 (tā yě bú shì yīshēng.) = She is also not a doctor."
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which of these \"questions\" is NOT correct Chinese?",
+      "options": {
+        "A": "他是谁吗？ (tā shì shéi ma?)",
+        "B": "她是谁？ (tā shì shéi?)",
+        "C": "这是谁的书？ (zhè shì shéi de shū?)",
+        "D": "那是谁的手机？ (nà shì shéi de shǒujī?)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: question words and 吗 (ma). A sentence that already contains 谁 (shéi) \"who\" must not add 吗; the question word makes it a question. Correct: 他是谁？ (tā shì shéi?) = Who is he?"
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says \"their teacher\"?",
+      "options": {
+        "A": "老师他们的 (lǎoshī tāmen de)",
+        "B": "他的们老师 (tā de men lǎoshī)",
+        "C": "他们的老师 (tāmen de lǎoshī)",
+        "D": "他们老师的 (tāmen lǎoshī de)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: possessive pronouns are pronoun + 的 (de) + noun, and 们 (men) stays attached to the pronoun: 他们的 (tāmen de). Another example: 你们的朋友 (nǐmen de péngyou) = your (plural) friend."
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"My father is a teacher; and yours?\"?",
+      "options": {
+        "A": "我的爸爸是老师，你的爸爸还是？ (wǒ de bàba shì lǎoshī, nǐ de bàba háishi?)",
+        "B": "我的爸爸是老师，你的爸爸呢？ (wǒ de bàba shì lǎoshī, nǐ de bàba ne?)",
+        "C": "我的爸爸是老师，你的呢爸爸？ (wǒ de bàba shì lǎoshī, nǐ de ne bàba?)",
+        "D": "我的爸爸是老师，你的爸爸什么吗？ (wǒ de bàba shì lǎoshī, nǐ de bàba shénme ma?)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the follow-up particle 呢 (ne), \"and ...?\", is placed at the end after the new topic. Another example: 我有哥哥，你呢？ (wǒ yǒu gēge, nǐ ne?) = I have an older brother; and you?"
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why is 女儿 written nǚ'ér in pinyin, with an apostrophe?",
+      "options": {
+        "A": "The apostrophe marks the syllable boundary so the two syllables are not misread as one.",
+        "B": "It marks a third tone.",
+        "C": "It means the word is plural.",
+        "D": "It shows the word is a question."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In pinyin an apostrophe separates syllables when the second begins with a vowel and there might be ambiguity, as in 女儿 (nǚ'ér) = daughter. Another word with the same device: 西安 (Xī'ān), the city of Xi'an, which is not read as \"xian\"."
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does 家人 (jiārén) mean?",
+      "options": {
+        "A": "Family members",
+        "B": "Friends",
+        "C": "Classmates",
+        "D": "Teachers"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "家人 (jiārén) means family members; 家 (jiā) is home or family and 人 (rén) is person. 朋友 (péngyou) means friends, 同学 (tóngxué) classmates and 老师 (lǎoshī) teachers."
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question about hot or cold.\n\n```text\n你要热的____冷的？ (nǐ yào rè de ____ lěng de?)\nEnglish: Do you want the hot one or the cold one?\n```",
+      "options": {
+        "A": "和 (hé)",
+        "B": "吗 (ma)",
+        "C": "也 (yě)",
+        "D": "还是 (háishi)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "还是 (háishi) means \"or\" in a choice question, and 热的 (rè de) / 冷的 (lěng de) are \"the hot one\" / \"the cold one\". 和 means \"and\", 吗 ends yes/no questions and 也 means \"also\"."
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n\n```text\n我想____一杯果汁。 (wǒ xiǎng ____ yì bēi guǒzhī.)\nEnglish: I would like to drink a glass of juice.\n```",
+      "options": {
+        "A": "喝 (hē)",
+        "B": "杯 (bēi)",
+        "C": "和 (hé)",
+        "D": "几 (jǐ)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "想 (xiǎng) is followed by a verb, here 喝 (hē) = drink: 我想喝一杯果汁 (wǒ xiǎng hē yì bēi guǒzhī). 杯 is only the measure word, 和 means \"and\" and 几 means \"how many\"."
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "You order $9 - 4$ glasses of water. Which phrase says the amount in Chinese?",
+      "options": {
+        "A": "六杯水 (liù bēi shuǐ)",
+        "B": "四杯水 (sì bēi shuǐ)",
+        "C": "五杯水 (wǔ bēi shuǐ)",
+        "D": "七杯水 (qī bēi shuǐ)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "9 - 4 = 5, and five is 五 (wǔ), so 五杯水 (wǔ bēi shuǐ). Number + 杯 (bēi) + drink is the standard pattern."
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A table orders $1 + 1$ glasses of milk tea. How do you say the total quantity in Chinese?",
+      "options": {
+        "A": "两杯奶茶 (liǎng bēi nǎichá)",
+        "B": "二杯奶茶 (èr bēi nǎichá)",
+        "C": "一杯一杯奶茶 (yì bēi yì bēi nǎichá)",
+        "D": "二个奶茶 (èr ge nǎichá)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "1 + 1 = 2, and before a measure word \"two\" is 两 (liǎng): 两杯奶茶 (liǎng bēi nǎichá). The form 二 (èr) is used when counting or reading numbers aloud."
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I would like to drink tea\"?",
+      "options": {
+        "A": "我喝想茶。 (wǒ hē xiǎng chá.)",
+        "B": "我想喝茶。 (wǒ xiǎng hē chá.)",
+        "C": "我想茶喝。 (wǒ xiǎng chá hē.)",
+        "D": "想我喝茶。 (xiǎng wǒ hē chá.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the modal verb 想 (xiǎng), \"would like to\", comes before the main verb: subject + 想 + verb + object. Another example: 我想喝咖啡。 (wǒ xiǎng hē kāfēi.) = I would like to drink coffee."
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "You are asked 你要糖吗？ (nǐ yào táng ma?), \"Do you want sugar?\". Which short reply means \"No, thank you\"?",
+      "options": {
+        "A": "不是，谢谢。 (bú shì, xièxie.)",
+        "B": "没有，谢谢。 (méiyǒu, xièxie.)",
+        "C": "不要，谢谢。 (bú yào, xièxie.)",
+        "D": "不对，谢谢。 (bú duì, xièxie.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: short answers repeat the verb of the question. The question uses 要 (yào), so the replies are 要 (yes) or 不要 (no). 不是 answers a 是 question, 没有 answers a 有 question, and 不对 answers a \"right?\" question. Another example: 你有哥哥吗？ 有。 / 没有。"
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly orders \"three cups of tea\"?",
+      "options": {
+        "A": "我要三茶。 (wǒ yào sān chá.)",
+        "B": "我要三杯茶。 (wǒ yào sān bēi chá.)",
+        "C": "我要茶三杯。 (wǒ yào chá sān bēi.)",
+        "D": "我要杯三茶。 (wǒ yào bēi sān chá.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: measure words. A counted noun needs number + measure word + noun, so 三 + 杯 + 茶. Another example: 我有两个朋友。 (wǒ yǒu liǎng ge péngyou.) = I have two friends."
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Someone says 对不起 (duìbuqǐ), \"sorry\". Which reply means \"No problem\"?",
+      "options": {
+        "A": "再见。 (zàijiàn.)",
+        "B": "没关系。 (méi guānxi.)",
+        "C": "谢谢。 (xièxie.)",
+        "D": "你好。 (nǐ hǎo.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "没关系 (méi guānxi) = it doesn't matter / no problem, the usual reply to an apology. 再见 is goodbye, 谢谢 is thank you and 你好 is hello."
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which sentence sounds softer and more polite than 我要茶 (wǒ yào chá), \"I want tea\"?",
+      "options": {
+        "A": "我喝茶。 (wǒ hē chá.)",
+        "B": "我不喝茶。 (wǒ bù hē chá.)",
+        "C": "我不要茶。 (wǒ bú yào chá.)",
+        "D": "我想喝茶。 (wǒ xiǎng hē chá.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "要 (yào) is a direct request, while 想喝 (xiǎng hē) = \"would like to drink\" softens it. 我喝茶 states a habit, and the other two refuse tea."
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the question about someone's name.\n\n```text\n你叫____名字？ (nǐ jiào ____ míngzi?)\nEnglish: What is your name?\n```",
+      "options": {
+        "A": "几 (jǐ)",
+        "B": "吗 (ma)",
+        "C": "什么 (shénme)",
+        "D": "谁 (shéi)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "你叫什么名字？ (nǐ jiào shénme míngzi?) literally \"You are called what name?\" and is the standard way to ask a name. 几 asks a small quantity, 吗 forms yes/no questions and 谁 means \"who\"."
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n\n```text\n他们____不是老师。 (tāmen ____ bú shì lǎoshī.)\nEnglish: None of them is a teacher.\n```",
+      "options": {
+        "A": "也 (yě)",
+        "B": "吗 (ma)",
+        "C": "都 (dōu)",
+        "D": "几 (jǐ)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "都不 (dōu bù) = \"none / all not\": 他们都不是老师 (tāmen dōu bú shì lǎoshī). 也 would make it \"they are also not teachers\". Another sentence: 我们都不喜欢数学。 (wǒmen dōu bù xǐhuān shùxué.) = None of us likes math."
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{subject} + \\text{bù} + \\text{dōu} + \\text{verb} + \\text{object}$ (meaning \"not all\") to say \"Not all of us like history\".",
+      "options": {
+        "A": "我们都不喜欢历史。 (wǒmen dōu bù xǐhuān lìshǐ.)",
+        "B": "我们都喜欢不历史。 (wǒmen dōu xǐhuān bù lìshǐ.)",
+        "C": "我们不都喜欢历史。 (wǒmen bù dōu xǐhuān lìshǐ.)",
+        "D": "我们喜欢不都历史。 (wǒmen xǐhuān bù dōu lìshǐ.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The order 不 + 都 means \"not all\" (some do, some don't), while 都 + 不 means \"none\". Compare 我们都不喜欢历史 (wǒmen dōu bù xǐhuān lìshǐ) = none of us likes history."
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A school gets $1 + 1$ new classmates. Which phrase gives the total?",
+      "options": {
+        "A": "二个新同学 (èr ge xīn tóngxué)",
+        "B": "两新同学个 (liǎng xīn tóngxué ge)",
+        "C": "一个新同学 (yí ge xīn tóngxué)",
+        "D": "两个新同学 (liǎng ge xīn tóngxué)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "1 + 1 = 2. Before a measure word such as 个 (ge) the number two is 两 (liǎng): 两个新同学 (liǎng ge xīn tóngxué). Order: number + measure word + modifier + noun."
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"Tomorrow we have English class\"?",
+      "options": {
+        "A": "我们有英语课明天。 (wǒmen yǒu Yīngyǔ kè míngtiān.)",
+        "B": "明天有我们英语课。 (míngtiān yǒu wǒmen Yīngyǔ kè.)",
+        "C": "我们明天有英语课。 (wǒmen míngtiān yǒu Yīngyǔ kè.)",
+        "D": "我们有明天英语课。 (wǒmen yǒu míngtiān Yīngyǔ kè.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: time expressions come before the verb: subject + time + verb. Another example: 我们昨天有音乐课。 (wǒmen zuótiān yǒu yīnyuè kè.) = Yesterday we had a music class. (The time word may also open the sentence: 明天我们有英语课。)"
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which question correctly asks \"How many new classmates do you have?\"?",
+      "options": {
+        "A": "你们有几新同学？ (nǐmen yǒu jǐ xīn tóngxué?)",
+        "B": "你们有几个新同学？ (nǐmen yǒu jǐ ge xīn tóngxué?)",
+        "C": "你们有什么个新同学？ (nǐmen yǒu shénme ge xīn tóngxué?)",
+        "D": "你们几个有新同学？ (nǐmen jǐ ge yǒu xīn tóngxué?)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: 几 (jǐ) \"how many\" must be followed by a measure word, here 个 (ge), and it stays in the slot of the number. Another example: 今天有几节课？ (jīntiān yǒu jǐ jié kè?) = How many classes are there today?"
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Why is \"We have no history class today\" written 我们今天没有历史课 (wǒmen jīntiān méiyǒu lìshǐ kè) and not with 不 (bù)?",
+      "options": {
+        "A": "Because 历史 (lìshǐ) is a plural noun.",
+        "B": "Because 今天 (jīntiān) is a time word.",
+        "C": "Because 没有 is used with questions only.",
+        "D": "Because the verb 有 (yǒu) is negated with 没 (méi), never with 不."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: negation of 有 (yǒu) = 没有 (méiyǒu). 不 (bù) negates other verbs such as 是 and 喜欢: 我不喜欢数学 (wǒ bù xǐhuān shùxué). Another example: 我没有时间 (wǒ méiyǒu shíjiān) = I have no time."
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "In 很高兴认识你 (hěn gāoxìng rènshi nǐ), what does 认识 (rènshi) mean?",
+      "options": {
+        "A": "To know / get to know (a person)",
+        "B": "To teach",
+        "C": "To remember a place",
+        "D": "To buy"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "认识 (rènshi) means to know or be acquainted with a person, which is why it appears in \"Nice to meet you\". Another sentence: 我认识她。 (wǒ rènshi tā.) = I know her."
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Translate: 我们昨天有音乐课。 (wǒmen zuótiān yǒu yīnyuè kè.)",
+      "options": {
+        "A": "We will have a music class tomorrow.",
+        "B": "We had a music class yesterday.",
+        "C": "We like music every day.",
+        "D": "We have a new music teacher."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "昨天 (zuótiān) is yesterday, 有 (yǒu) is \"have\", and 音乐课 (yīnyuè kè) is a music class. Chinese verbs do not change form, so the time word shows when it happened."
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A friend looks worried because the phone is gone. You say 怎么了？ (zěnme le?). What are you asking?",
+      "options": {
+        "A": "What's wrong?",
+        "B": "How much was it?",
+        "C": "Where do you live?",
+        "D": "Who is calling?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "怎么了？ (zěnme le?) asks \"What happened? / What's wrong?\". It is a natural opening for helping someone."
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "In `我的手机不见了` (wǒ de shǒujī bú jiàn le), what does the particle `了` (le) at the end signal?",
+      "options": {
+        "A": "The sentence is a question.",
+        "B": "A new situation or change of state: the phone has now disappeared.",
+        "C": "The noun is plural.",
+        "D": "The sentence is a command."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: sentence-final 了 (le) marks a change of state or a new situation. Another example: 我饿了。 (wǒ è le.) = I'm hungry now (I wasn't before)."
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which sentence means \"I don't know\"?",
+      "options": {
+        "A": "我知道。 (wǒ zhīdào.)",
+        "B": "我不知道。 (wǒ bù zhīdào.)",
+        "C": "我不见了。 (wǒ bú jiàn le.)",
+        "D": "我不是。 (wǒ bú shì.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "知道 (zhīdào) = know, negated with 不 (bù): 我不知道 (wǒ bù zhīdào). Because 知 is first tone, 不 stays bù. 不见了 means \"missing\", and 我不是 means \"I am not\"."
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"My phone is in your bag\"?",
+      "options": {
+        "A": "我的手机你的包里在。 (wǒ de shǒujī nǐ de bāo lǐ zài.)",
+        "B": "在我的手机你的包里。 (zài wǒ de shǒujī nǐ de bāo lǐ.)",
+        "C": "我的手机你的包在里。 (wǒ de shǒujī nǐ de bāo zài lǐ.)",
+        "D": "我的手机在你的包里。 (wǒ de shǒujī zài nǐ de bāo lǐ.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: location with 在 (zài): thing + 在 + place + 里 (lǐ, \"inside\"). Another example: 钱包在我的包里。 (qiánbāo zài wǒ de bāo lǐ.) = The wallet is in my bag."
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which question means \"Where is my wallet?\"?",
+      "options": {
+        "A": "我的钱包在哪里？ (wǒ de qiánbāo zài nǎlǐ?)",
+        "B": "我的钱包是谁？ (wǒ de qiánbāo shì shéi?)",
+        "C": "我的钱包有几个？ (wǒ de qiánbāo yǒu jǐ ge?)",
+        "D": "我的钱包是什么？ (wǒ de qiánbāo shì shénme?)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "哪里 (nǎlǐ) means \"where\", and 在 (zài) says that something is located somewhere, so 在哪里？ (zài nǎlǐ?) asks for a location. 谁 asks \"who\", 几个 asks \"how many\" and 什么 asks \"what\"."
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence so that it means \"She is also Korean.\"\n```text\n她 ____ 是韩国人。\ntā ____ shì Hánguó rén.\n```",
+      "options": {
+        "A": "也 (yě)",
+        "B": "都 (dōu)",
+        "C": "吗 (ma)",
+        "D": "的 (de)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "也 (yě) means \"also\" and sits after the subject and before the verb: 她也是韩国人 (tā yě shì Hánguó rén). 都 (dōu) means \"all\" and needs a plural subject, 吗 (ma) turns a statement into a yes/no question and 的 (de) links a possessor to a thing. Another example: 他也是日本人 (tā yě shì Rìběn rén), \"He is also Japanese.\""
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n你的朋友也是中国人吗？\nnǐ de péngyou yě shì Zhōngguó rén ma?\n```",
+      "options": {
+        "A": "My friend is also Chinese.",
+        "B": "Are you also a friend of the Chinese?",
+        "C": "Your Chinese friend is here too.",
+        "D": "Is your friend also Chinese?"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "你的朋友 (nǐ de péngyou) is \"your friend\" (possessor + 的 (de) + thing), 也 (yě) is \"also\", 是 (shì) links the friend to 中国人 (Zhōngguó rén, \"a Chinese person\"), and the final 吗 (ma) makes it a yes/no question. A natural negative answer is 不是，他是日本人 (bú shì, tā shì Rìběn rén)."
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence so that it means \"He sometimes goes to the park.\"\n```text\n他 ____ 去公园。\ntā ____ qù gōngyuán.\n```",
+      "options": {
+        "A": "很少 (hěn shǎo)",
+        "B": "总是 (zǒngshì)",
+        "C": "有时候 (yǒushíhou)",
+        "D": "每天 (měitiān)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "有时候 (yǒushíhou) means \"sometimes\". 很少 (hěn shǎo) is \"rarely\", 总是 (zǒngshì) is \"always\" and 每天 (měitiān) is \"every day\". All frequency words sit between the subject and the verb: 她有时候看电影 (tā yǒushíhou kàn diànyǐng), \"She sometimes watches movies.\""
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence so that it means \"The key is on the table.\"\n```text\n钥匙在桌子 ____。\nyàoshi zài zhuōzi ____.\n```",
+      "options": {
+        "A": "里 (lǐ)",
+        "B": "的 (de)",
+        "C": "吗 (ma)",
+        "D": "上 (shàng)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A position word follows the place noun: 在桌子上 (zài zhuōzi shàng) is \"on the table\", while 里 (lǐ) means \"inside\" (as in 手机在包里, shǒujī zài bāo lǐ, \"the phone is in the bag\"). 的 (de) and 吗 (ma) cannot express location. Pattern: thing + 在 (zài) + place + position word."
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n他们都不是日本人。\ntāmen dōu bú shì Rìběn rén.\n```",
+      "options": {
+        "A": "Not all of them are Japanese.",
+        "B": "They are all Japanese.",
+        "C": "None of them is Japanese.",
+        "D": "They are also Japanese."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "When 都 (dōu, \"all\") comes before 不 (bù/bú, \"not\"), the negation applies to every member: 都不是 (dōu bú shì) means \"none are\". The meaning \"not all\" is expressed with the opposite order, 他们不都是日本人 (tāmen bù dōu shì Rìběn rén). Note also that 不 becomes bú before the fourth-tone 是 (shì)."
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the question so that it means \"Where are you going today?\"\n```text\n你今天去 ____ ？\nnǐ jīntiān qù ____?\n```",
+      "options": {
+        "A": "哪儿 (nǎr)",
+        "B": "什么 (shénme)",
+        "C": "那儿 (nàr)",
+        "D": "吗 (ma)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "哪儿 (nǎr, third tone) is the question word \"where\" and takes the place of the answer: 我今天去书店 (wǒ jīntiān qù shūdiàn) becomes 你今天去哪儿 (nǐ jīntiān qù nǎr). 那儿 (nàr, fourth tone) means \"there\", 什么 (shénme) means \"what\", and 吗 (ma) only makes a yes/no question (\"Are you going today?\")."
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence so that it means \"He reads in the library\" (he is already there).\n```text\n他 ____ 图书馆看书。\ntā ____ túshūguǎn kàn shū.\n```",
+      "options": {
+        "A": "去 (qù)",
+        "B": "想 (xiǎng)",
+        "C": "和 (hé)",
+        "D": "在 (zài)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "在 (zài) + place before the verb says where the action happens: 他在图书馆看书 (tā zài túshūguǎn kàn shū). 去 (qù) would give a different meaning, \"He goes to the library to read\", and 想 (xiǎng, \"want\") and 和 (hé, \"and\") do not fit this slot. Another example: 我在家吃 (wǒ zài jiā chī), \"I eat at home.\""
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence so that it means \"I want to drink two cups of water.\"\n```text\n我想喝两 ____ 水。\nwǒ xiǎng hē liǎng ____ shuǐ.\n```",
+      "options": {
+        "A": "杯 (bēi)",
+        "B": "张 (zhāng)",
+        "C": "本 (běn)",
+        "D": "把 (bǎ)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Between a number and a noun Chinese needs a measure word. 杯 (bēi) counts cups or glasses of drinks. 张 (zhāng) counts flat things such as tickets, 本 (běn) counts books and 把 (bǎ) counts things with a handle. Another example: 一杯茶 (yì bēi chá), \"a cup of tea\"."
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n我也不喜欢历史。\nwǒ yě bù xǐhuan lìshǐ.\n```",
+      "options": {
+        "A": "I also do not like history.",
+        "B": "I like history too.",
+        "C": "I do not like history very much.",
+        "D": "I do not like history or music."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The order is subject + 也 (yě) + 不 (bù) + verb: 也不 (yě bù) means \"also not\". 不太 (bú tài) would be needed for \"not very much\". Another example: 她也不是老师 (tā yě bú shì lǎoshī), \"She is not a teacher either.\""
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n你吃不吃零食？\nnǐ chī bu chī língshí?\n```",
+      "options": {
+        "A": "Do you buy snacks?",
+        "B": "Do you eat snacks or not?",
+        "C": "Where do you eat snacks?",
+        "D": "You do not eat snacks."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A verb + 不 (bù) + verb pattern (吃不吃, chī bu chī) is an affirmative-negative question that asks \"do you ... or not?\" and replaces the final 吗 (ma). The middle 不 (bù) is unstressed. Another example: 你去不去超市？(nǐ qù bu qù chāoshì?), \"Are you going to the supermarket or not?\""
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Nationalities follow $\\text{country} + \\text{rén}$. Apply it to 日本 (Rìběn, Japan) and 德国 (Déguó, Germany). Which pair of nationalities (Japanese, German) is correct?",
+      "options": {
+        "A": "日本国人 (Rìběn guó rén), 德国人 (Déguó rén)",
+        "B": "日本人 (Rìběn rén), 德国国人 (Déguó guó rén)",
+        "C": "日本人 (Rìběn rén), 德国人 (Déguó rén)",
+        "D": "人日本 (rén Rìběn), 人德国 (rén Déguó)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The formula simply adds 人 (rén, \"person\") after the country name; the country's own 国 (guó) is not repeated, and 日本 (Rìběn) has no 国 (guó) at all. So 日本 (Rìběn) + 人 (rén) = 日本人 (Rìběn rén) and 德国 (Déguó) + 人 (rén) = 德国人 (Déguó rén). The same works for 巴西人 (Bāxī rén, \"Brazilian\")."
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use the order $S + \\text{yě} + \\text{dōu} + V + O$ to say \"We too are all students.\" Which sentence is correct?",
+      "options": {
+        "A": "我们都也是学生。(wǒmen dōu yě shì xuésheng.)",
+        "B": "我们是也都学生。(wǒmen shì yě dōu xuésheng.)",
+        "C": "我们也都是学生。(wǒmen yě dōu shì xuésheng.)",
+        "D": "也我们都是学生。(yě wǒmen dōu shì xuésheng.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "When both adverbs appear they stack before the verb in the fixed order 也 (yě) then 都 (dōu), directly after the subject. Another example: 他们也都喜欢音乐 (tāmen yě dōu xǐhuan yīnyuè), \"They too all like music.\""
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $S + \\text{yě} + \\text{bù} + V + O$ to say \"She also does not like art.\" Which sentence is correct?",
+      "options": {
+        "A": "她不也喜欢艺术。(tā bù yě xǐhuan yìshù.)",
+        "B": "她喜欢也不艺术。(tā xǐhuan yě bù yìshù.)",
+        "C": "她也不喜欢艺术。(tā yě bù xǐhuan yìshù.)",
+        "D": "她也喜欢不艺术。(tā yě xǐhuan bù yìshù.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Both 也 (yě) and 不 (bù) go directly before the verb, with 也 (yě) first: 也不 (yě bù). The negative never goes after the verb. Another example: 我也不去 (wǒ yě bú qù), \"I am not going either\" (不 becomes bú before the fourth tone 去, qù)."
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The tone rule is $\\text{bù} + \\text{tone 4} \\rightarrow \\text{bú} + \\text{tone 4}$, and 不 stays bù before the other tones. Which line is spelled correctly for \"I do not go to the park, and I do not want to go to the bank\"?",
+      "options": {
+        "A": "Wǒ bú qù gōngyuán, bù xiǎng qù yínháng.",
+        "B": "Wǒ bù qù gōngyuán, bù xiǎng qù yínháng.",
+        "C": "Wǒ bú qù gōngyuán, bú xiǎng qù yínháng.",
+        "D": "Wǒ bù qù gōngyuán, bú xiǎng qù yínháng."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "去 (qù) has the fourth tone, so 不 becomes bú; 想 (xiǎng) has the third tone, so 不 stays bù. Other examples: 不是 (bú shì), 不太 (bú tài) but 不吃 (bù chī), 不喜欢 (bù xǐhuan)."
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "When two third tones meet, $T_3 + T_3 \\rightarrow T_2 + T_3$. How is 很好 (hěn hǎo, \"very good\") actually pronounced in speech?",
+      "options": {
+        "A": "hén hǎo",
+        "B": "hěn háo",
+        "C": "hén háo",
+        "D": "hěn hǎo, with both syllables dipping"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The first of two consecutive third tones is pronounced with a rising second tone, while the second keeps the third tone. The written pinyin does not change, so 你好 (nǐ hǎo) is written with two third tones but spoken as ní hǎo. Another example: 我也 (wǒ yě) is spoken wó yě."
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $\\text{number} + \\text{measure word} + \\text{noun}$ to say \"two tickets\" (车票, chēpiào, with the measure word 张, zhāng). Which is correct?",
+      "options": {
+        "A": "二张车票 (èr zhāng chēpiào)",
+        "B": "两车票张 (liǎng chēpiào zhāng)",
+        "C": "两张车票 (liǎng zhāng chēpiào)",
+        "D": "张两车票 (zhāng liǎng chēpiào)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The measure word always sits between the number and the noun. Before a measure word, \"two\" is 两 (liǎng), not 二 (èr); 二 (èr) is used for counting and ordinals (一 yī, 二 èr, 三 sān; 第二 dì'èr). Another example: 两杯茶 (liǎng bēi chá), \"two cups of tea\"."
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $\\text{thing} + \\text{zài} + \\text{place} + \\text{lǐ}$ to say \"The passport is in the bag\" (护照 hùzhào, 包 bāo). Which sentence is correct?",
+      "options": {
+        "A": "护照在里包。(hùzhào zài lǐ bāo.)",
+        "B": "在护照包里。(zài hùzhào bāo lǐ.)",
+        "C": "护照包在里。(hùzhào bāo zài lǐ.)",
+        "D": "护照在包里。(hùzhào zài bāo lǐ.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "里 (lǐ, \"inside\") follows the place noun, so \"in the bag\" is 在包里 (zài bāo lǐ). The thing located comes first. Another example: 钥匙在包里 (yàoshi zài bāo lǐ), \"The key is in the bag.\""
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $S + \\text{bù} + \\text{xiǎng} + V + O$ to say \"She does not want to go to the bank.\" Which sentence is correct?",
+      "options": {
+        "A": "她不想去银行。(tā bù xiǎng qù yínháng.)",
+        "B": "她去不想银行。(tā qù bù xiǎng yínháng.)",
+        "C": "她不去想银行。(tā bú qù xiǎng yínháng.)",
+        "D": "不她想去银行。(bù tā xiǎng qù yínháng.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "想 (xiǎng, \"want\") comes before the main verb and its negation 不想 (bù xiǎng) is placed in the same slot, directly before 去 (qù). Another example: 我不想吃零食 (wǒ bù xiǎng chī língshí), \"I do not want to eat snacks.\""
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Station names follow $\\text{vehicle} + \\text{zhàn}$: 火车 (huǒchē, train) gives 火车站 (huǒchēzhàn, train station). Apply the same formula to 地铁 (dìtiě, subway). Which word means \"subway station\"?",
+      "options": {
+        "A": "站地铁 (zhàn dìtiě)",
+        "B": "地铁站 (dìtiězhàn)",
+        "C": "地铁们 (dìtiěmen)",
+        "D": "地铁里 (dìtiě lǐ)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In Chinese compounds the modifying part comes first and the head noun last, so 站 (zhàn, \"station\") closes the word. 们 (men) only pluralizes people pronouns and 里 (lǐ) means \"inside\". The same logic gives 地铁站 (dìtiězhàn) for the subway and 火车站 (huǒchēzhàn) for the train."
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Use $S + \\text{hé} + \\text{person} + \\text{yìqǐ} + V + O$ to say \"She goes to the library with her mother.\" Which sentence is correct?",
+      "options": {
+        "A": "她一起和妈妈去图书馆。(tā yìqǐ hé māma qù túshūguǎn.)",
+        "B": "她和一起妈妈去图书馆。(tā hé yìqǐ māma qù túshūguǎn.)",
+        "C": "和妈妈她一起去图书馆。(hé māma tā yìqǐ qù túshūguǎn.)",
+        "D": "她和妈妈一起去图书馆。(tā hé māma yìqǐ qù túshūguǎn.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "和 (hé) + the companion forms one unit, and 一起 (yìqǐ, \"together\") follows it directly before the verb. Another example: 我和朋友一起吃 (wǒ hé péngyou yìqǐ chī), \"I eat with a friend.\""
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "To ask someone's nationality (\"Which country are you from?\"), which sentence is correct?",
+      "options": {
+        "A": "你是哪国人吗？(nǐ shì nǎ guó rén ma?)",
+        "B": "你哪国是人？(nǐ nǎ guó shì rén?)",
+        "C": "你是人哪国？(nǐ shì rén nǎ guó?)",
+        "D": "你是哪国人？(nǐ shì nǎ guó rén?)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: question words versus the particle 吗 (ma). 哪 (nǎ, \"which\") takes the place of the answer inside an ordinary statement (我是巴西人 (wǒ shì Bāxī rén) becomes 你是哪国人 (nǐ shì nǎ guó rén)), and a sentence that already contains a question word does not take 吗 (ma). Another example: 你去哪儿？(nǐ qù nǎr?), \"Where are you going?\""
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"He is also American\"?",
+      "options": {
+        "A": "他是也美国人。(tā shì yě Měiguó rén.)",
+        "B": "也他是美国人。(yě tā shì Měiguó rén.)",
+        "C": "他也是美国人。(tā yě shì Měiguó rén.)",
+        "D": "他是美国人也。(tā shì Měiguó rén yě.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: position of the adverb 也 (yě, \"also\"). Adverbs go after the subject and before the verb, so the order is subject + 也 (yě) + verb. Another example: 我也喜欢音乐 (wǒ yě xǐhuan yīnyuè), \"I also like music.\""
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the final particle: \"我是学生，你 ____？\" (wǒ shì xuésheng, nǐ ____?), meaning \"I am a student; and you?\"",
+      "options": {
+        "A": "吗 (ma)",
+        "B": "呢 (ne)",
+        "C": "了 (le)",
+        "D": "的 (de)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the follow-up particle 呢 (ne). After a noun or pronoun it means \"and what about ...?\" and hands the previous question back to another person. 吗 (ma) would make a brand-new yes/no question. Another example: 我喜欢音乐，她呢？(wǒ xǐhuan yīnyuè, tā ne?), \"I like music; and she?\""
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which of these sentences misuses 都 (dōu, \"all\")?",
+      "options": {
+        "A": "我们都是中国人。(wǒmen dōu shì Zhōngguó rén.)",
+        "B": "他们都是韩国人。(tāmen dōu shì Hánguó rén.)",
+        "C": "你们都是美国人。(nǐmen dōu shì Měiguó rén.)",
+        "D": "她都是中国人。(tā dōu shì Zhōngguó rén.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: the adverb 都 (dōu) sums up a plural subject (我们 wǒmen, 他们 tāmen, 你们 nǐmen, formed with 们 (men)). With a singular subject like 她 (tā, \"she\") there is nothing to sum up, so the sentence is wrong; use 她是中国人 (tā shì Zhōngguó rén) instead."
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I go to the restaurant to eat\" (go, then place, then the purpose verb)?",
+      "options": {
+        "A": "我吃去饭馆。(wǒ chī qù fànguǎn.)",
+        "B": "我饭馆去吃。(wǒ fànguǎn qù chī.)",
+        "C": "去我饭馆吃。(qù wǒ fànguǎn chī.)",
+        "D": "我去饭馆吃。(wǒ qù fànguǎn chī.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: serial verbs (去 (qù) + place + action). The movement verb 去 (qù) comes first, then the destination, then the action done there. Another example: 他去超市买菜 (tā qù chāoshì mǎi cài), \"He goes to the supermarket to buy food.\""
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I often go to the supermarket\"?",
+      "options": {
+        "A": "我去超市常常。(wǒ qù chāoshì chángcháng.)",
+        "B": "我去常常超市。(wǒ qù chángcháng chāoshì.)",
+        "C": "我常常去超市。(wǒ chángcháng qù chāoshì.)",
+        "D": "去我常常超市。(qù wǒ chángcháng chāoshì.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: position of frequency adverbs. Words such as 常常 (chángcháng), 有时候 (yǒushíhou) and 很少 (hěn shǎo) stand between the subject and the verb, never at the end. Another example: 她很少看电影 (tā hěn shǎo kàn diànyǐng), \"She rarely watches movies.\""
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"Today I am not going to school\"?",
+      "options": {
+        "A": "我不今天去学校。(wǒ bù jīntiān qù xuéxiào.)",
+        "B": "我今天不去学校。(wǒ jīntiān bú qù xuéxiào.)",
+        "C": "我不去学校今天。(wǒ bú qù xuéxiào jīntiān.)",
+        "D": "我今天不学校去。(wǒ jīntiān bù xuéxiào qù.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: time words and negation. A time word such as 今天 (jīntiān) goes before the verb (after the subject or at the start), and 不 (bù) goes directly before the verb it negates. Another example: 她明天不去银行 (tā míngtiān bú qù yínháng), \"She is not going to the bank tomorrow.\""
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"Tomorrow she buys food at the supermarket\"?",
+      "options": {
+        "A": "她买菜在超市明天。(tā mǎi cài zài chāoshì míngtiān.)",
+        "B": "她明天在超市买菜。(tā míngtiān zài chāoshì mǎi cài.)",
+        "C": "她在买菜超市明天。(tā zài mǎi cài chāoshì míngtiān.)",
+        "D": "明天她买在超市菜。(míngtiān tā mǎi zài chāoshì cài.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the order time, then place, then verb. 在 (zài) + place goes before the main verb, and the time word comes earlier still. Another example: 我今天在家吃 (wǒ jīntiān zài jiā chī), \"Today I eat at home.\""
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"My phone is here\" (it tells where the phone is)?",
+      "options": {
+        "A": "我的手机在这里。(wǒ de shǒujī zài zhèlǐ.)",
+        "B": "我的手机是这里。(wǒ de shǒujī shì zhèlǐ.)",
+        "C": "我的手机有这里。(wǒ de shǒujī yǒu zhèlǐ.)",
+        "D": "我的手机去这里。(wǒ de shǒujī qù zhèlǐ.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: 在 (zài) for location versus 是 (shì) for identity. 是 (shì) links two nouns (这是我的手机, zhè shì wǒ de shǒujī, \"This is my phone\"), while 在 (zài) says where something is. Another example: 钱包在这里 (qiánbāo zài zhèlǐ), \"The wallet is here.\""
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"The phone is not in the bag\"?",
+      "options": {
+        "A": "手机在不包里。(shǒujī zài bù bāo lǐ.)",
+        "B": "手机不在包里。(shǒujī bú zài bāo lǐ.)",
+        "C": "手机不包里在。(shǒujī bù bāo lǐ zài.)",
+        "D": "不手机在包里。(bù shǒujī zài bāo lǐ.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: negating location with 不在 (bú zài). 不 (bù) goes directly before 在 (zài) and becomes bú because 在 (zài) has the fourth tone. Another example: 行李不在那里 (xíngli bú zài nàlǐ), \"The luggage is not over there.\""
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"My wallet is small\"?",
+      "options": {
+        "A": "我的钱包很小。(wǒ de qiánbāo hěn xiǎo.)",
+        "B": "我的钱包是小。(wǒ de qiánbāo shì xiǎo.)",
+        "C": "我的钱包小很。(wǒ de qiánbāo xiǎo hěn.)",
+        "D": "我的钱包是很小。(wǒ de qiánbāo shì hěn xiǎo.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: adjectival predicates. Adjectives such as 小 (xiǎo) do not need the verb 是 (shì); the usual pattern is subject + 很 (hěn) + adjective, and 很 (hěn) here is often only a neutral linker. Another example: 我很好 (wǒ hěn hǎo), \"I am fine.\""
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says \"her friend is Korean\" (possessor + particle + thing)?",
+      "options": {
+        "A": "她朋友的是韩国人。(tā péngyou de shì Hánguó rén.)",
+        "B": "朋友她的是韩国人。(péngyou tā de shì Hánguó rén.)",
+        "C": "她是的朋友韩国人。(tā shì de péngyou Hánguó rén.)",
+        "D": "她的朋友是韩国人。(tā de péngyou shì Hánguó rén.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: the possessive particle 的 (de). The structure is possessor + 的 (de) + possessed thing, and 的 (de) is unstressed. Another example: 我的朋友是美国人 (wǒ de péngyou shì Měiguó rén), \"My friend is American.\""
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence is the correct yes/no question \"Do you go to the park (or not)?\"",
+      "options": {
+        "A": "你去不去公园？(nǐ qù bu qù gōngyuán?)",
+        "B": "你去不去公园吗？(nǐ qù bu qù gōngyuán ma?)",
+        "C": "你不去去公园？(nǐ bú qù qù gōngyuán?)",
+        "D": "你去公园不去吗？(nǐ qù gōngyuán bú qù ma?)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the affirmative-negative question (verb + 不 (bù) + verb). It already marks the sentence as a question, so it never takes a final 吗 (ma). Another example: 你吃不吃零食？(nǐ chī bu chī língshí?), \"Do you eat snacks or not?\""
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"They (all women) are all American\"?",
+      "options": {
+        "A": "她的都是美国人。(tā de dōu shì Měiguó rén.)",
+        "B": "她们都是美国人们。(tāmen dōu shì Měiguó rénmen.)",
+        "C": "她们都是美国人。(tāmen dōu shì Měiguó rén.)",
+        "D": "们她都是美国人。(men tā dōu shì Měiguó rén.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: plural pronouns with 们 (men). 们 (men) attaches to the end of a pronoun (我们 wǒmen, 你们 nǐmen, 她们 tāmen) and is not added to the noun 人 (rén) in a nationality. 都 (dōu) then sums up the plural subject. Another example: 我们都是中国人 (wǒmen dōu shì Zhōngguó rén)."
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "In speech, 他 (tā) and 她 (tā) are both pronounced tā. How does a listener normally know whether \"he\" or \"she\" is meant?",
+      "options": {
+        "A": "From a tone difference, tā versus tà",
+        "B": "From a suffix such as 们 (men) added to the pronoun",
+        "C": "From a different form of the verb",
+        "D": "From context, because only the written characters differ"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "他 (tā, \"he\") and 她 (tā, \"she\") have identical sound and tone, so spoken Chinese relies on context. The difference is visible only in writing (人 (rén) radical versus 女 (nǚ) radical). Chinese verbs do not change with gender, and 们 (men) only marks plural (他们 tāmen)."
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What is the difference between 也 (yě) and 都 (dōu)?",
+      "options": {
+        "A": "也 (yě) means \"all\" and 都 (dōu) means \"also\"",
+        "B": "也 (yě) means \"also\" and adds someone or something to a statement; 都 (dōu) means \"all\" and sums up a plural subject",
+        "C": "Both mean \"also\", but 也 (yě) is used only in questions",
+        "D": "也 (yě) goes after the verb and 都 (dōu) goes before it"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "也 (yě) adds a new subject to a shared statement (我是学生，他也是学生 (wǒ shì xuésheng, tā yě shì xuésheng), \"I am a student; he is one too\"), whereas 都 (dōu) says every member of a plural subject is covered (我们都是学生 (wǒmen dōu shì xuésheng), \"we are all students\"). Both go before the verb, and together they stack as 也都 (yě dōu)."
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner writes 他们是都老师 (tāmen shì dōu lǎoshī) for \"They are all teachers\". What is the error?",
+      "options": {
+        "A": "是 (shì) is not allowed with 老师 (lǎoshī), so it must be deleted",
+        "B": "Plural pronouns need 的 (de) before the noun",
+        "C": "都 (dōu) must come before the verb 是: 他们都是老师 (tāmen dōu shì lǎoshī)",
+        "D": "都 (dōu) must be placed at the end of the sentence"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adverbs such as 都 (dōu) go between the subject and the verb. The verb 是 (shì) is correct here because it links 他们 (tāmen) to the noun 老师 (lǎoshī, \"teacher\"). The same slip occurs with 也: 他也是老师 (tā yě shì lǎoshī), not 他是也老师 (tā shì yě lǎoshī)."
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What is the difference in meaning between 我去书店 (wǒ qù shūdiàn) and 我在书店 (wǒ zài shūdiàn)?",
+      "options": {
+        "A": "The first means \"I am at the bookstore\"; the second means \"I am going there\"",
+        "B": "The first means \"I am going to the bookstore\" (movement); the second means \"I am at the bookstore\" (location)",
+        "C": "Both mean \"I am going to the bookstore\"; 在 (zài) is only more polite",
+        "D": "The first is a question and the second is a statement"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "去 (qù) expresses movement towards a place, while 在 (zài) expresses being located at a place. With a second verb, 在 (zài) + place comes before it (我在书店看书, wǒ zài shūdiàn kàn shū, \"I read at the bookstore\")."
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which statement correctly contrasts 哪里 (nǎlǐ) and 那里 (nàlǐ)?",
+      "options": {
+        "A": "哪里 (third tone) asks \"where?\"; 那里 (fourth tone) means \"there\"",
+        "B": "哪里 (fourth tone) means \"there\"; 那里 (third tone) asks \"where?\"",
+        "C": "Both mean \"here\" and differ only in handwriting",
+        "D": "哪里 (nǎlǐ) means \"here\" and 那里 (nàlǐ) means \"where?\""
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The two words differ in tone and in the character: 哪 (nǎ, with the mouth radical 口 (kǒu), typical of question words) means \"which\" or \"where\", while 那 (nà) means \"that\". 这里 (zhèlǐ) is \"here\". Example: 车票在那里 (chēpiào zài nàlǐ), \"The ticket is over there.\""
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "The verb 看 (kàn) appears in 他去书店看书 (tā qù shūdiàn kàn shū) and 她很少看电影 (tā hěn shǎo kàn diànyǐng). Which English verbs fit best?",
+      "options": {
+        "A": "\"buy\" in the first sentence and \"eat\" in the second",
+        "B": "\"read\" in the first sentence and \"watch\" in the second",
+        "C": "\"write\" in the first sentence and \"hear\" in the second",
+        "D": "\"read\" in both, because 看 (kàn) always means \"read\""
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "看 (kàn) basically means \"to look\", and the best English verb depends on the object: 看书 (kàn shū) is \"to read\", 看电影 (kàn diànyǐng) is \"to watch a movie\". Another example: 我看你的地图 (wǒ kàn nǐ de dìtú), \"I look at your map.\""
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which statement about forming nationalities is correct?",
+      "options": {
+        "A": "Replace 国 (guó) with 人 (rén), so 中国 (Zhōngguó) becomes 中人 (zhōng rén)",
+        "B": "Add 人 (rén) to the country name, whether or not it contains 国 (guó), for example 日本 (Rìběn) gives 日本人 (Rìběn rén)",
+        "C": "Add 们 (men), so 中国 (Zhōngguó) becomes 中国们 (Zhōngguó men)",
+        "D": "Only countries whose names end in 国 (guó) can form a nationality"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The pattern is country + 人 (rén, \"person\"): 中国人 (Zhōngguó rén), 日本人 (Rìběn rén), 巴西人 (Bāxī rén). The ending 国 (guó) is common in country names (中国 (Zhōngguó), 韩国 (Hánguó), 美国 (Měiguó)) but not universal (日本 (Rìběn), 巴西 (Bāxī)), and the nationality does not change with gender or number."
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Someone asks 行李在哪里？(xíngli zài nǎlǐ?) and you answer 在那里 (zài nàlǐ). What do you tell them?",
+      "options": {
+        "A": "The luggage is here",
+        "B": "The luggage is not there",
+        "C": "The luggage is inside something",
+        "D": "The luggage is over there"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The answer replaces the question word 哪里 (nǎlǐ, \"where\") with 那里 (nàlǐ, \"over there\"), and the subject is dropped because it is obvious. Compare 在这里 (zài zhèlǐ), \"it is here\", and 不在那里 (bú zài nàlǐ), \"it is not over there\"."
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which word means \"behind\" in a sentence such as 洗手间在车站 (xǐshǒujiān zài chēzhàn) ____ (\"The restroom is behind the station\")?",
+      "options": {
+        "A": "前面 (qiánmiàn)",
+        "B": "旁边 (pángbiān)",
+        "C": "后面 (hòumiàn)",
+        "D": "外面 (wàimiàn)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "后面 (hòumiàn) means \"behind\". 前面 (qiánmiàn) is \"in front\", 旁边 (pángbiān) is \"beside\" and 外面 (wàimiàn) is \"outside\". Like 里 (lǐ) and 上 (shàng), they follow the place noun: 洗手间在车站后面 (xǐshǒujiān zài chēzhàn hòumiàn)."
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which list orders the frequency words from most to least frequent?",
+      "options": {
+        "A": "常常 (chángcháng), 总是 (zǒngshì), 很少 (hěn shǎo), 有时候 (yǒushíhou)",
+        "B": "很少 (hěn shǎo), 有时候 (yǒushíhou), 常常 (chángcháng), 总是 (zǒngshì)",
+        "C": "总是 (zǒngshì), 常常 (chángcháng), 有时候 (yǒushíhou), 很少 (hěn shǎo)",
+        "D": "有时候 (yǒushíhou), 总是 (zǒngshì), 常常 (chángcháng), 很少 (hěn shǎo)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "总是 (zǒngshì) means \"always\", 常常 (chángcháng) \"often\", 有时候 (yǒushíhou) \"sometimes\" and 很少 (hěn shǎo) \"rarely\"; negating with 不 (bù) gives \"not\" at the lowest end. All of them stand between the subject and the verb, for example 我总是在家吃 (wǒ zǒngshì zài jiā chī), \"I always eat at home.\""
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What does 我不太喜欢体育 (wǒ bú tài xǐhuan tǐyù) express?",
+      "options": {
+        "A": "I do not like physical education very much (a mild dislike)",
+        "B": "I like physical education very much",
+        "C": "I hate physical education",
+        "D": "I only like physical education"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "不太 (bú tài) softens a negative to \"not very\". A plain negative is 我不喜欢体育 (wǒ bù xǐhuan tǐyù), and a stronger dislike is 我很不喜欢体育 (wǒ hěn bù xǐhuan tǐyù). Note that 不 is bú before the fourth-tone 太 (tài), but bù before 喜欢 (xǐhuan)."
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Your friend asks 你的朋友也是中国人吗？(nǐ de péngyou yě shì Zhōngguó rén ma?). Your friend is in fact Japanese. What is the best answer?",
+      "options": {
+        "A": "是，他是日本人。(shì, tā shì Rìběn rén.)",
+        "B": "不在，他是日本人。(bú zài, tā shì Rìběn rén.)",
+        "C": "也，他是日本人。(yě, tā shì Rìběn rén.)",
+        "D": "不是，他是日本人。(bú shì, tā shì Rìběn rén.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Short answers repeat the verb of the question: 是 (shì, yes) or 不是 (bú shì, no). 不在 (bú zài) denies a location, not an identity, and 也 (yě) alone is not an answer. Example: 你是老师吗？不是，我是学生 (nǐ shì lǎoshī ma? bú shì, wǒ shì xuésheng)."
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Someone asks 手机在这里吗？(shǒujī zài zhèlǐ ma?) and the phone is not there. What is the correct short answer?",
+      "options": {
+        "A": "不是。(bú shì.)",
+        "B": "不在。(bú zài.)",
+        "C": "不去。(bú qù.)",
+        "D": "不想。(bù xiǎng.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The question uses the verb 在 (zài, \"to be located\"), so the short answer repeats it: 在 (yes) or 不在 (no). 不是 (bú shì) would deny an identity, 不去 (\"not go\") and 不想 (\"not want\") change the verb. Example: 钱包在包里吗？不在。(qiánbāo zài bāo lǐ ma? bú zài.)"
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which word means \"university\" (the institution, not the student)?",
+      "options": {
+        "A": "学校 (xuéxiào)",
+        "B": "大学 (dàxué)",
+        "C": "大学生 (dàxuésheng)",
+        "D": "老师 (lǎoshī)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "大学 (dàxué, \"big study\") is the university; 学校 (xuéxiào) is a school in general; 大学生 (dàxuésheng) adds 生 (shēng, \"student\") and means a university student; 老师 (lǎoshī) is a teacher. Compare 他是大学生 (tā shì dàxuésheng), \"He is a university student.\""
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which sentence means \"I want to go to the park\" rather than \"I like going to the park\"?",
+      "options": {
+        "A": "我喜欢去公园。(wǒ xǐhuan qù gōngyuán.)",
+        "B": "我想去公园。(wǒ xiǎng qù gōngyuán.)",
+        "C": "我常常去公园。(wǒ chángcháng qù gōngyuán.)",
+        "D": "我在公园。(wǒ zài gōngyuán.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "想 (xiǎng) means \"want to\" or \"would like to\" and comes before the main verb; 喜欢 (xǐhuan) expresses liking; 常常 (chángcháng) means \"often\"; 在 (zài) states a location. Its negative is 不想 (bù xiǎng): 我不想去超市 (wǒ bù xiǎng qù chāoshì)."
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "In 一起 (yìqǐ, \"together\"), why is 一 (yī) marked with the fourth tone instead of the usual yī?",
+      "options": {
+        "A": "Because 一 (yī) changes to yì before a first, second or third tone; here qǐ has the third tone",
+        "B": "Because the line contains a typing error and it should be yī",
+        "C": "Because 一 (yī) always changes to the fourth tone after a verb",
+        "D": "Because 一 (yī) changes to yí before every tone"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The number 一 (yī) is first tone on its own, but it becomes yì before syllables of the first, second and third tones (一起 yìqǐ, 一天 yì tiān) and yí before the fourth tone (一个 yí gè). Similar tone changes exist for 不 (bù/bú)."
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n我的手机不见了。我不知道在哪里。\nwǒ de shǒujī bú jiàn le. wǒ bù zhīdào zài nǎlǐ.\n```",
+      "options": {
+        "A": "My phone is not here. I do not know where I am.",
+        "B": "I do not see my phone. I do not want to go there.",
+        "C": "My phone is missing. I do not know where it is.",
+        "D": "My phone is not mine. I do not know whose it is."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "不见了 (bú jiàn le) means \"has disappeared / is missing\": 见 (jiàn) is fourth tone, so 不 becomes bú, and sentence-final 了 (le) signals a new situation. 不知道 (bù zhīdào) is \"do not know\" and stays bù because 知 (zhī) is first tone. 哪里 (nǎlǐ) is \"where\"."
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the correctly toned pair for the blanks: \"She does not like physical education much, and she does not eat snacks.\"\n```text\nTā ____ tài xǐhuan tǐyù, yě ____ chī língshí.\n```",
+      "options": {
+        "A": "bú / bù",
+        "B": "bù / bù",
+        "C": "bú / bú",
+        "D": "bù / bú"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "不 (bù) changes to bú only before a fourth-tone syllable. 太 (tài) is fourth tone, so 不太 is bú tài; 吃 (chī) is first tone, so 不吃 stays bù chī. Written with characters: 她不太喜欢体育，也不吃零食 (tā bú tài xǐhuan tǐyù, yě bù chī língshí)."
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Fill both blanks to say \"I go to the bookstore together with my friend.\"\n```text\n我 ____ 朋友 ____ 去书店。\nwǒ ____ péngyou ____ qù shūdiàn.\n```",
+      "options": {
+        "A": "一起 (yìqǐ) / 和 (hé)",
+        "B": "和 (hé) / 一起 (yìqǐ)",
+        "C": "的 (de) / 也 (yě)",
+        "D": "在 (zài) / 都 (dōu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The companion is introduced with 和 (hé, \"with / and\") directly after the subject, and 一起 (yìqǐ, \"together\") follows it, right before the verb: 我和朋友一起去书店 (wǒ hé péngyou yìqǐ qù shūdiàn). Another example: 她和妈妈一起买菜 (tā hé māma yìqǐ mǎi cài)."
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Fill both blanks with the right measure words: \"I want to buy a ticket and drink a cup of tea.\"\n```text\n我想买一 ____ 车票，再喝一 ____ 茶。\nwǒ xiǎng mǎi yì ____ chēpiào, zài hē yì ____ chá.\n```",
+      "options": {
+        "A": "杯 (bēi) / 张 (zhāng)",
+        "B": "本 (běn) / 杯 (bēi)",
+        "C": "张 (zhāng) / 本 (běn)",
+        "D": "张 (zhāng) / 杯 (bēi)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Each noun is counted with a fitting measure word: 张 (zhāng) for flat things such as tickets and maps, 杯 (bēi) for cups of a drink, 本 (běn) for books. Learn the pair together: 一张车票 (yì zhāng chēpiào), 一杯茶 (yì bēi chá)."
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Rebuild the sentence \"He drinks tea at the café\" from these scrambled words.\n```text\n在 (zài) / 咖啡馆 (kāfēiguǎn) / 他 (tā) / 喝茶 (hē chá)\nSentence: ____\n```",
+      "options": {
+        "A": "他喝茶在咖啡馆。(tā hē chá zài kāfēiguǎn.)",
+        "B": "在他咖啡馆喝茶。(zài tā kāfēiguǎn hē chá.)",
+        "C": "他在咖啡馆喝茶。(tā zài kāfēiguǎn hē chá.)",
+        "D": "咖啡馆他喝茶在。(kāfēiguǎn tā hē chá zài.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The order is subject + 在 (zài) + place + verb phrase: the place phrase 在咖啡馆 (zài kāfēiguǎn) must come before the action 喝茶 (hē chá). Another example: 我在超市买菜 (wǒ zài chāoshì mǎi cài), \"I buy food at the supermarket.\""
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence with the right words: \"The second platform is over there.\"\n```text\n____ 二站台 ____ 那里。\n____ èr zhàntái ____ nàlǐ.\n```",
+      "options": {
+        "A": "两 (liǎng) / 在 (zài)",
+        "B": "第 (dì) / 有 (yǒu)",
+        "C": "二 (èr) / 去 (qù)",
+        "D": "第 (dì) / 在 (zài)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Ordinals are formed with 第 (dì) + number, and \"second\" keeps 二 (èr): 第二 (dì'èr). Location is expressed with 在 (zài): 第二站台在那里 (dì'èr zhàntái zài nàlǐ). Another example: 第一站台在这里 (dìyī zhàntái zài zhèlǐ), \"The first platform is here.\""
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n这是我的护照，那不是我的手机。\nzhè shì wǒ de hùzhào, nà bú shì wǒ de shǒujī.\n```",
+      "options": {
+        "A": "This is my phone; that is not my passport.",
+        "B": "This is not my passport; that is my phone.",
+        "C": "My passport is here; my phone is not there.",
+        "D": "This is my passport; that is not my phone."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "这是 (zhè shì) and 那是 (nà shì) introduce \"this is / that is\"; the negative is 不是 (bú shì), with 不 (bù) turning into bú before the fourth tone. 我的护照 (wǒ de hùzhào) is \"my passport\" (possessor + 的 (de) + thing). The sentence identifies objects, so it uses 是 (shì) and not 在 (zài)."
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Fill both blanks: \"They all have music class, and I do too.\"\n```text\n他们 ____ 上音乐课，我 ____ 上。\ntāmen ____ shàng yīnyuè kè, wǒ ____ shàng.\n```",
+      "options": {
+        "A": "也 (yě) / 都 (dōu)",
+        "B": "都 (dōu) / 都 (dōu)",
+        "C": "都 (dōu) / 也 (yě)",
+        "D": "也 (yě) / 也 (yě)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "都 (dōu, \"all\") fits the plural subject 他们 (tāmen); 也 (yě, \"also\") fits the singular 我 (wǒ), adding the speaker to the group. 我都上 (wǒ dōu shàng) would be wrong because 都 (dōu) cannot sum up a single person. Another example: 我们都是学生，他也是学生 (wǒmen dōu shì xuésheng, tā yě shì xuésheng)."
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nTranslation: ____\n他们也都喜欢数学。\ntāmen yě dōu xǐhuan shùxué.\n```",
+      "options": {
+        "A": "They also all like mathematics.",
+        "B": "None of them likes mathematics.",
+        "C": "Not all of them like mathematics.",
+        "D": "Only they like mathematics."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Stacked adverbs follow the fixed order 也 (yě, \"also\") then 都 (dōu, \"all\"): 也都 (yě dōu) means \"also all\". The sentence adds this group to a previous group that already likes mathematics (数学, shùxué). A reversed order 都也 (dōu yě) is not used."
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence so that it means \"OK, I will help you look for it.\"\n```text\n好吧，我 ____ 你找。\nhǎo ba, wǒ ____ nǐ zhǎo.\n```",
+      "options": {
+        "A": "和 (hé)",
+        "B": "在 (zài)",
+        "C": "想 (xiǎng)",
+        "D": "帮 (bāng)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "帮 (bāng) means \"to help\" and the structure is 帮 (bāng) + person + verb: 我帮你找 (wǒ bāng nǐ zhǎo), \"I help you look for it\". 好吧 (hǎo ba) is \"OK, then\", where 吧 (ba) softens the agreement. Another example: 我帮你买 (wǒ bāng nǐ mǎi), \"I will buy it for you.\""
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{Time} + S + \\text{hé} + \\text{person} + \\text{yìqǐ} + \\text{qù} + \\text{place} + V + O$ to say \"Tomorrow my friend and I are going to the cinema to watch a movie.\" Which sentence fits the formula?",
+      "options": {
+        "A": "明天我一起和朋友去电影院看电影。(míngtiān wǒ yìqǐ hé péngyou qù diànyǐngyuàn kàn diànyǐng.)",
+        "B": "明天我和朋友一起去看电影电影院。(míngtiān wǒ hé péngyou yìqǐ qù kàn diànyǐng diànyǐngyuàn.)",
+        "C": "明天我和朋友一起去电影院看电影。(míngtiān wǒ hé péngyou yìqǐ qù diànyǐngyuàn kàn diànyǐng.)",
+        "D": "我和朋友一起去电影院明天看电影。(wǒ hé péngyou yìqǐ qù diànyǐngyuàn míngtiān kàn diànyǐng.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Chinese stacks information before the verb: time first, then the subject, the companion phrase with 一起 (yìqǐ), then the movement verb 去 (qù) + place and finally the purpose verb + object. Time words never follow the place, and 一起 (yìqǐ) never precedes 和 (hé)."
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "The rule is $\\text{bù} + T_4 \\rightarrow \\text{bú}$, and 不 stays bù before tones 1, 2 and 3. How many of these five items are written with bú: 不是 (shì), 不想 (xiǎng), 不去 (qù), 不吃 (chī), 不太 (tài)?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Only syllables with the fourth tone trigger bú: 是 (shì), 去 (qù) and 太 (tài), so bú shì, bú qù and bú tài. 想 (xiǎng) is third tone and 吃 (chī) is first tone, so those stay bù xiǎng and bù chī. The count is 3."
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Apply $T_3 + T_3 \\rightarrow T_2 + T_3$ (the first of two third tones is raised). Which of these words contains such a sequence at its start?",
+      "options": {
+        "A": "洗手间 (xǐshǒujiān)",
+        "B": "火车站 (huǒchēzhàn)",
+        "C": "钱包 (qiánbāo)",
+        "D": "车票 (chēpiào)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "洗 (xǐ) and 手 (shǒu) are both third tone, so 洗手间 (xǐshǒujiān) is spoken xí shǒujiān although the pinyin stays xǐshǒujiān. 火车站 (huǒchēzhàn) begins with third tone but is followed by a first tone, 钱包 (qiánbāo) is second + first, and 车票 (chēpiào) is first + fourth, so none of them triggers the change."
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build the sentence with $\\text{possessor} + \\text{de} + \\text{thing} + \\text{bú} + \\text{zài} + \\text{place} + \\text{shàng}$ for \"Your key is not on the table\" (key 钥匙 yàoshi, table 桌子 zhuōzi).",
+      "options": {
+        "A": "你钥匙的不在桌子上。(nǐ yàoshi de bú zài zhuōzi shàng.)",
+        "B": "你的钥匙不在桌子上。(nǐ de yàoshi bú zài zhuōzi shàng.)",
+        "C": "你的钥匙在不桌子上。(nǐ de yàoshi zài bù zhuōzi shàng.)",
+        "D": "你的钥匙不在上桌子。(nǐ de yàoshi bú zài shàng zhuōzi.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The possessive 的 (de) follows the possessor, the negation 不 (bù) sits right before 在 (bú because of the fourth tone), and 上 (shàng) comes after the place noun. Another example: 他的手机不在包里 (tā de shǒujī bú zài bāo lǐ)."
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Ask a question by replacing the answer with a question word: $\\text{answer slot} \\rightarrow \\text{question word in the same slot}$. The statement is 他去书店看书 (tā qù shūdiàn kàn shū), \"He goes to the bookstore to read\". Which question asks where he goes to read?",
+      "options": {
+        "A": "他哪儿去看书？(tā nǎr qù kàn shū?)",
+        "B": "他去书店看什么？(tā qù shūdiàn kàn shénme?)",
+        "C": "他去哪儿看书吗？(tā qù nǎr kàn shū ma?)",
+        "D": "他去哪儿看书？(tā qù nǎr kàn shū?)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The question word takes exactly the position of the information being asked about, so 书店 (shūdiàn) is replaced by 哪儿 (nǎr): 他去哪儿看书 (tā qù nǎr kàn shū). Option 2 asks what he reads, and adding 吗 (ma) to a sentence that already has a question word is not allowed. Another example: 你在哪儿吃？(nǐ zài nǎr chī?)"
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{specific word} \\rightarrow \\text{shénme}$ (the question word takes the slot of the missing information). The statement is 她上音乐课 (tā shàng yīnyuè kè), \"She has music class\". Which question asks what class she has?",
+      "options": {
+        "A": "她上什么课吗？(tā shàng shénme kè ma?)",
+        "B": "她什么上课？(tā shénme shàng kè?)",
+        "C": "她上什么课？(tā shàng shénme kè?)",
+        "D": "她上音乐什么？(tā shàng yīnyuè shénme?)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "什么 (shénme, \"what\") replaces the specific word 音乐 (yīnyuè) and stays in the same position before 课 (kè): 她上什么课 (tā shàng shénme kè)？ No 吗 (ma) is used. Another example: 你喜欢什么课？(nǐ xǐhuan shénme kè?), \"Which class do you like?\""
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "The apostrophe rule: when a syllable beginning with a, o or e follows another syllable, it is separated by an apostrophe, $\\text{dì} + \\text{èr} \\rightarrow ?$. How is 第二 (\"second\") spelled in pinyin?",
+      "options": {
+        "A": "dìèr",
+        "B": "dìer",
+        "C": "dièr",
+        "D": "dì'èr"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Without the apostrophe, readers could be unsure where the syllable boundary falls; in dì'èr the mark makes clear that the syllables are dì and èr, not di + er or die + r. Compare 第一 (dìyī), which needs no apostrophe, and 女儿 (nǚ'ér), \"daughter\", which does."
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{number} + \\text{measure word} + \\text{noun}$ twice to say \"I want to buy two tickets and one map\" (地图 dìtú).",
+      "options": {
+        "A": "我要买两张车票和一张地图。(wǒ yào mǎi liǎng zhāng chēpiào hé yì zhāng dìtú.)",
+        "B": "我要买二张车票和一张地图。(wǒ yào mǎi èr zhāng chēpiào hé yì zhāng dìtú.)",
+        "C": "我要买两张车票和一杯地图。(wǒ yào mǎi liǎng zhāng chēpiào hé yì bēi dìtú.)",
+        "D": "我要买两车票张和一地图张。(wǒ yào mǎi liǎng chēpiào zhāng hé yì dìtú zhāng.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Each noun gets its own number + measure word block, both with 张 (zhāng) for flat things; \"two\" is 两 (liǎng) before a measure word, and 和 (hé) links the two noun phrases. 杯 (bēi) counts cups, not maps."
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Which formula fits \"She does not like history very much\": $S + \\text{bú tài} + V + O$?",
+      "options": {
+        "A": "她不喜欢太历史。(tā bù xǐhuan tài lìshǐ.)",
+        "B": "她喜欢不太历史。(tā xǐhuan bú tài lìshǐ.)",
+        "C": "不太她喜欢历史。(bú tài tā xǐhuan lìshǐ.)",
+        "D": "她不太喜欢历史。(tā bú tài xǐhuan lìshǐ.)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "不太 (bú tài, \"not very\") modifies the verb and goes directly in front of 喜欢 (xǐhuan), after the subject. 不 becomes bú because 太 (tài) has the fourth tone. Another example: 我不太想去 (wǒ bú tài xiǎng qù), \"I do not much want to go.\""
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Compounds are built from meaningful parts: 飞机 (fēijī) = 飞 (fēi, \"fly\") + 机 (jī, \"machine\"), \"airplane\". Using $\\text{jī (machine)} + \\text{chǎng (field)}$, what does 机场 (jīchǎng) mean?",
+      "options": {
+        "A": "Train station",
+        "B": "Airport",
+        "C": "Mobile phone",
+        "D": "Hotel"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A \"field for flying machines\" is an airport: 机场 (jīchǎng). The same morpheme 机 (jī) appears in 手机 (shǒujī, \"hand machine\" = mobile phone), which shows how a few building-block characters multiply vocabulary. Example: 机场在哪里？(jīchǎng zài nǎlǐ?), \"Where is the airport?\""
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "In the reply \"好吧，我帮你找。\" (hǎo ba, wǒ bāng nǐ zhǎo.), what does the particle 吧 (ba) do in 好吧 (hǎo ba)?",
+      "options": {
+        "A": "It turns the sentence into a yes/no question",
+        "B": "It softens the statement and signals a concession, roughly \"OK, then\"",
+        "C": "It marks the action as finished",
+        "D": "It makes the subject plural"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the sentence-final particle 吧 (ba). It softens a statement, suggestion or agreement (好吧 (hǎo ba) \"all right, then\"; 我们走吧 wǒmen zǒu ba, \"let's go\"). A yes/no question is built with 吗 (ma), completed actions are marked differently, and plurals use 们 (men)."
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "In \"我的手机不见了。\" (wǒ de shǒujī bú jiàn le.), what does the final 了 (le) signal?",
+      "options": {
+        "A": "A new situation or change of state: the phone has now disappeared",
+        "B": "That the sentence is a question",
+        "C": "That the phone belongs to someone else",
+        "D": "That the speaker wants to find the phone"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: sentence-final 了 (le) for a change of state. It reports that something has become the case, so 手机不见了 (shǒujī bú jiàn le) means \"the phone is (now) missing\". Another example: 我不想去了 (wǒ bù xiǎng qù le), \"I do not want to go any more.\""
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"He likes music, and he also likes history\"?",
+      "options": {
+        "A": "他喜欢音乐，也喜欢历史。(tā xǐhuan yīnyuè, yě xǐhuan lìshǐ.)",
+        "B": "他喜欢音乐，喜欢也历史。(tā xǐhuan yīnyuè, xǐhuan yě lìshǐ.)",
+        "C": "他喜欢音乐，喜欢历史也。(tā xǐhuan yīnyuè, xǐhuan lìshǐ yě.)",
+        "D": "他喜欢也音乐，喜欢历史。(tā xǐhuan yě yīnyuè, xǐhuan lìshǐ.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the adverb 也 (yě) in a second clause. When the subject is dropped in the second clause, 也 (yě) still goes directly before the verb it modifies: ...，也喜欢历史 (yě xǐhuan lìshǐ). It can never follow the verb or sit between the verb and its object. Another example: 我喝茶，也喝咖啡 (wǒ hē chá, yě hē kāfēi)."
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I am a student and he is a teacher\"?",
+      "options": {
+        "A": "我是学生和他是老师。(wǒ shì xuésheng hé tā shì lǎoshī.)",
+        "B": "我和是学生他是老师。(wǒ hé shì xuésheng tā shì lǎoshī.)",
+        "C": "我是学生，他是老师。(wǒ shì xuésheng, tā shì lǎoshī.)",
+        "D": "我是学生和他是老师吗。(wǒ shì xuésheng hé tā shì lǎoshī ma.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: 和 (hé) joins nouns or pronouns, not whole clauses. Two clauses are simply placed side by side, separated by a comma. 和 (hé) works in 我喜欢数学和音乐 (wǒ xǐhuan shùxué hé yīnyuè), \"I like mathematics and music\", where it links two nouns."
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the best translation of \"我在找我的手机。\" (wǒ zài zhǎo wǒ de shǒujī.)",
+      "options": {
+        "A": "I am at my phone and I search.",
+        "B": "I am looking for my phone.",
+        "C": "My phone is at the place where I search.",
+        "D": "I will look for my phone tomorrow."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: 在 (zài) before a verb as a progressive marker. When no place follows, 在 (zài) + verb means the action is in progress: 在找 (zài zhǎo), \"is looking for\". Only when a place follows (在书店看书 (zài shūdiàn kàn shū)) does 在 (zài) mean \"at\". Another example: 她在吃饭 (tā zài chī fàn), \"She is eating.\""
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"The key is on the table, and the ticket is in the wallet\"?",
+      "options": {
+        "A": "钥匙在桌子上，车票在钱包里。(yàoshi zài zhuōzi shàng, chēpiào zài qiánbāo lǐ.)",
+        "B": "钥匙在桌子里，车票在钱包上。(yàoshi zài zhuōzi lǐ, chēpiào zài qiánbāo shàng.)",
+        "C": "钥匙在上桌子，车票在里钱包。(yàoshi zài shàng zhuōzi, chēpiào zài lǐ qiánbāo.)",
+        "D": "钥匙桌子上在，车票钱包里在。(yàoshi zhuōzi shàng zài, chēpiào qiánbāo lǐ zài.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: localizers (position words) 上 (shàng) and 里 (lǐ). They follow the noun: 在 (zài) + place + 上 (shàng)/里 (lǐ), and the choice depends on the physical relation (surface versus container). Swapping them changes the meaning to \"inside the table\" and \"on the wallet\"; putting them first is ungrammatical."
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I want to drink three cups of water\"?",
+      "options": {
+        "A": "我想喝三杯水。(wǒ xiǎng hē sān bēi shuǐ.)",
+        "B": "我想喝三水杯。(wǒ xiǎng hē sān shuǐ bēi.)",
+        "C": "我想喝杯三水。(wǒ xiǎng hē bēi sān shuǐ.)",
+        "D": "我想三喝杯水。(wǒ xiǎng sān hē bēi shuǐ.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: measure words. A number cannot sit directly before a noun; the pattern is number + measure word + noun, with 杯 (bēi) for cups of liquid. Here 想 (xiǎng) also precedes the verb 喝 (hē). Another example: 一张地图 (yì zhāng dìtú), \"a map\"."
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "A group contains two men and three women. Which pronoun is normally used for \"they\" when saying \"They are all students\"?",
+      "options": {
+        "A": "她们 (tāmen, women only)",
+        "B": "它们 (tāmen, things only)",
+        "C": "他 (tā, singular)",
+        "D": "他们 (tāmen)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: the plural pronoun 他们 (tāmen) is the default for a mixed or unspecified group; 她们 (tāmen) is used only for groups made up entirely of women, and 它们 (tāmen) for things or animals. All three are pronounced tāmen, and only the written character differs."
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence is the polite way to ask a stranger \"Excuse me, where is the airport?\"",
+      "options": {
+        "A": "请问，机场在哪里？(qǐngwèn, jīchǎng zài nǎlǐ?)",
+        "B": "机场请问在哪里？(jīchǎng qǐngwèn zài nǎlǐ?)",
+        "C": "请问，机场在哪里吗？(qǐngwèn, jīchǎng zài nǎlǐ ma?)",
+        "D": "请问，在哪里机场？(qǐngwèn, zài nǎlǐ jīchǎng?)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the polite opener 请问 (qǐngwèn, \"may I ask\") placed at the very start, followed by a normal question 机场在哪里 (jīchǎng zài nǎlǐ). Because 哪里 (nǎlǐ) is a question word, no 吗 (ma) is added. Another example: 请问，洗手间在哪里？(qǐngwèn, xǐshǒujiān zài nǎlǐ?)"
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Someone asks \"你的车票在哪里？\" (nǐ de chēpiào zài nǎlǐ?). Which is the correct short answer for \"It is in my phone\"?",
+      "options": {
+        "A": "是手机里。(shì shǒujī lǐ.)",
+        "B": "手机里在。(shǒujī lǐ zài.)",
+        "C": "在手机里。(zài shǒujī lǐ.)",
+        "D": "在里手机。(zài lǐ shǒujī.)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: answering a location question with 在 (zài) + place + position word. The subject is dropped because it is already known, and the verb 在 (zài) is kept. 是 (shì) would identify instead of locating. Another example: 在桌子上 (zài zhuōzi shàng), \"On the table.\""
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"She wants to eat snacks at the supermarket\"?",
+      "options": {
+        "A": "她想在超市吃零食。(tā xiǎng zài chāoshì chī língshí.)",
+        "B": "她在想超市吃零食。(tā zài xiǎng chāoshì chī língshí.)",
+        "C": "她吃想在超市零食。(tā chī xiǎng zài chāoshì língshí.)",
+        "D": "她想吃在超市零食。(tā xiǎng chī zài chāoshì língshí.)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: the modal verb 想 (xiǎng, \"want to\") comes before the whole verb phrase, and the phrase itself keeps its order 在 (zài) + place + verb + object. Putting 在 (zài) directly after the subject (她在想 (tā zài xiǎng)...) would turn 想 (xiǎng) into \"is thinking\". Another example: 我想在家看书 (wǒ xiǎng zài jiā kàn shū)."
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I did not go to the supermarket yesterday\" (a single completed event)?",
+      "options": {
+        "A": "我昨天不去超市。(wǒ zuótiān bú qù chāoshì.)",
+        "B": "我昨天没去超市。(wǒ zuótiān méi qù chāoshì.)",
+        "C": "我没昨天去超市。(wǒ méi zuótiān qù chāoshì.)",
+        "D": "我昨天去没超市。(wǒ zuótiān qù méi chāoshì.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: negation with 没 (méi) versus 不 (bù). 没 (méi) negates events that did not happen (completed or past), while 不 (bù) negates habits, intentions and the future: 我明天不去超市 (wǒ míngtiān bú qù chāoshì), \"I will not go tomorrow.\" Both stand directly in front of the verb."
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says \"the second platform\"?",
+      "options": {
+        "A": "第两站台 (dì liǎng zhàntái)",
+        "B": "二第站台 (èr dì zhàntái)",
+        "C": "第二站台 (dì'èr zhàntái)",
+        "D": "站台第二的 (zhàntái dì'èr de)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: ordinal numbers. 第 (dì) goes before the number to form an ordinal, and the number \"two\" is 二 (èr) in ordinals; 两 (liǎng) is reserved for counting before measure words (两张车票 (liǎng zhāng chēpiào)). Another example: 第一站台 (dìyī zhàntái), \"the first platform\"."
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"My country is Brazil\" (it identifies the country)?",
+      "options": {
+        "A": "我的国家在巴西。(wǒ de guójiā zài Bāxī.)",
+        "B": "我的国家是巴西。(wǒ de guójiā shì Bāxī.)",
+        "C": "我的国家是巴西人。(wǒ de guójiā shì Bāxī rén.)",
+        "D": "我国家的是巴西。(wǒ guójiā de shì Bāxī.)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: 是 (shì) for identity with a country noun. 是 (shì) equates two nouns, 巴西 (Bāxī) names the country, while 巴西人 (Bāxī rén) means a Brazilian person; 在 (zài) would say that the country is located in Brazil. Another example: 美国是我的国家 (Měiguó shì wǒ de guójiā)."
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which reading strategy best helps you distinguish 哪 (nǎ, \"which / where\") from 那 (nà, \"that\")?",
+      "options": {
+        "A": "Count the strokes, because 哪 (nǎ) always has more strokes than the sentence needs",
+        "B": "Notice the mouth radical 口 (kǒu) in 哪 (nǎ), typical of question words, and check whether the slot calls for a question",
+        "C": "Treat them as interchangeable since both are pronounced the same",
+        "D": "Look at whether the sentence contains 们 (men)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "哪 (nǎ, third tone) belongs to the question-word family (哪里 nǎlǐ, 哪儿 nǎr, 哪国 nǎ guó) and has the mouth radical 口 (kǒu), while 那 (nà, fourth tone) is the demonstrative \"that\" (那里 nàlǐ, \"there\"). Tone and radical together prevent the mix-up."
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Portuguese speaker worries about conjugating 去 (qù, \"to go\") for each person and tense. Which statement is correct?",
+      "options": {
+        "A": "去 (qù) adds a suffix for the third person, as in English \"goes\"",
+        "B": "去 (qù) takes 们 (men) when the subject is plural, giving 去们 (qù men)",
+        "C": "去 (qù) changes its tone by the gender of the subject",
+        "D": "去 (qù) stays the same for every person (我去 (wǒ qù), 她去 (tā qù), 他们去 (tāmen qù)); time is shown by words such as 今天 (jīntiān) or 明天 (míngtiān)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Chinese verbs are not conjugated for person, number or gender. Meaning of time comes from time words (今天 jīntiān, \"today\"; 明天 míngtiān, \"tomorrow\") and particles such as 了 (le). Example: 我去超市 (wǒ qù chāoshì), 她去超市 (tā qù chāoshì), 他们去超市 (tāmen qù chāoshì) use identical verbs."
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which practice routine best fixes the choice between bù and bú?",
+      "options": {
+        "A": "Always write bú, since it is the more common spelling",
+        "B": "Memorize bú only for the word 是 (shì) and use bù everywhere else",
+        "C": "Memorize the rule by the tone of the next syllable and drill contrasting pairs such as 不是 (bú shì) / 不去 (bú qù) against 不吃 (bù chī) / 不想 (bù xiǎng)",
+        "D": "Ignore the change, because native speakers do not use it"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "不 is bù by default and becomes bú before a fourth-tone syllable (不是 bú shì, 不去 bú qù, 不太 bú tài), but stays bù before tones 1, 2 and 3 (不吃 bù chī, 不想 bù xiǎng). Drilling minimal pairs trains the ear and the rule together."
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner pronounces 你好 (nǐ hǎo) with two full dipping tones and sounds stilted. What is the best correction?",
+      "options": {
+        "A": "Drop the tone of the second syllable completely (nǐ hao)",
+        "B": "Change the written pinyin to ní hǎo",
+        "C": "Raise the first syllable like a second tone (ní hǎo) while still writing nǐ hǎo",
+        "D": "Say both syllables with the first tone"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Third-tone sandhi: when two third tones meet, the first one is spoken as a rising second tone, but the standard spelling keeps the original tone marks. This is why a native speaker says ní hǎo even though dictionaries print nǐ hǎo. Another example: 很好 (hěn hǎo) is spoken hén hǎo."
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "In which situation is saying 我也是中国人 (wǒ yě shì Zhōngguó rén) natural?",
+      "options": {
+        "A": "As the very first sentence when introducing yourself to a group",
+        "B": "When you want to say you are not Chinese",
+        "C": "Right after someone else has said they are Chinese, and you are Chinese too",
+        "D": "When asking someone else if they are Chinese"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "也 (yě, \"also\") only makes sense in relation to a previous statement: someone is already known to share the property. In a first introduction you say 我是中国人 (wǒ shì Zhōngguó rén). Another example: A: 我是韩国人 (wǒ shì Hánguó rén)。 B: 我也是韩国人 (wǒ yě shì Hánguó rén)."
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which question would be naturally answered with 我在书店。(wǒ zài shūdiàn.)?",
+      "options": {
+        "A": "你去哪儿？(nǐ qù nǎr?)",
+        "B": "你是哪国人？(nǐ shì nǎ guó rén?)",
+        "C": "你喜欢什么课？(nǐ xǐhuan shénme kè?)",
+        "D": "你在哪儿？(nǐ zài nǎr?)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "我在书店 (wǒ zài shūdiàn) states a location, so the matching question asks where you are: 你在哪儿 (nǐ zài nǎr)？ 你去哪儿 (nǐ qù nǎr)？ asks about a destination (answer: 我去书店 (wǒ qù shūdiàn)), 哪国人 (nǎ guó rén) asks about nationality and 什么课 (shénme kè) about a class. Tracking 在 (zài) versus 去 (qù) avoids the most common mix-up with places."
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Why does a Chinese question that contains a question word, such as 你想吃什么？(nǐ xiǎng chī shénme?), not end with 吗 (ma)?",
+      "options": {
+        "A": "吗 (ma) may only follow verbs of motion",
+        "B": "吗 (ma) is reserved for very formal speech",
+        "C": "The question word already marks the sentence as a question and stands for the missing information, while 吗 (ma) turns a complete statement into a yes/no question",
+        "D": "A question word must always be last, so there is no room for 吗 (ma)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Two different question strategies: (a) statement + 吗 (ma), e.g. 你想吃零食吗？ (nǐ xiǎng chī língshí ma?), a yes/no question, and (b) a question word in the slot of the unknown information. Combining them is redundant and wrong, as in the errors 你去哪儿吗 (nǐ qù nǎr ma) or 你喜欢什么课吗 (nǐ xǐhuan shénme kè ma)."
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You know that 巴西人 (Bāxī rén) means \"a Brazilian\". Extending the same pattern to a city, how do you say \"a person from Beijing\" (北京 Běijīng)?",
+      "options": {
+        "A": "北京国人 (Běijīng guó rén)",
+        "B": "北京人 (Běijīng rén)",
+        "C": "人北京 (rén Běijīng)",
+        "D": "北京们 (Běijīngmen)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The pattern place + 人 (rén, \"person\") generalizes beyond countries: 北京人 (Běijīng rén), 上海人 (Shànghǎi rén). 国 (guó) is part of some country names only, 们 (men) pluralizes people pronouns, and the head noun 人 (rén) always comes last."
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which slot order is the safest when building a long sentence such as \"Tomorrow I go to the cinema with a friend to see a movie\"?",
+      "options": {
+        "A": "Subject, action and object, place, time, companion",
+        "B": "Place, time, subject, companion, action",
+        "C": "Companion, action, subject, time, place",
+        "D": "Time, subject, companion with 一起 (yìqǐ), 去 (qù) + place, then the action and object"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Chinese tends to put context before the main verb: time and subject first, then manner and companion phrases, then 去 (qù) + place, and finally the action and object. Result: 明天我和朋友一起去电影院看电影 (míngtiān wǒ hé péngyou yìqǐ qù diànyǐngyuàn kàn diànyǐng). Trailing time or place phrases are usually wrong."
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which is the best strategy for learning measure words such as 张 (zhāng) and 杯 (bēi)?",
+      "options": {
+        "A": "Learn each noun together with its measure word as a chunk, for example 一张车票 (yì zhāng chēpiào) and 一杯茶 (yì bēi chá)",
+        "B": "Use 张 (zhāng) for every noun, since it is the universal measure word",
+        "C": "Skip measure words, because a number can go directly before any noun",
+        "D": "Memorize a list of measure words without any nouns"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Measure words depend on the noun (张 (zhāng) for flat objects such as tickets and maps, 杯 (bēi) for cups of drinks, 本 (běn) for books), so they are best stored in chunks: 一张车票 (yì zhāng chēpiào), 一杯茶 (yì bēi chá). A number cannot normally go directly in front of a noun."
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "In which situation is the opener 请问 (qǐngwèn, \"may I ask\") appropriate?",
+      "options": {
+        "A": "To thank someone after receiving help",
+        "B": "Before asking a stranger for information, for example where the station is",
+        "C": "To say goodbye politely",
+        "D": "To answer \"yes\" to a question"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "请问 (qǐngwèn) literally means \"please ask / may I ask\" and introduces a polite question to someone you do not know. Thanks is 谢谢 (xièxie), goodbye is 再见 (zàijiàn), and \"yes\" repeats the verb or uses 是 (shì). Example: 请问，火车站在哪里？(qǐngwèn, huǒchēzhàn zài nǎlǐ?)"
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "火车站 (huǒchēzhàn), 地铁站 (dìtiězhàn) and 站台 (zhàntái) all contain 站 (zhàn). What is the best inference about 站 (zhàn)?",
+      "options": {
+        "A": "It relates to a stop or station, a place where vehicles halt",
+        "B": "It means ticket",
+        "C": "It means vehicle",
+        "D": "It means train"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Recognizing recurring components speeds up vocabulary: 站 (zhàn) carries the idea of a station or a standing place, so 火车站 (huǒchēzhàn) is the train station, 地铁站 (dìtiězhàn) is the subway station and 站台 (zhàntái) is the platform. The vehicle parts here are 火车 (huǒchē, \"train\") and 地铁 (dìtiě, \"subway\")."
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What does 他不常去书店 (tā bù cháng qù shūdiàn) imply?",
+      "options": {
+        "A": "He never goes to the bookstore",
+        "B": "He goes to the bookstore sometimes, but not often",
+        "C": "He goes to the bookstore every day",
+        "D": "He went to the bookstore only yesterday"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "不常 (bù cháng, \"not often\") lowers the frequency without ruling the action out; \"never\" would need a different word. It sits between the subject and verb like all frequency expressions. Compare 他很少去书店 (tā hěn shǎo qù shūdiàn), \"He rarely goes to the bookstore.\""
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "The tone mark in the third-tone syllable 酒 (jiǔ) as in 酒店 (jiǔdiàn, \"hotel\") goes on the u. Which spelling places it correctly?",
+      "options": {
+        "A": "jǐu",
+        "B": "jiǔ",
+        "C": "jiù",
+        "D": "jiu"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Pinyin rule: a tone mark goes on the vowel a, e or o if present; in the combinations iu and ui it goes on the second (last) vowel. So the third tone appears as jiǔ, not jǐu, and 对 (duì) is written with the mark on i. The option jiù carries the fourth tone instead."
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "If you send a message in pinyin only, \"Tā shì dàxuésheng\", what information from the characters is lost?",
+      "options": {
+        "A": "The tone of the verb 是 (shì)",
+        "B": "The fact that the sentence is a statement",
+        "C": "The order of the words",
+        "D": "Whether the subject is \"he\" or \"she\" (他 (tā) or 她 (tā))"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "他 (tā) and 她 (tā) are both pronounced tā, so only the written characters (人 (rén) versus 女 (nǚ) radical) distinguish them. Tones, word order and sentence type remain visible in pinyin. This is why context or a name is needed when you only type pinyin."
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "After saying 我不太喜欢体育 (wǒ bú tài xǐhuan tǐyù), a speaker adds 你呢？(nǐ ne?). What exactly is the question?",
+      "options": {
+        "A": "Do you like physical education, or what do you think of it?",
+        "B": "Where is the physical education class?",
+        "C": "Are you a student?",
+        "D": "What is your nationality?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "呢 (ne) after a pronoun hands the previous topic back: \"and you, how about you?\" Here the topic is liking physical education. It differs from 吗 (ma), which creates a new yes/no question. Another example: 我喜欢音乐，她呢？(wǒ xǐhuan yīnyuè, tā ne?), \"I like music; and she?\""
+    }
+  ],
+  "pinyin_format": "tone marks applied during Timesheet import",
+  "registered": {
+    "question_ids": [
+      1351,
+      1352,
+      1353,
+      1354,
+      1355,
+      1356,
+      1357,
+      1358,
+      1359,
+      1360,
+      1361,
+      1362,
+      1363,
+      1364,
+      1365,
+      1366,
+      1367,
+      1368,
+      1369,
+      1370,
+      1371,
+      1372,
+      1373,
+      1374,
+      1375,
+      1376,
+      1377,
+      1378,
+      1379,
+      1380,
+      1381,
+      1382,
+      1383,
+      1384,
+      1385,
+      1386,
+      1387,
+      1388,
+      1389,
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405,
+      1406,
+      1407,
+      1408,
+      1409,
+      1410,
+      1411,
+      1412,
+      1413,
+      1414,
+      1415,
+      1416,
+      1417,
+      1418,
+      1419,
+      1420,
+      1421,
+      1422,
+      1423,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1429,
+      1430,
+      1431,
+      1432,
+      1433,
+      1434,
+      1435,
+      1436,
+      1437,
+      1438,
+      1439,
+      1440,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1447,
+      1448,
+      1449,
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1455,
+      1456,
+      1457,
+      1458,
+      1459,
+      1460,
+      1461,
+      1462,
+      1463,
+      1464,
+      1465,
+      1466,
+      1467,
+      1468,
+      1469,
+      1470,
+      1471,
+      1472,
+      1473,
+      1474,
+      1475,
+      1476,
+      1477,
+      1478,
+      1479,
+      1480,
+      1481,
+      1482,
+      1483,
+      1484,
+      1485,
+      1486,
+      1487,
+      1488,
+      1489,
+      1490,
+      1491,
+      1492,
+      1493,
+      1494,
+      1495,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500,
+      1501,
+      1502,
+      1503,
+      1504,
+      1505,
+      1506,
+      1507,
+      1508,
+      1509,
+      1510,
+      1511,
+      1512,
+      1513,
+      1514,
+      1515,
+      1516,
+      1517,
+      1518,
+      1519,
+      1520,
+      1521,
+      1522,
+      1523,
+      1524,
+      1525,
+      1526,
+      1527,
+      1528,
+      1529,
+      1530,
+      1531,
+      1532,
+      1533,
+      1534,
+      1535,
+      1536,
+      1537,
+      1538,
+      1539,
+      1540,
+      1541,
+      1542,
+      1543,
+      1544,
+      1545,
+      1546,
+      1547,
+      1548,
+      1549,
+      1550
+    ],
+    "skipped": 0
+  }
+}

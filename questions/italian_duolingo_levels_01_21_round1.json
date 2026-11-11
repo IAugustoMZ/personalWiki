@@ -1,0 +1,3215 @@
+{
+  "approved_by": "user (bulk generation request, delegated approval)",
+  "approved_on": "2026-11-11",
+  "topic": {
+    "subsubcategory_id": 46,
+    "name": "Italian"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nBuongiorno, un caffè, per favore.\nTranslation: ____\n```",
+      "options": {
+        "A": "Good morning, a coffee, please.",
+        "B": "Good evening, a tea, please.",
+        "C": "Good morning, the bill, please.",
+        "D": "Hello, a coffee, thank you."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Buongiorno* is “good morning”, *un caffè* is “a coffee” (an espresso in Italy) and *per favore* is “please”."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which indefinite article completes “____ spritz, per favore”?",
+      "options": {
+        "A": "Un",
+        "B": "Uno",
+        "C": "Una",
+        "D": "Un'"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Indefinite article (masculine): *uno* is used before *s* + consonant and before *z*. So *uno spritz*, *uno zucchero*, *uno studente*. Before other masculine consonants it is *un* (*un caffè*), and for feminine nouns *una* (*un'* before a vowel)."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Compute $\\text{tre} + \\text{cinque}$ and choose the Italian word for the result.",
+      "options": {
+        "A": "sette",
+        "B": "nove",
+        "C": "otto",
+        "D": "sei"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "$3 + 5 = 8$, and 8 is *otto*. For reference: sei = 6, sette = 7, nove = 9."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "A barista asks “Qualcos'altro?” and you answer “No, basta così, grazie.” What are you saying?",
+      "options": {
+        "A": "No, the bill, please.",
+        "B": "No, to go, please.",
+        "C": "No, I am not hungry, thanks.",
+        "D": "No, that's all, thank you."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Qualcos'altro?* means “Anything else?” and *Basta così* means “That's enough / that's all”. Use it to tell the staff you do not want anything more."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "What is the plural of “la torta” (the cake)?",
+      "options": {
+        "A": "le torti",
+        "B": "le torte",
+        "C": "i torte",
+        "D": "le tortas"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Plural of feminine nouns in *-a*: the ending becomes *-e* and the article becomes *le*. *la torta → le torte*, *la birra → le birre*. Masculine nouns in *-o* take *-i* (*il cornetto → i cornetti*)."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank (“I am from Rome, but I live in Milan”).\n```text\nSono ____ Roma, ma abito a Milano.\n```",
+      "options": {
+        "A": "di",
+        "B": "da",
+        "C": "in",
+        "D": "a"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Origin with a city is expressed with *essere di* + city: *Sono di Roma*. Residence in a city uses *abitare a*: *Abito a Milano*."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which contracted form completes “Vengo ____ Brasile” (I come from Brazil)?",
+      "options": {
+        "A": "del",
+        "B": "al",
+        "C": "dal",
+        "D": "nel"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Articulated preposition: *da + il = dal*. So *Vengo dal Brasile*, *Vengo dal Giappone*. With a bare city name there is no article: *Vengo da Roma*."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Apply the contraction $\\text{da} + \\text{l'}$ to complete “Vengo ____ Italia”.",
+      "options": {
+        "A": "dal",
+        "B": "dalla",
+        "C": "dallo",
+        "D": "dall'"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Articulated preposition: $\\text{da} + \\text{l'} = \\text{dall'}$ before a vowel, so *Vengo dall'Italia*. Another example: *Vengo dall'Argentina*."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "How do you say “I don't speak German” in Italian?",
+      "options": {
+        "A": "Non parlo tedesco.",
+        "B": "Parlo non tedesco.",
+        "C": "No parlo tedesco.",
+        "D": "Parlo tedesco non."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Negation: *non* is placed directly before the conjugated verb. *Non parlo tedesco*; *Non sono italiano*; *Non abito a Roma*."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes “Maria è ____” to mean “Maria is Spanish”?",
+      "options": {
+        "A": "spagnolo",
+        "B": "spagnoli",
+        "C": "spagnole",
+        "D": "spagnola"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Gender agreement of nationality adjectives in *-o/-a*: a feminine singular subject needs *-a*. *Maria è spagnola*, *Marco è spagnolo*. Adjectives in *-e* (*francese*) do not change between masculine and feminine."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Apply the agreement formula $\\text{article}_{f.pl.} + \\text{noun}_{f.pl.} + \\text{adjective}_{f.pl.}$ to “amica” + “simpatica”. Which phrase is correct?",
+      "options": {
+        "A": "le amici simpatici",
+        "B": "le amiche simpatice",
+        "C": "le amiche simpatiche",
+        "D": "la amiche simpatiche"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Feminine plural: article *le*, nouns and adjectives in *-ca* become *-che* (to keep the hard *k* sound). *amica → amiche*, *simpatica → simpatiche*."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes “Le mie cugine sono molto ____” (my cousins are very sociable)?",
+      "options": {
+        "A": "socievole",
+        "B": "socievoli",
+        "C": "socievola",
+        "D": "socievolie"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Plural of adjectives in *-e*: they change to *-i* for both genders. *socievole → socievoli*, *gentile → gentili*. Example: *Le mie amiche sono pazienti*."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form of *bello* completes “un ____ ragazzo” (a handsome boy)?",
+      "options": {
+        "A": "bello",
+        "B": "bella",
+        "C": "bel",
+        "D": "belli"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adjective *bello* before a noun behaves like the article: before a masculine singular noun starting with a consonant it becomes *bel* (*un bel ragazzo*). Before a vowel it is *bell'* (*un bell'uomo*) and feminine is *bella* (*una bella ragazza*)."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nMio fratello è un po' timido.\nTranslation: ____\n```",
+      "options": {
+        "A": "My brother is very shy.",
+        "B": "My father is a little shy.",
+        "C": "My brother is not shy.",
+        "D": "My brother is a little shy."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Mio fratello* = my brother, *un po'* = a little, *timido* = shy. *Molto* would mean “very”."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “Non è per niente noioso” mean?",
+      "options": {
+        "A": "He is not boring at all.",
+        "B": "He is very boring.",
+        "C": "He is a little boring.",
+        "D": "He is never late."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Per niente* means “at all”, so *non è per niente noioso* is “he is not boring at all”. *Noioso* = boring."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which is the correct “tu” form of *mangiare* in “Tu ____ una mela”?",
+      "options": {
+        "A": "mangii",
+        "B": "mangi",
+        "C": "mangia",
+        "D": "mangiamo"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present tense of *-iare* verbs: the stem's *i* is dropped before an ending that starts with *i*. *tu mangi* (not *mangii*); likewise *tu studi*, *noi mangiamo*."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which form completes “Loro ____ il lavoro alle sei” (*finire*)?",
+      "options": {
+        "A": "finiono",
+        "B": "finiscono",
+        "C": "finisce",
+        "D": "finite"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present tense of *-ire* verbs with *-isc-* (like *finire*, *capire*, *preferire*): *finisco, finisci, finisce, finiamo, finite, finiscono*. The *-isc-* is present in *loro*. Another example: *Loro capiscono*."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{noi}: \\text{stem} + \\text{-iamo}$ to complete “Noi ____ domani” (we leave tomorrow), from *partire*.",
+      "options": {
+        "A": "partimo",
+        "B": "partemo",
+        "C": "partano",
+        "D": "partiamo"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Present tense, first person plural: stem *part-* + *-iamo* = *partiamo*. The same ending works for all three verb groups: *parliamo*, *scriviamo*, *dormiamo*."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank with the correct form of *andare*.\n```text\nIo ____ al lavoro in autobus.\n```",
+      "options": {
+        "A": "vado",
+        "B": "vai",
+        "C": "va",
+        "D": "andiamo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Andare* is irregular in the present: *vado, vai, va, andiamo, andate, vanno*. With *io* the form is *vado*."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “Domani parto” mean?",
+      "options": {
+        "A": "I left yesterday.",
+        "B": "I would like to leave.",
+        "C": "I leave tomorrow.",
+        "D": "I never leave."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The Italian present tense can express a near-future plan, so *Domani parto* = “I'm leaving tomorrow”. Similar: *Domani vado a Roma*."
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which definite article completes “____ zaini nuovi” (the new backpacks)?",
+      "options": {
+        "A": "I",
+        "B": "Le",
+        "C": "Lo",
+        "D": "Gli"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Definite article, masculine plural: nouns that take *lo* in the singular (*lo zaino*) take *gli* in the plural. *lo zaino → gli zaini*, *lo studente → gli studenti*; regular nouns take *i* (*i ragazzi*)."
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Apply the plural rule $-ma \\rightarrow -mi$ to “il problema”. What is the plural?",
+      "options": {
+        "A": "le problemi",
+        "B": "i problemi",
+        "C": "i problemas",
+        "D": "i problema"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Nouns ending in *-ma* of Greek origin are masculine and form the plural in *-mi*: *il problema → i problemi*, *il programma → i programmi*."
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the sentence (“The girls are tall”).\n```text\nLe ragazze sono ____.\n```",
+      "options": {
+        "A": "alti",
+        "B": "alta",
+        "C": "alte",
+        "D": "alto"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The adjective agrees with the noun in gender and number: *le ragazze* is feminine plural, so *alte*. *Il ragazzo è alto*, *la ragazza è alta*, *i ragazzi sono alti*."
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "What is the plural of “la città” (the city)?",
+      "options": {
+        "A": "le città",
+        "B": "le citti",
+        "C": "le cittàs",
+        "D": "le cittadi"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Nouns that end in an accented vowel are invariable in the plural: *la città → le città*, *il caffè → i caffè*, *la gioventù → le gioventù*. Only the article shows the number."
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is the feminine form of “lo studente”?",
+      "options": {
+        "A": "la studenta",
+        "B": "la studentessa",
+        "C": "la studentina",
+        "D": "lo studentessa"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Many masculine nouns in *-e* take *-essa* for the feminine: *lo studente → la studentessa*, *il professore → la professoressa*, *il dottore → la dottoressa*."
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In an Italian restaurant meal, what is *il secondo*?",
+      "options": {
+        "A": "The main dish, usually meat or fish",
+        "B": "The dessert",
+        "C": "The pasta or rice course",
+        "D": "The side dish"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A traditional meal runs *antipasto* (starter), *primo* (pasta, rice or soup), *secondo* (meat or fish), *contorno* (side dish), *dolce* (dessert)."
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank (“As a starter I'll have the bruschetta”).\n```text\nCome antipasto ____ la bruschetta.\n```",
+      "options": {
+        "A": "prende",
+        "B": "prendete",
+        "C": "prendo",
+        "D": "prendono"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Prendere* in the present: *prendo, prendi, prende, prendiamo, prendete, prendono*. When you order for yourself you use *io* → *prendo*."
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{Mi piace} + \\text{noun}_{sg.}$ or $\\text{Mi piacciono} + \\text{noun}_{pl.}$ to say “I like spaghetti” (*gli spaghetti* is plural).",
+      "options": {
+        "A": "Mi piace gli spaghetti.",
+        "B": "Mi piacciono il spaghetti.",
+        "C": "Mi piaccio gli spaghetti.",
+        "D": "Mi piacciono gli spaghetti."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Piacere* agrees with the thing that is liked, not with the person: plural noun → *piacciono*. *Mi piacciono gli spaghetti*, but *Mi piace il pesce*."
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which contracted form completes “Vorrei la pasta ____ pomodoro”?",
+      "options": {
+        "A": "del",
+        "B": "al",
+        "C": "nel",
+        "D": "dal"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Articulated preposition *a + il = al* is used in dish names with the sense “with / in the style of”: *pasta al pomodoro*, *pizza alla marinara* (*a + la = alla*), *tagliatelle ai funghi*."
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “My brothers are tall”?",
+      "options": {
+        "A": "Miei fratelli sono alti.",
+        "B": "Il miei fratelli sono alti.",
+        "C": "Gli miei fratelli sono alti.",
+        "D": "I miei fratelli sono alti."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Possessive + family: with kinship terms in the plural the article is kept and the possessive agrees with the plural noun: *i miei fratelli*. Only singular, unmodified kin omit the article (*mio fratello*)."
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{article} + \\text{possessive}_{\\text{agrees with the possessed}} + \\text{noun}$ to say “my keys” (*le chiavi* is feminine plural).",
+      "options": {
+        "A": "le miei chiavi",
+        "B": "i mie chiavi",
+        "C": "le mie chiavi",
+        "D": "la mia chiavi"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The possessive agrees with the thing possessed: feminine plural → *mie*, with the article *le*. *le mie chiavi*, *i miei libri*, *la mia borsa*."
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the correct possessive.\n```text\nA: Di chi è questo telefono?\nB: È ____. (mine)\n```",
+      "options": {
+        "A": "mio",
+        "B": "mia",
+        "C": "miei",
+        "D": "mie"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The possessive agrees with the possessed object: *telefono* is masculine singular → *mio*. A feminine singular object would take *mia* (*È mia*, about *la borsa*)."
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What can “il suo libro” mean?",
+      "options": {
+        "A": "Only his book",
+        "B": "Either his book or her book",
+        "C": "Only her book",
+        "D": "Their book"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Suo* agrees with the thing possessed (*libro*, masculine singular) and not with the owner, so it covers both “his” and “her”. Context or *di lui / di lei* clarifies who owns it. “Their” is *loro*."
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says “Marco's book”?",
+      "options": {
+        "A": "Marco's libro",
+        "B": "il libro Marco",
+        "C": "il libro di Marco",
+        "D": "di Marco il libro"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Possession is expressed with *di* + owner; there is no equivalent of the English *'s*. *il libro di Marco*, *la macchina di mia madre*, *Di chi è? — È di Anna.*"
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “I work as an engineer” using the verb *fare*?",
+      "options": {
+        "A": "Faccio ingegnere.",
+        "B": "Faccio un ingegnere.",
+        "C": "Faccio di ingegnere.",
+        "D": "Faccio l'ingegnere."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Profession with *fare*: *fare* + definite article + profession (*Faccio l'ingegnere*, *Faccio la cameriera*). With *essere* there is no article: *Sono ingegnere*."
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "What is the feminine of “il direttore” (the director)?",
+      "options": {
+        "A": "la direttrice",
+        "B": "la direttora",
+        "C": "la direttoressa",
+        "D": "la direttrica"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Feminine of nouns in *-tore*: the ending becomes *-trice*. *il direttore → la direttrice*, *il pittore → la pittrice*, *l'attore → l'attrice*."
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{present tense} + \\text{da} + \\text{duration}$ to say “I have worked here for three years” (and I still do).",
+      "options": {
+        "A": "Ho lavorato qui da tre anni.",
+        "B": "Lavorerò qui da tre anni.",
+        "C": "Lavoro qui per tre anni.",
+        "D": "Lavoro qui da tre anni."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "For an action that began in the past and continues now, Italian uses the **present** + *da* + time: *Lavoro qui da tre anni*, *Cerco lavoro da un mese*."
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the pair that completes the sentence (“I work from nine to five”).\n```text\nLavoro ____ nove ____ cinque.\n```",
+      "options": {
+        "A": "dalle / alle",
+        "B": "dal / al",
+        "C": "alle / dalle",
+        "D": "dalla / alla"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Time spans use *da + le = dalle* … *a + le = alle* before feminine plural hours (the word *ore* is understood): *dalle nove alle cinque*. For days it is *dal lunedì al venerdì*."
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which preposition completes “Gioco ____ calcio con gli amici”?",
+      "options": {
+        "A": "in",
+        "B": "di",
+        "C": "a",
+        "D": "per"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Giocare a* + sport or game: *Gioco a calcio*, *Gioca a scacchi*. Instruments use *suonare* without a preposition (*Suono la chitarra*) and other activities take *fare* (*Faccio nuoto*)."
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nSuono il pianoforte.\nTranslation: ____\n```",
+      "options": {
+        "A": "I like the piano.",
+        "B": "I play the piano.",
+        "C": "I buy a piano.",
+        "D": "I listen to the piano."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Suonare* means to play an instrument (*Suono la chitarra* = I play the guitar). For sports the verb is *giocare*."
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{preferire} + A + \\text{a} + B$ to say “I prefer tea to coffee” (*il tè*, *il caffè*).",
+      "options": {
+        "A": "Preferisco il tè al caffè.",
+        "B": "Preferisco il tè di caffè.",
+        "C": "Preferisco il tè che il caffè.",
+        "D": "Preferisco il tè da caffè."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Preferire A a B*: the preposition *a* merges with the article of B (*a + il = al*). *Preferisco il mare alla montagna*."
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “Neanche a me” mean as a reply?",
+      "options": {
+        "A": "Me too.",
+        "B": "Not me, I disagree.",
+        "C": "Me neither.",
+        "D": "Not now."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Neanche a me* agrees with a negative statement: *Non mi piace il caldo. — Neanche a me.* For a positive statement you agree with *Anche a me*; to disagree you say *A me no*."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which indirect pronoun completes “A lui ____ piace il calcio”?",
+      "options": {
+        "A": "le",
+        "B": "gli",
+        "C": "lo",
+        "D": "li"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Indirect object pronouns with *piacere*: *a me → mi, a te → ti, a lui → gli, a lei → le, a noi → ci, a voi → vi*. So *Gli piace il calcio* but *Le piace cucinare* (she)."
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{indirect pronoun} + \\text{piace(ono)} + \\text{subject}$ to say “We like traveling”.",
+      "options": {
+        "A": "Ci piacciono viaggiare.",
+        "B": "Noi piace viaggiare.",
+        "C": "Ne piace viaggiare.",
+        "D": "Ci piace viaggiare."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Ci* is the indirect pronoun for *a noi*. An infinitive is singular, so the verb is *piace*: *Ci piace viaggiare*, *Mi piace leggere*."
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nIl pesce mi fa schifo.\nTranslation: ____\n```",
+      "options": {
+        "A": "Fish scares me.",
+        "B": "I love fish.",
+        "C": "Fish makes me hungry.",
+        "D": "Fish disgusts me."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Fare schifo* = to be disgusting. *Il pesce mi fa schifo* is a strong dislike. Compare *fare paura* = to scare: *I serpenti mi fanno paura*."
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “Non sopporto il rumore” mean?",
+      "options": {
+        "A": "I can't stand noise.",
+        "B": "I don't hear the noise.",
+        "C": "I like noise a lot.",
+        "D": "I carry the noise."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Non sopportare* means “cannot stand / cannot bear”, a strong dislike, like *detestare* and *odiare*."
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which direct object pronoun completes “Le scarpe? ____ prendo” (I'll take them)?",
+      "options": {
+        "A": "La",
+        "B": "Li",
+        "C": "Le",
+        "D": "Lo"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Direct object pronouns agree in gender and number with the thing replaced: *lo* (m. sg.), *la* (f. sg.), *li* (m. pl.), *le* (f. pl.). *le scarpe* is feminine plural → *Le prendo*; *i pantaloni* → *Li prendo*."
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{più} + \\text{adjective} + \\text{di}$ to say “This one is more elegant than that one.”",
+      "options": {
+        "A": "Questo è più elegante come quello.",
+        "B": "Questo è più elegante di quello.",
+        "C": "Questo è tanto elegante di quello.",
+        "D": "Questo è elegante più di quello."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Comparative of superiority: $\\text{più} + \\text{adjective} + \\text{di}$ when comparing two things or people. *Questa è più cara di quella*; the opposite is *meno … di*."
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill in the blank (“Can I pay by card?”).\n```text\nPosso pagare ____ la carta?\n```",
+      "options": {
+        "A": "di",
+        "B": "tra",
+        "C": "su",
+        "D": "con"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Means of payment: *pagare con la carta* (by card), *pagare in contanti* (in cash). *con* = with."
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “Ne prendo due” mean?",
+      "options": {
+        "A": "I'll take two of them.",
+        "B": "I'll take them to you.",
+        "C": "I won't take two.",
+        "D": "I take it there."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Ne* replaces a quantity of something already mentioned, so *Ne prendo due* = “I'll take two (of them)”. Compare *Ci vado* (I go there)."
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why might an Italian barista find it unusual if you order a “cappuccino” right after a big lunch?",
+      "options": {
+        "A": "It is only served with dinner",
+        "B": "It is traditionally a morning (breakfast) drink",
+        "C": "It can only be ordered sitting at a table",
+        "D": "It is considered a dessert to be shared"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In Italian coffee culture the milky *cappuccino* belongs to breakfast; after meals Italians usually drink an espresso (*un caffè*). Ordering one in the afternoon is not wrong, just unusual."
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which definite article completes “____ gnocchi sono buoni”?",
+      "options": {
+        "A": "I",
+        "B": "Le",
+        "C": "Lo",
+        "D": "Gli"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Definite article, masculine plural: nouns beginning with *gn*, *z*, *s* + consonant, *ps*, or a vowel take *gli*. *lo gnocco → gli gnocchi*, *lo zio → gli zii*, *l'amico → gli amici*."
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Fill in the blank (“First at the cash register, then at the counter”).\n```text\nPrima ____ cassa, poi al banco.\n```",
+      "options": {
+        "A": "alla",
+        "B": "della",
+        "C": "nella",
+        "D": "sulla"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Articulated preposition: *a + la = alla* (*alla cassa*), just as *a + il = al* (*al banco*). The place where you do something in a shop takes *a*."
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A customer orders $\\text{due caffè} + \\text{un tè} + \\text{tre cornetti}$. How many items is that in total, written in Italian?",
+      "options": {
+        "A": "cinque",
+        "B": "sette",
+        "C": "sei",
+        "D": "otto"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "$2 + 1 + 3 = 6$, which is *sei*. Remember that *caffè* and *tè* are invariable in the plural: *due caffè*, not *due caffès*."
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which question would you ask a friend (informal *tu*) at a café?",
+      "options": {
+        "A": "Che cosa prendi?",
+        "B": "Che cosa prende?",
+        "C": "Che cosa desidera?",
+        "D": "Che cosa prendono?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Informal versus formal address: with *tu* the verb ends in *-i* (*prendi*); the formal *Lei* uses the third person singular (*prende*, *desidera*). Another example: *Dove abiti?* (friend) vs *Dove abita?* (stranger)."
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “I live in the United States”?",
+      "options": {
+        "A": "Abito a Stati Uniti.",
+        "B": "Abito nel Stati Uniti.",
+        "C": "Abito in gli Stati Uniti.",
+        "D": "Abito negli Stati Uniti."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Articulated preposition: *in + gli = negli*, because *gli Stati Uniti* is plural with an article. Compare *Abito in Italia* (no article with most countries) and *Abito a Milano* (city)."
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Apply the plural rule $-e \\rightarrow -i$ to the nationality “inglese”. What is the plural?",
+      "options": {
+        "A": "ingleses",
+        "B": "inglesi",
+        "C": "inglesie",
+        "D": "ingleso"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Nationalities in *-e* have one form for both genders and form the plural with *-i*: *inglese → inglesi*, *francese → francesi*, *cinese → cinesi*. Example: *Loro sono giapponesi*."
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Fill in the blank (“Where are you from?” — “We come from the United States”).\n```text\nA: Da dove venite?\nB: Veniamo ____ Stati Uniti.\n```",
+      "options": {
+        "A": "dai",
+        "B": "dalle",
+        "C": "dagli",
+        "D": "degli"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Articulated preposition: *da + gli = dagli*. *Gli Stati Uniti* is masculine plural. Compare *da + i = dai* (*dai ragazzi*) and *da + le = dalle*."
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "You walk into a shop at eight in the evening. Which greeting fits best?",
+      "options": {
+        "A": "Buongiorno",
+        "B": "Buonasera",
+        "C": "Buonanotte",
+        "D": "Arrivederci"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Buongiorno* is used in the morning and early afternoon, *Buonasera* from late afternoon and in the evening. *Buonanotte* is said when going to bed and *Arrivederci* when leaving."
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which contracted form completes “Il libro è ____ tavolo” (the book is on the table)?",
+      "options": {
+        "A": "al",
+        "B": "nel",
+        "C": "dal",
+        "D": "sul"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Articulated preposition: *su + il = sul*. *Il libro è sul tavolo*; with a feminine noun it is *sulla* (*sulla sedia*)."
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which form completes “Le mie amiche sono molto ____”?",
+      "options": {
+        "A": "simpatiche",
+        "B": "simpatice",
+        "C": "simpatici",
+        "D": "simpatica"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Plural of adjectives in *-ca*: *-che*, adding an *h* to keep the hard *k* sound. *simpatica → simpatiche*, *amica → amiche*; masculine is *simpatici* (*amici*)."
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which auxiliary verb completes “Ieri io ____ dormito molto bene” (I slept very well yesterday)?",
+      "options": {
+        "A": "sono",
+        "B": "ha",
+        "C": "ho",
+        "D": "ero"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Passato prossimo of *dormire* uses the auxiliary *avere*: *ho dormito*, *hai dormito*. Verbs of movement and change of state use *essere* (*sono andato*)."
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $A + \\text{è} + \\text{più} + \\text{adjective} + \\text{di} + B$ to say “Marco is taller than Luca.”",
+      "options": {
+        "A": "Marco è alto più di Luca.",
+        "B": "Marco è più alto da Luca.",
+        "C": "Marco è più alto quanto Luca.",
+        "D": "Marco è più alto di Luca."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Comparative of superiority between two people: $\\text{più} + \\text{adjective} + \\text{di}$. *Anna è meno timida di me*. For equality use *tanto … quanto*: *È tanto gentile quanto generosa*."
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Fill in the blank (“Anna has a good friend”).\n```text\nAnna ha un ____ amico.\n```",
+      "options": {
+        "A": "buon",
+        "B": "buono",
+        "C": "buona",
+        "D": "bene"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Like the indefinite article, *buono* is shortened to *buon* before a masculine singular noun: *un buon amico*, *un buon padre*. Feminine: *una buona amica*."
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "How do “un grande uomo” and “un uomo grande” differ?",
+      "options": {
+        "A": "The first is a big man; the second is a great man",
+        "B": "The first is a great (important) man; the second is a physically big man",
+        "C": "They mean exactly the same thing",
+        "D": "The first is an old man; the second is a young man"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "For some adjectives the position changes the meaning. Before the noun *grande* is figurative (“great”); after the noun it describes physical size."
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which is the correct “tu” form of *cercare* in “Tu ____ un lavoro”?",
+      "options": {
+        "A": "cerci",
+        "B": "cercii",
+        "C": "cerchi",
+        "D": "cerche"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Present tense of verbs in *-care/-gare*: an *h* is added before *i* or *e* to keep the hard sound. *cerco, cerchi, cerca, cerchiamo*; *pagare → paghi*; *giocare → giochi*."
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which form completes “Noi ____ l'italiano” (*capire*)?",
+      "options": {
+        "A": "capiamo",
+        "B": "capisciamo",
+        "C": "capimo",
+        "D": "capiscemo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Present tense of *-ire* verbs with *-isc-*: the *-isc-* appears for *io, tu, lui/lei, loro* but NOT for *noi* and *voi*. *capisco, capisci, capisce, capiamo, capite, capiscono*."
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{modal}_{conj.} + \\text{verb}_{inf.}$ to say “We must study.”",
+      "options": {
+        "A": "Dobbiamo studiamo.",
+        "B": "Dobbiamo a studiare.",
+        "C": "Doviamo studiare.",
+        "D": "Dobbiamo studiare."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Modal verbs (*volere, potere, dovere*) are conjugated and followed directly by an infinitive, with no preposition. *Dobbiamo studiare*, *Posso venire*, *Vogliamo mangiare*."
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the correct form (“I usually get up at seven”).\n```text\nDi solito mi ____ alle sette.\n```",
+      "options": {
+        "A": "alzi",
+        "B": "alza",
+        "C": "alzo",
+        "D": "alziamo"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Reflexive verb *alzarsi*: the reflexive pronoun must match the subject. *mi* goes with *io* → *mi alzo*; *ti alzi*, *si alza*, *ci alziamo*."
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which construction (“stare” + gerund) means “I am eating right now”?",
+      "options": {
+        "A": "Ho mangiato.",
+        "B": "Sto mangiando.",
+        "C": "Mangerei.",
+        "D": "Mangiavo."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present progressive: *stare* + gerund (*-ando* for *-are* verbs, *-endo* for *-ere/-ire*). *Sto mangiando*, *Sto leggendo*. *Ho mangiato* is a completed past action."
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which article completes “____ problema è difficile”?",
+      "options": {
+        "A": "La",
+        "B": "Il",
+        "C": "Lo",
+        "D": "L'"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Gender of nouns: Greek-origin nouns in *-ma* are masculine even though they end in *-a*. *il problema, il programma, il tema*; the plural is *i problemi*."
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "What is the plural of “il lago” (the lake)?",
+      "options": {
+        "A": "i lagi",
+        "B": "i lagos",
+        "C": "i laghi",
+        "D": "le laghe"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Plural of nouns in *-go*: *-ghi*, so the *g* keeps its hard sound. *il lago → i laghi*; feminine *la riga → le righe*."
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Colour words like “blu” are invariable. Use $\\text{article}_{pl.} + \\text{noun}_{pl.} + \\text{adjective}_{inv.}$ to say “the blue bags” (*la borsa*).",
+      "options": {
+        "A": "le borse blue",
+        "B": "le borsi blu",
+        "C": "le borse blui",
+        "D": "le borse blu"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The noun and article become plural, but *blu* never changes: *le borse blu*. The same applies to *rosa, viola, beige*: *i pantaloni beige*."
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the correct verb form (“Yesterday Maria went to Rome”).\n```text\nIeri Maria ____ a Roma.\n```",
+      "options": {
+        "A": "è andata",
+        "B": "ha andato",
+        "C": "è andato",
+        "D": "ha andata"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Passato prossimo of *andare* uses *essere*, and the participle agrees with the subject: Maria is feminine → *è andata*. Another example: *Marco è andato*."
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "How do “il porto” and “la porta” differ?",
+      "options": {
+        "A": "il porto is the door, la porta is the harbour",
+        "B": "il porto is the harbour, la porta is the window",
+        "C": "il porto is the harbour, la porta is the door",
+        "D": "They are the same word with different spellings"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Some nouns change meaning with gender: *il porto* (harbour), *la porta* (door); also *il modo* (way) / *la moda* (fashion) and *il capo* (boss) / *la capa* (cape)."
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which partitive form completes “Vorrei ____ acqua, per favore”?",
+      "options": {
+        "A": "dell'",
+        "B": "del",
+        "C": "della",
+        "D": "degli"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Partitive (“some”): *di* + definite article. Before a vowel the singular form is *dell'* (*dell'acqua*). Other examples: *del pane* (m.), *della frutta* (f.)."
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the word that completes the dialogue.\n```text\nCameriere: E da bere?\nCliente: Una ____ d'acqua naturale, per favore.\n```",
+      "options": {
+        "A": "bicchiere",
+        "B": "bottiglia",
+        "C": "piatto",
+        "D": "coperto"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Una* requires a feminine noun, and containers of water are a *bottiglia* (bottle) or a *caraffa*. *Bicchiere* and *piatto* are masculine (*un bicchiere d'acqua*)."
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{avere}_{conj.} + \\text{past participle}$ to say “We ate the pasta.”",
+      "options": {
+        "A": "Abbiamo mangiamo la pasta.",
+        "B": "Siamo mangiato la pasta.",
+        "C": "Abbiamo mangiare la pasta.",
+        "D": "Abbiamo mangiato la pasta."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Passato prossimo of most transitive verbs: *avere* + participle (*-ato* for *-are* verbs). *Abbiamo mangiato*, *Ho comprato*, *Hanno parlato*."
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Tens and units are fused in Italian: $\\text{quaranta} + \\text{quattro}$. Compute $40 + 4$ and complete “Porto la ____” (I wear size 44).",
+      "options": {
+        "A": "quarantaquatro",
+        "B": "quattroquaranta",
+        "C": "quarantaquattro",
+        "D": "quaranta e quattro"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Numbers above twenty are written as one word: $40 + 4 =$ *quarantaquattro*; the final vowel of the tens is dropped only before *uno* and *otto* (*quarantuno*, *quarantotto*)."
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which phrase correctly says “their father”?",
+      "options": {
+        "A": "il loro padre",
+        "B": "loro padre",
+        "C": "il suo padre",
+        "D": "la loro padre"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Possessive *loro* is invariable and always takes the article, even with singular kin: *il loro padre*, *la loro madre*. By contrast, *mio padre* and *tua madre* usually drop it."
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "You ask a stranger formally (*Lei*) how his mother is. Which question is correct?",
+      "options": {
+        "A": "Come sta tua madre?",
+        "B": "Come sta Sua madre?",
+        "C": "Come sta vostra madre?",
+        "D": "Come sta mia madre?"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Formal register: the polite *Lei* is paired with the possessive *Suo/Sua*; informal *tu* uses *tuo/tua*. *Vostro* is for “you” plural. *Come sta Sua madre?* vs *Come sta tua madre?* (to a friend)."
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{article} + \\text{loro} + \\text{noun}$ (*loro* never changes) to say “their houses” (*la casa*).",
+      "options": {
+        "A": "le lore case",
+        "B": "i loro case",
+        "C": "la loro case",
+        "D": "le loro case"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Loro* does not agree with the noun, but the article and noun do: feminine plural → *le … case*. *il loro gatto*, *i loro gatti*, *le loro chiavi*."
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the possessive (“Whose keys are these?” — “They are his/hers”).\n```text\nA: Di chi sono queste chiavi?\nB: Sono ____.\n```",
+      "options": {
+        "A": "sua",
+        "B": "suo",
+        "C": "sue",
+        "D": "suoi"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The possessive agrees with the thing possessed: *le chiavi* is feminine plural → *sue*. A masculine plural object would take *suoi* (*i libri sono suoi*)."
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why would a speaker choose “Ha perso il proprio portafoglio” instead of “Ha perso il suo portafoglio”?",
+      "options": {
+        "A": "Because suo cannot be used with portafoglio",
+        "B": "Because proprio is the formal plural",
+        "C": "Because proprio means that the wallet is old",
+        "D": "To make clear that the wallet belongs to the subject himself"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Proprio* is the reflexive possessive (“one's own”): it removes the ambiguity of *suo*, which could refer to someone else. *Ognuno ama la propria casa.*"
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which auxiliary + pronoun completes “Marco ____ licenziato la settimana scorsa” (he quit last week)?",
+      "options": {
+        "A": "si è",
+        "B": "si ha",
+        "C": "ha",
+        "D": "gli è"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Passato prossimo of reflexive verbs: always the auxiliary *essere*, with the reflexive pronoun before it. *Si è licenziato*; *Mi sono alzata*. Without *si*, *ha licenziato* would mean he fired someone."
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which future form completes “Un giorno io ____ direttore”?",
+      "options": {
+        "A": "essero",
+        "B": "sarò",
+        "C": "sarei",
+        "D": "ero"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Simple future of *essere*: irregular stem *sar-*: *sarò, sarai, sarà, saremo, sarete, saranno*. Likewise *avere → avrò*, *andare → andrò*, *fare → farò*."
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Future of *-are* verbs: $\\text{stem} + \\text{-erò, -erai, -erà, -eremo, -erete, -eranno}$. Which form completes “Domani tu ____ di più” (*lavorare*)?",
+      "options": {
+        "A": "lavorerà",
+        "B": "lavorarai",
+        "C": "lavorerei",
+        "D": "lavorerai"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Simple future: the *-are* ending changes to *-e-* + future endings. *tu* → *lavorerai*. *lavorerà* is lui/lei, and *lavorerei* is the conditional (“would work”)."
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the feminine form.\n```text\nil direttore → la ____\n```",
+      "options": {
+        "A": "direttrice",
+        "B": "direttora",
+        "C": "direttessa",
+        "D": "direttrica"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Nouns in *-tore* form the feminine in *-trice*: *direttore → direttrice*, *pittore → pittrice*, *attore → attrice*."
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "How does “Lavoro per Fiat” differ from “Lavoro da casa”?",
+      "options": {
+        "A": "The first says they work from home; the second names a company",
+        "B": "Both say they work abroad",
+        "C": "The first names the company the person works for; the second says they work from home",
+        "D": "The first says they own Fiat; the second says they work part-time"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Prepositions of work: *per* + company (*Lavoro per un'azienda*), *da* + home or a person (*Lavoro da casa*), *in* + place (*Lavoro in banca*), *a* + city (*Lavoro a Milano*)."
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says “I like reading and writing”?",
+      "options": {
+        "A": "Mi piacciono leggere e scrivere.",
+        "B": "Mi piace leggere e scrivere.",
+        "C": "Mi piaccio leggere e scrivere.",
+        "D": "Io piace leggere e scrivere."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Piacere* + infinitive: infinitives (even two joined by *e*) count as one singular idea, so the verb stays *piace*. *Mi piace cantare e ballare*; *piacciono* is only for plural nouns (*Mi piacciono i film*)."
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which partitive completes “Ho comprato ____ mele” (some apples)?",
+      "options": {
+        "A": "delle",
+        "B": "dei",
+        "C": "degli",
+        "D": "della"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Plural partitives: *di* + plural article. Feminine plural → *delle* (*delle mele*), masculine → *dei* (*dei libri*), or *degli* before a vowel / *s* + consonant (*degli amici*, *degli spaghetti*)."
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{giocare a} + \\text{sport}$ and $\\text{suonare} + \\text{instrument}$ to say “I play football and I play the violin.”",
+      "options": {
+        "A": "Suono a calcio e gioco il violino.",
+        "B": "Gioco a calcio e suono il violino.",
+        "C": "Gioco a calcio e gioco il violino.",
+        "D": "Suono il calcio e suono a violino."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Sports and games take *giocare a*; instruments take *suonare* + article. *Gioco a tennis*, *Suono la chitarra*."
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Someone says “A me piace la montagna.” You prefer the sea. Which reply expresses disagreement?",
+      "options": {
+        "A": "Anche a me.",
+        "B": "Neanche a me.",
+        "C": "Anch'io.",
+        "D": "A me no."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "To disagree with a positive opinion use *A me no* (or *Io invece no*). *Anche a me* and *Anch'io* agree with a positive statement; *Neanche a me* agrees with a negative one."
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which Italian sentence means “I miss you” (using *mancare*)?",
+      "options": {
+        "A": "Ti manco.",
+        "B": "Mi manco.",
+        "C": "Mi manchi.",
+        "D": "Manco ti."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Mancare* works like *piacere*: the person who is missed is the subject, and the one who misses is the indirect pronoun. *Mi manchi* = you are missing to me; *Ti manco* = you miss me. Another example: *Mi manca la mia famiglia*."
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{ti} + \\text{piace(ono)} + \\text{subject}$ to ask a friend “Do you like sweets?” (*i dolci* is plural).",
+      "options": {
+        "A": "Ti piacciono i dolci?",
+        "B": "Ti piace i dolci?",
+        "C": "Tu piacciono i dolci?",
+        "D": "Ti piaci i dolci?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Plural subject → *piacciono*, and the person who likes is expressed by the indirect pronoun *ti*. Compare *Ti piace il gelato?*"
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the reply (“Me too!”).\n```text\nA: Adoro i dolci.\nB: ____ !\n```",
+      "options": {
+        "A": "Neanche a me",
+        "B": "Anch'io",
+        "C": "Io no",
+        "D": "A me no"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "To agree with a positive statement use *Anch'io* or *Anche a me*. *Neanche a me* agrees with a negative statement, and *Io no / A me no* disagree."
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which expression is the weakest way of expressing dislike?",
+      "options": {
+        "A": "Detesto",
+        "B": "Non sopporto",
+        "C": "Mi fa schifo",
+        "D": "Non mi piace"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Intensity scale of dislike: *non mi piace* (mild) < *non mi piace per niente* < *detesto / non sopporto / mi fa schifo* (strong). *Non mi dispiace* is neutral."
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Replace “le scarpe” with a pronoun in “Ho comprato le scarpe.”",
+      "options": {
+        "A": "Le ho comprato.",
+        "B": "Li ho comprate.",
+        "C": "Le ho comprate.",
+        "D": "Le ho comprata."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "A direct object pronoun placed before *avere* in the passato prossimo forces the participle to agree with it: *le* (f. pl.) → *comprate*. *Ho comprato la giacca → L'ho comprata*; *i pantaloni → Li ho comprati*."
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Use $\\text{se} + \\text{present}, \\text{present}$ to say “If it doesn't fit, I'll exchange it” (*lo cambio*).",
+      "options": {
+        "A": "Se non va bene, lo cambiavo.",
+        "B": "Se non andasse bene, lo cambio.",
+        "C": "Se non va bene, lo cambio.",
+        "D": "Se non va bene, lo cambiato."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Simple real condition: $\\text{se} + \\text{present}, \\text{present}$ (or imperative / future). *Se vuoi, prova questa*. Keep the verb in the *se* clause in the present, not in the imperfect subjunctive."
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the formal imperative.\n```text\nCommesso: ____ questa taglia, signora.\n```",
+      "options": {
+        "A": "Prova",
+        "B": "Provare",
+        "C": "Provate",
+        "D": "Provi"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A shop assistant addresses a customer with the polite *Lei* imperative: for *-are* verbs the ending is *-i*. *Provi questa taglia*, *Aspetti un attimo*, *Paghi alla cassa*. *Prova* is the informal *tu* form."
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the formal greeting to an older gentleman you have just met.\n```text\nBuongiorno, signor Bianchi, come ____?\n```",
+      "options": {
+        "A": "sta",
+        "B": "stai",
+        "C": "sei",
+        "D": "è"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The formal *Lei* takes the third person singular, so you use *sta* from *stare* (to be/feel): *Come sta?* The informal *tu* form would be *Come stai?*"
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The polite pronoun obeys $\\text{verb}(\\text{Lei}_{formal}) = \\text{verb}(x)$. Which pronoun $x$ supplies the verb form, and so how do you ask a stranger 'How are you?' with *stare*?",
+      "options": {
+        "A": "x = tu, so *Come stai?*",
+        "B": "x = lui/lei, so *Come sta?*",
+        "C": "x = voi, so *Come state?*",
+        "D": "x = loro, so *Come stanno?*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Formal *Lei* is conjugated like the third person singular (*lui/lei*). For *stare* that gives *sta*: *Come sta, signora?* Likewise *Lei è* (not *Lei sei*) for *essere*."
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "A friend looks pale and you want to ask 'How are you feeling?'. Which question is correct?",
+      "options": {
+        "A": "*Come sei?*",
+        "B": "*Come hai?*",
+        "C": "*Come stai?*",
+        "D": "*Come fai?*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Present tense of *stare* is used for well-being and health: *Come stai? Sto bene.* *Come sei?* (from *essere*) asks what someone is like. Another example: *Come sta tua madre? Sta meglio.*"
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A shop assistant says *Grazie mille!* after you hold the door for her. Which reply is natural?",
+      "options": {
+        "A": "*Piacere.*",
+        "B": "*Mi dispiace.*",
+        "C": "*Buonanotte.*",
+        "D": "*Prego.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Prego* (or *Di niente*) answers thanks. *Piacere* is what you say when you are introduced to someone, *Mi dispiace* apologises or expresses sympathy, and *Buonanotte* is only said when going to bed."
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the formal question to a lady you have just met.\n```text\nCome si ____ Lei, signora?\n```",
+      "options": {
+        "A": "chiama",
+        "B": "chiami",
+        "C": "chiamo",
+        "D": "chiamate"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Chiamarsi* is reflexive and the formal *Lei* uses the third person singular: *si chiama*. With a friend you would say *Come ti chiami?*"
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\n____ fratelli sono alti.   (My brothers are tall.)\n```",
+      "options": {
+        "A": "Miei",
+        "B": "I miei",
+        "C": "Il mio",
+        "D": "Le mie"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "With plural family members the possessive keeps the definite article and agrees with the possessed noun: masculine plural gives *i miei fratelli*. The article is dropped only with singular, unmodified relatives (*mio fratello*)."
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Possessives agree with the thing possessed, not with the owner: $\\text{poss} = f(\\text{gender}_{noun}, \\text{number}_{noun})$. Which form fills *le ____ sorelle* ('my sisters')?",
+      "options": {
+        "A": "miei",
+        "B": "mia",
+        "C": "mie",
+        "D": "mio"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Sorelle* is feminine plural, so the possessive is *mie* (the forms are *mio, mia, miei, mie*). Compare *i tuoi amici* (masculine plural) and *le tue amiche* (feminine plural)."
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "How do you say 'He is thirty years old' in Italian?",
+      "options": {
+        "A": "*È trent'anni.*",
+        "B": "*Ha trenta'anni.*",
+        "C": "*Sta trent'anni.*",
+        "D": "*Ha trent'anni.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Age is expressed with *avere*, not *essere* (present tense of *avere* for age), and *trenta* elides before *anni*: *trent'anni*. Another example: *Mia nonna ha ottant'anni.*"
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A colleague says *Ho tre nipoti*. Which statement about the noun *nipote* is correct?",
+      "options": {
+        "A": "It can mean grandchild or nephew/niece, and context decides",
+        "B": "It only means grandchild",
+        "C": "It only means nephew or niece",
+        "D": "It means cousin"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Nipote* covers both 'grandchild' and 'nephew/niece'. Italian relies on context (or adds *di nonni* / *di zii*) to clarify. Cousins are *cugini*."
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which phrase is correct for 'my little brother' (*fratellino*)?",
+      "options": {
+        "A": "*mio fratellino*",
+        "B": "*il mio fratellino*",
+        "C": "*la mio fratellino*",
+        "D": "*i miei fratellino*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Article rule for possessives with family nouns: the article is dropped only with singular, unmodified relatives (*mio fratello*). Diminutives and affectionate forms keep it: *il mio fratellino*, *la mia mamma*, *il mio papà*."
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nIn centro ____ molti negozi.   (There are many shops downtown.)\n```",
+      "options": {
+        "A": "c'è",
+        "B": "siamo",
+        "C": "ci sono",
+        "D": "hanno"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "'There are' with a plural noun is *ci sono*; the singular is *c'è* (*ci* + *è*). *C'è un negozio, ci sono molti negozi.*"
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Prepositions fuse with the article: $\\text{in} + \\text{i} = ?$ Complete: *I bambini giocano ____ parchi.* (in the parks)",
+      "options": {
+        "A": "negli",
+        "B": "nelle",
+        "C": "ni",
+        "D": "nei"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Parchi* is masculine plural with the article *i*, so *in + i = nei*. Before *gli* you get *negli* (*negli stadi*) and before *le* *nelle* (*nelle piazze*)."
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says you are going to the doctor's (the person)?",
+      "options": {
+        "A": "*Vado dal medico.*",
+        "B": "*Vado al medico.*",
+        "C": "*Vado in medico.*",
+        "D": "*Vado del medico.*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "To go to a person (or to someone's place) Italian uses *da* + article: *dal medico*, *dalla nonna*. *A* + article (*al museo*) is for places, not people. Another example: *Vado dal dentista.*"
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which expression best says that a cinema is directly opposite the park, on the other side of the street?",
+      "options": {
+        "A": "*accanto al parco*",
+        "B": "*di fronte al parco*",
+        "C": "*dietro il parco*",
+        "D": "*lontano dal parco*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Di fronte a* means 'across from / facing'. *Accanto a* is 'next to', *dietro* is 'behind', *lontano da* is 'far from'."
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the instruction.\n```text\nPrenda la ____ strada a destra.   (the third street)\n```",
+      "options": {
+        "A": "terzo",
+        "B": "tre",
+        "C": "terza",
+        "D": "trea"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Ordinals agree with the noun: *strada* is feminine, so *terza* (*primo, secondo, terzo, quarto...*). *Il terzo piano* but *la terza strada*."
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the shopping request.\n```text\nVorrei un chilo ____ mele.\n```",
+      "options": {
+        "A": "delle",
+        "B": "alle",
+        "C": "con",
+        "D": "di"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "After a quantity (*un chilo, un etto, una bottiglia*) Italian uses *di* with no article: *un chilo di mele*. *Un chilo delle mele* would mean something else (a kilo of 'the' specific apples)."
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The partitive is $\\text{di} + \\text{article}$ and means 'some'. Which form fills *Vorrei ____ pesche* (some peaches, feminine plural)?",
+      "options": {
+        "A": "delle",
+        "B": "dei",
+        "C": "degli",
+        "D": "della"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Feminine plural article is *le*, so *di + le = delle*. Masculine plural: *dei* (*dei pomodori*) or *degli* before vowel/z (*degli zucchini*)."
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which verb form completes *Quanto ____ le pesche?*",
+      "options": {
+        "A": "costa",
+        "B": "costano",
+        "C": "costate",
+        "D": "costiamo"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present tense of *costare* agrees with the subject: singular *Quanto costa il melone?* but plural *Quanto costano le pesche?* Another example: *Quanto costano questi pomodori?*"
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "At the market you say *Mi dia un etto di prosciutto, per favore.* How much ham do you get?",
+      "options": {
+        "A": "About 10 grams",
+        "B": "About 500 grams",
+        "C": "About 100 grams",
+        "D": "About one kilo"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Un etto* (from *ettogrammo*) is 100 g, a standard unit at Italian delis and markets. *Mezzo chilo* is 500 g."
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Absolute superlative: $\\text{stem} + \\text{-issimo}$. Apply it to *fresco* while keeping the hard /k/ sound.",
+      "options": {
+        "A": "frescissimo",
+        "B": "fresquissimo",
+        "C": "frescoissimo",
+        "D": "freschissimo"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Before an ending starting with *i* the hard /k/ needs an *h*: *fresco* gives *freschissimo*. The same happens with *lungo* giving *lunghissimo*."
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "The speaker is addressing a stranger politely. Complete the answer.\n```text\nScusi, come arrivo alla banca?\n— ____ dritto fino al semaforo.\n```",
+      "options": {
+        "A": "Vada",
+        "B": "Vai",
+        "C": "Andi",
+        "D": "Andare"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The formal (*Lei*) imperative borrows the subjunctive form: *andare* gives *vada*. *Vai* / *Va'* is the informal *tu* imperative, and *Andi* is not a form of *andare*."
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Formal imperative rule: $-are \\to -i$ and $-ere/-ire \\to -a$. Apply it to *prendere*.",
+      "options": {
+        "A": "prendi",
+        "B": "prenda",
+        "C": "prende",
+        "D": "prendo"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Prendere* ends in *-ere*, so the *Lei* imperative is *prenda*: *Prenda la seconda a sinistra.* For *girare* (-are) you get *giri*."
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "You tell a friend (*tu*) not to turn left. Which is correct? *Non ____ a sinistra!*",
+      "options": {
+        "A": "gira",
+        "B": "giri",
+        "C": "girare",
+        "D": "girando"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The negative imperative of *tu* is *non* + infinitive: *Non girare!* The affirmative is *Gira!* and the formal negative is *Non giri!* Another example: *Non prendere quella strada.*"
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A passer-by says the pharmacy is *a due isolati da qui*. What does this mean?",
+      "options": {
+        "A": "It is two isolated buildings",
+        "B": "It is two kilometres away",
+        "C": "It is two minutes by car",
+        "D": "It is two blocks away"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Isolato* is a false friend: it means 'city block', not 'isolated'. *A due isolati* is 'two blocks away'."
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nIo vado ____ piedi, ma mia sorella va ____ autobus.\n```",
+      "options": {
+        "A": "a ... in",
+        "B": "in ... a",
+        "C": "a ... a",
+        "D": "in ... in"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Italian says *a piedi* (on foot) but uses *in* for most vehicles: *in autobus, in treno, in macchina, in bicicletta*."
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\n____ stivali sono molto comodi.   (Those boots are very comfortable.)\n```",
+      "options": {
+        "A": "Quelli",
+        "B": "Quegli",
+        "C": "Quei",
+        "D": "Quelle"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Quello* used before a noun follows the definite article: *gli stivali* gives *quegli stivali*. *Quelli* works only as a pronoun without a noun (*quelli rossi*)."
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The forms of *quello* before a noun mirror the definite article: $\\text{lo} \\to \\text{quello}$ and $\\text{gli} \\to \\text{quegli}$. What is 'those backpacks' (*gli zaini*)?",
+      "options": {
+        "A": "quei zaini",
+        "B": "quelli zaini",
+        "C": "quegli zaini",
+        "D": "quelle zaini"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Zaini* takes *gli* (s+consonant / z), so the demonstrative is *quegli*. For *i guanti* it would be *quei guanti*, for *le scarpe* *quelle scarpe*."
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct for 'Her shoes are pink'?",
+      "options": {
+        "A": "*Le sue scarpe sono rose.*",
+        "B": "*Le sue scarpe sono rosi.*",
+        "C": "*Le sue scarpe sono rosse.*",
+        "D": "*Le sue scarpe sono rosa.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Agreement of colour adjectives: *rosa*, *blu*, *viola* and *beige* are invariable, so they do not take plural endings. *Rosse* means red. Another example: *due gonne blu*."
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "In a shop you say *La gonna mi sta stretta.* What do you mean?",
+      "options": {
+        "A": "The skirt is too tight on me",
+        "B": "The skirt is too long on me",
+        "C": "The skirt suits me very well",
+        "D": "I am looking for a smaller skirt to buy"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Stare stretto/larga/lungo/corto* describes how a garment fits: *stretta* = tight, *larga* = loose, *lunga* = long, *corta* = short. *Mi sta bene* means it suits you."
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "The assistant asks how the jacket fits. Complete your reply.\n```text\n— Come Le sta questa giacca?\n— Mi ____ bene, grazie.\n```",
+      "options": {
+        "A": "è",
+        "B": "sta",
+        "C": "ha",
+        "D": "tiene"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Fit and suitability use *stare* (*mi sta bene / male*). *Essere bene* does not exist in Italian."
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nIeri io ____ l'esame di storia.   (passed)\n```",
+      "options": {
+        "A": "sono superato",
+        "B": "ho superare",
+        "C": "ho superato",
+        "D": "superato ho"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Superare* takes *avere* in the passato prossimo: *ho superato*. Verbs of motion such as *andare* take *essere* instead."
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Verbs of motion form the passato prossimo with $\\text{essere}_{conj} + \\text{participle}_{agreeing\\ with\\ subject}$. Complete: *Maria ____ a lezione.* (andare)",
+      "options": {
+        "A": "è andato",
+        "B": "ha andata",
+        "C": "ha andato",
+        "D": "è andata"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Andare* takes *essere* and the participle agrees with the subject, so a feminine singular subject gives *è andata*. *I ragazzi sono andati.*"
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the right word: *Studio italiano ____ due anni* (and I am still studying it).",
+      "options": {
+        "A": "da",
+        "B": "fa",
+        "C": "tra",
+        "D": "dopo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Da* + duration with the present tense expresses an action that started in the past and continues now. *Fa* comes after a time expression for a finished past moment: *Mi sono laureato due anni fa.*"
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "An Italian friend says she got *trenta e lode* on a university exam. What does it mean?",
+      "options": {
+        "A": "Just the minimum passing mark",
+        "B": "The maximum mark, 30/30 with honours",
+        "C": "She failed the exam",
+        "D": "A mark of 30 per cent"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "University exams are marked out of 30, with 18 as the minimum pass. *Trenta e lode* is a 30 with honours, the highest possible result."
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nAnna e Giulia si ____ laureate l'anno scorso.\n```",
+      "options": {
+        "A": "hanno",
+        "B": "è",
+        "C": "sono",
+        "D": "sei"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Reflexive verbs form the passato prossimo with *essere*, and the participle agrees with the plural feminine subject: *si sono laureate*."
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence with the correct form of *cercare*.\n```text\nIo cerco le chiavi e tu ____ il telefono.\n```",
+      "options": {
+        "A": "cerci",
+        "B": "cerca",
+        "C": "cerchii",
+        "D": "cerchi"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Verbs in *-care* insert *h* before *i* to keep the hard /k/ sound: *tu cerchi*, *noi cerchiamo*."
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "For *noi* the ending is $\\text{stem} + \\text{-iamo}$. Apply it to *pagare* (stem *pag-*), keeping the hard /g/ sound.",
+      "options": {
+        "A": "paghiamo",
+        "B": "pagiamo",
+        "C": "pagamo",
+        "D": "paghamo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "In *-gare* verbs an *h* is added before *i* or *e* to preserve the hard /g/: *tu paghi*, *noi paghiamo*. Without the *h*, *gi* would sound soft."
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the right form: *Ogni mattina io ____ colazione alle otto.*",
+      "options": {
+        "A": "facco",
+        "B": "faccio",
+        "C": "faco",
+        "D": "fazio"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present tense of the irregular verb *fare*: *faccio, fai, fa, facciamo, fate, fanno*. Another example: *Noi facciamo una passeggiata.*"
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which sentence means 'I am looking for my keys'?",
+      "options": {
+        "A": "*Guardo le chiavi.*",
+        "B": "*Vedo le chiavi.*",
+        "C": "*Cerco le chiavi.*",
+        "D": "*Trovo le chiavi.*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Cercare* is 'to look for'. *Guardare* is 'to look at/watch', *vedere* 'to see' and *trovare* 'to find'."
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nNon posso parlare adesso: ____ guidando.\n```",
+      "options": {
+        "A": "sono",
+        "B": "ho",
+        "C": "faccio",
+        "D": "sto"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The progressive uses *stare* + gerund: *sto guidando*. A calque of the Portuguese *estou* with *sono* is wrong."
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nNoi ____ freddo e ____ stanchi.\n```",
+      "options": {
+        "A": "abbiamo ... siamo",
+        "B": "siamo ... abbiamo",
+        "C": "stiamo ... siamo",
+        "D": "abbiamo ... abbiamo"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Physical sensations (cold, hunger, thirst) use *avere*: *abbiamo freddo*. Emotional or physical states described with an adjective use *essere*: *siamo stanchi*."
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Physical sensations follow $\\text{avere}_{conj} + \\text{noun}$. How do you say 'They are afraid'?",
+      "options": {
+        "A": "Sono paura.",
+        "B": "Hanno paura.",
+        "C": "Stanno paura.",
+        "D": "Hanno pauroso."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Paura* is a noun, so Italian says 'they have fear': *hanno paura* (like *ho fame*, *ha sonno*)."
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the right form: *Marta è molto ____ .* (tired)",
+      "options": {
+        "A": "stanco",
+        "B": "stanchi",
+        "C": "stanca",
+        "D": "stanche"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adjective agreement: a predicative adjective agrees in gender and number with the subject, so a feminine singular subject gives *stanca*. Another example: *Luca e Paolo sono stanchi.*"
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which Italian adjective means 'worried' (and not 'busy')?",
+      "options": {
+        "A": "occupato",
+        "B": "imbarazzato",
+        "C": "deluso",
+        "D": "preoccupato"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Preoccupato* is 'worried'. *Occupato* means 'busy/occupied', *imbarazzato* 'embarrassed' and *deluso* 'disappointed' (not 'deluded')."
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nSono arrabbiata ____ mio fratello.\n```",
+      "options": {
+        "A": "con",
+        "B": "di",
+        "C": "per",
+        "D": "in"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Arrabbiato con* + person is the fixed pattern. Other adjectives take other prepositions: *felice di*, *preoccupato per*, *stanco di*."
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nL'anno prossimo io ____ in Italia.   (andare, future)\n```",
+      "options": {
+        "A": "anderò",
+        "B": "andrò",
+        "C": "andarò",
+        "D": "andrai"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Andare* has an irregular contracted future stem *andr-*: *andrò, andrai, andrà, andremo, andrete, andranno*."
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Regular future: $\\text{stem} + \\text{-er-} + \\text{personal ending}$ (for *noi*, $-emo$). What is the *noi* future of *visitare*?",
+      "options": {
+        "A": "visitaremo",
+        "B": "visitiamo",
+        "C": "visiteremo",
+        "D": "visiterò"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In the simple future *-are* verbs change *a* to *e*: *visiter-* + *-emo*. The same stem gives *visiterò, visiterai, visiterà*."
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the right form: *Ieri al museo ____ molta gente.*",
+      "options": {
+        "A": "c'erano",
+        "B": "ci sono",
+        "C": "c'è",
+        "D": "c'era"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Imperfect of *esserci*: *c'era* with singular nouns and *c'erano* with plural ones. *Gente* is grammatically singular, so *c'era molta gente*. Another example: *C'erano molti turisti.*"
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "In *Ieri faceva caldo e abbiamo visitato il castello*, why are two different past tenses used?",
+      "options": {
+        "A": "The imperfect gives the background (the weather), while the passato prossimo reports a completed event",
+        "B": "Both verbs describe completed actions, so either tense works",
+        "C": "The imperfect is used because the visit was repeated",
+        "D": "The passato prossimo is used because the weather was mild"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Imperfect = scenery, weather, ongoing situation; passato prossimo = a specific completed action. Another example: *Pioveva e siamo rimasti in albergo.*"
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nIl museo ____ alle nove e chiude alle sei.\n```",
+      "options": {
+        "A": "aprire",
+        "B": "apre",
+        "C": "aperto",
+        "D": "apro"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Timetables use the present tense in the third person singular: *il museo apre / chiude*. *Aperto* is the adjective ('open')."
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You are introduced to your new boss, a woman in her sixties, in the morning. Which greeting and question fit the register best?",
+      "options": {
+        "A": "*Buongiorno, come sta?*",
+        "B": "*Ciao, come stai?*",
+        "C": "*Ehi, come va?*",
+        "D": "*Buonanotte, come stai?*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "With an older person or a superior, use the formal *Lei* (third person verb) and a time-of-day greeting: *Buongiorno, come sta?* *Ciao* and *come stai?* are informal, and *buonanotte* is only for going to bed."
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'Giulia is Italian'?",
+      "options": {
+        "A": "*Giulia e italiana.*",
+        "B": "*Giulia è italiana.*",
+        "C": "*Giulia sta italiana.*",
+        "D": "*Giulia è italiano.*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present tense of *essere* with an agreeing nationality adjective: the accent in *è* distinguishes it from *e* ('and'), *stare* is not used for identity or nationality, and the adjective takes the feminine ending *-a*. Another example: *Marco è brasiliano.*"
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build the formal question 'How are you?' to a stranger using $\\text{Come} + \\text{stare}_{conj} + \\text{pronoun}$, with the polite pronoun spelled correctly.",
+      "options": {
+        "A": "*Come stai Lei?*",
+        "B": "*Come sei Lei?*",
+        "C": "*Come sta Lei?*",
+        "D": "*Come stanno Lei?*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The formal pronoun is capitalised *Lei* and takes the third person singular of *stare*: *sta*. *Stai* is the informal second person, and *essere* does not describe health."
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A woman has just been introduced to a man and wants to say 'Pleased to meet you.'\n```text\nMolto ____ .\n```",
+      "options": {
+        "A": "lieto",
+        "B": "lento",
+        "C": "lieti",
+        "D": "lieta"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Molto lieto/lieta* agrees with the speaker's gender, so a woman says *lieta*. *Lieto* means 'glad'. Do not confuse it with *lento* ('slow')."
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Portuguese speaker keeps using one form for both a close friend and an elderly stranger because Portuguese *você* covers both. Which study approach best fixes this?",
+      "options": {
+        "A": "Practise short paired dialogues, swapping the addressee between a friend and an older stranger, and conjugate the full verb each time",
+        "B": "Always use *tu*, since it is closest to *você*",
+        "C": "Treat *Lei* as meaning only 'she' and ignore the formal use",
+        "D": "Use *Lei* only in writing and *tu* in speech"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Italian has two address registers that Portuguese collapses. Contrasting minimal pairs (*Come stai?* / *Come sta?*) trains both the choice of register and the verb ending. *Lei* is used in speech and writing with strangers, elders and superiors."
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which phrase means 'my parents' (mother and father), as opposed to 'my relatives'?",
+      "options": {
+        "A": "*i miei parenti*",
+        "B": "*i miei genitori*",
+        "C": "*i miei nonni*",
+        "D": "*i miei fratelli*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Genitori* are parents; *parenti* is a false friend meaning all relatives. *Nonni* are grandparents. Another example: *I miei genitori abitano a Milano.*"
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Compounds of tens drop the final vowel before 1 and 8: $\\text{venti} + \\text{otto} = ?$",
+      "options": {
+        "A": "ventiotto",
+        "B": "venti otto",
+        "C": "ventotto",
+        "D": "ventoto"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Twenty-eight is written as one word with elision of the final vowel: *ventotto* (likewise *ventuno*, *trentotto*). From 23 upwards the vowel stays: *ventidue*, *trentacinque*."
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct for 'My (female) cousins are nice'?",
+      "options": {
+        "A": "*Le mie cugine sono simpatice.*",
+        "B": "*Le mie cugine sono simpatici.*",
+        "C": "*Le mie cugine sono simpatichi.*",
+        "D": "*Le mie cugine sono simpatiche.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Adjective agreement and plural spelling: adjectives in *-ca* form the feminine plural in *-che*, keeping the hard /k/ sound (*simpatica* becomes *simpatiche*). The masculine plural is *simpatici*. Another example: *amica* becomes *amiche*."
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence about someone's father.\n```text\nMio padre ____ cinquant'anni e ____ in banca.\n```",
+      "options": {
+        "A": "ha ... lavora",
+        "B": "è ... lavora",
+        "C": "ha ... lavorano",
+        "D": "è ... lavoro"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Age takes *avere* (*ha cinquant'anni*), and the third person singular of *lavorare* is *lavora*. *Sono/è + years* is a calque from other languages."
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly means 'Our dog is old'?",
+      "options": {
+        "A": "*Nostro cane è vecchio.*",
+        "B": "*Il nostro cane è vecchio.*",
+        "C": "*La nostra cane è vecchio.*",
+        "D": "*Il nostra cane è vecchio.*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Possessive adjective with article: outside unmodified singular family members, the possessive takes the definite article and agrees in gender and number with the noun (*cane* is masculine, so *il nostro*). Another example: *La nostra casa è grande.*"
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian learner asks *Dov'è la posta?* hoping to find which place?",
+      "options": {
+        "A": "A fish market",
+        "B": "A bus stop",
+        "C": "The post office",
+        "D": "The police station"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*La posta* means 'mail' and also the post office, not a fish steak as the Portuguese *posta* suggests. A bus stop is *la fermata*."
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build 'There are no museums here' using $\\text{non} + \\text{ci} + \\text{essere}_{conj} + \\text{noun}_{pl}$.",
+      "options": {
+        "A": "*Non c'è musei qui.*",
+        "B": "*Ci non sono musei qui.*",
+        "C": "*Non è musei qui.*",
+        "D": "*Non ci sono musei qui.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Negation goes before the pronoun and verb: *non ci sono*. The plural noun requires *sono*, not *c'è*, and no article is needed in the negative. Another example: *Non c'è un bar vicino.*"
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete with the correct fused preposition: *L'albergo è lontano ____ centro.*",
+      "options": {
+        "A": "*dal*",
+        "B": "*al*",
+        "C": "*nel*",
+        "D": "*del*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Preposition + article: *lontano* takes *da*, and *da + il* fuses into *dal*. Compare *vicino al centro*, with *a + il = al*. Another example: *Abito lontano dalla stazione.*"
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Ask where the toilets are.\n```text\nDove ____ i bagni?\n```",
+      "options": {
+        "A": "è",
+        "B": "sono",
+        "C": "c'è",
+        "D": "siamo"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Dove* + plural subject takes the plural of *essere*: *Dove sono i bagni?* The singular is *Dov'è il bagno?*"
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct pair: *Quest'estate vado ____ Italia e ____ Roma.*",
+      "options": {
+        "A": "*a ... in*",
+        "B": "*in ... in*",
+        "C": "*in ... a*",
+        "D": "*a ... a*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Prepositions with places: countries take *in* (*in Italia*, *in Brasile*) and cities take *a* (*a Roma*, *a San Paolo*). Another example: *Vivo in Francia, a Parigi.*"
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian wants green beans (*vagem*) for a recipe. What should they ask for at the Italian market?",
+      "options": {
+        "A": "*fagioli*",
+        "B": "*fagiolo*",
+        "C": "*fagiolette*",
+        "D": "*fagiolini*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Fagioli* are ordinary beans; *fagiolini* are green beans. This is a common mix-up for Portuguese speakers who expect a single word for 'beans'."
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build 'half a kilo of tomatoes' with $\\text{quantity} + \\text{di} + \\text{noun}$ (no article after the quantity).",
+      "options": {
+        "A": "*mezzo chilo di pomodori*",
+        "B": "*mezzo chilo dei pomodori*",
+        "C": "*mezza chilo di pomodori*",
+        "D": "*mezzo chilo pomodori*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Quantities are linked to the noun with bare *di*: *un chilo di mele*, *un etto di prosciutto*. The partitive article would change the meaning to a specific set of tomatoes. *Chilo* is masculine, so *mezzo*."
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct partitive: *Vorrei ____ pane.*",
+      "options": {
+        "A": "*dello*",
+        "B": "*del*",
+        "C": "*della*",
+        "D": "*dei*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Partitive of masculine singular nouns: *di + il = del* before a normal consonant (*del pane*), *dello* before s+consonant or z (*dello zucchero*) and *dell'* before vowels. Another example: *Vorrei della frutta.*"
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Ask the price of strawberries and get the reply.\n```text\n— Quanto ____ le fragole?\n— ____ sei euro al chilo.\n```",
+      "options": {
+        "A": "costa ... Costa",
+        "B": "costano ... Costa",
+        "C": "costano ... Costano",
+        "D": "costa ... Costano"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Costare* agrees with the number of the thing priced: *le fragole* is plural, so *costano* in both question and answer. Singular: *Quanto costa il melone? Costa due euro.*"
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Absolute superlative with gender agreement: $\\text{stem} + \\text{-issim-} + \\text{gender/number ending}$. Complete: *Quest'uva è ____ .* (very sweet)",
+      "options": {
+        "A": "dolcissimo",
+        "B": "dolcissime",
+        "C": "dolcissimi",
+        "D": "dolcissima"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Uva* is a feminine singular noun, so the superlative ends in *-a*: *dolcissima*. With a masculine noun: *Questo melone è dolcissimo*."
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You stop an elderly woman in the street to ask for the station. Which opening is most appropriate?",
+      "options": {
+        "A": "*Scusi, signora, come arrivo alla stazione?*",
+        "B": "*Scusa, come arrivo alla stazione?*",
+        "C": "*Ehi, dov'è la stazione?*",
+        "D": "*Mi dai la stazione?*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "With a stranger, and especially an older person, use the formal *Scusi* (the *Lei* imperative of *scusare*) and polite wording. *Scusa* is the informal *tu* form."
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A stranger gives you directions.\n```text\n— Scusi, come arrivo al museo?\n— ____ la prima strada a destra e poi continui dritto.\n```",
+      "options": {
+        "A": "Prendi",
+        "B": "Prenda",
+        "C": "Prende",
+        "D": "Prendere"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The formal imperative of *prendere* is *prenda*, matching the polite *continui* in the same sentence. *Prendi* is for *tu*."
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly asks a friend (*tu*) to help you, using the imperative with a pronoun?",
+      "options": {
+        "A": "*Aiuta mi!*",
+        "B": "*Aiutare mi!*",
+        "C": "*Aiutami!*",
+        "D": "*Mi aiuta tu!*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Pronouns are attached to the end of an affirmative *tu* imperative: *aiuta* + *mi* = *aiutami*. The formal version puts the pronoun before the verb: *Mi aiuti!* Another example: *Scusami!*"
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build 'It takes five minutes' with $\\text{ci} + \\text{volerci}_{agreeing\\ with\\ time} + \\text{quantity}$.",
+      "options": {
+        "A": "*Ci vuole cinque minuti.*",
+        "B": "*Cinque minuti ci vuole.*",
+        "C": "*Ci vogliamo cinque minuti.*",
+        "D": "*Ci vogliono cinque minuti.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Volerci* agrees with the thing needed: plural *minuti* gives *ci vogliono*, while singular gives *ci vuole* (*ci vuole un'ora*)."
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You did not understand directions given quickly in Italian. Which reply is best?",
+      "options": {
+        "A": "*Scusi, può ripetere più lentamente, per favore?*",
+        "B": "*Ripeti più lentamente!*",
+        "C": "*Prego, non capisco.*",
+        "D": "*Piacere, ripeta Lei?*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A polite request to a stranger uses *Scusi* + *può* + infinitive + *per favore*. A bare *tu* imperative is rude, and *prego* or *piacere* are replies to thanks and introductions."
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "At the beach shop a Brazilian wants swimwear. Which request is safest?",
+      "options": {
+        "A": "*Cerco un costume.*",
+        "B": "*Cerco un costume da bagno.*",
+        "C": "*Cerco un vestito da bagno.*",
+        "D": "*Cerco una fantasia da bagno.*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Costume* alone can mean a costume or traditional dress, and the swimsuit is *costume da bagno*. *Vestito* means 'dress/suit', and *fantasia* means 'pattern' or 'imagination'."
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Comparatives with a second term follow $\\text{più} + \\text{adjective} + \\text{di} + \\text{term}_2$. Which sentence is right?",
+      "options": {
+        "A": "*Questa giacca è più cara che quella.*",
+        "B": "*Questa giacca è più cara da quella.*",
+        "C": "*Questa giacca è più cara di quella.*",
+        "D": "*Questa giacca è più cara come quella.*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "When comparing two nouns or pronouns, Italian uses *di* after the comparative. *Che* is used to compare two adjectives, adverbs or quantities (*più bella che comoda*)."
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the correct verb: *I pantaloni ____ troppo larghi.*",
+      "options": {
+        "A": "*è*",
+        "B": "*era*",
+        "C": "*siamo*",
+        "D": "*sono*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Plural-only nouns such as *pantaloni*, *jeans*, *occhiali* take a plural verb: present tense of *essere*, *sono*. Another example: *I miei occhiali sono nuovi.*"
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nQuando fa freddo, io mi ____ il cappotto.\n```",
+      "options": {
+        "A": "metto",
+        "B": "mette",
+        "C": "mettiamo",
+        "D": "metti"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Mettersi* (to put on) is reflexive; the first person is *mi metto*. The other persons are *ti metti, si mette, ci mettiamo, vi mettete, si mettono*."
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What is the most reliable way to choose between *quel*, *quello*, *quell'*, *quei*, *quegli* before a noun?",
+      "options": {
+        "A": "Always use *quello*",
+        "B": "Say the noun with its definite article first (*il, lo, l', i, gli*), then mirror that form",
+        "C": "Choose by the length of the noun",
+        "D": "Memorise one form per colour"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The demonstrative *quello* before a noun copies the definite article: *il cappotto, quel cappotto*; *lo zaino, quello zaino*; *l'impermeabile, quell'impermeabile*; *i guanti, quei guanti*."
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which sentence is correct for 'I know Professor Rossi and I know how to swim'?",
+      "options": {
+        "A": "*So il professor Rossi e conosco nuotare.*",
+        "B": "*Conosco il professor Rossi e conosco nuotare.*",
+        "C": "*Conosco il professor Rossi e so nuotare.*",
+        "D": "*So il professor Rossi e so nuotare.*"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Conoscere* is for people and places; *sapere* is for facts and learned skills, followed by an infinitive. Both are translated 'to know' in Portuguese *conhecer* / *saber*."
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Passato prossimo with an irregular participle: $\\text{avere}_{conj} + \\text{participle}$. What is 'I wrote the thesis' (*scrivere*, participle *scritto*)?",
+      "options": {
+        "A": "*Ho scrivuto la tesi.*",
+        "B": "*Ho scrito la tesi.*",
+        "C": "*Sono scritto la tesi.*",
+        "D": "*Ho scritto la tesi.*"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Scrivere* has the irregular participle *scritto* and uses *avere*. Other irregulars: *fare, fatto*; *leggere, letto*; *dire, detto*; *prendere, preso*."
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Where does *fa* ('ago') go? Choose the correct sentence.",
+      "options": {
+        "A": "*Mi sono laureata due anni fa.*",
+        "B": "*Mi sono laureata fa due anni.*",
+        "C": "*Mi sono laureata da due anni.*",
+        "D": "*Mi sono laureata per due anni fa.*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Time expression with *fa*: it comes after the time expression and refers to a finished past event. *Da* + duration would express an ongoing period. Another example: *Sono arrivato tre giorni fa.*"
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nVoglio ____ in economia presto.\n```",
+      "options": {
+        "A": "laurearsi",
+        "B": "laurearmi",
+        "C": "laureato",
+        "D": "laurea"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "With a modal verb, the reflexive pronoun attaches to the infinitive and agrees with the subject: *voglio laurearmi*. With *dobbiamo* it would be *laurearci*."
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "An Italian friend says *Ho preso ventotto all'esame.* What does this mean?",
+      "options": {
+        "A": "He took 28 exams",
+        "B": "He failed the exam",
+        "C": "He scored 28 out of 30, a good pass",
+        "D": "He is 28 years old"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "*Prendere* can mean 'to get' a grade. University exams are marked out of 30 with 18 as the minimum, so 28 is a strong result."
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which explanation covers both *cercare* giving *cerchi* and *mangiare* giving *mangi*?",
+      "options": {
+        "A": "Both verbs are irregular, so there is no pattern",
+        "B": "Italian adds a letter to every second-person form",
+        "C": "The endings change because the stress moves",
+        "D": "The stem's final sound must be preserved: an *h* keeps the hard /k/ before *i*, while the *i* of *-giare* only marks the soft sound and is not doubled"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Spelling rules for *-care/-gare* and *-ciare/-giare/-sciare*: add *h* to preserve a hard sound before *i/e*, and drop the *i* before another *i* in the ending. Compare *pagare, paghi* and *lasciare, lasci*."
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Progressive: $\\text{stare}_{conj} + \\text{stem} + \\text{-endo}$ for *-ere* verbs. How do you say 'I am reading'?",
+      "options": {
+        "A": "*Sto leggendo.*",
+        "B": "*Sto leggando.*",
+        "C": "*Sono leggendo.*",
+        "D": "*Sto leggere.*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Stare* + gerund: *-are* verbs form it with *-ando* (*parlando*), *-ere/-ire* with *-endo* (*leggendo, dormendo*). The auxiliary is never *essere*."
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct for 'You (all) speak Italian very well'?",
+      "options": {
+        "A": "*Voi parlano italiano molto bene.*",
+        "B": "*Voi parlate italiano molto bene.*",
+        "C": "*Voi parli italiano molto bene.*",
+        "D": "*Voi parliamo italiano molto bene.*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Present tense of regular *-are* verbs: the *voi* ending is always *-ate* (*parlate, cantate, lavorate*). Another example: *Voi mangiate troppo.*"
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the sentence.\n```text\nMarco e Luca ____ la spesa ogni sabato.\n```",
+      "options": {
+        "A": "fa",
+        "B": "fate",
+        "C": "fanno",
+        "D": "facciono"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Present tense of *fare*: third person plural *fanno*. The verb is irregular even though it ends in *-are*."
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the right form: *Tu ____ il messaggio a Maria.* (inviare)",
+      "options": {
+        "A": "invi",
+        "B": "invia",
+        "C": "invio",
+        "D": "invii"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Present tense of verbs in *-iare* with a stressed *i*: *inviare* keeps both *i* in the second person (*tu invii*). Compare *studiare*, where *tu studi* has one *i*."
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A colleague asks how you are, and you have a headache. Which reply is most correct?",
+      "options": {
+        "A": "*Non sto molto bene: ho mal di testa.*",
+        "B": "*Non sono bene: sono mal di testa.*",
+        "C": "*Non ho bene: ho male la testa.*",
+        "D": "*Non sto bene: sono mal di testa.*"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Health uses *stare*, while pain is expressed with *avere* (*avere mal di testa*). A literal translation using *essere* sounds wrong."
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A noun after an intensifier needs agreement: $\\text{avere} + \\text{molt-}_{gender,number} + \\text{noun}$. Complete: *Abbiamo ____ fame.*",
+      "options": {
+        "A": "molto",
+        "B": "molta",
+        "C": "molti",
+        "D": "molte"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "*Molto* agrees as a quantifier with the noun: *fame* is feminine singular, so *molta fame*. Before adjectives it is invariable: *molto stanco*."
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the right preposition: *Sono stanco ____ aspettare.*",
+      "options": {
+        "A": "da",
+        "B": "per",
+        "C": "di",
+        "D": "a"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adjective + preposition: *stanco di* + infinitive means 'tired of doing'. Other patterns: *felice di vederti*, *preoccupato per te*. Another example: *Sono stufa di aspettare.*"
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "The doctor asks what is wrong.\n```text\n— Che cos'hai?\n— ____ mal di testa.\n```",
+      "options": {
+        "A": "Sono",
+        "B": "Sto",
+        "C": "Mi sento",
+        "D": "Ho"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Pain uses the pattern *avere mal di + part of the body*: *Ho mal di testa / di denti / di gola*."
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What does *Fabio è deluso dal risultato* mean?",
+      "options": {
+        "A": "Fabio is disappointed with the result",
+        "B": "Fabio is deluded about the result",
+        "C": "Fabio is delighted with the result",
+        "D": "Fabio is worried about the result"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Deluso* is a false friend: it means 'disappointed' (from *deludere*), not 'deluded' or 'illusioned'. 'Worried' is *preoccupato*."
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You want to ask a stranger politely to take a photo of the two of you. Which request is best?",
+      "options": {
+        "A": "*Scattaci una foto!*",
+        "B": "*Mi scusi, potrebbe scattarci una foto?*",
+        "C": "*Scatta foto!*",
+        "D": "*Fai una foto, dai.*"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "A polite request to a stranger uses *Mi scusi* + the conditional *potrebbe* (*Lei*) + infinitive. Imperatives in the *tu* form are too direct."
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Irregular future uses a contracted stem: $\\text{potr-} + \\text{-ò}$ for *potere*. What is the *io* form?",
+      "options": {
+        "A": "poterò",
+        "B": "possò",
+        "C": "potrò",
+        "D": "potrei"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Verbs like *potere* (*potrò*), *dovere* (*dovrò*), *vedere* (*vedrò*) and *andare* (*andrò*) drop the vowel before *-r-*. *Potrei* is the conditional ('I could')."
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the right word: *Vado ____ vedere la cattedrale.*",
+      "options": {
+        "A": "di",
+        "B": "da",
+        "C": "che",
+        "D": "a"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "*Andare a* + infinitive expresses going somewhere to do something. Another example: *Vado a mangiare.*"
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Describe the walk.\n```text\nCamminiamo ____ il fiume fino al castello.\n```",
+      "options": {
+        "A": "lungo",
+        "B": "lunga",
+        "C": "fra",
+        "D": "sotto"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "*Lungo* is a preposition meaning 'along', followed directly by a noun. Another example: *Camminiamo lungo la spiaggia.*"
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which routine best tackles repeated confusion between *ho fame*, *sono stanco* and *sto bene*?",
+      "options": {
+        "A": "Memorise a list of adjectives only",
+        "B": "Group each sentence under its category (sensation with *avere*, adjective state with *essere*, health with *stare*), then self-test by translating Portuguese sentences",
+        "C": "Avoid these structures and use *è* for everything",
+        "D": "Translate word by word from Portuguese"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The three verbs cover different semantic categories, so sorting examples by category and testing active recall from Portuguese cues builds the correct association. Word-for-word translation is the source of the errors."
+    }
+  ],
+  "registered": {
+    "question_ids": [
+      951,
+      952,
+      953,
+      954,
+      955,
+      956,
+      957,
+      958,
+      959,
+      960,
+      961,
+      962,
+      963,
+      964,
+      965,
+      966,
+      967,
+      968,
+      969,
+      970,
+      971,
+      972,
+      973,
+      974,
+      975,
+      976,
+      977,
+      978,
+      979,
+      980,
+      981,
+      982,
+      983,
+      984,
+      985,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999,
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010,
+      1011,
+      1012,
+      1013,
+      1014,
+      1015,
+      1016,
+      1017,
+      1018,
+      1019,
+      1020,
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026,
+      1027,
+      1028,
+      1029,
+      1030,
+      1031,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040,
+      1041,
+      1042,
+      1043,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1050,
+      1051,
+      1052,
+      1053,
+      1054,
+      1055,
+      1056,
+      1057,
+      1058,
+      1059,
+      1060,
+      1061,
+      1062,
+      1063,
+      1064,
+      1065,
+      1066,
+      1067,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1073,
+      1074,
+      1075,
+      1076,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083,
+      1084,
+      1085,
+      1086,
+      1087,
+      1088,
+      1089,
+      1090,
+      1091,
+      1092,
+      1093,
+      1094,
+      1095,
+      1096,
+      1097,
+      1098,
+      1099,
+      1100,
+      1101,
+      1102,
+      1103,
+      1104,
+      1105,
+      1106,
+      1107,
+      1108,
+      1109,
+      1110,
+      1111,
+      1112,
+      1113,
+      1114,
+      1115,
+      1116,
+      1117,
+      1118,
+      1119,
+      1120,
+      1121,
+      1122,
+      1123,
+      1124,
+      1125,
+      1126,
+      1127,
+      1128,
+      1129,
+      1130,
+      1131,
+      1132,
+      1133,
+      1134,
+      1135,
+      1136,
+      1137,
+      1138,
+      1139,
+      1140,
+      1141,
+      1142,
+      1143,
+      1144,
+      1145,
+      1146,
+      1147,
+      1148,
+      1149,
+      1150
+    ],
+    "skipped": 0
+  }
+}

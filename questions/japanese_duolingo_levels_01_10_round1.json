@@ -1,0 +1,3215 @@
+{
+  "approved_by": "user (bulk generation request, delegated approval)",
+  "approved_on": "2026-11-11",
+  "topic": {
+    "subsubcategory_id": 42,
+    "name": "Japanese"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill the blank to say \"I understand English.\"\n```text\nえいご ____ わかります。\n(eigo ____ wakarimasu.)\n```",
+      "options": {
+        "A": "に (ni)",
+        "B": "と (to)",
+        "C": "の (no)",
+        "D": "が (ga)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "わかります (wakarimasu) (to understand) takes the thing understood with が (ga): えいごが わかります (eigo ga wakarimasu)."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "When do you say ただいま (tadaima)?",
+      "options": {
+        "A": "When you leave home",
+        "B": "When you start eating",
+        "C": "When you apologize",
+        "D": "When you arrive back home (\"I'm back\")"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "ただいま (tadaima) is said on returning home, and the person at home answers おかえりなさい (okaeri nasai) (\"welcome back\"). When leaving home you say いってきます (ittekimasu) and are answered with いってらっしゃい (itterasshai)."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill the blank to say \"a car of Japan\" (a Japanese car).\n```text\nにほん ____ くるま\n(nihon ____ kuruma)\n```",
+      "options": {
+        "A": "の (no)",
+        "B": "は (wa)",
+        "C": "を (o)",
+        "D": "か (ka)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "の (no) links two nouns like \"of\", with the owner or origin first: にほんの くるま (nihon no kuruma). Another example: ブラジルの コーヒー (burajiru no kōhī) (coffee of Brazil)."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill the blank to introduce yourself: \"I am Ken.\"\n```text\nはじめまして。わたし ____ ケンです。\n(hajimemashite. watashi ____ ken desu.)\n```",
+      "options": {
+        "A": "は (wa)",
+        "B": "を (o)",
+        "C": "か (ka)",
+        "D": "と (to)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The topic particle は (wa) (written は, read \"wa\") follows わたし (watashi) to give わたしは ケンです (watashi wa ken desu), \"I am Ken.\""
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence is the correct question form of それは パンです (sore wa pan desu) (\"That is bread\")?",
+      "options": {
+        "A": "か それは パンです (ka sore wa pan desu)",
+        "B": "それは パンですか (sore wa pan desu ka)",
+        "C": "それは か パンです (sore wa ka pan desu)",
+        "D": "それは パンですを (sore wa pan desu o)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This is the question particle か (ka): put it at the very end of a statement to turn it into a question, with no change in word order. Another example: これは コーヒーですか (kore wa kōhī desu ka) (\"Is this coffee?\")."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Possession formula: $\\text{owner} + no + \\text{thing}$. How do you say \"the teacher's book\" (teacher = せんせい (sensei), book = ほん (hon))?",
+      "options": {
+        "A": "ほんの せんせい (hon no sensei)",
+        "B": "せんせいと ほん (sensei to hon)",
+        "C": "せんせいの ほん (sensei no hon)",
+        "D": "せんせいを ほん (sensei o hon)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The owner comes first and の (no) follows it, the reverse of English word order in \"book of the teacher\". ほんの せんせい (hon no sensei) would mean \"the book's teacher\"."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct for \"I will go tomorrow\"?",
+      "options": {
+        "A": "あしたに いきます (ashita ni ikimasu)",
+        "B": "あしたを いきます (ashita o ikimasu)",
+        "C": "あしたの いきます (ashita no ikimasu)",
+        "D": "あした いきます (ashita ikimasu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Relative time words such as あした (ashita) (tomorrow), きょう (kyō) (today) and まいにち (mainichi) (every day) take no particle に (ni), while a clock time does: くじに いきます (kuji ni ikimasu) (I go at nine)."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does ごご (gogo) mean when telling the time?",
+      "options": {
+        "A": "a.m. (morning)",
+        "B": "exactly on the hour",
+        "C": "half past",
+        "D": "p.m. (afternoon or evening)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "ごご (gogo) means p.m. and ごぜん (gozen) means a.m., as in ごご さんじ (gogo sanji) (3 p.m.). \"Exactly on the hour\" is ちょうど (chōdo) and \"half past\" is はん (han)."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word means \"the language spoken in Brazil\"?",
+      "options": {
+        "A": "ブラジルご (burajirugo)",
+        "B": "ブラジルじん (burajirujin)",
+        "C": "ポルトガルご (porutogarugo)",
+        "D": "スペインご (supeingo)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "People in Brazil speak Portuguese, so the language is ポルトガルご (porutogarugo). ブラジルじん (burajirujin) means a Brazilian person, and スペインご (supeingo) is Spanish."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "When do you say こんばんは (konbanwa)?",
+      "options": {
+        "A": "When going to bed",
+        "B": "When greeting someone in the evening",
+        "C": "When arriving home",
+        "D": "When meeting someone for the first time"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "こんばんは (konbanwa) means \"good evening\" and is said when you meet someone at night. Going to bed uses おやすみなさい (oyasumi nasai), arriving home uses ただいま (tadaima), and a first meeting uses はじめまして (hajimemashite)."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Time-point formula: $\\text{time} + ni + \\text{verb}$. Which sentence means \"I wake up at six\" (6 o'clock = ろくじ (rokuji), wake up = おきます (okimasu))?",
+      "options": {
+        "A": "ろくじを おきます (rokuji o okimasu)",
+        "B": "ろくじが おきます (rokuji ga okimasu)",
+        "C": "ろくじに おきます (rokuji ni okimasu)",
+        "D": "ろくじで おきます (rokuji de okimasu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The particle に (ni) marks an exact point in time, so ろくじに (rokuji ni) means \"at six\". Another example: じゅうじに ねます (jūji ni nemasu) (I sleep at ten)."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nコーヒーを ふたつ ください。\n(kōhī o futatsu kudasai.)\nTranslation: ____\n```",
+      "options": {
+        "A": "Coffee and tea, please.",
+        "B": "Two coffees, please.",
+        "C": "Two teas, please.",
+        "D": "I drank two coffees."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "コーヒー (kōhī) is coffee, ふたつ (futatsu) is \"two\" and ください (kudasai) is \"please give me\". The pattern is thing + を (o) + quantity + ください (kudasai)."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nすみません、くうこうは どこですか。\n(sumimasen, kūkō wa doko desu ka.)\nTranslation: ____\n```",
+      "options": {
+        "A": "Excuse me, where is the airport?",
+        "B": "Excuse me, is this the airport?",
+        "C": "Excuse me, the airport is over there.",
+        "D": "Excuse me, where is the subway?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "すみません (sumimasen) gets attention, くうこう (kūkō) is the airport, どこ (doko) is \"where\" and か (ka) turns the sentence into a question."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nいま、ごじはんです。\n(ima, goji han desu.)\nTranslation: ____\n```",
+      "options": {
+        "A": "It is 5:00 now.",
+        "B": "It is 5:30 now.",
+        "C": "It is 5:45 now.",
+        "D": "It is 6:30 now."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "ごじ (goji) is 5 o'clock and はん (han) adds \"half past\", so ごじはん (goji han) is 5:30. いま (ima) means \"now\"."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I speak English\"?",
+      "options": {
+        "A": "えいごが はなします (eigo ga hanashimasu)",
+        "B": "えいごに はなします (eigo ni hanashimasu)",
+        "C": "えいごの はなします (eigo no hanashimasu)",
+        "D": "えいごを はなします (eigo o hanashimasu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "はなします (hanashimasu) (to speak) takes the object particle を (o), while わかります (wakarimasu) (to understand) takes が (ga). Another example: にほんごを べんきょうします (nihongo o benkyō shimasu) (I study Japanese)."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nしごとは くじから ごじまでです。\n(shigoto wa kuji kara goji made desu.)\nTranslation: ____\n```",
+      "options": {
+        "A": "Work is from 9 to 5.",
+        "B": "Work starts at 5 and ends at 9.",
+        "C": "Work is at 9 and at 5.",
+        "D": "Work lasts nine hours."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "から (kara) marks the start and まで (made) the end: くじから ごじまで (kuji kara goji made) is \"from 9 until 5\". しごと (shigoto) means work."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word means \"the English language\"?",
+      "options": {
+        "A": "イギリスご (igirisugo)",
+        "B": "えいご (eigo)",
+        "C": "アメリカご (amerikago)",
+        "D": "にほんご (nihongo)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "English has its own word, えいご (eigo); it is an exception to the \"country + ご\" pattern. にほんご (nihongo) means Japanese, while イギリスご (igirisugo) and アメリカご (amerikago) are not used."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the particle that marks origin: ブラジル ____ きました (burajiru ____ kimashita) (\"I came from Brazil\").",
+      "options": {
+        "A": "まで (made)",
+        "B": "に (ni)",
+        "C": "と (to)",
+        "D": "から (kara)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The particle から (kara) means \"from\" and marks a starting point or origin. Another example: サンパウロから きました (sanpauro kara kimashita) (I came from São Paulo). まで (made) means \"until\" and に (ni) would mean \"came to\"."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The very formal way to give your name follows the formula $\\text{name} + to + mōshimasu$. How do you say \"My name is Maria\" (マリア (maria)) this way?",
+      "options": {
+        "A": "マリアと もうします (maria to mōshimasu)",
+        "B": "マリアを もうします (maria o mōshimasu)",
+        "C": "マリアさんと もうします (maria-san to mōshimasu)",
+        "D": "マリアと です (maria to desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The particle と (to) followed by もうします (mōshimasu) is a very formal \"I am called ...\". As always, さん (san) is not added to your own name. The everyday version is わたしは マリアです (watashi wa maria desu)."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In katakana words such as コーヒー (kōhī), what does the long mark ー (chōonpu) do?",
+      "options": {
+        "A": "It makes the word a question",
+        "B": "It lengthens the vowel before it",
+        "C": "It silences the vowel before it",
+        "D": "It shows the word is plural"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The long-vowel mark ー stretches the previous vowel, so コーヒー (kōhī) is \"kōhī\" with a long ō and a long ī, not \"kohi\". Another example: ケーキ (kēki) has a long ē."
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly introduces yourself (\"I am Maria\")?",
+      "options": {
+        "A": "わたしは マリアです (watashi wa maria desu)",
+        "B": "わたしは マリアさんです (watashi wa maria-san desu)",
+        "C": "わたしを マリアです (watashi o maria desu)",
+        "D": "わたしと マリアです (watashi to maria desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The honorific suffix さん (san) is for talking about other people, never about yourself. Use topic は (wa) + name + です (desu). For someone else: たなかさんは せんせいです (tanaka-san wa sensei desu)."
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill the blank to say \"Good morning\" politely.\n```text\n____ ございます。\n(____ gozaimasu.)\n```",
+      "options": {
+        "A": "こんにちは (konnichiwa)",
+        "B": "さようなら (sayōnara)",
+        "C": "ただいま (tadaima)",
+        "D": "おはよう (ohayō)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Adding ございます (gozaimasu) to おはよう (ohayō) gives the polite morning greeting おはようございます (ohayō gozaimasu). こんにちは (konnichiwa) is a daytime greeting, さようなら (sayōnara) is goodbye and ただいま (tadaima) is \"I'm home\"."
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "When you order food or a drink in Japanese, what does ください (kudasai) express?",
+      "options": {
+        "A": "Thanks: \"thank you very much\"",
+        "B": "A compliment: \"it is delicious\"",
+        "C": "A polite request: \"please give me ...\"",
+        "D": "An attention-getter: \"excuse me\""
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "ください (kudasai) follows the thing you want and means \"please give me\". For example みずを ください (mizu o kudasai) is \"Water, please.\" Thanks is ありがとうございます (arigatō gozaimasu), delicious is おいしい (oishii), and \"excuse me\" is すみません (sumimasen)."
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use $\\text{thing} + o + \\text{quantity} + kudasai$ to say \"Three cakes, please\" (cake = ケーキ (kēki), three = みっつ (mittsu)).",
+      "options": {
+        "A": "ケーキを ふたつ ください (kēki o futatsu kudasai)",
+        "B": "ケーキを よっつ ください (kēki o yottsu kudasai)",
+        "C": "ケーキを いつつ ください (kēki o itsutsu kudasai)",
+        "D": "ケーキを みっつ ください (kēki o mittsu kudasai)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The generic counter gives ひとつ (hitotsu) (1), ふたつ (futatsu) (2), みっつ (mittsu) (3), よっつ (yottsu) (4) and いつつ (itsutsu) (5). The noun ケーキ (kēki) stays unchanged; only the number shows the quantity."
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Time formula: $\\text{hour} + ji + han$ means \"half past\". How do you say 7:30 (7 o'clock = しちじ (shichiji))?",
+      "options": {
+        "A": "ななじはん (nanaji han)",
+        "B": "しちじぷん (shichiji pun)",
+        "C": "しちじはん (shichiji han)",
+        "D": "しちじ ちょうど (shichiji chōdo)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Seven o'clock is irregular, しちじ (shichiji), and はん (han) adds the half hour. ちょうど (chōdo) means \"exactly\" (7:00 sharp), and ななじ (nanaji) is not used."
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Sentence formula: $\\text{person} + san + no + \\text{thing} + wa + \\text{place} + desu$. Which sentence says \"Mr. Tanaka's ticket is here\" (ticket = きっぷ (kippu), here = ここ (koko))?",
+      "options": {
+        "A": "きっぷの たなかさんは ここです (kippu no tanaka-san wa koko desu)",
+        "B": "たなかさんの ここは きっぷです (tanaka-san no koko wa kippu desu)",
+        "C": "たなかさんを きっぷは ここです (tanaka-san o kippu wa koko desu)",
+        "D": "たなかさんの きっぷは ここです (tanaka-san no kippu wa koko desu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "たなかさんの きっぷ (tanaka-san no kippu) is \"Mr. Tanaka's ticket\" (owner + の (no) + thing), then the topic は (wa) and the location with です (desu)."
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "In がっこうへ いきます (gakkō e ikimasu) (\"I go to school\"), how is the particle written へ (e) read and what does it mark?",
+      "options": {
+        "A": "It is read \"he\" and marks the direction",
+        "B": "It is read \"e\" and marks the direction of movement",
+        "C": "It is read \"wa\" and marks the topic",
+        "D": "It is read \"o\" and marks the object"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This is the direction particle へ (e), written he but pronounced \"e\". With movement verbs it marks the destination: うちへ かえります (uchi e kaerimasu) (I go back home). Like it, は (wa) is read \"wa\" and を (o) is read \"o\"."
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nバスていは あそこです。\n(basutei wa asoko desu.)\nTranslation: ____\n```",
+      "options": {
+        "A": "The bus stop is over there.",
+        "B": "The bus stop is here.",
+        "C": "Where is the bus stop?",
+        "D": "This is not a bus stop."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "あそこ (asoko) means \"over there\" (far from both speaker and listener). ここ (koko) is \"here\" and どこ (doko) is \"where\"."
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill the blank: \"There is a cat inside the house.\"\n```text\nいえの なかに ねこが ____。\n(ie no naka ni neko ga ____.)\n```",
+      "options": {
+        "A": "あります (arimasu)",
+        "B": "いません (imasen)",
+        "C": "ありません (arimasen)",
+        "D": "います (imasu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A cat is a living animal, so existence is expressed with います (imasu). あります (arimasu) is for objects, and the other two are negatives (\"there is not\")."
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Fill the blank to say \"Bread and cake, please.\"\n```text\nパン ____ ケーキを ください。\n(pan ____ kēki o kudasai.)\n```",
+      "options": {
+        "A": "か (ka)",
+        "B": "は (wa)",
+        "C": "と (to)",
+        "D": "に (ni)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "と (to) joins two nouns like \"and\", giving パンと ケーキ (pan to kēki) (bread and cake). か (ka) would make a question or mean \"or\", and は (wa) marks a topic."
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "パンを ふたつ ください (pan o futatsu kudasai) means \"Two breads, please.\" How does Japanese show that there are two?",
+      "options": {
+        "A": "パン (pan) takes a plural ending",
+        "B": "The noun パン (pan) does not change; the number ふたつ (futatsu) shows the quantity",
+        "C": "を (o) changes to a plural particle",
+        "D": "ください (kudasai) changes form"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Japanese nouns have no articles and, for the most part, no plural forms: みず (mizu) can be \"water\", \"the water\" or \"a water\". Quantity is expressed by a number or counter, such as ケーキを みっつ (kēki o mittsu) (three cakes)."
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "To ask for something, use the formula $\\text{thing} + o + kudasai$. Which sentence means \"Water, please\" ($\\text{thing} = $ みず (mizu))?",
+      "options": {
+        "A": "みずを ください (mizu o kudasai)",
+        "B": "みずが ください (mizu ga kudasai)",
+        "C": "ください みずを (kudasai mizu o)",
+        "D": "みずの ください (mizu no kudasai)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Put the object particle を (o) after the thing and finish with the request ください (kudasai). The verb-like word always comes last, so ください みずを (kudasai mizu o) is wrong."
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which writing system is normally used for foreign loanwords such as ケーキ (kēki) (cake) and ジュース (jūsu) (juice)?",
+      "options": {
+        "A": "Katakana",
+        "B": "Hiragana",
+        "C": "Kanji",
+        "D": "Rōmaji only"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Katakana is the script for words borrowed from other languages. Native Japanese words such as みず (mizu) (water) and ごはん (gohan) (rice, meal) are written in hiragana or kanji."
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is the standard reply to ありがとうございます (arigatō gozaimasu) (\"thank you very much\")?",
+      "options": {
+        "A": "どういたしまして (dō itashimashite) (\"you're welcome\")",
+        "B": "ただいま (tadaima)",
+        "C": "はじめまして (hajimemashite)",
+        "D": "おやすみなさい (oyasumi nasai)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "どういたしまして (dō itashimashite) means \"you're welcome\". A casual reply among friends is いえいえ (ieie). The other choices are for coming home, a first meeting and going to bed."
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does うしろ (ushiro) mean?",
+      "options": {
+        "A": "Behind",
+        "B": "In front of",
+        "C": "Inside",
+        "D": "Next to"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "うしろ (ushiro) means \"behind\". Its relatives: まえ (mae) (in front), なか (naka) (inside) and となり (tonari) (next to). It works as in いすの うしろ (isu no ushiro) (behind the chair)."
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nかぎは つくえの うえに あります。\n(kagi wa tsukue no ue ni arimasu.)\nTranslation: ____\n```",
+      "options": {
+        "A": "The key is under the desk.",
+        "B": "The key is on the desk.",
+        "C": "The desk is next to the key.",
+        "D": "The key is inside the bag."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "かぎ (kagi) is key, つくえ (tsukue) is desk and うえ (ue) is \"top, above\", so つくえの うえ (tsukue no ue) is \"on the desk\". あります (arimasu) says that a thing exists there."
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which particle marks the place where something exists in へやに ベッドが あります (heya ni beddo ga arimasu) (\"There is a bed in the room\")?",
+      "options": {
+        "A": "で (de)",
+        "B": "に (ni)",
+        "C": "を (o)",
+        "D": "と (to)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This is the location particle に (ni) used with existence verbs あります (arimasu) and います (imasu). The particle で (de) marks where an action takes place instead. Another example: いえに ねこが います (ie ni neko ga imasu)."
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In which situation do you say おやすみなさい (oyasumi nasai)?",
+      "options": {
+        "A": "To greet someone in the morning",
+        "B": "To introduce yourself",
+        "C": "To thank someone after a meal",
+        "D": "To wish someone good night before sleep"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "おやすみなさい (oyasumi nasai) is used only when someone is going to sleep; its short informal form is おやすみ (oyasumi). It is not a general goodbye: for that use またね (mata ne) or さようなら (sayōnara)."
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which is the correct order for \"coffee of Brazil\" (Brazilian coffee), using the possessive/linking particle の (no)?",
+      "options": {
+        "A": "コーヒーの ブラジル (kōhī no burajiru)",
+        "B": "コーヒー ブラジルの (kōhī burajiru no)",
+        "C": "ブラジルの コーヒー (burajiru no kōhī)",
+        "D": "ブラジル コーヒーの (burajiru kōhī no)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "In the pattern A の (no) B, the modifier (owner, origin) comes first and the main noun last; this is the particle の (no) of possession and origin. Another example: わたしの ともだち (watashi no tomodachi) (my friend)."
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete with the particle that means \"also\": わたし ____ みずを ください (watashi ____ mizu o kudasai) (\"Water for me too, please\").",
+      "options": {
+        "A": "の (no)",
+        "B": "と (to)",
+        "C": "も (mo)",
+        "D": "か (ka)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The particle も (mo) (\"also\") replaces は (wa) or を (o) when the idea is \"too\". Another example: わたしも げんきです (watashi mo genki desu) (\"I am fine too\")."
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Language formula: $\\text{country} + go$. What is \"the German language\" (country = ドイツ (doitsu))?",
+      "options": {
+        "A": "ドイツじん (doitsujin)",
+        "B": "ドイツの (doitsu no)",
+        "C": "ドイツご (doitsugo)",
+        "D": "ドイツを (doitsu o)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adding ご (go) (language) gives ドイツご (doitsugo); similarly フランスご (furansugo) is French. ドイツじん (doitsujin) would be a German person."
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which verb completes ともだちが ____ (tomodachi ga ____) (\"I have friends\" / \"there are friends\")?",
+      "options": {
+        "A": "あります (arimasu)",
+        "B": "います (imasu)",
+        "C": "ありません (arimasen)",
+        "D": "いません (imasen)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Existence of people and animals uses います (imasu); things use あります (arimasu). The negatives are いません (imasen) and ありません (arimasen). Another example: こうえんに こどもが います (kōen ni kodomo ga imasu) (there are children in the park)."
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "How do you say \"4 o'clock\" in Japanese?",
+      "options": {
+        "A": "よじ (yoji)",
+        "B": "よんじ (yonji)",
+        "C": "しじ (shiji)",
+        "D": "ようじ (yōji)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Four o'clock has a special reading, よじ (yoji). Similarly, 7 o'clock is しちじ (shichiji) and 9 o'clock is くじ (kuji). The other hours are regular, such as ごじ (goji) (5 o'clock)."
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does ちかてつ (chikatetsu) mean?",
+      "options": {
+        "A": "Airport",
+        "B": "Umbrella",
+        "C": "Subway",
+        "D": "Ticket"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "ちかてつ (chikatetsu) is the subway. The airport is くうこう (kūkō), an umbrella is かさ (kasa) and a ticket is きっぷ (kippu)."
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "In the phrase `パンと コーヒー (pan to kōhī)`, what does the particle `と (to)` do?",
+      "options": {
+        "A": "It marks the direct object",
+        "B": "It turns the phrase into a question",
+        "C": "It means \"also\"",
+        "D": "It joins two nouns, like \"and\""
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "This is the noun-linking particle と (to) (\"and\"): パンと コーヒー (pan to kōhī) is \"bread and coffee\". It joins nouns only, not whole sentences. Another example: ほんと ノート (hon to nōto) (a book and a notebook)."
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Existence formula: $\\text{place} + ni + \\text{thing} + ga + arimasu$. Which sentence means \"There is a computer on the desk\" (パソコン (pasokon))?",
+      "options": {
+        "A": "つくえの うえで パソコンが あります (tsukue no ue de pasokon ga arimasu)",
+        "B": "つくえの うえに パソコンが あります (tsukue no ue ni pasokon ga arimasu)",
+        "C": "つくえの うえに パソコンが います (tsukue no ue ni pasokon ga imasu)",
+        "D": "パソコンの うえに つくえが あります (pasokon no ue ni tsukue ga arimasu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The place takes に (ni), the thing takes が (ga), and an object uses あります (arimasu). The last option reverses the meaning (\"there is a desk on the computer\")."
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "In ちずは どこですか (chizu wa doko desu ka) (\"Where is the map?\"), what is the role of は (wa)?",
+      "options": {
+        "A": "It is read \"ha\" and marks the direct object",
+        "B": "It is read \"wa\" and marks possession",
+        "C": "It is read \"wa\" and marks the topic of the sentence",
+        "D": "It is read \"o\" and marks the destination"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "This is the topic particle は (wa): it names what the sentence is about (the map) before the comment. Another example: くうこうは あそこです (kūkō wa asoko desu) (as for the airport, it is over there)."
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Nationality formula: $\\text{country} + jin$. What is the word for \"Canadian person\" (country = カナダ (kanada))?",
+      "options": {
+        "A": "カナダご (kanadago)",
+        "B": "カナダの (kanada no)",
+        "C": "カナダじん (kanadajin)",
+        "D": "カナダを (kanada o)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Adding じん (jin) (person) to a country gives the nationality: カナダじん (kanadajin), ブラジルじん (burajirujin), フランスじん (furansujin). ご (go) would make a language word instead."
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Interval formula: $\\text{start} + kara + \\text{end} + made$. How do you say \"from 10 until 3\"?",
+      "options": {
+        "A": "じゅうじから さんじまで (jūji kara sanji made)",
+        "B": "さんじから じゅうじまで (sanji kara jūji made)",
+        "C": "じゅうじまで さんじから (jūji made sanji kara)",
+        "D": "じゅうじに さんじまで (jūji ni sanji made)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "から (kara) follows the starting time and まで (made) follows the ending time. Swapping them reverses the meaning to \"from 3 until 10\"."
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Use the formula $\\text{greeting} + \\text{surname} + san$ to say \"Good evening, Mr. Satō\" (さとう (satō)).",
+      "options": {
+        "A": "こんにちは、さとうさん (konnichiwa, satō-san)",
+        "B": "こんばんは、さとうさん (konbanwa, satō-san)",
+        "C": "おはよう、さとうさん (ohayō, satō-san)",
+        "D": "こんばんは、さとうを (konbanwa, satō o)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Evening is こんばんは (konbanwa), followed by the surname and さん (san). こんにちは (konnichiwa) is for the daytime and おはよう (ohayō) for the morning."
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nこのけいたいは だれのですか。\n(kono keitai wa dare no desu ka.)\nTranslation: ____\n```",
+      "options": {
+        "A": "Whose cell phone is this?",
+        "B": "Where is this cell phone?",
+        "C": "Is this your cell phone?",
+        "D": "What is this cell phone?"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "だれの (dare no) means \"whose\" (a person + the possessive の (no)), and このけいたい (kono keitai) is \"this cell phone\". A typical answer is わたしのです (watashi no desu) (\"it is mine\")."
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A colleague leaves the office first and says おさきに しつれいします (osaki ni shitsurei shimasu) (\"excuse me for leaving ahead of you\"). What is the typical reply?",
+      "options": {
+        "A": "ただいま (tadaima)",
+        "B": "いただきます (itadakimasu)",
+        "C": "ようこそ (yōkoso)",
+        "D": "おつかれさまでした (otsukaresama deshita)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "おつかれさまでした (otsukaresama deshita) acknowledges the other person's work (\"thanks for your effort\") and is the standard workplace reply. ようこそ (yōkoso) is \"welcome\", ただいま (tadaima) is \"I'm home\" and いただきます (itadakimasu) is said before eating."
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "The country name にほん (nihon) (Japan) has another accepted reading. Which one?",
+      "options": {
+        "A": "にほんご (nihongo)",
+        "B": "にほんじん (nihonjin)",
+        "C": "ちゅうごく (chūgoku)",
+        "D": "にっぽん (nippon)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Both にほん (nihon) and にっぽん (nippon) are correct readings of the country's name. にほんご (nihongo) is the language and にほんじん (nihonjin) a Japanese person, while ちゅうごく (chūgoku) is China."
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"I don't have a car\"?",
+      "options": {
+        "A": "わたしは くるまが ありません (watashi wa kuruma ga arimasen)",
+        "B": "わたしは くるまを ありません (watashi wa kuruma o arimasen)",
+        "C": "わたしは くるまが いません (watashi wa kuruma ga imasen)",
+        "D": "わたしは くるまの ありません (watashi wa kuruma no arimasen)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Possession of objects is expressed with the existence verb あります (arimasu) (negative ありません (arimasen)) and が (ga) marks the thing possessed. A car is inanimate, so いません (imasen) is wrong. Another example: わたしは パソコンが あります (watashi wa pasokon ga arimasu) (I have a computer)."
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the difference between さんじ (sanji) and さんじかん (sanjikan)?",
+      "options": {
+        "A": "さんじ (sanji) is 3 o'clock (a point in time); さんじかん (sanjikan) is three hours (a duration)",
+        "B": "さんじ (sanji) is three hours; さんじかん (sanjikan) is 3 o'clock",
+        "C": "They mean the same; かん (kan) is just polite",
+        "D": "さんじ (sanji) is 3 a.m. and さんじかん (sanjikan) is 3 p.m."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "じ (ji) counts clock hours, while じかん (jikan) counts the length of time. Compare くじに おきます (kuji ni okimasu) (I get up at nine) with くじかん ねます (kujikan nemasu) (I sleep nine hours)."
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says \"The bag is under the chair\"?",
+      "options": {
+        "A": "かばんは した いすに あります (kaban wa shita isu ni arimasu)",
+        "B": "かばんは いすを したに あります (kaban wa isu o shita ni arimasu)",
+        "C": "かばんは いすの したに あります (kaban wa isu no shita ni arimasu)",
+        "D": "かばんは いすの したを あります (kaban wa isu no shita o arimasu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Position words are nouns, so the pattern is reference object + の (no) + position noun + に (ni) + あります (arimasu). Another example: ほんは かばんの なかに あります (hon wa kaban no naka ni arimasu) (the book is inside the bag)."
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which pair of fixed phrases is said before and after a meal, in that order?",
+      "options": {
+        "A": "いただきます (itadakimasu) before, ごちそうさまでした (gochisōsama deshita) after",
+        "B": "ごちそうさまでした (gochisōsama deshita) before, いただきます (itadakimasu) after",
+        "C": "いただきます (itadakimasu) before, おかえりなさい (okaeri nasai) after",
+        "D": "おはよう (ohayō) before, おやすみ (oyasumi) after"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "いただきます (itadakimasu) (\"I gratefully receive\") starts the meal and ごちそうさまでした (gochisōsama deshita) (\"thank you for the feast\") ends it. Fixed formulas like these are learned as whole phrases rather than translated word by word."
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the particle: としょかん ____ べんきょうします (toshokan ____ benkyō shimasu) (\"I study at the library\"; としょかん (toshokan) = library).",
+      "options": {
+        "A": "に (ni)",
+        "B": "で (de)",
+        "C": "を (o)",
+        "D": "が (ga)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This is the particle で (de) for the place where an action happens. The particle に (ni) marks where something exists (へやに ベッドが あります (heya ni beddo ga arimasu)). Another action example: うちで ごはんを たべます (uchi de gohan o tabemasu) (I eat at home)."
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Time formula: $\\text{hour} + ji + \\text{minutes} + fun/pun$. How do you say 3:20?",
+      "options": {
+        "A": "さんじ にじゅうふん (sanji nijūfun)",
+        "B": "さんじ にじゅうぷん (sanji nijūpun)",
+        "C": "さんじ ふたじゅっぷん (sanji futajuppun)",
+        "D": "さんじ にじゅっぷん (sanji nijuppun)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Twenty minutes is にじゅっぷん (nijuppun): the tens word ends in a doubled consonant before the counter. Hours stay regular here, so 3 o'clock is さんじ (sanji). Another example: 6:10 is ろくじ じゅっぷん (rokuji juppun)."
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nすみません、メニューを ください。\n(sumimasen, menyū o kudasai.)\nTranslation: ____\n```",
+      "options": {
+        "A": "Excuse me, what is the menu?",
+        "B": "Excuse me, the menu is here.",
+        "C": "Thank you, I read the menu.",
+        "D": "Excuse me, the menu, please."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "すみません (sumimasen) gets the waiter's attention, メニュー (menyū) is the object marked by を (o), and ください (kudasai) makes the request."
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Fill in the blank to answer \"No, it is not mine.\"\n```text\nA: これは あなたの かさですか。 (kore wa anata no kasa desu ka.)\nB: いいえ、わたしの ____ ありません。 (iie, watashi no ____ arimasen.)\n```",
+      "options": {
+        "A": "は (wa)",
+        "B": "じゃ (ja)",
+        "C": "を (o)",
+        "D": "に (ni)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The polite negative of です (desu) is じゃ ありません (ja arimasen) (or では ありません (dewa arimasen)). The noun after わたしの (watashi no) is dropped because it is clear from context."
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Question formula: $\\text{owner} + san + no + \\text{thing} + wa + doko + desu + ka$. Which sentence means \"Where is Mr. Tanaka's umbrella?\"",
+      "options": {
+        "A": "かさの たなかさんは どこですか (kasa no tanaka-san wa doko desu ka)",
+        "B": "たなかさんの かさは どこですか (tanaka-san no kasa wa doko desu ka)",
+        "C": "たなかさんは かさの どこですか (tanaka-san wa kasa no doko desu ka)",
+        "D": "たなかさんの どこは かさですか (tanaka-san no doko wa kasa desu ka)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Owner + の (no) + thing forms the topic, どこ (doko) asks for the place, and か (ka) closes the question. Another example: わたしの ぼうしは どこですか (watashi no bōshi wa doko desu ka)."
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the dialogue so that B says \"I am fine too.\"\n```text\nA: おげんきですか。 (ogenki desu ka.)\nB: はい、げんきです。あなたは？ (hai, genki desu. anata wa?)\nA: わたし ____ げんきです。 (watashi ____ genki desu.)\n```",
+      "options": {
+        "A": "を (o)",
+        "B": "が (ga)",
+        "C": "も (mo)",
+        "D": "の (no)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "も (mo) takes the place of は (wa) to say \"also\": わたしも げんきです (watashi mo genki desu). The question あなたは？ (anata wa?) (\"and you?\") hands the same question back lightly."
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "The sentence `それは わたしの かばんです (sore wa watashi no kaban desu)` can be shortened by dropping the repeated noun. Which is the correct short form?",
+      "options": {
+        "A": "それは わたしのかばんのです (sore wa watashi no kaban no desu)",
+        "B": "それは わたしのです (sore wa watashi no desu)",
+        "C": "それは わたしです (sore wa watashi desu)",
+        "D": "それは わたしを です (sore wa watashi o desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Here の (no) works as a noun substitute (\"the one of mine\") when the thing is clear from context. This is the pronoun-like use of の (no). Another example: この かさは ともだちのです (kono kasa wa tomodachi no desu) (this umbrella is my friend's)."
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which statement about the polite verb おきます (okimasu) (\"wake up\") is correct?",
+      "options": {
+        "A": "It takes a different ending when the subject is a third person",
+        "B": "The same form is used for I, you and he/she; ます (masu) does not change with the person",
+        "C": "It gets a plural ending when several people wake up",
+        "D": "It changes ending depending on the gender of the speaker"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "This is the polite ます (masu) form: it conjugates for tense and polarity (おきました (okimashita) past, おきません (okimasen) negative), but never for person, number or gender. Another example: わたしは ねます (watashi wa nemasu) and かれは ねます (kare wa nemasu) both use ねます (nemasu)."
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which pair correctly gives \"a Brazilian person\" and \"the language of Brazil\"?",
+      "options": {
+        "A": "ブラジルじん (burajirujin) and ポルトガルご (porutogarugo)",
+        "B": "ブラジルじん (burajirujin) and ブラジルご (burajirugo)",
+        "C": "ポルトガルじん (porutogarujin) and ポルトガルご (porutogarugo)",
+        "D": "ブラジルご (burajirugo) and ブラジルじん (burajirujin)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The nationality is country + じん (jin), but the language is named after Portuguese: ポルトガルご (porutogarugo). ポルトガルじん (porutogarujin) is a person from Portugal, and \"ブラジルご (burajirugo)\" is not used."
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "For afternoon times, the 24-hour clock follows $h_{24} = h_{12} + 12$. How is 8 p.m. said on a 24-hour clock?",
+      "options": {
+        "A": "にじゅうじ (nijūji)",
+        "B": "じゅうはちじ (jūhachiji)",
+        "C": "にじゅういちじ (nijūichiji)",
+        "D": "はちじ (hachiji)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "8 + 12 = 20, so 8 p.m. is にじゅうじ (nijūji) (20:00). じゅうはちじ (jūhachiji) is 18:00 (6 p.m.) and にじゅういちじ (nijūichiji) is 21:00. Likewise 3 p.m. is じゅうごじ (jūgoji)."
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Politeness formula: $\\text{casual form} + gozaimasu$ (as in おはよう (ohayō) > おはようございます (ohayō gozaimasu)). Applying it, what is the polite form of ありがとう (arigatō) (\"thanks\")?",
+      "options": {
+        "A": "ありがとうなさい (arigatō nasai)",
+        "B": "ありがとうございます (arigatō gozaimasu)",
+        "C": "ありがとうます (arigatō masu)",
+        "D": "ありがとうでした (arigatō deshita)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "ございます (gozaimasu) raises both おはよう (ohayō) and ありがとう (arigatō) to the polite level. なさい (nasai) is used for other pairs, such as おやすみ (oyasumi) > おやすみなさい (oyasumi nasai) and ごめん (gomen) > ごめんなさい (gomen nasai)."
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Formula for people: $\\text{person} + wa + \\text{place} + ni + imasu$. Which sentence means \"My friend is in the park\" (こうえん (kōen))?",
+      "options": {
+        "A": "わたしの ともだちは こうえんに います (watashi no tomodachi wa kōen ni imasu)",
+        "B": "わたしの ともだちは こうえんに あります (watashi no tomodachi wa kōen ni arimasu)",
+        "C": "わたしの ともだちは こうえんで います (watashi no tomodachi wa kōen de imasu)",
+        "D": "わたしの ともだちは こうえんを います (watashi no tomodachi wa kōen o imasu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "A person uses います (imasu) and the place of existence takes に (ni). あります (arimasu) is for inanimate things and で (de) marks the place of an action."
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "On a 24-hour schedule, what time is じゅうごじ (jūgoji)?",
+      "options": {
+        "A": "5 p.m.",
+        "B": "1 p.m.",
+        "C": "3 p.m.",
+        "D": "5 a.m."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "じゅうご (jūgo) is 15, and 15:00 is 3 p.m. Subtract 12 from the hour for p.m. times: じゅうはちじ (jūhachiji) is 18:00, i.e. 6 p.m. The 12-hour alternative is ごご さんじ (gogo sanji)."
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Compare `つくえの うえに ほんが あります (tsukue no ue ni hon ga arimasu)` with `ほんは つくえの うえに あります (hon wa tsukue no ue ni arimasu)`. When is the second one (with は (wa)) the natural choice?",
+      "options": {
+        "A": "When the book is brand-new information",
+        "B": "When the book is a living being",
+        "C": "When you are asking about the time",
+        "D": "When the book is already known to both speakers and you say where it is"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "This is the contrast between subject marker が (ga) (introduces something new) and topic marker は (wa) (talks about something already known). Another example: へやに ねこが います (heya ni neko ga imasu) (there is a cat in the room) versus ねこは へやに います (neko wa heya ni imasu) (the cat is in the room)."
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nかばんの なかに なにが ありますか。\n(kaban no naka ni nani ga arimasu ka.)\nTranslation: ____\n```",
+      "options": {
+        "A": "Where is the bag?",
+        "B": "Whose bag is this?",
+        "C": "Is there a book in the bag?",
+        "D": "What is inside the bag?"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "かばんの なかに (kaban no naka ni) means \"inside the bag\", なにが (nani ga) is \"what\" as the thing that exists, and ありますか (arimasu ka) asks \"is there?\"."
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the usual reply.\n```text\nChild: ただいま。 (tadaima.)\nMother: ____ (____)\n```",
+      "options": {
+        "A": "いってらっしゃい (itterasshai)",
+        "B": "おかえりなさい (okaeri nasai)",
+        "C": "いただきます (itadakimasu)",
+        "D": "おやすみなさい (oyasumi nasai)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The fixed pair is ただいま (tadaima) (\"I'm back\") and おかえりなさい (okaeri nasai) (\"welcome back\"). The pair for leaving is いってきます (ittekimasu) and いってらっしゃい (itterasshai)."
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "You made a serious mistake at work and must apologize to your boss. Which apology fits best?",
+      "options": {
+        "A": "ごめん (gomen)",
+        "B": "じゃあね (jā ne)",
+        "C": "もうしわけありません (mōshiwake arimasen)",
+        "D": "バイバイ (baibai)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "もうしわけありません (mōshiwake arimasen) is a very formal apology suited to superiors. ごめん (gomen) is too casual, and じゃあね (jā ne) and バイバイ (baibai) are casual goodbyes, not apologies. A middle level is ごめんなさい (gomen nasai) or すみません (sumimasen)."
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Two formulas: $\\text{country} + jin = \\text{nationality}$ and $\\text{country} + go = \\text{language}$. One result below is NOT a real word because English is an exception. Which one?",
+      "options": {
+        "A": "ドイツご (doitsugo)",
+        "B": "イギリスご (igirisugo)",
+        "C": "フランスじん (furansujin)",
+        "D": "にほんじん (nihonjin)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "English is えいご (eigo), not \"イギリスご (igirisugo)\". The other results are regular: ドイツご (doitsugo) (German), フランスじん (furansujin) (a French person) and にほんじん (nihonjin) (a Japanese person)."
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Fill in the blank: \"I speak Portuguese and English.\"\n```text\nポルトガルごと ____ を はなします。\n(porutogarugo to ____ o hanashimasu.)\n```",
+      "options": {
+        "A": "イギリスご (igirisugo)",
+        "B": "えいご (eigo)",
+        "C": "イギリスじん (igirisujin)",
+        "D": "アメリカじん (amerikajin)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The word for the English language is the irregular えいご (eigo). イギリスじん (igirisujin) and アメリカじん (amerikajin) are nationalities (British and American people), and イギリスご (igirisugo) is not used."
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "At the end of an ordinary school day you say goodbye to a classmate you will see again tomorrow. Which farewell is the most natural?",
+      "options": {
+        "A": "さようなら (sayōnara)",
+        "B": "またね (mata ne)",
+        "C": "おやすみなさい (oyasumi nasai)",
+        "D": "ただいま (tadaima)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "またね (mata ne) (\"see you\") is the casual everyday farewell. さようなら (sayōnara) sounds final or like a long separation, おやすみなさい (oyasumi nasai) is only for going to sleep, and ただいま (tadaima) is said on arriving home."
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why is the English language called えいご (eigo) and not \"イギリスご (igirisugo)\" (country + ご)?",
+      "options": {
+        "A": "English has its own irregular word; the \"country + ご\" pattern does not apply to it",
+        "B": "Because ご is only used with katakana countries",
+        "C": "Because England has no country name in Japanese",
+        "D": "Because ご is only used for Asian languages"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Most languages follow country + ご (go): ドイツご (doitsugo), フランスご (furansugo), ちゅうごくご (chūgokugo). English is the exception: it is えいご (eigo), even though the country names イギリス (igirisu) and アメリカ (amerika) follow the normal pattern for nationalities."
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Formula: $\\text{time} + mae$ means \"before\" and $\\text{time} + sugi$ means \"after\". How do you say \"ten minutes before three\"?",
+      "options": {
+        "A": "さんじ じゅっぷん まえ (sanji juppun mae)",
+        "B": "さんじ じゅっぷん すぎ (sanji juppun sugi)",
+        "C": "さんじ まえ じゅっぷん (sanji mae juppun)",
+        "D": "じゅっぷん さんじ まえ (juppun sanji mae)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The time expression comes first and まえ (mae) closes it: さんじ じゅっぷん まえ (sanji juppun mae). With すぎ (sugi) the meaning flips to \"ten minutes past three\"."
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which clock hours do NOT follow the plain \"number + じ (ji)\" pattern but have special readings?",
+      "options": {
+        "A": "1, 2 and 3 o'clock",
+        "B": "10, 11 and 12 o'clock",
+        "C": "5, 6 and 8 o'clock",
+        "D": "4, 7 and 9 o'clock"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Most hours are regular, such as いちじ (ichiji) (1), ごじ (goji) (5), ろくじ (rokuji) (6) and はちじ (hachiji) (8). Only 4, 7 and 9 are special: よじ (yoji), しちじ (shichiji) and くじ (kuji), so よんじ (yonji) or ななじ (nanaji) would be mistakes."
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A dish sits right next to the person you are talking to, far from you. Which demonstrative do you use to ask about it?",
+      "options": {
+        "A": "これ (kore)",
+        "B": "あれ (are)",
+        "C": "それ (sore)",
+        "D": "どこ (doko)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The ko-so-a series follows distance: これ (kore) is near the speaker, それ (sore) is near the listener and あれ (are) is far from both. どこ (doko) is \"where\", not a demonstrative for things."
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which sentence is correct for \"I study every day\"?",
+      "options": {
+        "A": "まいにち べんきょうします (mainichi benkyō shimasu)",
+        "B": "まいにちに べんきょうします (mainichi ni benkyō shimasu)",
+        "C": "まいにちを べんきょうします (mainichi o benkyō shimasu)",
+        "D": "まいにちが べんきょうします (mainichi ga benkyō shimasu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Relative time words (まいにち (mainichi), きょう (kyō), あした (ashita)) take no time particle に (ni); only specific clock times do, as in しちじに おきます (shichiji ni okimasu). This is the rule for the time particle に (ni)."
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Origin formula: $\\text{place} + kara + kimashita$ (\"I came from ...\"). Which sentence means \"I came from Argentina\" (アルゼンチン (aruzenchin))?",
+      "options": {
+        "A": "アルゼンチンに きました (aruzenchin ni kimashita)",
+        "B": "アルゼンチンから きました (aruzenchin kara kimashita)",
+        "C": "アルゼンチンまで きました (aruzenchin made kimashita)",
+        "D": "アルゼンチンを きました (aruzenchin o kimashita)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "から (kara) marks the origin. に (ni) would say \"I came to Argentina\" and まで (made) \"I came as far as Argentina\"."
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the particle: メキシコ ____ すんでいます (mekishiko ____ sunde imasu) (\"I live in Mexico\").",
+      "options": {
+        "A": "に (ni)",
+        "B": "を (o)",
+        "C": "から (kara)",
+        "D": "と (to)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "すんでいます (sunde imasu) (to live) takes に (ni) for the place of residence, the same location particle used for existence. Another example: とうきょうに すんでいます (tōkyō ni sunde imasu) (I live in Tokyo)."
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "What is the polite negative of これは ケーキです (kore wa kēki desu) (\"This is a cake\")?",
+      "options": {
+        "A": "これは ケーキでは いません (kore wa kēki dewa imasen)",
+        "B": "これは ケーキが ありません (kore wa kēki ga arimasen)",
+        "C": "これは ケーキでは ありません (kore wa kēki dewa arimasen)",
+        "D": "これは ケーキでした (kore wa kēki deshita)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The negative of です (desu) is では ありません (dewa arimasen) (spoken: じゃ ありません (ja arimasen)). ケーキが ありません (kēki ga arimasen) would mean \"there is no cake\", and でした (deshita) is past tense. Another example: あれは ピザでは ありません (are wa piza dewa arimasen)."
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Plural formula for people: $\\text{pronoun} + tachi$. How do you say \"we\" from わたし (watashi) (\"I\")?",
+      "options": {
+        "A": "わたしじん (watashijin)",
+        "B": "わたしたち (watashitachi)",
+        "C": "わたしご (watashigo)",
+        "D": "わたしの (watashi no)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "たち (tachi) makes pronouns plural: わたしたち (watashitachi) (we) and あなたたち (anatatachi) (you, plural). Do not confuse it with じん (jin) (person of a country) or ご (go) (language)."
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nわたしも コーヒーを ください。\n(watashi mo kōhī o kudasai.)\nTranslation: ____\n```",
+      "options": {
+        "A": "I do not want coffee, thank you.",
+        "B": "Please give me coffee and tea.",
+        "C": "I would like coffee too, please.",
+        "D": "My coffee is over there."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "も (mo) replaces は (wa) and adds \"too\": わたしも (watashi mo) is \"me too\". The rest is the usual request pattern thing + を (o) + ください (kudasai)."
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Chained possession: $\\text{owner}_1 + no + \\text{owner}_2 + no + \\text{thing}$. Which phrase means \"my friend's umbrella\" (かさ (kasa))?",
+      "options": {
+        "A": "わたしの ともだちの かさ (watashi no tomodachi no kasa)",
+        "B": "ともだちの わたしの かさ (tomodachi no watashi no kasa)",
+        "C": "かさの ともだちの わたし (kasa no tomodachi no watashi)",
+        "D": "わたしの かさの ともだち (watashi no kasa no tomodachi)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Each の (no) links a possessor to what follows, so the chain reads from the outermost owner to the thing: my > friend's > umbrella. Reversing it would mean \"the umbrella's friend\" or similar nonsense."
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which ending turns a verb such as あいます (aimasu) (\"meet\") into an invitation, as in \"Let's meet tomorrow\" (あした あいましょう (ashita aimashō))?",
+      "options": {
+        "A": "〜ません (~masen)",
+        "B": "〜ました (~mashita)",
+        "C": "〜ますか (~masu ka)",
+        "D": "〜ましょう (~mashō)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The volitional polite ending 〜ましょう (~mashō) means \"let's ...\". 〜ません (~masen) is negative, 〜ました (~mashita) is past, and 〜ますか (~masu ka) is a plain question. Another example: いっしょに いきましょう (issho ni ikimashō) (let's go together)."
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which is the polite counterpart of the casual apology `ごめん (gomen)`, formed by adding a polite suffix?",
+      "options": {
+        "A": "ごめんございます (gomen gozaimasu)",
+        "B": "ごめんます (gomen masu)",
+        "C": "ごめんなさい (gomen nasai)",
+        "D": "ごめんです (gomen desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The polite extension なさい (nasai) is attached to certain casual formulas: ごめん (gomen) > ごめんなさい (gomen nasai) and おやすみ (oyasumi) > おやすみなさい (oyasumi nasai). Others take ございます (gozaimasu), such as おはよう (ohayō) > おはようございます (ohayō gozaimasu)."
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Fill in the blank: \"I go back home at 6:30.\"\n```text\nろくじ ____ に うちへ かえります。\n(rokuji ____ ni uchi e kaerimasu.)\n```",
+      "options": {
+        "A": "はん (han)",
+        "B": "ちょうど (chōdo)",
+        "C": "まえ (mae)",
+        "D": "ごご (gogo)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "はん (han) means \"half past\", so ろくじはん (rokuji han) is 6:30. ちょうど (chōdo) would give 6:00 sharp, and まえ (mae) means \"before\"."
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why is the greeting こんにちは (konnichiwa) spelled with は (ha/wa) although it is pronounced \"wa\"?",
+      "options": {
+        "A": "こんにちわ (konnichiwa) is an equally correct standard spelling",
+        "B": "は (ha) is always pronounced \"wa\" at the end of any word",
+        "C": "Greetings are always spelled in katakana, and は is the katakana form",
+        "D": "The は (wa) is a historical spelling of the topic particle, preserved in this fixed greeting"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "こんにちは (konnichiwa) comes from a longer phrase meaning roughly \"as for today ...\", where は (wa) was the topic particle. The spelling stayed, so the standard form is こんにちは (konnichiwa); こんにちわ (konnichiwa) is considered a mistake. The same applies to こんばんは (konbanwa)."
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the minute word for \"3 minutes\".\n```text\nさん____\n(san____)\n```",
+      "options": {
+        "A": "ふん (fun)",
+        "B": "ぶん (bun)",
+        "C": "ぷん (pun)",
+        "D": "じ (ji)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "After 3 the counter becomes ぷん (pun): さんぷん (sanpun). The same happens with 1, 4, 6, 8 and 10 (いっぷん (ippun), よんぷん (yonpun), ろっぷん (roppun), はっぷん (happun), じゅっぷん (juppun)), while 2, 5, 7 and 9 keep ふん (fun)."
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which pair of position words are opposites?",
+      "options": {
+        "A": "まえ (mae) and となり (tonari)",
+        "B": "なか (naka) and うしろ (ushiro)",
+        "C": "うえ (ue) and した (shita)",
+        "D": "ここ (koko) and そこ (soko)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "うえ (ue) (above) opposes した (shita) (below). The other natural pairs are まえ (mae) (front) and うしろ (ushiro) (behind), and なか (naka) (inside) and そと (soto) (outside). ここ (koko) and そこ (soko) are \"here\" and \"there (near you)\"."
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nいま、よじ じゅうごふんです。\n(ima, yoji jūgofun desu.)\nTranslation: ____\n```",
+      "options": {
+        "A": "It is 4:50 now.",
+        "B": "It is 5:15 now.",
+        "C": "It is 4:05 now.",
+        "D": "It is 4:15 now."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "よじ (yoji) is 4 o'clock and じゅうごふん (jūgofun) is 15 minutes, so the time is 4:15."
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "What does `〜ています (~te imasu)` express in `にほんごを べんきょうしています (nihongo o benkyō shite imasu)`?",
+      "options": {
+        "A": "A past action: \"I studied Japanese\"",
+        "B": "An order: \"Study Japanese!\"",
+        "C": "An action in progress: \"I am studying Japanese\"",
+        "D": "A negation: \"I do not study Japanese\""
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "This is the te-form + います (imasu) pattern for an ongoing action or state. Another example: ごはんを たべています (gohan o tabete imasu) (I am eating). A past action would be べんきょうしました (benkyō shimashita)."
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Listing formula: $A + to + B + o + kudasai$. Which sentence means \"Salad and soup, please\" (サラダ (sarada), スープ (sūpu))?",
+      "options": {
+        "A": "サラダを スープと ください (sarada o sūpu to kudasai)",
+        "B": "サラダと スープと ください (sarada to sūpu to kudasai)",
+        "C": "サラダと スープを ください (sarada to sūpu o kudasai)",
+        "D": "サラダ スープを と ください (sarada sūpu o to kudasai)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "と (to) sits between the two nouns and a single を (o) follows the whole list. Another example: パンと コーヒーを ください (pan to kōhī o kudasai)."
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which word order is correct for \"Bread, please\"?",
+      "options": {
+        "A": "ください パンを (kudasai pan o)",
+        "B": "を パン ください (o pan kudasai)",
+        "C": "パン ください を (pan kudasai o)",
+        "D": "パンを ください (pan o kudasai)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Japanese is verb-final (subject, object, verb), and a particle always follows the word it marks. So the pattern is thing + を (o) + ください (kudasai). Another example: みずを ください (mizu o kudasai)."
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate into English.\n```text\nわたしの ともだちは フランスじんです。\n(watashi no tomodachi wa furansujin desu.)\nTranslation: ____\n```",
+      "options": {
+        "A": "My friend speaks French.",
+        "B": "I am a friend of a French person.",
+        "C": "My friend lives in France.",
+        "D": "My friend is French."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "フランスじん (furansujin) means a French person (nationality); the language would be フランスご (furansugo). わたしの ともだち (watashi no tomodachi) is \"my friend\"."
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Sentence formula: $\\text{thing} + wa + \\text{owner} + no + desu$. Which sentence means \"The blue umbrella is his\" (blue = あおい (aoi), his = かれの (kare no))?",
+      "options": {
+        "A": "かれは あおい かさのです (kare wa aoi kasa no desu)",
+        "B": "あおい かさは かれのです (aoi kasa wa kare no desu)",
+        "C": "あおい かさの かれです (aoi kasa no kare desu)",
+        "D": "あおい かさは かれを です (aoi kasa wa kare o desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The topic あおい かさ (aoi kasa) is followed by は (wa) and by the owner + の (no), where かれの (kare no) stands for \"his one\" (the noun is dropped). Compare それは わたしのです (sore wa watashi no desu) (that is mine)."
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "The word きれい (kirei, 'pretty' or 'clean') ends in い (i), yet 'a clean room' is きれいな へや (kirei na heya), not *きれい へや* (kirei heya). What is the best explanation?",
+      "options": {
+        "A": "Every adjective that means 'clean' takes な (na), whatever its type",
+        "B": "It is a na-adjective that only looks like an i-adjective, so it needs な (na) before a noun",
+        "C": "It is a noun, so it joins the next noun with の (no), as in きれいの へや (kirei no heya)",
+        "D": "The final い (i) must be replaced by くて (kute) before any noun"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "きれい (kirei) is a na-adjective despite its ending, so it needs な (na) directly before a noun: きれいな へや (kirei na heya). A true i-adjective such as あたらしい (atarashii) goes straight in front of the noun: あたらしい くるま (atarashii kuruma). Other look-alikes are ゆうめい (yūmei, famous) and きらい (kirai, disliked): ゆうめいな ひと (yūmei na hito)."
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why is 'green shoes' みどりの くつ (midori no kutsu), while 'red shoes' is あかい くつ (akai kutsu)?",
+      "options": {
+        "A": "みどり (midori) is a na-adjective, which is why the particle の (no) replaces な (na)",
+        "B": "Colours that end in り (ri) are verbs, and verbs always take の (no) before a noun",
+        "C": "みどり (midori) is a noun, so it links to the next noun with の (no); あかい (akai) is an i-adjective and stands directly before the noun",
+        "D": "の (no) is a politeness marker added to colours that are hard to pronounce"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Some colours are nouns (みどり midori, ピンク pinku, オレンジ orenji, グレー gurē) and link with の (no): ピンクの てぶくろ (pinku no tebukuro). Colours that end in い (i), such as あかい (akai) and しろい (shiroi), are i-adjectives and attach directly: しろい くつ (shiroi kutsu). Some colours exist in both forms, e.g. しろい くつ (shiroi kutsu) and しろの くつ (shiro no kutsu)."
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "The adjective あつい (atsui) has several kanji spellings. Which spelling is used for hot tea (a hot drink or object) rather than for hot weather?",
+      "options": {
+        "A": "暑い (atsui)",
+        "B": "厚い (atsui)",
+        "C": "冷たい (tsumetai)",
+        "D": "熱い (atsui)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "熱い (atsui) describes something hot to the touch or taste, such as tea or a bath. 暑い (atsui) describes hot weather or a hot room. 厚い (atsui) means 'thick', and 冷たい (tsumetai) means 'cold' (for objects). The kana spelling あつい (atsui) is identical, so the kanji (or the context) carries the distinction."
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner says 「ぜんぜん にくを たべます」 (zenzen niku o tabemasu) meaning 'I eat meat all the time'. What went wrong?",
+      "options": {
+        "A": "ぜんぜん (zenzen) must be paired with a negative verb and means 'not at all'; 'all the time' needs いつも (itsumo) with an affirmative verb",
+        "B": "を (o) must become が (ga) after ぜんぜん (zenzen)",
+        "C": "たべます (tabemasu) can only describe one-off actions, never habits",
+        "D": "ぜんぜん (zenzen) is used only with adjectives, never with verbs"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "ぜんぜん (zenzen) and あまり (amari) belong with negative predicates: ぜんぜん にくを たべません (zenzen niku o tabemasen, 'I never eat meat'). For a habit, use an affirmative verb with いつも (itsumo) or まいにち (mainichi): いつも にくを たべます (itsumo niku o tabemasu)."
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Someone asks 「さかなが すきじゃ ありませんか」 (sakana ga suki ja arimasen ka, 'Don't you like fish?'). You do not like fish. Which reply is the standard Japanese answer?",
+      "options": {
+        "A": "いいえ、すきじゃ ありません (iie, suki ja arimasen)",
+        "B": "はい、すきじゃ ありません (hai, suki ja arimasen)",
+        "C": "はい、すきです (hai, suki desu)",
+        "D": "いいえ、すきです (iie, suki desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In Japanese, はい (hai) confirms the statement inside the question and いいえ (iie) denies it. The question says 'you do not like fish'; since that is true, you answer はい、すきじゃ ありません (hai, suki ja arimasen). Someone who does like fish would deny it with いいえ、すきです (iie, suki desu). Portuguese speakers often invert this because 'sim/não' follows the answer's own polarity."
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which question word asks 'how many (things)?' and, in casual speech, can also ask a person's age?",
+      "options": {
+        "A": "いくら (ikura)",
+        "B": "なんじ (nanji)",
+        "C": "いくつ (ikutsu)",
+        "D": "どこ (doko)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "いくつ (ikutsu) counts items with the native series ひとつ (hitotsu), ふたつ (futatsu)… and also asks age informally; its polite form is おいくつ (oikutsu). いくら (ikura) asks price, なんじ (nanji) asks the time and どこ (doko) asks place. For age with the counter さい (sai), use なんさい (nansai)."
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why is 'He is tall' かれは せが たかいです (kare wa se ga takai desu) rather than just かれは たかいです (kare wa takai desu)?",
+      "options": {
+        "A": "Because たかい (takai) is a na-adjective and cannot end a sentence",
+        "B": "Because せ (se) is a polite prefix that must precede every adjective",
+        "C": "Because が (ga) is required between a subject and any i-adjective",
+        "D": "Height is described as 'as for him, the height (せ se) is high' with the は…が (wa … ga) pattern, and plain たかい (takai) would be ambiguous with 'expensive'"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Japanese typically gives the topic (かれ kare) and then says which part or feature has the quality: かれは せが たかいです (kare wa se ga takai desu). The same pattern gives かのじょは かみが ながいです (kanojo wa kami ga nagai desu, 'She has long hair'). たかい (takai) alone could mean 'expensive' or 'high', so naming せ (se, 'height') removes the doubt."
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which sentence expresses wanting to perform an action, 'I want to buy a souvenir', rather than merely wanting an object?",
+      "options": {
+        "A": "おみやげを かいたいです (omiyage o kaitai desu)",
+        "B": "おみやげが ほしいです (omiyage ga hoshii desu)",
+        "C": "おみやげが かいほしいです (omiyage ga kaihoshii desu)",
+        "D": "おみやげを かいます たいです (omiyage o kaimasu tai desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "To want an action, attach たい (tai) to the stem of the ます (masu) form: かいます (kaimasu) → かいたい (kaitai). To want a thing, use [thing] が ほしいです ([thing] ga hoshii desu): おみやげが ほしいです (omiyage ga hoshii desu) says 'I want a souvenir', without naming the action. Another example: みずを のみたいです (mizu o nomitai desu, 'I want to drink water')."
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why is 'I go on foot' あるいて いきます (aruite ikimasu), with no で (de), while 'I go by bus' is バスで いきます (basu de ikimasu)?",
+      "options": {
+        "A": "で (de) is dropped because あるく (aruku) is an irregular verb",
+        "B": "あるいて (aruite) is the て-form (te-form) of the verb あるく (aruku, 'walk') describing how you go, whereas で (de) attaches to nouns that name a means of transport",
+        "C": "で (de) is only allowed with vehicles that have an engine",
+        "D": "あるいて (aruite) is a noun like バス (basu), and nouns of motion never take で (de)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "で (de) marks the means after a noun: ちかてつで いきます (chikatetsu de ikimasu, 'I go by subway'). 'On foot' is not a noun but a verb in て-form (te-form) joined to the next verb: あるいて いきます (aruite ikimasu). Bicycles are nouns again, so じてんしゃで いきます (jitensha de ikimasu) is correct."
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Someone asks 「えきは どこですか」 (eki wa doko desu ka). The station is visible in the distance, far from both speaker and listener. Which answer fits best?",
+      "options": {
+        "A": "ここです (koko desu)",
+        "B": "そこです (soko desu)",
+        "C": "あそこです (asoko desu)",
+        "D": "それです (sore desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The place words follow distance: ここ (koko) is near the speaker, そこ (soko) near the listener, あそこ (asoko) far from both, and どこ (doko) is the question word. それ (sore) is a thing word, not a place. The same triple appears in この／その／あの (kono / sono / ano) before nouns."
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "How does Japanese tell 'I eat bread every day' from 'I will eat bread tomorrow' in the polite sentence パンを たべます (pan o tabemasu)?",
+      "options": {
+        "A": "Habits use たべます (tabemasu) and the future uses たべるます (taberu masu)",
+        "B": "The future requires を (o) to be doubled",
+        "C": "The verb ending changes depending on who is eating",
+        "D": "The polite non-past form is identical; time words such as まいにち (mainichi) or あした (ashita), plus context, decide the meaning"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The ます (masu) form covers habitual and future actions: まいにち パンを たべます (mainichi pan o tabemasu, 'I eat bread every day') and あした パンを たべます (ashita pan o tabemasu, 'I will eat bread tomorrow'). It also does not change for person or number. Only the past needs a separate form: たべました (tabemashita)."
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Why is 'not good' よくない (yokunai) and not *いくない* (ikunai)?",
+      "options": {
+        "A": "いい (ii) is a variant of the adjective よい (yoi), and all its conjugated forms are built on the stem よ (yo)",
+        "B": "いい (ii) is a na-adjective, so it needs じゃ ありません (ja arimasen)",
+        "C": "The first い (i) of いい (ii) is a prefix that disappears in negatives",
+        "D": "All adjectives of quality borrow their negative from わるい (warui)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "いい (ii) is the colloquial form of よい (yoi). Only よい (yoi) conjugates, so the negative is よくない (yokunai) and the connective form is よくて (yokute): このかばんは よくて、やすいです (kono kaban wa yokute, yasui desu). Other i-adjectives follow the regular rule, e.g. おおきい (ōkii) → おおきくない (ōkikunai)."
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "For a cold drink, which adjective is correct, and why is さむい (samui) wrong?",
+      "options": {
+        "A": "さむい (samui), because it is the only word for 'cold' in every context",
+        "B": "つめたい (tsumetai), because さむい (samui) describes cold weather or air, not the temperature of an object",
+        "C": "ひくい (hikui), because it means 'low' and applies to drink temperatures",
+        "D": "あたたかい (atatakai), because it means 'slightly cool'"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Japanese separates ambient temperature from the temperature of things: さむい (samui) for weather and rooms, つめたい (tsumetai) for drinks and objects. Likewise あつい (atsui) is written 暑い (atsui) for weather and 熱い (atsui) for hot objects. So 'cold tea' is つめたい おちゃ (tsumetai ocha)."
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A written notice says 「これは ほんでは ありません」 (kore wa hon de wa arimasen), while two friends chatting say 「これは ほんじゃ ありません」 (kore wa hon ja arimasen). What is the difference?",
+      "options": {
+        "A": "では (de wa) means 'is' and じゃ (ja) means 'is not'",
+        "B": "じゃ (ja) is used with nouns and では (de wa) only with adjectives",
+        "C": "Same meaning ('This is not a book'); では (de wa) is more formal or written, and じゃ (ja) is its spoken contraction",
+        "D": "では (de wa) marks the past tense and じゃ (ja) the present"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "では ありません (de wa arimasen) and じゃ ありません (ja arimasen) are both the polite negative of です (desu). では (de wa) is read 'dewa' and suits writing and formal speech; じゃ (ja) is conversational. Another pair: せんせいでは ありません (sensei de wa arimasen) and せんせいじゃ ありません (sensei ja arimasen), 'is not a teacher'."
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nくろい ぼうしは かるいです。 (kuroi bōshi wa karui desu.)\n```",
+      "options": {
+        "A": "The black hat is heavy.",
+        "B": "The white hat is light.",
+        "C": "The black hat is expensive.",
+        "D": "The black hat is light."
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "くろい (kuroi) is 'black', ぼうし (bōshi) is 'hat' and かるい (karui) is 'light' in weight. The opposite is おもい (omoi, heavy): くろい ぼうしは おもいです (kuroi bōshi wa omoi desu) would be 'The black hat is heavy'."
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in the blank to say 'pink gloves'.\n```text\nピンク ____ てぶくろです。 (pinku ____ tebukuro desu.)\n```",
+      "options": {
+        "A": "の (no)",
+        "B": "な (na)",
+        "C": "い (i)",
+        "D": "で (de)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "ピンク (pinku) is a loanword that behaves like a noun, so it links to another noun with の (no): ピンクの てぶくろ (pinku no tebukuro). It is not an i-adjective (no *ピンクい* pinkui) and does not take な (na). Similarly オレンジの くつ (orenji no kutsu), 'orange shoes'."
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the sentence 'This book is not expensive.'\n```text\nこの ほんは たかく ____。 (kono hon wa takaku ____.)\n```",
+      "options": {
+        "A": "じゃ ありません (ja arimasen)",
+        "B": "ないです (nai desu)",
+        "C": "いです (i desu)",
+        "D": "ません (masen)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The negative of an i-adjective replaces the final い (i) with くない (kunai) and then adds です (desu): たかい (takai) → たかくないです (takakunai desu). Mixing it with the noun-style ending (*たかくじゃ ありません* takaku ja arimasen) is wrong; the formal alternative is たかくありません (takaku arimasen)."
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the answer.\n```text\nA: これは ほんですか。 (kore wa hon desu ka.)\nB: いいえ、____。 ノートです。 (iie, ____. nōto desu.)\n```",
+      "options": {
+        "A": "ほんです (hon desu)",
+        "B": "ほんが ありません (hon ga arimasen)",
+        "C": "ほんじゃ ありません (hon ja arimasen)",
+        "D": "ほんを ありません (hon o arimasen)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "The negative of [noun] です ([noun] desu) is [noun] じゃ ありません ([noun] ja arimasen) or では ありません (de wa arimasen): 'It is not a book; it is a notebook.' ありません (arimasen) used with が (ga) would mean 'I do not have a book' and is not an answer to 'Is this a book?'."
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in the correct question word.\n```text\nA: あの ひとは ____ ですか。 (ano hito wa ____ desu ka.)\nB: わたしの せんせいです。 (watashi no sensei desu.)\n```",
+      "options": {
+        "A": "なに (nani)",
+        "B": "どこ (doko)",
+        "C": "いくら (ikura)",
+        "D": "だれ (dare)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The answer 'my teacher' names a person, so the question is あの ひとは だれですか (ano hito wa dare desu ka, 'Who is that person?'). The question word sits exactly where the answer would be. なに／なん (nani / nan) asks about things, どこ (doko) about places and いくら (ikura) about prices."
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nかれは せが たかくて、つよいです。 (kare wa se ga takakute, tsuyoi desu.)\n```",
+      "options": {
+        "A": "He is tall and strong.",
+        "B": "He is tall but weak.",
+        "C": "He is short and strong.",
+        "D": "He is tall because he is strong."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "たかくて (takakute) is the connective form of たかい (takai) and simply links two qualities ('tall and …'); it is not 'but' and does not express a reason. せが たかい (se ga takai) is 'tall', つよい (tsuyoi) is 'strong' and よわい (yowai) would be 'weak'."
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the dialogue.\n```text\nA: ともだちは なんさいですか。 (tomodachi wa nansai desu ka.)\nB: ____ です。（20 years old） (____ desu.)\n```",
+      "options": {
+        "A": "にじさい (nijisai)",
+        "B": "はたち (hatachi)",
+        "C": "ふたさい (futasai)",
+        "D": "にじゅうつ (nijūtsu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Age 20 has its own special word, はたち (hatachi), though にじゅっさい (nijussai) also appears. The counter さい (sai) combines with numbers (さんじゅっさい sanjussai, '30 years old'), but にじさい (nijisai), ふたさい (futasai) and にじゅうつ (nijūtsu) are not used for 20 years old."
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nおかねが ありません。 (okane ga arimasen.)\n```",
+      "options": {
+        "A": "I don't want money.",
+        "B": "The money is over there.",
+        "C": "I don't have any money.",
+        "D": "How much is the money?"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "あります／ありません (arimasu / arimasen) express existence or possession of things, with the thing marked by が (ga): おかねが ありません (okane ga arimasen). Wanting money would be おかねが ほしいです (okane ga hoshii desu), and a price question uses いくら (ikura)."
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in the verb form.\n```text\nこうさてんを ____ ください。 (kōsaten o ____ kudasai.)  # Please cross the intersection.\n```",
+      "options": {
+        "A": "わたります (watarimasu)",
+        "B": "わたる (wataru)",
+        "C": "わたり (watari)",
+        "D": "わたって (watatte)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A polite request is [verb in て-form (te-form)] + ください (kudasai). わたります (watarimasu) → わたって (watatte), just like まがります (magarimasu) → まがって (magatte). Using the ます (masu) form or the dictionary form before ください (kudasai) is incorrect."
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in the position word.\n```text\nホテルは えきの ____ に あります。 (hoteru wa eki no ____ ni arimasu.)  # The hotel is behind the station.\n```",
+      "options": {
+        "A": "うしろ (ushiro)",
+        "B": "まえ (mae)",
+        "C": "となり (tonari)",
+        "D": "ちかく (chikaku)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Position words follow [reference] の ([reference] no): えきの うしろ (eki no ushiro, behind the station), えきの まえ (eki no mae, in front of), えきの となり (eki no tonari, next to) and えきの ちかく (eki no chikaku, near). Only うしろ (ushiro) means 'behind'."
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Fill in the verb.\n```text\nまいにち コーヒーを ____。 (mainichi kōhī o ____.)  # I drink coffee every day.\n```",
+      "options": {
+        "A": "のみません (nomimasen)",
+        "B": "のみます (nomimasu)",
+        "C": "のみました (nomimashita)",
+        "D": "のみませんでした (nomimasen deshita)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "まいにち (mainichi, 'every day') signals a habit, which uses the polite non-past form: のみます (nomimasu). のみません (nomimasen) is the negative, のみました (nomimashita) the past and のみませんでした (nomimasen deshita) the past negative."
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Two i-adjectives are linked with the rule $\\text{adj} - \\text{i} + \\text{kute}$ (drop the final i, add kute). Which completion gives 'He is funny and kind'?\n\n`かれは ____ やさしいです。 (kare wa ____ yasashii desu.)` with おもしろい (omoshiroi, 'funny')",
+      "options": {
+        "A": "おもしろいくて、(omoshiroikute,)",
+        "B": "おもしろいで、(omoshiroi de,)",
+        "C": "おもしろくて、(omoshirokute,)",
+        "D": "おもしろで、(omoshiro de,)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Applying $\\text{adj} - \\text{i} + \\text{kute}$ to おもしろい (omoshiroi) gives おもしろくて (omoshirokute): かれは おもしろくて、やさしいです (kare wa omoshirokute, yasashii desu). The final い (i) is replaced, not kept. Na-adjectives and nouns instead take で (de), and いい (ii) becomes よくて (yokute)."
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The negative of a wish follows $\\text{verb}_{masu} - \\text{masu} + \\text{takunai} + \\text{desu}$. Which form means 'I don't want to buy it' from かいます (kaimasu)?",
+      "options": {
+        "A": "かいくないです (kaikunai desu)",
+        "B": "かいたいくないです (kaitaikunai desu)",
+        "C": "かいませんたいです (kaimasen tai desu)",
+        "D": "かいたくないです (kaitakunai desu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "たい (tai) behaves like an i-adjective, so its negative swaps the final い (i) for くない (kunai): かいたい (kaitai) → かいたくない (kaitakunai), then です (desu) for politeness. Another example: のみたくないです (nomitakunai desu, 'I don't want to drink')."
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Descriptions of features follow $\\text{person} + \\text{wa} + \\text{part} + \\text{ga} + \\text{adj} + \\text{desu}$. Which sentence says 'She has short hair' (かのじょ kanojo = she, かみ kami = hair, みじかい mijikai = short)?",
+      "options": {
+        "A": "かのじょは かみが みじかいです (kanojo wa kami ga mijikai desu)",
+        "B": "かのじょは かみを みじかいです (kanojo wa kami o mijikai desu)",
+        "C": "かのじょは かみに みじかいです (kanojo wa kami ni mijikai desu)",
+        "D": "かのじょは かみが みじかく です (kanojo wa kami ga mijikaku desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The topic is marked by は (wa), the feature that carries the quality by が (ga), and the adjective plus です (desu) finishes the sentence: かのじょは かみが みじかいです (kanojo wa kami ga mijikai desu). を (o) is for objects of action verbs, and an i-adjective before です (desu) stays in its plain form (not みじかく mijikaku)."
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Location answers follow $\\text{thing} + \\text{wa} + \\text{reference} + \\text{no} + \\text{position} + \\text{desu}$. Which sentence says 'The bank is next to the station' (ぎんこう ginkō = bank, えき eki = station, となり tonari = next to)?",
+      "options": {
+        "A": "ぎんこうの えきは となりです (ginkō no eki wa tonari desu)",
+        "B": "ぎんこうは えきの となりです (ginkō wa eki no tonari desu)",
+        "C": "ぎんこうは となりの えきです (ginkō wa tonari no eki desu)",
+        "D": "えきは ぎんこうの となりです (eki wa ginkō no tonari desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "In the formula, the located thing is the topic (ぎんこう ginkō), then the reference point with の (no), then the position word. The mirror image えきは ぎんこうの となりです (eki wa ginkō no tonari desu) places the station next to the bank, which is a different statement. Compare: ホテルは えきの まえです (hoteru wa eki no mae desu), 'The hotel is in front of the station'."
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Possession chains follow $N_1 + \\text{no} + N_2 + \\text{no} + N_3$, where the possessor comes first. Which phrase means 'Mr. Tanaka's friend's bag'?",
+      "options": {
+        "A": "かばんの ともだちの たなかさん (kaban no tomodachi no Tanaka-san)",
+        "B": "ともだちの たなかさんの かばん (tomodachi no Tanaka-san no kaban)",
+        "C": "たなかさんの ともだちの かばん (Tanaka-san no tomodachi no kaban)",
+        "D": "たなかさんが ともだちが かばん (Tanaka-san ga tomodachi ga kaban)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "の (no) links two nouns with the 'owner' on the left and the 'owned' on the right, and it can be chained: たなかさんの ともだち (Tanaka-san no tomodachi, 'Mr. Tanaka's friend') + の かばん (no kaban). Reversing the order gives 'the bag's friend's Mr. Tanaka'. The same pattern appears in わたしの ちず (watashi no chizu, 'my map')."
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Chaining a na-adjective and an i-adjective follows $\\text{na-adj} + \\text{de}, \\ \\text{i-adj} + \\text{desu}$. Which sentence says 'The room is clean and big' (きれい kirei = clean, おおきい ōkii = big)?",
+      "options": {
+        "A": "へやは きれいくて、おおきいです (heya wa kireikute, ōkii desu)",
+        "B": "へやは きれいな、おおきいです (heya wa kirei na, ōkii desu)",
+        "C": "へやは きれいと おおきいです (heya wa kirei to ōkii desu)",
+        "D": "へやは きれいで、おおきいです (heya wa kirei de, ōkii desu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A na-adjective (and a noun) links to what follows with で (de), so きれい (kirei) becomes きれいで (kirei de). The くて (kute) ending is only for i-adjectives, and な (na) is only used right before a noun. Another example: しずかで、あかるいです (shizuka de, akarui desu), 'It is quiet and bright'."
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Frequency with a negative verb follows $\\text{amari} + \\text{object} + \\text{o} + \\text{verb}_{masen}$ ('not very often'). Which sentence says 'I don't drink alcohol very often' (おさけ osake = alcohol)?",
+      "options": {
+        "A": "あまり おさけを のみません (amari osake o nomimasen)",
+        "B": "あまり おさけを のみます (amari osake o nomimasu)",
+        "C": "ぜんぜん おさけを のみます (zenzen osake o nomimasu)",
+        "D": "ぜんぜん おさけを のみません (zenzen osake o nomimasen)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "あまり (amari) needs a negative verb and means 'not very (often)': あまり おさけを のみません (amari osake o nomimasen). ぜんぜん おさけを のみません (zenzen osake o nomimasen) is stronger: 'I never drink alcohol'. Both words require the ません (masen) form; an affirmative verb after them is ungrammatical."
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A polite request follows $\\text{verb}_{te} + \\text{kudasai}$. The て-form (te-form) of いきます (ikimasu, 'go') is irregular. Which sentence means 'Please go straight'?",
+      "options": {
+        "A": "まっすぐ いきて ください (massugu ikite kudasai)",
+        "B": "まっすぐ いって ください (massugu itte kudasai)",
+        "C": "まっすぐ いいて ください (massugu iite kudasai)",
+        "D": "まっすぐ いきます ください (massugu ikimasu kudasai)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "For verbs whose dictionary form ends in く (ku), the て-form (te-form) normally becomes いて (ite), but いく (iku) is the exception and gives いって (itte). So いって ください (itte kudasai) means 'please go'. Regular patterns also exist: まがります (magarimasu) → まがって (magatte), みます (mimasu) → みて (mite)."
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The negative of ほしい (hoshii, 'want [a thing]') follows $\\text{thing} + \\text{ga} + \\text{hoshikunai} + \\text{desu}$. Which sentence says 'I don't want a souvenir' (おみやげ omiyage = souvenir)?",
+      "options": {
+        "A": "おみやげを ほしくないです (omiyage o hoshikunai desu)",
+        "B": "おみやげが ほしいくないです (omiyage ga hoshiikunai desu)",
+        "C": "おみやげが ほしくないです (omiyage ga hoshikunai desu)",
+        "D": "おみやげが ほしくありませんです (omiyage ga hoshiku arimasen desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "ほしい (hoshii) is an i-adjective, so its negative replaces the final い (i) with くない (kunai): ほしくない (hoshikunai). The wanted thing takes が (ga): おみやげが ほしくないです (omiyage ga hoshikunai desu). Mixing endings, as in ほしくありませんです (hoshiku arimasen desu), is wrong; the formal pattern is ほしくありません (hoshiku arimasen)."
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Past negative of a noun sentence follows $\\text{N} + \\text{de wa} + \\text{arimasen} + \\text{deshita}$. Which sentence says 'It was not a book'?",
+      "options": {
+        "A": "ほんでは ありました (hon de wa arimashita)",
+        "B": "ほんでは ありませんです (hon de wa arimasen desu)",
+        "C": "ほんでした ではありません (hon deshita de wa arimasen)",
+        "D": "ほんでは ありませんでした (hon de wa arimasen deshita)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The polite present negative ほんでは ありません (hon de wa arimasen) becomes past by adding でした (deshita): ほんでは ありませんでした (hon de wa arimasen deshita). The spoken variant is ほんじゃ ありませんでした (hon ja arimasen deshita). For verbs the past negative is similar: たべませんでした (tabemasen deshita)."
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Wishes with a destination follow $\\text{place} + \\text{e} + \\text{verb stem} + \\text{tai desu}$. Which sentence says 'I want to go to the hotel'?",
+      "options": {
+        "A": "ホテルへ いきたいです (hoteru e ikitai desu)",
+        "B": "ホテルを いきたいです (hoteru o ikitai desu)",
+        "C": "ホテルで いきたいです (hoteru de ikitai desu)",
+        "D": "ホテルへ いきます たいです (hoteru e ikimasu tai desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The direction particle へ (e, written he) marks the destination, and the stem of いきます (ikimasu) plus たいです (tai desu) gives いきたいです (ikitai desu). で (de) marks means or place of action, not destination. Another example: くうこうへ いきたいです (kūkō e ikitai desu), 'I want to go to the airport'."
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'I like fish'?",
+      "options": {
+        "A": "わたしは さかなを すきです (watashi wa sakana o suki desu)",
+        "B": "わたしは さかなが すきです (watashi wa sakana ga suki desu)",
+        "C": "わたしは さかなに すきです (watashi wa sakana ni suki desu)",
+        "D": "わたしは さかなで すきです (watashi wa sakana de suki desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: が (ga) marks the object of liking with すき／きらい (suki / kirai). These words work like adjectives, so the thing liked is marked with が (ga), not を (o), which is reserved for objects of action verbs. Another example: わたしは カレーが だいすきです (watashi wa karē ga daisuki desu), 'I love curry'."
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'Ken is quiet and serious' (しずか shizuka = quiet and まじめ majime = serious are both na-adjectives)?",
+      "options": {
+        "A": "けんさんは しずかくて、まじめです (Ken-san wa shizukakute, majime desu)",
+        "B": "けんさんは しずかな、まじめです (Ken-san wa shizuka na, majime desu)",
+        "C": "けんさんは しずかで、まじめです (Ken-san wa shizuka de, majime desu)",
+        "D": "けんさんは しずかに、まじめです (Ken-san wa shizuka ni, majime desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: linking na-adjectives with で (de). A na-adjective connects to the next predicate with で (de), while くて (kute) is for i-adjectives and な (na) only appears before a noun. Another example: マリアさんは きれいで、かしこいです (Maria-san wa kirei de, kashikoi desu), 'Maria is pretty and clever'."
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'She is a teacher and kind'?",
+      "options": {
+        "A": "かのじょは せんせいくて、やさしいです (kanojo wa senseikute, yasashii desu)",
+        "B": "かのじょは せんせいの、やさしいです (kanojo wa sensei no, yasashii desu)",
+        "C": "かのじょは せんせいな、やさしいです (kanojo wa sensei na, yasashii desu)",
+        "D": "かのじょは せんせいで、やさしいです (kanojo wa sensei de, yasashii desu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: noun + で (de) to link a noun to a following predicate. After a noun, で (de) plays the role of 'and' in sequences: せんせいで、やさしいです (sensei de, yasashii desu). くて (kute) is only for i-adjectives. Another example: ともだちは いしゃで、いそがしいです (tomodachi wa isha de, isogashii desu), 'My friend is a doctor and busy'."
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form correctly says 'This coat is not cheap' (やすい yasui = cheap)?",
+      "options": {
+        "A": "このコートは やすくないです (kono kōto wa yasukunai desu)",
+        "B": "このコートは やすいじゃ ありません (kono kōto wa yasui ja arimasen)",
+        "C": "このコートは やすいではありません (kono kōto wa yasui de wa arimasen)",
+        "D": "このコートは やすないです (kono kōto wa yasunai desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: negative of i-adjectives. Replace the final い (i) with くない (kunai) and add です (desu): やすい (yasui) → やすくないです (yasukunai desu). The じゃ ありません (ja arimasen) pattern is for nouns and na-adjectives, not i-adjectives. Another example: おおきくないです (ōkikunai desu), 'It isn't big'."
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form correctly says 'This town is not quiet' (しずか shizuka = quiet)?",
+      "options": {
+        "A": "このまちは しずかくないです (kono machi wa shizukakunai desu)",
+        "B": "このまちは しずかじゃ ありません (kono machi wa shizuka ja arimasen)",
+        "C": "このまちは しずかないです (kono machi wa shizuka nai desu)",
+        "D": "このまちは しずかなじゃ ありません (kono machi wa shizuka na ja arimasen)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: negative of na-adjectives. They use the noun pattern: stem + じゃ ありません (ja arimasen) or では ありません (de wa arimasen), with no な (na). くない (kunai) is only for i-adjectives. Another example: このへやは きれいじゃ ありません (kono heya wa kirei ja arimasen), 'This room is not clean'."
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which word completes 'This bag is heavy'?\n\n`____ かばんは おもいです。 (____ kaban wa omoi desu.)`",
+      "options": {
+        "A": "これ (kore)",
+        "B": "ここ (koko)",
+        "C": "この (kono)",
+        "D": "あれ (are)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: demonstrative modifiers この／その／あの (kono / sono / ano) versus pronouns これ／それ／あれ (kore / sore / are). A pronoun stands in for the noun, while この (kono) must be followed by a noun: この かばん (kono kaban). Saying *これ かばん* (kore kaban) is a typical error. Another example: あの くつは たかいです (ano kutsu wa takai desu)."
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which particle pair completes 'I go to the airport by subway'?\n\n`ちかてつ ( 1 ) くうこう ( 2 ) いきます。 (chikatetsu ( 1 ) kūkō ( 2 ) ikimasu.)`",
+      "options": {
+        "A": "1 = へ (e), 2 = で (de)",
+        "B": "1 = に (ni), 2 = で (de)",
+        "C": "1 = を (o), 2 = へ (e)",
+        "D": "1 = で (de), 2 = へ (e)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: で (de) for means and へ (e) for direction. The means of transport takes で (de) and the destination takes へ (e, written he) or に (ni): ちかてつで くうこうへ いきます (chikatetsu de kūkō e ikimasu). Another example: バスで えきへ いきます (basu de eki e ikimasu), 'I go to the station by bus'."
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly asks someone politely, 'Please turn right'?",
+      "options": {
+        "A": "みぎに まがって ください (migi ni magatte kudasai)",
+        "B": "みぎに まがります ください (migi ni magarimasu kudasai)",
+        "C": "みぎに まがる ください (migi ni magaru kudasai)",
+        "D": "みぎに まがりて ください (migi ni magarite kudasai)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: request with the て-form (te-form) + ください (kudasai). Verbs ending in る (ru) like まがる (magaru) change to って (tte): まがって (magatte). Neither the ます (masu) form nor the dictionary form can precede ください (kudasai). Another example: ひだりに まがって ください (hidari ni magatte kudasai), 'Please turn left'."
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'At lunch I eat fish'?",
+      "options": {
+        "A": "ひるごはんを さかなに たべます (hirugohan o sakana ni tabemasu)",
+        "B": "ひるごはんに さかなを たべます (hirugohan ni sakana o tabemasu)",
+        "C": "ひるごはんが さかなを たべます (hirugohan ga sakana o tabemasu)",
+        "D": "ひるごはんと さかなが たべます (hirugohan to sakana ga tabemasu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: に (ni) marking the time or meal at which an action happens, and を (o) marking the object, with the verb last. ひるごはんに (hirugohan ni) says 'at lunch', さかなを (sakana o) 'fish' as the thing eaten. Another example: あさごはんに たまごを たべます (asagohan ni tamago o tabemasu), 'At breakfast I eat eggs'."
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'I did not drink coffee yesterday' (きのう kinō = yesterday)?",
+      "options": {
+        "A": "きのう コーヒーを のみましたません (kinō kōhī o nomimashitamasen)",
+        "B": "きのう コーヒーを のみませんです (kinō kōhī o nomimasen desu)",
+        "C": "きのう コーヒーを のみませんでした (kinō kōhī o nomimasen deshita)",
+        "D": "きのう コーヒーを のみないでした (kinō kōhī o nominai deshita)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: past negative polite form ～ませんでした (~masen deshita). Take the polite negative のみません (nomimasen) and add でした (deshita). The past affirmative is のみました (nomimashita). Another example: パンを たべませんでした (pan o tabemasen deshita), 'I did not eat bread'."
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which noun phrase correctly means 'a big, red bag' (おおきい ōkii = big, あかい akai = red, かばん kaban = bag) when the two adjectives are linked with the connective form?",
+      "options": {
+        "A": "おおきいな あかい かばん (ōkii na akai kaban)",
+        "B": "おおきいで あかい かばん (ōkii de akai kaban)",
+        "C": "おおきいです あかい かばん (ōkii desu akai kaban)",
+        "D": "おおきくて あかい かばん (ōkikute akai kaban)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: the connective form くて (kute) of an i-adjective. Dropping the final い (i) and adding くて (kute) links the adjective to the next one: おおきくて あかい (ōkikute akai). な (na) is for na-adjectives, で (de) for nouns and na-adjectives, and です (desu) cannot appear inside a noun phrase. Another example: ながくて くろい かみ (nagakute kuroi kami), 'long, black hair'."
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which question correctly asks 'What do you eat for breakfast?'",
+      "options": {
+        "A": "あさごはんに なにを たべますか (asagohan ni nani o tabemasu ka)",
+        "B": "あさごはんに なにが たべますか (asagohan ni nani ga tabemasu ka)",
+        "C": "たべますか あさごはんに なにを (tabemasu ka asagohan ni nani o)",
+        "D": "あさごはんを なにに たべますか (asagohan o nani ni tabemasu ka)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: question words keep the particle and position of the answer, and the verb plus か (ka) comes last. The answer would be パンを たべます (pan o tabemasu), so the question word takes を (o): なにを (nani o). Putting the verb first breaks Japanese word order. Another example: なにを のみますか (nani o nomimasu ka), 'What do you drink?'"
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'The hotel is near the station'?",
+      "options": {
+        "A": "ホテルは えきを ちかくに あります (hoteru wa eki o chikaku ni arimasu)",
+        "B": "ホテルは えきの ちかくに あります (hoteru wa eki no chikaku ni arimasu)",
+        "C": "ホテルは えきで ちかくに あります (hoteru wa eki de chikaku ni arimasu)",
+        "D": "ホテルは えきに ちかくの あります (hoteru wa eki ni chikaku no arimasu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: [reference] の [position] に あります ([reference] no [position] ni arimasu) for location. の (no) joins the reference noun to the position word, and に (ni) marks where something exists with あります (arimasu). Another example: コンビニは ホテルの まえに あります (konbini wa hoteru no mae ni arimasu), 'The convenience store is in front of the hotel'."
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'He is quiet, but funny'?",
+      "options": {
+        "A": "かれは しずかですから、おもしろいです (kare wa shizuka desu kara, omoshiroi desu)",
+        "B": "かれは しずかですと、おもしろいです (kare wa shizuka desu to, omoshiroi desu)",
+        "C": "かれは しずかですが、おもしろいです (kare wa shizuka desu ga, omoshiroi desu)",
+        "D": "かれは しずかですを、おもしろいです (kare wa shizuka desu o, omoshiroi desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: が (ga) as the contrast conjunction 'but' after a clause ending in です (desu) or ます (masu). から (kara) means 'because', so it changes the logic to 'He is quiet, so he is funny'. A separate sentence with でも (demo) also works: かれは しずかです。でも、おもしろいです (kare wa shizuka desu. Demo, omoshiroi desu)."
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner keeps writing *きれい へや* (kirei heya) and *ゆうめい ひと* (yūmei hito), missing the な (na). Which study strategy fixes this most reliably?",
+      "options": {
+        "A": "Always add な (na) after every adjective ending in い (i), just to be safe",
+        "B": "Avoid adjectives before nouns and only use [noun] は [adjective] です ([noun] wa [adjective] desu) sentences",
+        "C": "Memorise only the English meaning, because the adjective type follows from the meaning",
+        "D": "Learn the troublemakers (きれい kirei, ゆうめい yūmei, きらい kirai) as whole chunks with a noun, e.g. きれいな へや (kirei na heya), and contrast them with true i-adjectives such as おいしい (oishii)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The adjective type is a property of each word, not of its meaning or its ending, and a small set of na-adjectives end in い (i). Storing the troublemakers as ready-made phrases (きれいな へや kirei na heya, ゆうめいな ひと yūmei na hito) and testing them against look-alike i-adjectives builds the right reflex. Adding な (na) everywhere would produce errors like *おいしいな ケーキ* (oishii na kēki)."
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "In casual conversation you hear 「パンを たべます」 (pan o tabemasu) without any subject. How should a learner interpret who is eating?",
+      "options": {
+        "A": "The verb does not mark person, so the subject comes from context; by default a statement is about the speaker and a question about the listener",
+        "B": "It is always third person, because first person requires わたしは (watashi wa)",
+        "C": "The ending ます (masu) signals that the speaker is the subject",
+        "D": "The sentence is ungrammatical without an explicit subject"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Japanese drops any element that is clear from context, including subjects. Because verbs like たべます (tabemasu) do not change for person or number, the subject is inferred: パンを たべます (pan o tabemasu) normally means 'I eat bread', while パンを たべますか (pan o tabemasu ka) asks about you. Adding わたしは (watashi wa) is only needed for contrast or clarity."
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Someone asks 「だれが やさしいですか」 (dare ga yasashii desu ka, 'Who is kind?'). Which answer is most natural, and why?",
+      "options": {
+        "A": "ともだちを やさしいです (tomodachi o yasashii desu), because answers always take を (o)",
+        "B": "ともだちが やさしいです (tomodachi ga yasashii desu), because the new information that answers the question word is marked with が (ga)",
+        "C": "ともだちの やさしいです (tomodachi no yasashii desu), because の (no) replaces the question word",
+        "D": "ともだちで やさしいです (tomodachi de yasashii desu), because で (de) marks the answer to 'who'"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "When a question word is the subject (だれが dare ga), the answer fills the same slot with が (ga): ともだちが やさしいです (tomodachi ga yasashii desu). The topic marker は (wa) is for information already established, as in ともだちは やさしいです (tomodachi wa yasashii desu). を (o) belongs to the objects of action verbs, and の (no) and で (de) do not mark subjects."
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A tourist must ask a stranger where the station is. Which version combines the right politeness level and structure?",
+      "options": {
+        "A": "おい、えき どこ (oi, eki doko)",
+        "B": "えきは どこだ (eki wa doko da)",
+        "C": "すみません、えきは どこですか (sumimasen, eki wa doko desu ka)",
+        "D": "きみ、えきは どこ (kimi, eki wa doko)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "With strangers, use the polite です (desu) / ます (masu) style and open with an attention-getter like すみません (sumimasen): すみません、えきは どこですか (sumimasen, eki wa doko desu ka). Plain forms (どこだ doko da), bare nouns (えき どこ eki doko) and blunt calls (おい oi, きみ kimi) sound rude or too familiar. Another polite example: すみません、トイレは どこですか (sumimasen, toire wa doko desu ka)."
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You want to ask the age of an older stranger as politely as possible. Which question is best?",
+      "options": {
+        "A": "なんさいだ (nansai da)",
+        "B": "いくつ (ikutsu)",
+        "C": "なんさい (nansai)",
+        "D": "おいくつですか (oikutsu desu ka)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "おいくつですか (oikutsu desu ka) uses the honorific お (o) with いくつ (ikutsu) plus polite ですか (desu ka), so it is the courteous way to ask an adult's age. なんさいですか (nansai desu ka) is fine for children or peers, but plain なんさい (nansai) or いくつ (ikutsu) without ですか (desu ka), or なんさいだ (nansai da), sound abrupt."
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner builds 'an expensive bag' as 「たかいです かばん」 (takai desu kaban). Which diagnosis and fix are right?",
+      "options": {
+        "A": "です (desu) ends a sentence and cannot stand between an adjective and the noun it modifies; the fix is たかい かばん (takai kaban)",
+        "B": "Replace です (desu) with な (na): たかいな かばん (takai na kaban)",
+        "C": "Add の (no): たかいです の かばん (takai desu no kaban)",
+        "D": "Nothing; the phrase is correct and extra polite"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "An i-adjective placed before a noun stays in its plain form with no です (desu): たかい かばん (takai kaban). です (desu) belongs at the end of a predicate: この かばんは たかいです (kono kaban wa takai desu). Similarly あかい かばんです (akai kaban desu) puts です (desu) only after the whole phrase."
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Someone asks 「どんな ひとですか」 (donna hito desu ka) about your friend. Which answer actually answers the question?",
+      "options": {
+        "A": "たなかさんです (Tanaka-san desu)",
+        "B": "おもしろい ひとです (omoshiroi hito desu)",
+        "C": "にじゅっさいです (nijussai desu)",
+        "D": "あそこです (asoko desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "どんな (donna) means 'what kind of' and asks for a description (personality, appearance). A name answers だれ (dare), an age answers なんさい (nansai) and a place answers どこ (doko). Another example: どんな まちですか (donna machi desu ka) is answered with しずかな まちです (shizuka na machi desu)."
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "At a market you want to know how many apples there are. Which question is correct?",
+      "options": {
+        "A": "りんごは いくら ありますか (ringo wa ikura arimasu ka)",
+        "B": "りんごは なんさい ありますか (ringo wa nansai arimasu ka)",
+        "C": "りんごは いくつ ありますか (ringo wa ikutsu arimasu ka)",
+        "D": "りんごは だれ ありますか (ringo wa dare arimasu ka)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "いくつ (ikutsu) asks 'how many' for ordinary objects (the native counting series ひとつ hitotsu, ふたつ futatsu, …). いくら (ikura) asks price, なんさい (nansai) asks age with the counter さい (sai), and だれ (dare) asks 'who'. So りんごは いくつ ありますか (ringo wa ikutsu arimasu ka) asks for a quantity."
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Why does a Brazilian learner who writes 「さかなを すきです」 (sakana o suki desu) make a systematic mistake, and which approach prevents it?",
+      "options": {
+        "A": "すき (suki) is a verb of action, so を (o) is right and が (ga) is a typo",
+        "B": "Japanese has no particle for the thing liked, so the particle is simply dropped",
+        "C": "Always use は (wa) instead of any other particle with feelings",
+        "D": "すき (suki) is adjective-like, so its object takes が (ga); memorise [thing] が すきです ([thing] ga suki desu) as a pattern instead of translating 'gostar de' word by word"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Portuguese 'gostar de' is verb-like, and learners carry that over by choosing を (o). Japanese treats すき (suki) and きらい (kirai) as na-adjectives, and the liked thing takes が (ga): さかなが すきです (sakana ga suki desu). Learning the whole frame prevents word-by-word translation. The same frame covers ほしい (hoshii): ちずが ほしいです (chizu ga hoshii desu)."
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "At a shop counter you want a map. Which wording is the most natural direct request, and why?",
+      "options": {
+        "A": "ちずを ください (chizu o kudasai): ください (kudasai) asks the other person to hand it over, while ほしいです (hoshii desu) only reports your own wish",
+        "B": "ちずが ほしいです (chizu ga hoshii desu): ください (kudasai) is reserved for restaurants",
+        "C": "ちずを ほしいです (chizu o hoshii desu): ほしい (hoshii) takes を (o) when talking to staff",
+        "D": "ちずです (chizu desu): naming only the item is the polite way to ask"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "[thing] を ください ([thing] o kudasai) is the standard polite request for receiving something: ちずを ください (chizu o kudasai), パスポートを ください (pasupōto o kudasai). ほしいです (hoshii desu) states desire and is more of an observation about yourself, typically after asking for information such as ちずは ありますか (chizu wa arimasu ka)."
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A Brazilian translates 'tenho 25 anos' as 「わたしは にじゅうごさいを もっています」 (watashi wa nijūgosai o motte imasu). What is the right way to think about stating age in Japanese?",
+      "options": {
+        "A": "Replace もっています (motte imasu) with あります (arimasu): にじゅうごさいが あります (nijūgosai ga arimasu)",
+        "B": "Age is a state expressed with です (desu) and the counter さい (sai): わたしは にじゅうごさいです (watashi wa nijūgosai desu); there is no 'have' verb for age",
+        "C": "Use ほしい (hoshii): にじゅうごさいが ほしいです (nijūgosai ga hoshii desu)",
+        "D": "The sentence is fine; polite speakers prefer 'having' an age"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Japanese states age as an identity: [person] は [number] さいです ([person] wa [number] sai desu). The Portuguese 'ter' (have) does not translate. 25 is にじゅうご (nijūgo), so にじゅうごさい (nijūgosai). Another example: ともだちは さんじゅっさいです (tomodachi wa sanjussai desu), 'My friend is 30'."
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which practice drill best consolidates the four polite verb forms (affirmative, negative, past, past negative)?",
+      "options": {
+        "A": "Copy each form ten times in kana without ever combining it with a sentence",
+        "B": "Read a list of 100 verbs in dictionary form only",
+        "C": "Take one sentence such as パンを たべます (pan o tabemasu) and say it in all four forms: たべます (tabemasu), たべません (tabemasen), たべました (tabemashita), たべませんでした (tabemasen deshita)",
+        "D": "Memorise only the negative, since the other forms can be derived from it"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Transformation drills keep the object, particle and context constant while only the ending changes, which makes the contrast between ます (masu), ません (masen), ました (mashita) and ませんでした (masen deshita) visible and forces production. Passive copying or reading one form does not train retrieval. The pattern also transfers: のみます (nomimasu) → のみませんでした (nomimasen deshita)."
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "In 「これは ほんです」 (kore wa hon desu), the topic particle is spelled with は (ha). Which statement is correct?",
+      "options": {
+        "A": "It is written わ (wa) because particles always use the spoken kana",
+        "B": "It is pronounced 'ha' because spelling decides pronunciation",
+        "C": "It is pronounced 'o' because all particles share one sound",
+        "D": "It is written は (ha) but pronounced 'wa' when it is a particle, which is why rōmaji shows 'kore wa'"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "A few particles keep historical spellings: は (written ha) is read 'wa', へ (written he) is read 'e', and を (o) is read 'o'. Reading rōmaji alone can hide these spellings, so learners should connect particle sounds to their kana early. Another example: くうこうへ いきます (kūkō e ikimasu), where へ is written he but spoken e."
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "You want to say 'I don't eat fish very often' (sometimes you do), not 'I never eat fish'. Which sentence is the most accurate?",
+      "options": {
+        "A": "さかなを あまり たべません (sakana o amari tabemasen)",
+        "B": "さかなを ぜんぜん たべません (sakana o zenzen tabemasen)",
+        "C": "さかなを いつも たべません (sakana o itsumo tabemasen)",
+        "D": "さかなを よく たべます (sakana o yoku tabemasu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "あまり～ません (amari ~ masen) means 'not very often/much', leaving room for exceptions. ぜんぜん～ません (zenzen ~ masen) means 'not at all / never', which is stronger. よく たべます (yoku tabemasu) says you eat it often, the opposite. Choosing the adverb is therefore a choice of frequency, not just of grammar."
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nわたしの ともだちは しずかで、おもしろい ひとです。\n(watashi no tomodachi wa shizuka de, omoshiroi hito desu.)\n```",
+      "options": {
+        "A": "My friend is quiet but not interesting.",
+        "B": "My friend is a quiet and interesting person.",
+        "C": "My quiet friend is in an interesting place.",
+        "D": "My friends are quiet because they are funny."
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "しずかで (shizuka de) links the na-adjective 'quiet' to what follows as 'quiet and …', and おもしろい ひと (omoshiroi hito) is 'an interesting person'. The sentence contains no word for 'but' or 'because' (those would be が ga / でも demo and から kara)."
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the pair of particles that completes the dialogue.\n```text\nA: すみません、ぎんこうは どこ ____(1) ありますか。\n   (sumimasen, ginkō wa doko ____(1) arimasu ka.)\nB: えきの となり ____(2) あります。\n   (eki no tonari ____(2) arimasu.)\n```",
+      "options": {
+        "A": "1 = で (de), 2 = で (de)",
+        "B": "1 = を (o), 2 = が (ga)",
+        "C": "1 = に (ni), 2 = に (ni)",
+        "D": "1 = は (wa), 2 = を (o)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "あります (arimasu) states that something exists somewhere, and the place of existence takes に (ni): どこに ありますか (doko ni arimasu ka), となりに あります (tonari ni arimasu). で (de) marks where an action takes place, as in レストランで たべます (resutoran de tabemasu)."
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the answer.\n```text\nA: ちずは ありますか。 (chizu wa arimasu ka.)  # Do you have maps?\nB: いいえ、____。 (iie, ____.)\n```",
+      "options": {
+        "A": "いません (imasen)",
+        "B": "ありませんです (arimasen desu)",
+        "C": "あるません (arumasen)",
+        "D": "ありません (arimasen)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "The polite negative of あります (arimasu) is ありません (arimasen). います／いません (imasu / imasen) are used for living beings, not objects like maps. Forms like ありませんです (arimasen desu) and あるません (arumasen) do not exist. Another example: おかねが ありません (okane ga arimasen), 'I have no money'."
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the answer.\n```text\nA: そのレストランは おいしいですか。 (sono resutoran wa oishii desu ka.)\nB: いいえ、あまり ____。 (iie, amari ____.)  # No, not very tasty.\n```",
+      "options": {
+        "A": "おいしくないです (oishikunai desu)",
+        "B": "おいしいくないです (oishiikunai desu)",
+        "C": "おいしじゃ ありません (oishi ja arimasen)",
+        "D": "おいしいです (oishii desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "あまり (amari) requires a negative predicate. The negative of an i-adjective replaces the final い (i) with くない (kunai): おいしい (oishii) → おいしくないです (oishikunai desu). The じゃ ありません (ja arimasen) pattern is for nouns and na-adjectives, and the affirmative おいしいです (oishii desu) cannot follow あまり (amari)."
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the question.\n```text\nこのバスは えき ____ いきますか。 (kono basu wa eki ____ ikimasu ka.)  # Does this bus go to the station?\n```",
+      "options": {
+        "A": "で (de)",
+        "B": "へ (e)",
+        "C": "が (ga)",
+        "D": "の (no)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The direction or destination of a movement verb takes へ (e, written he) or に (ni): えきへ いきますか (eki e ikimasu ka). で (de) would mark a means or location of action, and が (ga) or の (no) cannot mark destinations. Another example: ホテルへ きます (hoteru e kimasu), 'I come to the hotel'."
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nかれは あまり しずかじゃ ありません。 (kare wa amari shizuka ja arimasen.)\n```",
+      "options": {
+        "A": "He is very quiet.",
+        "B": "He is never quiet.",
+        "C": "He is not very quiet.",
+        "D": "He is a little quiet."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "あまり (amari) plus a negative means 'not very'. So しずかじゃ ありません (shizuka ja arimasen) with あまり (amari) is 'is not very quiet'. 'Very quiet' would be とても しずかです (totemo shizuka desu), 'a little quiet' すこし しずかです (sukoshi shizuka desu), and 'never/not at all' would use ぜんぜん (zenzen)."
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the pair of particles.\n```text\nわたしは さかな ____(1) たべません が、にく ____(2) だいすきです。\n(watashi wa sakana ____(1) tabemasen ga, niku ____(2) daisuki desu.)\n```",
+      "options": {
+        "A": "1 = が (ga), 2 = を (o)",
+        "B": "1 = を (o), 2 = を (o)",
+        "C": "1 = が (ga), 2 = が (ga)",
+        "D": "1 = を (o), 2 = が (ga)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Action verbs like たべません (tabemasen) mark their object with を (o): さかなを たべません (sakana o tabemasen). Feelings such as だいすき (daisuki) mark the thing with が (ga): にくが だいすきです (niku ga daisuki desu). The conjunction が (ga) after たべません (tabemasen) means 'but' and is a different function of the same sound."
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nかのじょは きれいで、せが たかいです。 (kanojo wa kirei de, se ga takai desu.)\n```",
+      "options": {
+        "A": "She is pretty and tall.",
+        "B": "She is pretty but short.",
+        "C": "She is tall and her room is clean.",
+        "D": "She is clean because she is expensive."
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "きれいで (kirei de) links a na-adjective as 'pretty and …' (きれい also means 'clean' for things), and せが たかい (se ga takai) is 'tall'. Note that たかい (takai) alone could mean 'expensive', which is why the height is named with せ (se)."
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Fill in the question word.\n```text\nA: ____ が すきですか。 (____ ga suki desu ka.)\nB: カレーが すきです。 (karē ga suki desu.)\n```",
+      "options": {
+        "A": "どこ (doko)",
+        "B": "なに (nani)",
+        "C": "いつ (itsu)",
+        "D": "いくら (ikura)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The answer names a food, so the question asks 'what': なにが すきですか (nani ga suki desu ka, 'What do you like?'). The question word keeps the particle of the answer, here が (ga). どこ (doko) asks place, いつ (itsu) time and いくら (ikura) price."
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the best translation.\n```text\nTranslation: ____\nひるごはんに さかなを たべませんでした。\n(hirugohan ni sakana o tabemasen deshita.)\n```",
+      "options": {
+        "A": "I don't eat fish at lunch.",
+        "B": "I ate fish at lunch.",
+        "C": "I did not eat fish at lunch.",
+        "D": "I won't eat fish for lunch."
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "～ませんでした (~masen deshita) is the polite past negative, so the sentence is 'did not eat'. The non-past negative would be たべません (tabemasen), the past affirmative たべました (tabemashita), and a future plan uses たべます (tabemasu) with a time word. ひるごはんに (hirugohan ni) means 'at lunch'."
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Fill in the particle.\n```text\nえきは ここ ____ ちかいです。 (eki wa koko ____ chikai desu.)  # The station is close from here.\n```",
+      "options": {
+        "A": "を (o)",
+        "B": "で (de)",
+        "C": "と (to)",
+        "D": "から (kara)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "から (kara) marks the starting point ('from'): ここから ちかいです (koko kara chikai desu). Its counterpart まで (made) marks the endpoint. を (o), で (de) and と (to) cannot express the 'from here' relation with ちかい (chikai, close). Another example: くうこうは ここから とおいです (kūkō wa koko kara tōi desu), 'The airport is far from here'."
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build the description with $\\text{person} + \\text{wa} + \\text{part} + \\text{ga} + (\\text{adj}_1 - \\text{i} + \\text{kute}) + \\text{adj}_2 + \\text{desu}$. Which sentence says 'His hair is black and short' (くろい kuroi = black, みじかい mijikai = short, かみ kami = hair)?",
+      "options": {
+        "A": "かれは かみが くろくて みじかいです (kare wa kami ga kurokute mijikai desu)",
+        "B": "かれは かみが くろいくて みじかいです (kare wa kami ga kuroikute mijikai desu)",
+        "C": "かれは かみが くろで みじかいです (kare wa kami ga kuro de mijikai desu)",
+        "D": "かれは かみを くろくて みじかいです (kare wa kami o kurokute mijikai desu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "The first adjective takes the connective form (くろい kuroi → くろくて kurokute) and the last one stays in its plain form before です (desu). The feature (かみ kami) is marked with が (ga) under the topic かれは (kare wa). を (o) would mark an object of an action verb, and keeping the い (i) before くて (kute) is wrong. Another example: かのじょは かみが ながくて くろいです (kanojo wa kami ga nagakute kuroi desu)."
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Sequences of nouns and adjectives follow $N_1 + \\text{de}, \\ N_2 + \\text{de}, \\ \\text{adj} + \\text{desu}$. Which sentence says 'Maria is Brazilian, a teacher, and kind'?",
+      "options": {
+        "A": "マリアさんは ブラジルじんくて、せんせいくて、やさしいです (Maria-san wa burajirujinkute, senseikute, yasashii desu)",
+        "B": "マリアさんは ブラジルじんで、せんせいで、やさしいです (Maria-san wa burajirujin de, sensei de, yasashii desu)",
+        "C": "マリアさんは ブラジルじんの、せんせいの、やさしいです (Maria-san wa burajirujin no, sensei no, yasashii desu)",
+        "D": "マリアさんは ブラジルじんな、せんせいな、やさしいです (Maria-san wa burajirujin na, sensei na, yasashii desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Each noun in a chain takes で (de) as the link, and only the final item carries です (desu): ブラジルじんで (burajirujin de), せんせいで (sensei de), やさしいです (yasashii desu). くて (kute) is reserved for i-adjectives, の (no) joins nouns inside a noun phrase and な (na) goes only before a noun. Another example: いしゃで、いそがしいです (isha de, isogashii desu)."
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Wishes follow $\\text{verb}_{masu} - \\text{masu} + \\text{tai desu}$. The polite form of 'come' is きます (kimasu). Which sentence says 'I want to come to the hotel'?",
+      "options": {
+        "A": "ホテルへ くたいです (hoteru e kutai desu)",
+        "B": "ホテルへ きますたいです (hoteru e kimasu tai desu)",
+        "C": "ホテルへ きたいです (hoteru e kitai desu)",
+        "D": "ホテルへ きいたいです (hoteru e kiitai desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Remove ます (masu) from きます (kimasu) to get the stem き (ki), then add たいです (tai desu): きたいです (kitai desu). The dictionary form くる (kuru) would give くたい (kutai), which is wrong because the rule starts from the ます (masu) form. Another example: すしを たべたいです (sushi o tabetai desu), 'I want to eat sushi'."
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Ages are built as $\\text{tens} + \\text{units} + \\text{sai}$ (tens first). Which form means '35 years old'? (さん san = 3, じゅう jū = 10, ご go = 5)",
+      "options": {
+        "A": "ごじゅうさんさい (gojūsansai)",
+        "B": "さんごじゅうさい (sangojūsai)",
+        "C": "さんじゅうさんさい (sanjūsansai)",
+        "D": "さんじゅうごさい (sanjūgosai)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Japanese numbers are read like the arithmetic: 3 tens + 5 = さん＋じゅう＋ご (san + jū + go), then the age counter さい (sai): さんじゅうごさい (sanjūgosai). ごじゅうさんさい (gojūsansai) is 53 and さんじゅうさんさい (sanjūsansai) is 33. An exception is 20 = はたち (hatachi)."
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Prices are built as $\\text{hundreds} + \\text{tens} + \\text{en}$. Which expression gives 350 yen (300 + 50), keeping in mind the sound change of 300 (さん san + ひゃく hyaku)?",
+      "options": {
+        "A": "さんびゃくごじゅうえん (sanbyaku gojū en)",
+        "B": "さんひゃくごじゅうえん (sanhyaku gojū en)",
+        "C": "さんびゃくじゅうごえん (sanbyaku jūgo en)",
+        "D": "ごじゅうさんびゃくえん (gojū sanbyaku en)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Numbers are read from the largest unit down: 300 = さんびゃく (sanbyaku, with the voiced びゃく byaku) and 50 = ごじゅう (gojū), then えん (en). さんびゃくじゅうごえん (sanbyaku jūgo en) is 315 and ごじゅうさんびゃくえん (gojū sanbyaku en) is nonsensical ordering. Another example: にひゃくごじゅうえん (nihyaku gojū en), 250 yen."
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Build the sentence with $\\text{possessor} + \\text{no} + \\text{item} + \\text{wa} + \\text{place} + \\text{desu}$. Which sentence says 'Mr. Tanaka's ticket is here'? (きっぷ kippu = ticket, ここ koko = here)",
+      "options": {
+        "A": "たなかさんは きっぷの ここです (Tanaka-san wa kippu no koko desu)",
+        "B": "たなかさんの きっぷは ここです (Tanaka-san no kippu wa koko desu)",
+        "C": "きっぷの たなかさんは ここです (kippu no Tanaka-san wa koko desu)",
+        "D": "たなかさんの ここは きっぷです (Tanaka-san no koko wa kippu desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "The possessive の (no) attaches the owner to the item (たなかさんの きっぷ Tanaka-san no kippu), the whole phrase is the topic with は (wa), and the location word completes the sentence with です (desu). Swapping owner and item, or placing の (no) after the ticket, changes who owns what. Another example: ホテルの ちずは あそこです (hoteru no chizu wa asoko desu)."
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Use $\\text{ano} + N + \\text{wa} + \\text{na-adj} + \\text{de}, \\ \\text{i-adj} + \\text{desu}$. Which sentence says 'That restaurant over there is famous and expensive'? (ゆうめい yūmei = famous, a na-adjective; たかい takai = expensive)",
+      "options": {
+        "A": "あれ レストランは ゆうめいで、たかいです (are resutoran wa yūmei de, takai desu)",
+        "B": "あの レストランは ゆうめいくて、たかいです (ano resutoran wa yūmeikute, takai desu)",
+        "C": "あの レストランは ゆうめいで、たかいです (ano resutoran wa yūmei de, takai desu)",
+        "D": "あの レストランは ゆうめいな、たかいです (ano resutoran wa yūmei na, takai desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "あの (ano) is the demonstrative that modifies a noun for things far from both speakers; あれ (are) is a pronoun and cannot sit before a noun. ゆうめい (yūmei) ends in い (i) but is a na-adjective, so it links with で (de), not くて (kute). Another example: この ホテルは きれいで、やすいです (kono hoteru wa kirei de, yasui desu)."
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Combine two i-adjectives, the second one negative, with $\\text{adj}_1 - \\text{i} + \\text{kute}, \\ \\text{adj}_2 - \\text{i} + \\text{kunai} + \\text{desu}$. Which sentence says 'The room is big and not expensive'?",
+      "options": {
+        "A": "へやは おおきいで、たかくないです (heya wa ōkii de, takakunai desu)",
+        "B": "へやは おおきくて、たかいじゃ ありません (heya wa ōkikute, takai ja arimasen)",
+        "C": "へやは おおきくて、たかくありませんです (heya wa ōkikute, takaku arimasen desu)",
+        "D": "へやは おおきくて、たかくないです (heya wa ōkikute, takakunai desu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Both adjectives are i-adjectives, so the first becomes おおきくて (ōkikute) and the second takes the negative たかくない (takakunai) plus です (desu). で (de) does not follow an i-adjective directly, and じゃ ありません (ja arimasen) is the noun/na-adjective pattern. Another example: かばんは かるくて、やすいです (kaban wa karukute, yasui desu), 'The bag is light and cheap'."
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "The particle も (mo, 'also') takes the place of は (wa), が (ga) or を (o), following $N + \\text{o} \\to N + \\text{mo}$. Which sentence correctly says 'Water too, please'? (みず mizu = water, ください kudasai = please give)",
+      "options": {
+        "A": "みずも ください (mizu mo kudasai)",
+        "B": "みずを も ください (mizu o mo kudasai)",
+        "C": "みずも を ください (mizu mo o kudasai)",
+        "D": "みずが も ください (mizu ga mo kudasai)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "も (mo) replaces は (wa), が (ga) or を (o) rather than stacking after it: みずを ください (mizu o kudasai) becomes みずも ください (mizu mo kudasai). Another example: わたしは コーヒーを のみます (watashi wa kōhī o nomimasu) → わたしも コーヒーを のみます (watashi mo kōhī o nomimasu), 'I also drink coffee'."
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Sentences are built as $\\text{time} + \\text{ni} + \\text{place} + \\text{de} + \\text{object} + \\text{o} + \\text{verb}$ with the verb last. Which sentence says 'At lunch I eat bread at the restaurant' (ひるごはん hirugohan = lunch, レストラン resutoran = restaurant)?",
+      "options": {
+        "A": "たべます ひるごはんに レストランで パンを (tabemasu hirugohan ni resutoran de pan o)",
+        "B": "ひるごはんに レストランで パンを たべます (hirugohan ni resutoran de pan o tabemasu)",
+        "C": "ひるごはんに レストランを パンで たべます (hirugohan ni resutoran o pan de tabemasu)",
+        "D": "ひるごはんで レストランに パンが たべます (hirugohan de resutoran ni pan ga tabemasu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Japanese verbs come last, with each phrase tagged by its particle: に (ni) for time, で (de) for the place of an action, を (o) for the object. Swapping the particles changes the roles, and putting the verb first breaks the order. Another example: ばんごはんに うちで カレーを たべます (bangohan ni uchi de karē o tabemasu), 'At dinner I eat curry at home'."
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Requests follow $\\text{verb}_{te} + \\text{kudasai}$. For verbs ending in う (u), such as かいます (kaimasu) → かう (kau), the て-form (te-form) ends in って (tte). Which sentence says 'Please buy a ticket'?",
+      "options": {
+        "A": "きっぷを かいて ください (kippu o kaite kudasai)",
+        "B": "きっぷを かいで ください (kippu o kaide kudasai)",
+        "C": "きっぷを かって ください (kippu o katte kudasai)",
+        "D": "きっぷを かりて ください (kippu o karite kudasai)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "かう (kau, 'buy') ends in う (u), so its て-form (te-form) is かって (katte): かって ください (katte kudasai). かいて (kaite) comes from かく (kaku, 'write'), かいで (kaide) from a verb ending in ぐ (gu), and かりて (karite) from かりる (kariru, 'borrow'). Another example: ちずを かって ください (chizu o katte kudasai)."
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Compare 「レストランで たべます」 (resutoran de tabemasu, 'I eat at the restaurant') with 「ここに あります」 (koko ni arimasu, 'It is here'). Why does the place take で (de) in one and に (ni) in the other?",
+      "options": {
+        "A": "で (de) is for indoor places and に (ni) for outdoor places",
+        "B": "で (de) is for plural nouns and に (ni) for singular nouns",
+        "C": "Both are interchangeable; only politeness differs",
+        "D": "で (de) marks where an action takes place, while に (ni) marks where something exists with あります (arimasu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: で (de) for the place of an action versus に (ni) for location of existence. With action verbs like たべます (tabemasu), the setting takes で (de). With existence verbs like あります (arimasu), the location takes に (ni): ホテルは えきの ちかくに あります (hoteru wa eki no chikaku ni arimasu). Another example: こうえんで あるきます (kōen de arukimasu), 'I walk in the park'."
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'I eat bread and eggs'?",
+      "options": {
+        "A": "パンと たまごを たべます (pan to tamago o tabemasu)",
+        "B": "パンの たまごを たべます (pan no tamago o tabemasu)",
+        "C": "パンが たまごを たべます (pan ga tamago o tabemasu)",
+        "D": "パンに たまごを たべます (pan ni tamago o tabemasu)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: と (to) joining nouns as 'and'. と (to) connects the items of a list and the final noun takes the particle: パンと たまごを (pan to tamago o). の (no) would make 'egg of bread', and が (ga) turns bread into the eater. Another example: あかい くつと しろい くつ (akai kutsu to shiroi kutsu), 'red shoes and white shoes'."
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'I want a map'?",
+      "options": {
+        "A": "ちずを ほしいです (chizu o hoshii desu)",
+        "B": "ちずが ほしいです (chizu ga hoshii desu)",
+        "C": "ちずに ほしいです (chizu ni hoshii desu)",
+        "D": "ちずが ほしたいです (chizu ga hoshitai desu)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: が (ga) with ほしい (hoshii, 'want [a thing]'). ほしい (hoshii) is an i-adjective of desire, so the wanted object takes が (ga). It is not formed with たい (tai), which attaches to verb stems. Another example: おみやげが ほしいです (omiyage ga hoshii desu), 'I want a souvenir'."
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'The bag is good and cheap' (いい ii = good, やすい yasui = cheap)?",
+      "options": {
+        "A": "かばんは いくて、やすいです (kaban wa ikute, yasui desu)",
+        "B": "かばんは いいくて、やすいです (kaban wa iikute, yasui desu)",
+        "C": "かばんは よくて、やすいです (kaban wa yokute, yasui desu)",
+        "D": "かばんは いいで、やすいです (kaban wa ii de, yasui desu)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: irregular connective form いい (ii) → よくて (yokute). いい (ii) is a variant of よい (yoi), and the connective form is built on よ (yo). The same stem gives よくない (yokunai, 'not good'). Another example: ほんは よくて、おもしろいです (hon wa yokute, omoshiroi desu)."
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which word completes 'Is that hat over there yours?'\n\n`____ ぼうしは あなたのですか。 (____ bōshi wa anata no desu ka.)`",
+      "options": {
+        "A": "あれ (are)",
+        "B": "あそこ (asoko)",
+        "C": "ああ (aa)",
+        "D": "あの (ano)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: demonstrative modifier あの (ano) before a noun. あの (ano) 'that over there' must be followed by a noun (あの ぼうし ano bōshi). あれ (are) is a pronoun that stands for the whole thing (あれは あなたのぼうしですか are wa anata no bōshi desu ka), and あそこ (asoko) is a place word. Another example: その くつは たかいです (sono kutsu wa takai desu)."
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which word completes 'Which person is Maria?'\n\n`マリアさんは ____ ひとですか。 (Maria-san wa ____ hito desu ka.)`",
+      "options": {
+        "A": "どの (dono)",
+        "B": "どれ (dore)",
+        "C": "どこ (doko)",
+        "D": "どんな (donna)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: question modifier どの (dono, 'which') before a noun, parallel to この／その／あの (kono / sono / ano). どれ (dore) stands alone as a pronoun ('which one'), どこ (doko) means 'where', and どんな (donna) asks 'what kind of'. Another example: どの バスが えきへ いきますか (dono basu ga eki e ikimasu ka), 'Which bus goes to the station?'"
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which question correctly asks a teacher's age?",
+      "options": {
+        "A": "せんせいは なんにんですか (sensei wa nannin desu ka)",
+        "B": "せんせいは なんさいですか (sensei wa nansai desu ka)",
+        "C": "せんせいは いくらですか (sensei wa ikura desu ka)",
+        "D": "せんせいは なんじですか (sensei wa nanji desu ka)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: the age counter さい (sai) with なん (nan, 'how many'): なんさい (nansai). Each counter pairs with its own noun: なんにん (nannin) counts people, いくら (ikura) is a price, なんじ (nanji) is the time. For a polite version use おいくつですか (oikutsu desu ka). Another example: ともだちは なんさいですか (tomodachi wa nansai desu ka)."
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly orders 'two apples, please'?",
+      "options": {
+        "A": "りんごを にさい ください (ringo o nisai kudasai)",
+        "B": "りんごを ふたり ください (ringo o futari kudasai)",
+        "C": "りんごを ふたつ ください (ringo o futatsu kudasai)",
+        "D": "りんごを ふたつを ください (ringo o futatsu o kudasai)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: the native counting series ひとつ (hitotsu), ふたつ (futatsu), みっつ (mittsu)… for general objects, placed after the noun and its particle. さい (sai) is for age and ふたり (futari) for two people. The number word is not followed by another を (o). Another example: みずを ひとつ ください (mizu o hitotsu kudasai), 'One water, please'."
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form is the formal negative of 'It is expensive' (たかいです takai desu)?",
+      "options": {
+        "A": "たかいありません (takai arimasen)",
+        "B": "たかくじゃ ありません (takaku ja arimasen)",
+        "C": "たかくでは ありません (takaku de wa arimasen)",
+        "D": "たかくありません (takaku arimasen)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: formal negative of i-adjectives with くありません (ku arimasen). Replace the final い (i) with く (ku) and add ありません (arimasen): たかくありません (takaku arimasen). The variant たかくないです (takakunai desu) is equally common. じゃ ありません (ja arimasen) and では ありません (de wa arimasen) attach directly to nouns and na-adjectives, not to く (ku) forms."
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which sentence correctly says 'My friend is at the station'?",
+      "options": {
+        "A": "ともだちは えきに います (tomodachi wa eki ni imasu)",
+        "B": "ともだちは えきに あります (tomodachi wa eki ni arimasu)",
+        "C": "ともだちは えきに いきます (tomodachi wa eki ni ikimasu)",
+        "D": "ともだちは えきに ください (tomodachi wa eki ni kudasai)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: います (imasu) for the existence of people and animals versus あります (arimasu) for things. ともだち (tomodachi) is a living being, so the verb is います (imasu); a map would be ちずが あります (chizu ga arimasu). いきます (ikimasu) means 'go', which changes the meaning. Another example: ねこは へやに います (neko wa heya ni imasu), 'The cat is in the room'."
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which question correctly asks 'Is that a quiet town?' (しずか shizuka = quiet, まち machi = town)?",
+      "options": {
+        "A": "それは しずかい まちですか (sore wa shizukai machi desu ka)",
+        "B": "それは しずかな まちですか (sore wa shizuka na machi desu ka)",
+        "C": "それは しずか まちですか (sore wa shizuka machi desu ka)",
+        "D": "それは しずかで まちですか (sore wa shizuka de machi desu ka)"
+      },
+      "correct_index": 1,
+      "correct_option": "B",
+      "explanation": "Grammar point: na-adjective + な (na) + noun, with か (ka) turning the statement into a question. しずか (shizuka) is a na-adjective, so しずかな まち (shizuka na machi). Using い (i), dropping the particle, or using で (de) before a noun are all errors. Another example: きれいな へやですか (kirei na heya desu ka), 'Is it a clean room?'"
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which question correctly asks 'What did you eat?'",
+      "options": {
+        "A": "なにを たべますでしたか (nani o tabemasu deshita ka)",
+        "B": "なにを たべたますか (nani o tabetamasu ka)",
+        "C": "なにを たべましたか (nani o tabemashita ka)",
+        "D": "なにが たべましたか (nani ga tabemashita ka)"
+      },
+      "correct_index": 2,
+      "correct_option": "C",
+      "explanation": "Grammar point: polite past ～ました (~mashita) with か (ka) for a question. The object question word takes を (o): なにを (nani o). たべました (tabemashita) is the past of たべます (tabemasu); *たべますでした* (tabemasu deshita) mixes two forms. Another example: なにを のみましたか (nani o nomimashita ka), 'What did you drink?'"
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "A asks `これは あなたの かばんですか` (kore wa anata no kaban desu ka, 'Is this your bag?'). The bag belongs to a friend. Which reply is correct?",
+      "options": {
+        "A": "はい、ともだちの かばんです (hai, tomodachi no kaban desu)",
+        "B": "いいえ、わたしの かばんです (iie, watashi no kaban desu)",
+        "C": "はい、わたしの かばんじゃ ありません (hai, watashi no kaban ja arimasen)",
+        "D": "いいえ、ともだちの かばんです (iie, tomodachi no kaban desu)"
+      },
+      "correct_index": 3,
+      "correct_option": "D",
+      "explanation": "Grammar point: answering a yes/no question with correction. When the answer is 'no', start with いいえ (iie) and give the correct information with です (desu) rather than repeating the denial. はい (hai) would confirm that it is your bag, and いいえ、わたしの かばんです (iie, watashi no kaban desu) would contradict itself. Another example: いいえ、カナダじんです (iie, kanadajin desu), 'No, (I am) Canadian'."
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which word fits the gap to give 'He is quiet. But he is funny.'?\n\n`かれは しずかです。____、おもしろいです。 (kare wa shizuka desu. ____, omoshiroi desu.)`",
+      "options": {
+        "A": "でも (demo)",
+        "B": "そして (soshite)",
+        "C": "じゃあ (jā)",
+        "D": "たぶん (tabun)"
+      },
+      "correct_index": 0,
+      "correct_option": "A",
+      "explanation": "Grammar point: sentence-initial でも (demo, 'but') for contrast versus そして (soshite, 'and then/and'), which adds information. じゃあ (jā) means 'then/well' and たぶん (tabun) means 'probably'. The same contrast can be built inside one sentence with が (ga): しずかですが、おもしろいです (shizuka desu ga, omoshiroi desu)."
+    }
+  ],
+  "registered": {
+    "question_ids": [
+      1551,
+      1552,
+      1553,
+      1554,
+      1555,
+      1556,
+      1557,
+      1558,
+      1559,
+      1560,
+      1561,
+      1562,
+      1563,
+      1564,
+      1565,
+      1566,
+      1567,
+      1568,
+      1569,
+      1570,
+      1571,
+      1572,
+      1573,
+      1574,
+      1575,
+      1576,
+      1577,
+      1578,
+      1579,
+      1580,
+      1581,
+      1582,
+      1583,
+      1584,
+      1585,
+      1586,
+      1587,
+      1588,
+      1589,
+      1590,
+      1591,
+      1592,
+      1593,
+      1594,
+      1595,
+      1596,
+      1597,
+      1598,
+      1599,
+      1600,
+      1601,
+      1602,
+      1603,
+      1604,
+      1605,
+      1606,
+      1607,
+      1608,
+      1609,
+      1610,
+      1611,
+      1612,
+      1613,
+      1614,
+      1615,
+      1616,
+      1617,
+      1618,
+      1619,
+      1620,
+      1621,
+      1622,
+      1623,
+      1624,
+      1625,
+      1626,
+      1627,
+      1628,
+      1629,
+      1630,
+      1631,
+      1632,
+      1633,
+      1634,
+      1635,
+      1636,
+      1637,
+      1638,
+      1639,
+      1640,
+      1641,
+      1642,
+      1643,
+      1644,
+      1645,
+      1646,
+      1647,
+      1648,
+      1649,
+      1650,
+      1651,
+      1652,
+      1653,
+      1654,
+      1655,
+      1656,
+      1657,
+      1658,
+      1659,
+      1660,
+      1661,
+      1662,
+      1663,
+      1664,
+      1665,
+      1666,
+      1667,
+      1668,
+      1669,
+      1670,
+      1671,
+      1672,
+      1673,
+      1674,
+      1675,
+      1676,
+      1677,
+      1678,
+      1679,
+      1680,
+      1681,
+      1682,
+      1683,
+      1684,
+      1685,
+      1686,
+      1687,
+      1688,
+      1689,
+      1690,
+      1691,
+      1692,
+      1693,
+      1694,
+      1695,
+      1696,
+      1697,
+      1698,
+      1699,
+      1700,
+      1701,
+      1702,
+      1703,
+      1704,
+      1705,
+      1706,
+      1707,
+      1708,
+      1709,
+      1710,
+      1711,
+      1712,
+      1713,
+      1714,
+      1715,
+      1716,
+      1717,
+      1718,
+      1719,
+      1720,
+      1721,
+      1722,
+      1723,
+      1724,
+      1725,
+      1726,
+      1727,
+      1728,
+      1729,
+      1730,
+      1731,
+      1732,
+      1733,
+      1734,
+      1735,
+      1736,
+      1737,
+      1738,
+      1739,
+      1740,
+      1741,
+      1742,
+      1743,
+      1744,
+      1745,
+      1746,
+      1747,
+      1748,
+      1749,
+      1750
+    ],
+    "skipped": 0
+  }
+}
