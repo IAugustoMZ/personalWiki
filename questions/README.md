@@ -18,6 +18,7 @@
 | [`bi_powerbi.json`](bi_powerbi.json) | Business Intelligence e Power BI (179 perguntas) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
 | [`bi_powerbi_round2.json`](bi_powerbi_round2.json) | Power BI, rodada 2 (20 perguntas, 5 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
 | [`bi_powerbi_round3.json`](bi_powerbi_round3.json) | Power BI, rodada 3 (40 perguntas, 10 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
+| [`data_engineering_fundamentals_round1.json`](data_engineering_fundamentals_round1.json) | Data Engineering Fundamentals, round 1 (200 questions, 50 per difficulty) | [Data Engineering Fundamentals](../courses/data_engineering_fundamentals/README.md) |
 | [`chinese_duolingo_levels_01_09_round1.json`](chinese_duolingo_levels_01_09_round1.json) | Chinês: Duolingo, níveis 1–9 (40 perguntas, 10 por nível) | [Notas de Chinês](../languages/chinese/00_lan_chn_10082026.md) |
 | [`spanish_duolingo_levels_01_41_round1.json`](spanish_duolingo_levels_01_41_round1.json) | Espanhol: Duolingo, níveis 1–41 (200 perguntas, 50 por dificuldade) | [Notas de Espanhol](../languages/spanish/00_lan_spn_10082026.md) |
 | [`english_duolingo_levels_01_45_round1.json`](english_duolingo_levels_01_45_round1.json) | Inglês: Duolingo, níveis 1–45 (200 perguntas, 50 por dificuldade) | [Notas de Inglês](../languages/english/00_lan_eng_10112026.md) |
