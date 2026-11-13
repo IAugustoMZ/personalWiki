@@ -1,0 +1,3011 @@
+{
+  "topic": {
+    "subsubcategory_id": 39,
+    "name": "Fundamentos da Engenharia de Dados"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the SQL query that returns every column from the `orders` table.\n\n```sql\n____ * FROM orders;\n```",
+      "options": {
+        "A": "SELECT",
+        "B": "INSERT",
+        "C": "UPDATE",
+        "D": "DELETE"
+      },
+      "correct_option": "A",
+      "explanation": "SELECT reads rows. INSERT adds rows, UPDATE changes rows, and DELETE removes rows.",
+      "correct_index": 0
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the SQL filter that keeps only events from 2026.\n\n```sql\nSELECT * FROM events\n____ event_year = 2026;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "WHERE",
+        "D": "HAVING"
+      },
+      "correct_option": "C",
+      "explanation": "WHERE filters individual rows before grouping. HAVING filters groups after aggregation.",
+      "correct_index": 2
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the query that counts rows for each source system.\n\n```sql\nSELECT source_system, COUNT(*)\nFROM raw_events\n____ source_system;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "PARTITION BY",
+        "D": "JOIN"
+      },
+      "correct_option": "A",
+      "explanation": "GROUP BY forms one group per source system, allowing COUNT to produce one result per source.",
+      "correct_index": 0
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the join condition that connects a fact table to the customer dimension.\n\n```sql\nSELECT *\nFROM fact_orders f\nJOIN dim_customer c ON f.customer_id ____ c.customer_id;\n```",
+      "options": {
+        "A": "=",
+        "B": ">",
+        "C": "<> ",
+        "D": "LIKE"
+      },
+      "correct_option": "A",
+      "explanation": "An equality join matches each fact foreign key to the corresponding dimension key.",
+      "correct_index": 0
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the table definition so every order has a unique identifier.\n\n```sql\nCREATE TABLE orders (\n  order_id BIGINT ____,\n  created_at TIMESTAMP\n);\n```",
+      "options": {
+        "A": "PRIMARY KEY",
+        "B": "FOREIGN KEY",
+        "C": "DEFAULT",
+        "D": "CHECK"
+      },
+      "correct_option": "A",
+      "explanation": "PRIMARY KEY identifies each row uniquely and cannot be null.",
+      "correct_index": 0
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the constraint that prevents a customer name from being null.\n\n```sql\ncustomer_name VARCHAR(200) ____\n```",
+      "options": {
+        "A": "UNIQUE",
+        "B": "NOT NULL",
+        "C": "DEFAULT",
+        "D": "INDEX"
+      },
+      "correct_option": "B",
+      "explanation": "NOT NULL requires a value for every row in the column.",
+      "correct_index": 1
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the command that begins a container image definition from Python 3.12.\n\n```dockerfile\n____ python:3.12-slim\n```",
+      "options": {
+        "A": "RUN",
+        "B": "FROM",
+        "C": "COPY",
+        "D": "CMD"
+      },
+      "correct_option": "B",
+      "explanation": "FROM selects the base image. RUN executes a build command, COPY adds files, and CMD sets the default command.",
+      "correct_index": 1
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the Infrastructure-as-Code declaration that creates an object-storage bucket.\n\n```hcl\nresource \"aws_s3_bucket\" \"raw\" {\n  bucket = \"company-raw\"\n}\n____\n```",
+      "options": {
+        "A": "terraform apply",
+        "B": "resource",
+        "C": "No additional line is required",
+        "D": "kubectl deploy"
+      },
+      "correct_option": "C",
+      "explanation": "A resource block is a complete Terraform declaration; `terraform apply` is a CLI command, not HCL.",
+      "correct_index": 2
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the Python expression that records an event as JSON text.\n\n```python\nimport json\npayload = json.____(event)\n```",
+      "options": {
+        "A": "loads",
+        "B": "dumps",
+        "C": "parse",
+        "D": "encode_rows"
+      },
+      "correct_option": "B",
+      "explanation": "json.dumps serializes a Python object to JSON text. json.loads performs the reverse operation.",
+      "correct_index": 1
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the direct definition or completion.\n\nComplete the Airflow-like dependency so `transform` runs only after `extract`.\n\n```python\nextract ____ transform\n```",
+      "options": {
+        "A": ">>",
+        "B": "<<",
+        "C": "==",
+        "D": "//"
+      },
+      "correct_option": "A",
+      "explanation": "The `>>` operator expresses a downstream dependency: extract completes before transform starts.",
+      "correct_index": 0
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nA pipeline processes $N$ records in $T$ seconds. Which formula defines throughput in records per second?",
+      "options": {
+        "A": "$N/T$",
+        "B": "$T/N$",
+        "C": "$N+T$",
+        "D": "$N-T$"
+      },
+      "correct_option": "A",
+      "explanation": "Throughput is completed records divided by elapsed time.",
+      "correct_index": 0
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nA table has $n$ rows, each averaging $b$ bytes. Which estimate gives its uncompressed size?",
+      "options": {
+        "A": "$n \times b$",
+        "B": "$n / b$",
+        "C": "$n + b$",
+        "D": "$b - n$"
+      },
+      "correct_option": "A",
+      "explanation": "Multiplying the number of rows by average bytes per row estimates total bytes.",
+      "correct_index": 0
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nIf data is replicated to $r$ full copies and its original size is $S$, what storage capacity is required before metadata overhead?",
+      "options": {
+        "A": "$S/r$",
+        "B": "$S+r$",
+        "C": "$S \times r$",
+        "D": "$r-S$"
+      },
+      "correct_option": "C",
+      "explanation": "Each full replica stores another complete copy, so capacity scales by the replication factor.",
+      "correct_index": 2
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nA source emits $500$ events per second and a consumer handles $450$ events per second. What is the backlog growth rate $g$?",
+      "options": {
+        "A": "$g=500-450=50$ events/s",
+        "B": "$g=450-500=-50$ events/s",
+        "C": "$g=500/450$ events/s",
+        "D": "$g=450/500$ events/s"
+      },
+      "correct_option": "A",
+      "explanation": "When arrival rate exceeds service rate, the difference accumulates as backlog.",
+      "correct_index": 0
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nA batch has an extract of $40$ minutes, a transform of $15$ minutes, and a load of $5$ minutes that run sequentially. What is its minimum end-to-end duration?",
+      "options": {
+        "A": "$40+15+5=60$ minutes",
+        "B": "$40/15/5$ minutes",
+        "C": "$40-15-5=20$ minutes",
+        "D": "$\\max(40,15,5)=40$ minutes"
+      },
+      "correct_option": "A",
+      "explanation": "Sequential stages add their durations.",
+      "correct_index": 0
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nA service has an availability objective of $99.9\\%$ over a 30-day month. Approximately how much downtime budget does it allow?",
+      "options": {
+        "A": "$30 \times 24 \times 0.001 = 0.72$ hours",
+        "B": "$30 \times 24 \times 0.999 = 719.28$ hours",
+        "C": "$30/0.999 = 30.03$ hours",
+        "D": "$0.999/30 = 0.033$ hours"
+      },
+      "correct_option": "A",
+      "explanation": "The unavailable fraction is 0.1%, so multiply total monthly hours by 0.001.",
+      "correct_index": 0
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nFreshness is $F = t_{now} - t_{latest}$. If the latest successful record is 20 minutes old, what is $F$?",
+      "options": {
+        "A": "20 minutes",
+        "B": "0 minutes",
+        "C": "40 minutes",
+        "D": "A percentage"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures the age of the newest available data.",
+      "correct_index": 0
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nA partitioned table has $P$ equally sized partitions, and a query reads $k$ of them. What fraction of the table does it scan, ignoring metadata?",
+      "options": {
+        "A": "$k/P$",
+        "B": "$P/k$",
+        "C": "$k+P$",
+        "D": "$P-k$"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning reads only the selected partition count divided by total partitions.",
+      "correct_index": 0
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nCompression ratio is $C = S_{raw}/S_{compressed}$. If $S_{raw}=100$ GB and $C=4$, what is $S_{compressed}$?",
+      "options": {
+        "A": "25 GB",
+        "B": "96 GB",
+        "C": "104 GB",
+        "D": "400 GB"
+      },
+      "correct_option": "A",
+      "explanation": "Rearrange the ratio: compressed size equals raw size divided by compression ratio.",
+      "correct_index": 0
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Choose the direct definition or completion.\n\nSpeedup is $S=T_{serial}/T_{parallel}$. A job falls from 80 minutes to 20 minutes. What is $S$?",
+      "options": {
+        "A": "4",
+        "B": "0.25",
+        "C": "60",
+        "D": "100"
+      },
+      "correct_option": "A",
+      "explanation": "The serial duration divided by parallel duration is $80/20=4$.",
+      "correct_index": 0
+    },
+    {
+      "number": 21,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is the central purpose of data engineering?",
+      "options": {
+        "A": "Turn raw data into usable, reliable data for consumers",
+        "B": "Design only visual dashboards",
+        "C": "Replace every database with files",
+        "D": "Train every machine-learning model"
+      },
+      "correct_option": "A",
+      "explanation": "Data engineering builds the ingestion, storage, transformation, quality, and delivery capabilities that make data usable.",
+      "correct_index": 0
+    },
+    {
+      "number": 22,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is a data pipeline?",
+      "options": {
+        "A": "A sequence of stages that moves and transforms data from source to destination",
+        "B": "A single dashboard page",
+        "C": "A database backup only",
+        "D": "A manual spreadsheet process"
+      },
+      "correct_option": "A",
+      "explanation": "A pipeline connects sources to destinations through ordered processing stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 23,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nHow does ETL relate to a broader data pipeline?",
+      "options": {
+        "A": "ETL can be one subprocess inside a broader pipeline",
+        "B": "ETL always replaces pipelines",
+        "C": "ETL is only a visualization method",
+        "D": "They have no relationship"
+      },
+      "correct_option": "A",
+      "explanation": "A modern pipeline can include one or more ETL flows plus orchestration, security, metadata, and delivery practices.",
+      "correct_index": 0
+    },
+    {
+      "number": 24,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhich stage brings data from external systems into a data platform?",
+      "options": {
+        "A": "Ingestion",
+        "B": "Visualization",
+        "C": "Archiving",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Ingestion extracts or receives data and places it in the platform.",
+      "correct_index": 0
+    },
+    {
+      "number": 25,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhy can data enrichment be valuable?",
+      "options": {
+        "A": "It combines context from multiple sources to make data more meaningful",
+        "B": "It always deletes raw data",
+        "C": "It removes every business rule",
+        "D": "It prevents storage"
+      },
+      "correct_option": "A",
+      "explanation": "Enrichment adds useful context, such as joining a transaction to customer or product attributes.",
+      "correct_index": 0
+    },
+    {
+      "number": 26,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat does orchestration manage in a data platform?",
+      "options": {
+        "A": "Scheduling, monitoring, dependencies, and coordination of pipeline work",
+        "B": "Only database passwords",
+        "C": "Only chart colors",
+        "D": "Only data entry forms"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration controls when work runs, its dependencies, and its operational state.",
+      "correct_index": 0
+    },
+    {
+      "number": 27,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhich property lets a cloud platform add or remove resources as demand changes?",
+      "options": {
+        "A": "Elastic scalability",
+        "B": "Schema rigidity",
+        "C": "Manual reconciliation",
+        "D": "Data duplication"
+      },
+      "correct_option": "A",
+      "explanation": "Elastic scalability adjusts capacity to workload demand.",
+      "correct_index": 0
+    },
+    {
+      "number": 28,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is the defining role of a data lake?",
+      "options": {
+        "A": "Store large volumes of raw structured, semi-structured, and unstructured data",
+        "B": "Store only fully modeled dimensional data",
+        "C": "Replace all access controls",
+        "D": "Serve only one application"
+      },
+      "correct_option": "A",
+      "explanation": "A data lake retains raw data flexibly so it can be structured for different future uses.",
+      "correct_index": 0
+    },
+    {
+      "number": 29,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is a data warehouse optimized for?",
+      "options": {
+        "A": "Integrated, structured data for analytics and reporting",
+        "B": "Running container images",
+        "C": "Capturing only raw log files",
+        "D": "Managing source-code branches"
+      },
+      "correct_option": "A",
+      "explanation": "A warehouse organizes integrated data to support reliable analytical queries.",
+      "correct_index": 0
+    },
+    {
+      "number": 30,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat does a lakehouse seek to combine?",
+      "options": {
+        "A": "Data-lake flexibility with warehouse-like management and analytics",
+        "B": "Only two dashboard tools",
+        "C": "A source system with a browser",
+        "D": "A container with a spreadsheet"
+      },
+      "correct_option": "A",
+      "explanation": "A lakehouse applies stronger table management and analytics capabilities to lake storage.",
+      "correct_index": 0
+    },
+    {
+      "number": 31,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhich data model is most associated with transaction-oriented systems?",
+      "options": {
+        "A": "Relational modeling",
+        "B": "Dimensional modeling only",
+        "C": "Unstructured object storage",
+        "D": "A report layout"
+      },
+      "correct_option": "A",
+      "explanation": "Relational models represent entities and relationships and are common in transactional databases.",
+      "correct_index": 0
+    },
+    {
+      "number": 32,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nIn dimensional modeling, what does a fact table primarily contain?",
+      "options": {
+        "A": "Measures at a defined grain and keys to dimensions",
+        "B": "Only descriptive labels",
+        "C": "Only user accounts",
+        "D": "Only source-code commits"
+      },
+      "correct_option": "A",
+      "explanation": "Facts record measurable events, while dimensions provide their descriptive context.",
+      "correct_index": 0
+    },
+    {
+      "number": 33,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nIn dimensional modeling, what does a dimension table primarily contain?",
+      "options": {
+        "A": "Descriptive context such as customer, product, or date attributes",
+        "B": "Only numerical event measures",
+        "C": "Only pipeline logs",
+        "D": "Only file bytes"
+      },
+      "correct_option": "A",
+      "explanation": "Dimensions describe the entities used to slice and interpret facts.",
+      "correct_index": 0
+    },
+    {
+      "number": 34,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat does a data model's grain specify?",
+      "options": {
+        "A": "The level of detail represented by one row",
+        "B": "The database vendor",
+        "C": "The number of dashboards",
+        "D": "The encryption algorithm"
+      },
+      "correct_option": "A",
+      "explanation": "Grain defines exactly what one record represents, such as one order line or one daily account balance.",
+      "correct_index": 0
+    },
+    {
+      "number": 35,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is the goal of normalization in transactional databases?",
+      "options": {
+        "A": "Reduce redundancy and inconsistency while preserving correct relationships",
+        "B": "Duplicate every value for speed",
+        "C": "Remove all keys",
+        "D": "Avoid constraints"
+      },
+      "correct_option": "A",
+      "explanation": "Normalization organizes data to reduce update anomalies and maintain integrity.",
+      "correct_index": 0
+    },
+    {
+      "number": 36,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is required by first normal form?",
+      "options": {
+        "A": "Each table value is atomic rather than a repeating collection",
+        "B": "Every table has one row",
+        "C": "Every column is numeric",
+        "D": "Every table is denormalized"
+      },
+      "correct_option": "A",
+      "explanation": "First normal form requires indivisible values in each field.",
+      "correct_index": 0
+    },
+    {
+      "number": 37,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhy are indexes useful?",
+      "options": {
+        "A": "They speed lookups by providing a structure for locating records",
+        "B": "They delete duplicate rows automatically",
+        "C": "They replace backup policies",
+        "D": "They encrypt every column"
+      },
+      "correct_option": "A",
+      "explanation": "Indexes act like a lookup structure, but they also add write and maintenance cost.",
+      "correct_index": 0
+    },
+    {
+      "number": 38,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat trade-off do indexes introduce?",
+      "options": {
+        "A": "They can make inserts, updates, and deletes more expensive",
+        "B": "They make reads impossible",
+        "C": "They eliminate storage needs",
+        "D": "They prevent joins"
+      },
+      "correct_option": "A",
+      "explanation": "Index structures must also be maintained whenever indexed data changes.",
+      "correct_index": 0
+    },
+    {
+      "number": 39,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nHow can partitioning improve a large-table query?",
+      "options": {
+        "A": "It lets the engine read only relevant partitions",
+        "B": "It removes the need for filters",
+        "C": "It forces every query to scan more data",
+        "D": "It converts all data to text"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning avoids scanning partitions that cannot satisfy the filter.",
+      "correct_index": 0
+    },
+    {
+      "number": 40,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat does data lineage record?",
+      "options": {
+        "A": "Origins, transformations, uses, and destinations of data over time",
+        "B": "Only the latest dashboard title",
+        "C": "Only a database password",
+        "D": "Only CPU usage"
+      },
+      "correct_option": "A",
+      "explanation": "Lineage traces how data moved and changed, supporting impact analysis and auditability.",
+      "correct_index": 0
+    },
+    {
+      "number": 41,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhich data-observability pillar asks whether the newest data is current enough?",
+      "options": {
+        "A": "Freshness",
+        "B": "Schema",
+        "C": "Distribution",
+        "D": "Volume"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures whether data arrives and updates on the required cadence.",
+      "correct_index": 0
+    },
+    {
+      "number": 42,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhich data-observability pillar checks whether record counts are unexpectedly high or low?",
+      "options": {
+        "A": "Volume",
+        "B": "Lineage",
+        "C": "Encryption",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Volume monitoring detects missing, duplicated, or unusually large deliveries.",
+      "correct_index": 0
+    },
+    {
+      "number": 43,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhich data-observability pillar detects a changed column name or type?",
+      "options": {
+        "A": "Schema",
+        "B": "Freshness",
+        "C": "Cost",
+        "D": "Granularity"
+      },
+      "correct_option": "A",
+      "explanation": "Schema monitoring detects structural changes that can break consumers.",
+      "correct_index": 0
+    },
+    {
+      "number": 44,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is a data contract?",
+      "options": {
+        "A": "A formal agreement on data expectations, responsibilities, constraints, and use",
+        "B": "A database query optimizer",
+        "C": "A file compression format",
+        "D": "A chart template"
+      },
+      "correct_option": "A",
+      "explanation": "A contract makes producer and consumer expectations explicit, including quality and governance obligations.",
+      "correct_index": 0
+    },
+    {
+      "number": 45,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat practice does DataOps adapt to data pipelines?",
+      "options": {
+        "A": "DevOps-style automation, collaboration, monitoring, and feedback",
+        "B": "Manual copy-and-paste releases",
+        "C": "One-time database design",
+        "D": "Only model training"
+      },
+      "correct_option": "A",
+      "explanation": "DataOps applies continuous operational practices to make data delivery reliable and fast.",
+      "correct_index": 0
+    },
+    {
+      "number": 46,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat does Infrastructure as Code provide?",
+      "options": {
+        "A": "Versioned, repeatable infrastructure provisioning from code",
+        "B": "A replacement for all application code",
+        "C": "A manual server checklist",
+        "D": "Only a database schema"
+      },
+      "correct_option": "A",
+      "explanation": "IaC makes infrastructure configuration reproducible, reviewable, and automatable.",
+      "correct_index": 0
+    },
+    {
+      "number": 47,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is the core purpose of continuous integration?",
+      "options": {
+        "A": "Frequently integrate changes and run automated checks",
+        "B": "Deploy directly without tests",
+        "C": "Store raw data only",
+        "D": "Remove version control"
+      },
+      "correct_option": "A",
+      "explanation": "CI detects integration problems early by merging work and testing it continuously.",
+      "correct_index": 0
+    },
+    {
+      "number": 48,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is the core purpose of continuous delivery?",
+      "options": {
+        "A": "Automate the path from validated build to deployable release",
+        "B": "Manually document every release",
+        "C": "Replace monitoring",
+        "D": "Eliminate environments"
+      },
+      "correct_option": "A",
+      "explanation": "CD makes software and pipeline changes releasable through repeatable automated stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 49,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhat is a container?",
+      "options": {
+        "A": "A portable package of an application and its dependencies in an isolated environment",
+        "B": "A physical hard drive only",
+        "C": "A data warehouse schema",
+        "D": "An access-control policy"
+      },
+      "correct_option": "A",
+      "explanation": "Containers package runtime dependencies so software runs consistently across environments.",
+      "correct_index": 0
+    },
+    {
+      "number": 50,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Choose the direct definition or completion.\n\nWhy is container orchestration used?",
+      "options": {
+        "A": "To manage, scale, and recover containerized workloads across hosts",
+        "B": "To write SQL queries",
+        "C": "To normalize tables",
+        "D": "To replace source systems"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration automates deployment, scaling, scheduling, and resilience for containers.",
+      "correct_index": 0
+    },
+    {
+      "number": 51,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the SQL query that returns every column from the `orders` table.\n\n```sql\n____ * FROM orders;\n```",
+      "options": {
+        "A": "SELECT",
+        "B": "INSERT",
+        "C": "UPDATE",
+        "D": "DELETE"
+      },
+      "correct_option": "A",
+      "explanation": "SELECT reads rows. INSERT adds rows, UPDATE changes rows, and DELETE removes rows.",
+      "correct_index": 0
+    },
+    {
+      "number": 52,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the SQL filter that keeps only events from 2026.\n\n```sql\nSELECT * FROM events\n____ event_year = 2026;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "WHERE",
+        "D": "HAVING"
+      },
+      "correct_option": "C",
+      "explanation": "WHERE filters individual rows before grouping. HAVING filters groups after aggregation.",
+      "correct_index": 2
+    },
+    {
+      "number": 53,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the query that counts rows for each source system.\n\n```sql\nSELECT source_system, COUNT(*)\nFROM raw_events\n____ source_system;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "PARTITION BY",
+        "D": "JOIN"
+      },
+      "correct_option": "A",
+      "explanation": "GROUP BY forms one group per source system, allowing COUNT to produce one result per source.",
+      "correct_index": 0
+    },
+    {
+      "number": 54,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the join condition that connects a fact table to the customer dimension.\n\n```sql\nSELECT *\nFROM fact_orders f\nJOIN dim_customer c ON f.customer_id ____ c.customer_id;\n```",
+      "options": {
+        "A": "=",
+        "B": ">",
+        "C": "<> ",
+        "D": "LIKE"
+      },
+      "correct_option": "A",
+      "explanation": "An equality join matches each fact foreign key to the corresponding dimension key.",
+      "correct_index": 0
+    },
+    {
+      "number": 55,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the table definition so every order has a unique identifier.\n\n```sql\nCREATE TABLE orders (\n  order_id BIGINT ____,\n  created_at TIMESTAMP\n);\n```",
+      "options": {
+        "A": "PRIMARY KEY",
+        "B": "FOREIGN KEY",
+        "C": "DEFAULT",
+        "D": "CHECK"
+      },
+      "correct_option": "A",
+      "explanation": "PRIMARY KEY identifies each row uniquely and cannot be null.",
+      "correct_index": 0
+    },
+    {
+      "number": 56,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the constraint that prevents a customer name from being null.\n\n```sql\ncustomer_name VARCHAR(200) ____\n```",
+      "options": {
+        "A": "UNIQUE",
+        "B": "NOT NULL",
+        "C": "DEFAULT",
+        "D": "INDEX"
+      },
+      "correct_option": "B",
+      "explanation": "NOT NULL requires a value for every row in the column.",
+      "correct_index": 1
+    },
+    {
+      "number": 57,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the command that begins a container image definition from Python 3.12.\n\n```dockerfile\n____ python:3.12-slim\n```",
+      "options": {
+        "A": "RUN",
+        "B": "FROM",
+        "C": "COPY",
+        "D": "CMD"
+      },
+      "correct_option": "B",
+      "explanation": "FROM selects the base image. RUN executes a build command, COPY adds files, and CMD sets the default command.",
+      "correct_index": 1
+    },
+    {
+      "number": 58,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the Infrastructure-as-Code declaration that creates an object-storage bucket.\n\n```hcl\nresource \"aws_s3_bucket\" \"raw\" {\n  bucket = \"company-raw\"\n}\n____\n```",
+      "options": {
+        "A": "terraform apply",
+        "B": "resource",
+        "C": "No additional line is required",
+        "D": "kubectl deploy"
+      },
+      "correct_option": "C",
+      "explanation": "A resource block is a complete Terraform declaration; `terraform apply` is a CLI command, not HCL.",
+      "correct_index": 2
+    },
+    {
+      "number": 59,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the Python expression that records an event as JSON text.\n\n```python\nimport json\npayload = json.____(event)\n```",
+      "options": {
+        "A": "loads",
+        "B": "dumps",
+        "C": "parse",
+        "D": "encode_rows"
+      },
+      "correct_option": "B",
+      "explanation": "json.dumps serializes a Python object to JSON text. json.loads performs the reverse operation.",
+      "correct_index": 1
+    },
+    {
+      "number": 60,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nComplete the Airflow-like dependency so `transform` runs only after `extract`.\n\n```python\nextract ____ transform\n```",
+      "options": {
+        "A": ">>",
+        "B": "<<",
+        "C": "==",
+        "D": "//"
+      },
+      "correct_option": "A",
+      "explanation": "The `>>` operator expresses a downstream dependency: extract completes before transform starts.",
+      "correct_index": 0
+    },
+    {
+      "number": 61,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nA pipeline processes $N$ records in $T$ seconds. Which formula defines throughput in records per second?",
+      "options": {
+        "A": "$N/T$",
+        "B": "$T/N$",
+        "C": "$N+T$",
+        "D": "$N-T$"
+      },
+      "correct_option": "A",
+      "explanation": "Throughput is completed records divided by elapsed time.",
+      "correct_index": 0
+    },
+    {
+      "number": 62,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nA table has $n$ rows, each averaging $b$ bytes. Which estimate gives its uncompressed size?",
+      "options": {
+        "A": "$n \times b$",
+        "B": "$n / b$",
+        "C": "$n + b$",
+        "D": "$b - n$"
+      },
+      "correct_option": "A",
+      "explanation": "Multiplying the number of rows by average bytes per row estimates total bytes.",
+      "correct_index": 0
+    },
+    {
+      "number": 63,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nIf data is replicated to $r$ full copies and its original size is $S$, what storage capacity is required before metadata overhead?",
+      "options": {
+        "A": "$S/r$",
+        "B": "$S+r$",
+        "C": "$S \times r$",
+        "D": "$r-S$"
+      },
+      "correct_option": "C",
+      "explanation": "Each full replica stores another complete copy, so capacity scales by the replication factor.",
+      "correct_index": 2
+    },
+    {
+      "number": 64,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nA source emits $500$ events per second and a consumer handles $450$ events per second. What is the backlog growth rate $g$?",
+      "options": {
+        "A": "$g=500-450=50$ events/s",
+        "B": "$g=450-500=-50$ events/s",
+        "C": "$g=500/450$ events/s",
+        "D": "$g=450/500$ events/s"
+      },
+      "correct_option": "A",
+      "explanation": "When arrival rate exceeds service rate, the difference accumulates as backlog.",
+      "correct_index": 0
+    },
+    {
+      "number": 65,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nA batch has an extract of $40$ minutes, a transform of $15$ minutes, and a load of $5$ minutes that run sequentially. What is its minimum end-to-end duration?",
+      "options": {
+        "A": "$40+15+5=60$ minutes",
+        "B": "$40/15/5$ minutes",
+        "C": "$40-15-5=20$ minutes",
+        "D": "$\\max(40,15,5)=40$ minutes"
+      },
+      "correct_option": "A",
+      "explanation": "Sequential stages add their durations.",
+      "correct_index": 0
+    },
+    {
+      "number": 66,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nA service has an availability objective of $99.9\\%$ over a 30-day month. Approximately how much downtime budget does it allow?",
+      "options": {
+        "A": "$30 \times 24 \times 0.001 = 0.72$ hours",
+        "B": "$30 \times 24 \times 0.999 = 719.28$ hours",
+        "C": "$30/0.999 = 30.03$ hours",
+        "D": "$0.999/30 = 0.033$ hours"
+      },
+      "correct_option": "A",
+      "explanation": "The unavailable fraction is 0.1%, so multiply total monthly hours by 0.001.",
+      "correct_index": 0
+    },
+    {
+      "number": 67,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nFreshness is $F = t_{now} - t_{latest}$. If the latest successful record is 20 minutes old, what is $F$?",
+      "options": {
+        "A": "20 minutes",
+        "B": "0 minutes",
+        "C": "40 minutes",
+        "D": "A percentage"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures the age of the newest available data.",
+      "correct_index": 0
+    },
+    {
+      "number": 68,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nA partitioned table has $P$ equally sized partitions, and a query reads $k$ of them. What fraction of the table does it scan, ignoring metadata?",
+      "options": {
+        "A": "$k/P$",
+        "B": "$P/k$",
+        "C": "$k+P$",
+        "D": "$P-k$"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning reads only the selected partition count divided by total partitions.",
+      "correct_index": 0
+    },
+    {
+      "number": 69,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nCompression ratio is $C = S_{raw}/S_{compressed}$. If $S_{raw}=100$ GB and $C=4$, what is $S_{compressed}$?",
+      "options": {
+        "A": "25 GB",
+        "B": "96 GB",
+        "C": "104 GB",
+        "D": "400 GB"
+      },
+      "correct_option": "A",
+      "explanation": "Rearrange the ratio: compressed size equals raw size divided by compression ratio.",
+      "correct_index": 0
+    },
+    {
+      "number": 70,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nSpeedup is $S=T_{serial}/T_{parallel}$. A job falls from 80 minutes to 20 minutes. What is $S$?",
+      "options": {
+        "A": "4",
+        "B": "0.25",
+        "C": "60",
+        "D": "100"
+      },
+      "correct_option": "A",
+      "explanation": "The serial duration divided by parallel duration is $80/20=4$.",
+      "correct_index": 0
+    },
+    {
+      "number": 71,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is the central purpose of data engineering?",
+      "options": {
+        "A": "Turn raw data into usable, reliable data for consumers",
+        "B": "Design only visual dashboards",
+        "C": "Replace every database with files",
+        "D": "Train every machine-learning model"
+      },
+      "correct_option": "A",
+      "explanation": "Data engineering builds the ingestion, storage, transformation, quality, and delivery capabilities that make data usable.",
+      "correct_index": 0
+    },
+    {
+      "number": 72,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is a data pipeline?",
+      "options": {
+        "A": "A sequence of stages that moves and transforms data from source to destination",
+        "B": "A single dashboard page",
+        "C": "A database backup only",
+        "D": "A manual spreadsheet process"
+      },
+      "correct_option": "A",
+      "explanation": "A pipeline connects sources to destinations through ordered processing stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 73,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nHow does ETL relate to a broader data pipeline?",
+      "options": {
+        "A": "ETL can be one subprocess inside a broader pipeline",
+        "B": "ETL always replaces pipelines",
+        "C": "ETL is only a visualization method",
+        "D": "They have no relationship"
+      },
+      "correct_option": "A",
+      "explanation": "A modern pipeline can include one or more ETL flows plus orchestration, security, metadata, and delivery practices.",
+      "correct_index": 0
+    },
+    {
+      "number": 74,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhich stage brings data from external systems into a data platform?",
+      "options": {
+        "A": "Ingestion",
+        "B": "Visualization",
+        "C": "Archiving",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Ingestion extracts or receives data and places it in the platform.",
+      "correct_index": 0
+    },
+    {
+      "number": 75,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhy can data enrichment be valuable?",
+      "options": {
+        "A": "It combines context from multiple sources to make data more meaningful",
+        "B": "It always deletes raw data",
+        "C": "It removes every business rule",
+        "D": "It prevents storage"
+      },
+      "correct_option": "A",
+      "explanation": "Enrichment adds useful context, such as joining a transaction to customer or product attributes.",
+      "correct_index": 0
+    },
+    {
+      "number": 76,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat does orchestration manage in a data platform?",
+      "options": {
+        "A": "Scheduling, monitoring, dependencies, and coordination of pipeline work",
+        "B": "Only database passwords",
+        "C": "Only chart colors",
+        "D": "Only data entry forms"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration controls when work runs, its dependencies, and its operational state.",
+      "correct_index": 0
+    },
+    {
+      "number": 77,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhich property lets a cloud platform add or remove resources as demand changes?",
+      "options": {
+        "A": "Elastic scalability",
+        "B": "Schema rigidity",
+        "C": "Manual reconciliation",
+        "D": "Data duplication"
+      },
+      "correct_option": "A",
+      "explanation": "Elastic scalability adjusts capacity to workload demand.",
+      "correct_index": 0
+    },
+    {
+      "number": 78,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is the defining role of a data lake?",
+      "options": {
+        "A": "Store large volumes of raw structured, semi-structured, and unstructured data",
+        "B": "Store only fully modeled dimensional data",
+        "C": "Replace all access controls",
+        "D": "Serve only one application"
+      },
+      "correct_option": "A",
+      "explanation": "A data lake retains raw data flexibly so it can be structured for different future uses.",
+      "correct_index": 0
+    },
+    {
+      "number": 79,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is a data warehouse optimized for?",
+      "options": {
+        "A": "Integrated, structured data for analytics and reporting",
+        "B": "Running container images",
+        "C": "Capturing only raw log files",
+        "D": "Managing source-code branches"
+      },
+      "correct_option": "A",
+      "explanation": "A warehouse organizes integrated data to support reliable analytical queries.",
+      "correct_index": 0
+    },
+    {
+      "number": 80,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat does a lakehouse seek to combine?",
+      "options": {
+        "A": "Data-lake flexibility with warehouse-like management and analytics",
+        "B": "Only two dashboard tools",
+        "C": "A source system with a browser",
+        "D": "A container with a spreadsheet"
+      },
+      "correct_option": "A",
+      "explanation": "A lakehouse applies stronger table management and analytics capabilities to lake storage.",
+      "correct_index": 0
+    },
+    {
+      "number": 81,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhich data model is most associated with transaction-oriented systems?",
+      "options": {
+        "A": "Relational modeling",
+        "B": "Dimensional modeling only",
+        "C": "Unstructured object storage",
+        "D": "A report layout"
+      },
+      "correct_option": "A",
+      "explanation": "Relational models represent entities and relationships and are common in transactional databases.",
+      "correct_index": 0
+    },
+    {
+      "number": 82,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nIn dimensional modeling, what does a fact table primarily contain?",
+      "options": {
+        "A": "Measures at a defined grain and keys to dimensions",
+        "B": "Only descriptive labels",
+        "C": "Only user accounts",
+        "D": "Only source-code commits"
+      },
+      "correct_option": "A",
+      "explanation": "Facts record measurable events, while dimensions provide their descriptive context.",
+      "correct_index": 0
+    },
+    {
+      "number": 83,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nIn dimensional modeling, what does a dimension table primarily contain?",
+      "options": {
+        "A": "Descriptive context such as customer, product, or date attributes",
+        "B": "Only numerical event measures",
+        "C": "Only pipeline logs",
+        "D": "Only file bytes"
+      },
+      "correct_option": "A",
+      "explanation": "Dimensions describe the entities used to slice and interpret facts.",
+      "correct_index": 0
+    },
+    {
+      "number": 84,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat does a data model's grain specify?",
+      "options": {
+        "A": "The level of detail represented by one row",
+        "B": "The database vendor",
+        "C": "The number of dashboards",
+        "D": "The encryption algorithm"
+      },
+      "correct_option": "A",
+      "explanation": "Grain defines exactly what one record represents, such as one order line or one daily account balance.",
+      "correct_index": 0
+    },
+    {
+      "number": 85,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is the goal of normalization in transactional databases?",
+      "options": {
+        "A": "Reduce redundancy and inconsistency while preserving correct relationships",
+        "B": "Duplicate every value for speed",
+        "C": "Remove all keys",
+        "D": "Avoid constraints"
+      },
+      "correct_option": "A",
+      "explanation": "Normalization organizes data to reduce update anomalies and maintain integrity.",
+      "correct_index": 0
+    },
+    {
+      "number": 86,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is required by first normal form?",
+      "options": {
+        "A": "Each table value is atomic rather than a repeating collection",
+        "B": "Every table has one row",
+        "C": "Every column is numeric",
+        "D": "Every table is denormalized"
+      },
+      "correct_option": "A",
+      "explanation": "First normal form requires indivisible values in each field.",
+      "correct_index": 0
+    },
+    {
+      "number": 87,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhy are indexes useful?",
+      "options": {
+        "A": "They speed lookups by providing a structure for locating records",
+        "B": "They delete duplicate rows automatically",
+        "C": "They replace backup policies",
+        "D": "They encrypt every column"
+      },
+      "correct_option": "A",
+      "explanation": "Indexes act like a lookup structure, but they also add write and maintenance cost.",
+      "correct_index": 0
+    },
+    {
+      "number": 88,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat trade-off do indexes introduce?",
+      "options": {
+        "A": "They can make inserts, updates, and deletes more expensive",
+        "B": "They make reads impossible",
+        "C": "They eliminate storage needs",
+        "D": "They prevent joins"
+      },
+      "correct_option": "A",
+      "explanation": "Index structures must also be maintained whenever indexed data changes.",
+      "correct_index": 0
+    },
+    {
+      "number": 89,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nHow can partitioning improve a large-table query?",
+      "options": {
+        "A": "It lets the engine read only relevant partitions",
+        "B": "It removes the need for filters",
+        "C": "It forces every query to scan more data",
+        "D": "It converts all data to text"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning avoids scanning partitions that cannot satisfy the filter.",
+      "correct_index": 0
+    },
+    {
+      "number": 90,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat does data lineage record?",
+      "options": {
+        "A": "Origins, transformations, uses, and destinations of data over time",
+        "B": "Only the latest dashboard title",
+        "C": "Only a database password",
+        "D": "Only CPU usage"
+      },
+      "correct_option": "A",
+      "explanation": "Lineage traces how data moved and changed, supporting impact analysis and auditability.",
+      "correct_index": 0
+    },
+    {
+      "number": 91,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhich data-observability pillar asks whether the newest data is current enough?",
+      "options": {
+        "A": "Freshness",
+        "B": "Schema",
+        "C": "Distribution",
+        "D": "Volume"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures whether data arrives and updates on the required cadence.",
+      "correct_index": 0
+    },
+    {
+      "number": 92,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhich data-observability pillar checks whether record counts are unexpectedly high or low?",
+      "options": {
+        "A": "Volume",
+        "B": "Lineage",
+        "C": "Encryption",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Volume monitoring detects missing, duplicated, or unusually large deliveries.",
+      "correct_index": 0
+    },
+    {
+      "number": 93,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhich data-observability pillar detects a changed column name or type?",
+      "options": {
+        "A": "Schema",
+        "B": "Freshness",
+        "C": "Cost",
+        "D": "Granularity"
+      },
+      "correct_option": "A",
+      "explanation": "Schema monitoring detects structural changes that can break consumers.",
+      "correct_index": 0
+    },
+    {
+      "number": 94,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is a data contract?",
+      "options": {
+        "A": "A formal agreement on data expectations, responsibilities, constraints, and use",
+        "B": "A database query optimizer",
+        "C": "A file compression format",
+        "D": "A chart template"
+      },
+      "correct_option": "A",
+      "explanation": "A contract makes producer and consumer expectations explicit, including quality and governance obligations.",
+      "correct_index": 0
+    },
+    {
+      "number": 95,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat practice does DataOps adapt to data pipelines?",
+      "options": {
+        "A": "DevOps-style automation, collaboration, monitoring, and feedback",
+        "B": "Manual copy-and-paste releases",
+        "C": "One-time database design",
+        "D": "Only model training"
+      },
+      "correct_option": "A",
+      "explanation": "DataOps applies continuous operational practices to make data delivery reliable and fast.",
+      "correct_index": 0
+    },
+    {
+      "number": 96,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat does Infrastructure as Code provide?",
+      "options": {
+        "A": "Versioned, repeatable infrastructure provisioning from code",
+        "B": "A replacement for all application code",
+        "C": "A manual server checklist",
+        "D": "Only a database schema"
+      },
+      "correct_option": "A",
+      "explanation": "IaC makes infrastructure configuration reproducible, reviewable, and automatable.",
+      "correct_index": 0
+    },
+    {
+      "number": 97,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is the core purpose of continuous integration?",
+      "options": {
+        "A": "Frequently integrate changes and run automated checks",
+        "B": "Deploy directly without tests",
+        "C": "Store raw data only",
+        "D": "Remove version control"
+      },
+      "correct_option": "A",
+      "explanation": "CI detects integration problems early by merging work and testing it continuously.",
+      "correct_index": 0
+    },
+    {
+      "number": 98,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is the core purpose of continuous delivery?",
+      "options": {
+        "A": "Automate the path from validated build to deployable release",
+        "B": "Manually document every release",
+        "C": "Replace monitoring",
+        "D": "Eliminate environments"
+      },
+      "correct_option": "A",
+      "explanation": "CD makes software and pipeline changes releasable through repeatable automated stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 99,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhat is a container?",
+      "options": {
+        "A": "A portable package of an application and its dependencies in an isolated environment",
+        "B": "A physical hard drive only",
+        "C": "A data warehouse schema",
+        "D": "An access-control policy"
+      },
+      "correct_option": "A",
+      "explanation": "Containers package runtime dependencies so software runs consistently across environments.",
+      "correct_index": 0
+    },
+    {
+      "number": 100,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A team is implementing a standard pipeline; choose the practice that fits.\n\nWhy is container orchestration used?",
+      "options": {
+        "A": "To manage, scale, and recover containerized workloads across hosts",
+        "B": "To write SQL queries",
+        "C": "To normalize tables",
+        "D": "To replace source systems"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration automates deployment, scaling, scheduling, and resilience for containers.",
+      "correct_index": 0
+    },
+    {
+      "number": 101,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the SQL query that returns every column from the `orders` table.\n\n```sql\n____ * FROM orders;\n```",
+      "options": {
+        "A": "SELECT",
+        "B": "INSERT",
+        "C": "UPDATE",
+        "D": "DELETE"
+      },
+      "correct_option": "A",
+      "explanation": "SELECT reads rows. INSERT adds rows, UPDATE changes rows, and DELETE removes rows.",
+      "correct_index": 0
+    },
+    {
+      "number": 102,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the SQL filter that keeps only events from 2026.\n\n```sql\nSELECT * FROM events\n____ event_year = 2026;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "WHERE",
+        "D": "HAVING"
+      },
+      "correct_option": "C",
+      "explanation": "WHERE filters individual rows before grouping. HAVING filters groups after aggregation.",
+      "correct_index": 2
+    },
+    {
+      "number": 103,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the query that counts rows for each source system.\n\n```sql\nSELECT source_system, COUNT(*)\nFROM raw_events\n____ source_system;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "PARTITION BY",
+        "D": "JOIN"
+      },
+      "correct_option": "A",
+      "explanation": "GROUP BY forms one group per source system, allowing COUNT to produce one result per source.",
+      "correct_index": 0
+    },
+    {
+      "number": 104,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the join condition that connects a fact table to the customer dimension.\n\n```sql\nSELECT *\nFROM fact_orders f\nJOIN dim_customer c ON f.customer_id ____ c.customer_id;\n```",
+      "options": {
+        "A": "=",
+        "B": ">",
+        "C": "<> ",
+        "D": "LIKE"
+      },
+      "correct_option": "A",
+      "explanation": "An equality join matches each fact foreign key to the corresponding dimension key.",
+      "correct_index": 0
+    },
+    {
+      "number": 105,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the table definition so every order has a unique identifier.\n\n```sql\nCREATE TABLE orders (\n  order_id BIGINT ____,\n  created_at TIMESTAMP\n);\n```",
+      "options": {
+        "A": "PRIMARY KEY",
+        "B": "FOREIGN KEY",
+        "C": "DEFAULT",
+        "D": "CHECK"
+      },
+      "correct_option": "A",
+      "explanation": "PRIMARY KEY identifies each row uniquely and cannot be null.",
+      "correct_index": 0
+    },
+    {
+      "number": 106,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the constraint that prevents a customer name from being null.\n\n```sql\ncustomer_name VARCHAR(200) ____\n```",
+      "options": {
+        "A": "UNIQUE",
+        "B": "NOT NULL",
+        "C": "DEFAULT",
+        "D": "INDEX"
+      },
+      "correct_option": "B",
+      "explanation": "NOT NULL requires a value for every row in the column.",
+      "correct_index": 1
+    },
+    {
+      "number": 107,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the command that begins a container image definition from Python 3.12.\n\n```dockerfile\n____ python:3.12-slim\n```",
+      "options": {
+        "A": "RUN",
+        "B": "FROM",
+        "C": "COPY",
+        "D": "CMD"
+      },
+      "correct_option": "B",
+      "explanation": "FROM selects the base image. RUN executes a build command, COPY adds files, and CMD sets the default command.",
+      "correct_index": 1
+    },
+    {
+      "number": 108,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the Infrastructure-as-Code declaration that creates an object-storage bucket.\n\n```hcl\nresource \"aws_s3_bucket\" \"raw\" {\n  bucket = \"company-raw\"\n}\n____\n```",
+      "options": {
+        "A": "terraform apply",
+        "B": "resource",
+        "C": "No additional line is required",
+        "D": "kubectl deploy"
+      },
+      "correct_option": "C",
+      "explanation": "A resource block is a complete Terraform declaration; `terraform apply` is a CLI command, not HCL.",
+      "correct_index": 2
+    },
+    {
+      "number": 109,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the Python expression that records an event as JSON text.\n\n```python\nimport json\npayload = json.____(event)\n```",
+      "options": {
+        "A": "loads",
+        "B": "dumps",
+        "C": "parse",
+        "D": "encode_rows"
+      },
+      "correct_option": "B",
+      "explanation": "json.dumps serializes a Python object to JSON text. json.loads performs the reverse operation.",
+      "correct_index": 1
+    },
+    {
+      "number": 110,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nComplete the Airflow-like dependency so `transform` runs only after `extract`.\n\n```python\nextract ____ transform\n```",
+      "options": {
+        "A": ">>",
+        "B": "<<",
+        "C": "==",
+        "D": "//"
+      },
+      "correct_option": "A",
+      "explanation": "The `>>` operator expresses a downstream dependency: extract completes before transform starts.",
+      "correct_index": 0
+    },
+    {
+      "number": 111,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nA pipeline processes $N$ records in $T$ seconds. Which formula defines throughput in records per second?",
+      "options": {
+        "A": "$N/T$",
+        "B": "$T/N$",
+        "C": "$N+T$",
+        "D": "$N-T$"
+      },
+      "correct_option": "A",
+      "explanation": "Throughput is completed records divided by elapsed time.",
+      "correct_index": 0
+    },
+    {
+      "number": 112,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nA table has $n$ rows, each averaging $b$ bytes. Which estimate gives its uncompressed size?",
+      "options": {
+        "A": "$n \times b$",
+        "B": "$n / b$",
+        "C": "$n + b$",
+        "D": "$b - n$"
+      },
+      "correct_option": "A",
+      "explanation": "Multiplying the number of rows by average bytes per row estimates total bytes.",
+      "correct_index": 0
+    },
+    {
+      "number": 113,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nIf data is replicated to $r$ full copies and its original size is $S$, what storage capacity is required before metadata overhead?",
+      "options": {
+        "A": "$S/r$",
+        "B": "$S+r$",
+        "C": "$S \times r$",
+        "D": "$r-S$"
+      },
+      "correct_option": "C",
+      "explanation": "Each full replica stores another complete copy, so capacity scales by the replication factor.",
+      "correct_index": 2
+    },
+    {
+      "number": 114,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nA source emits $500$ events per second and a consumer handles $450$ events per second. What is the backlog growth rate $g$?",
+      "options": {
+        "A": "$g=500-450=50$ events/s",
+        "B": "$g=450-500=-50$ events/s",
+        "C": "$g=500/450$ events/s",
+        "D": "$g=450/500$ events/s"
+      },
+      "correct_option": "A",
+      "explanation": "When arrival rate exceeds service rate, the difference accumulates as backlog.",
+      "correct_index": 0
+    },
+    {
+      "number": 115,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nA batch has an extract of $40$ minutes, a transform of $15$ minutes, and a load of $5$ minutes that run sequentially. What is its minimum end-to-end duration?",
+      "options": {
+        "A": "$40+15+5=60$ minutes",
+        "B": "$40/15/5$ minutes",
+        "C": "$40-15-5=20$ minutes",
+        "D": "$\\max(40,15,5)=40$ minutes"
+      },
+      "correct_option": "A",
+      "explanation": "Sequential stages add their durations.",
+      "correct_index": 0
+    },
+    {
+      "number": 116,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nA service has an availability objective of $99.9\\%$ over a 30-day month. Approximately how much downtime budget does it allow?",
+      "options": {
+        "A": "$30 \times 24 \times 0.001 = 0.72$ hours",
+        "B": "$30 \times 24 \times 0.999 = 719.28$ hours",
+        "C": "$30/0.999 = 30.03$ hours",
+        "D": "$0.999/30 = 0.033$ hours"
+      },
+      "correct_option": "A",
+      "explanation": "The unavailable fraction is 0.1%, so multiply total monthly hours by 0.001.",
+      "correct_index": 0
+    },
+    {
+      "number": 117,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nFreshness is $F = t_{now} - t_{latest}$. If the latest successful record is 20 minutes old, what is $F$?",
+      "options": {
+        "A": "20 minutes",
+        "B": "0 minutes",
+        "C": "40 minutes",
+        "D": "A percentage"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures the age of the newest available data.",
+      "correct_index": 0
+    },
+    {
+      "number": 118,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nA partitioned table has $P$ equally sized partitions, and a query reads $k$ of them. What fraction of the table does it scan, ignoring metadata?",
+      "options": {
+        "A": "$k/P$",
+        "B": "$P/k$",
+        "C": "$k+P$",
+        "D": "$P-k$"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning reads only the selected partition count divided by total partitions.",
+      "correct_index": 0
+    },
+    {
+      "number": 119,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nCompression ratio is $C = S_{raw}/S_{compressed}$. If $S_{raw}=100$ GB and $C=4$, what is $S_{compressed}$?",
+      "options": {
+        "A": "25 GB",
+        "B": "96 GB",
+        "C": "104 GB",
+        "D": "400 GB"
+      },
+      "correct_option": "A",
+      "explanation": "Rearrange the ratio: compressed size equals raw size divided by compression ratio.",
+      "correct_index": 0
+    },
+    {
+      "number": 120,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nSpeedup is $S=T_{serial}/T_{parallel}$. A job falls from 80 minutes to 20 minutes. What is $S$?",
+      "options": {
+        "A": "4",
+        "B": "0.25",
+        "C": "60",
+        "D": "100"
+      },
+      "correct_option": "A",
+      "explanation": "The serial duration divided by parallel duration is $80/20=4$.",
+      "correct_index": 0
+    },
+    {
+      "number": 121,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is the central purpose of data engineering?",
+      "options": {
+        "A": "Turn raw data into usable, reliable data for consumers",
+        "B": "Design only visual dashboards",
+        "C": "Replace every database with files",
+        "D": "Train every machine-learning model"
+      },
+      "correct_option": "A",
+      "explanation": "Data engineering builds the ingestion, storage, transformation, quality, and delivery capabilities that make data usable.",
+      "correct_index": 0
+    },
+    {
+      "number": 122,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is a data pipeline?",
+      "options": {
+        "A": "A sequence of stages that moves and transforms data from source to destination",
+        "B": "A single dashboard page",
+        "C": "A database backup only",
+        "D": "A manual spreadsheet process"
+      },
+      "correct_option": "A",
+      "explanation": "A pipeline connects sources to destinations through ordered processing stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 123,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nHow does ETL relate to a broader data pipeline?",
+      "options": {
+        "A": "ETL can be one subprocess inside a broader pipeline",
+        "B": "ETL always replaces pipelines",
+        "C": "ETL is only a visualization method",
+        "D": "They have no relationship"
+      },
+      "correct_option": "A",
+      "explanation": "A modern pipeline can include one or more ETL flows plus orchestration, security, metadata, and delivery practices.",
+      "correct_index": 0
+    },
+    {
+      "number": 124,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhich stage brings data from external systems into a data platform?",
+      "options": {
+        "A": "Ingestion",
+        "B": "Visualization",
+        "C": "Archiving",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Ingestion extracts or receives data and places it in the platform.",
+      "correct_index": 0
+    },
+    {
+      "number": 125,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhy can data enrichment be valuable?",
+      "options": {
+        "A": "It combines context from multiple sources to make data more meaningful",
+        "B": "It always deletes raw data",
+        "C": "It removes every business rule",
+        "D": "It prevents storage"
+      },
+      "correct_option": "A",
+      "explanation": "Enrichment adds useful context, such as joining a transaction to customer or product attributes.",
+      "correct_index": 0
+    },
+    {
+      "number": 126,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat does orchestration manage in a data platform?",
+      "options": {
+        "A": "Scheduling, monitoring, dependencies, and coordination of pipeline work",
+        "B": "Only database passwords",
+        "C": "Only chart colors",
+        "D": "Only data entry forms"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration controls when work runs, its dependencies, and its operational state.",
+      "correct_index": 0
+    },
+    {
+      "number": 127,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhich property lets a cloud platform add or remove resources as demand changes?",
+      "options": {
+        "A": "Elastic scalability",
+        "B": "Schema rigidity",
+        "C": "Manual reconciliation",
+        "D": "Data duplication"
+      },
+      "correct_option": "A",
+      "explanation": "Elastic scalability adjusts capacity to workload demand.",
+      "correct_index": 0
+    },
+    {
+      "number": 128,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is the defining role of a data lake?",
+      "options": {
+        "A": "Store large volumes of raw structured, semi-structured, and unstructured data",
+        "B": "Store only fully modeled dimensional data",
+        "C": "Replace all access controls",
+        "D": "Serve only one application"
+      },
+      "correct_option": "A",
+      "explanation": "A data lake retains raw data flexibly so it can be structured for different future uses.",
+      "correct_index": 0
+    },
+    {
+      "number": 129,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is a data warehouse optimized for?",
+      "options": {
+        "A": "Integrated, structured data for analytics and reporting",
+        "B": "Running container images",
+        "C": "Capturing only raw log files",
+        "D": "Managing source-code branches"
+      },
+      "correct_option": "A",
+      "explanation": "A warehouse organizes integrated data to support reliable analytical queries.",
+      "correct_index": 0
+    },
+    {
+      "number": 130,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat does a lakehouse seek to combine?",
+      "options": {
+        "A": "Data-lake flexibility with warehouse-like management and analytics",
+        "B": "Only two dashboard tools",
+        "C": "A source system with a browser",
+        "D": "A container with a spreadsheet"
+      },
+      "correct_option": "A",
+      "explanation": "A lakehouse applies stronger table management and analytics capabilities to lake storage.",
+      "correct_index": 0
+    },
+    {
+      "number": 131,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhich data model is most associated with transaction-oriented systems?",
+      "options": {
+        "A": "Relational modeling",
+        "B": "Dimensional modeling only",
+        "C": "Unstructured object storage",
+        "D": "A report layout"
+      },
+      "correct_option": "A",
+      "explanation": "Relational models represent entities and relationships and are common in transactional databases.",
+      "correct_index": 0
+    },
+    {
+      "number": 132,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nIn dimensional modeling, what does a fact table primarily contain?",
+      "options": {
+        "A": "Measures at a defined grain and keys to dimensions",
+        "B": "Only descriptive labels",
+        "C": "Only user accounts",
+        "D": "Only source-code commits"
+      },
+      "correct_option": "A",
+      "explanation": "Facts record measurable events, while dimensions provide their descriptive context.",
+      "correct_index": 0
+    },
+    {
+      "number": 133,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nIn dimensional modeling, what does a dimension table primarily contain?",
+      "options": {
+        "A": "Descriptive context such as customer, product, or date attributes",
+        "B": "Only numerical event measures",
+        "C": "Only pipeline logs",
+        "D": "Only file bytes"
+      },
+      "correct_option": "A",
+      "explanation": "Dimensions describe the entities used to slice and interpret facts.",
+      "correct_index": 0
+    },
+    {
+      "number": 134,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat does a data model's grain specify?",
+      "options": {
+        "A": "The level of detail represented by one row",
+        "B": "The database vendor",
+        "C": "The number of dashboards",
+        "D": "The encryption algorithm"
+      },
+      "correct_option": "A",
+      "explanation": "Grain defines exactly what one record represents, such as one order line or one daily account balance.",
+      "correct_index": 0
+    },
+    {
+      "number": 135,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is the goal of normalization in transactional databases?",
+      "options": {
+        "A": "Reduce redundancy and inconsistency while preserving correct relationships",
+        "B": "Duplicate every value for speed",
+        "C": "Remove all keys",
+        "D": "Avoid constraints"
+      },
+      "correct_option": "A",
+      "explanation": "Normalization organizes data to reduce update anomalies and maintain integrity.",
+      "correct_index": 0
+    },
+    {
+      "number": 136,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is required by first normal form?",
+      "options": {
+        "A": "Each table value is atomic rather than a repeating collection",
+        "B": "Every table has one row",
+        "C": "Every column is numeric",
+        "D": "Every table is denormalized"
+      },
+      "correct_option": "A",
+      "explanation": "First normal form requires indivisible values in each field.",
+      "correct_index": 0
+    },
+    {
+      "number": 137,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhy are indexes useful?",
+      "options": {
+        "A": "They speed lookups by providing a structure for locating records",
+        "B": "They delete duplicate rows automatically",
+        "C": "They replace backup policies",
+        "D": "They encrypt every column"
+      },
+      "correct_option": "A",
+      "explanation": "Indexes act like a lookup structure, but they also add write and maintenance cost.",
+      "correct_index": 0
+    },
+    {
+      "number": 138,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat trade-off do indexes introduce?",
+      "options": {
+        "A": "They can make inserts, updates, and deletes more expensive",
+        "B": "They make reads impossible",
+        "C": "They eliminate storage needs",
+        "D": "They prevent joins"
+      },
+      "correct_option": "A",
+      "explanation": "Index structures must also be maintained whenever indexed data changes.",
+      "correct_index": 0
+    },
+    {
+      "number": 139,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nHow can partitioning improve a large-table query?",
+      "options": {
+        "A": "It lets the engine read only relevant partitions",
+        "B": "It removes the need for filters",
+        "C": "It forces every query to scan more data",
+        "D": "It converts all data to text"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning avoids scanning partitions that cannot satisfy the filter.",
+      "correct_index": 0
+    },
+    {
+      "number": 140,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat does data lineage record?",
+      "options": {
+        "A": "Origins, transformations, uses, and destinations of data over time",
+        "B": "Only the latest dashboard title",
+        "C": "Only a database password",
+        "D": "Only CPU usage"
+      },
+      "correct_option": "A",
+      "explanation": "Lineage traces how data moved and changed, supporting impact analysis and auditability.",
+      "correct_index": 0
+    },
+    {
+      "number": 141,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhich data-observability pillar asks whether the newest data is current enough?",
+      "options": {
+        "A": "Freshness",
+        "B": "Schema",
+        "C": "Distribution",
+        "D": "Volume"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures whether data arrives and updates on the required cadence.",
+      "correct_index": 0
+    },
+    {
+      "number": 142,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhich data-observability pillar checks whether record counts are unexpectedly high or low?",
+      "options": {
+        "A": "Volume",
+        "B": "Lineage",
+        "C": "Encryption",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Volume monitoring detects missing, duplicated, or unusually large deliveries.",
+      "correct_index": 0
+    },
+    {
+      "number": 143,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhich data-observability pillar detects a changed column name or type?",
+      "options": {
+        "A": "Schema",
+        "B": "Freshness",
+        "C": "Cost",
+        "D": "Granularity"
+      },
+      "correct_option": "A",
+      "explanation": "Schema monitoring detects structural changes that can break consumers.",
+      "correct_index": 0
+    },
+    {
+      "number": 144,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is a data contract?",
+      "options": {
+        "A": "A formal agreement on data expectations, responsibilities, constraints, and use",
+        "B": "A database query optimizer",
+        "C": "A file compression format",
+        "D": "A chart template"
+      },
+      "correct_option": "A",
+      "explanation": "A contract makes producer and consumer expectations explicit, including quality and governance obligations.",
+      "correct_index": 0
+    },
+    {
+      "number": 145,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat practice does DataOps adapt to data pipelines?",
+      "options": {
+        "A": "DevOps-style automation, collaboration, monitoring, and feedback",
+        "B": "Manual copy-and-paste releases",
+        "C": "One-time database design",
+        "D": "Only model training"
+      },
+      "correct_option": "A",
+      "explanation": "DataOps applies continuous operational practices to make data delivery reliable and fast.",
+      "correct_index": 0
+    },
+    {
+      "number": 146,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat does Infrastructure as Code provide?",
+      "options": {
+        "A": "Versioned, repeatable infrastructure provisioning from code",
+        "B": "A replacement for all application code",
+        "C": "A manual server checklist",
+        "D": "Only a database schema"
+      },
+      "correct_option": "A",
+      "explanation": "IaC makes infrastructure configuration reproducible, reviewable, and automatable.",
+      "correct_index": 0
+    },
+    {
+      "number": 147,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is the core purpose of continuous integration?",
+      "options": {
+        "A": "Frequently integrate changes and run automated checks",
+        "B": "Deploy directly without tests",
+        "C": "Store raw data only",
+        "D": "Remove version control"
+      },
+      "correct_option": "A",
+      "explanation": "CI detects integration problems early by merging work and testing it continuously.",
+      "correct_index": 0
+    },
+    {
+      "number": 148,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is the core purpose of continuous delivery?",
+      "options": {
+        "A": "Automate the path from validated build to deployable release",
+        "B": "Manually document every release",
+        "C": "Replace monitoring",
+        "D": "Eliminate environments"
+      },
+      "correct_option": "A",
+      "explanation": "CD makes software and pipeline changes releasable through repeatable automated stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 149,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhat is a container?",
+      "options": {
+        "A": "A portable package of an application and its dependencies in an isolated environment",
+        "B": "A physical hard drive only",
+        "C": "A data warehouse schema",
+        "D": "An access-control policy"
+      },
+      "correct_option": "A",
+      "explanation": "Containers package runtime dependencies so software runs consistently across environments.",
+      "correct_index": 0
+    },
+    {
+      "number": 150,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A production pipeline is misbehaving; choose the diagnosis or correction that best addresses it.\n\nWhy is container orchestration used?",
+      "options": {
+        "A": "To manage, scale, and recover containerized workloads across hosts",
+        "B": "To write SQL queries",
+        "C": "To normalize tables",
+        "D": "To replace source systems"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration automates deployment, scaling, scheduling, and resilience for containers.",
+      "correct_index": 0
+    },
+    {
+      "number": 151,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the SQL query that returns every column from the `orders` table.\n\n```sql\n____ * FROM orders;\n```",
+      "options": {
+        "A": "SELECT",
+        "B": "INSERT",
+        "C": "UPDATE",
+        "D": "DELETE"
+      },
+      "correct_option": "A",
+      "explanation": "SELECT reads rows. INSERT adds rows, UPDATE changes rows, and DELETE removes rows.",
+      "correct_index": 0
+    },
+    {
+      "number": 152,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the SQL filter that keeps only events from 2026.\n\n```sql\nSELECT * FROM events\n____ event_year = 2026;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "WHERE",
+        "D": "HAVING"
+      },
+      "correct_option": "C",
+      "explanation": "WHERE filters individual rows before grouping. HAVING filters groups after aggregation.",
+      "correct_index": 2
+    },
+    {
+      "number": 153,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the query that counts rows for each source system.\n\n```sql\nSELECT source_system, COUNT(*)\nFROM raw_events\n____ source_system;\n```",
+      "options": {
+        "A": "GROUP BY",
+        "B": "ORDER BY",
+        "C": "PARTITION BY",
+        "D": "JOIN"
+      },
+      "correct_option": "A",
+      "explanation": "GROUP BY forms one group per source system, allowing COUNT to produce one result per source.",
+      "correct_index": 0
+    },
+    {
+      "number": 154,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the join condition that connects a fact table to the customer dimension.\n\n```sql\nSELECT *\nFROM fact_orders f\nJOIN dim_customer c ON f.customer_id ____ c.customer_id;\n```",
+      "options": {
+        "A": "=",
+        "B": ">",
+        "C": "<> ",
+        "D": "LIKE"
+      },
+      "correct_option": "A",
+      "explanation": "An equality join matches each fact foreign key to the corresponding dimension key.",
+      "correct_index": 0
+    },
+    {
+      "number": 155,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the table definition so every order has a unique identifier.\n\n```sql\nCREATE TABLE orders (\n  order_id BIGINT ____,\n  created_at TIMESTAMP\n);\n```",
+      "options": {
+        "A": "PRIMARY KEY",
+        "B": "FOREIGN KEY",
+        "C": "DEFAULT",
+        "D": "CHECK"
+      },
+      "correct_option": "A",
+      "explanation": "PRIMARY KEY identifies each row uniquely and cannot be null.",
+      "correct_index": 0
+    },
+    {
+      "number": 156,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the constraint that prevents a customer name from being null.\n\n```sql\ncustomer_name VARCHAR(200) ____\n```",
+      "options": {
+        "A": "UNIQUE",
+        "B": "NOT NULL",
+        "C": "DEFAULT",
+        "D": "INDEX"
+      },
+      "correct_option": "B",
+      "explanation": "NOT NULL requires a value for every row in the column.",
+      "correct_index": 1
+    },
+    {
+      "number": 157,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the command that begins a container image definition from Python 3.12.\n\n```dockerfile\n____ python:3.12-slim\n```",
+      "options": {
+        "A": "RUN",
+        "B": "FROM",
+        "C": "COPY",
+        "D": "CMD"
+      },
+      "correct_option": "B",
+      "explanation": "FROM selects the base image. RUN executes a build command, COPY adds files, and CMD sets the default command.",
+      "correct_index": 1
+    },
+    {
+      "number": 158,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the Infrastructure-as-Code declaration that creates an object-storage bucket.\n\n```hcl\nresource \"aws_s3_bucket\" \"raw\" {\n  bucket = \"company-raw\"\n}\n____\n```",
+      "options": {
+        "A": "terraform apply",
+        "B": "resource",
+        "C": "No additional line is required",
+        "D": "kubectl deploy"
+      },
+      "correct_option": "C",
+      "explanation": "A resource block is a complete Terraform declaration; `terraform apply` is a CLI command, not HCL.",
+      "correct_index": 2
+    },
+    {
+      "number": 159,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the Python expression that records an event as JSON text.\n\n```python\nimport json\npayload = json.____(event)\n```",
+      "options": {
+        "A": "loads",
+        "B": "dumps",
+        "C": "parse",
+        "D": "encode_rows"
+      },
+      "correct_option": "B",
+      "explanation": "json.dumps serializes a Python object to JSON text. json.loads performs the reverse operation.",
+      "correct_index": 1
+    },
+    {
+      "number": 160,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nComplete the Airflow-like dependency so `transform` runs only after `extract`.\n\n```python\nextract ____ transform\n```",
+      "options": {
+        "A": ">>",
+        "B": "<<",
+        "C": "==",
+        "D": "//"
+      },
+      "correct_option": "A",
+      "explanation": "The `>>` operator expresses a downstream dependency: extract completes before transform starts.",
+      "correct_index": 0
+    },
+    {
+      "number": 161,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nA pipeline processes $N$ records in $T$ seconds. Which formula defines throughput in records per second?",
+      "options": {
+        "A": "$N/T$",
+        "B": "$T/N$",
+        "C": "$N+T$",
+        "D": "$N-T$"
+      },
+      "correct_option": "A",
+      "explanation": "Throughput is completed records divided by elapsed time.",
+      "correct_index": 0
+    },
+    {
+      "number": 162,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nA table has $n$ rows, each averaging $b$ bytes. Which estimate gives its uncompressed size?",
+      "options": {
+        "A": "$n \times b$",
+        "B": "$n / b$",
+        "C": "$n + b$",
+        "D": "$b - n$"
+      },
+      "correct_option": "A",
+      "explanation": "Multiplying the number of rows by average bytes per row estimates total bytes.",
+      "correct_index": 0
+    },
+    {
+      "number": 163,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nIf data is replicated to $r$ full copies and its original size is $S$, what storage capacity is required before metadata overhead?",
+      "options": {
+        "A": "$S/r$",
+        "B": "$S+r$",
+        "C": "$S \times r$",
+        "D": "$r-S$"
+      },
+      "correct_option": "C",
+      "explanation": "Each full replica stores another complete copy, so capacity scales by the replication factor.",
+      "correct_index": 2
+    },
+    {
+      "number": 164,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nA source emits $500$ events per second and a consumer handles $450$ events per second. What is the backlog growth rate $g$?",
+      "options": {
+        "A": "$g=500-450=50$ events/s",
+        "B": "$g=450-500=-50$ events/s",
+        "C": "$g=500/450$ events/s",
+        "D": "$g=450/500$ events/s"
+      },
+      "correct_option": "A",
+      "explanation": "When arrival rate exceeds service rate, the difference accumulates as backlog.",
+      "correct_index": 0
+    },
+    {
+      "number": 165,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nA batch has an extract of $40$ minutes, a transform of $15$ minutes, and a load of $5$ minutes that run sequentially. What is its minimum end-to-end duration?",
+      "options": {
+        "A": "$40+15+5=60$ minutes",
+        "B": "$40/15/5$ minutes",
+        "C": "$40-15-5=20$ minutes",
+        "D": "$\\max(40,15,5)=40$ minutes"
+      },
+      "correct_option": "A",
+      "explanation": "Sequential stages add their durations.",
+      "correct_index": 0
+    },
+    {
+      "number": 166,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nA service has an availability objective of $99.9\\%$ over a 30-day month. Approximately how much downtime budget does it allow?",
+      "options": {
+        "A": "$30 \times 24 \times 0.001 = 0.72$ hours",
+        "B": "$30 \times 24 \times 0.999 = 719.28$ hours",
+        "C": "$30/0.999 = 30.03$ hours",
+        "D": "$0.999/30 = 0.033$ hours"
+      },
+      "correct_option": "A",
+      "explanation": "The unavailable fraction is 0.1%, so multiply total monthly hours by 0.001.",
+      "correct_index": 0
+    },
+    {
+      "number": 167,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nFreshness is $F = t_{now} - t_{latest}$. If the latest successful record is 20 minutes old, what is $F$?",
+      "options": {
+        "A": "20 minutes",
+        "B": "0 minutes",
+        "C": "40 minutes",
+        "D": "A percentage"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures the age of the newest available data.",
+      "correct_index": 0
+    },
+    {
+      "number": 168,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nA partitioned table has $P$ equally sized partitions, and a query reads $k$ of them. What fraction of the table does it scan, ignoring metadata?",
+      "options": {
+        "A": "$k/P$",
+        "B": "$P/k$",
+        "C": "$k+P$",
+        "D": "$P-k$"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning reads only the selected partition count divided by total partitions.",
+      "correct_index": 0
+    },
+    {
+      "number": 169,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nCompression ratio is $C = S_{raw}/S_{compressed}$. If $S_{raw}=100$ GB and $C=4$, what is $S_{compressed}$?",
+      "options": {
+        "A": "25 GB",
+        "B": "96 GB",
+        "C": "104 GB",
+        "D": "400 GB"
+      },
+      "correct_option": "A",
+      "explanation": "Rearrange the ratio: compressed size equals raw size divided by compression ratio.",
+      "correct_index": 0
+    },
+    {
+      "number": 170,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nSpeedup is $S=T_{serial}/T_{parallel}$. A job falls from 80 minutes to 20 minutes. What is $S$?",
+      "options": {
+        "A": "4",
+        "B": "0.25",
+        "C": "60",
+        "D": "100"
+      },
+      "correct_option": "A",
+      "explanation": "The serial duration divided by parallel duration is $80/20=4$.",
+      "correct_index": 0
+    },
+    {
+      "number": 171,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is the central purpose of data engineering?",
+      "options": {
+        "A": "Turn raw data into usable, reliable data for consumers",
+        "B": "Design only visual dashboards",
+        "C": "Replace every database with files",
+        "D": "Train every machine-learning model"
+      },
+      "correct_option": "A",
+      "explanation": "Data engineering builds the ingestion, storage, transformation, quality, and delivery capabilities that make data usable.",
+      "correct_index": 0
+    },
+    {
+      "number": 172,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is a data pipeline?",
+      "options": {
+        "A": "A sequence of stages that moves and transforms data from source to destination",
+        "B": "A single dashboard page",
+        "C": "A database backup only",
+        "D": "A manual spreadsheet process"
+      },
+      "correct_option": "A",
+      "explanation": "A pipeline connects sources to destinations through ordered processing stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 173,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nHow does ETL relate to a broader data pipeline?",
+      "options": {
+        "A": "ETL can be one subprocess inside a broader pipeline",
+        "B": "ETL always replaces pipelines",
+        "C": "ETL is only a visualization method",
+        "D": "They have no relationship"
+      },
+      "correct_option": "A",
+      "explanation": "A modern pipeline can include one or more ETL flows plus orchestration, security, metadata, and delivery practices.",
+      "correct_index": 0
+    },
+    {
+      "number": 174,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhich stage brings data from external systems into a data platform?",
+      "options": {
+        "A": "Ingestion",
+        "B": "Visualization",
+        "C": "Archiving",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Ingestion extracts or receives data and places it in the platform.",
+      "correct_index": 0
+    },
+    {
+      "number": 175,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhy can data enrichment be valuable?",
+      "options": {
+        "A": "It combines context from multiple sources to make data more meaningful",
+        "B": "It always deletes raw data",
+        "C": "It removes every business rule",
+        "D": "It prevents storage"
+      },
+      "correct_option": "A",
+      "explanation": "Enrichment adds useful context, such as joining a transaction to customer or product attributes.",
+      "correct_index": 0
+    },
+    {
+      "number": 176,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat does orchestration manage in a data platform?",
+      "options": {
+        "A": "Scheduling, monitoring, dependencies, and coordination of pipeline work",
+        "B": "Only database passwords",
+        "C": "Only chart colors",
+        "D": "Only data entry forms"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration controls when work runs, its dependencies, and its operational state.",
+      "correct_index": 0
+    },
+    {
+      "number": 177,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhich property lets a cloud platform add or remove resources as demand changes?",
+      "options": {
+        "A": "Elastic scalability",
+        "B": "Schema rigidity",
+        "C": "Manual reconciliation",
+        "D": "Data duplication"
+      },
+      "correct_option": "A",
+      "explanation": "Elastic scalability adjusts capacity to workload demand.",
+      "correct_index": 0
+    },
+    {
+      "number": 178,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is the defining role of a data lake?",
+      "options": {
+        "A": "Store large volumes of raw structured, semi-structured, and unstructured data",
+        "B": "Store only fully modeled dimensional data",
+        "C": "Replace all access controls",
+        "D": "Serve only one application"
+      },
+      "correct_option": "A",
+      "explanation": "A data lake retains raw data flexibly so it can be structured for different future uses.",
+      "correct_index": 0
+    },
+    {
+      "number": 179,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is a data warehouse optimized for?",
+      "options": {
+        "A": "Integrated, structured data for analytics and reporting",
+        "B": "Running container images",
+        "C": "Capturing only raw log files",
+        "D": "Managing source-code branches"
+      },
+      "correct_option": "A",
+      "explanation": "A warehouse organizes integrated data to support reliable analytical queries.",
+      "correct_index": 0
+    },
+    {
+      "number": 180,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat does a lakehouse seek to combine?",
+      "options": {
+        "A": "Data-lake flexibility with warehouse-like management and analytics",
+        "B": "Only two dashboard tools",
+        "C": "A source system with a browser",
+        "D": "A container with a spreadsheet"
+      },
+      "correct_option": "A",
+      "explanation": "A lakehouse applies stronger table management and analytics capabilities to lake storage.",
+      "correct_index": 0
+    },
+    {
+      "number": 181,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhich data model is most associated with transaction-oriented systems?",
+      "options": {
+        "A": "Relational modeling",
+        "B": "Dimensional modeling only",
+        "C": "Unstructured object storage",
+        "D": "A report layout"
+      },
+      "correct_option": "A",
+      "explanation": "Relational models represent entities and relationships and are common in transactional databases.",
+      "correct_index": 0
+    },
+    {
+      "number": 182,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nIn dimensional modeling, what does a fact table primarily contain?",
+      "options": {
+        "A": "Measures at a defined grain and keys to dimensions",
+        "B": "Only descriptive labels",
+        "C": "Only user accounts",
+        "D": "Only source-code commits"
+      },
+      "correct_option": "A",
+      "explanation": "Facts record measurable events, while dimensions provide their descriptive context.",
+      "correct_index": 0
+    },
+    {
+      "number": 183,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nIn dimensional modeling, what does a dimension table primarily contain?",
+      "options": {
+        "A": "Descriptive context such as customer, product, or date attributes",
+        "B": "Only numerical event measures",
+        "C": "Only pipeline logs",
+        "D": "Only file bytes"
+      },
+      "correct_option": "A",
+      "explanation": "Dimensions describe the entities used to slice and interpret facts.",
+      "correct_index": 0
+    },
+    {
+      "number": 184,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat does a data model's grain specify?",
+      "options": {
+        "A": "The level of detail represented by one row",
+        "B": "The database vendor",
+        "C": "The number of dashboards",
+        "D": "The encryption algorithm"
+      },
+      "correct_option": "A",
+      "explanation": "Grain defines exactly what one record represents, such as one order line or one daily account balance.",
+      "correct_index": 0
+    },
+    {
+      "number": 185,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is the goal of normalization in transactional databases?",
+      "options": {
+        "A": "Reduce redundancy and inconsistency while preserving correct relationships",
+        "B": "Duplicate every value for speed",
+        "C": "Remove all keys",
+        "D": "Avoid constraints"
+      },
+      "correct_option": "A",
+      "explanation": "Normalization organizes data to reduce update anomalies and maintain integrity.",
+      "correct_index": 0
+    },
+    {
+      "number": 186,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is required by first normal form?",
+      "options": {
+        "A": "Each table value is atomic rather than a repeating collection",
+        "B": "Every table has one row",
+        "C": "Every column is numeric",
+        "D": "Every table is denormalized"
+      },
+      "correct_option": "A",
+      "explanation": "First normal form requires indivisible values in each field.",
+      "correct_index": 0
+    },
+    {
+      "number": 187,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhy are indexes useful?",
+      "options": {
+        "A": "They speed lookups by providing a structure for locating records",
+        "B": "They delete duplicate rows automatically",
+        "C": "They replace backup policies",
+        "D": "They encrypt every column"
+      },
+      "correct_option": "A",
+      "explanation": "Indexes act like a lookup structure, but they also add write and maintenance cost.",
+      "correct_index": 0
+    },
+    {
+      "number": 188,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat trade-off do indexes introduce?",
+      "options": {
+        "A": "They can make inserts, updates, and deletes more expensive",
+        "B": "They make reads impossible",
+        "C": "They eliminate storage needs",
+        "D": "They prevent joins"
+      },
+      "correct_option": "A",
+      "explanation": "Index structures must also be maintained whenever indexed data changes.",
+      "correct_index": 0
+    },
+    {
+      "number": 189,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nHow can partitioning improve a large-table query?",
+      "options": {
+        "A": "It lets the engine read only relevant partitions",
+        "B": "It removes the need for filters",
+        "C": "It forces every query to scan more data",
+        "D": "It converts all data to text"
+      },
+      "correct_option": "A",
+      "explanation": "Partition pruning avoids scanning partitions that cannot satisfy the filter.",
+      "correct_index": 0
+    },
+    {
+      "number": 190,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat does data lineage record?",
+      "options": {
+        "A": "Origins, transformations, uses, and destinations of data over time",
+        "B": "Only the latest dashboard title",
+        "C": "Only a database password",
+        "D": "Only CPU usage"
+      },
+      "correct_option": "A",
+      "explanation": "Lineage traces how data moved and changed, supporting impact analysis and auditability.",
+      "correct_index": 0
+    },
+    {
+      "number": 191,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhich data-observability pillar asks whether the newest data is current enough?",
+      "options": {
+        "A": "Freshness",
+        "B": "Schema",
+        "C": "Distribution",
+        "D": "Volume"
+      },
+      "correct_option": "A",
+      "explanation": "Freshness measures whether data arrives and updates on the required cadence.",
+      "correct_index": 0
+    },
+    {
+      "number": 192,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhich data-observability pillar checks whether record counts are unexpectedly high or low?",
+      "options": {
+        "A": "Volume",
+        "B": "Lineage",
+        "C": "Encryption",
+        "D": "Normalization"
+      },
+      "correct_option": "A",
+      "explanation": "Volume monitoring detects missing, duplicated, or unusually large deliveries.",
+      "correct_index": 0
+    },
+    {
+      "number": 193,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhich data-observability pillar detects a changed column name or type?",
+      "options": {
+        "A": "Schema",
+        "B": "Freshness",
+        "C": "Cost",
+        "D": "Granularity"
+      },
+      "correct_option": "A",
+      "explanation": "Schema monitoring detects structural changes that can break consumers.",
+      "correct_index": 0
+    },
+    {
+      "number": 194,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is a data contract?",
+      "options": {
+        "A": "A formal agreement on data expectations, responsibilities, constraints, and use",
+        "B": "A database query optimizer",
+        "C": "A file compression format",
+        "D": "A chart template"
+      },
+      "correct_option": "A",
+      "explanation": "A contract makes producer and consumer expectations explicit, including quality and governance obligations.",
+      "correct_index": 0
+    },
+    {
+      "number": 195,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat practice does DataOps adapt to data pipelines?",
+      "options": {
+        "A": "DevOps-style automation, collaboration, monitoring, and feedback",
+        "B": "Manual copy-and-paste releases",
+        "C": "One-time database design",
+        "D": "Only model training"
+      },
+      "correct_option": "A",
+      "explanation": "DataOps applies continuous operational practices to make data delivery reliable and fast.",
+      "correct_index": 0
+    },
+    {
+      "number": 196,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat does Infrastructure as Code provide?",
+      "options": {
+        "A": "Versioned, repeatable infrastructure provisioning from code",
+        "B": "A replacement for all application code",
+        "C": "A manual server checklist",
+        "D": "Only a database schema"
+      },
+      "correct_option": "A",
+      "explanation": "IaC makes infrastructure configuration reproducible, reviewable, and automatable.",
+      "correct_index": 0
+    },
+    {
+      "number": 197,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is the core purpose of continuous integration?",
+      "options": {
+        "A": "Frequently integrate changes and run automated checks",
+        "B": "Deploy directly without tests",
+        "C": "Store raw data only",
+        "D": "Remove version control"
+      },
+      "correct_option": "A",
+      "explanation": "CI detects integration problems early by merging work and testing it continuously.",
+      "correct_index": 0
+    },
+    {
+      "number": 198,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is the core purpose of continuous delivery?",
+      "options": {
+        "A": "Automate the path from validated build to deployable release",
+        "B": "Manually document every release",
+        "C": "Replace monitoring",
+        "D": "Eliminate environments"
+      },
+      "correct_option": "A",
+      "explanation": "CD makes software and pipeline changes releasable through repeatable automated stages.",
+      "correct_index": 0
+    },
+    {
+      "number": 199,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhat is a container?",
+      "options": {
+        "A": "A portable package of an application and its dependencies in an isolated environment",
+        "B": "A physical hard drive only",
+        "C": "A data warehouse schema",
+        "D": "An access-control policy"
+      },
+      "correct_option": "A",
+      "explanation": "Containers package runtime dependencies so software runs consistently across environments.",
+      "correct_index": 0
+    },
+    {
+      "number": 200,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A platform owner is setting an organization-wide standard; choose the decision that best protects reliability and governance.\n\nWhy is container orchestration used?",
+      "options": {
+        "A": "To manage, scale, and recover containerized workloads across hosts",
+        "B": "To write SQL queries",
+        "C": "To normalize tables",
+        "D": "To replace source systems"
+      },
+      "correct_option": "A",
+      "explanation": "Orchestration automates deployment, scaling, scheduling, and resilience for containers.",
+      "correct_index": 0
+    }
+  ],
+  "approved_by": "user",
+  "approved_on": "2026-11-13",
+  "source_round": "round 1 (50 per difficulty, all approved)"
+}
