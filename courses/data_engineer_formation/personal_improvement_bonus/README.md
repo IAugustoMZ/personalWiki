@@ -18,6 +18,6 @@
 - Inteligência artificial aplicada ao serviço público: arquitetura de dados no setor público, governo digital, governança de IA e conformidade com a LGPD.
 - Consultoria, ferramentas de IA e temas de desenvolvimento profissional.
 
-As notas vão de `00_def_pib_08012024.md` a `75_def_pib_09062026.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, o círculo de controle, o framework SMART de metas, o diagrama radial de marca pessoal e o fluxo da metodologia STAR, estão em [Artefatos](../../../artifacts/README.md).
+As notas vão de `00_def_pib_08012024.md` a `76_def_pib_12062026.md`. Diagramas relacionados, inclusive a matriz de Eisenhower, o círculo de controle, o framework SMART de metas, o diagrama radial de marca pessoal e o fluxo da metodologia STAR, estão em [Artefatos](../../../artifacts/README.md).
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
