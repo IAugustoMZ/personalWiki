@@ -1,0 +1,1296 @@
+{
+  "approved_by": "user (chat approval, all 80 items)",
+  "approved_on": "2026-11-18",
+  "topic": {
+    "subsubcategory_id": 47,
+    "name": "SQL para Análise de Dados e Data Science",
+    "category": "Data Engineering",
+    "subcategory": "Fundamentals"
+  },
+  "source_folder": "courses/data_engineer_formation/sql_analise_dados",
+  "source_round": "round1",
+  "registered_question_ids": [
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959,
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969,
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979,
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the query so that `total_salary` is the sum of salaries per department.\n\n```sql\nSELECT department, ____(salary) AS total_salary\nFROM employees\nGROUP BY department;\n```",
+      "options": {
+        "A": "COUNT",
+        "B": "SUM",
+        "C": "MAX",
+        "D": "AVG"
+      },
+      "correct_option": "B",
+      "explanation": "SUM adds the values inside each group. AVG returns the mean, COUNT counts rows, and MAX returns the largest value. Only SUM matches a total.",
+      "correct_index": 1
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which window function returns the value from the previous row inside a partition, ordered by a chosen column?",
+      "options": {
+        "A": "LEAD",
+        "B": "NTILE",
+        "C": "RANK",
+        "D": "LAG"
+      },
+      "correct_option": "D",
+      "explanation": "LAG reads a value from an earlier row in the same partition. LEAD reads a later row, NTILE splits rows into buckets, and RANK assigns a position with ties.",
+      "correct_index": 3
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What is the difference between `UNION` and `UNION ALL`?",
+      "options": {
+        "A": "UNION removes duplicate rows, while UNION ALL keeps them and is usually faster",
+        "B": "Both remove duplicates, and UNION ALL is only faster",
+        "C": "UNION ALL removes duplicate rows and UNION keeps them",
+        "D": "Both keep duplicate rows and differ only in column names"
+      },
+      "correct_option": "A",
+      "explanation": "UNION combines results and removes duplicates, which requires a uniqueness check. UNION ALL keeps every row, so it skips that step and runs faster when duplicates are acceptable or impossible.",
+      "correct_index": 0
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Which expression gives the mean $\\mu$ of $N$ values $x_1, \\dots, x_N$?",
+      "options": {
+        "A": "$\\mu = \\sum_{i=1}^{N} x_i^{2}$",
+        "B": "$\\mu = \\dfrac{1}{N}\\sum_{i=1}^{N} x_i$",
+        "C": "$\\mu = \\dfrac{1}{N}\\sum_{i=1}^{N} (x_i-\\mu)^2$",
+        "D": "$\\mu = x_{\\max} - x_{\\min}$"
+      },
+      "correct_option": "B",
+      "explanation": "The mean adds all values and divides by the count. Squaring the deviations gives the variance, and the range is the difference between the maximum and the minimum.",
+      "correct_index": 1
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Which formula defines the population variance $\\sigma^2$ of $N$ values with mean $\\mu$?",
+      "options": {
+        "A": "$\\sigma^2 = x_{\\max}-x_{\\min}$",
+        "B": "$\\sigma^2 = \\dfrac{1}{N}\\sum_{i=1}^{N}(x_i-\\mu)^2$",
+        "C": "$\\sigma^2 = \\dfrac{1}{N}\\sum_{i=1}^{N} x_i$",
+        "D": "$\\sigma^2 = \\sqrt{\\dfrac{1}{N}\\sum_{i=1}^{N}(x_i-\\mu)^2}$"
+      },
+      "correct_option": "B",
+      "explanation": "Variance is the average of the squared deviations from the mean. The standard deviation is the square root of the variance, so placing the root inside the expression gives a different quantity.",
+      "correct_index": 1
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Which formula rescales a value $x$ into the range from 0 to 1 using the column minimum and maximum?",
+      "options": {
+        "A": "$x_{norm}=x\\cdot x_{\\max}$",
+        "B": "$x_{norm}=\\dfrac{x-x_{\\min}}{x_{\\max}-x_{\\min}}$",
+        "C": "$x_{norm}=\\dfrac{x-\\bar{x}}{s}$",
+        "D": "$x_{norm}=\\dfrac{x_{\\max}-x}{x_{\\min}}$"
+      },
+      "correct_option": "B",
+      "explanation": "Min-max normalization subtracts the minimum and divides by the range, so the smallest value maps to 0 and the largest to 1. Standardization uses the mean and standard deviation instead and does not bound values to a fixed range.",
+      "correct_index": 1
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which clause filters groups after aggregation, for example to keep only groups with more than one row?",
+      "options": {
+        "A": "WHERE",
+        "B": "ORDER BY",
+        "C": "HAVING",
+        "D": "ON"
+      },
+      "correct_option": "C",
+      "explanation": "WHERE filters individual rows before grouping. HAVING filters groups after aggregate functions are computed, so it can use a condition such as HAVING COUNT(*) > 1.",
+      "correct_index": 2
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Three rows have salaries 900, 900 and 700, ordered from highest to lowest. Which window function gives 1, 1, 2, with no gap after the tie?",
+      "options": {
+        "A": "NTILE(2)",
+        "B": "DENSE_RANK()",
+        "C": "ROW_NUMBER()",
+        "D": "RANK()"
+      },
+      "correct_option": "B",
+      "explanation": "ROW_NUMBER gives unique positions 1, 2, 3. RANK gives the tied rows 1 and 1 and then skips to 3. DENSE_RANK gives 1 and 1 and continues with 2, without skipping.",
+      "correct_index": 1
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does `GROUP BY ROLLUP (ano, mes)` return in addition to the regular group for each (ano, mes) pair?",
+      "options": {
+        "A": "Every possible combination of the columns",
+        "B": "Subtotals for each year and a grand total",
+        "C": "The original unaggregated rows",
+        "D": "Only the grand total"
+      },
+      "correct_option": "B",
+      "explanation": "ROLLUP computes hierarchical subtotals by removing the rightmost grouping column one level at a time, then adds a grand total. CUBE would also produce a subtotal for each column on its own.",
+      "correct_index": 1
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "In a result that uses `GROUP BY ROLLUP`, what does `GROUPING(column)` return when the row is a subtotal created for that column?",
+      "options": {
+        "A": "The column name",
+        "B": "1",
+        "C": "NULL",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "GROUPING returns 0 for an ordinary grouped value and 1 when the row is a subtotal or total created by ROLLUP, CUBE or GROUPING SETS. This lets you tell a real NULL in the data apart from the NULL that marks a subtotal.",
+      "correct_index": 1
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which join returns every row from both tables and fills the missing side with NULL when there is no match?",
+      "options": {
+        "A": "CROSS JOIN",
+        "B": "LEFT JOIN",
+        "C": "INNER JOIN",
+        "D": "FULL JOIN"
+      },
+      "correct_option": "D",
+      "explanation": "FULL JOIN keeps unmatched rows from both sides. INNER JOIN keeps only matches, LEFT JOIN keeps every row of the left table, and CROSS JOIN builds every combination of rows.",
+      "correct_index": 3
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which statement about a materialized view is correct?",
+      "options": {
+        "A": "It updates automatically whenever a base table changes",
+        "B": "It cannot be created from another view",
+        "C": "It stores the result as a physical object that must be refreshed periodically",
+        "D": "It re-runs its query each time it is called"
+      },
+      "correct_option": "C",
+      "explanation": "A plain view stores only the query, which runs on each call. A materialized view stores the result, so reads are fast, but the stored data goes stale until REFRESH MATERIALIZED VIEW runs.",
+      "correct_index": 2
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which index type is best for equality lookups and is not efficient for range searches?",
+      "options": {
+        "A": "Hash",
+        "B": "BRIN",
+        "C": "GIN",
+        "D": "B-tree"
+      },
+      "correct_option": "A",
+      "explanation": "Hash indexes answer equality comparisons directly. B-tree indexes also support ranges and ordering, GIN indexes elements inside arrays and documents, and BRIN summarizes blocks of naturally ordered data.",
+      "correct_index": 0
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the query so that each department lists its employees as one comma-separated string.\n\n```sql\nSELECT departamento,\n       ____(funcionario, ', ') AS funcionarios\nFROM funcionarios\nGROUP BY departamento;\n```",
+      "options": {
+        "A": "STRING_AGG",
+        "B": "ARRAY_AGG",
+        "C": "STRING_SPLIT",
+        "D": "COALESCE"
+      },
+      "correct_option": "A",
+      "explanation": "STRING_AGG joins the values of each group, using the second argument as the separator. It is the PostgreSQL equivalent of GROUP_CONCAT in MySQL. ARRAY_AGG returns an array instead of a string.",
+      "correct_index": 0
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does a CROSS JOIN produce?",
+      "options": {
+        "A": "Only the rows that match on a shared key",
+        "B": "Only the rows of the first table that have no match",
+        "C": "Every row of the first table combined with every row of the second",
+        "D": "Rows from both tables, with NULLs where there is no match"
+      },
+      "correct_option": "C",
+      "explanation": "A CROSS JOIN is a Cartesian product: each row of one table pairs with each row of the other, so the result grows very fast. Avoid it on large tables unless every combination is really needed.",
+      "correct_index": 2
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Using $T_{n\\times m} = A_n \\times B_m$, how many rows does a CROSS JOIN return when table $A$ has $n = 5$ rows and table $B$ has $m = 8$ rows?",
+      "options": {
+        "A": "40",
+        "B": "30",
+        "C": "13",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "explanation": "The Cartesian product multiplies the row counts: 5 × 8 = 40. Adding the counts (13) or multiplying incorrectly (25, 30) gives other values.",
+      "correct_index": 0
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Which formula standardizes a value $x$ to mean 0 and standard deviation 1, given the mean $\\bar{x}$ and the standard deviation $s$?",
+      "options": {
+        "A": "$x_{std}=\\dfrac{x-\\bar{x}}{s}$",
+        "B": "$x_{std}=x\\cdot s$",
+        "C": "$x_{std}=\\dfrac{x-x_{\\min}}{x_{\\max}-x_{\\min}}$",
+        "D": "$x_{std}=\\dfrac{x}{\\bar{x}}$"
+      },
+      "correct_option": "A",
+      "explanation": "Standardization (the z-score) subtracts the mean and divides by the standard deviation. Unlike min-max scaling, it does not bound the values to a fixed range.",
+      "correct_index": 0
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "For 9 sorted values, the position of percentile $P_p$ is $\\dfrac{p}{100}\\cdot(N+1)$. Which value is the 50th percentile $P_{50}$?",
+      "options": {
+        "A": "The 4.5th value",
+        "B": "The 5th value",
+        "C": "The 10th value",
+        "D": "The 9th value"
+      },
+      "correct_option": "B",
+      "explanation": "With N = 9 and p = 50, the position is 0.5 × 10 = 5, which is also the median of nine values. The formula uses N + 1, so it does not simply take 50% of N.",
+      "correct_index": 1
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the window function so that `venda_anterior` is the previous sale of each employee.\n\n```sql\nSELECT funcionario, data_venda, valor_venda,\n       ____(valor_venda) OVER (\n           PARTITION BY funcionario\n           ORDER BY data_venda\n       ) AS venda_anterior\nFROM vendas;\n```",
+      "options": {
+        "A": "LAG",
+        "B": "NTH_VALUE",
+        "C": "FIRST_VALUE",
+        "D": "LEAD"
+      },
+      "correct_option": "A",
+      "explanation": "LAG returns the value from the preceding row in the window. LEAD returns the next row, FIRST_VALUE returns the first row of the window, and NTH_VALUE needs a position argument.",
+      "correct_index": 0
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Complete the query so that it returns subtotals by year and month, a subtotal by year and a grand total, but no subtotal by month alone.\n\n```sql\nSELECT ano, mes, SUM(valor_venda) AS total\nFROM vendas\nGROUP BY ____ (ano, mes);\n```",
+      "options": {
+        "A": "DISTINCT",
+        "B": "ROLLUP",
+        "C": "CUBE",
+        "D": "HAVING"
+      },
+      "correct_option": "B",
+      "explanation": "ROLLUP removes grouping columns from right to left, giving (ano, mes), (ano) and the grand total. CUBE also generates a subtotal for mes alone, which is not requested here.",
+      "correct_index": 1
+    },
+    {
+      "number": 21,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why does `AVG(x) OVER (PARTITION BY departamento)` differ from `GROUP BY departamento` when both compute averages?",
+      "options": {
+        "A": "The window function is only valid inside a CTE",
+        "B": "The window function cannot use PARTITION BY",
+        "C": "The window function computes over related rows while keeping every original row",
+        "D": "The window function returns one row per department"
+      },
+      "correct_option": "C",
+      "explanation": "GROUP BY collapses the rows into one row per group. A window function computes the same kind of aggregate for each row over its partition, so the detail rows stay in the result next to the aggregate.",
+      "correct_index": 2
+    },
+    {
+      "number": 22,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A query groups sales by year and employee, then computes `SUM(SUM(units)) OVER (PARTITION BY year)`. What does the window sum operate on?",
+      "options": {
+        "A": "The already grouped rows, so it sums each employee's total within the year",
+        "B": "All years together, in a single total",
+        "C": "The raw monthly rows before grouping",
+        "D": "Only the first employee of each year"
+      },
+      "correct_option": "A",
+      "explanation": "Window functions run after GROUP BY. The inner SUM creates one total per employee and year, and the outer window sums those totals across the partition, which allows percentage-of-year calculations in a single pass.",
+      "correct_index": 0
+    },
+    {
+      "number": 23,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why does `ORDER BY mes` give the wrong order when `mes` is a text column with values such as 'Abril', 'Janeiro' and 'Março'?",
+      "options": {
+        "A": "The database converts month names to dates automatically",
+        "B": "ORDER BY ignores text values",
+        "C": "Text columns cannot be sorted",
+        "D": "Text is sorted alphabetically, not by calendar month"
+      },
+      "correct_option": "D",
+      "explanation": "Text is compared character by character, so the names do not follow calendar order. A CASE expression that maps each month to its number, or a real date column, gives the chronological order.",
+      "correct_index": 3
+    },
+    {
+      "number": 24,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which pattern finds customers who have never placed an order?",
+      "options": {
+        "A": "INNER JOIN customers to orders and keep rows where the order id IS NULL",
+        "B": "FULL JOIN customers to orders and keep rows where the order id IS NOT NULL",
+        "C": "CROSS JOIN customers with orders and keep rows where the order id IS NOT NULL",
+        "D": "LEFT JOIN customers to orders and keep rows where the order id IS NULL"
+      },
+      "correct_option": "D",
+      "explanation": "A LEFT JOIN keeps every customer. Customers without an order get NULL in the order columns, so filtering for NULL returns exactly the unmatched customers, an anti-join. An INNER JOIN would drop them before the filter runs.",
+      "correct_index": 3
+    },
+    {
+      "number": 25,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A query uses `customers LEFT JOIN orders ON ... WHERE orders.status = 'paid'`. What happens to customers who have no orders?",
+      "options": {
+        "A": "They appear once for each paid order",
+        "B": "They are kept, because LEFT JOIN ignores the WHERE clause",
+        "C": "They appear with NULL in every order column",
+        "D": "They are removed, because NULL = 'paid' is not true"
+      },
+      "correct_option": "D",
+      "explanation": "The WHERE clause runs after the join. For customers without orders, orders.status is NULL, the comparison is not true, and the rows are discarded. Moving the condition into the ON clause keeps those customers.",
+      "correct_index": 3
+    },
+    {
+      "number": 26,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "After a load inserted a NULL into `id_cliente`, the query `WHERE id NOT IN (SELECT id_cliente FROM vendas)` returns no rows at all. Why?",
+      "options": {
+        "A": "The subquery is cached and stops refreshing",
+        "B": "NULL values are sorted to the top and hide the rest",
+        "C": "NOT IN treats NULL as zero",
+        "D": "NOT IN returns unknown for every row when the list contains NULL, so no row passes"
+      },
+      "correct_option": "D",
+      "explanation": "Comparing a value with NULL yields unknown, neither true nor false. With NOT IN, a single NULL in the list makes every comparison unknown, so the filter excludes everything. NOT EXISTS does not have this behavior.",
+      "correct_index": 3
+    },
+    {
+      "number": 27,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Records with a missing salary are more likely when the person is younger, and age is recorded for everyone. What type of missingness is this?",
+      "options": {
+        "A": "MNAR (missing not at random)",
+        "B": "MAR (missing at random)",
+        "C": "MCAR (missing completely at random)",
+        "D": "Complete cases"
+      },
+      "correct_option": "B",
+      "explanation": "MAR means the chance of a missing value depends on other observed variables, here age, but not on the unobserved value itself. MCAR would be unrelated to any variable, and MNAR depends on the missing value.",
+      "correct_index": 1
+    },
+    {
+      "number": 28,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why can listwise deletion (dropping every row with a missing value) bias results when high earners are more likely to leave salary blank?",
+      "options": {
+        "A": "It makes the variance zero",
+        "B": "It only affects categorical columns",
+        "C": "It doubles the number of rows",
+        "D": "The remaining complete cases no longer represent the full population"
+      },
+      "correct_option": "D",
+      "explanation": "When missingness depends on the missing value itself (MNAR), the complete cases underrepresent that group. Averages and rankings computed from them are skewed, even though the code runs without errors.",
+      "correct_index": 3
+    },
+    {
+      "number": 29,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why should min-max scaling parameters be learned from the training set only and then applied to validation and test data?",
+      "options": {
+        "A": "To make the test data faster to process",
+        "B": "To remove outliers from the test set",
+        "C": "Because validation data cannot be scaled",
+        "D": "To avoid data leakage, because test statistics must not influence training"
+      },
+      "correct_option": "D",
+      "explanation": "Fitting the scaler on all the data lets information from the test set leak into training, so the performance estimates become too optimistic. Applying the training parameters keeps every split on the same scale.",
+      "correct_index": 3
+    },
+    {
+      "number": 30,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "An index on `(cidade, data_venda)` is used for queries that filter only on `data_venda`. Why does the planner usually ignore it?",
+      "options": {
+        "A": "Indexes cannot store dates",
+        "B": "Composite indexes are always deleted after a load",
+        "C": "A B-tree is sorted by the leading column, so without a condition on it the engine cannot jump to the matching entries",
+        "D": "Dates are always sorted as text"
+      },
+      "correct_option": "C",
+      "explanation": "A B-tree is sorted by the first column and then by the second. Without a condition on the leading column, the engine cannot narrow the search, so an index whose column order matches the queries is needed.",
+      "correct_index": 2
+    },
+    {
+      "number": 31,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Why partition a large sales table by the month of `data_venda` when most reports filter by a range of months?",
+      "options": {
+        "A": "Partitioning turns the table into a view",
+        "B": "Partitions always make inserts faster with no limit",
+        "C": "Queries that filter on the partition key can skip the partitions they do not need",
+        "D": "Partitions remove the need for any index"
+      },
+      "correct_option": "C",
+      "explanation": "Partition pruning lets the engine read only the partitions that match the filter. The key should reflect the access pattern; partitioning by a column that queries never filter on gives little benefit.",
+      "correct_index": 2
+    },
+    {
+      "number": 32,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the window frame so that each row's moving average covers the previous, current and next row of the same employee.\n\n```sql\nSELECT funcionario, ano, mes, unidades_vendidas,\n       ROUND(AVG(unidades_vendidas) OVER (\n           PARTITION BY funcionario\n           ORDER BY ano\n           ROWS BETWEEN 1 PRECEDING AND ____\n       ), 2) AS media_movel\nFROM vendas;\n```",
+      "options": {
+        "A": "1 FOLLOWING",
+        "B": "1 PRECEDING",
+        "C": "UNBOUNDED FOLLOWING",
+        "D": "CURRENT ROW"
+      },
+      "correct_option": "A",
+      "explanation": "ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING forms a sliding window of three rows. CURRENT ROW would end the window at the present row, and UNBOUNDED FOLLOWING would extend it to the end of the partition.",
+      "correct_index": 0
+    },
+    {
+      "number": 33,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the share calculation so that each employee's units are compared with the total of their year, in one query without a separate subquery.\n\n```sql\nSELECT ano, funcionario,\n       SUM(unidades_vendidas) * 100.0 / ____(SUM(unidades_vendidas)) OVER (PARTITION BY ano) AS pct\nFROM vendas\nGROUP BY ano, funcionario;\n```",
+      "options": {
+        "A": "SUM",
+        "B": "COUNT",
+        "C": "AVG",
+        "D": "MAX"
+      },
+      "correct_option": "A",
+      "explanation": "The window SUM over the grouped totals gives the total of each year, so dividing each employee's total by it gives that employee's share of the year. AVG would give a mean per employee, not a share.",
+      "correct_index": 0
+    },
+    {
+      "number": 34,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the filter so that only the top seller of each year remains in the outer query.\n\n```sql\nSELECT *\nFROM (\n    SELECT funcionario, ano, unidades_vendidas,\n           RANK() OVER (PARTITION BY ano ORDER BY unidades_vendidas DESC) AS rank_vendas\n    FROM vendas\n) AS subquery\nWHERE ____;\n```",
+      "options": {
+        "A": "rank_vendas = 1",
+        "B": "ano = 1",
+        "C": "rank_vendas IS NULL",
+        "D": "rank_vendas > 1"
+      },
+      "correct_option": "A",
+      "explanation": "The window ranks each employee within the year, so keeping rank 1 returns the top seller of each year. With ties, RANK can return more than one row per year.",
+      "correct_index": 0
+    },
+    {
+      "number": 35,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the set operation that returns only the customers who bought both a smartphone and a smartwatch.\n\n```sql\nSELECT id_cliente FROM compradores_smartphone\n____\nSELECT id_cliente FROM compradores_smartwatch;\n```",
+      "options": {
+        "A": "UNION ALL",
+        "B": "EXCEPT",
+        "C": "UNION",
+        "D": "INTERSECT"
+      },
+      "correct_option": "D",
+      "explanation": "INTERSECT keeps only the rows present in both results. UNION keeps rows from either side, EXCEPT removes the second result from the first, and UNION ALL keeps duplicates from both sides.",
+      "correct_index": 3
+    },
+    {
+      "number": 36,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete the statement that rebuilds a stored aggregate after its base table changes.\n\n```sql\n____ MATERIALIZED VIEW vendas_mensais;\n```",
+      "options": {
+        "A": "REFRESH",
+        "B": "ALTER",
+        "C": "RECREATE",
+        "D": "UPDATE"
+      },
+      "correct_option": "A",
+      "explanation": "A materialized view stores its result, so it does not follow base-table changes automatically. REFRESH MATERIALIZED VIEW recomputes the stored result.",
+      "correct_index": 0
+    },
+    {
+      "number": 37,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "For 19 sorted values, the position of the percentile is $\\dfrac{p}{100}\\cdot(N+1)$. Where does $P_{25}$ fall?",
+      "options": {
+        "A": "The 9.5th value",
+        "B": "The 6th value",
+        "C": "The 5th value",
+        "D": "The 4.75th value"
+      },
+      "correct_option": "C",
+      "explanation": "With N = 19 and p = 25, the position is 0.25 × 20 = 5, so the 25th percentile is the 5th ordered value.",
+      "correct_index": 2
+    },
+    {
+      "number": 38,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The skewness is $\\gamma_1 = \\dfrac{1}{N}\\sum_{i=1}^{N}\\left(\\dfrac{x_i-\\mu}{\\sigma}\\right)^3$. If $\\gamma_1 = 1.8$ for revenue per customer, which description fits best?",
+      "options": {
+        "A": "A long tail on the right, with a few very large values pulling the mean up",
+        "B": "A long tail on the left, with a few very small values",
+        "C": "A perfectly normal distribution",
+        "D": "A symmetric distribution around the mean"
+      },
+      "correct_option": "A",
+      "explanation": "A positive skewness means a longer right tail. A few large values raise the mean above the median, so the median is often the better summary of a typical value for this kind of data.",
+      "correct_index": 0
+    },
+    {
+      "number": 39,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A flagging rule marks values outside $\\bar{x} \\pm 1.5\\,s$. If $\\bar{x} = 40$ and $s = 6$, which interval is not flagged?",
+      "options": {
+        "A": "[31, 49]",
+        "B": "[34, 46]",
+        "C": "[25, 55]",
+        "D": "[37, 43]"
+      },
+      "correct_option": "A",
+      "explanation": "1.5 × 6 = 9, so the unflagged interval runs from 40 − 9 = 31 to 40 + 9 = 49. The other intervals use the wrong width.",
+      "correct_index": 0
+    },
+    {
+      "number": 40,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A column has a minimum of 10 and a maximum of 50. Using $x_{norm} = \\dfrac{x-x_{\\min}}{x_{\\max}-x_{\\min}}$, what is the normalized value of $x = 30$?",
+      "options": {
+        "A": "0.75",
+        "B": "0.25",
+        "C": "0.6",
+        "D": "0.5"
+      },
+      "correct_option": "D",
+      "explanation": "30 − 10 = 20 and 50 − 10 = 40, so the normalized value is 20 / 40 = 0.5, halfway through the range.",
+      "correct_index": 3
+    },
+    {
+      "number": 41,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A report must show exactly 3 rows per department with `WHERE rn <= 3`, even when salaries tie at the third position. Which function guarantees that count?",
+      "options": {
+        "A": "ROW_NUMBER()",
+        "B": "DENSE_RANK()",
+        "C": "NTILE(3)",
+        "D": "RANK()"
+      },
+      "correct_option": "A",
+      "explanation": "ROW_NUMBER gives every row a unique position, so exactly three rows survive. RANK and DENSE_RANK give tied rows the same position, so a filter on the position can return more rows. Choose the function whose tie behavior matches the rule the report needs.",
+      "correct_index": 0
+    },
+    {
+      "number": 42,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A query joins two large tables with CROSS JOIN and then filters with WHERE. The plan shows a sequential scan repeated many times and a Materialize node. What is the most likely cause?",
+      "options": {
+        "A": "The primary keys have no indexes",
+        "B": "The CROSS JOIN builds every row pair before the filter, multiplying the work, so a proper join condition should be used",
+        "C": "The WHERE clause runs before the tables are read",
+        "D": "The disk is full"
+      },
+      "correct_option": "B",
+      "explanation": "A CROSS JOIN creates the full Cartesian product before the filter discards most of it. Expressing the real relationship as an INNER JOIN with an ON condition lets the planner use hash or merge joins and indexes.",
+      "correct_index": 1
+    },
+    {
+      "number": 43,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Two monthly tables have no overlapping rows by design, and the combined result has 40 million rows. Which set operator fits?",
+      "options": {
+        "A": "UNION ALL",
+        "B": "INTERSECT",
+        "C": "UNION",
+        "D": "EXCEPT"
+      },
+      "correct_option": "A",
+      "explanation": "UNION must remove duplicates, which requires sorting or hashing the whole result. Since the rows cannot repeat, UNION ALL returns the same rows without that extra cost.",
+      "correct_index": 0
+    },
+    {
+      "number": 44,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A column stores '?' for unknown values. The check `COUNT(*) - COUNT(col)` reports zero missing values. Why?",
+      "options": {
+        "A": "COUNT(*) includes the placeholder twice",
+        "B": "COUNT ignores text values",
+        "C": "SQL does not allow subtraction between aggregates",
+        "D": "COUNT(col) counts only non-NULL values, and '?' is not NULL, so the placeholder is never detected"
+      },
+      "correct_option": "D",
+      "explanation": "COUNT(col) skips only NULL values. A placeholder such as '?' is a real value, so it must be detected with a condition such as col = '?' or LIKE, and then converted to NULL if needed.",
+      "correct_index": 3
+    },
+    {
+      "number": 45,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Missing income depends on age, which is complete for every row. Which imputation fits better than filling every gap with the overall mean?",
+      "options": {
+        "A": "Replace every gap with zero",
+        "B": "Model income from age, for example with regression or KNN, so filled values follow the age pattern",
+        "C": "Delete the age column",
+        "D": "Replace every gap with the overall mean"
+      },
+      "correct_option": "B",
+      "explanation": "Under MAR, the missingness is explained by observed variables. Conditional imputation uses those variables, so the filled values are consistent with the pattern in the data. A global mean ignores age and distorts the distribution.",
+      "correct_index": 1
+    },
+    {
+      "number": 46,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A running total is written as `SUM(valor) OVER (PARTITION BY EXTRACT(MONTH FROM data_venda) ORDER BY data_venda)`. What does the result look like across a full year?",
+      "options": {
+        "A": "A running total for the whole year",
+        "B": "A total per employee",
+        "C": "A running total that restarts at the beginning of each month",
+        "D": "Duplicate rows only"
+      },
+      "correct_option": "C",
+      "explanation": "The partition defines the scope of the window, so partitioning by month resets the accumulation each month. To accumulate across the year, partition by the year or remove the PARTITION BY clause.",
+      "correct_index": 2
+    },
+    {
+      "number": 47,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A dashboard runs a 40-second aggregation on every page load, and the underlying data changes once a night. Which design fits best?",
+      "options": {
+        "A": "A CROSS JOIN between the tables",
+        "B": "A trigger that recomputes the query on every row change",
+        "C": "A materialized view refreshed after the nightly load",
+        "D": "A plain view, so the query always runs live"
+      },
+      "correct_option": "C",
+      "explanation": "A materialized view pays the cost once per refresh and serves reads from stored data. A plain view would repeat the 40-second query on every load, and a trigger would repeat it on every write.",
+      "correct_index": 2
+    },
+    {
+      "number": 48,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "An append-only event table receives billions of rows in timestamp order, and most queries scan time ranges. Which index type fits best?",
+      "options": {
+        "A": "GIN",
+        "B": "BRIN",
+        "C": "Hash",
+        "D": "GiST"
+      },
+      "correct_option": "B",
+      "explanation": "BRIN stores summaries of consecutive block ranges, so it stays small on naturally ordered data and prunes blocks well for time ranges. Hash does not support ranges, GIN indexes elements inside composite values, and GiST suits geometric or full-text data.",
+      "correct_index": 1
+    },
+    {
+      "number": 49,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A sales table is queried mainly by date ranges, and 70% of its rows belong to the current year. Which partitioning strategy fits best?",
+      "options": {
+        "A": "Range partitioning by date",
+        "B": "List partitioning by product colour",
+        "C": "Hash partitioning on the id",
+        "D": "No partitioning, because partitions never help"
+      },
+      "correct_option": "A",
+      "explanation": "Range partitioning matches the filter, so queries touch only the relevant partitions. Hash spreads rows evenly but cannot skip partitions for date ranges. The skew toward the current year still needs monitoring of partition sizes.",
+      "correct_index": 0
+    },
+    {
+      "number": 50,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A batch job must process a million rows in chunks and commit after each chunk. Which object suits this best?",
+      "options": {
+        "A": "A plain view",
+        "B": "A materialized view",
+        "C": "A stored procedure, which can manage its own transactions",
+        "D": "A scalar function called inside SELECT"
+      },
+      "correct_option": "C",
+      "explanation": "Procedures are invoked with CALL and can commit or roll back inside their logic. Functions have limited transaction control and are meant to return values used inside queries.",
+      "correct_index": 2
+    },
+    {
+      "number": 51,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "High earners are more likely to leave income blank. If you average income using only the complete cases, which bias do you expect?",
+      "options": {
+        "A": "The average is biased downward, because the high-income group is underrepresented",
+        "B": "No bias, because complete cases are random",
+        "C": "The average is unaffected, because the mean is robust",
+        "D": "The average is biased upward, because low incomes are missing"
+      },
+      "correct_option": "A",
+      "explanation": "Under MNAR, the people left out of the complete cases differ systematically from those kept. Removing the high-income group lowers the observed average, so conclusions about typical income are wrong even though each computed statistic looks correct.",
+      "correct_index": 0
+    },
+    {
+      "number": 52,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A ROLLUP result shows NULL in the department column. How can you tell a subtotal row from a real NULL department in the data?",
+      "options": {
+        "A": "Sort with ORDER BY so that NULL rows come last",
+        "B": "Check whether the department value equals zero",
+        "C": "Use GROUPING(departamento), which returns 1 for subtotal rows and 0 for real grouped values",
+        "D": "Subtotal rows always have the highest salary"
+      },
+      "correct_option": "C",
+      "explanation": "Both a subtotal and a real NULL appear as NULL. GROUPING returns 1 only when the NULL is produced by ROLLUP, CUBE or GROUPING SETS, so it distinguishes the two cases.",
+      "correct_index": 2
+    },
+    {
+      "number": 53,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the aggregation so that each employee's share of the year is computed in one pass.\n\n```sql\nSELECT\n    ano,\n    funcionario,\n    SUM(unidades) AS total,\n    SUM(SUM(unidades)) ____ (PARTITION BY ano) AS total_ano\nFROM vendas\nGROUP BY ano, funcionario;\n```",
+      "options": {
+        "A": "PARTITION",
+        "B": "WITHIN GROUP",
+        "C": "OVER",
+        "D": "FILTER"
+      },
+      "correct_option": "C",
+      "explanation": "OVER turns an aggregate into a window function. Here the window spans all employees of a year, so the grouped totals are summed per year without collapsing the rows. WITHIN GROUP belongs to ordered-set aggregates such as PERCENTILE_CONT, and FILTER restricts the rows of a single aggregate.",
+      "correct_index": 2
+    },
+    {
+      "number": 54,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the filter that flags values at or above the upper bound $\\bar{x} + 1.5\\,s$.\n\n```sql\nWITH stats AS (\n    SELECT AVG(valor) AS media, STDDEV(valor) AS desvio\n    FROM vendas\n)\nSELECT v.id, v.valor\nFROM vendas v, stats s\nWHERE v.valor ____ s.media + 1.5 * s.desvio;\n```",
+      "options": {
+        "A": "<>",
+        "B": "<=",
+        "C": "=",
+        "D": ">="
+      },
+      "correct_option": "D",
+      "explanation": "A value is flagged when it reaches or exceeds the upper bound, so the comparison uses >=. The lower bound works the same way with <=. The 1.5 multiplier is a convention, so its effect should be checked against the domain.",
+      "correct_index": 3
+    },
+    {
+      "number": 55,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the window so that `LAST_VALUE` returns the last sale of each employee instead of the current row.\n\n```sql\nSELECT funcionario, data_venda, valor_venda,\n       LAST_VALUE(valor_venda) OVER (\n           PARTITION BY funcionario\n           ORDER BY data_venda\n           ____\n       ) AS ultima_venda\nFROM vendas;\n```",
+      "options": {
+        "A": "ROWS UNBOUNDED PRECEDING",
+        "B": "RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING",
+        "C": "RANGE BETWEEN CURRENT ROW AND CURRENT ROW",
+        "D": "ROWS BETWEEN 1 PRECEDING AND CURRENT ROW"
+      },
+      "correct_option": "B",
+      "explanation": "Without an explicit frame, the default ends at the current row, so LAST_VALUE returns the current row itself. A frame that reaches UNBOUNDED FOLLOWING makes the window cover the whole partition.",
+      "correct_index": 1
+    },
+    {
+      "number": 56,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Complete the statement that creates a sales table partitioned by date range.\n\n```sql\nCREATE TABLE vendas (\n    id BIGINT,\n    data_venda DATE,\n    valor NUMERIC\n) ____ BY RANGE (data_venda);\n```",
+      "options": {
+        "A": "GROUP",
+        "B": "PARTITION",
+        "C": "CLUSTER",
+        "D": "INDEX"
+      },
+      "correct_option": "B",
+      "explanation": "PARTITION BY RANGE declares the parent table. Each child partition is then created with CREATE TABLE ... PARTITION OF and its bounds. CLUSTER and INDEX are separate concepts, and GROUP is not a partitioning keyword.",
+      "correct_index": 1
+    },
+    {
+      "number": 57,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "For 10 sorted values, the position of $P_p$ is $\\dfrac{p}{100}(N+1)$. Where does $P_{25}$ fall?",
+      "options": {
+        "A": "The 10th value",
+        "B": "At position 2.5",
+        "C": "At position 2.75, so interpolate between the 2nd and 3rd values",
+        "D": "Exactly the 3rd value"
+      },
+      "correct_option": "C",
+      "explanation": "With N = 10 and p = 25, the position is 0.25 × 11 = 2.75. That lies between the 2nd and 3rd values, so the percentile is interpolated.",
+      "correct_index": 2
+    },
+    {
+      "number": 58,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The excess kurtosis is $\\gamma_2 = \\dfrac{1}{N}\\sum_{i=1}^{N}\\left(\\dfrac{x_i-\\mu}{\\sigma}\\right)^4 - 3$. What value does a normal distribution give, in theory?",
+      "options": {
+        "A": "0",
+        "B": "-3",
+        "C": "3",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "The fourth standardized moment of a normal distribution is 3, so subtracting 3 gives an excess kurtosis of 0. Positive values indicate heavier tails than the normal, and negative values indicate lighter tails.",
+      "correct_index": 0
+    },
+    {
+      "number": 59,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Monthly revenue has mean $\\bar{x} = 60$ and standard deviation $s = 5$. Using $x_{std} = \\dfrac{x-\\bar{x}}{s}$, what is the standardized value of $x = 75$?",
+      "options": {
+        "A": "0.33",
+        "B": "15",
+        "C": "3",
+        "D": "1.5"
+      },
+      "correct_option": "C",
+      "explanation": "75 is 15 units above the mean, and 15 / 5 = 3 standard deviations. Expressing distance in units of spread makes values comparable across columns with different scales.",
+      "correct_index": 2
+    },
+    {
+      "number": 60,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Table $A$ has $n = 1200$ rows and table $B$ has $m = 350$ rows. How many rows does $A_n \\times B_m$ return as a CROSS JOIN?",
+      "options": {
+        "A": "1,550",
+        "B": "4,200,000",
+        "C": "550",
+        "D": "420,000"
+      },
+      "correct_option": "D",
+      "explanation": "A CROSS JOIN returns n × m rows: 1,200 × 350 = 420,000. Adding the sizes (1,550) is a common mistake, and the product grows much faster than the sum.",
+      "correct_index": 3
+    },
+    {
+      "number": 61,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A slow analytics query on a 500-million-row table has been tuned by trial and error. What is the most defensible optimization sequence?",
+      "options": {
+        "A": "Rewrite the query as a stored procedure",
+        "B": "Add an index on every column, then measure",
+        "C": "Increase server memory before any analysis",
+        "D": "Read the execution plan bottom-up, compare estimated and actual row counts, fix the costly scan or join with indexes or partitions that match the filters, then measure again"
+      },
+      "correct_option": "D",
+      "explanation": "Good tuning starts from evidence. Estimate-versus-actual gaps reveal bad statistics, and the costliest node shows where the time goes. Changes that match the real filters are then verified with a new measurement.",
+      "correct_index": 3
+    },
+    {
+      "number": 62,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "The missingness of a key variable may be MNAR. Which approach best communicates the uncertainty to stakeholders?",
+      "options": {
+        "A": "Report one imputed value as the answer",
+        "B": "Impute with the mode and treat the result as exact",
+        "C": "Delete every row with a missing value and stop",
+        "D": "Run a sensitivity analysis across plausible imputation methods and assumptions, then report how the conclusions change"
+      },
+      "correct_option": "D",
+      "explanation": "Under MNAR no method can be proven correct from the data alone. Showing how conclusions move across reasonable assumptions is more honest than a single number, and it tells the decision maker how fragile the result is.",
+      "correct_index": 3
+    },
+    {
+      "number": 63,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "During customer deduplication, the team must keep an audit trail and be able to reverse decisions. Which design is most defensible?",
+      "options": {
+        "A": "Delete the duplicates permanently after a single match",
+        "B": "Assign a shared cluster key to matched records and keep the originals, so merges are traceable and reversible",
+        "C": "Overwrite the first record with the last one",
+        "D": "Store the matches only in application memory"
+      },
+      "correct_option": "B",
+      "explanation": "Non-destructive deduplication keeps the source records and records the decision, so a wrong match can be undone. Permanent deletion on a single rule removes information that cannot be recovered when the rule is wrong.",
+      "correct_index": 1
+    },
+    {
+      "number": 64,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A client wants a fixed price for a discovery phase with highly uncertain scope, and a fair price for the rest of the work. Which pricing model fits best?",
+      "options": {
+        "A": "Pure hourly billing with no discovery phase",
+        "B": "One fixed price for the entire project, regardless of scope",
+        "C": "A subscription with no defined scope",
+        "D": "A small fixed-price discovery phase, followed by separately priced time-and-materials or phased fixed-price work"
+      },
+      "correct_option": "D",
+      "explanation": "Fixed prices work when scope is clear, and hourly work works when it is not. A hybrid limits the consultant's risk during discovery and gives the client a predictable first step before committing to the rest.",
+      "correct_index": 3
+    },
+    {
+      "number": 65,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A model uses target encoding on a high-cardinality category. Which practice most reduces leakage?",
+      "options": {
+        "A": "Drop the target column before encoding",
+        "B": "Compute the category means on the full dataset before splitting",
+        "C": "Compute the category means out-of-fold, inside the training folds, and smooth rare categories toward the global mean",
+        "D": "Use the alphabetical index of the category as its value"
+      },
+      "correct_option": "C",
+      "explanation": "Each row's own target must not contribute to the value used to predict it. Out-of-fold statistics and smoothing for rare categories keep the encoding honest and reduce overfitting to noisy means.",
+      "correct_index": 2
+    },
+    {
+      "number": 66,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A production model's input distribution shifts for three weeks, while accuracy can only be measured after a month of labels. What is the most sensible monitoring response?",
+      "options": {
+        "A": "Disable monitoring to avoid false alarms",
+        "B": "Alert on data drift with predefined thresholds, investigate the shift, and decide on retraining through a governed process",
+        "C": "Retrain every hour automatically on whatever data arrives",
+        "D": "Wait for labels before doing anything"
+      },
+      "correct_option": "B",
+      "explanation": "Input drift is a leading indicator that does not need labels. Thresholds and a documented review keep the response proportionate, so the team neither ignores real shifts nor retrains on noise.",
+      "correct_index": 1
+    },
+    {
+      "number": 67,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A dashboard promises data no older than 15 minutes, but its materialized view takes two hours to refresh. What is the most defensible response?",
+      "options": {
+        "A": "Revisit the architecture, shorten or incrementalize the refresh or change the serving design, and state the freshness the system can honestly guarantee",
+        "B": "Refresh the view every time a user opens the page",
+        "C": "Remove the freshness requirement from the product",
+        "D": "Tell users the dashboard is accurate because the query itself is correct"
+      },
+      "correct_option": "A",
+      "explanation": "A correct query is not enough if it cannot meet the service-level promise. The honest options are to change the architecture or to change the promise, and the team should say which one it has chosen.",
+      "correct_index": 0
+    },
+    {
+      "number": 68,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A table is partitioned by country, and 90% of its rows fall in one country. What is the critical judgment?",
+      "options": {
+        "A": "Partitioning is always balanced, so there is no issue",
+        "B": "The partition key ignores real query patterns and creates skew, so the key or the partitioning scheme should be reconsidered against actual filters",
+        "C": "Skew only affects inserts, never reads",
+        "D": "Adding one more country partition fixes the skew"
+      },
+      "correct_option": "B",
+      "explanation": "A partition key should be chosen from access patterns and data distribution together. A heavily skewed key gives little pruning benefit and concentrates load in one partition, so the design must be checked against the real queries.",
+      "correct_index": 1
+    },
+    {
+      "number": 69,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "An ingestion table has 12 indexes, and inserts have become the bottleneck. Which action is most defensible?",
+      "options": {
+        "A": "Remove the primary key",
+        "B": "Redirect all inserts to a view",
+        "C": "Audit which indexes serve measured queries, drop unused or redundant ones, and re-test write latency",
+        "D": "Add more indexes to speed up inserts"
+      },
+      "correct_option": "C",
+      "explanation": "Every index adds maintenance work on each write. Removing the ones that no measured query uses reduces that cost, and the change is only trusted after write latency is measured again.",
+      "correct_index": 2
+    },
+    {
+      "number": 70,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A client wants an AI agent to answer free-form SQL questions over the production database. Which set of guardrails is most defensible?",
+      "options": {
+        "A": "The administrator account, so the agent can answer anything",
+        "B": "Write access to the tables, so the agent can fix data directly",
+        "C": "Access to the full schema without any audit trail",
+        "D": "A read-only role on a replica, curated views, query limits, and a log of every generated statement"
+      },
+      "correct_option": "D",
+      "explanation": "An agent that generates SQL can make mistakes or be manipulated. Least privilege, a replica for load isolation, curated views and an audit log limit the damage and make every answer traceable.",
+      "correct_index": 3
+    },
+    {
+      "number": 71,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A team uses a trigger to write an audit row and recalculate totals on every insert. What is the expert concern?",
+      "options": {
+        "A": "Triggers hide side effects inside writes, can slow bulk loads, and are harder to trace and test than explicit, controlled logic",
+        "B": "Triggers cannot run on PostgreSQL",
+        "C": "Triggers cannot access the NEW values of a row",
+        "D": "Triggers guarantee that duplicates are removed"
+      },
+      "correct_option": "A",
+      "explanation": "Hidden logic that fires on every write is hard to debug and can make bulk loads crawl. Explicit procedures or application logic are easier to test and to reason about, although a trigger is sometimes the right tool for auditing.",
+      "correct_index": 0
+    },
+    {
+      "number": 72,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A deduplication model must reach 99% precision before merges are automatic. What is the right design?",
+      "options": {
+        "A": "Optimize recall only, since precision is secondary",
+        "B": "Merge every pair the model scores above 0.5",
+        "C": "Train the model once and never recheck the threshold",
+        "D": "Tune the threshold on labeled pairs for the required precision, auto-merge only above it, and route borderline pairs to human review"
+      },
+      "correct_option": "D",
+      "explanation": "Precision is a property of the threshold, so it must be measured on labeled pairs rather than assumed. Borderline cases go to people, and the threshold is rechecked as the data changes.",
+      "correct_index": 3
+    },
+    {
+      "number": 73,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the index so that a query filtering `funcionario = ?` and a date range can use the equality column first.\n\n```sql\nCREATE INDEX idx_vendas_func_data\n    ON vendas (funcionario, ____);\n```",
+      "options": {
+        "A": "mes",
+        "B": "valor_venda",
+        "C": "id",
+        "D": "data_venda"
+      },
+      "correct_option": "D",
+      "explanation": "In a B-tree, the equality condition on the leading column narrows the search, and the range on the second column is then read in order. Putting the range column first would weaken that narrowing.",
+      "correct_index": 3
+    },
+    {
+      "number": 74,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the index type for a time-ordered, append-only log table.\n\n```sql\nCREATE INDEX idx_eventos_ts\n    ON eventos USING ____ (created_at);\n```",
+      "options": {
+        "A": "GIN",
+        "B": "BRIN",
+        "C": "GIST",
+        "D": "HASH"
+      },
+      "correct_option": "B",
+      "explanation": "BRIN keeps a summary per block range, so it stays tiny for data inserted in time order. HASH cannot serve range scans, GIN indexes elements inside composite values, and GiST suits geometric or full-text data.",
+      "correct_index": 1
+    },
+    {
+      "number": 75,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "The dashboard must stay readable while a materialized view refreshes. Complete the statement.\n\n```sql\nREFRESH ____ vendas_diarias;\n```",
+      "options": {
+        "A": "TABLE",
+        "B": "VIEW",
+        "C": "INDEX",
+        "D": "MATERIALIZED VIEW CONCURRENTLY"
+      },
+      "correct_option": "D",
+      "explanation": "CONCURRENTLY lets readers keep using the old data while the new result is built, but it requires a unique index on the view. Without it, the refresh takes a lock that blocks reads.",
+      "correct_index": 3
+    },
+    {
+      "number": 76,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Complete the grant so that an AI reading agent can query the data but cannot modify it.\n\n```sql\nCREATE ROLE agente_leitura NOLOGIN;\nGRANT ____ ON ALL TABLES IN SCHEMA public TO agente_leitura;\n```",
+      "options": {
+        "A": "INSERT",
+        "B": "SELECT",
+        "C": "ALL PRIVILEGES",
+        "D": "DELETE"
+      },
+      "correct_option": "B",
+      "explanation": "SELECT allows reads only. ALL PRIVILEGES includes writes, and INSERT or DELETE modify rows. A read-only role limits what an automated agent can damage.",
+      "correct_index": 1
+    },
+    {
+      "number": 77,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A dataset has $N = 99$ sorted values. Using $P_p = \\dfrac{p}{100}(N+1)$, which position defines $P_{90}$?",
+      "options": {
+        "A": "The 91st value",
+        "B": "The 89.1th value",
+        "C": "The 90th value",
+        "D": "The 99th value"
+      },
+      "correct_option": "C",
+      "explanation": "With N = 99 and p = 90, the position is 0.9 × 100 = 90, so P90 is the 90th ordered value.",
+      "correct_index": 2
+    },
+    {
+      "number": 78,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A scaler is fitted on training data with $x_{\\min} = 0$ and $x_{\\max} = 100$. A new production value is $x = 130$. What does $x_{norm} = \\dfrac{x-x_{\\min}}{x_{\\max}-x_{\\min}}$ return, and what does it imply?",
+      "options": {
+        "A": "0.77, which lies inside the training range",
+        "B": "130, because scaling is not applied above the maximum",
+        "C": "0, because the value is clipped to the minimum",
+        "D": "1.3, which lies outside the range the scaler was fitted on and is a drift signal to investigate"
+      },
+      "correct_option": "D",
+      "explanation": "The formula gives 1.3, above the training maximum. Plain min-max scaling does not clip values, so a result outside [0, 1] signals that production data has moved beyond the range seen in training.",
+      "correct_index": 3
+    },
+    {
+      "number": 79,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A metric is roughly symmetric with $\\bar{x} = 50$ and $s = 10$. Using $\\bar{x} + 1.5\\,s$ as the upper outlier bound, what is that bound?",
+      "options": {
+        "A": "55",
+        "B": "150",
+        "C": "65",
+        "D": "60"
+      },
+      "correct_option": "C",
+      "explanation": "1.5 × 10 = 15, so 50 + 15 = 65. Applying a symmetric rule to a skewed metric flags too many or too few values, which is why the threshold should be checked against the actual distribution.",
+      "correct_index": 2
+    },
+    {
+      "number": 80,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Revenue per customer has skewness $\\gamma_1 = \\dfrac{1}{N}\\sum_{i=1}^{N}\\left(\\dfrac{x_i-\\mu}{\\sigma}\\right)^3 = 2.4$. Where is the long tail, and what does it imply for the mean compared with the median?",
+      "options": {
+        "A": "Right tail; the mean is pulled below the median",
+        "B": "Right tail; the mean is pulled above the median",
+        "C": "Symmetric; the mean and the median are equal",
+        "D": "Left tail; the median is larger than the mean"
+      },
+      "correct_option": "B",
+      "explanation": "A positive skewness means a long right tail. A few large values raise the mean above the median, so the median is the more robust summary of typical revenue.",
+      "correct_index": 1
+    }
+  ]
+}

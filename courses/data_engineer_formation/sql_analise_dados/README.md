@@ -9,6 +9,6 @@
 - Análise exploratória, limpeza, valores ausentes, duplicidades, outliers, mapeamento e enriquecimento de dados.
 - Programação em banco de dados, engenharia de prompt e consultoria com agentes de IA.
 
-As notas vão de `00_def_sqldata_17022025.md` a `33_def_sqldata_20052025.md`.
+As notas vão de `00_def_sqldata_17022025.md` a `33_def_sqldata_20052025.md`. Para exercícios de revisão, veja [Questões](../../../questions/README.md).
 
 Voltar para [Formação Engenheiro de Dados](../README.md).
