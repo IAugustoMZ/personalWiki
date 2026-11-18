@@ -15,6 +15,7 @@
 
 | Arquivo | Tema | Relacionado |
 |---|---|---|
+| [`sql_analise_dados_round1.json`](sql_analise_dados_round1.json) | SQL para análise de dados, rodada 1 (80 perguntas, 20 por nível) | [SQL para análise](../courses/data_engineer_formation/sql_analise_dados/README.md) |
 | [`bi_powerbi.json`](bi_powerbi.json) | Business Intelligence e Power BI (179 perguntas) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
 | [`bi_powerbi_round2.json`](bi_powerbi_round2.json) | Power BI, rodada 2 (20 perguntas, 5 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
 | [`bi_powerbi_round3.json`](bi_powerbi_round3.json) | Power BI, rodada 3 (40 perguntas, 10 por nível) | [Curso de Power BI](../courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) |
