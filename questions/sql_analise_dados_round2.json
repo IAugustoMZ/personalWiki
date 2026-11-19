@@ -1,0 +1,316 @@
+{
+  "registration_authorization": "User requested generation and direct registration of all 20 questions.",
+  "registered_on": "2026-11-19",
+  "topic": {
+    "subsubcategory_id": 47,
+    "name": "SQL para Análise de Dados e Data Science",
+    "category": "Data Engineering",
+    "subcategory": "Fundamentals"
+  },
+  "source_folder": "courses/data_engineer_formation/sql_analise_dados",
+  "source_round": "round2",
+  "registered_question_ids": [
+    2031,
+    2032,
+    2033,
+    2034,
+    2035,
+    2036,
+    2037,
+    2038,
+    2039,
+    2040,
+    2041,
+    2042,
+    2043,
+    2044,
+    2045,
+    2046,
+    2047,
+    2048,
+    2049,
+    2050
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the SQL expression that labels all positive balances `credit` and all other balances `noncredit`.\n\n```sql\n____ WHEN balance > 0 THEN 'credit' ELSE 'noncredit' END\n```",
+      "options": {
+        "A": "`CAST`",
+        "B": "`CASE`",
+        "C": "`CHECK`",
+        "D": "`COALESCE`"
+      },
+      "correct_option": "B",
+      "explanation": "`CASE` evaluates the condition and returns the value for the matching branch. The `ELSE` branch handles zero, negative and NULL balances."
+    },
+    {
+      "number": 2,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A color has exactly one of three levels: red, green or blue. The columns $x_r$, $x_g$ and $x_b$ hold the one-hot encoding and satisfy $x_r+x_g+x_b=1$. How is green encoded in that column order?",
+      "options": {
+        "A": "(1, 0, 0)",
+        "B": "(1, 1, 0)",
+        "C": "(0, 1, 0)",
+        "D": "(0, 0, 1)"
+      },
+      "correct_option": "C",
+      "explanation": "The green indicator is 1 and the red and blue indicators are 0 because each row belongs to exactly one level."
+    },
+    {
+      "number": 3,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "A survey stores satisfaction as dissatisfied, neutral or satisfied. Which type of variable is this?",
+      "options": {
+        "A": "Ordinal qualitative",
+        "B": "Nominal qualitative",
+        "C": "Discrete quantitative",
+        "D": "Continuous quantitative"
+      },
+      "correct_option": "A",
+      "explanation": "The levels have an order. The labels do not measure a numerical distance between successive levels."
+    },
+    {
+      "number": 4,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which column should identify each row in a customer table uniquely?",
+      "options": {
+        "A": "The customer city",
+        "B": "The preferred language",
+        "C": "The signup month",
+        "D": "The primary key"
+      },
+      "correct_option": "D",
+      "explanation": "A primary key uniquely identifies each row. Other tables can refer to that key when they store data about the customer."
+    },
+    {
+      "number": 5,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What does a pivot table do when month values become columns, products stay on rows and the measure is total units?",
+      "options": {
+        "A": "Combines all products into one total",
+        "B": "Shows units for each product and month at their intersection",
+        "C": "Converts month labels into numerical dates",
+        "D": "Adds a calendar row for every missing transaction"
+      },
+      "correct_option": "B",
+      "explanation": "A pivot rearranges the dimensions and computes the measure at each row-column intersection. Here the cells summarize units for a product-month pair."
+    },
+    {
+      "number": 6,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "In PostgreSQL, complete the expression that uses `fallback_cost` only when `recorded_cost` is NULL.\n\n```sql\n____(recorded_cost, fallback_cost)\n```",
+      "options": {
+        "A": "`NULLIF`",
+        "B": "`GREATEST`",
+        "C": "`COALESCE`",
+        "D": "`AVG`"
+      },
+      "correct_option": "C",
+      "explanation": "`COALESCE` returns its first non-NULL argument. It preserves a recorded zero and returns NULL only if both arguments are NULL."
+    },
+    {
+      "number": 7,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "Store A averaged 10 units per order across 20 orders. Store B averaged 20 units across 80 orders. Using $\\bar{x}=\\frac{n_A\\bar{x}_A+n_B\\bar{x}_B}{n_A+n_B}$, what is the average per order across both stores?",
+      "options": {
+        "A": "18 units",
+        "B": "15 units",
+        "C": "12 units",
+        "D": "20 units"
+      },
+      "correct_option": "A",
+      "explanation": "The total is 200 plus 1,600 units across 100 orders. Weighting by order count gives each order equal influence."
+    },
+    {
+      "number": 8,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Registrations associate students with courses. Students can register for multiple courses and each course can have multiple students. Where should the enrollment date be stored?",
+      "options": {
+        "A": "On the student row",
+        "B": "On the course row",
+        "C": "In a separate calendar table without registration keys",
+        "D": "On the registration row that links the student and course"
+      },
+      "correct_option": "D",
+      "explanation": "The date belongs to an individual registration. The association table represents the many-to-many relationship and stores attributes specific to each link."
+    },
+    {
+      "number": 9,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Daily transaction totals are flat over a month, but purchases move steadily from stores to the website. What should an exploratory analysis show to reveal the change?",
+      "options": {
+        "A": "Only the total across all channels for the full month",
+        "B": "Daily counts or shares broken out by channel",
+        "C": "A distribution of customer IDs",
+        "D": "The largest single transaction in each channel"
+      },
+      "correct_option": "B",
+      "explanation": "The overall totals conceal changes in composition. A daily breakdown makes the channel shifts visible over time."
+    },
+    {
+      "number": 10,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "An enrichment pipeline maps a legacy `region_code` to a reporting region through a lookup table. A source code has no mapping. Which handling preserves the source observation and makes the data-quality issue visible?",
+      "options": {
+        "A": "Assign it to the most common region",
+        "B": "Drop it before aggregation",
+        "C": "Keep the original code, flag the missing mapping and reconcile it with the data owner",
+        "D": "Assign an unused region and leave it undocumented"
+      },
+      "correct_option": "C",
+      "explanation": "Preserving the original code supports reconciliation, and a visible exception makes it possible to distinguish an unknown mapping from a verified region."
+    },
+    {
+      "number": 11,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the PostgreSQL window function name so each row can compare its revenue with the next observation for the same store. The ordering is unique within each store.\n\n```sql\n____(revenue) OVER (PARTITION BY store_id ORDER BY report_date)\n```",
+      "options": {
+        "A": "`LAG`",
+        "B": "`FIRST_VALUE`",
+        "C": "`PERCENT_RANK`",
+        "D": "`LEAD`"
+      },
+      "correct_option": "D",
+      "explanation": "`LEAD` reads the following row in the specified order within each partition. The final row in each store returns NULL when no default is supplied."
+    },
+    {
+      "number": 12,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A numeric column has $n=60$ observed values and $m=40$ missing values. Its observed population variance is $v=25$. All missing values are replaced with the observed mean, so the new population variance is $v'=\\frac{n}{n+m}v$. What is $v'$?",
+      "options": {
+        "A": "15",
+        "B": "25",
+        "C": "10",
+        "D": "41.67"
+      },
+      "correct_option": "A",
+      "explanation": "The imputed values are equal to the unchanged mean, so they add zero squared deviation. The same sum of squared deviations is divided by 100 instead of 60."
+    },
+    {
+      "number": 13,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "An order fact table stores one row per order and its full amount. Joining it to order lines doubles total revenue. Which query design preserves order-level revenue while reporting the number of lines?",
+      "options": {
+        "A": "Sum `DISTINCT` order amounts after the join",
+        "B": "Aggregate line counts to one row per order before joining to the order table",
+        "C": "Join order lines and divide all revenue by the number of line statuses",
+        "D": "Group joined rows by currency before summing order amounts"
+      },
+      "correct_option": "B",
+      "explanation": "Aggregating line counts to order grain prevents the order amount from repeating. `SUM(DISTINCT amount)` would wrongly combine separate orders that share an amount."
+    },
+    {
+      "number": 14,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A scheduled import averages sensor readings from two sources. One reports centimeters while the other reports meters, and both store the values as decimal numbers. Which change fixes the analytical error at its source?",
+      "options": {
+        "A": "Cast the values from both sources to a wider decimal type",
+        "B": "Standardize the final average independently each month",
+        "C": "Use separate display labels for the identical numeric values",
+        "D": "Convert both sources to a declared common unit before aggregation and check the conversion"
+      },
+      "correct_option": "D",
+      "explanation": "A consistent type does not imply consistent units. Converting and validating units before aggregation makes each observation comparable."
+    },
+    {
+      "number": 15,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "In PostgreSQL, a read-only `SELECT` has a poor runtime. You need a per-plan-node comparison between estimated and actually observed row counts in a safe test environment. Which command provides it?",
+      "options": {
+        "A": "`SHOW work_mem`",
+        "B": "`EXPLAIN`",
+        "C": "`EXPLAIN ANALYZE`",
+        "D": "`ANALYZE` on the referenced table"
+      },
+      "correct_option": "C",
+      "explanation": "`EXPLAIN ANALYZE` executes the query and reports actual timing and row counts next to planner estimates. Plain `EXPLAIN` only reports estimates."
+    },
+    {
+      "number": 16,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "Complete the PostgreSQL join keyword. `employee` has a nullable `manager_id` referencing `employee.id`. The output must include employees without an assigned manager and exclude rows containing only a manager on the right side.\n\n```sql\nFROM employee AS e\n____ JOIN employee AS m ON m.id = e.manager_id\n```",
+      "options": {
+        "A": "`LEFT`",
+        "B": "`INNER`",
+        "C": "`RIGHT`",
+        "D": "`FULL`"
+      },
+      "correct_option": "A",
+      "explanation": "The two aliases let the same relation serve as employee and manager. Starting from employees and preserving the left side retains every employee, including those without a manager."
+    },
+    {
+      "number": 17,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A service compares smoothing rules just after a demand spike. Before the spike, the previous exponential moving average and the last five daily values were all 100. Today is 160. Compare $\\mathrm{EMA}_t=0.30x_t+0.70\\mathrm{EMA}_{t-1}$ to the simple average of the latest five daily values. What should the team report?",
+      "options": {
+        "A": "EMA 112, simple average 118. The simple average gives today more weight.",
+        "B": "EMA 160, simple average 112. The EMA discards all history.",
+        "C": "EMA 118, simple average 132. The simple average gives today more weight.",
+        "D": "EMA 118, simple average 112. The EMA gives today more weight."
+      },
+      "correct_option": "D",
+      "explanation": "The EMA gives today a weight of 0.30 and increases by 18. The five-day simple average gives today a weight of 0.20 and increases by 12."
+    },
+    {
+      "number": 18,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A customer wants to approve a fraud dashboard but stakeholders disagree over the meaning of a flagged transaction. What should the team settle first?",
+      "options": {
+        "A": "The dashboard framework and deployment region",
+        "B": "The operational definition, decision workflow and measurable acceptance criteria",
+        "C": "The production compute instance and autoscaling limits",
+        "D": "The final interface colors and chart layout"
+      },
+      "correct_option": "B",
+      "explanation": "Functional requirements establish what the dashboard must do and how users judge success. The technical and interface decisions can then be evaluated against that shared definition."
+    },
+    {
+      "number": 19,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A pipeline enriches delivery records with a table of service zones that changes over time. The client must reproduce last quarter's published report after the next zone update. Which design supports that requirement?",
+      "options": {
+        "A": "Keep only the latest zone mapping and rerun using delivery dates",
+        "B": "Store aggregate zone counts in a spreadsheet and discard the mapping",
+        "C": "Version the mapping, join on the delivery date against its validity interval and record the inputs used by each report",
+        "D": "Keep a checksum of the latest mapping and overwrite older versions"
+      },
+      "correct_option": "C",
+      "explanation": "Versioned mappings preserve historical definitions. Applying the mapping effective on the delivery date and tracking the report inputs supports deterministic reruns and auditing."
+    },
+    {
+      "number": 20,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A classifier will score customers every month. A customer can appear in multiple months, and several features summarize prior activity. Which evaluation is best for predicting next month's performance on the current customer base?",
+      "options": {
+        "A": "Train on earlier months, evaluate on a later month and rebuild every feature from information available at each scoring date",
+        "B": "Randomly assign rows to train and test after computing features from all months",
+        "C": "Train on the latest month and test on earlier months",
+        "D": "Select the model using performance on the final month and report that same score as an independent estimate"
+      },
+      "correct_option": "A",
+      "explanation": "Chronological evaluation mirrors the time of deployment. Point-in-time feature construction prevents later activity from reaching the training or test features."
+    }
+  ]
+}

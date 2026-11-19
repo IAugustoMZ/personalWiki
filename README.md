@@ -54,6 +54,7 @@ pesquisável. A organização favorece três movimentos:
 | Preparar uma certificação | [Certificações](certifications/README.md) | [Databricks ML Practitioner](certifications/databricks/machine_learning_practitioner_associate/README.md) |
 | Consultar arquiteturas visuais | [Artefatos](artifacts/README.md) | diagramas de lakehouse, governança, ML e carreira |
 | Praticar idiomas | [Idiomas](languages/README.md) | espanhol, chinês e japonês |
+| Revisitar leituras | [Livros](books/README.md) | [The Trusted Advisor](books/the_trusted_advisor/README.md) |
 
 ## Como o conhecimento está organizado
 
@@ -70,7 +71,7 @@ flowchart LR
 | Camada | Papel | Onde encontrar |
 |---|---|---|
 | **Trilhas** | Sequências de estudo com contexto e progressão | [`courses/`](courses/README.md) |
-| **Notas** | Registro cronológico de aulas, leituras e sínteses | dentro de cada pasta de curso |
+| **Notas** | Registro cronológico de aulas, leituras e sínteses | nas pastas de [cursos](courses/README.md) e [livros](books/README.md) |
 | **Visualizações** | Diagramas para arquitetura, processos e frameworks | [`artifacts/`](artifacts/README.md) |
 | **Revisão** | Perguntas para testar recuperação ativa | [`questions/`](questions/README.md) |
 | **Referência** | Preparação orientada a objetivos profissionais | [`certifications/`](certifications/README.md) |
@@ -170,6 +171,7 @@ escopo da trilha e apontar para as entradas mais importantes.
 | [`courses/`](courses/README.md) | formações, cursos e módulos de estudo |
 | [`certifications/`](certifications/README.md) | preparação para certificações técnicas |
 | [`languages/`](languages/README.md) | sessões de espanhol, chinês e japonês |
+| [`books/`](books/README.md) | notas de leitura organizadas por livro |
 | [`questions/`](questions/README.md) | bancos de questões para revisão |
 | [`artifacts/`](artifacts/README.md) | diagramas, imagens e fontes visuais |
 | [`stylesheets/`](stylesheets/tech.css) | identidade visual do site |
