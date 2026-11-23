@@ -1,0 +1,766 @@
+{
+  "registration_authorization": "User requested generation and direct registration of all 50 questions.",
+  "registered_on": "2026-11-23",
+  "topic": {
+    "subsubcategory_id": 47,
+    "name": "SQL para Análise de Dados e Data Science",
+    "category": "Data Engineering",
+    "subcategory": "Fundamentals"
+  },
+  "source_folder": "courses/data_engineer_formation/sql_analise_dados",
+  "source_round": "round3",
+  "registered_question_ids": [
+    2051,
+    2052,
+    2053,
+    2054,
+    2055,
+    2056,
+    2057,
+    2058,
+    2059,
+    2060,
+    2061,
+    2062,
+    2063,
+    2064,
+    2065,
+    2066,
+    2067,
+    2068,
+    2069,
+    2070,
+    2071,
+    2072,
+    2073,
+    2074,
+    2075,
+    2076,
+    2077,
+    2078,
+    2079,
+    2080,
+    2081,
+    2082,
+    2083,
+    2084,
+    2085,
+    2086,
+    2087,
+    2088,
+    2089,
+    2090,
+    2091,
+    2092,
+    2093,
+    2094,
+    2095,
+    2096,
+    2097,
+    2098,
+    2099,
+    2100
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the PostgreSQL query that creates and populates a new table from a query result.\n\n```sql\nCREATE TABLE active_accounts ____\nSELECT id FROM accounts WHERE active;\n```",
+      "options": {
+        "A": "`INTO`",
+        "B": "`FROM`",
+        "C": "`AS`",
+        "D": "`VALUES`"
+      },
+      "correct_option": "C",
+      "explanation": "`CREATE TABLE ... AS SELECT` creates a table using the output columns and rows of the query."
+    },
+    {
+      "number": 2,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the SQL expression that explicitly converts the text column `quantity_text` into an integer.\n\n```sql\nSELECT ____ (quantity_text AS integer) FROM staging;\n```",
+      "options": {
+        "A": "`CAST`",
+        "B": "`ROUND`",
+        "C": "`COALESCE`",
+        "D": "`TRIM`"
+      },
+      "correct_option": "A",
+      "explanation": "`CAST(value AS type)` explicitly requests a type conversion."
+    },
+    {
+      "number": 3,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the PostgreSQL window function that assigns observations to four buckets of roughly equal row count, ordered by price and then unique item ID.\n\n```sql\nSELECT ____(4) OVER (ORDER BY price, item_id) FROM items;\n```",
+      "options": {
+        "A": "`RANK`",
+        "B": "`ROW_NUMBER`",
+        "C": "`DENSE_RANK`",
+        "D": "`NTILE`"
+      },
+      "correct_option": "D",
+      "explanation": "`NTILE(4)` divides the ordered rows into four buckets when there are at least four rows."
+    },
+    {
+      "number": 4,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A frequency encoding uses $f(c)=n_c/N$, where $n_c$ is the category count and $N$ is the total row count. What is the encoding for a category with 18 of 60 rows?",
+      "options": {
+        "A": "0.18",
+        "B": "0.30",
+        "C": "0.42",
+        "D": "0.70"
+      },
+      "correct_option": "B",
+      "explanation": "The encoding is the category's share of records, so 18 divided by 60 is 0.30."
+    },
+    {
+      "number": 5,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A histogram uses the price bin $20\\le x<40$. Which price belongs to this bin?",
+      "options": {
+        "A": "19",
+        "B": "40",
+        "C": "20",
+        "D": "45"
+      },
+      "correct_option": "C",
+      "explanation": "The lower bound is inclusive and the upper bound is exclusive."
+    },
+    {
+      "number": 6,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A missing-value check records $n=80$ rows and $m=12$ rows with a NULL reading. What missing percentage does $100m/n$ give?",
+      "options": {
+        "A": "15%",
+        "B": "12%",
+        "C": "18%",
+        "D": "68%"
+      },
+      "correct_option": "A",
+      "explanation": "Twelve divided by 80 is 0.15, or 15 percent."
+    },
+    {
+      "number": 7,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which field is a continuous quantitative variable?",
+      "options": {
+        "A": "Number of invoices",
+        "B": "Product category",
+        "C": "Ticket priority ordered from low to high",
+        "D": "Shipment weight in kilograms"
+      },
+      "correct_option": "D",
+      "explanation": "Weight measures a quantity that can take fractional values. Counts are discrete and labels are categorical."
+    },
+    {
+      "number": 8,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "A child row references a parent through a foreign key configured with `ON DELETE CASCADE`. What happens to the child row when its parent is deleted?",
+      "options": {
+        "A": "It remains with its original key.",
+        "B": "It is deleted automatically.",
+        "C": "Its key is set to NULL.",
+        "D": "It becomes a parent row."
+      },
+      "correct_option": "B",
+      "explanation": "The cascade propagates the parent deletion to all rows that reference that parent through this constraint."
+    },
+    {
+      "number": 9,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which grouping extension produces a product-only subtotal, a region-only subtotal, their combined detail, and a grand total from two dimensions?",
+      "options": {
+        "A": "`ROLLUP(region, product)`",
+        "B": "`GROUP BY region, product`",
+        "C": "`CUBE(region, product)`",
+        "D": "`PARTITION BY region, product`"
+      },
+      "correct_option": "C",
+      "explanation": "`CUBE` enumerates all subsets of its grouping dimensions, including each dimension by itself and the empty set."
+    },
+    {
+      "number": 10,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "A `RIGHT JOIN` connects payments on the left to invoices on the right. Which invoice rows survive the join before any later filter?",
+      "options": {
+        "A": "Only paid invoices",
+        "B": "Only invoices with no payment",
+        "C": "Only invoices referenced by a valid payment",
+        "D": "All invoices"
+      },
+      "correct_option": "D",
+      "explanation": "The right side is preserved, with NULL payment fields for unmatched invoices."
+    },
+    {
+      "number": 11,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which exploratory plot groups numerical observations into intervals and shows the number of observations in each interval?",
+      "options": {
+        "A": "Histogram",
+        "B": "Scatter plot",
+        "C": "Line chart by date",
+        "D": "Box plot"
+      },
+      "correct_option": "A",
+      "explanation": "A histogram represents a distribution with bins and displays their frequencies or densities."
+    },
+    {
+      "number": 12,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "An analyst joins a postal-code lookup to orders to add a municipality column that was absent from the source. Which operation describes adding that attribute?",
+      "options": {
+        "A": "Deduplication",
+        "B": "Enrichment",
+        "C": "Binarization",
+        "D": "Standardization"
+      },
+      "correct_option": "B",
+      "explanation": "Enrichment supplies additional information from another source through a common field."
+    },
+    {
+      "number": 13,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which database object can run automatically after a row is updated?",
+      "options": {
+        "A": "Ordinary view",
+        "B": "Index",
+        "C": "Trigger",
+        "D": "Foreign key column"
+      },
+      "correct_option": "C",
+      "explanation": "A trigger responds to a configured database event such as an insert, update, or delete."
+    },
+    {
+      "number": 14,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Complete the PostgreSQL constraint so the table rejects rows with a negative price.\n\n```sql\nCREATE TABLE offers (price numeric NOT NULL ____ (price >= 0));\n```",
+      "options": {
+        "A": "`DEFAULT`",
+        "B": "`UNIQUE`",
+        "C": "`REFERENCES`",
+        "D": "`CHECK`"
+      },
+      "correct_option": "D",
+      "explanation": "A `CHECK` constraint evaluates a Boolean condition for each row. The separate `NOT NULL` constraint rejects missing prices."
+    },
+    {
+      "number": 15,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Complete the PostgreSQL query to concatenate names in alphabetical order within each team.\n\n```sql\nSELECT team, STRING_AGG(name, ', ' ____ name)\nFROM members GROUP BY team;\n```",
+      "options": {
+        "A": "`ORDER BY`",
+        "B": "`GROUP BY`",
+        "C": "`PARTITION BY`",
+        "D": "`WITHIN GROUP`"
+      },
+      "correct_option": "A",
+      "explanation": "PostgreSQL permits `ORDER BY` inside the aggregate's argument list. That ordering controls the concatenated values."
+    },
+    {
+      "number": 16,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "A PostgreSQL database defines `rebuild_daily_summary(date)` as a stored procedure. Complete the statement that invokes it for April 1, 2025.\n\n```sql\n____ rebuild_daily_summary(DATE '2025-04-01');\n```",
+      "options": {
+        "A": "`SELECT`",
+        "B": "`CALL`",
+        "C": "`PERFORM`",
+        "D": "`EXECUTE`"
+      },
+      "correct_option": "B",
+      "explanation": "`CALL` invokes a stored procedure. SQL functions are normally invoked in an expression such as a `SELECT` list."
+    },
+    {
+      "number": 17,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "An inner join uses one equality key $k$. Three rows on the left and four on the right share that same non-NULL key. With $j_k=l_k r_k$, how many joined rows have key $k$?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "12"
+      },
+      "correct_option": "D",
+      "explanation": "Every one of the three left rows matches all four right rows, so the key contributes 12 pairs."
+    },
+    {
+      "number": 18,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "A distribution has quartiles $Q_1=12$ and $Q_3=28$. Which upper fence follows from $Q_3+1.5(Q_3-Q_1)$?",
+      "options": {
+        "A": "52",
+        "B": "44",
+        "C": "40",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "explanation": "The interquartile range is 16. Adding 24 to the third quartile gives an upper fence of 52."
+    },
+    {
+      "number": 19,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "At one table row, PostgreSQL reports $r=4$ from `RANK()` in a partition of $n=9$ rows. What is `PERCENT_RANK()` using $(r-1)/(n-1)$?",
+      "options": {
+        "A": "0.333",
+        "B": "0.375",
+        "C": "0.444",
+        "D": "0.500"
+      },
+      "correct_option": "B",
+      "explanation": "Subtract one from both rank and partition size, then divide 3 by 8."
+    },
+    {
+      "number": 20,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Two staging queries return two text columns each. The first selects `city, country`; the second selects `country, city`. How should they be combined so the city and country values line up?",
+      "options": {
+        "A": "Give the columns the same aliases and keep the order of both queries.",
+        "B": "Sort each query by country before combining them.",
+        "C": "Reorder the second projection to `city, country`.",
+        "D": "Cast both projections to the same text type."
+      },
+      "correct_option": "C",
+      "explanation": "Set operators match corresponding columns by position. Using matching positional order aligns the meanings."
+    },
+    {
+      "number": 21,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "An analysis labels missing numeric averages as `Unknown`. How can it keep 2, 10, and 100 in proper numeric order and place missing averages last in PostgreSQL?",
+      "options": {
+        "A": "Sort the average cast to text in ascending order.",
+        "B": "Use the original numeric average as the sort key with `NULLS LAST`.",
+        "C": "Replace NULL averages with zero for sorting.",
+        "D": "Sort by the length of the formatted label."
+      },
+      "correct_option": "B",
+      "explanation": "Keeping the sort key numeric preserves numeric ordering. Formatting for display can happen independently."
+    },
+    {
+      "number": 22,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A team must reconcile a duplicated source feed. Two identical rows may represent separate purchases. Which field lets the team safely distinguish retries of the same purchase from distinct purchases?",
+      "options": {
+        "A": "The total order amount",
+        "B": "The ingest date",
+        "C": "The buyer's postal code",
+        "D": "A stable purchase event ID from the source"
+      },
+      "correct_option": "D",
+      "explanation": "A stable source event ID identifies the business event across retries. Attributes such as amount and date can match for separate events."
+    },
+    {
+      "number": 23,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A nightly `UPDATE` must replace empty strings with NULL without changing existing nonempty labels. Which predicate should identify the affected rows?",
+      "options": {
+        "A": "`label = ''`",
+        "B": "`label IS NULL`",
+        "C": "`label <> ''`",
+        "D": "`label = NULL`"
+      },
+      "correct_option": "A",
+      "explanation": "An empty string is a non-NULL value in PostgreSQL. Equality with an empty string selects exactly those values."
+    },
+    {
+      "number": 24,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "An analyst adds a PostgreSQL B-tree index to an operations table. Why might a query reading nearly every row still choose a sequential scan?",
+      "options": {
+        "A": "B-tree indexes can only service unique columns.",
+        "B": "PostgreSQL indexes only support equality predicates.",
+        "C": "Reading most records through the index can cost more than scanning the table.",
+        "D": "A table that has an index cannot supply row estimates."
+      },
+      "correct_option": "C",
+      "explanation": "An index lookup can add a traversal and scattered heap reads for a large result. The cost planner can prefer a sequential scan."
+    },
+    {
+      "number": 25,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A client presentation contains a statistically strong result. The audience needs to know whether it justifies action. Which addition helps them decide?",
+      "options": {
+        "A": "The query text for every transformation",
+        "B": "The estimated business impact and limitations",
+        "C": "The column names of the raw extract",
+        "D": "More decimal places on the test statistic"
+      },
+      "correct_option": "B",
+      "explanation": "Business impact connects the analysis to a decision. Limitations explain how assumptions and uncertainty affect that decision."
+    },
+    {
+      "number": 26,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A dataset stores city names in mixed case and uses the city as a mapping key. Which preprocessing step reduces misses caused solely by case and surrounding spaces?",
+      "options": {
+        "A": "Replace each city by its occurrence count.",
+        "B": "Convert each city to a numeric sequence.",
+        "C": "Remove rows with repeated city values.",
+        "D": "Apply a consistent case and trim whitespace on both mapping keys."
+      },
+      "correct_option": "D",
+      "explanation": "Standardizing both sides of the lookup makes those textual differences irrelevant while preserving city identities."
+    },
+    {
+      "number": 27,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the PostgreSQL pivot aggregate so each region sums only successful amounts. Regions with no successful amounts should return NULL for this measure.\n\n```sql\nSELECT region, SUM(amount) ____ AS successful_amount\nFROM payments GROUP BY region;\n```",
+      "options": {
+        "A": "`HAVING status = 'success'`",
+        "B": "`FILTER (WHERE status = 'success')`",
+        "C": "`WHERE status = 'success'`",
+        "D": "`OVER (PARTITION BY status)`"
+      },
+      "correct_option": "B",
+      "explanation": "`FILTER` restricts the rows passed to this aggregate without removing unsuccessful rows from the region's group."
+    },
+    {
+      "number": 28,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "A PostgreSQL index exists on `recorded_at`, which stores UTC timestamps as `timestamp without time zone`. Complete the filter for exactly March 2025 with a predicate suitable for a direct index range scan.\n\n```sql\nSELECT * FROM readings WHERE ____;\n```",
+      "options": {
+        "A": "`recorded_at::date BETWEEN DATE '2025-03-01' AND DATE '2025-03-31'`",
+        "B": "`EXTRACT(MONTH FROM recorded_at) = 3`",
+        "C": "`recorded_at BETWEEN TIMESTAMP '2025-03-01' AND TIMESTAMP '2025-04-01'`",
+        "D": "`recorded_at >= TIMESTAMP '2025-03-01' AND recorded_at < TIMESTAMP '2025-04-01'`"
+      },
+      "correct_option": "D",
+      "explanation": "A half-open range compares the indexed column directly with constants and excludes midnight at the start of April."
+    },
+    {
+      "number": 29,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Each day, calculate the paid fraction within each channel in PostgreSQL. When no sessions occurred, return NULL for the fraction. Complete the denominator guard.\n\n```sql\nSELECT day, channel, SUM(paid_sessions)::numeric\n    / ____(SUM(sessions), 0) AS paid_fraction\nFROM traffic GROUP BY day, channel;\n```",
+      "options": {
+        "A": "`NULLIF`",
+        "B": "`COALESCE`",
+        "C": "`GREATEST`",
+        "D": "`LEAST`"
+      },
+      "correct_option": "A",
+      "explanation": "`NULLIF(total, 0)` returns NULL for zero and preserves any nonzero total. Division by NULL returns NULL."
+    },
+    {
+      "number": 30,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "Charges come in as $x$ cents. A report defines $y=x/100$ dollars. If $\\operatorname{Var}(x)=40{,}000$, what is $\\operatorname{Var}(y)=\\operatorname{Var}(x)/100^2$?",
+      "options": {
+        "A": "400",
+        "B": "40",
+        "C": "4",
+        "D": "0.04"
+      },
+      "correct_option": "C",
+      "explanation": "Variance scales by the square of the unit conversion, so the result is 40,000 divided by 10,000."
+    },
+    {
+      "number": 31,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A weekly summary has separate labels `North` and `NORTH`, with $n_1=30$ and $n_2=10$ observed orders. The two disjoint groups have population means $\\mu_1=8$ and $\\mu_2=20$ and population variances $v_1=4$ and $v_2=0$. After deciding the labels denote one region, use $v=\\sum_i(n_i/40)[v_i+(\\mu_i-\\mu)^2]$, with pooled mean $\\mu=11$. What is the pooled variance?",
+      "options": {
+        "A": "3",
+        "B": "12",
+        "C": "27",
+        "D": "30"
+      },
+      "correct_option": "D",
+      "explanation": "The weighted within-group variance is 3. The weighted squared mean deviations contribute 27, so the pooled variance is 30."
+    },
+    {
+      "number": 32,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A row-level audit trigger adds $t=2$ milliseconds of serial work per modified row. The original statement took $T_0=5$ seconds and modifies $n=4{,}000$ rows. Under $T=T_0+nt$, what runtime does this simplified model predict?",
+      "options": {
+        "A": "8 seconds",
+        "B": "13 seconds",
+        "C": "5.002 seconds",
+        "D": "85 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "Four thousand trigger calls contribute 8 seconds. Under the additive assumption the total is 13 seconds."
+    },
+    {
+      "number": 33,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A PostgreSQL ledger has duplicate timestamps. A running sum must increase one transaction at a time, consistently between executions. The transaction ID is unique. How should the window be defined?",
+      "options": {
+        "A": "Order by timestamp only with the default frame.",
+        "B": "Order by timestamp only with a `ROWS` frame.",
+        "C": "Order by timestamp and transaction ID with `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`.",
+        "D": "Partition by transaction ID and order by timestamp."
+      },
+      "correct_option": "C",
+      "explanation": "The ID resolves timestamp ties and the row frame accumulates through the current ordered transaction."
+    },
+    {
+      "number": 34,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A customer segment lookup contains conflicting labels for several versions of the same key. The report must use the business-approved canonical label. What should happen before joining it to the fact table?",
+      "options": {
+        "A": "Resolve each key to one approved label and validate uniqueness in the lookup.",
+        "B": "Apply `DISTINCT` to the final report.",
+        "C": "Use the alphabetically smallest label per joined fact row.",
+        "D": "Use an inner join to select one label automatically."
+      },
+      "correct_option": "A",
+      "explanation": "Canonicalization at the lookup grain lets each fact match at most one approved label. An inner join alone preserves every matching pair."
+    },
+    {
+      "number": 35,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A PostgreSQL plan estimates 100 rows for a conjunction of two highly correlated filters but actually returns 75,000, despite fresh single-column statistics. What should the team try first to improve the estimate?",
+      "options": {
+        "A": "Add an index to an unrelated ordering column.",
+        "B": "Run `ANALYZE` with an unchanged sample after every read.",
+        "C": "Replace every table scan with a forced index scan.",
+        "D": "Collect multivariate statistics on the filtered columns and analyze the table."
+      },
+      "correct_option": "D",
+      "explanation": "Multivariate statistics can capture joint behavior that separate column estimates miss."
+    },
+    {
+      "number": 36,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "In PostgreSQL, an analyst creates a plain view over current orders and a materialized view over the same query. A new order commits. What can a later transaction see before any refresh?",
+      "options": {
+        "A": "The plain view can include the new order while the materialized view still serves the stored result.",
+        "B": "Both views must be refreshed first.",
+        "C": "The materialized view always sees the order first.",
+        "D": "Neither view can include the order until its definition is recreated."
+      },
+      "correct_option": "A",
+      "explanation": "The plain view evaluates its query against visible base rows. The materialized view reads its last stored contents."
+    },
+    {
+      "number": 37,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "For expense data, zero means an employee submitted a valid zero claim, while NULL means no claim value was submitted. A dashboard tracks average submitted expense. Which approach respects that metric?",
+      "options": {
+        "A": "Replace every NULL with zero and average all employees.",
+        "B": "Average non-NULL claims and publish the number of submitted values alongside it.",
+        "C": "Drop both NULL and zero before calculating the mean.",
+        "D": "Replace every NULL with the largest observed claim."
+      },
+      "correct_option": "B",
+      "explanation": "The submitted-claim average should include real zero claims. The count gives readers the denominator and helps assess coverage."
+    },
+    {
+      "number": 38,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "An AI-generated SQL report groups customers by city name alone. Two states contain cities with the same name, and each city has a unique ID. What validation would catch the issue directly?",
+      "options": {
+        "A": "Compare only the overall customer count with the source.",
+        "B": "Confirm the query returns the same result on two consecutive runs.",
+        "C": "Use a fixture with two same-named cities and check that the output has distinct city IDs.",
+        "D": "Require all city names to be formatted in uppercase."
+      },
+      "correct_option": "C",
+      "explanation": "A fixture containing a known naming collision exposes grouping at the wrong key, which a correct overall count can hide."
+    },
+    {
+      "number": 39,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "A PostgreSQL reporting view must show totals by `(region, product)`, by product across all regions, and across all rows. Region-only subtotal rows are outside the contract. Complete the grouping clause.\n\n```sql\nSELECT region, product, SUM(units)\nFROM sales\nGROUP BY ____;\n```",
+      "options": {
+        "A": "`CUBE(region, product)`",
+        "B": "`ROLLUP(region, product)`",
+        "C": "`GROUPING SETS ((region, product), (product), ())`",
+        "D": "`GROUPING SETS ((region, product), (region), ())`"
+      },
+      "correct_option": "C",
+      "explanation": "Explicit grouping sets enumerate the three required levels. The empty set produces the grand total."
+    },
+    {
+      "number": 40,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "A PostgreSQL table uses soft deletion. Enforce email uniqueness among active rows while allowing historical deleted rows to keep their old emails. The table requires a non-NULL email. Complete the index definition.\n\n```sql\nCREATE UNIQUE INDEX active_customer_email ON customers (email) ____;\n```",
+      "options": {
+        "A": "`INCLUDE (deleted_at)`",
+        "B": "`WHERE deleted_at IS NULL`",
+        "C": "`WHERE deleted_at IS NOT NULL`",
+        "D": "`NULLS NOT DISTINCT`"
+      },
+      "correct_option": "B",
+      "explanation": "A partial unique index limits enforcement to the rows satisfying its predicate. `deleted_at IS NULL` selects active customers."
+    },
+    {
+      "number": 41,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "A PostgreSQL feature query needs the average measurement from the three preceding rows for each device, excluding the current observation and every later row. `reading_id` orders ties consistently. Complete the frame.\n\n```sql\nSELECT AVG(measurement) OVER (\n    PARTITION BY device_id ORDER BY measured_at, reading_id ____\n) FROM readings;\n```",
+      "options": {
+        "A": "`ROWS BETWEEN 3 PRECEDING AND CURRENT ROW`",
+        "B": "`ROWS BETWEEN 1 PRECEDING AND 3 FOLLOWING`",
+        "C": "`ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING`",
+        "D": "`ROWS BETWEEN 3 PRECEDING AND 1 PRECEDING`"
+      },
+      "correct_option": "D",
+      "explanation": "The frame ends one row before the current observation and reaches back at most three rows."
+    },
+    {
+      "number": 42,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A dashboard weights two satisfaction strata by fixed target-population shares. Rates are $r_1=0.90$ and $r_2=0.60$, and fixed weights are $w_1=0.25$ and $w_2=0.75$. The current sample is 80% from stratum 1. Which value does the target-standardized rate $R=w_1r_1+w_2r_2$ yield?",
+      "options": {
+        "A": "67.5%",
+        "B": "75%",
+        "C": "84%",
+        "D": "90%"
+      },
+      "correct_option": "A",
+      "explanation": "The target-population shares contribute 22.5 and 45 percentage points. The sample composition matters for the raw rate."
+    },
+    {
+      "number": 43,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A consultancy receives 200 dashboard alerts. Manual adjudication confirms 80 are valid. A separate audit also identifies 20 valid cases that raised no alert. The client requires precision of at least 80% and recall of at least 75%. Using $P=TP/(TP+FP)$ and $R=TP/(TP+FN)$, which requirement is met?",
+      "options": {
+        "A": "Both requirements",
+        "B": "Precision only",
+        "C": "Recall only",
+        "D": "Neither requirement"
+      },
+      "correct_option": "C",
+      "explanation": "Precision is 80/200, or 40 percent. Recall is 80/(80+20), or 80 percent."
+    },
+    {
+      "number": 44,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "After an enrichment join, a reconciliation finds $N=500{,}000$ input rows with unique event IDs, $J=505{,}000$ output rows and $D=499{,}000$ distinct event IDs in the output. All output IDs came from the input. Using $N-D$ for missing inputs and $J-D$ for extra copies, what should the audit report?",
+      "options": {
+        "A": "No missing events and 5,000 extra copies",
+        "B": "1,000 missing events and 6,000 extra copies",
+        "C": "6,000 missing events and 1,000 extra copies",
+        "D": "1,000 missing events and 5,000 extra copies"
+      },
+      "correct_option": "B",
+      "explanation": "The distinct count reveals 1,000 lost input IDs. The excess over that count is 6,000 copies, even though the net increase is 5,000."
+    },
+    {
+      "number": 45,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A client wants daily and monthly distinct-customer counts from a reusable SQL summary. The same customer can buy on several days. The client requires exact monthly counts. Which summary can support both grains?",
+      "options": {
+        "A": "One row per day with only its distinct-customer count",
+        "B": "One row per day with only total orders",
+        "C": "One row per day with the number of first-time buyers",
+        "D": "Distinct customer and day pairs, aggregated with `COUNT(DISTINCT customer_id)` at each requested grain"
+      },
+      "correct_option": "D",
+      "explanation": "Retaining identities allows a customer to be counted once per month even if they appear on many days. Adding daily distinct counts loses that property."
+    },
+    {
+      "number": 46,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "An agent should compare churn rates across regions. Each region uses a different account lifecycle definition and the raw labels cannot be changed. What should happen before evaluating the agent's SQL?",
+      "options": {
+        "A": "Agree on a comparable churn definition, document the regional mappings, and test them on hand-labeled boundary cases.",
+        "B": "Let the agent infer one label from the most common region.",
+        "C": "Accept any answer whose query compiles.",
+        "D": "Publish regional comparisons using each region's raw churn label."
+      },
+      "correct_option": "A",
+      "explanation": "An agreed definition and tested mappings give the comparison consistent meaning while preserving the source labels."
+    },
+    {
+      "number": 47,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A nightly ingestion pipeline receives updated records out of arrival order. The source guarantees strictly increasing revision numbers within each event ID. Which merge rule makes retries and late arrivals safe?",
+      "options": {
+        "A": "Overwrite the target whenever a row arrives.",
+        "B": "Keep the payload with the largest ingest timestamp.",
+        "C": "Upsert by event ID and replace a stored payload only when the incoming revision is higher.",
+        "D": "Append every arrival and use arrival order to decide the current version."
+      },
+      "correct_option": "C",
+      "explanation": "A stable event key and monotonic source revision make repeated updates idempotent and prevent older revisions from overwriting newer state."
+    },
+    {
+      "number": 48,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A sales analyst found one unusually large order. Verification confirms the amount is legitimate, and the report must give both total revenue and a typical order size. Which design fits?",
+      "options": {
+        "A": "Cap the order for both figures at the 95th percentile.",
+        "B": "Include the order in total revenue and use a robust statistic such as the median for typical order size.",
+        "C": "Remove the order from both measures and record it separately.",
+        "D": "Substitute the mean of the other orders for the large order."
+      },
+      "correct_option": "B",
+      "explanation": "A valid sale belongs in the accounting total. The median represents a typical order with limited sensitivity to extreme magnitudes."
+    },
+    {
+      "number": 49,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A PostgreSQL warehouse partitions events by month, but most analytical queries filter an event's customer ID and have no date restriction. What should the team conclude before adding finer time partitions?",
+      "options": {
+        "A": "Monthly partitions let PostgreSQL skip every month without a matching customer automatically.",
+        "B": "Date pruning always runs even without a date predicate.",
+        "C": "Daily partitioning makes customer predicates equivalent to date predicates.",
+        "D": "A customer-only predicate cannot generally prune date partitions. Benchmark a customer-ID index and overall workload before changing the partition layout."
+      },
+      "correct_option": "D",
+      "explanation": "Partition pruning needs a predicate that rules out partition bounds. A customer lookup may still need to visit many partitions even when local indexes help."
+    },
+    {
+      "number": 50,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A model team plans to fill missing income using other observed fields. Reports must retain each raw value and let reviewers distinguish measured from estimated data. Which schema meets both needs?",
+      "options": {
+        "A": "Keep the original income, add a separate imputed feature, and record whether the feature was imputed.",
+        "B": "Overwrite income and infer which rows were imputed from their exact values.",
+        "C": "Store only the imputed feature because model inputs define the source of truth.",
+        "D": "Store only a per-batch imputation count."
+      },
+      "correct_option": "A",
+      "explanation": "A separate derived field preserves source observations. An indicator distinguishes imputed values from equal-valued observations at row level."
+    }
+  ]
+}
