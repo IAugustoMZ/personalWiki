@@ -53,7 +53,7 @@ pesquisável. A organização favorece três movimentos:
 | Estudar analytics e BI | [Power BI](courses/microsoft_power_bi_for_business_intelligence_and_data_science/README.md) | [Questões de revisão](questions/README.md) |
 | Preparar uma certificação | [Certificações](certifications/README.md) | [Databricks ML Practitioner](certifications/databricks/machine_learning_practitioner_associate/README.md) |
 | Consultar arquiteturas visuais | [Artefatos](artifacts/README.md) | diagramas de lakehouse, governança, ML e carreira |
-| Praticar idiomas | [Idiomas](languages/README.md) | espanhol, chinês e japonês |
+| Praticar idiomas | [Idiomas](languages/README.md) | notas do Duolingo e questões de revisão |
 | Revisitar leituras | [Livros](books/README.md) | [The Trusted Advisor](books/the_trusted_advisor/README.md) |
 
 ## Como o conhecimento está organizado
@@ -109,7 +109,7 @@ flowchart LR
 
     ---
 
-    Sessões de espanhol, chinês e japonês, além de comunicação, carreira e hábitos.
+    Notas e exercícios de idiomas, de italiano e espanhol a latim e grego moderno.
 
     [→ Abrir idiomas](languages/README.md)
 

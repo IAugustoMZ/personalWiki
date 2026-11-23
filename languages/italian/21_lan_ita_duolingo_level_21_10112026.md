@@ -4,7 +4,7 @@
 
 ## Visão geral
 
-Último nível da sua trilha em italiano: **comprar roupas**, agora com vocabulário e estruturas mais ricas. Você consolida tamanhos, cores, comparações, perguntas de provador, devoluções e pagamento. Gramática: **comparativos e superlativos**, **pronomes diretos** (`lo`, `la`, `li`, `le`), **`ci` e `ne`**, **condicional de cortesia** e **imperativo formal**.
+Este nível trata de **comprar roupas** e consolida tamanhos, cores, comparações, perguntas de provador, devoluções e pagamento. A gramática inclui **comparativos e superlativos**, **pronomes diretos** (`lo`, `la`, `li`, `le`), **`ci` e `ne`**, **condicional de cortesia** e **imperativo formal**.
 
 ```text
 Vorrei provare questa giacca in una taglia più grande.     →  Gostaria de experimentar esta jaqueta em um tamanho maior.

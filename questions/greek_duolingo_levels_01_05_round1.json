@@ -1,0 +1,1224 @@
+{
+  "registration_authorization": "User requested generation and direct registration of all 80 questions.",
+  "registered_on": "2026-11-23",
+  "registered_question_ids": [
+    2261,
+    2262,
+    2263,
+    2264,
+    2265,
+    2266,
+    2267,
+    2268,
+    2269,
+    2270,
+    2271,
+    2272,
+    2273,
+    2274,
+    2275,
+    2276,
+    2277,
+    2278,
+    2279,
+    2280,
+    2281,
+    2282,
+    2283,
+    2284,
+    2285,
+    2286,
+    2287,
+    2288,
+    2289,
+    2290,
+    2291,
+    2292,
+    2293,
+    2294,
+    2295,
+    2296,
+    2297,
+    2298,
+    2299,
+    2300,
+    2301,
+    2302,
+    2303,
+    2304,
+    2305,
+    2306,
+    2307,
+    2308,
+    2309,
+    2310,
+    2311,
+    2312,
+    2313,
+    2314,
+    2315,
+    2316,
+    2317,
+    2318,
+    2319,
+    2320,
+    2321,
+    2322,
+    2323,
+    2324,
+    2325,
+    2326,
+    2327,
+    2328,
+    2329,
+    2330,
+    2331,
+    2332,
+    2333,
+    2334,
+    2335,
+    2336,
+    2337,
+    2338,
+    2339,
+    2340
+  ],
+  "topic": {
+    "subsubcategory_id": 49,
+    "name": "Greek",
+    "category": "Foreign Languages",
+    "subcategory": "Hellenic languages"
+  },
+  "source_folder": "languages/greek",
+  "duolingo_path": {
+    "unit_start": 1,
+    "unit_end": 5,
+    "section": 1,
+    "first_unit": 1,
+    "base_language": "English",
+    "course_map": "https://duolingodata.com/dat/elfen95v2.html",
+    "official_reference": "https://blog.duolingo.com/learning-other-writing-systems/"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete the definite phrase “____ πόρτα” (the door) in the nominative singular.",
+      "options": {
+        "A": "ο",
+        "B": "το",
+        "C": "η",
+        "D": "οι"
+      },
+      "correct_option": "C",
+      "explanation": "Feminine singular nominative definite article is η. Compare η γάτα (the cat)."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “____ βιβλίο” (the book) with the nominative singular definite article.",
+      "options": {
+        "A": "ο",
+        "B": "η",
+        "C": "τα",
+        "D": "το"
+      },
+      "correct_option": "D",
+      "explanation": "Neuter singular nominative definite article is το. Compare το σπίτι (the house)."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “____ σκύλος” (the dog) with the nominative singular definite article.",
+      "options": {
+        "A": "ο",
+        "B": "η",
+        "C": "το",
+        "D": "οι"
+      },
+      "correct_option": "A",
+      "explanation": "Masculine singular nominative definite article is ο. Compare ο φίλος (the friend)."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “Εγώ ____ εδώ” (I am here).",
+      "options": {
+        "A": "είσαι",
+        "B": "είμαι",
+        "C": "είναι",
+        "D": "είμαστε"
+      },
+      "correct_option": "B",
+      "explanation": "First-person singular of είμαι (be) is είμαι. Compare Είμαι καλά (I am well)."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate into English.\n\n```text\nΤο σπίτι\nAnswer: ____\n```",
+      "options": {
+        "A": "The book",
+        "B": "The door",
+        "C": "The school",
+        "D": "The house"
+      },
+      "correct_option": "D",
+      "explanation": "Σπίτι (spíti) is house. Το marks the phrase as definite."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nΗ γάτα πίνει.\nAnswer: ____\n```",
+      "options": {
+        "A": "The cat drinks.",
+        "B": "The dog drinks.",
+        "C": "The cat reads.",
+        "D": "The cat sleeps."
+      },
+      "correct_option": "A",
+      "explanation": "Γάτα (gáta) is cat and πίνει (píni) means drinks."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nΟ Νίκος γράφει.\nAnswer: ____\n```",
+      "options": {
+        "A": "Nikos reads.",
+        "B": "Nikos writes.",
+        "C": "Maria writes.",
+        "D": "Nikos is here."
+      },
+      "correct_option": "B",
+      "explanation": "Γράφει (gráfi) means writes. The Greek article before a name usually disappears in English."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Choose the missing letter in the Greek word for water.\n\n```text\nνερ____\n```",
+      "options": {
+        "A": "ά",
+        "B": "ί",
+        "C": "ό",
+        "D": "έ"
+      },
+      "correct_option": "C",
+      "explanation": "The word is νερό (neró), with the stress on its final vowel."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A card shows “γάτα” (cat). Count the written letters using $2+2$. How many are there?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "Γ-ά-τ-α are four letters. The accent is part of the vowel letter, so it adds no letter."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A card shows “νερό” (water). Count the two syllables as $1+1$. Which split preserves both?",
+      "options": {
+        "A": "ν-ερό",
+        "B": "νε-ρό",
+        "C": "νερ-ό",
+        "D": "νε-ρ-ό"
+      },
+      "correct_option": "B",
+      "explanation": "Νερό (neró) syllabifies as νε-ρό. Each written syllable here contains a vowel."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "The phrase “το βιβλίο” contains $2+6$ letters if the space is ignored. Which total is correct?",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "8",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "explanation": "Το has two letters and βιβλίο (vivlío) has six. Stress marks do not add letters."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A letter card shows uppercase Λ and lowercase λ. With $2-1=1$ distinct alphabet letter after matching case, which letter is it?",
+      "options": {
+        "A": "Delta",
+        "B": "Alpha",
+        "C": "Mu",
+        "D": "Lambda"
+      },
+      "correct_option": "D",
+      "explanation": "Λ and λ are the two cases of lambda."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which is the lowercase partner of “Π”?",
+      "options": {
+        "A": "ρ",
+        "B": "π",
+        "C": "ν",
+        "D": "μ"
+      },
+      "correct_option": "B",
+      "explanation": "Π and π are the uppercase and lowercase forms of pi."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Greek letter represents the /m/ sound in “μαμά”?",
+      "options": {
+        "A": "ν",
+        "B": "λ",
+        "C": "μ",
+        "D": "β"
+      },
+      "correct_option": "C",
+      "explanation": "Μu, written μ, supplies /m/ in μαμά (mamá)."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Greek letter looks like Latin P in uppercase but represents /r/?",
+      "options": {
+        "A": "Β",
+        "B": "Ν",
+        "C": "Η",
+        "D": "Ρ"
+      },
+      "correct_option": "D",
+      "explanation": "Greek rho, Ρ or ρ, represents a Greek r sound."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which written vowel bears the stress in “τόπι”?",
+      "options": {
+        "A": "ό",
+        "B": "ι",
+        "C": "Both vowels",
+        "D": "Neither vowel"
+      },
+      "correct_option": "A",
+      "explanation": "The acute accent on ό marks the stress in τόπι (tópi), ball."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which letter is used for the final /s/ of “φίλος”?",
+      "options": {
+        "A": "σ",
+        "B": "ς",
+        "C": "ξ",
+        "D": "ζ"
+      },
+      "correct_option": "B",
+      "explanation": "Lowercase sigma has the shape ς at the end of a word."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “και” mean in “ο Νίκος και η Μαρία”?",
+      "options": {
+        "A": "Or",
+        "B": "The",
+        "C": "And",
+        "D": "Here"
+      },
+      "correct_option": "C",
+      "explanation": "Και (ke) connects the two names and means and."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Greek vowel letter is called omega?",
+      "options": {
+        "A": "ο",
+        "B": "η",
+        "C": "ε",
+        "D": "ω"
+      },
+      "correct_option": "D",
+      "explanation": "Omega is Ω or ω. Omicron is Ο or ο."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which Greek letter matches the /t/ sound in “τότε”?",
+      "options": {
+        "A": "τ",
+        "B": "θ",
+        "C": "π",
+        "D": "δ"
+      },
+      "correct_option": "A",
+      "explanation": "Tau, Τ or τ, has the /t/ sound in τότε (tóte), then."
+    },
+    {
+      "number": 21,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete the yes/no question “Εσύ ____ εδώ;” (Are you here?).",
+      "options": {
+        "A": "είμαι",
+        "B": "είναι",
+        "C": "είμαστε",
+        "D": "είσαι"
+      },
+      "correct_option": "D",
+      "explanation": "Second-person singular of είμαι is είσαι. Compare Είσαι εκεί; (Are you there?)."
+    },
+    {
+      "number": 22,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “Η Μαρία ____ νερό” (Maria drinks water).",
+      "options": {
+        "A": "πίνει",
+        "B": "πίνω",
+        "C": "πίνεις",
+        "D": "πίνουμε"
+      },
+      "correct_option": "A",
+      "explanation": "Third-person singular present of πίνω is πίνει. Compare Ο Νίκος πίνει νερό."
+    },
+    {
+      "number": 23,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Make “Ο φίλος είναι εδώ” negative: “Ο φίλος ____ είναι εδώ.”",
+      "options": {
+        "A": "και",
+        "B": "δεν",
+        "C": "ναι",
+        "D": "πολύ"
+      },
+      "correct_option": "B",
+      "explanation": "Present indicative negation uses δεν before the finite verb. Compare Η γάτα δεν πίνει."
+    },
+    {
+      "number": 24,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “Ο Νίκος διαβάζει ____ βιβλίο” to say he reads a book.",
+      "options": {
+        "A": "ένας",
+        "B": "μία",
+        "C": "ένα",
+        "D": "η"
+      },
+      "correct_option": "C",
+      "explanation": "Neuter singular indefinite article is ένα in both nominative and accusative. Compare Έχω ένα μολύβι (I have a pencil)."
+    },
+    {
+      "number": 25,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nShe reads the book.\nAnswer: ____\n```",
+      "options": {
+        "A": "Διαβάζει το βιβλίο.",
+        "B": "Γράφει το βιβλίο.",
+        "C": "Διαβάζω το βιβλίο.",
+        "D": "Διαβάζει το γράμμα."
+      },
+      "correct_option": "A",
+      "explanation": "Διαβάζει (diavázi) is third-person reads. Βιβλίο (vivlío) means book."
+    },
+    {
+      "number": 26,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nΔεν είμαι εκεί.\nAnswer: ____\n```",
+      "options": {
+        "A": "I am not here.",
+        "B": "I am not there.",
+        "C": "You are not there.",
+        "D": "She is not there."
+      },
+      "correct_option": "B",
+      "explanation": "Εκεί (ekí) means there. Δεν είμαι marks the first-person negative."
+    },
+    {
+      "number": 27,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Complete with the article before the name.\n\n```text\n____ Μαρία πίνει νερό\n```",
+      "options": {
+        "A": "Ο",
+        "B": "Το",
+        "C": "Η",
+        "D": "Τη"
+      },
+      "correct_option": "C",
+      "explanation": "The female name is the nominative subject, so Η is appropriate: Η Μαρία (i María)."
+    },
+    {
+      "number": 28,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Choose the stressed spelling for the Greek word meaning.\n\n```text\nmilk\nAnswer: ____\n```",
+      "options": {
+        "A": "γαλά",
+        "B": "γάλαα",
+        "C": "γάλλ",
+        "D": "γάλα"
+      },
+      "correct_option": "D",
+      "explanation": "Γάλα (gála) means milk and carries stress on its first vowel."
+    },
+    {
+      "number": 29,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "In “ούτε” (neither), ου has $2$ letters representing $1$ vowel sound. Which sound does $2\\to1$ indicate here?",
+      "options": {
+        "A": "/o/",
+        "B": "/u/",
+        "C": "/i/",
+        "D": "/e/"
+      },
+      "correct_option": "B",
+      "explanation": "In ού-τε (úte), ου is the digraph for /u/. The accent appears on the second letter."
+    },
+    {
+      "number": 30,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "In “βιβλίο”, separate the $6$ letters into $3$ consonant letters and the rest. How many vowel letters does $6-3$ give?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "explanation": "The written form β-ι-β-λ-ί-ο has vowels at positions 2, 5 and 6."
+    },
+    {
+      "number": 31,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "In “το νερό”, there are $2+4$ written letters. Removing the article leaves $6-2$ letters. Which is the remaining form?",
+      "options": {
+        "A": "νερ",
+        "B": "το",
+        "C": "νερος",
+        "D": "νερό"
+      },
+      "correct_option": "D",
+      "explanation": "The noun νερό (neró) has four letters. Το is a separate two-letter article."
+    },
+    {
+      "number": 32,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The two words “σώμα” and “φως” contain $1+1$ lowercase sigmas. Which ordered shapes are used?",
+      "options": {
+        "A": "σ, ς",
+        "B": "ς, σ",
+        "C": "σ, σ",
+        "D": "ς, ς"
+      },
+      "correct_option": "A",
+      "explanation": "In σώμα (sóma), sigma is first, so it is σ. In φως (fos), sigma is final, so it is ς."
+    },
+    {
+      "number": 33,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which pronunciation matches “μπάλα” (ball) at the start of the word?",
+      "options": {
+        "A": "A /p/ sound",
+        "B": "A /m/ sound only",
+        "C": "A /b/ sound",
+        "D": "An /f/ sound"
+      },
+      "correct_option": "C",
+      "explanation": "Word-initial μπ represents /b/ in μπάλα (bála)."
+    },
+    {
+      "number": 34,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What sound does “αι” represent in “και”?",
+      "options": {
+        "A": "/a/",
+        "B": "/i/",
+        "C": "/u/",
+        "D": "/e/"
+      },
+      "correct_option": "D",
+      "explanation": "The digraph αι represents /e/ in και (ke)."
+    },
+    {
+      "number": 35,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which uppercase letter is the partner of lowercase “ξ”?",
+      "options": {
+        "A": "Ξ",
+        "B": "Χ",
+        "C": "Ζ",
+        "D": "Σ"
+      },
+      "correct_option": "A",
+      "explanation": "Ξ/ξ is xi, which typically represents /ks/."
+    },
+    {
+      "number": 36,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does the Greek semicolon-shaped mark in “Είναι εδώ;” signal?",
+      "options": {
+        "A": "The end of a statement",
+        "B": "A question",
+        "C": "Quoted speech",
+        "D": "An abbreviation"
+      },
+      "correct_option": "B",
+      "explanation": "The Greek semicolon-shaped mark serves as the question mark in Είναι εδώ; (Is someone here?)."
+    },
+    {
+      "number": 37,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A learner reads “Η Μαρία είναι εδώ” as if it started with an English h sound. How should the article sound?",
+      "options": {
+        "A": "Like /h/",
+        "B": "Like /e/",
+        "C": "Like /i/",
+        "D": "Like /a/"
+      },
+      "correct_option": "C",
+      "explanation": "Modern Greek η is /i/. In η Μαρία (i María), it is the feminine definite article."
+    },
+    {
+      "number": 38,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which word supplies the location in “Ο φίλος είναι εκεί”?",
+      "options": {
+        "A": "είναι",
+        "B": "φίλος",
+        "C": "ο",
+        "D": "εκεί"
+      },
+      "correct_option": "D",
+      "explanation": "Εκεί (ekí) means there. The other words make up the subject and verb."
+    },
+    {
+      "number": 39,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What does “Εγώ γράφω, εσύ διαβάζεις” say about the two people?",
+      "options": {
+        "A": "I write and you read.",
+        "B": "I read and you write.",
+        "C": "We both write.",
+        "D": "You write and I sleep."
+      },
+      "correct_option": "A",
+      "explanation": "Γράφω is I write, and διαβάζεις is you read when talking to one person."
+    },
+    {
+      "number": 40,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which sound is shared by the first and last letters of “νέον”?",
+      "options": {
+        "A": "/m/",
+        "B": "/n/",
+        "C": "/v/",
+        "D": "/u/"
+      },
+      "correct_option": "B",
+      "explanation": "Both positions use ν, which is nu and represents /n/. The word νέον is read néon."
+    },
+    {
+      "number": 41,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “____ μαθητή βλέπει η Μαρία” to say Maria sees the male student.",
+      "options": {
+        "A": "Τον",
+        "B": "Ο",
+        "C": "Το",
+        "D": "Η"
+      },
+      "correct_option": "A",
+      "explanation": "Masculine singular accusative definite article is τον. It marks the object even when fronted. Compare Τον φίλο βλέπει ο Νίκος."
+    },
+    {
+      "number": 42,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “Η πόρτα είναι ____” using the correct form of red.",
+      "options": {
+        "A": "κόκκινος",
+        "B": "κόκκινη",
+        "C": "κόκκινο",
+        "D": "κόκκινες"
+      },
+      "correct_option": "B",
+      "explanation": "Predicate adjective agreement: πόρτα is feminine singular, so use κόκκινη. Compare Η τσάντα είναι κόκκινη."
+    },
+    {
+      "number": 43,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete the phrase “____ γάτες” (the cats) as the subject of a sentence.",
+      "options": {
+        "A": "η",
+        "B": "τις",
+        "C": "οι",
+        "D": "τα"
+      },
+      "correct_option": "C",
+      "explanation": "Feminine nominative plural definite article is οι. Compare Οι πόρτες είναι εδώ."
+    },
+    {
+      "number": 44,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "In “Ο Νίκος και η Μαρία ____ εδώ”, choose the verb meaning are.",
+      "options": {
+        "A": "είσαι",
+        "B": "είμαι",
+        "C": "είμαστε",
+        "D": "είναι"
+      },
+      "correct_option": "D",
+      "explanation": "A coordinated third-person subject takes third-person plural είναι, which has the same form as third-person singular. Compare Η Άννα και ο Πέτρος είναι εδώ."
+    },
+    {
+      "number": 45,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe dog has the ball.\nAnswer: ____\n```",
+      "options": {
+        "A": "Η μπάλα είναι του σκύλου.",
+        "B": "Ο σκύλος έχει την μπάλα.",
+        "C": "Ο σκύλος βλέπει μια πόρτα.",
+        "D": "Η γάτα έχει την μπάλα."
+      },
+      "correct_option": "B",
+      "explanation": "Έχει (échi) means has. Την μπάλα (tin bála) names the object."
+    },
+    {
+      "number": 46,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nΠού είναι το κλειδί;\nAnswer: ____\n```",
+      "options": {
+        "A": "Where is the book?",
+        "B": "Is the key here?",
+        "C": "Where is the key?",
+        "D": "Whose key is this?"
+      },
+      "correct_option": "C",
+      "explanation": "Πού (pú) asks where. Κλειδί (klidí) is key."
+    },
+    {
+      "number": 47,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe pupil is not writing. He is reading.\nAnswer: ____\n```",
+      "options": {
+        "A": "Ο μαθητής γράφει. Δεν διαβάζει.",
+        "B": "Η μαθήτρια δεν γράφει. Διαβάζει.",
+        "C": "Ο μαθητής δεν πίνει. Γράφει.",
+        "D": "Ο μαθητής δεν γράφει. Διαβάζει."
+      },
+      "correct_option": "D",
+      "explanation": "Ο μαθητής (o mathitís) is masculine. The negative applies to writes, followed by the positive verb reads."
+    },
+    {
+      "number": 48,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nΗ Άννα βλέπει τον Νίκο.\nAnswer: ____\n```",
+      "options": {
+        "A": "Anna sees Nikos.",
+        "B": "Nikos sees Anna.",
+        "C": "Anna writes to Nikos.",
+        "D": "Nikos is Anna's friend."
+      },
+      "correct_option": "A",
+      "explanation": "Η Άννα is the subject. Τον Νίκο is the masculine accusative object."
+    },
+    {
+      "number": 49,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The word “καιρός” (weather) includes $2$ letters in αι but they correspond to $1$ vowel sound. Which split keeps that pair together and separates the two syllables?",
+      "options": {
+        "A": "κα-ιρός",
+        "B": "κ-αιρός",
+        "C": "και-ρός",
+        "D": "καιρ-ός"
+      },
+      "correct_option": "C",
+      "explanation": "Καιρός (kerós) has αι in its first syllable and stressed ό in its second."
+    },
+    {
+      "number": 50,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The word “ήλιος” has $5$ letters and begins with stressed η. Which reading places the stressed syllable at position $2-1$?",
+      "options": {
+        "A": "Stress the second syllable.",
+        "B": "Stress only the final ο.",
+        "C": "Give all syllables equal stress.",
+        "D": "Stress the opening ή."
+      },
+      "correct_option": "D",
+      "explanation": "The first accented letter is ή. In ήλιος (ílios), that is where the stressed syllable starts."
+    },
+    {
+      "number": 51,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "“κόσμος” contains $2$ sigmas. If the first, at position $6-3$, is inside the word, which uppercase rendering makes both the same shape?",
+      "options": {
+        "A": "ΚΟΣΜΟΣ",
+        "B": "ΚΟςΜΟς",
+        "C": "ΚΟΖΜΟΣ",
+        "D": "ΚΟΣΜΟΞ"
+      },
+      "correct_option": "A",
+      "explanation": "Both σ and ς become capital Σ. Κόσμος means world or people, depending on context."
+    },
+    {
+      "number": 52,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "In “σχολείο”, the written vowels are ο, ε, ί, ο. In careful pronunciation εί represents one vowel sound. Which ordered sequence of vowel sounds accounts for $4-1=3$?",
+      "options": {
+        "A": "/o/, /e/, /o/",
+        "B": "/o/, /i/, /o/",
+        "C": "/e/, /i/, /o/",
+        "D": "/o/, /i/, /u/"
+      },
+      "correct_option": "B",
+      "explanation": "Σχολείο (scholío) has an /o/ on each side of the /i/ written εί."
+    },
+    {
+      "number": 53,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What contrast separates “πότε” from “ποτέ”?",
+      "options": {
+        "A": "Πότε means never. Ποτέ asks when.",
+        "B": "Both words always ask when.",
+        "C": "Only ποτε without accent is a word.",
+        "D": "Πότε asks when. Ποτέ means ever or, with negation, never."
+      },
+      "correct_option": "D",
+      "explanation": "The stress differs: πότε (póte) is initial, while ποτέ (poté) is final."
+    },
+    {
+      "number": 54,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which pair normally shares a vowel sound in Modern Greek?",
+      "options": {
+        "A": "η and ι",
+        "B": "ε and ο",
+        "C": "α and ου",
+        "D": "ο and ι"
+      },
+      "correct_option": "A",
+      "explanation": "Both η and ι can represent /i/. Greek spelling preserves different letters for this sound."
+    },
+    {
+      "number": 55,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "In “φαΐ” (food), what does the diaeresis over ι tell you?",
+      "options": {
+        "A": "The αι must be pronounced as a single /e/.",
+        "B": "The α and ι are pronounced separately.",
+        "C": "The ι is silent.",
+        "D": "The α is pronounced /u/."
+      },
+      "correct_option": "B",
+      "explanation": "In φαΐ (faí), the diaeresis prevents αι from being read as a single digraph."
+    },
+    {
+      "number": 56,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What is the initial sound of “ντομάτα” in standard Modern Greek?",
+      "options": {
+        "A": "/t/",
+        "B": "/θ/",
+        "C": "/d/",
+        "D": "/n/ alone"
+      },
+      "correct_option": "C",
+      "explanation": "Word-initial ντ represents /d/ in ντομάτα (domáta)."
+    },
+    {
+      "number": 57,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which article tells you the grammatical role of “φίλο” in “Βλέπω τον φίλο”?",
+      "options": {
+        "A": "τον marks a feminine singular subject.",
+        "B": "τον is a neuter plural article.",
+        "C": "τον means does not.",
+        "D": "τον marks a masculine singular direct object."
+      },
+      "correct_option": "D",
+      "explanation": "Τον φίλο is accusative and answers whom the speaker sees."
+    },
+    {
+      "number": 58,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What disappears in a natural English rendering of “Ο Πέτρος είναι εδώ”?",
+      "options": {
+        "A": "The definite article before the name.",
+        "B": "The location here.",
+        "C": "The name Petros.",
+        "D": "The verb is."
+      },
+      "correct_option": "A",
+      "explanation": "Greek commonly uses ο with a male personal name. English normally says Petros is here without the."
+    },
+    {
+      "number": 59,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A learner reads Greek “Β” as English b in “βιβλίο”. Which correction is accurate?",
+      "options": {
+        "A": "Modern Greek β represents /p/.",
+        "B": "Modern Greek β represents /v/.",
+        "C": "Modern Greek β is always silent.",
+        "D": "Modern Greek β is identical in sound to μπ at the start of μπάλα."
+      },
+      "correct_option": "B",
+      "explanation": "Β/β represents /v/ in βιβλίο (vivlío)."
+    },
+    {
+      "number": 60,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What sound does “θ” begin with in “θέλω”?",
+      "options": {
+        "A": "The th of then",
+        "B": "The t of tin",
+        "C": "The th of thin",
+        "D": "The f of fin"
+      },
+      "correct_option": "C",
+      "explanation": "Theta represents /θ/ in θέλω (thélo), I want."
+    },
+    {
+      "number": 61,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the phrase meaning “the small house” as the subject, with article and adjective both agreeing.",
+      "options": {
+        "A": "η μικρή σπίτι",
+        "B": "το μικρό σπίτι",
+        "C": "ο μικρός σπίτι",
+        "D": "τα μικρά σπίτι"
+      },
+      "correct_option": "B",
+      "explanation": "Neuter singular noun-phrase agreement: το and μικρό agree with σπίτι. Compare το μικρό βιβλίο."
+    },
+    {
+      "number": 62,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete “Η Άννα βλέπει ____” to mean “Anna sees the woman”.",
+      "options": {
+        "A": "η γυναίκα",
+        "B": "ο γυναίκας",
+        "C": "τη γυναίκα",
+        "D": "οι γυναίκες"
+      },
+      "correct_option": "C",
+      "explanation": "Feminine singular accusative marks the object. Τη γυναίκα is standard without final ν before γ. Compare Τη γάτα βλέπει."
+    },
+    {
+      "number": 63,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete “Το σπίτι είναι ____ χωριό” to say the house is in the village.",
+      "options": {
+        "A": "στη",
+        "B": "στον",
+        "C": "το",
+        "D": "στο"
+      },
+      "correct_option": "D",
+      "explanation": "Contraction of σε with the neuter definite article το yields στο. Compare Το βιβλίο είναι στο σχολείο."
+    },
+    {
+      "number": 64,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the standard neutral order for “Who is reading the book?” without placing special emphasis on “the book”.",
+      "options": {
+        "A": "Ποιος διαβάζει το βιβλίο;",
+        "B": "Ποιον διαβάζει το βιβλίο;",
+        "C": "Πού διαβάζει το βιβλίο;",
+        "D": "Τι διαβάζει το βιβλίο;"
+      },
+      "correct_option": "A",
+      "explanation": "Interrogative subject ποιος asks who is doing the action. Compare Ποιος πίνει νερό; (Who drinks water?)."
+    },
+    {
+      "number": 65,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nΤο παιδί διαβάζει, αλλά δεν γράφει.\nAnswer: ____\n```",
+      "options": {
+        "A": "The child writes, but does not read.",
+        "B": "The child neither reads nor writes.",
+        "C": "The child reads, but does not write.",
+        "D": "The child reads and writes."
+      },
+      "correct_option": "C",
+      "explanation": "Διαβάζει (diavázi) is reads. Αλλά introduces contrast and δεν negates γράφει."
+    },
+    {
+      "number": 66,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nI see Maria, not Nikos.\nAnswer: ____\n```",
+      "options": {
+        "A": "Με βλέπει η Μαρία, όχι ο Νίκος.",
+        "B": "Ο Νίκος βλέπει τη Μαρία.",
+        "C": "Βλέπω τον Νίκο, όχι τη Μαρία.",
+        "D": "Βλέπω τη Μαρία, όχι τον Νίκο."
+      },
+      "correct_option": "D",
+      "explanation": "Βλέπω means I see. Τη Μαρία and τον Νίκο are object forms, and όχι corrects which object is intended."
+    },
+    {
+      "number": 67,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nWhere is the cat? It is not here.\nAnswer: ____\n```",
+      "options": {
+        "A": "Πού είναι η γάτα; Δεν είναι εδώ.",
+        "B": "Εδώ είναι η γάτα; Δεν είναι εκεί.",
+        "C": "Πού είναι ο σκύλος; Δεν είναι εδώ.",
+        "D": "Πού είναι η γάτα; Είναι εδώ."
+      },
+      "correct_option": "A",
+      "explanation": "Πού asks where, and δεν είναι εδώ rejects the location here."
+    },
+    {
+      "number": 68,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Choose the standard spelling of with stress on the penultimate syllable.\n\n```text\nlemon\nAnswer: ____\n```",
+      "options": {
+        "A": "λέμονι",
+        "B": "λεμόνι",
+        "C": "λεμονί",
+        "D": "λεμώνι"
+      },
+      "correct_option": "B",
+      "explanation": "Λεμόνι (lemóni) is the spelling. Its stressed ο is in the second-to-last syllable."
+    },
+    {
+      "number": 69,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A card counts vowel letters minus vowel sounds. In “και”, αι contributes $2-1=1$. Which stressed pair in “είμαι” contributes the same difference at the beginning of the word?",
+      "options": {
+        "A": "αι",
+        "B": "ε and α",
+        "C": "ί and ι",
+        "D": "εί"
+      },
+      "correct_option": "D",
+      "explanation": "In είμαι (íme), initial εί represents one /i/ sound and the accent marks that pair. The final unstressed αι separately represents one /e/ sound."
+    },
+    {
+      "number": 70,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Compare “παϊδάκι” with a spelling that removed the diaeresis. The original keeps $1+1$ vowel sounds across αϊ, rather than treating αι as one. Which reading preserves the original?",
+      "options": {
+        "A": "Read α and ϊ separately.",
+        "B": "Read the pair as /e/.",
+        "C": "Skip α and read only ϊ.",
+        "D": "Keep α and drop ϊ."
+      },
+      "correct_option": "A",
+      "explanation": "The diaeresis on ϊ preserves two vowel sounds in πα-ϊ-δά-κι (païdáki)."
+    },
+    {
+      "number": 71,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A handwriting check gives one point for the correct initial of “φως” and one for the correct final sigma. Which spelling earns $1+1$ points?",
+      "options": {
+        "A": "φωσ",
+        "B": "φως",
+        "C": "βως",
+        "D": "βωσ"
+      },
+      "correct_option": "B",
+      "explanation": "Φως (fos) starts with φ for /f/ and ends with lowercase final ς."
+    },
+    {
+      "number": 72,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "For “αύριο” and “αυτό”, a reading rubric gives $1$ point per correctly decoded αυ pair. Which sequence earns $1+1$ points, in that order?",
+      "options": {
+        "A": "/af/, /av/",
+        "B": "/av/, /av/",
+        "C": "/av/, /af/",
+        "D": "/au/, /au/"
+      },
+      "correct_option": "C",
+      "explanation": "In αύριο (ávrio), αυ precedes voiced ρ and sounds /av/. In αυτό (aftó), it precedes voiceless τ and sounds /af/."
+    },
+    {
+      "number": 73,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "In “Πού πας;”, why is the accent on “Πού” useful?",
+      "options": {
+        "A": "It marks the interrogative word meaning where.",
+        "B": "It makes που a plural article.",
+        "C": "It indicates that the sentence is a command.",
+        "D": "It changes the verb to the past."
+      },
+      "correct_option": "A",
+      "explanation": "Interrogative πού (pú) is accented. Unaccented που has other uses, such as introducing a relative clause."
+    },
+    {
+      "number": 74,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which analysis correctly separates script and grammar in “η Μαρία” and “οι φίλοι”?",
+      "options": {
+        "A": "Both articles are masculine singular.",
+        "B": "The articles can sound alike, but η is feminine singular and οι is plural here.",
+        "C": "Both articles use the same letters, but their sounds differ.",
+        "D": "Η is plural and οι is a feminine singular object article."
+      },
+      "correct_option": "B",
+      "explanation": "Η and οι both sound like /i/. The article spelling signals different grammatical forms."
+    },
+    {
+      "number": 75,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A note says “Ο Νίκος βλέπει τη Μαρία και η Μαρία βλέπει τον Νίκο.” What changes after και?",
+      "options": {
+        "A": "Nikos stops seeing anyone.",
+        "B": "The verb changes to past tense.",
+        "C": "The subject and object swap roles.",
+        "D": "The second clause only describes Nikos's location."
+      },
+      "correct_option": "C",
+      "explanation": "Ο Νίκος and η Μαρία are subject forms in different clauses. The accusative forms identify the objects."
+    },
+    {
+      "number": 76,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner says that the accent in “γάτα” is an extra letter. Which analysis is accurate?",
+      "options": {
+        "A": "It represents a consonant after γ.",
+        "B": "It changes α into two separate vowels.",
+        "C": "It indicates that the noun is plural.",
+        "D": "It marks stress on the first vowel and adds no letter."
+      },
+      "correct_option": "D",
+      "explanation": "Γάτα (gáta) has four letters. The accent on ά gives the stressed vowel."
+    },
+    {
+      "number": 77,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A learner types “σπίτισ” for a word whose intended final sound is /s/. Which edit fixes only sigma placement?",
+      "options": {
+        "A": "Change the last σ to ς.",
+        "B": "Change the first σ to ς.",
+        "C": "Replace both sigmas with ς.",
+        "D": "Replace the last σ with ζ."
+      },
+      "correct_option": "A",
+      "explanation": "In lowercase, sigma uses σ before other letters and ς at the end of a word."
+    },
+    {
+      "number": 78,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which comparison correctly illustrates how two spellings can share a Modern Greek vowel sound?",
+      "options": {
+        "A": "Α and ε both represent /a/.",
+        "B": "Ο and ω both represent /o/.",
+        "C": "Ο and ου both represent /u/.",
+        "D": "Η and ω both represent /i/."
+      },
+      "correct_option": "B",
+      "explanation": "Omicron and omega both represent /o/ in Modern Greek. The spelling still differs."
+    },
+    {
+      "number": 79,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What is the effect of changing “Ο μαθητής γράφει” to “Ο μαθητής γράφει;” in dialogue?",
+      "options": {
+        "A": "It changes the student from singular to plural.",
+        "B": "It changes writing to reading.",
+        "C": "It changes a statement into a yes/no question.",
+        "D": "It makes the statement negative."
+      },
+      "correct_option": "C",
+      "explanation": "The Greek question mark and spoken intonation can signal the question without changing the word order."
+    },
+    {
+      "number": 80,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which response answers both parts of “Ποιος γράφει και πού;” if Nikos is writing at home?",
+      "options": {
+        "A": "Ο Νίκος γράφει.",
+        "B": "Στο σπίτι.",
+        "C": "Η Μαρία διαβάζει στο σχολείο.",
+        "D": "Ο Νίκος γράφει στο σπίτι."
+      },
+      "correct_option": "D",
+      "explanation": "Ποιος asks for the person, and πού asks for the place. Ο Νίκος and στο σπίτι provide both."
+    }
+  ]
+}

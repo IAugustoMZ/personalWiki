@@ -1,0 +1,1224 @@
+{
+  "registration_authorization": "User requested generation and direct registration of all 80 questions.",
+  "registered_on": "2026-11-23",
+  "registered_question_ids": [
+    2101,
+    2102,
+    2103,
+    2104,
+    2105,
+    2106,
+    2107,
+    2108,
+    2109,
+    2110,
+    2111,
+    2112,
+    2113,
+    2114,
+    2115,
+    2116,
+    2117,
+    2118,
+    2119,
+    2120,
+    2121,
+    2122,
+    2123,
+    2124,
+    2125,
+    2126,
+    2127,
+    2128,
+    2129,
+    2130,
+    2131,
+    2132,
+    2133,
+    2134,
+    2135,
+    2136,
+    2137,
+    2138,
+    2139,
+    2140,
+    2141,
+    2142,
+    2143,
+    2144,
+    2145,
+    2146,
+    2147,
+    2148,
+    2149,
+    2150,
+    2151,
+    2152,
+    2153,
+    2154,
+    2155,
+    2156,
+    2157,
+    2158,
+    2159,
+    2160,
+    2161,
+    2162,
+    2163,
+    2164,
+    2165,
+    2166,
+    2167,
+    2168,
+    2169,
+    2170,
+    2171,
+    2172,
+    2173,
+    2174,
+    2175,
+    2176,
+    2177,
+    2178,
+    2179,
+    2180
+  ],
+  "topic": {
+    "subsubcategory_id": 46,
+    "name": "Italian",
+    "category": "Foreign Languages",
+    "subcategory": "Latin languages"
+  },
+  "source_folder": "languages/italian",
+  "duolingo_path": {
+    "unit_start": 22,
+    "unit_end": 22,
+    "section": 2,
+    "first_unit": 12,
+    "base_language": "Portuguese",
+    "course_map": "https://duolingodata.com/dat/itfpt1030.html",
+    "official_reference": "https://blog.duolingo.com/how-to-review-lessons-on-duolingo/"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Which article completes “____ problema è urgente”?",
+      "options": {
+        "A": "Il",
+        "B": "Lo",
+        "C": "La",
+        "D": "L'"
+      },
+      "correct_option": "A",
+      "explanation": "Masculine definite article: problema is masculine despite its -a ending. Compare il programma."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Choose the singular verb in “La stampante non ____”.",
+      "options": {
+        "A": "funzionano",
+        "B": "funziona",
+        "C": "funzioni",
+        "D": "funzioniamo"
+      },
+      "correct_option": "B",
+      "explanation": "Present tense of funzionare: a singular third-person subject takes funziona. Compare Il telefono funziona."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “____ un guasto” to say there is a fault.",
+      "options": {
+        "A": "Ci sono",
+        "B": "Ce ne sono",
+        "C": "C'è",
+        "D": "Sono"
+      },
+      "correct_option": "C",
+      "explanation": "Existential c'è: use it with one item. Compare C'è una perdita."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “La porta è ____” to say the door is broken.",
+      "options": {
+        "A": "rotto",
+        "B": "rotti",
+        "C": "rotte",
+        "D": "rotta"
+      },
+      "correct_option": "D",
+      "explanation": "Adjective agreement: porta is feminine singular. Compare La finestra è rotta."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe elevator is out of order.\nAnswer: ____\n```",
+      "options": {
+        "A": "L'ascensore è al piano terra.",
+        "B": "L'ascensore è fuori servizio.",
+        "C": "La porta dell'ascensore è aperta.",
+        "D": "L'ascensore è libero."
+      },
+      "correct_option": "B",
+      "explanation": "Fuori servizio describes equipment that is unavailable or out of operation."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nI need help.\nAnswer: ____\n```",
+      "options": {
+        "A": "Ho trovato un aiuto.",
+        "B": "Non ho bisogno di aiuto.",
+        "C": "Ho bisogno di aiuto.",
+        "D": "Ti porto aiuto."
+      },
+      "correct_option": "C",
+      "explanation": "Avere bisogno di introduces what someone needs."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nManca la chiave.\nAnswer: ____\n```",
+      "options": {
+        "A": "The key is broken.",
+        "B": "The door is locked.",
+        "C": "The key is inside.",
+        "D": "The key is missing."
+      },
+      "correct_option": "D",
+      "explanation": "Manca means is missing when the subject is singular."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate about a device.\n\n```text\nIt doesn't turn on.\nAnswer: ____\n```",
+      "options": {
+        "A": "Non si accende.",
+        "B": "Non si spegne.",
+        "C": "Non si chiude.",
+        "D": "Non si apre."
+      },
+      "correct_option": "A",
+      "explanation": "Accendersi means to turn on. Spegnersi means to turn off."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "Two broken lamps and one broken lamp give $2+1=3$. Which label reports the total?",
+      "options": {
+        "A": "tre lampade accese",
+        "B": "due lampade rotte",
+        "C": "tre lampade rotte",
+        "D": "quattro lampade rotte"
+      },
+      "correct_option": "C",
+      "explanation": "Tre means three. Lampade rotte means broken lamps."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "At a hotel, one key out of $4$ is missing, so $4-1=3$ keys are present. Which phrase gives the count present?",
+      "options": {
+        "A": "una chiave",
+        "B": "quattro chiavi",
+        "C": "due chiavi",
+        "D": "tre chiavi"
+      },
+      "correct_option": "D",
+      "explanation": "Tre chiavi means three keys. Una chiave refers to one key."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A repair window goes from $9$ to $11$. Which phrase expresses its two-hour length?",
+      "options": {
+        "A": "due ore",
+        "B": "nove ore",
+        "C": "undici ore",
+        "D": "due giorni"
+      },
+      "correct_option": "A",
+      "explanation": "Undici meno nove fa due. Ore are hours and giorni are days."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A delivery has $1+1=2$ damaged boxes. Which report is accurate?",
+      "options": {
+        "A": "Una scatola è aperta.",
+        "B": "Due scatole sono danneggiate.",
+        "C": "Tre scatole sono danneggiate.",
+        "D": "Due scatole sono vuote."
+      },
+      "correct_option": "B",
+      "explanation": "Due gives the count and danneggiate describes the feminine plural scatole."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "A technician writes “guasto”. What is it?",
+      "options": {
+        "A": "A receipt",
+        "B": "A delivery",
+        "C": "A deposit",
+        "D": "A malfunction"
+      },
+      "correct_option": "D",
+      "explanation": "Un guasto is a fault or breakdown in equipment or a system."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “urgente” tell a repair desk?",
+      "options": {
+        "A": "The issue needs prompt attention.",
+        "B": "The device is fixed.",
+        "C": "The caller will pay in cash.",
+        "D": "The request is anonymous."
+      },
+      "correct_option": "A",
+      "explanation": "Urgente describes a matter whose resolution should be prioritized."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "A report says “Non c'è acqua calda.” What is unavailable?",
+      "options": {
+        "A": "Drinking glasses",
+        "B": "Hot water",
+        "C": "Cold water",
+        "D": "A bathroom key"
+      },
+      "correct_option": "B",
+      "explanation": "Acqua calda means hot water. Non c'è signals that it is unavailable."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Who is “il tecnico” in a repair conversation?",
+      "options": {
+        "A": "The receptionist",
+        "B": "The guest",
+        "C": "The technician",
+        "D": "The person who sent the bill"
+      },
+      "correct_option": "C",
+      "explanation": "Tecnico refers to a person with technical expertise."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “una perdita d'acqua” describe?",
+      "options": {
+        "A": "An electric shock",
+        "B": "A power bill",
+        "C": "A missing key",
+        "D": "A water leak"
+      },
+      "correct_option": "D",
+      "explanation": "Perdita means a leak or loss. D'acqua specifies water."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "A window “non si chiude”. What can't it do?",
+      "options": {
+        "A": "Close",
+        "B": "Open",
+        "C": "Lock with a key",
+        "D": "Let in light"
+      },
+      "correct_option": "A",
+      "explanation": "Chiudersi means to close or shut."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What would you ask for with “Può aiutarmi?”",
+      "options": {
+        "A": "Someone's address",
+        "B": "Someone's help",
+        "C": "A price list",
+        "D": "A new invoice"
+      },
+      "correct_option": "B",
+      "explanation": "Aiutarmi means to help me, and Può makes a polite request."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “la presa elettrica” refer to?",
+      "options": {
+        "A": "The light bulb",
+        "B": "The power button",
+        "C": "The electrical outlet",
+        "D": "The remote control"
+      },
+      "correct_option": "C",
+      "explanation": "Presa elettrica is the outlet where a device's plug goes."
+    },
+    {
+      "number": 21,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Which verb completes “Ci ____ due sedie rotte”?",
+      "options": {
+        "A": "è",
+        "B": "sono",
+        "C": "ha",
+        "D": "stanno"
+      },
+      "correct_option": "B",
+      "explanation": "Existential ci sono: use the plural form with a plural subject. Compare Ci sono due finestre aperte."
+    },
+    {
+      "number": 22,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Form a polite question to one clerk: “____ controllare il conto, per favore?”",
+      "options": {
+        "A": "Puoi",
+        "B": "Potete",
+        "C": "Può",
+        "D": "Possiamo"
+      },
+      "correct_option": "C",
+      "explanation": "Formal singular present of potere: use Può with an understood Lei. Compare Può ripetere?"
+    },
+    {
+      "number": 23,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “La lampadina è guasta. Può cambiar____?”",
+      "options": {
+        "A": "lo",
+        "B": "le",
+        "C": "li",
+        "D": "la"
+      },
+      "correct_option": "D",
+      "explanation": "Direct object attachment: la replaces a feminine singular object and attaches to the infinitive after its final -e drops. Compare riparare la porta → ripararla."
+    },
+    {
+      "number": 24,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “Non ____ più corrente” to report that the power has gone out.",
+      "options": {
+        "A": "c'è",
+        "B": "ci sono",
+        "C": "sia",
+        "D": "hanno"
+      },
+      "correct_option": "A",
+      "explanation": "Non … più means no longer. With singular corrente the existential form is c'è. Compare Non c'è più luce."
+    },
+    {
+      "number": 25,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe screen is black.\nAnswer: ____\n```",
+      "options": {
+        "A": "Lo schermo è acceso e mostra un errore.",
+        "B": "La tastiera è bloccata.",
+        "C": "Lo schermo è nero.",
+        "D": "Il cavo è troppo corto."
+      },
+      "correct_option": "C",
+      "explanation": "A black screen can be reported as lo schermo è nero in this context."
+    },
+    {
+      "number": 26,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nIl bagno è allagato.\nAnswer: ____\n```",
+      "options": {
+        "A": "The bathroom is locked.",
+        "B": "The bathroom has no light.",
+        "C": "The bathroom is upstairs.",
+        "D": "The bathroom is flooded."
+      },
+      "correct_option": "D",
+      "explanation": "Allagato means flooded."
+    },
+    {
+      "number": 27,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate to one hotel clerk politely.\n\n```text\nCould you send a technician?\nAnswer: ____\n```",
+      "options": {
+        "A": "Potrebbe mandare un tecnico?",
+        "B": "Potresti chiamare il direttore?",
+        "C": "Potete cambiare la camera?",
+        "D": "Devo chiamare un tecnico?"
+      },
+      "correct_option": "A",
+      "explanation": "Potrebbe is the polite conditional and mandare means to send."
+    },
+    {
+      "number": 28,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe lights keep going out.\nAnswer: ____\n```",
+      "options": {
+        "A": "Le luci non smettono di lampeggiare.",
+        "B": "Le luci continuano a spegnersi.",
+        "C": "Le luci sono tutte accese.",
+        "D": "Le luci si accendono da sole."
+      },
+      "correct_option": "B",
+      "explanation": "Continuare a plus an infinitive describes repeated or ongoing behavior. Spegnersi means to go out."
+    },
+    {
+      "number": 29,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The full order is $8$ items and $5$ arrive. Which complaint matches $8-5$?",
+      "options": {
+        "A": "Manca un articolo.",
+        "B": "Mancano cinque articoli.",
+        "C": "Mancano otto articoli.",
+        "D": "Mancano tre articoli."
+      },
+      "correct_option": "D",
+      "explanation": "Three items are absent, so use tre and the plural mancano."
+    },
+    {
+      "number": 30,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A bill says $27$ euros. The quoted price was $20$ euros. Which line reports the difference $27-20$?",
+      "options": {
+        "A": "Ci sono sette euro in più.",
+        "B": "Ci sono sette euro in meno.",
+        "C": "Ci sono ventisette euro in più.",
+        "D": "Ci sono due euro in più."
+      },
+      "correct_option": "A",
+      "explanation": "In più indicates an excess. Sette euro gives the seven-euro difference."
+    },
+    {
+      "number": 31,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "The screen worked for $15+10=25$ minutes before failing. Which phrase gives the total?",
+      "options": {
+        "A": "da quindici minuti",
+        "B": "per venticinque minuti",
+        "C": "per trentacinque minuti",
+        "D": "per dieci minuti"
+      },
+      "correct_option": "B",
+      "explanation": "Venticinque means 25. Per expresses the duration of the completed interval."
+    },
+    {
+      "number": 32,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A guest tried $3$ keys on each of $2$ doors. If every attempt failed, which phrase matches $3\\times2$ failed attempts?",
+      "options": {
+        "A": "tre chiavi rotte",
+        "B": "due porte aperte",
+        "C": "sei tentativi falliti",
+        "D": "cinque tentativi riusciti"
+      },
+      "correct_option": "C",
+      "explanation": "Sei is six. Tentativi falliti means unsuccessful attempts."
+    },
+    {
+      "number": 33,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A receptionist tells a guest “Le mando qualcuno”. What happens next?",
+      "options": {
+        "A": "The receptionist will send someone to the guest.",
+        "B": "The guest must go downstairs.",
+        "C": "The receptionist will send a bill.",
+        "D": "The guest should call again tomorrow."
+      },
+      "correct_option": "A",
+      "explanation": "Qualcuno means someone. Le addresses the guest as the recipient."
+    },
+    {
+      "number": 34,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the practical distinction between “rotto” and “spento” when describing a device?",
+      "options": {
+        "A": "Both necessarily mean it needs replacement.",
+        "B": "Rotto says it is broken. Spento says it is off.",
+        "C": "Spento means it is leaking. Rotto means it is locked.",
+        "D": "Rotto describes a missing device. Spento describes a loud one."
+      },
+      "correct_option": "B",
+      "explanation": "A device can be spento simply because someone turned it off. Rotto describes a physical or operational fault."
+    },
+    {
+      "number": 35,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A courier hears “Ho ricevuto il pacco sbagliato.” What went wrong?",
+      "options": {
+        "A": "The parcel did not arrive.",
+        "B": "The box arrived open.",
+        "C": "The wrong package arrived.",
+        "D": "The parcel was delivered twice."
+      },
+      "correct_option": "C",
+      "explanation": "Sbagliato means wrong. Ho ricevuto confirms that something was received."
+    },
+    {
+      "number": 36,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the best report if a machine works occasionally but fails at other times?",
+      "options": {
+        "A": "È sempre acceso.",
+        "B": "Funziona senza problemi.",
+        "C": "È stato sostituito.",
+        "D": "Funziona a intermittenza."
+      },
+      "correct_option": "D",
+      "explanation": "A intermittenza describes operation that starts and stops."
+    },
+    {
+      "number": 37,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "A landlord says “Purtroppo oggi non riesco a passare.” What are they saying?",
+      "options": {
+        "A": "Unfortunately, they can't come by today.",
+        "B": "They visited earlier today.",
+        "C": "They will definitely come today.",
+        "D": "They need the tenant to leave today."
+      },
+      "correct_option": "A",
+      "explanation": "Passare can mean to come by. Non riesco a expresses inability in the circumstances."
+    },
+    {
+      "number": 38,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which phrase asks for the clerk to look over an itemized restaurant bill because something seems off?",
+      "options": {
+        "A": "Può portare un altro menu?",
+        "B": "Può dare un'occhiata al conto?",
+        "C": "Posso pagare in contanti?",
+        "D": "Mi fa una ricevuta nuova?"
+      },
+      "correct_option": "B",
+      "explanation": "Dare un'occhiata means to take a look, and conto means the bill in this context."
+    },
+    {
+      "number": 39,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the symptom in “Sento odore di bruciato”?",
+      "options": {
+        "A": "The caller hears a ringing noise.",
+        "B": "The room feels cold.",
+        "C": "There is a burning smell.",
+        "D": "There is standing water."
+      },
+      "correct_option": "C",
+      "explanation": "Odore di bruciato is the smell of something burnt or burning."
+    },
+    {
+      "number": 40,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "The hotline says “Resti in linea”. What should the caller do?",
+      "options": {
+        "A": "Hang up.",
+        "B": "Unplug the device.",
+        "C": "Walk to the service counter.",
+        "D": "Stay on the line."
+      },
+      "correct_option": "D",
+      "explanation": "In linea means on the phone line. Resti is a polite instruction."
+    },
+    {
+      "number": 41,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Which form reports the continuing condition in “Il riscaldamento è guasto ____ ieri”?",
+      "options": {
+        "A": "per",
+        "B": "tra",
+        "C": "da",
+        "D": "fino a"
+      },
+      "correct_option": "C",
+      "explanation": "Da with a present state marks its starting point and says it continues now. Compare La spia è accesa da stamattina."
+    },
+    {
+      "number": 42,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “I cavi si sono ____ durante il trasporto”.",
+      "options": {
+        "A": "danneggiate",
+        "B": "danneggiato",
+        "C": "danneggiata",
+        "D": "danneggiati"
+      },
+      "correct_option": "D",
+      "explanation": "Past participle agreement with essere: cavi is masculine plural. Compare Le prese si sono danneggiate."
+    },
+    {
+      "number": 43,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “La porta ____ chiude e il coperchio ____ apre” using two negative pronominal verbs.",
+      "options": {
+        "A": "non si / non si",
+        "B": "non / non si",
+        "C": "si non / non si",
+        "D": "non le / si non"
+      },
+      "correct_option": "A",
+      "explanation": "Negation with a clitic places non before si and the verb. Compare Il coperchio non si apre."
+    },
+    {
+      "number": 44,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “Per far ripartire il modem ____ alcuni minuti”.",
+      "options": {
+        "A": "ci vuole",
+        "B": "ci vogliono",
+        "C": "ne vuole",
+        "D": "si vuole"
+      },
+      "correct_option": "B",
+      "explanation": "Ci vuole versus ci vogliono: the verb agrees with the required quantity. Compare Ci vuole un minuto."
+    },
+    {
+      "number": 45,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nIt turns on, but the display stays dark.\nAnswer: ____\n```",
+      "options": {
+        "A": "Si spegne quando si illumina il display.",
+        "B": "Il display si accende e poi resta luminoso.",
+        "C": "Lo schermo si ripara quando lo accendo.",
+        "D": "Si accende, ma il display resta nero."
+      },
+      "correct_option": "D",
+      "explanation": "Ma introduces the contrast. Resta nero identifies the continuing screen symptom."
+    },
+    {
+      "number": 46,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nAbbiamo già provato a riavviarlo.\nAnswer: ____\n```",
+      "options": {
+        "A": "We have already tried restarting it.",
+        "B": "We still have to restart it.",
+        "C": "We have already replaced it.",
+        "D": "We could not reach the repair desk."
+      },
+      "correct_option": "A",
+      "explanation": "Già means already. Riavviarlo means to restart it."
+    },
+    {
+      "number": 47,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe problem occurs only when the tap is open.\nAnswer: ____\n```",
+      "options": {
+        "A": "Il problema si risolve se il rubinetto è aperto.",
+        "B": "Il problema si verifica solo quando il rubinetto è aperto.",
+        "C": "Il rubinetto non si apre mai.",
+        "D": "Il problema si verifica anche a rubinetto chiuso."
+      },
+      "correct_option": "B",
+      "explanation": "Si verifica means occurs and solo quando sets the condition."
+    },
+    {
+      "number": 48,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nLa lavatrice perde dal retro.\nAnswer: ____\n```",
+      "options": {
+        "A": "The washing machine is missing a rear panel.",
+        "B": "The washing machine leaks from the front.",
+        "C": "The washing machine leaks from the back.",
+        "D": "There is a noise behind the washing machine."
+      },
+      "correct_option": "C",
+      "explanation": "Perde means is leaking here. Dal retro identifies the point of origin."
+    },
+    {
+      "number": 49,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A lamp flickers $4$ times in the first minute and $7$ in the second. Which Italian log gives $4+7$ flashes?",
+      "options": {
+        "A": "La luce ha lampeggiato undici volte.",
+        "B": "La luce ha lampeggiato quattro volte.",
+        "C": "La luce si è spenta per sette minuti.",
+        "D": "La luce ha lampeggiato quattordici volte."
+      },
+      "correct_option": "A",
+      "explanation": "Undici is 11. Volte counts occurrences, whereas minuti measures time."
+    },
+    {
+      "number": 50,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "The visit was booked for $14{:}20$ but began at $14{:}55$. Which message expresses the difference of 35 minutes?",
+      "options": {
+        "A": "Il tecnico è arrivato trentacinque minuti prima.",
+        "B": "Il tecnico è arrivato con trentacinque minuti di ritardo.",
+        "C": "L'intervento è durato quindici minuti.",
+        "D": "Il tecnico ha anticipato l'appuntamento di venti minuti."
+      },
+      "correct_option": "B",
+      "explanation": "Con … di ritardo describes arrival after the scheduled time."
+    },
+    {
+      "number": 51,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "An invoice includes $2$ identical unrequested services of $9$ euros each. Which phrase identifies the charge $2\\times9$ to dispute?",
+      "options": {
+        "A": "Nove euro per un servizio richiesto.",
+        "B": "Venti euro per due ricambi mancanti.",
+        "C": "Diciotto euro per due servizi non richiesti.",
+        "D": "Due euro per nove servizi ricevuti."
+      },
+      "correct_option": "C",
+      "explanation": "Diciotto is 18. Non richiesti means the services were not requested."
+    },
+    {
+      "number": 52,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "One report covers $12$ windows. Exactly $12-8$ work correctly. Which sentence reports the working ones?",
+      "options": {
+        "A": "Otto finestre funzionano.",
+        "B": "Quattro finestre sono bloccate.",
+        "C": "Tutte le finestre funzionano.",
+        "D": "Quattro finestre funzionano."
+      },
+      "correct_option": "D",
+      "explanation": "Quattro is four and funzionano describes the working windows."
+    },
+    {
+      "number": 53,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Someone writes “La caldaia parte, poi si blocca.” What should the technician investigate?",
+      "options": {
+        "A": "A boiler that never starts.",
+        "B": "A boiler that starts and then stops or locks up.",
+        "C": "A blocked front door.",
+        "D": "A boiler that runs continuously."
+      },
+      "correct_option": "B",
+      "explanation": "Parte reports successful startup. Poi si blocca gives the next event."
+    },
+    {
+      "number": 54,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "An agent asks “Succede anche quando è collegato alla presa?” What are they trying to isolate?",
+      "options": {
+        "A": "Whether the customer tried two different addresses.",
+        "B": "Whether the screen is under warranty.",
+        "C": "Whether the symptom also occurs when the device is plugged in.",
+        "D": "Whether the problem occurs during delivery."
+      },
+      "correct_option": "C",
+      "explanation": "Anche quando asks whether the condition still holds in another operating state."
+    },
+    {
+      "number": 55,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A technician writes “Non ho ancora individuato la causa.” What remains open?",
+      "options": {
+        "A": "The technician has not arrived.",
+        "B": "The repair has already been verified.",
+        "C": "The technician found a manufacturing defect.",
+        "D": "The cause has not been identified yet."
+      },
+      "correct_option": "D",
+      "explanation": "Non … ancora means not yet. Individuare la causa means to identify the cause."
+    },
+    {
+      "number": 56,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which status distinguishes repairing a fault from merely reporting it?",
+      "options": {
+        "A": "Il guasto è stato riparato.",
+        "B": "Ho segnalato il guasto.",
+        "C": "Il guasto è da controllare.",
+        "D": "Il guasto è stato registrato."
+      },
+      "correct_option": "A",
+      "explanation": "È stato riparato says repair is complete. Segnalato and registrato only describe communication or logging."
+    },
+    {
+      "number": 57,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Read “Fa rumore anche da spento.” When can the sound be heard?",
+      "options": {
+        "A": "Only while the device is powering on.",
+        "B": "Even while the device is off.",
+        "C": "Only after someone unplugs it.",
+        "D": "Only while it is moving."
+      },
+      "correct_option": "B",
+      "explanation": "Da spento describes the state in which the sound occurs, and anche means even or also."
+    },
+    {
+      "number": 58,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "An operator proposes “Spegnerlo e riaccenderlo”. What sequence is requested?",
+      "options": {
+        "A": "Disconnect it and replace the battery.",
+        "B": "Open it and remove a component.",
+        "C": "Turn it off and turn it on again.",
+        "D": "Leave it powered on and wait."
+      },
+      "correct_option": "C",
+      "explanation": "Spegnere is to turn off. Riaccendere is to turn on again."
+    },
+    {
+      "number": 59,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A report says “La chiave entra, ma non gira.” Which specific observation does this give?",
+      "options": {
+        "A": "The key cannot enter the lock at all.",
+        "B": "The key turns but the door will not swing open.",
+        "C": "The key was lost before use.",
+        "D": "The key fits into the lock but will not turn."
+      },
+      "correct_option": "D",
+      "explanation": "Entra describes insertion and non gira identifies where the action fails."
+    },
+    {
+      "number": 60,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "What does “Il guasto riguarda soltanto questa stanza” establish?",
+      "options": {
+        "A": "The fault affects only this room.",
+        "B": "The fault affects every room on the floor.",
+        "C": "The fault affects the hall outside this room.",
+        "D": "The fault was resolved in this room."
+      },
+      "correct_option": "A",
+      "explanation": "Riguardare identifies the affected scope. Soltanto narrows it."
+    },
+    {
+      "number": 61,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which phrase completes “Abbiamo trovato due cavi guasti e ____ abbiamo sostituito uno”?",
+      "options": {
+        "A": "li",
+        "B": "lo",
+        "C": "ci",
+        "D": "ne"
+      },
+      "correct_option": "D",
+      "explanation": "Partitive ne refers to the set from which a quantity is taken. Compare Delle tre chiavi, ne manca una."
+    },
+    {
+      "number": 62,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the polite affirmative command “____ il cavo prima di uscire”, addressed to one client with Lei.",
+      "options": {
+        "A": "Scolleghi",
+        "B": "Scollega",
+        "C": "Scollegate",
+        "D": "Scollego"
+      },
+      "correct_option": "A",
+      "explanation": "Formal singular imperative: -are verbs use the corresponding present subjunctive ending -i. Compare Controlli la presa."
+    },
+    {
+      "number": 63,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete “Vorrei sapere ____ il ricambio è già arrivato”.",
+      "options": {
+        "A": "che",
+        "B": "se",
+        "C": "chi",
+        "D": "dove"
+      },
+      "correct_option": "B",
+      "explanation": "Indirect yes/no questions use se, meaning whether. Compare Non so se il tecnico è libero."
+    },
+    {
+      "number": 64,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Which form completes the object-first update “Le lampade rotte? Le hanno già ____”?",
+      "options": {
+        "A": "sostituito",
+        "B": "sostituiti",
+        "C": "sostituite",
+        "D": "sostituita"
+      },
+      "correct_option": "C",
+      "explanation": "Past participle agreement with a preceding direct object clitic: le is feminine plural. Compare Le chiavi? Le ho trovate."
+    },
+    {
+      "number": 65,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nIf the error reappears, tell us which light is flashing.\nAnswer: ____\n```",
+      "options": {
+        "A": "Se l'errore ricompare, ci dica quale spia lampeggia.",
+        "B": "Se la spia si spegne, ci dica quale errore è sparito.",
+        "C": "Quando il tecnico arriva, spegniamo la spia.",
+        "D": "Se l'errore ricompare, non controlli la spia."
+      },
+      "correct_option": "A",
+      "explanation": "Ricompare indicates recurrence. Ci dica is a polite request and spia is an indicator light."
+    },
+    {
+      "number": 66,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nPossiamo aprire la porta soltanto dall'interno.\nAnswer: ____\n```",
+      "options": {
+        "A": "We can open the door only from the outside.",
+        "B": "We can open the door only from the inside.",
+        "C": "We cannot open the door from either side.",
+        "D": "We can open the window from the inside."
+      },
+      "correct_option": "B",
+      "explanation": "Soltanto limits the possibility. Dall'interno means from inside."
+    },
+    {
+      "number": 67,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe previous repair did not solve the problem.\nAnswer: ____\n```",
+      "options": {
+        "A": "Il prossimo intervento risolverà il problema.",
+        "B": "La riparazione precedente ha risolto il problema.",
+        "C": "La riparazione precedente non ha risolto il problema.",
+        "D": "Il problema è iniziato dopo il controllo."
+      },
+      "correct_option": "C",
+      "explanation": "Precedente refers to an earlier action and non ha risolto denies resolution."
+    },
+    {
+      "number": 68,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nMi conferma che non ci saranno costi aggiuntivi?\nAnswer: ____\n```",
+      "options": {
+        "A": "Can you tell me how much the extra charge is?",
+        "B": "Can you confirm that there were additional charges?",
+        "C": "Can I pay the extra charges later?",
+        "D": "Can you confirm that there will be no additional charges?"
+      },
+      "correct_option": "D",
+      "explanation": "Non ci saranno gives a future absence. Costi aggiuntivi are extra charges."
+    },
+    {
+      "number": 69,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A meter was read at $36$ units, then at $41$, while every tap was closed. Which line conveys the increase and the condition?",
+      "options": {
+        "A": "Il contatore è sceso di cinque unità con i rubinetti aperti.",
+        "B": "Il contatore è salito di cinque unità con tutti i rubinetti chiusi.",
+        "C": "Il contatore è rimasto fermo a quarantuno.",
+        "D": "Cinque rubinetti erano aperti e il contatore era fermo."
+      },
+      "correct_option": "B",
+      "explanation": "The change is $41-36=5$. Con tutti i rubinetti chiusi preserves the diagnostic condition."
+    },
+    {
+      "number": 70,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Two earlier repair visits cost $35$ euros each, and a third cost $20$. Which phrase states the total already paid, $2\\times35+20$?",
+      "options": {
+        "A": "Devo pagare novanta euro per due interventi.",
+        "B": "Ho già pagato settanta euro per tre interventi.",
+        "C": "Ho già pagato novanta euro per tre interventi.",
+        "D": "Ho pagato venti euro in tutto."
+      },
+      "correct_option": "C",
+      "explanation": "Novanta is 90. Già pagato states that the amount has already been paid."
+    },
+    {
+      "number": 71,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A fault occurred in $3$ of $12$ tests. Which line gives the share $3/12=1/4$ accurately?",
+      "options": {
+        "A": "Il guasto si è verificato in metà delle prove.",
+        "B": "Il guasto si è verificato in tre quarti delle prove.",
+        "C": "Il guasto si è verificato in tutte le prove.",
+        "D": "Il guasto si è verificato in un quarto delle prove."
+      },
+      "correct_option": "D",
+      "explanation": "Un quarto means one quarter. It gives the same rate as three occurrences across twelve tests."
+    },
+    {
+      "number": 72,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A service promises a reply within $24$ hours. It answers $31$ hours after the report. Which wording gives the overrun of $31-24$ hours?",
+      "options": {
+        "A": "La risposta è arrivata sette ore oltre il termine.",
+        "B": "La risposta è arrivata sette ore prima del termine.",
+        "C": "La risposta è arrivata entro sette ore dalla segnalazione.",
+        "D": "La risposta è arrivata ventiquattro ore oltre il termine."
+      },
+      "correct_option": "A",
+      "explanation": "Sette is seven. Oltre il termine expresses time beyond the promised limit."
+    },
+    {
+      "number": 73,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which report gives a verifiable trigger and symptom without claiming an untested cause?",
+      "options": {
+        "A": "Il cavo è certamente difettoso.",
+        "B": "Il produttore ha montato la scheda sbagliata.",
+        "C": "Lo schermo si spegne ogni volta che collego il cavo.",
+        "D": "La batteria è sicuramente guasta."
+      },
+      "correct_option": "C",
+      "explanation": "Ogni volta che specifies when the failure can be reproduced. The sentence only states the observed behavior."
+    },
+    {
+      "number": 74,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What is the difference between “Non risulta aperta alcuna pratica” and a claim that the repair is finished?",
+      "options": {
+        "A": "The first confirms the repair was tested.",
+        "B": "The first promises a technician today.",
+        "C": "The first means an open case was escalated.",
+        "D": "The first says no case appears to be open in the records."
+      },
+      "correct_option": "D",
+      "explanation": "Risulta refers to available information or records. Alcuna after the negative means any."
+    },
+    {
+      "number": 75,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which written request asks the recipient to acknowledge a fault report without asking them to confirm a repair?",
+      "options": {
+        "A": "Le chiedo di confermare la ricezione della segnalazione.",
+        "B": "Le chiedo quando ha completato la riparazione.",
+        "C": "Le confermo che il problema è risolto.",
+        "D": "Può attestare che l'apparecchio funziona?"
+      },
+      "correct_option": "A",
+      "explanation": "Confermare la ricezione means to acknowledge receipt. Segnalazione is the report."
+    },
+    {
+      "number": 76,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A service record says “Intervento sospeso in attesa del ricambio.” What is the best reading?",
+      "options": {
+        "A": "The part has arrived and the equipment passed testing.",
+        "B": "The repair visit or work is on hold pending a replacement part.",
+        "C": "The customer has cancelled permanently.",
+        "D": "The repair was refused because the warranty expired."
+      },
+      "correct_option": "B",
+      "explanation": "In attesa del ricambio identifies what must arrive before work can proceed."
+    },
+    {
+      "number": 77,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "The technician says “Non siamo riusciti a riprodurre il difetto.” What does this establish?",
+      "options": {
+        "A": "The customer never observed a fault.",
+        "B": "The appliance was definitely fixed.",
+        "C": "Their attempts did not reproduce the fault.",
+        "D": "The problem always occurs when tested."
+      },
+      "correct_option": "C",
+      "explanation": "Riprodurre il difetto refers to making the symptom happen under test conditions."
+    },
+    {
+      "number": 78,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which sentence asks a service desk for a workaround while awaiting repair?",
+      "options": {
+        "A": "Quando è stato fabbricato?",
+        "B": "Ci invia il conto finale?",
+        "C": "Può annullare definitivamente l'intervento?",
+        "D": "C'è un modo per usarlo nel frattempo?"
+      },
+      "correct_option": "D",
+      "explanation": "Nel frattempo means in the meantime. The question asks about continued use during the wait."
+    },
+    {
+      "number": 79,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What commitment does “Le faremo sapere non appena avremo novità” make?",
+      "options": {
+        "A": "They will update the customer as soon as there is news.",
+        "B": "They guarantee a repair by tomorrow.",
+        "C": "They agree to a refund now.",
+        "D": "They will open a case only if asked again."
+      },
+      "correct_option": "A",
+      "explanation": "Fare sapere is to let someone know. Non appena connects the update to the availability of news."
+    },
+    {
+      "number": 80,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "What distinction does “Il servizio è stato ripristinato, ma la causa è ancora in verifica” communicate?",
+      "options": {
+        "A": "The root cause is confirmed, and service remains unavailable.",
+        "B": "Service is back, and the cause is still being investigated.",
+        "C": "A replacement device is on its way.",
+        "D": "The repair is cancelled because no fault exists."
+      },
+      "correct_option": "B",
+      "explanation": "Ripristinato means restored. In verifica indicates that the cause is still being checked."
+    }
+  ]
+}

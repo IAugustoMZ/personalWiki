@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Pequenas sessões, revisão constante e vocabulário em contexto.</strong><br>
-  Registros de estudo para espanhol, inglês, francês, italiano, alemão, chinês e japonês.
+  Registros de estudo para espanhol, inglês, francês, italiano, alemão, chinês, japonês, latim e grego moderno.
 </p>
 
 <p align="center">
@@ -18,9 +18,11 @@
 | **English · Inglês** | [Abrir notas](english/00_lan_eng_10112026.md) | Duolingo, níveis 1–45 |
 | **中文 · Chinês** | [Abrir notas](chinese/00_lan_chn_10082026.md) | Duolingo, níveis 1–9 (com gramática) |
 | **Français · Francês** | [Abrir notas](french/00_lan_fra_10112026.md) | Duolingo, níveis 1–24 |
-| **Italiano** | [Abrir notas](italian/00_lan_ita_10112026.md) | Duolingo, níveis 1–21 |
+| **Italiano** | [Abrir notas](italian/00_lan_ita_10112026.md) | Duolingo, níveis 1–22 |
 | **Deutsch · Alemão** | [Abrir notas](german/00_lan_deu_10112026.md) | Duolingo, níveis 1–23 |
 | **日本語 · Japonês** | [Abrir notas](japanese/00_lan_jpn_10082026.md) | Duolingo, níveis 1–10 (com rōmaji) |
+| **Latim** | [Abrir notas](latin/README.md) | Duolingo, unidades 1–5 |
+| **Ελληνικά · Grego moderno** | [Abrir notas](greek/README.md) | Duolingo, unidades 1–5 |
 
 ## Ciclo de revisão
 
@@ -32,10 +34,10 @@ flowchart LR
     D --> A
 ```
 
-As notas seguem o padrão `NN_lan_<sigla>_DDMMYYYY.md`; as páginas de nível do Duolingo usam `NN_lan_<sigla>_duolingo_level_NN_DDMMYYYY.md`, com uma pasta dedicada para cada idioma. Todo exemplo em escrita não latina traz rōmaji ou pinyin.
+As notas seguem o padrão `NN_lan_<sigla>_DDMMYYYY.md`. As páginas de nível do Duolingo usam `NN_lan_<sigla>_duolingo_level_NN_DDMMYYYY.md`, com uma pasta dedicada para cada idioma. As notas de japonês, chinês e grego incluem romanização nos exemplos.
 
 ## Questões de revisão
 
-Cada idioma tem um banco de 200 perguntas de múltipla escolha (50 por dificuldade: `easy`, `medium`, `hard` e `expert`), com perguntas de código, equação e gramática. Os arquivos estão em [`questions/`](../questions/README.md); o chinês tem duas rodadas e o japonês e o chinês trazem rōmaji e pinyin em todo exemplo.
+O [catálogo de revisão](../questions/README.md) reúne perguntas de múltipla escolha nas dificuldades `easy`, `medium`, `hard` e `expert`. O nível 22 de italiano e as primeiras cinco unidades de latim e grego têm 80 perguntas novas por idioma.
 
 Voltar para a [Personal Knowledge Wiki](../README.md).

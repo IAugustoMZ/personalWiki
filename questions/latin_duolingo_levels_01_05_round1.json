@@ -1,0 +1,1224 @@
+{
+  "registration_authorization": "User requested generation and direct registration of all 80 questions.",
+  "registered_on": "2026-11-23",
+  "registered_question_ids": [
+    2181,
+    2182,
+    2183,
+    2184,
+    2185,
+    2186,
+    2187,
+    2188,
+    2189,
+    2190,
+    2191,
+    2192,
+    2193,
+    2194,
+    2195,
+    2196,
+    2197,
+    2198,
+    2199,
+    2200,
+    2201,
+    2202,
+    2203,
+    2204,
+    2205,
+    2206,
+    2207,
+    2208,
+    2209,
+    2210,
+    2211,
+    2212,
+    2213,
+    2214,
+    2215,
+    2216,
+    2217,
+    2218,
+    2219,
+    2220,
+    2221,
+    2222,
+    2223,
+    2224,
+    2225,
+    2226,
+    2227,
+    2228,
+    2229,
+    2230,
+    2231,
+    2232,
+    2233,
+    2234,
+    2235,
+    2236,
+    2237,
+    2238,
+    2239,
+    2240,
+    2241,
+    2242,
+    2243,
+    2244,
+    2245,
+    2246,
+    2247,
+    2248,
+    2249,
+    2250,
+    2251,
+    2252,
+    2253,
+    2254,
+    2255,
+    2256,
+    2257,
+    2258,
+    2259,
+    2260
+  ],
+  "topic": {
+    "subsubcategory_id": 48,
+    "name": "Latin",
+    "category": "Foreign Languages",
+    "subcategory": "Latin languages"
+  },
+  "source_folder": "languages/latin",
+  "duolingo_path": {
+    "unit_start": 1,
+    "unit_end": 5,
+    "section": 1,
+    "first_unit": 1,
+    "base_language": "English",
+    "course_map": "https://www.duolingodata.com/dat/lafen22v2.html",
+    "official_reference": "https://blog.duolingo.com/latin-alive-and-ready-to-be-learned/"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “Ego ____ discipulus” with the correct form of to be.",
+      "options": {
+        "A": "es",
+        "B": "sum",
+        "C": "est",
+        "D": "sunt"
+      },
+      "correct_option": "B",
+      "explanation": "Present of esse: ego takes sum. Compare Ego magister sum."
+    },
+    {
+      "number": 2,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “Tu ____ puella” with the correct form of to be.",
+      "options": {
+        "A": "sum",
+        "B": "est",
+        "C": "es",
+        "D": "sunt"
+      },
+      "correct_option": "C",
+      "explanation": "Second-person singular esse is es. Compare Tu puer es."
+    },
+    {
+      "number": 3,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “Duae ____ student” with the plural of puella.",
+      "options": {
+        "A": "puella",
+        "B": "puellam",
+        "C": "puellā",
+        "D": "puellae"
+      },
+      "correct_option": "D",
+      "explanation": "First-declension nominative plural: -ae marks the plural subject. Compare duae filiae student."
+    },
+    {
+      "number": 4,
+      "difficulty": "easy",
+      "kind": "grammar",
+      "question_text": "Complete “Marcus ____ habitat” to say Marcus lives in Rome.",
+      "options": {
+        "A": "Romae",
+        "B": "Romam",
+        "C": "Roma",
+        "D": "Romanus"
+      },
+      "correct_option": "A",
+      "explanation": "Locative case: Romae expresses location in Rome. Compare Iulia Romae studet."
+    },
+    {
+      "number": 5,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe boy is sleeping.\nAnswer: ____\n```",
+      "options": {
+        "A": "Puer scribit.",
+        "B": "Puer studet.",
+        "C": "Puer dormit.",
+        "D": "Puella dormit."
+      },
+      "correct_option": "C",
+      "explanation": "Puer means boy. Dormit is the third-person singular of dormire."
+    },
+    {
+      "number": 6,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nUbi habitas?\nAnswer: ____\n```",
+      "options": {
+        "A": "Where does she live?",
+        "B": "What is your name?",
+        "C": "How are you?",
+        "D": "Where do you live?"
+      },
+      "correct_option": "D",
+      "explanation": "Ubi means where. Habitas addresses one person."
+    },
+    {
+      "number": 7,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nA female teacher reads.\nAnswer: ____\n```",
+      "options": {
+        "A": "Magistra legit.",
+        "B": "Magister legit.",
+        "C": "Discipula scribit.",
+        "D": "Magistra dormit."
+      },
+      "correct_option": "A",
+      "explanation": "Magistra is a female teacher. Legit here is the present-tense reads."
+    },
+    {
+      "number": 8,
+      "difficulty": "easy",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe sisters are at home.\nAnswer: ____\n```",
+      "options": {
+        "A": "Soror domi est.",
+        "B": "Sorores domi sunt.",
+        "C": "Fratres domi sunt.",
+        "D": "Sorores Romae sunt."
+      },
+      "correct_option": "B",
+      "explanation": "Sorores is sisters. Domi means at home."
+    },
+    {
+      "number": 9,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A family gains one son after having one, so $1+1=2$ sons. Which phrase matches?",
+      "options": {
+        "A": "duae filiae",
+        "B": "tres filii",
+        "C": "duo fratres",
+        "D": "duo filii"
+      },
+      "correct_option": "D",
+      "explanation": "Duo is the masculine form of two, and filii means sons."
+    },
+    {
+      "number": 10,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A class has $4+1=5$ boys present. Which phrase matches five boys?",
+      "options": {
+        "A": "quinque pueri",
+        "B": "quattuor pueri",
+        "C": "quinque puellae",
+        "D": "tres pueri"
+      },
+      "correct_option": "A",
+      "explanation": "Quinque is five, and pueri means boys."
+    },
+    {
+      "number": 11,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "One female pupil returns home to join two others, so $2+1=3$ female pupils are at home. Which phrase counts them?",
+      "options": {
+        "A": "duae discipulae",
+        "B": "tres discipulae",
+        "C": "tres discipuli",
+        "D": "quinque discipulae"
+      },
+      "correct_option": "B",
+      "explanation": "Tres is three for feminine as well as masculine nouns. Discipulae refers to female pupils."
+    },
+    {
+      "number": 12,
+      "difficulty": "easy",
+      "kind": "equation",
+      "question_text": "A roll call starts with $5$ pupils and $1$ leaves. Choose the Latin cardinal for $5-1=4$.",
+      "options": {
+        "A": "quinque",
+        "B": "tres",
+        "C": "quattuor",
+        "D": "duo"
+      },
+      "correct_option": "C",
+      "explanation": "Quattuor means four. It has the same form with masculine and feminine nouns."
+    },
+    {
+      "number": 13,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which greeting is for one person?",
+      "options": {
+        "A": "Salve!",
+        "B": "Salvete!",
+        "C": "Ubi?",
+        "D": "Minime!"
+      },
+      "correct_option": "A",
+      "explanation": "Salve is a greeting for one addressee. Salvete is for more than one."
+    },
+    {
+      "number": 14,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word means “at home”?",
+      "options": {
+        "A": "bene",
+        "B": "domi",
+        "C": "ubi",
+        "D": "Romae"
+      },
+      "correct_option": "B",
+      "explanation": "Domi is a locative form that means at home."
+    },
+    {
+      "number": 15,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which word means “book” in the phrase “liber novus”?",
+      "options": {
+        "A": "novus",
+        "B": "ludus",
+        "C": "liber",
+        "D": "magister"
+      },
+      "correct_option": "C",
+      "explanation": "Here liber is a noun meaning book. Novus describes it as new."
+    },
+    {
+      "number": 16,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "A student says “Bene me habeo.” How are they doing?",
+      "options": {
+        "A": "Badly",
+        "B": "They are asking where you live.",
+        "C": "They are asking for a book.",
+        "D": "Well"
+      },
+      "correct_option": "D",
+      "explanation": "Bene means well. Me habeo is used here to describe how the speaker is doing."
+    },
+    {
+      "number": 17,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What relationship does “frater” name?",
+      "options": {
+        "A": "Brother",
+        "B": "Father",
+        "C": "Sister",
+        "D": "Mother"
+      },
+      "correct_option": "A",
+      "explanation": "Frater is a brother. Pater is a father."
+    },
+    {
+      "number": 18,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Who is a “discipula”?",
+      "options": {
+        "A": "A female teacher",
+        "B": "A female pupil",
+        "C": "A sister",
+        "D": "A mother"
+      },
+      "correct_option": "B",
+      "explanation": "Discipula is a female student; magistra is a female teacher."
+    },
+    {
+      "number": 19,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "Which activity is expressed by “scribit”?",
+      "options": {
+        "A": "Reading",
+        "B": "Sleeping",
+        "C": "Writing",
+        "D": "Living somewhere"
+      },
+      "correct_option": "C",
+      "explanation": "Scribit means he or she writes. Legit means he or she reads."
+    },
+    {
+      "number": 20,
+      "difficulty": "easy",
+      "kind": "concept",
+      "question_text": "What does “urbs” denote?",
+      "options": {
+        "A": "A family",
+        "B": "A school lesson",
+        "C": "A brother",
+        "D": "A city"
+      },
+      "correct_option": "D",
+      "explanation": "Urbs is the nominative singular for a city."
+    },
+    {
+      "number": 21,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “Quid ____ nomen est?” to ask one person their name.",
+      "options": {
+        "A": "tu",
+        "B": "te",
+        "C": "tibi",
+        "D": "ego"
+      },
+      "correct_option": "C",
+      "explanation": "Dative of possession: tibi means to you. Compare Mihi nomen est Lucia."
+    },
+    {
+      "number": 22,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “In ____ habito” for the country Italy.",
+      "options": {
+        "A": "Italiam",
+        "B": "Italiae",
+        "C": "Italus",
+        "D": "Italia"
+      },
+      "correct_option": "D",
+      "explanation": "Location with in takes the ablative: in Italia. Compare in urbe habito."
+    },
+    {
+      "number": 23,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Complete “Parentes in urbe ____” with the present of habitare.",
+      "options": {
+        "A": "habitant",
+        "B": "habitat",
+        "C": "habitas",
+        "D": "habito"
+      },
+      "correct_option": "A",
+      "explanation": "Third-person plural present of habitare ends in -ant. Compare Filii domi habitant."
+    },
+    {
+      "number": 24,
+      "difficulty": "medium",
+      "kind": "grammar",
+      "question_text": "Choose the form of liber in “Discipula ____ legit”.",
+      "options": {
+        "A": "liber",
+        "B": "librum",
+        "C": "libri",
+        "D": "libro"
+      },
+      "correct_option": "B",
+      "explanation": "Accusative singular of liber is librum, the direct object. Compare Magistra librum legit."
+    },
+    {
+      "number": 25,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nNomen ei est Livia.\nAnswer: ____\n```",
+      "options": {
+        "A": "My name is Livia.",
+        "B": "Your name is Livia.",
+        "C": "Livia is a teacher.",
+        "D": "Her name is Livia."
+      },
+      "correct_option": "D",
+      "explanation": "Ei is the dative of the third person. Livia makes the referent female in this sentence."
+    },
+    {
+      "number": 26,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nJulia studies at home but Marcus sleeps.\nAnswer: ____\n```",
+      "options": {
+        "A": "Iulia domi studet, sed Marcus dormit.",
+        "B": "Iulia domi dormit, sed Marcus studet.",
+        "C": "Iulia Romae studet et Marcus scribit.",
+        "D": "Iulia domi scribit, sed Marcus legit."
+      },
+      "correct_option": "A",
+      "explanation": "Sed means but. Studet and dormit distinguish the two actions."
+    },
+    {
+      "number": 27,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nQuot sorores habes?\nAnswer: ____\n```",
+      "options": {
+        "A": "Where do your sisters live?",
+        "B": "How many sisters do you have?",
+        "C": "How many brothers do you have?",
+        "D": "Who are your sisters?"
+      },
+      "correct_option": "B",
+      "explanation": "Quot asks how many. Habes directs the question to one person."
+    },
+    {
+      "number": 28,
+      "difficulty": "medium",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe female pupils are learning Latin.\nAnswer: ____\n```",
+      "options": {
+        "A": "Discipula linguam Latinam discit.",
+        "B": "Discipulae linguam Latinam docent.",
+        "C": "Discipulae linguam Latinam discunt.",
+        "D": "Discipulae in Italia habitant."
+      },
+      "correct_option": "C",
+      "explanation": "Discunt means they learn. Linguam Latinam is what they learn."
+    },
+    {
+      "number": 29,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A family has $2$ daughters and $3$ sons. Which Latin phrase counts the $2+3$ children?",
+      "options": {
+        "A": "quinque liberi",
+        "B": "quinque filii",
+        "C": "tres liberi",
+        "D": "duae filiae"
+      },
+      "correct_option": "A",
+      "explanation": "Liberi here means children, including both daughters and sons. Filii alone would suggest sons in this contrast."
+    },
+    {
+      "number": 30,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "Among $5$ sisters, $2$ are at home and the others are away. Which line gives the number at home, $2$?",
+      "options": {
+        "A": "Tres sorores domi sunt.",
+        "B": "Duae sorores domi sunt.",
+        "C": "Duo fratres domi sunt.",
+        "D": "Quinque sorores domi sunt."
+      },
+      "correct_option": "B",
+      "explanation": "Duae agrees with feminine sorores. Domi supplies the location."
+    },
+    {
+      "number": 31,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A pupil studies $1$ language at home and another at school. Which phrase gives the $1+1$ languages as the direct object of discit?",
+      "options": {
+        "A": "duae linguae",
+        "B": "duos linguas",
+        "C": "duas linguas",
+        "D": "tres linguas"
+      },
+      "correct_option": "C",
+      "explanation": "The result is two. Duas and linguas both take feminine accusative plural endings."
+    },
+    {
+      "number": 32,
+      "difficulty": "medium",
+      "kind": "equation",
+      "question_text": "A group has $4$ women and $3$ men. Which phrase correctly describes the group whose count is $4-1=3$?",
+      "options": {
+        "A": "tres feminae",
+        "B": "quattuor viri",
+        "C": "duae feminae",
+        "D": "tres viri"
+      },
+      "correct_option": "D",
+      "explanation": "Tres viri means three men. Feminae would refer to women."
+    },
+    {
+      "number": 33,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "In “Romae habitasne?” what does the attached -ne do?",
+      "options": {
+        "A": "It negates the verb.",
+        "B": "It marks a yes/no question.",
+        "C": "It makes the subject plural.",
+        "D": "It changes the verb to the past."
+      },
+      "correct_option": "B",
+      "explanation": "Enclitic -ne can turn a statement into a yes/no question."
+    },
+    {
+      "number": 34,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which answer naturally contradicts “Male te habes?” if you feel well?",
+      "options": {
+        "A": "Ita, male me habeo.",
+        "B": "Salvete, discipuli.",
+        "C": "Minime, bene me habeo.",
+        "D": "Romae habito."
+      },
+      "correct_option": "C",
+      "explanation": "Minime supplies a negative reply. Bene me habeo states the actual condition."
+    },
+    {
+      "number": 35,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "In “Is in urbe habitat; ea domi studet”, who studies?",
+      "options": {
+        "A": "The male person referred to by is.",
+        "B": "Both people.",
+        "C": "The city.",
+        "D": "The female person referred to by ea."
+      },
+      "correct_option": "D",
+      "explanation": "Ea is feminine nominative singular. It is the subject of studet."
+    },
+    {
+      "number": 36,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which answer gives a place rather than a personal name to “Ubi habitat Marcus?”",
+      "options": {
+        "A": "In urbe habitat.",
+        "B": "Marcus est.",
+        "C": "Nomen ei est Marcus.",
+        "D": "Bene se habet."
+      },
+      "correct_option": "A",
+      "explanation": "In urbe means in the city and directly answers ubi."
+    },
+    {
+      "number": 37,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "On a family list, what is the contrast between “filius” and “filia”?",
+      "options": {
+        "A": "A father versus a mother",
+        "B": "A son versus a daughter",
+        "C": "A brother versus a sister",
+        "D": "A pupil versus a teacher"
+      },
+      "correct_option": "B",
+      "explanation": "Both nouns describe a child in relation to a parent. Their endings distinguish the child's gender."
+    },
+    {
+      "number": 38,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "What is the activity in “Litteras Latinas legit”?",
+      "options": {
+        "A": "Teaching a Latin class",
+        "B": "Writing a letter in Greek",
+        "C": "Reading Latin writing or letters",
+        "D": "Going to a school in Rome"
+      },
+      "correct_option": "C",
+      "explanation": "Litteras Latinas is the object of legit, here meaning reads."
+    },
+    {
+      "number": 39,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Which school word can name the school itself in context?",
+      "options": {
+        "A": "lectio",
+        "B": "liber",
+        "C": "lingua",
+        "D": "ludus"
+      },
+      "correct_option": "D",
+      "explanation": "Ludus can mean school in educational contexts. Lectio is a reading or lesson."
+    },
+    {
+      "number": 40,
+      "difficulty": "medium",
+      "kind": "concept",
+      "question_text": "Read “Pueri non dormiunt; student.” What are the boys doing?",
+      "options": {
+        "A": "Studying",
+        "B": "Sleeping",
+        "C": "Greeting their parents",
+        "D": "Moving to another city"
+      },
+      "correct_option": "A",
+      "explanation": "Non denies dormiunt. Student means they study."
+    },
+    {
+      "number": 41,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose the verb in “Magister duos discipulos ____”.",
+      "options": {
+        "A": "docent",
+        "B": "doces",
+        "C": "doceo",
+        "D": "docet"
+      },
+      "correct_option": "D",
+      "explanation": "Subject–verb agreement: magister is the singular subject and discipulos is the plural object. Compare Magistra puellas docet."
+    },
+    {
+      "number": 42,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “Quattuor urbes magnae ____” with the correct form of esse.",
+      "options": {
+        "A": "sunt",
+        "B": "est",
+        "C": "sum",
+        "D": "es"
+      },
+      "correct_option": "A",
+      "explanation": "Third-person plural esse is sunt. The plural urbes determines agreement. Compare Duae urbes sunt."
+    },
+    {
+      "number": 43,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Choose a form for “Magistra linguae Latinae ____” meaning the teacher devotes herself to Latin.",
+      "options": {
+        "A": "discit",
+        "B": "studet",
+        "C": "legit",
+        "D": "scribit"
+      },
+      "correct_option": "B",
+      "explanation": "Dative complement of studere: linguae Latinae fits studet. Compare Discipulus linguae Graecae studet."
+    },
+    {
+      "number": 44,
+      "difficulty": "hard",
+      "kind": "grammar",
+      "question_text": "Complete “Livia ____ bene habet” to say Livia herself is doing well.",
+      "options": {
+        "A": "me",
+        "B": "te",
+        "C": "se",
+        "D": "ei"
+      },
+      "correct_option": "C",
+      "explanation": "Third-person reflexive se refers back to the subject Livia. Compare Marcus bene se habet."
+    },
+    {
+      "number": 45,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nThe teacher teaches the boys, but the girls read at home.\nAnswer: ____\n```",
+      "options": {
+        "A": "Magister pueros docet, sed puellae domi legunt.",
+        "B": "Pueri magistrum docent, sed puellae domi legunt.",
+        "C": "Magister puellas docet, sed pueri domi legunt.",
+        "D": "Magister pueros legit, sed puellae domi docent."
+      },
+      "correct_option": "A",
+      "explanation": "Pueros marks the boys as the object of docet. Puellae is the subject of legunt."
+    },
+    {
+      "number": 46,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate preserving the expected negative answer.\n\n```text\nNum Romae habitat?\nAnswer: ____\n```",
+      "options": {
+        "A": "He lives in Rome, doesn't he?",
+        "B": "Surely he doesn't live in Rome, does he?",
+        "C": "Where in Rome does he live?",
+        "D": "How many live in Rome?"
+      },
+      "correct_option": "B",
+      "explanation": "Num often introduces a yes/no question expecting no. Romae is the location."
+    },
+    {
+      "number": 47,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nTwo of my daughters study, but my son sleeps.\nAnswer: ____\n```",
+      "options": {
+        "A": "Duo filii mei student, sed filia mea dormit.",
+        "B": "Duae filiae meae dormiunt, sed filius meus studet.",
+        "C": "Duae filiae meae student, sed filius meus dormit.",
+        "D": "Filiae tuae student, sed filius tuus dormit."
+      },
+      "correct_option": "C",
+      "explanation": "Meae and meus express my. The verb and noun endings distinguish the plural daughters from the singular son."
+    },
+    {
+      "number": 48,
+      "difficulty": "hard",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nDiscipulos magistra in urbe docet.\nAnswer: ____\n```",
+      "options": {
+        "A": "The pupils teach the female teacher in the city.",
+        "B": "The female teacher reads to the pupils at home.",
+        "C": "The pupils and the teacher live in the city.",
+        "D": "The female teacher teaches the pupils in the city."
+      },
+      "correct_option": "D",
+      "explanation": "The accusative discipulos is fronted. Magistra is the nominative subject, and in urbe is the location."
+    },
+    {
+      "number": 49,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A class lists $2$ female pupils and $3$ male pupils. Which line preserves both groups and the total $2+3=5$?",
+      "options": {
+        "A": "Duo discipuli et tres discipulae sunt.",
+        "B": "Duae discipulae et tres discipuli sunt.",
+        "C": "Duae discipulae et quattuor discipuli sunt.",
+        "D": "Quinque discipulae sunt."
+      },
+      "correct_option": "B",
+      "explanation": "The total is five, and the first group must be feminine duae discipulae."
+    },
+    {
+      "number": 50,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A teacher has $5$ books, lends $2$, then receives $1$. Which phrase gives the remaining direct object of habet for $5-2+1$?",
+      "options": {
+        "A": "quattuor libri",
+        "B": "tres libros",
+        "C": "quattuor libros",
+        "D": "quinque libris"
+      },
+      "correct_option": "C",
+      "explanation": "The teacher has four books after the changes. Habet takes libros in the accusative here."
+    },
+    {
+      "number": 51,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "Two sisters each read three distinct books. If $2\\times3=6$, which sentence attributes all six books to the sisters collectively?",
+      "options": {
+        "A": "Sorores tres libros legunt.",
+        "B": "Sex sorores unum librum legunt.",
+        "C": "Soror sex libros legit.",
+        "D": "Sorores sex libros legunt."
+      },
+      "correct_option": "D",
+      "explanation": "Sex is six. Sorores legunt keeps the subject plural and libros names what they read."
+    },
+    {
+      "number": 52,
+      "difficulty": "hard",
+      "kind": "equation",
+      "question_text": "A set of $2$ cities has $2$ schools per city. Which phrase reports the $2\\times2$ schools as subjects using the plural of ludus?",
+      "options": {
+        "A": "quattuor ludi",
+        "B": "duo ludi",
+        "C": "quattuor ludos",
+        "D": "quattuor urbes"
+      },
+      "correct_option": "A",
+      "explanation": "Quattuor gives four. Ludi is nominative plural, while ludos is accusative plural."
+    },
+    {
+      "number": 53,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which best answers “Quis pueros docet?” when a woman is their teacher?",
+      "options": {
+        "A": "Pueri magistram docent.",
+        "B": "Magistra pueros legit.",
+        "C": "Magistra pueros docet.",
+        "D": "Puer Romae habitat."
+      },
+      "correct_option": "C",
+      "explanation": "Quis asks who performs docet. Magistra is the teacher and subject of the answer."
+    },
+    {
+      "number": 54,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "“Romae” and “in urbe” both answer ubi. What differs in how they express location?",
+      "options": {
+        "A": "Both use an accusative after in.",
+        "B": "Romae is accusative and urbe is nominative.",
+        "C": "In urbe expresses movement into a city.",
+        "D": "Romae uses a locative. In urbe uses a preposition with an ablative."
+      },
+      "correct_option": "D",
+      "explanation": "A city name can take the locative without a preposition. A common noun here uses in with an ablative."
+    },
+    {
+      "number": 55,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which cue shows that “studet” in “Magistra scribit et discipula studet” refers to the pupil?",
+      "options": {
+        "A": "Discipula is the nominative subject of the second verb.",
+        "B": "Et makes both verbs the pupil's actions.",
+        "C": "Magistra is accusative and so cannot be a subject.",
+        "D": "Studet always means a female pupil studies."
+      },
+      "correct_option": "A",
+      "explanation": "The conjunction joins two clauses. Each has its own nominative subject."
+    },
+    {
+      "number": 56,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "A student sees “linguam Latinam discit” and “linguae Latinae studet”. What remains the same?",
+      "options": {
+        "A": "Both use an accusative object.",
+        "B": "Both describe study of Latin.",
+        "C": "Both say that the speaker teaches Latin.",
+        "D": "Both are questions."
+      },
+      "correct_option": "B",
+      "explanation": "Discere can take an accusative object. Studere can take a dative complement for the subject studied."
+    },
+    {
+      "number": 57,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which line refers to where the siblings live, without stating where they happen to be now?",
+      "options": {
+        "A": "Fratres nunc domi sunt.",
+        "B": "Fratres in urbe legunt.",
+        "C": "Fratres in Italia habitant.",
+        "D": "Fratres in ludo scribunt."
+      },
+      "correct_option": "C",
+      "explanation": "Habitant describes residence. Nunc domi sunt would establish only current presence."
+    },
+    {
+      "number": 58,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which expression is most natural to address a group of female students directly?",
+      "options": {
+        "A": "Salve, discipula!",
+        "B": "Discipulae domi sunt.",
+        "C": "Magistra discipulas docet.",
+        "D": "Salvete, discipulae!"
+      },
+      "correct_option": "D",
+      "explanation": "Salvete addresses several people. Discipulae is also the plural form used for direct address."
+    },
+    {
+      "number": 59,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "In “Quot pueri adsunt?”, why would “Romae” be unresponsive?",
+      "options": {
+        "A": "Quot requests a number.",
+        "B": "Pueri is always singular.",
+        "C": "Romae names only a person.",
+        "D": "Adsunt asks how someone feels."
+      },
+      "correct_option": "A",
+      "explanation": "Quot asks how many are present. A location would answer ubi."
+    },
+    {
+      "number": 60,
+      "difficulty": "hard",
+      "kind": "concept",
+      "question_text": "Which wording explicitly distinguishes writing from reading?",
+      "options": {
+        "A": "Magistra legit; discipulus legit.",
+        "B": "Magistra scribit; discipulus legit.",
+        "C": "Magistra studet; discipulus studet.",
+        "D": "Magistra dormit; discipulus dormit."
+      },
+      "correct_option": "B",
+      "explanation": "Scribit means writes, while legit means reads in this present-tense contrast."
+    },
+    {
+      "number": 61,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Fill both blanks in “Puell____ puer____ docet” to say the girl teaches the boy.",
+      "options": {
+        "A": "-a / -um",
+        "B": "-am / -us",
+        "C": "-ae / -os",
+        "D": "-am / -um"
+      },
+      "correct_option": "A",
+      "explanation": "Nominative subject and accusative object: puella acts and puerum receives the action. Compare Magistra discipulum docet."
+    },
+    {
+      "number": 62,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete “Romae ____ studetis?” with an explicit pronoun that addresses a group.",
+      "options": {
+        "A": "nos",
+        "B": "vos",
+        "C": "tu",
+        "D": "ego"
+      },
+      "correct_option": "B",
+      "explanation": "Second-person plural agreement: studetis can take vos. Compare Vos in urbe habitatis."
+    },
+    {
+      "number": 63,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Choose the possessive in “Filiae ____ linguam Latinam discunt” to say “my daughters”.",
+      "options": {
+        "A": "mea",
+        "B": "mei",
+        "C": "meae",
+        "D": "meas"
+      },
+      "correct_option": "C",
+      "explanation": "Possessive adjective agreement: meae agrees with nominative feminine plural filiae. Compare Discipulae meae legunt."
+    },
+    {
+      "number": 64,
+      "difficulty": "expert",
+      "kind": "grammar",
+      "question_text": "Complete the location contrast “Marcus Romae, ego domi ____” with a verb that agrees with ego.",
+      "options": {
+        "A": "est",
+        "B": "sunt",
+        "C": "es",
+        "D": "sum"
+      },
+      "correct_option": "D",
+      "explanation": "First-person singular esse is sum. The parallel first clause can omit est. Compare Iulia in urbe, ego in Italia sum."
+    },
+    {
+      "number": 65,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nDo your brothers live in Rome, or do they live in Italy outside Rome?\nAnswer: ____\n```",
+      "options": {
+        "A": "Sorores tuae Romae habitant an extra Romam habitant?",
+        "B": "Fratres tui Romae habitant an in Italia extra Romam habitant?",
+        "C": "Fratres mei Romae habitant et domi student.",
+        "D": "Fratres tui in urbe legunt an domi dormiunt?"
+      },
+      "correct_option": "B",
+      "explanation": "An introduces the second choice. Extra Romam puts the second location explicitly outside Rome."
+    },
+    {
+      "number": 66,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nDiscipulae nomen Liviae sciunt, sed Livia nomina discipularum nescit.\nAnswer: ____\n```",
+      "options": {
+        "A": "Livia knows the pupils' names, but they do not know hers.",
+        "B": "The female teacher asks the students their names.",
+        "C": "The female pupils know Livia's name, but Livia does not know the pupils' names.",
+        "D": "Livia and the pupils do not know each other’s names."
+      },
+      "correct_option": "C",
+      "explanation": "The genitives Liviae and discipularum mark whose name or names. Sciunt and nescit give opposite knowledge states."
+    },
+    {
+      "number": 67,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nGood day, teacher. Where do the two male pupils live?\nAnswer: ____\n```",
+      "options": {
+        "A": "Salvete, magistri. Ubi duae discipulae habitant?",
+        "B": "Salve, discipule. Quis est magister?",
+        "C": "Salve, magister. Quot discipuli domi student?",
+        "D": "Salve, magister. Ubi duo discipuli habitant?"
+      },
+      "correct_option": "D",
+      "explanation": "Salve greets the single teacher. Ubi asks for location and duo discipuli identifies two male pupils."
+    },
+    {
+      "number": 68,
+      "difficulty": "expert",
+      "kind": "code",
+      "question_text": "Translate.\n\n```text\nLibros discipulosque in ludo video.\nAnswer: ____\n```",
+      "options": {
+        "A": "I see books and pupils at school.",
+        "B": "The pupils see me reading books at school.",
+        "C": "I see only the pupils at home.",
+        "D": "I teach the pupils to read at school."
+      },
+      "correct_option": "A",
+      "explanation": "Attached -que joins libros and discipulos. Both nouns are objects of video."
+    },
+    {
+      "number": 69,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "There are $5$ learners in total. Of these, $2$ live in Rome and the others live at home in another city. Select the correct description of the $5-2$ other learners, who are all female.",
+      "options": {
+        "A": "Tres discipuli Romae habitant.",
+        "B": "Duae discipulae in alia urbe habitant.",
+        "C": "Tres discipulae in alia urbe habitant.",
+        "D": "Quinque discipulae Romae habitant."
+      },
+      "correct_option": "C",
+      "explanation": "The complement has three members. In alia urbe says in another city."
+    },
+    {
+      "number": 70,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "Four classes see two different male teachers each. Every teacher works with exactly two of the classes. Which phrase gives the $4\\times2/2$ distinct teachers as the subject of a roster sentence?",
+      "options": {
+        "A": "octo magistri",
+        "B": "quattuor magistros",
+        "C": "duo magistri",
+        "D": "quattuor magistri"
+      },
+      "correct_option": "D",
+      "explanation": "There are eight assignments and two assignments per teacher. The four teachers are the subject, so use magistri."
+    },
+    {
+      "number": 71,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A teacher asks $3$ boys and $2$ girls for their names. One boy is absent. Which roll call reflects $(3-1)+2=4$ pupils with the remaining genders?",
+      "options": {
+        "A": "Duo pueri et duae puellae adsunt.",
+        "B": "Tres pueri et una puella adsunt.",
+        "C": "Duae puellae et tres pueri adsunt.",
+        "D": "Quattuor pueri adsunt."
+      },
+      "correct_option": "A",
+      "explanation": "Two boys and two girls remain. Duo and duae mark masculine and feminine respectively."
+    },
+    {
+      "number": 72,
+      "difficulty": "expert",
+      "kind": "equation",
+      "question_text": "A class logs $5$ books read yesterday and $4$ today. Exactly $2$ titles occur in both sets, with each set counting unique titles. Which label gives the number of distinct books, $5+4-2$, as a nominative inventory heading?",
+      "options": {
+        "A": "septem libros",
+        "B": "septem libri",
+        "C": "novem libri",
+        "D": "duo libri"
+      },
+      "correct_option": "B",
+      "explanation": "Subtract the overlapping titles once. Septem is seven and libri is nominative plural."
+    },
+    {
+      "number": 73,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Two readings are possible when “liber” stands alone. Which context selects the noun meaning book?",
+      "options": {
+        "A": "Vir liber est, non servus.",
+        "B": "Puer liber cum patre habitat.",
+        "C": "Discipulus liber, non captivus, est.",
+        "D": "Liber in ludo est, et magistra eum legit."
+      },
+      "correct_option": "D",
+      "explanation": "A teacher reading it makes the book interpretation natural. In vir liber, liber instead describes a free person."
+    },
+    {
+      "number": 74,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which revision makes both the actor and the person being taught unambiguous without relying on word order?",
+      "options": {
+        "A": "Magister discipulam docet.",
+        "B": "Magister discipula docet.",
+        "C": "Magistrum discipulam docet.",
+        "D": "Magister discipulam docent."
+      },
+      "correct_option": "A",
+      "explanation": "Magister is nominative, discipulam is accusative, and docet agrees with the singular subject."
+    },
+    {
+      "number": 75,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "If “Mihi nomen est Marcus” is changed to “Tibi nomen est Marcus”, what changes?",
+      "options": {
+        "A": "The speaker's name becomes plural.",
+        "B": "The name is attributed to the addressee instead of the speaker.",
+        "C": "The statement becomes a question about a city.",
+        "D": "Marcus changes from a name into a teacher."
+      },
+      "correct_option": "B",
+      "explanation": "Mihi means to me and tibi means to you. The other words stay the same."
+    },
+    {
+      "number": 76,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "A letter switches from “Salve, Livia” to “Salvete, Livia et Iulia”. Why?",
+      "options": {
+        "A": "Livia became a plural noun.",
+        "B": "The second line changes to a farewell.",
+        "C": "The second greeting addresses two people.",
+        "D": "Salvete is reserved for a teacher."
+      },
+      "correct_option": "C",
+      "explanation": "The number of addressees controls the greeting form."
+    },
+    {
+      "number": 77,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which reading keeps the place and the people straight in “Domi sorores student; Romae frater studet”?",
+      "options": {
+        "A": "The sisters study in Rome. The brother studies at home.",
+        "B": "Everyone studies in Rome.",
+        "C": "The sisters have stopped studying.",
+        "D": "The sisters study at home. The brother studies in Rome."
+      },
+      "correct_option": "D",
+      "explanation": "Domi belongs to the first clause with sorores. Romae belongs to the clause with frater."
+    },
+    {
+      "number": 78,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which paraphrase keeps the direction of teaching in “Discipuli a magistra discunt”?",
+      "options": {
+        "A": "The pupils learn from the female teacher.",
+        "B": "The female teacher learns from the pupils.",
+        "C": "The pupils teach the female teacher.",
+        "D": "The female teacher and pupils study separately."
+      },
+      "correct_option": "A",
+      "explanation": "Discipuli is the nominative subject. A magistra identifies the source of instruction."
+    },
+    {
+      "number": 79,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "Which wording reports a mixed class while keeping each action paired with the correct group, if the girls write and the boys read?",
+      "options": {
+        "A": "Pueri scribunt et puellae legunt.",
+        "B": "Puellae scribunt et pueri legunt.",
+        "C": "Puellae legunt et pueri legunt.",
+        "D": "Pueri et puellae dormiunt."
+      },
+      "correct_option": "B",
+      "explanation": "Scribunt belongs to puellae, and legunt belongs to pueri. Both verbs agree with a plural subject."
+    },
+    {
+      "number": 80,
+      "difficulty": "expert",
+      "kind": "concept",
+      "question_text": "In “In urbe habito, sed in ludo studeo”, what would replacing sed with et do?",
+      "options": {
+        "A": "It would negate both statements.",
+        "B": "It would move the speaker's home to the school.",
+        "C": "It would present the facts as a simple addition instead of a contrast.",
+        "D": "It would turn the first clause into a question."
+      },
+      "correct_option": "C",
+      "explanation": "Sed signals contrast. Et joins statements without that explicit relationship."
+    }
+  ]
+}
