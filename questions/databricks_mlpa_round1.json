@@ -1,0 +1,1217 @@
+{
+  "approved_on": "2026-11-25",
+  "topic": {
+    "subsubcategory_id": 50,
+    "name": "Databricks Certified Machine Learning Practitioner Associate",
+    "category": "Certifications",
+    "subcategory": "Databricks"
+  },
+  "source_folder": "certifications/databricks/machine_learning_practitioner_associate",
+  "source_round": "round1",
+  "questions": [
+    {
+      "number": 1,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which Delta Lake feature lets you query a table as it existed at an earlier version number or timestamp?",
+      "options": {
+        "A": "Change Data Feed",
+        "B": "Liquid Clustering",
+        "C": "Time travel",
+        "D": "Schema evolution"
+      },
+      "correct_option": "C",
+      "explanation": "Delta time travel reads previous committed snapshots of a table by version or timestamp. It is used to reproduce past results, audit changes and recover from bad updates. Change Data Feed exposes row-level changes, not past snapshots."
+    },
+    {
+      "number": 2,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the PySpark call that reads version 3 of a Delta table.\n\n```python\nold_df = spark.read.option(\"____\", 3).table(\"main.ml.customer_features\")\n```",
+      "options": {
+        "A": "`startingVersion`",
+        "B": "`snapshotId`",
+        "C": "`rollbackTo`",
+        "D": "`versionAsOf`"
+      },
+      "correct_option": "D",
+      "explanation": "The `versionAsOf` option reads a specific historical version of a Delta table. A timestamp equivalent is `timestampAsOf`. The snapshot must still exist under the table's retention settings."
+    },
+    {
+      "number": 3,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A 4-fold cross-validation produces validation errors $E_1=0.10$, $E_2=0.20$, $E_3=0.30$ and $E_4=0.20$. Using $E_{avg} = \\frac{1}{k}\\sum_{i=1}^{k} E_i$, what is the cross-validated error?",
+      "options": {
+        "A": "0.20",
+        "B": "0.80",
+        "C": "0.25",
+        "D": "0.15"
+      },
+      "correct_option": "A",
+      "explanation": "The sum is 0.10 + 0.20 + 0.30 + 0.20 = 0.80. Dividing by k = 4 gives 0.20. Averaging the k fold scores is what makes the estimate more reliable than a single validation split."
+    },
+    {
+      "number": 4,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which encoding technique replaces each category value with the mean of the target variable for that category?",
+      "options": {
+        "A": "One-hot encoding",
+        "B": "Target encoding",
+        "C": "Label encoding",
+        "D": "Ordinal encoding"
+      },
+      "correct_option": "B",
+      "explanation": "Target encoding substitutes each category with the average target value observed for it. It is compact for high-cardinality features, but it risks overfitting and leakage, so the means should come from training data only (ideally out-of-fold)."
+    },
+    {
+      "number": 5,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Fill in the missing stage so categorical strings become a final numeric feature vector.\n\n```python\nstages = [\n    StringIndexer(inputCol=\"region\", outputCol=\"region_idx\"),\n    ____(inputCols=[\"region_idx\"], outputCols=[\"region_ohe\"]),\n    VectorAssembler(inputCols=[\"region_ohe\", \"age\"], outputCol=\"features\"),\n]\n```",
+      "options": {
+        "A": "`StandardScaler`",
+        "B": "`Imputer`",
+        "C": "`OneHotEncoder`",
+        "D": "`Tokenizer`"
+      },
+      "correct_option": "C",
+      "explanation": "The usual order is StringIndexer (strings to indices), OneHotEncoder (indices to binary vectors), then VectorAssembler (combine everything into one feature vector column)."
+    },
+    {
+      "number": 6,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "In MLflow, how many experiments can a single run belong to?",
+      "options": {
+        "A": "Any number of them",
+        "B": "None until it is registered",
+        "C": "One per logged metric",
+        "D": "Exactly one"
+      },
+      "correct_option": "D",
+      "explanation": "A run is one execution of data science code and belongs to exactly one experiment. The experiment-run hierarchy is what enables side-by-side comparison of runs."
+    },
+    {
+      "number": 7,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A binary classifier produces $TP = 8$ and $FP = 2$ on a test set. Using $\\text{Precision} = \\frac{TP}{TP + FP}$, what is its precision?",
+      "options": {
+        "A": "0.80",
+        "B": "0.20",
+        "C": "0.25",
+        "D": "0.90"
+      },
+      "correct_option": "A",
+      "explanation": "Precision = 8 / (8 + 2) = 0.80. It answers: of the items predicted positive, how many are truly positive. It matters most when false positives are costly."
+    },
+    {
+      "number": 8,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which metric should be prioritized when a false negative is much more costly than a false positive, such as in fraud or churn detection?",
+      "options": {
+        "A": "Accuracy",
+        "B": "Recall",
+        "C": "Precision",
+        "D": "Silhouette score"
+      },
+      "correct_option": "B",
+      "explanation": "Recall = TP / (TP + FN) measures how many actual positives were found. When missing a positive is the expensive error, maximize recall."
+    },
+    {
+      "number": 9,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the line that turns on automatic logging of parameters, metrics and models at the top of a notebook.\n\n```python\nimport mlflow\nmlflow.____()\n```",
+      "options": {
+        "A": "`log_all`",
+        "B": "`start_tracking`",
+        "C": "`autolog`",
+        "D": "`set_registry_uri`"
+      },
+      "correct_option": "C",
+      "explanation": "`mlflow.autolog()` is the fastest way to start tracking. It automatically captures parameters, metrics, models and environment details for supported libraries."
+    },
+    {
+      "number": 10,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "In the Unity Catalog model registry, what does an alias such as `@champion` represent?",
+      "options": {
+        "A": "A permanent, immutable copy of the model",
+        "B": "A workspace-level model stage",
+        "C": "A Git branch of the training code",
+        "D": "A named, movable pointer to a specific model version"
+      },
+      "correct_option": "D",
+      "explanation": "Aliases point at specific versions and can be reassigned. Serving endpoints and pipelines can reference `@champion`, and promotion becomes moving the alias to another version."
+    },
+    {
+      "number": 11,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A classifier has $TP = 6$ and $FN = 4$. Using $\\text{Recall} = \\frac{TP}{TP + FN}$, what is its recall?",
+      "options": {
+        "A": "0.60",
+        "B": "0.40",
+        "C": "0.67",
+        "D": "1.50"
+      },
+      "correct_option": "A",
+      "explanation": "Recall = 6 / (6 + 4) = 0.60. Four of the ten actual positives were missed."
+    },
+    {
+      "number": 12,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "An insurer scores a large volume of new applications overnight and shows the results on a dashboard each morning. Which deployment strategy fits best?",
+      "options": {
+        "A": "Real-time serving",
+        "B": "Batch deployment",
+        "C": "Edge deployment",
+        "D": "Streaming deployment with sub-second latency"
+      },
+      "correct_option": "B",
+      "explanation": "Batch scoring computes predictions on a schedule and writes them to storage. It is cheap and high-throughput, and it fits cases where immediate predictions are not needed."
+    },
+    {
+      "number": 13,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the DDL that enables Liquid Clustering on a new Delta table.\n\n```sql\nCREATE TABLE main.ml.scores (customer_id BIGINT, score DOUBLE)\nUSING DELTA\n____ BY (customer_id);\n```",
+      "options": {
+        "A": "`PARTITION`",
+        "B": "`ZORDER`",
+        "C": "`CLUSTER`",
+        "D": "`BUCKET`"
+      },
+      "correct_option": "C",
+      "explanation": "`CLUSTER BY` enables Liquid Clustering, which replaces partitioning and ZORDER and lets you change clustering keys later without rewriting the table."
+    },
+    {
+      "number": 14,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "In Optuna, what is a trial?",
+      "options": {
+        "A": "The full optimization task made of many runs",
+        "B": "The hyperparameter being tuned",
+        "C": "The final registered model",
+        "D": "A single call of the objective function with one set of hyperparameters"
+      },
+      "correct_option": "D",
+      "explanation": "A trial is one evaluation of the objective function. A study is the optimization task, a collection of trials."
+    },
+    {
+      "number": 15,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What is the minimum structural requirement for a Unity Catalog Delta table to be used as a feature table?",
+      "options": {
+        "A": "A primary key constraint on at least one column",
+        "B": "A partition on a date column",
+        "C": "A timestamp column and a Z-order index",
+        "D": "A registered MLflow model that reads it"
+      },
+      "correct_option": "A",
+      "explanation": "Any Delta table in Unity Catalog with a primary key can serve as a feature table. It then gains discovery, governance, lineage and cross-workspace access."
+    },
+    {
+      "number": 16,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A regression model has a mean squared error of $MSE = 25$ (in squared units). Using $RMSE = \\sqrt{MSE}$, what is the RMSE?",
+      "options": {
+        "A": "25",
+        "B": "5",
+        "C": "12.5",
+        "D": "625"
+      },
+      "correct_option": "B",
+      "explanation": "RMSE = sqrt(25) = 5. Taking the square root returns the error to the original units of the target, which makes it easier to interpret than MSE."
+    },
+    {
+      "number": 17,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the call that runs the optimization for 50 trials.\n\n```python\nstudy = optuna.create_study(direction=\"maximize\")\nstudy.optimize(objective, ____=50)\n```",
+      "options": {
+        "A": "`max_runs`",
+        "B": "`n_folds`",
+        "C": "`n_trials`",
+        "D": "`epochs`"
+      },
+      "correct_option": "C",
+      "explanation": "`study.optimize(objective, n_trials=N)` runs N trials of the objective function. Results are then available through `study.best_params`, `study.best_trial` and `study.best_value`."
+    },
+    {
+      "number": 18,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What is a hyperparameter?",
+      "options": {
+        "A": "A weight learned from the training data",
+        "B": "A prediction produced by the model",
+        "C": "A column added during feature engineering",
+        "D": "A parameter set before training starts that controls the training process"
+      },
+      "correct_option": "D",
+      "explanation": "Anything learned from data is a model parameter, not a hyperparameter. Hyperparameters, such as tree depth or learning rate, are chosen by the practitioner or by a search algorithm."
+    },
+    {
+      "number": 19,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "In a Lakeflow declarative pipeline, which dataset type ingests and processes new records incrementally as they arrive?",
+      "options": {
+        "A": "Streaming table",
+        "B": "Materialized view",
+        "C": "Temporary view",
+        "D": "Static snapshot"
+      },
+      "correct_option": "A",
+      "explanation": "Streaming tables process new records incrementally and suit raw ingestion and streaming inference. Materialized views store precomputed query results and suit transformations and aggregations."
+    },
+    {
+      "number": 20,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What is data drift?",
+      "options": {
+        "A": "The model's code is edited between releases",
+        "B": "The statistical properties of the input data change over time",
+        "C": "The relationship between inputs and the target changes while inputs stay the same",
+        "D": "The serving endpoint scales down to zero"
+      },
+      "correct_option": "B",
+      "explanation": "Data drift means the distribution of the inputs shifts away from what the model was trained on. If the input-to-output relationship changes instead, that is concept drift."
+    },
+    {
+      "number": 21,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Why must a scaler or imputer be fit on the training set only, and then applied to the test set?",
+      "options": {
+        "A": "Fitting on all rows makes the pipeline run slower on Spark",
+        "B": "Test sets cannot contain numeric columns",
+        "C": "Fitting on all rows lets test-set statistics influence the learned parameters, which is data leakage",
+        "D": "Scalers only work on data that has no missing values"
+      },
+      "correct_option": "C",
+      "explanation": "Statistics such as the mean, standard deviation or median must be learned from training data. Learning them from the held-out data would let it influence the model, making evaluation optimistic. A fitted pipeline model reapplies the training-derived parameters unchanged."
+    },
+    {
+      "number": 22,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A categorical feature has thousands of distinct values and one-hot encoding would create a huge sparse matrix. Which TWO strategies are appropriate before encoding?",
+      "options": {
+        "A": "Convert every category into a random integer and treat it as numeric",
+        "B": "Drop the target column to reduce dimensionality",
+        "C": "Fit the encoder on the test set so unseen categories are covered",
+        "D": "Group rare categories into an \"Other\" bucket, or keep only the top-N most frequent categories"
+      },
+      "correct_option": "D",
+      "explanation": "High cardinality inflates dimensionality. Grouping rare categories or keeping the top-N frequent ones (computed from training data) bounds the number of columns. Embeddings are another alternative that capture relationships in a dense vector."
+    },
+    {
+      "number": 23,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "A binary classifier has precision $P = 0.5$ and recall $R = 1.0$. Using $F_1 = \\frac{2PR}{P+R}$, what is its $F_1$ score (rounded)?",
+      "options": {
+        "A": "0.67",
+        "B": "0.75",
+        "C": "0.50",
+        "D": "0.25"
+      },
+      "correct_option": "A",
+      "explanation": "F1 = 2 * 0.5 * 1.0 / (0.5 + 1.0) = 1.0 / 1.5 = 0.67. It is the harmonic mean, which is pulled toward the lower value, unlike the arithmetic mean of 0.75."
+    },
+    {
+      "number": 24,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Which setting makes `StringIndexer` assign null and unseen values to an extra reserved index instead of failing?\n\n```python\nindexer = StringIndexer(inputCol=\"plan_type\", outputCol=\"plan_idx\", handleInvalid=\"____\")\n```",
+      "options": {
+        "A": "`skip`",
+        "B": "`keep`",
+        "C": "`error`",
+        "D": "`drop`"
+      },
+      "correct_option": "B",
+      "explanation": "With `handleInvalid=\"keep\"`, nulls and unseen labels are mapped to an additional index and treated as a separate category. `error` throws, and `skip` filters the rows out."
+    },
+    {
+      "number": 25,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Which pair correctly contrasts algorithms by their sensitivity to feature scaling?",
+      "options": {
+        "A": "Random forests and k-NN are both highly sensitive",
+        "B": "Tree-based models need scaling, linear models do not",
+        "C": "k-nearest neighbors and support vector machines are sensitive; random forests and other tree-based models are robust",
+        "D": "No algorithm is affected by feature scale"
+      },
+      "correct_option": "C",
+      "explanation": "Distance- and gradient-based models (linear models, SVM, k-NN, neural networks) depend on feature scale. Trees split on thresholds per feature, so monotonic rescaling does not change the splits."
+    },
+    {
+      "number": 26,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "A grid search tests 4 learning rates, 3 tree depths and 5 estimator counts, each combination evaluated with 3-fold cross-validation. Using $N_{fits} = \\left(\\prod_i n_i\\right) \\cdot k$, how many model fits are needed (ignoring any final refit)?",
+      "options": {
+        "A": "60",
+        "B": "12",
+        "C": "65",
+        "D": "180"
+      },
+      "correct_option": "D",
+      "explanation": "The grid has 4 * 3 * 5 = 60 combinations. Each is trained k = 3 times, giving 180 fits. The multiplication effect is why exhaustive search scales poorly with dimensions."
+    },
+    {
+      "number": 27,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Compared with grid search, why is random search usually a better default for a medium-sized search space?",
+      "options": {
+        "A": "It samples from specified distributions, covering the space more efficiently, though it does not guarantee the best combination",
+        "B": "It exhaustively evaluates every combination",
+        "C": "It uses past trials to build a surrogate model",
+        "D": "It removes the need for a validation set"
+      },
+      "correct_option": "A",
+      "explanation": "Random search samples combinations rather than enumerating them, so it gives better coverage per unit of compute. Bayesian optimization is the method that learns from previous trials."
+    },
+    {
+      "number": 28,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Which Optuna method defines an integer hyperparameter inside the objective function?\n\n```python\ndef objective(trial):\n    depth = trial.____(\"max_depth\", 3, 20)\n    ...\n```",
+      "options": {
+        "A": "`pick_int`",
+        "B": "`suggest_int`",
+        "C": "`sample_int`",
+        "D": "`range_int`"
+      },
+      "correct_option": "B",
+      "explanation": "Optuna's search space is defined inside the objective with `suggest_float`, `suggest_int` and `suggest_categorical`. This define-by-run style also allows dynamic and conditional search spaces."
+    },
+    {
+      "number": 29,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "When a model is trained with features retrieved through the Feature Engineering client and logged with MLflow, what is packaged with the model?",
+      "options": {
+        "A": "A full copy of the offline feature table",
+        "B": "Only the model weights, with no feature information",
+        "C": "Feature metadata, so the model can look up the required features at inference time",
+        "D": "The raw source files used to compute the features"
+      },
+      "correct_option": "C",
+      "explanation": "The feature lookup metadata travels with the model. At batch or online inference the required features are retrieved automatically, which preserves lineage and reduces training/serving skew."
+    },
+    {
+      "number": 30,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "For a single row, the actual value is $y = 0.5$ and the prediction is $\\hat{y} = 1.5$. Using the per-row percentage error $\\frac{|y - \\hat{y}|}{|y|}$, what is it?",
+      "options": {
+        "A": "100%",
+        "B": "50%",
+        "C": "67%",
+        "D": "200%"
+      },
+      "correct_option": "D",
+      "explanation": "|0.5 - 1.5| / 0.5 = 2.0, i.e. 200%. This shows why MAPE breaks down when actual values are near zero: small absolute errors become enormous percentages."
+    },
+    {
+      "number": 31,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A fraud team wants predictions within seconds of each event, but sub-second responses are not required, and events arrive continuously. Which strategy fits best?",
+      "options": {
+        "A": "Streaming (pipeline) deployment",
+        "B": "Nightly batch deployment",
+        "C": "Edge deployment on devices",
+        "D": "A real-time endpoint called per request with millisecond latency"
+      },
+      "correct_option": "A",
+      "explanation": "Streaming inference scores records continuously with seconds-to-minutes latency and moderate throughput. Batch is too slow, and real-time millisecond serving is more than the use case needs."
+    },
+    {
+      "number": 32,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Complete the Lakeflow expectation so rows that violate the constraint are removed while the pipeline keeps running.\n\n```python\n@dp.table(name=\"valid_accounts\")\n@dp.____(\"valid_open_date\", \"open_date IS NOT NULL\")\ndef valid_accounts():\n    return spark.readStream.table(\"main.raw.accounts\")\n```",
+      "options": {
+        "A": "`expect_or_fail`",
+        "B": "`expect_or_drop`",
+        "C": "`expect`",
+        "D": "`expect_all_or_none`"
+      },
+      "correct_option": "B",
+      "explanation": "Expectations define a policy per violation: warn and retain the row (`expect`), drop the row (`expect_or_drop`), or fail the pipeline (`expect_or_fail`)."
+    },
+    {
+      "number": 33,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A team wants to compare a candidate model with the current one on live traffic, without building new infrastructure. Which Model Serving capability supports this?",
+      "options": {
+        "A": "Scale to zero",
+        "B": "Model stages in Unity Catalog",
+        "C": "Traffic splitting across multiple served models behind one endpoint",
+        "D": "Edge export to ONNX"
+      },
+      "correct_option": "C",
+      "explanation": "An endpoint can host several models and assign each a percentage of traffic. This enables staged rollout and A/B testing, and the split can be adjusted or rolled back at any time."
+    },
+    {
+      "number": 34,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "What is the Databricks-recommended \"deploy code\" pattern?",
+      "options": {
+        "A": "Train once in development and copy the model artifact through staging to production",
+        "B": "Train only in production and skip testing",
+        "C": "Keep a separate codebase per environment",
+        "D": "Develop and test code across environments and run the training pipeline in each environment, deploying the final model in production"
+      },
+      "correct_option": "D",
+      "explanation": "With deploy code, the training pipeline runs in dev, staging (on a subset) and production (on full data). It suits restricted production data access and enables safer automated retraining, at the cost of a steeper learning curve."
+    },
+    {
+      "number": 35,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "In a clustering result, a point has mean distance $a = 2$ to its own cluster and mean distance $b = 6$ to the nearest other cluster. Using $s = \\frac{b - a}{\\max(a, b)}$, what is its silhouette value (rounded)?",
+      "options": {
+        "A": "0.67",
+        "B": "0.33",
+        "C": "-0.67",
+        "D": "4.00"
+      },
+      "correct_option": "A",
+      "explanation": "s = (6 - 2) / 6 = 0.67. Silhouette values lie in [-1, 1]. Values near 1 mean the point is well inside its cluster, while values near 0 or below mean clusters overlap."
+    },
+    {
+      "number": 36,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Which `FeatureEngineeringClient` method scores a DataFrame of keys and joins the registered features automatically?\n\n```python\nfe = FeatureEngineeringClient()\npredictions = fe.____(model_uri=\"models:/main.ml.churn@champion\", df=customer_keys_df)\n```",
+      "options": {
+        "A": "`create_training_set`",
+        "B": "`score_batch`",
+        "C": "`write_table`",
+        "D": "`log_model`"
+      },
+      "correct_option": "B",
+      "explanation": "`score_batch` looks up the features recorded at training time (lookups and functions) and applies the model, so no manual feature joins are needed and batch logic stays consistent with training."
+    },
+    {
+      "number": 37,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "How do Lakeflow Jobs and Spark Declarative Pipelines (SDP) relate?",
+      "options": {
+        "A": "SDP replaces Jobs entirely",
+        "B": "Jobs can only run SQL queries",
+        "C": "They are complementary: Jobs orchestrate any task type, including running SDP pipelines, while SDP specializes in quality-controlled batch and streaming ETL",
+        "D": "SDP orchestrates ML training and external API calls"
+      },
+      "correct_option": "C",
+      "explanation": "Use Lakeflow Jobs for flexible orchestration across ML, analytics and custom tasks, with DAG dependencies and triggers. Use SDP for robust ETL with built-in data quality."
+    },
+    {
+      "number": 38,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A model's input features look statistically unchanged, yet the same inputs now lead to different true outcomes than before, such as a new factor altering crop yield. Which drift is this?",
+      "options": {
+        "A": "Data drift",
+        "B": "Bias drift caused by a new group",
+        "C": "Resource drift",
+        "D": "Concept drift"
+      },
+      "correct_option": "D",
+      "explanation": "Concept drift is a change in the mapping from inputs to the target, P(Y|X). Input distributions can stay the same while the model's learned relationship becomes outdated, so retraining on newer data is needed."
+    },
+    {
+      "number": 39,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A logistics firm must run a model on handheld scanners that lose connectivity and must keep data on the device. Which approach fits?",
+      "options": {
+        "A": "Export the model to a portable runtime such as ONNX or TensorFlow Lite and score on the device",
+        "B": "Call a serverless Model Serving endpoint for every scan",
+        "C": "Run nightly batch scoring on the cluster",
+        "D": "Use a streaming table in a Lakeflow pipeline"
+      },
+      "correct_option": "A",
+      "explanation": "Edge deployment is driven by offline operation, latency close to the data, and privacy constraints. Converting to an interoperable runtime lets one trained model run on many devices."
+    },
+    {
+      "number": 40,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "What is the primary advantage of embeddings over one-hot encoding for a high-cardinality categorical feature?",
+      "options": {
+        "A": "They produce one column per category, which preserves interpretability",
+        "B": "They give a compact, dense vector that captures relationships between categories and scales to large category sets",
+        "C": "They require no training or pretrained model",
+        "D": "They guarantee the feature is ordinal"
+      },
+      "correct_option": "B",
+      "explanation": "Embeddings map categories to learned dense vectors in a lower-dimensional space, so similar items sit closer together. One-hot encoding creates sparse, high-dimensional vectors that do not capture relationships between categories."
+    },
+    {
+      "number": 41,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A team imputes missing `income` values using the mean computed over the entire dataset, then splits into train and test. Test performance looks excellent but production results are poor. What is the most likely cause?",
+      "options": {
+        "A": "Mean imputation always lowers accuracy in production",
+        "B": "The test set was too large",
+        "C": "Data leakage: the imputation statistic used information from the test rows, inflating the test score",
+        "D": "Imputation should only be applied to categorical columns"
+      },
+      "correct_option": "C",
+      "explanation": "Any learned preprocessing must be fit on training data only. Fitting on all rows leaks test information, so the held-out score is optimistic. Split first, fit the imputer on train, then transform both sets (a Spark ML pipeline enforces this)."
+    },
+    {
+      "number": 42,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "A tuning job is configured as follows. How many individual model fits does `cv.fit` run during the search (excluding the final refit on all data)?\n\n```python\ngrid = (ParamGridBuilder()\n        .addGrid(lr.regParam, [0.01, 0.1])\n        .addGrid(lr.maxIter, [10, 50, 100])\n        .build())\ncv = CrossValidator(estimator=pipeline, estimatorParamMaps=grid,\n                    evaluator=evaluator, numFolds=5)\nn_fits = ____   # number of model fits in the search\n```",
+      "options": {
+        "A": "6",
+        "B": "11",
+        "C": "5",
+        "D": "30"
+      },
+      "correct_option": "D",
+      "explanation": "The grid has 2 * 3 = 6 combinations. Each is trained once per fold, so 6 * 5 = 30 fits (plus one refit of the best model on all data). This is why CrossValidator costs k times a single-split tuner."
+    },
+    {
+      "number": 43,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "For a true positive example ($y = 1$), model A predicts $p = 0.01$ and model B predicts $p = 0.60$. Using the natural-log loss for one row, $-\\ln(p)$, which pair gives the per-row losses for A and B?",
+      "options": {
+        "A": "A is about 4.61 and B is about 0.51",
+        "B": "A is 0.99 and B is 0.40",
+        "C": "A is 0.01 and B is 0.60",
+        "D": "A is about 0.51 and B is about 4.61"
+      },
+      "correct_option": "A",
+      "explanation": "-ln(0.01) = 4.61 and -ln(0.60) = 0.51. Log loss penalizes confident wrong predictions heavily, which is why it rewards well-calibrated probabilities. Absolute error (0.99 vs 0.40) would understate the difference."
+    },
+    {
+      "number": 44,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A binary classifier reports 92% accuracy on a dataset in which 90% of the records belong to class 0. What is the right conclusion and next step?",
+      "options": {
+        "A": "The model is excellent and can be deployed",
+        "B": "Accuracy may be misleading because predicting mostly class 0 already scores about 90%; inspect the confusion matrix, per-class recall and precision",
+        "C": "Accuracy is invalid for binary problems",
+        "D": "The dataset must be shuffled before evaluating again"
+      },
+      "correct_option": "B",
+      "explanation": "With heavy imbalance, accuracy hides poor minority-class performance. Evaluate recall, precision, F1 or AUC, and consider class weights or resampling."
+    },
+    {
+      "number": 45,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "A model's table was overwritten by a faulty job and the team wants to see which operations changed it and when. Complete the command.\n\n```sql\nDESCRIBE ____ main.ml.customer_features;\n```",
+      "options": {
+        "A": "`DETAIL`",
+        "B": "`EXTENDED`",
+        "C": "`HISTORY`",
+        "D": "`SNAPSHOT`"
+      },
+      "correct_option": "C",
+      "explanation": "`DESCRIBE HISTORY` lists table versions, timestamps and operations. You can then use `VERSION AS OF` or `RESTORE` to recover. Remember time travel only works while the old files have not been removed by `VACUUM` retention."
+    },
+    {
+      "number": 46,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A recommender factors a ratings matrix with $R_{m \\times n} \\approx U_{m \\times r}\\, I_{n \\times r}^{\\top}$, where $m = 10000$ users, $n = 500$ items and rank $r = 20$. How many numbers must ALS learn?",
+      "options": {
+        "A": "5,000,000",
+        "B": "10,500",
+        "C": "200,000",
+        "D": "210,000"
+      },
+      "correct_option": "D",
+      "explanation": "The user-factor matrix has 10,000 * 20 = 200,000 entries and the item-factor matrix has 500 * 20 = 10,000, totaling 210,000. That is far smaller than the 5,000,000 cells of the full matrix, which is the point of low-rank factorization."
+    },
+    {
+      "number": 47,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "An application must return recommendations while a shopper waits on a web page, in a few milliseconds. A colleague proposes a Lakeflow streaming pipeline because it is \"low latency\". What is the best response?",
+      "options": {
+        "A": "Use real-time Model Serving instead: streaming pipelines target seconds-level latency, not sub-second request/response",
+        "B": "Streaming is correct because it has the lowest latency of all modes",
+        "C": "Use nightly batch scoring with a cache",
+        "D": "Export the model to the browser with ONNX only"
+      },
+      "correct_option": "A",
+      "explanation": "Streaming inference reacts within seconds to minutes and is not intended for sub-second inference. A serverless endpoint scores one request on demand within milliseconds."
+    },
+    {
+      "number": 48,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A model uses target encoding for a categorical column and shows a very high training score but a much lower validation score. Which fix addresses the likely cause?",
+      "options": {
+        "A": "Switch to label encoding for nominal columns",
+        "B": "Compute the category means out-of-fold (or from training data only) and handle unseen categories with a global-mean fallback",
+        "C": "Increase the number of categories",
+        "D": "Compute the means using the validation labels as well"
+      },
+      "correct_option": "B",
+      "explanation": "Target encoding injects label information into features, so computing it on the same rows it encodes leaks the target and overfits. Out-of-fold means reduce leakage, and a global-mean fallback covers new categories."
+    },
+    {
+      "number": 49,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the pruning check so unpromising Optuna trials stop early.\n\n```python\nfor step in range(10):\n    score = train_one_epoch(model)\n    trial.report(score, step)\n    if trial.____():\n        raise optuna.TrialPruned()\n```",
+      "options": {
+        "A": "`is_complete`",
+        "B": "`stop_early`",
+        "C": "`should_prune`",
+        "D": "`skip_trial`"
+      },
+      "correct_option": "C",
+      "explanation": "Pruning uses intermediate results: call `report()` after each step, then `should_prune()` to decide whether to halt the trial. This spends compute on promising configurations."
+    },
+    {
+      "number": 50,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A grid of 12 candidate settings is tuned with a model that takes 4 minutes to fit. Cost is $C = N_{candidates} \\cdot k \\cdot t_{fit}$, where $k$ is the number of folds (use $k = 1$ for a single train/validation split). What are the total times for 5-fold CrossValidator and for TrainValidationSplit?",
+      "options": {
+        "A": "48 minutes and 240 minutes",
+        "B": "60 minutes and 12 minutes",
+        "C": "48 minutes for both",
+        "D": "240 minutes and 48 minutes"
+      },
+      "correct_option": "D",
+      "explanation": "CrossValidator: 12 * 5 * 4 = 240 min. TrainValidationSplit: 12 * 1 * 4 = 48 min. The single split is k times cheaper but gives a noisier estimate of generalization."
+    },
+    {
+      "number": 51,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "Input feature distributions in production match the training data, but a monitor shows the model's accuracy has been falling steadily. Which interpretation and action are most appropriate?",
+      "options": {
+        "A": "The input-to-target relationship likely changed (concept drift or model quality drift); investigate with fresh labels and retrain",
+        "B": "This is data drift, so the input pipeline must be broken",
+        "C": "Accuracy loss is impossible if inputs are unchanged",
+        "D": "Resource utilization is the only metric that matters"
+      },
+      "correct_option": "A",
+      "explanation": "When inputs look similar but quality degrades, the mapping the model learned no longer holds. Track quality metrics against ground truth logged in inference tables and trigger retraining."
+    },
+    {
+      "number": 52,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "An endpoint serves a latency-sensitive checkout flow with an SLA of a few hundred milliseconds, but traffic is quiet overnight. A teammate enables scale-to-zero to save cost. What is the main risk?",
+      "options": {
+        "A": "Scale-to-zero deletes the registered model version",
+        "B": "The first request after an idle period incurs a cold-start delay that can breach the SLA",
+        "C": "It disables traffic splitting",
+        "D": "It makes predictions less accurate"
+      },
+      "correct_option": "B",
+      "explanation": "Scale-to-zero saves cost for non-24/7 traffic, but the first request after idle waits for compute to start. For strict latency targets keep a minimum capacity."
+    },
+    {
+      "number": 53,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "A feature (distance to the nearest store) depends on a coordinate sent in the request itself, so it cannot be precomputed. Fill in the class that computes it on demand from a Unity Catalog Python UDF.\n\n```python\nfeatures = [\n    ____(udf_name=\"main.ml.distance_to_store\",\n         output_name=\"distance\",\n         input_bindings={\"lat\": \"lat\", \"lon\": \"lon\"}),\n]\n```",
+      "options": {
+        "A": "`FeatureLookup`",
+        "B": "`FeatureTable`",
+        "C": "`FeatureFunction`",
+        "D": "`OnlineTable`"
+      },
+      "correct_option": "C",
+      "explanation": "`FeatureLookup` fetches precomputed values by primary key, while `FeatureFunction` computes features at request time through a governed UDF with input bindings defined during training."
+    },
+    {
+      "number": 54,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A solution must train the model on the full production dataset, but production data is restricted and the team wants to test the training code first. Which approach fits?",
+      "options": {
+        "A": "Train only in the development workspace on sample data",
+        "B": "Disable staging and release straight from development",
+        "C": "Copy production data into every developer workspace",
+        "D": "A hybrid: deploy code to staging, train the model there over the full dataset, then deploy that model to production"
+      },
+      "correct_option": "D",
+      "explanation": "The hybrid pattern is used when staging needs the full production data volume to train. The code is validated in staging and the resulting model artifact is promoted."
+    },
+    {
+      "number": 55,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A feature is robust-scaled with $x' = \\frac{x - \\text{median}}{IQR}$, using training statistics: median $= 40$, $Q_1 = 30$, $Q_3 = 50$. What is the scaled value for $x = 100$?",
+      "options": {
+        "A": "3.0",
+        "B": "6.0",
+        "C": "1.2",
+        "D": "2.0"
+      },
+      "correct_option": "A",
+      "explanation": "IQR = Q3 - Q1 = 20. The scaled value is (100 - 40) / 20 = 3.0. Median and IQR are resistant to outliers, so RobustScaler is preferred when extreme values exist."
+    },
+    {
+      "number": 56,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "On a test set, a classifier has $TP = 40$, $FP = 10$ and $FN = 40$. With $P = \\frac{TP}{TP+FP}$, $R = \\frac{TP}{TP+FN}$ and $F_1 = \\frac{2PR}{P+R}$, what is $F_1$ (rounded)?",
+      "options": {
+        "A": "0.65",
+        "B": "0.62",
+        "C": "0.50",
+        "D": "0.80"
+      },
+      "correct_option": "B",
+      "explanation": "P = 40/50 = 0.80 and R = 40/80 = 0.50, so F1 = 2 * 0.8 * 0.5 / 1.3 = 0.62. The arithmetic mean (0.65) overstates it because F1 is the harmonic mean."
+    },
+    {
+      "number": 57,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A long-running research project cannot reproduce last quarter's training set from a Delta table version. What is the most plausible cause?",
+      "options": {
+        "A": "Time travel only works on tables smaller than 1 GB",
+        "B": "Delta tables cannot keep versions",
+        "C": "The table's retention settings or VACUUM removed the old data files, so that version is no longer available",
+        "D": "Feature tables forbid versioned reads"
+      },
+      "correct_option": "C",
+      "explanation": "Time travel depends on the old files still existing. Retention policies can limit access to older versions, which is a risk for long-running ML workflows. Capture the version number with the experiment or snapshot critical data."
+    },
+    {
+      "number": 58,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A company runs many projects with large teams and strict permission boundaries between development, staging and production. Which environment separation is the better fit?",
+      "options": {
+        "A": "Indirect separation within a single workspace using only naming conventions",
+        "B": "No separation, with one shared catalog",
+        "C": "Separate environments only for the data team",
+        "D": "Direct separation, with a separate Databricks workspace per environment"
+      },
+      "correct_option": "D",
+      "explanation": "Direct separation isolates environments completely and scales well to multiple projects and large teams, at the price of more setup and distinct permissions. Indirect separation simplifies infrastructure for small teams but scales poorly."
+    },
+    {
+      "number": 59,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A 2 GB dataset fits comfortably on one machine and the team wants quick experiments. Why might distributed SparkML be the wrong tool?",
+      "options": {
+        "A": "Spark adds startup and distribution overhead that outweighs its benefits for small data; a single-node library such as scikit-learn is simpler and often faster",
+        "B": "Spark cannot train classification models",
+        "C": "Spark requires labeled data to be larger than memory",
+        "D": "SparkML models cannot be saved"
+      },
+      "correct_option": "A",
+      "explanation": "Spark shines for datasets that do not fit one machine or when distributing training or tuning helps. For small or short-lived jobs, session start-up and task overhead dominate."
+    },
+    {
+      "number": 60,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A batch scoring job for a model trained with feature lookups keeps producing different results from training because analysts join features by hand with slightly different logic. What is the best fix?",
+      "options": {
+        "A": "Ask each analyst to document their join logic",
+        "B": "Log the model with the Feature Engineering client and score with `score_batch` so the recorded lookups and functions are applied automatically",
+        "C": "Retrain the model without features",
+        "D": "Copy the feature table into the scoring notebook"
+      },
+      "correct_option": "B",
+      "explanation": "Feature metadata packaged with the model defines exactly how features are retrieved. `score_batch` joins them from the offline feature tables by primary key, giving consistent, repeatable logic for training and batch inference."
+    },
+    {
+      "number": 61,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A team currently retrains a model by hand when someone notices poor results. Which roadmap best moves them toward a mature MLOps practice?",
+      "options": {
+        "A": "Jump straight to retraining on every new row",
+        "B": "Replace monitoring with more frequent manual reviews",
+        "C": "Start with scheduled retraining, add drift and quality monitoring with alerts, then trigger a retraining job automatically when drift or degradation is detected",
+        "D": "Retrain only when the model code changes"
+      },
+      "correct_option": "C",
+      "explanation": "Scheduled retraining is the recommended starting point. Monitoring and alerting add early diagnosis, and automatically kicking off a retraining job from drift signals marks maturity. Triggers can also include data, code and configuration changes."
+    },
+    {
+      "number": 62,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A retailer needs scores for 50 million customers each night for campaign planning, but also needs a fresh score for the one customer currently on its checkout page. What is the best deployment design?",
+      "options": {
+        "A": "Use only a streaming pipeline for both needs",
+        "B": "Use only real-time serving and call it 50 million times nightly",
+        "C": "Use edge deployment on the customer's phone",
+        "D": "Use both: scheduled batch scoring for the bulk population and a real-time endpoint (with online features) for the live request"
+      },
+      "correct_option": "D",
+      "explanation": "Deployment is a choice about how predictions are served. Batch maximizes throughput cheaply for the bulk, while real-time serving minimizes latency per request. The same registered model can support both."
+    },
+    {
+      "number": 63,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A grid search uses $3 \\times 4 \\times 5$ combinations with 5-fold cross-validation, so $N_{fits} = (\\text{combinations}) \\cdot k$. A Bayesian search with 40 trials uses the same 5 folds per trial. By how many fits does Bayesian search reduce the cost?",
+      "options": {
+        "A": "100 fewer fits (200 instead of 300)",
+        "B": "20 fewer fits (40 instead of 60)",
+        "C": "260 fewer fits (40 instead of 300)",
+        "D": "There is no difference"
+      },
+      "correct_option": "A",
+      "explanation": "Grid: 60 combinations * 5 folds = 300 fits. Bayesian: 40 trials * 5 folds = 200 fits, so 100 fewer. Bayesian optimization is the most efficient because it uses previous trials to focus on promising regions."
+    },
+    {
+      "number": 64,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "You are designing monitoring for a production model. Which plan is most complete and well aligned with good practice?",
+      "options": {
+        "A": "Track only accuracy and review it quarterly",
+        "B": "Track business requirements, model performance and drift, resource utilization and traceability, with alerts set tighter than the drift-detection window and pointed at the monitor's drift metrics",
+        "C": "Track resource utilization only",
+        "D": "Alert on the raw business table rather than on drift metrics"
+      },
+      "correct_option": "B",
+      "explanation": "Accuracy alone is not enough. Monitoring should span four dimensions so the solution stays relevant, accurate, efficient and accountable. Alert schedules tighter than the refresh window catch issues within one window."
+    },
+    {
+      "number": 65,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "A bundle must deploy the same ML solution to development and production workspaces with production safeguards. Fill in the target mode.\n\n```yaml\ntargets:\n  dev:\n    mode: development\n  prod:\n    mode: ____\n```",
+      "options": {
+        "A": "`staging`",
+        "B": "`release`",
+        "C": "`production`",
+        "D": "`stable`"
+      },
+      "correct_option": "C",
+      "explanation": "Declarative Automation Bundles describe resources in YAML and materialize them across workspaces. The `production` mode applies production-oriented behavior, enabling consistent CI/CD across dev, staging and production."
+    },
+    {
+      "number": 66,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A team is migrating from a workspace model registry that used Staging and Production stages to Unity Catalog. How should they design promotion?",
+      "options": {
+        "A": "Keep using stages because Unity Catalog preserves them",
+        "B": "Hard-code version numbers in every consumer",
+        "C": "Promote by copying the model files between workspaces by hand",
+        "D": "Register models under a three-level name, evaluate a challenger against the current champion, and move the `@champion` alias to the winning version through a gated job"
+      },
+      "correct_option": "D",
+      "explanation": "Unity Catalog does not use stages. Aliases and namespaces express environment and promotion, consumers reference the alias, and permissions and lineage come from governance. Gating promotion on validation metrics makes it safe."
+    },
+    {
+      "number": 67,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A candidate model gets 5% of an endpoint's traffic, and the endpoint receives $\\lambda = 2000$ requests per minute. You need $n = 6000$ candidate requests for a decision, with $t = \\frac{n}{p \\cdot \\lambda}$. How long must the canary run?",
+      "options": {
+        "A": "60 minutes",
+        "B": "30 minutes",
+        "C": "120 minutes",
+        "D": "10 hours"
+      },
+      "correct_option": "A",
+      "explanation": "The candidate receives 0.05 * 2000 = 100 requests per minute. Collecting 6,000 requests takes 6000 / 100 = 60 minutes. Raising the share shortens the test but increases exposure to a possibly worse model."
+    },
+    {
+      "number": 68,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A churn model uses a behavior feature that changes over time. Which design best avoids leakage and skew when building training data and serving?",
+      "options": {
+        "A": "Recompute the feature separately in the serving app",
+        "B": "Define the feature once in a governed feature table with a timestamp, use point-in-time lookups for training, and serve it from the online store with the same definition",
+        "C": "Use the latest feature value for every historical training row",
+        "D": "Drop the timestamp so rows are easier to join"
+      },
+      "correct_option": "B",
+      "explanation": "Using future feature values for past labels leaks information. Point-in-time retrieval returns what was known at each time, and a single governed definition reduces training/serving skew."
+    },
+    {
+      "number": 69,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "Complete the final step of a streaming inference pipeline so every record is scored by the registered model.\n\n```python\nscore = mlflow.____(spark, \"models:/main.ml.churn@champion\", \"double\")\nscored = ready_df.withColumn(\"prediction\", score(F.struct(*feature_columns)))\n```",
+      "options": {
+        "A": "`sklearn.load_model`",
+        "B": "`pyfunc.log_model`",
+        "C": "`pyfunc.spark_udf`",
+        "D": "`spark.save_model`"
+      },
+      "correct_option": "C",
+      "explanation": "`mlflow.pyfunc.spark_udf` wraps a registered model as a Spark UDF so it can run distributed in batch or inside a pipeline's final table. The same pyfunc model serves batch and streaming."
+    },
+    {
+      "number": 70,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A team must tune a model on 200 million rows with a limited compute budget. Which design is most sensible?",
+      "options": {
+        "A": "Always use 10-fold CrossValidator for the most reliable estimate",
+        "B": "Skip validation and tune on the test set",
+        "C": "Use grid search over every hyperparameter",
+        "D": "Use a single train/validation split (TrainValidationSplit) or a small search with parallelism, since k-fold multiplies cost by k"
+      },
+      "correct_option": "D",
+      "explanation": "K-fold gives the most reliable estimate but costs k times more. With very large data the single split is often stable enough and far cheaper. Evaluate the final model once on the test set."
+    },
+    {
+      "number": 71,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A decision uses probability threshold $p^*$: predict positive when $p \\cdot C_{FN} > (1-p) \\cdot C_{FP}$, so $p^* = \\frac{C_{FP}}{C_{FP} + C_{FN}}$. With $C_{FP} = 10$ and $C_{FN} = 90$, which threshold minimizes expected cost?",
+      "options": {
+        "A": "0.10",
+        "B": "0.50",
+        "C": "0.90",
+        "D": "0.01"
+      },
+      "correct_option": "A",
+      "explanation": "p* = 10 / (10 + 90) = 0.10. Because missing a positive is nine times costlier than a false alarm, the model should flag positives well below the default 0.5 threshold, trading precision for recall."
+    },
+    {
+      "number": 72,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "After launching in a new region, a recommendation model's accuracy is good overall but poor for the new group of users, who were rare in training. Which diagnosis and action fit best?",
+      "options": {
+        "A": "Data drift in CPU usage, so scale the cluster",
+        "B": "Bias drift: monitor metrics sliced by group, then collect data for the new group and retrain",
+        "C": "Concept drift that cannot be monitored",
+        "D": "No action is needed because the overall accuracy is acceptable"
+      },
+      "correct_option": "B",
+      "explanation": "Bias drift occurs when prediction quality diverges across groups as the population shifts. Slicing metrics by group exposes it, and retraining with representative data maintains fairness."
+    },
+    {
+      "number": 73,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "Choose the dataset type for a pipeline step that computes a daily aggregate of predictions and must refresh when its inputs change.\n\n```sql\nCREATE ____ daily_scores AS\nSELECT scored_date, AVG(prediction) AS avg_score\nFROM main.ml.model_predictions\nGROUP BY scored_date;\n```",
+      "options": {
+        "A": "`STREAMING TABLE`",
+        "B": "`TEMP FUNCTION`",
+        "C": "`MATERIALIZED VIEW`",
+        "D": "`EXTERNAL TABLE`"
+      },
+      "correct_option": "C",
+      "explanation": "Materialized views store the precomputed result of a query and refresh as inputs change, which suits transformations and aggregations. Streaming tables are for incremental ingestion of new records."
+    },
+    {
+      "number": 74,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A company needs one small model for each of 500 IoT devices, and each device's data fits on one node. Which Spark approach is best?",
+      "options": {
+        "A": "Train one distributed SparkML model for all devices",
+        "B": "Train sequentially on the driver",
+        "C": "Use a streaming table instead of training",
+        "D": "Train many independent single-node models in parallel (model parallelism) with a single-node library"
+      },
+      "correct_option": "D",
+      "explanation": "When each dataset fits on a worker, scaling out many single-node trainings is efficient and works with any ML library. Distributed training is for one model over a dataset too large for a single node."
+    },
+    {
+      "number": 75,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A clustering run gives within-cluster sum of squares $WCSS(k) = \\sum_{j=1}^{k}\\sum_{x \\in C_j}\\lVert x - \\mu_j \\rVert^2$ of 1000, 450, 200, 180 and 170 for $k = 1, \\dots, 5$. Where is the elbow?",
+      "options": {
+        "A": "k = 3",
+        "B": "k = 2",
+        "C": "k = 5",
+        "D": "k = 1"
+      },
+      "correct_option": "A",
+      "explanation": "The drops are 550, 250, 20 and 10. Improvement falls sharply after k = 3, where adding more clusters no longer improves separation. Domain knowledge still plays a role in the final choice."
+    },
+    {
+      "number": 76,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A team wants Genie Code to follow its naming conventions on every task, run a reusable multi-step feature-validation workflow on demand, and query an external ticketing system. Which mapping is correct?",
+      "options": {
+        "A": "Skills for the conventions, Instructions for the ticketing system, MCP for the workflow",
+        "B": "Instructions for the conventions, Skills for the reusable workflow, and an MCP connection for the external system",
+        "C": "Use MCP for all three",
+        "D": "Use only chat history"
+      },
+      "correct_option": "B",
+      "explanation": "Instructions provide always-on context such as standards. Skills are on-demand bundles of domain procedures. MCP connections expose external tools and data sources."
+    },
+    {
+      "number": 77,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "How should a team close the monitoring loop so the system can correct its own degradation?",
+      "options": {
+        "A": "Inspect predictions manually every month",
+        "B": "Retrain on test-set labels only",
+        "C": "Log predictions and later ground-truth labels in inference tables, monitor drift and quality against them, and have alerts trigger a retraining job",
+        "D": "Disable monitoring after deployment"
+      },
+      "correct_option": "C",
+      "explanation": "Inference tables record requests and outputs. With ground truth added they enable continuous validation, and monitors plus alerts can automatically kick off a Lakeflow retraining job."
+    },
+    {
+      "number": 78,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A model takes weeks to train and its training is hard to reproduce, while production data is tightly restricted. Which deployment pattern is most defensible, and what must you add?",
+      "options": {
+        "A": "Deploy code, because Databricks always recommends it regardless of cost",
+        "B": "Retrain from scratch in every environment on every commit",
+        "C": "Skip staging so the artifact is never altered",
+        "D": "Deploy model (promote the trained artifact through staging to production), plus a separate process to deploy inference, monitoring and operational code"
+      },
+      "correct_option": "D",
+      "explanation": "Deploy model suits expensive or hard-to-reproduce training. Its drawback is that only the artifact moves, so other code such as inference, monitoring and pipelines needs its own deployment path. Deploy code is the general recommendation, not an absolute rule."
+    },
+    {
+      "number": 79,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "An architect sets up MLOps infrastructure for several teams. Which set of decisions is most appropriate for the one-time infrastructure phase?",
+      "options": {
+        "A": "A Unity Catalog metastore, one or three workspaces, dev/staging/prod catalogs, a service principal for automation, and project templates provisioned with Terraform or MLOps Stacks",
+        "B": "A single shared catalog and personal access tokens for automation",
+        "C": "Manual setup by each data scientist in their own workspace",
+        "D": "Only a Git repository, with environments created later by hand"
+      },
+      "correct_option": "A",
+      "explanation": "Infrastructure is set up once per project or organization and is critical to downstream success. Service principals give automation an API-only identity, and templates or Terraform avoid slow, error-prone manual setup."
+    },
+    {
+      "number": 80,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "To avoid leakage, the feature pipeline (imputer, scaler, assembler) must learn its statistics from the right data. Which DataFrame completes the call?\n\n```python\ntrain_df, test_df = df.randomSplit([0.8, 0.2], seed=42)\nfeature_model = Pipeline(stages=stages).fit(____)\ntrain_ready = feature_model.transform(train_df)\ntest_ready = feature_model.transform(test_df)\n```",
+      "options": {
+        "A": "`df`",
+        "B": "`train_df`",
+        "C": "`test_df`",
+        "D": "`train_df.union(test_df)`"
+      },
+      "correct_option": "B",
+      "explanation": "Fitting the pipeline on the training split only means imputation values and scaling statistics come from training data. The resulting PipelineModel is then applied unchanged to held-out data. A fixed seed keeps the split reproducible."
+    }
+  ],
+  "registered_question_ids": [
+    2341,
+    2342,
+    2343,
+    2344,
+    2345,
+    2346,
+    2347,
+    2348,
+    2349,
+    2350,
+    2351,
+    2352,
+    2353,
+    2354,
+    2355,
+    2356,
+    2357,
+    2358,
+    2359,
+    2360,
+    2361,
+    2362,
+    2363,
+    2364,
+    2365,
+    2366,
+    2367,
+    2368,
+    2369,
+    2370,
+    2371,
+    2372,
+    2373,
+    2374,
+    2375,
+    2376,
+    2377,
+    2378,
+    2379,
+    2380,
+    2381,
+    2382,
+    2383,
+    2384,
+    2385,
+    2386,
+    2387,
+    2388,
+    2389,
+    2390,
+    2391,
+    2392,
+    2393,
+    2394,
+    2395,
+    2396,
+    2397,
+    2398,
+    2399,
+    2400,
+    2401,
+    2402,
+    2403,
+    2404,
+    2405,
+    2406,
+    2407,
+    2408,
+    2409,
+    2410,
+    2411,
+    2412,
+    2413,
+    2414,
+    2415,
+    2416,
+    2417,
+    2418,
+    2419,
+    2420
+  ],
+  "registered_on": "2026-11-25",
+  "registration_authorization": "User requested generation of 20 questions per level and direct registration in the timesheet database, and confirmed with 'ok, go on' after the round was presented."
+}

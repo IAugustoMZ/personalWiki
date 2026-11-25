@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-26 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
+27 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -33,6 +33,7 @@
 - MLOps Environment Setup and Development (create Databricks environment: UC metastore, workspaces, catalogs, service principal; optimize for efficiency: DABs, git, CLI, monitoring, security; development workflow: EDA/ML/validation, MLflows tracking, git versioning, UC governance, lakehouse integration)
 - Introdução ao SparkML para Desenvolvimento de Modelos (Delta Lake, Spark DataFrame com Catalyst e Tungsten, Unity Catalog e lineage automatizado, Feature Store, módulos MLlib/SparkML: Pipeline, feature transformers, classification, regression e clustering)
 - Algoritmos e tuning no SparkML (KMeans e Bisecting KMeans, recomendação com ALS, FP-growth e PrefixSpan, Evaluator com AUC/AUPRC, CrossValidator vs TrainValidationSplit, paralelismo data/model/hyperparameter, Pipelines salvos como PipelineModel)
+- Avaliação e metadados no SparkML (BinaryClassificationEvaluator com areaUnderROC/areaUnderPR, colunas prediction e probability, metadados do modelo para reprodutibilidade, MLflow Models com flavors pyfunc e Spark, MLflow Model Registry com Unity Catalog)
 
 ## Notas
 
@@ -62,5 +63,10 @@
 - `23_dtb_mlpa_01102026.md`
 - `24_dtb_mlpa_07102026.md`
 - `25_dtb_mlpa_29102026.md`
+- `26_dtb_mlpa_04112026.md`
+
+## Questões de revisão
+
+80 perguntas (20 por nível: `easy`, `medium`, `hard`, `expert`) em [`questions/databricks_mlpa_round1.json`](../../../questions/databricks_mlpa_round1.json), registradas no banco de questões do timesheet.
 
 Voltar para [Databricks Certifications](../README.md).

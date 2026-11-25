@@ -33,6 +33,7 @@
 | [`german_duolingo_levels_01_23_round1.json`](german_duolingo_levels_01_23_round1.json) | Alemão: Duolingo, níveis 1–23 (200 perguntas, 50 por dificuldade) | [Notas de Alemão](../languages/german/00_lan_deu_10112026.md) |
 | [`chinese_duolingo_levels_01_09_round2.json`](chinese_duolingo_levels_01_09_round2.json) | Chinês: Duolingo, níveis 1–9, rodada 2 (200 perguntas, 50 por dificuldade) | [Notas de Chinês](../languages/chinese/00_lan_chn_10082026.md) |
 | [`japanese_duolingo_levels_01_10_round1.json`](japanese_duolingo_levels_01_10_round1.json) | Japonês: Duolingo, níveis 1–10 (200 perguntas, 50 por dificuldade) | [Notas de Japonês](../languages/japanese/00_lan_jpn_10082026.md) |
+| [`databricks_mlpa_round1.json`](databricks_mlpa_round1.json) | Databricks ML Practitioner Associate, rodada 1 (80 perguntas, 20 por nível) | [Databricks ML Practitioner](../certifications/databricks/machine_learning_practitioner_associate/README.md) |
 
 ## Validação
 
