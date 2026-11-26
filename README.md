@@ -164,6 +164,18 @@ Inclua exemplos executáveis quando o conceito for técnico, prefira links relat
 imagens reutilizáveis em [`artifacts/`](artifacts/README.md). O README da pasta deve explicar o
 escopo da trilha e apontar para as entradas mais importantes.
 
+## Gerando questões de revisão
+
+A skill `.claude/skills/generate-questions/SKILL.md` seleciona automaticamente uma pasta
+terminal do wiki: contém notas Markdown e nenhuma subpasta. Não é necessário informar um
+caminho. A seleção prioriza material novo ou temas com menos rodadas de revisão.
+
+Use `/generate-questions` ou peça 20 questões por nível para gerar 80 perguntas nos níveis
+`easy`, `medium`, `hard` e `expert`. A skill apresenta a pasta escolhida e confirma com você
+a hierarquia de categoria, subcategoria e tópico do timesheet antes de gerar a rodada.
+O fluxo padrão pede aprovação das questões por número antes da importação. Os registros
+ficam em `questions/`, com validação, metadados e referência ao tópico utilizado.
+
 ## Mapa do repositório
 
 | Caminho | Conteúdo |

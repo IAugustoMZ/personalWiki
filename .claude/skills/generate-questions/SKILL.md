@@ -1,6 +1,6 @@
 ---
 name: generate-questions
-description: Generate review questions from a folder of wiki notes, present them in chat for approval by question number, regenerate the rejected ones, and register the approved ones in the timesheet question bank (ADR-009). Use when the user asks to generate, create or validate study questions from a folder.
+description: Select a terminal wiki folder automatically, confirm its timesheet category, generate review questions, and register approved questions in the timesheet question bank (ADR-009). Use when the user asks to generate, create or validate study questions; no folder argument is needed.
 ---
 
 # generate-questions
@@ -10,9 +10,20 @@ timesheet until the user approves it by number in chat.
 
 ## Inputs
 
-- `folder`: a path under `courses/` (or any folder of Markdown notes).
 - `n` (optional, default `10`): questions **per flavor**. There are four flavors, so the round
   has `4n` questions.
+
+No folder path is required. Discover candidates under `courses/`, `certifications/`, `books/`
+and `languages/` relative to the wiki repository root. A candidate must contain at least one
+Markdown study note (`.md`, excluding `README.md`) directly inside it and **no child
+directories**, including hidden directories. Do not treat a parent containing nested notes
+as terminal, or follow directory symlinks outside the wiki. Exclude generated content,
+question banks and tooling directories.
+
+Select one eligible folder, favoring new material or topics with fewer existing review rounds.
+Report its relative path and note count when proposing the category. Do not ask the user to
+supply a path. If no folder qualifies, report that and stop. If the user requests another
+folder, select another eligible candidate; validate any user-suggested folder by the same rules.
 
 ## Flavors
 
@@ -60,10 +71,14 @@ separately from vocabulary, so do not let vocabulary questions fill that quota.
 
 ## Workflow
 
-1. **Read the folder.** Read every Markdown note. Identify the concepts, formulas and code.
+1. **Select and read a terminal folder.** Apply the selection rules above, then read every
+   Markdown note directly in the selected folder. Identify the concepts, formulas and code.
 2. **Propose the topic.** Map the folder to a timesheet topic (`subsubcategory_id`). Show the
-   proposed location and whether it exists. Wait for the user to confirm or change it.
-   Create nothing until confirmed.
+   full category → subcategory → topic location, topic ID and whether it currently exists,
+   checking the timesheet service rather than assuming an older audit record is current.
+   Wait for the user to confirm or change the folder/category before generating questions
+   or creating categories, topics or database records. Category confirmation is separate
+   from question approval; never record it as approval of unseen questions.
 3. **Generate the round.** Number the questions `1..4n`, grouped by flavor. Give each question
    its flavor, kind, options, and an answer key line for the user's check. Do not show note numbers.
 4. **Validate the round.** Run `python questions/validate_questions.py <round.json> --per-flavor <n>`

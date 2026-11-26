@@ -1,0 +1,1224 @@
+{
+  "source_folder": "certifications/databricks/machine_learning_practitioner_associate",
+  "source_round": "round2",
+  "generated_on": "2026-11-26",
+  "category_confirmed_on": "2026-11-26",
+  "topic": {
+    "subsubcategory_id": 50,
+    "name": "Databricks Certified Machine Learning Practitioner Associate",
+    "category": "Certifications",
+    "subcategory": "Databricks"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What must be chosen before a hyperparameter search can decide which trial is better?",
+      "options": {
+        "A": "An evaluation metric aligned with the objective",
+        "B": "A production endpoint URL",
+        "C": "A model alias named latest",
+        "D": "A visualization color palette"
+      },
+      "correct_option": "A",
+      "explanation": "The evaluation metric defines what the search optimizes; it should reflect the problem's success criteria."
+    },
+    {
+      "number": 2,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which search strategy evaluates every combination in a fixed parameter grid?",
+      "options": {
+        "A": "Early stopping",
+        "B": "Grid search",
+        "C": "Random search",
+        "D": "Bayesian optimization"
+      },
+      "correct_option": "B",
+      "explanation": "Grid search exhaustively enumerates the Cartesian product of the supplied values."
+    },
+    {
+      "number": 3,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which search strategy uses previous trial results to focus on promising configurations?",
+      "options": {
+        "A": "Independent random sampling",
+        "B": "Stratified row sampling",
+        "C": "Bayesian optimization",
+        "D": "Uniform grid enumeration"
+      },
+      "correct_option": "C",
+      "explanation": "Bayesian optimization updates its search using observed outcomes rather than treating every trial independently."
+    },
+    {
+      "number": 4,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "In Optuna, what is a study?",
+      "options": {
+        "A": "One row of training data",
+        "B": "A fitted feature transformer",
+        "C": "A production serving replica",
+        "D": "An optimization task containing trials"
+      },
+      "correct_option": "D",
+      "explanation": "A study groups trials for an optimization objective and tracks their outcomes."
+    },
+    {
+      "number": 5,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What does a Spark ML Estimator produce when fitted?",
+      "options": {
+        "A": "A fitted Transformer",
+        "B": "An unfitted Evaluator",
+        "C": "A new catalog",
+        "D": "A raw SQL connection"
+      },
+      "correct_option": "A",
+      "explanation": "Estimators learn from data through fit and return models that transform data."
+    },
+    {
+      "number": 6,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Why are categorical variables often encoded before classical ML training?",
+      "options": {
+        "A": "All categories must become continuous targets",
+        "B": "Many algorithms require numeric inputs",
+        "C": "Encoding guarantees causal inference",
+        "D": "Encoding removes all missing values"
+      },
+      "correct_option": "B",
+      "explanation": "Encoding represents categories numerically so algorithms can process them; the chosen representation affects assumptions and dimensionality."
+    },
+    {
+      "number": 7,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which technique fills missing numeric entries with the middle observed value?",
+      "options": {
+        "A": "Stratified sampling",
+        "B": "Principal component analysis",
+        "C": "Median imputation",
+        "D": "One-hot encoding"
+      },
+      "correct_option": "C",
+      "explanation": "Median imputation uses the median of observed training values and is less sensitive to extremes than mean imputation."
+    },
+    {
+      "number": 8,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What does MLflow Tracking record to compare training runs?",
+      "options": {
+        "A": "Only endpoint network addresses",
+        "B": "Only catalog permissions",
+        "C": "Only source table names",
+        "D": "Parameters, metrics and artifacts"
+      },
+      "correct_option": "D",
+      "explanation": "Tracking preserves run settings and outputs so experiments can be compared and investigated."
+    },
+    {
+      "number": 9,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What is the purpose of a model input signature?",
+      "options": {
+        "A": "Describe the expected input schema",
+        "B": "Specify the best business objective",
+        "C": "Guarantee zero prediction error",
+        "D": "Choose the number of trials"
+      },
+      "correct_option": "A",
+      "explanation": "A signature describes the model's input contract and helps detect incompatible inference data."
+    },
+    {
+      "number": 10,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which learning task groups examples without known target labels?",
+      "options": {
+        "A": "Binary calibration",
+        "B": "Clustering",
+        "C": "Supervised regression",
+        "D": "Supervised classification"
+      },
+      "correct_option": "B",
+      "explanation": "Clustering discovers groups based on similarity without requiring a labeled target."
+    },
+    {
+      "number": 11,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "Which Spark algorithm is intended for collaborative filtering recommendations?",
+      "options": {
+        "A": "LogisticRegression",
+        "B": "StringIndexer",
+        "C": "ALS",
+        "D": "KMeans"
+      },
+      "correct_option": "C",
+      "explanation": "Alternating least squares learns user and item factors from interaction data for recommendations."
+    },
+    {
+      "number": 12,
+      "kind": "concept",
+      "difficulty": "easy",
+      "question_text": "What is the purpose of pruning a tuning trial?",
+      "options": {
+        "A": "Delete the validation labels",
+        "B": "Increase every parameter range",
+        "C": "Serve a model without evaluation",
+        "D": "Stop an unpromising trial before full training"
+      },
+      "correct_option": "D",
+      "explanation": "Pruning saves resources when intermediate results suggest the trial is unlikely to be competitive."
+    },
+    {
+      "number": 13,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the Optuna call that starts a study minimizing a loss.\n```python\nstudy = optuna.____(direction=\"minimize\")\n```",
+      "options": {
+        "A": "create_study",
+        "B": "load_model",
+        "C": "start_run",
+        "D": "create_endpoint"
+      },
+      "correct_option": "A",
+      "explanation": "create_study initializes an optimization study; direction determines whether lower or higher objective values are preferred."
+    },
+    {
+      "number": 14,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the method that fits a Spark ML pipeline.\n```python\nmodel = pipeline.____(train_df)\n```",
+      "options": {
+        "A": "predict_proba",
+        "B": "fit",
+        "C": "transform",
+        "D": "evaluate"
+      },
+      "correct_option": "B",
+      "explanation": "fit learns the pipeline's estimators from training data and returns a fitted PipelineModel."
+    },
+    {
+      "number": 15,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the MLflow call that records a scalar validation score.\n```python\nmlflow.____(\"validation_auc\", 0.87)\n```",
+      "options": {
+        "A": "set_experiment",
+        "B": "register_model",
+        "C": "log_metric",
+        "D": "log_param"
+      },
+      "correct_option": "C",
+      "explanation": "log_metric records numeric performance measurements; log_param records configuration values."
+    },
+    {
+      "number": 16,
+      "kind": "code",
+      "difficulty": "easy",
+      "question_text": "Complete the Spark operation that applies a fitted model to unseen rows.\n```python\npredictions = model.____(test_df)\n```",
+      "options": {
+        "A": "fit",
+        "B": "collectAsMap",
+        "C": "create_study",
+        "D": "transform"
+      },
+      "correct_option": "D",
+      "explanation": "A fitted Spark ML model transforms an input DataFrame into an output DataFrame containing predictions."
+    },
+    {
+      "number": 17,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "Using $MAE = (1/n)\\sum_i \\lvert y_i-\\hat y_i\\rvert$, what is MAE for absolute errors 2, 4 and 6?",
+      "options": {
+        "A": "4",
+        "B": "12",
+        "C": "2",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "explanation": "MAE is the mean absolute error: (2 + 4 + 6) / 3 = 4, in the target's units."
+    },
+    {
+      "number": 18,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "A grid uses $N = a b$ combinations. With 3 depths and 4 regularization values, how many combinations are tested?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "7",
+        "D": "81"
+      },
+      "correct_option": "B",
+      "explanation": "The Cartesian product contains 3 times 4 = 12 configurations."
+    },
+    {
+      "number": 19,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "Using $z=(x-\\mu)/\\sigma$, what is z for x = 14, training mean 10 and standard deviation 2?",
+      "options": {
+        "A": "7",
+        "B": "12",
+        "C": "2",
+        "D": "4"
+      },
+      "correct_option": "C",
+      "explanation": "Subtract the training mean and divide by the training standard deviation: (14 - 10) / 2 = 2."
+    },
+    {
+      "number": 20,
+      "kind": "equation",
+      "difficulty": "easy",
+      "question_text": "Using $Accuracy=(TP+TN)/N$, what is accuracy for TP = 30, TN = 50 and N = 100?",
+      "options": {
+        "A": "0.30",
+        "B": "0.50",
+        "C": "0.20",
+        "D": "0.80"
+      },
+      "correct_option": "D",
+      "explanation": "The model correctly classified 30 + 50 = 80 of 100 observations, giving accuracy 0.80."
+    },
+    {
+      "number": 21,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A dataset contains only 2% positive labels. Which split best preserves that proportion in train and validation sets?",
+      "options": {
+        "A": "Stratified splitting by label",
+        "B": "Sorting by label and taking the first 80%",
+        "C": "Keeping positives only in training",
+        "D": "Removing the label before splitting"
+      },
+      "correct_option": "A",
+      "explanation": "Stratification preserves class representation and reduces the risk of a validation set with too few positive examples."
+    },
+    {
+      "number": 22,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A fitted scaler works in training, but inference uses a newly fitted scaler on each request batch. What should change?",
+      "options": {
+        "A": "Normalize each label instead",
+        "B": "Reuse the training-fitted scaler for inference",
+        "C": "Refit the classifier on each request",
+        "D": "Remove every numeric feature"
+      },
+      "correct_option": "B",
+      "explanation": "Reusing learned preprocessing statistics maintains a consistent feature definition across training and inference."
+    },
+    {
+      "number": 23,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A high-cardinality feature becomes thousands of one-hot columns. What tradeoff should the team examine?",
+      "options": {
+        "A": "Whether every row has a unique catalog",
+        "B": "Whether cross-validation changes the target type",
+        "C": "Representation size versus predictive value",
+        "D": "Whether labels need SQL indexes"
+      },
+      "correct_option": "C",
+      "explanation": "High-cardinality encoding can increase memory and computation; alternatives must be evaluated without introducing leakage or false orderings."
+    },
+    {
+      "number": 24,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "An Optuna objective sometimes selects a tree model and sometimes a linear model. How should its search space be defined?",
+      "options": {
+        "A": "Require identical parameters for every algorithm",
+        "B": "Tune only the row count",
+        "C": "Return a model name without a score",
+        "D": "Suggest algorithm-specific parameters within the relevant branch"
+      },
+      "correct_option": "D",
+      "explanation": "Conditional search spaces express parameters meaningful to each algorithm while a comparable objective allows selection."
+    },
+    {
+      "number": 25,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A model is scored weekly on future sales. What validation design best matches deployment?",
+      "options": {
+        "A": "Train on earlier periods and validate on later periods",
+        "B": "Randomly mix future rows into training",
+        "C": "Train and evaluate on identical rows",
+        "D": "Split only by alphabetic customer name"
+      },
+      "correct_option": "A",
+      "explanation": "Temporal validation respects the direction of time and better estimates performance on future observations."
+    },
+    {
+      "number": 26,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Which metric directly penalizes confidently wrong binary probabilities?",
+      "options": {
+        "A": "Number of features",
+        "B": "Log loss",
+        "C": "Raw row count",
+        "D": "Training duration"
+      },
+      "correct_option": "B",
+      "explanation": "Log loss measures probabilistic predictions and increases sharply when a model assigns very low probability to the true class."
+    },
+    {
+      "number": 27,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A data scientist wants model comparisons to be reproducible. Which record is most useful?",
+      "options": {
+        "A": "Only a screenshot of the final score",
+        "B": "Only the number of cluster workers",
+        "C": "Code revision, data version, environment, parameters and metrics",
+        "D": "Only the model's display name"
+      },
+      "correct_option": "C",
+      "explanation": "Reproduction requires both the inputs and the execution configuration, rather than a score alone."
+    },
+    {
+      "number": 28,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A Spark pipeline contains an imputer and classifier. What should cross-validation fit within each training fold?",
+      "options": {
+        "A": "Only the imputer on all data",
+        "B": "Only the classifier after global imputation",
+        "C": "The evaluator on validation labels",
+        "D": "The entire pipeline"
+      },
+      "correct_option": "D",
+      "explanation": "Fitting preprocessing within each fold prevents validation statistics from entering training."
+    },
+    {
+      "number": 29,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "A model must score events continuously and persist results for later consumption. Which deployment pattern fits?",
+      "options": {
+        "A": "Streaming inference pipeline",
+        "B": "One notebook run each month",
+        "C": "A static model card without execution",
+        "D": "A registry alias without a consumer"
+      },
+      "correct_option": "A",
+      "explanation": "Streaming inference processes arriving data and stores outputs; it does not itself imply an interactive request-response API."
+    },
+    {
+      "number": 30,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Why separate staging validation from development experiments?",
+      "options": {
+        "A": "To make data versioning unnecessary",
+        "B": "To test deployment behavior before production promotion",
+        "C": "To eliminate the need for a test dataset",
+        "D": "To guarantee all models have equal accuracy"
+      },
+      "correct_option": "B",
+      "explanation": "Staging checks packaging, integrations and operational behavior before production exposure."
+    },
+    {
+      "number": 31,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Two classifiers have equal accuracy on an imbalanced dataset. What should be examined next?",
+      "options": {
+        "A": "Only the number of model aliases",
+        "B": "Only the spelling of the experiment name",
+        "C": "Confusion matrices and precision-recall behavior",
+        "D": "Only notebook execution order"
+      },
+      "correct_option": "C",
+      "explanation": "Equal aggregate accuracy can hide very different false-negative and false-positive behavior."
+    },
+    {
+      "number": 32,
+      "kind": "concept",
+      "difficulty": "medium",
+      "question_text": "Which resource should be versioned together with a fitted model to keep inference consistent?",
+      "options": {
+        "A": "Only its dashboard color scheme",
+        "B": "Only its latest endpoint hostname",
+        "C": "Only a manually copied accuracy value",
+        "D": "Its preprocessing and dependency environment"
+      },
+      "correct_option": "D",
+      "explanation": "The model depends on both feature transformations and compatible libraries to reproduce its predictions."
+    },
+    {
+      "number": 33,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Complete the Optuna suggestion for a floating regularization value spanning orders of magnitude.\n```python\nalpha = trial.suggest_float(\"alpha\", 1e-5, 1.0, ____=True)\n```",
+      "options": {
+        "A": "log",
+        "B": "shuffle",
+        "C": "stratify",
+        "D": "nested"
+      },
+      "correct_option": "A",
+      "explanation": "Logarithmic sampling spreads trials across orders of magnitude instead of concentrating them near the upper end of a wide range."
+    },
+    {
+      "number": 34,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Choose the Optuna direction for an objective returning validation RMSE.\n```python\nstudy = optuna.create_study(direction=\"____\")\n```",
+      "options": {
+        "A": "binary",
+        "B": "minimize",
+        "C": "maximize",
+        "D": "ascending_only"
+      },
+      "correct_option": "B",
+      "explanation": "RMSE measures prediction error, so smaller values are preferred."
+    },
+    {
+      "number": 35,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Complete the parameter-grid method that supplies candidates for a Spark estimator parameter.\n```python\ngrid = ParamGridBuilder().____(lr.regParam, [0.01, 0.1]).build()\n```",
+      "options": {
+        "A": "setMetricName",
+        "B": "log_param",
+        "C": "addGrid",
+        "D": "addStage"
+      },
+      "correct_option": "C",
+      "explanation": "addGrid associates a parameter with candidate values; build creates the Cartesian product of the supplied grids."
+    },
+    {
+      "number": 36,
+      "kind": "code",
+      "difficulty": "medium",
+      "question_text": "Complete the MLflow call that groups related runs into an experiment.\n```python\nmlflow.____(\"customer_churn_tuning\")\n```",
+      "options": {
+        "A": "log_artifact",
+        "B": "predict",
+        "C": "set_signature",
+        "D": "set_experiment"
+      },
+      "correct_option": "D",
+      "explanation": "set_experiment selects the experiment under which subsequent runs are tracked."
+    },
+    {
+      "number": 37,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "Using $MSE=(1/n)\\sum_i e_i^2$, what is MSE for residuals -1, 2 and -2?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "1",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "explanation": "The squared errors are 1, 4 and 4; their mean is 9 / 3 = 3."
+    },
+    {
+      "number": 38,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "A grid has 18 configurations and uses 4-fold validation. With $N_{fits}=Gk$, how many validation fits occur, excluding a final refit?",
+      "options": {
+        "A": "90",
+        "B": "72",
+        "C": "22",
+        "D": "18"
+      },
+      "correct_option": "B",
+      "explanation": "Each of 18 configurations is fitted once per fold: 18 times 4 = 72 fits before a final refit."
+    },
+    {
+      "number": 39,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "Using $F_1=2PR/(P+R)$, what is F1 for precision 0.6 and recall 0.6?",
+      "options": {
+        "A": "0.36",
+        "B": "0.3",
+        "C": "0.6",
+        "D": "1.2"
+      },
+      "correct_option": "C",
+      "explanation": "When precision and recall are equal, their harmonic mean equals the shared value."
+    },
+    {
+      "number": 40,
+      "kind": "equation",
+      "difficulty": "medium",
+      "question_text": "Using $R^2=1-SSE/SST$, what is R squared for SSE = 30 and SST = 120?",
+      "options": {
+        "A": "0.25",
+        "B": "4",
+        "C": "-3",
+        "D": "0.75"
+      },
+      "correct_option": "D",
+      "explanation": "The model leaves one quarter of the baseline squared error, so R squared is 1 - 30 / 120 = 0.75."
+    },
+    {
+      "number": 41,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "Increasing tuning parallelism makes each trial much slower and total throughput falls. What should be investigated first?",
+      "options": {
+        "A": "CPU, memory and data-loading contention across concurrent trials",
+        "B": "Whether model names are too short",
+        "C": "Whether the evaluator has a different display name",
+        "D": "Whether every trial uses a separate target column"
+      },
+      "correct_option": "A",
+      "explanation": "More concurrency helps only while resources support it; contention can increase runtime and cause failures."
+    },
+    {
+      "number": 42,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A Bayesian study improves validation scores after hundreds of trials, but fresh evaluation deteriorates. What is a plausible cause?",
+      "options": {
+        "A": "The registry cannot store many runs",
+        "B": "Repeated selection has overfit the validation set",
+        "C": "Bayesian optimization guarantees better test scores",
+        "D": "The validation set became training data automatically"
+      },
+      "correct_option": "B",
+      "explanation": "Repeatedly optimizing against one validation set can exploit its noise; independent evaluation or nested validation provides a stronger estimate."
+    },
+    {
+      "number": 43,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "An early-pruning rule removes almost every slow-starting neural-network trial. What should be reconsidered?",
+      "options": {
+        "A": "Whether validation should be disabled",
+        "B": "Whether poor trials should be marked successful",
+        "C": "Warm-up budget and evidence that early scores predict final quality",
+        "D": "Whether all trials should use the test labels"
+      },
+      "correct_option": "C",
+      "explanation": "Aggressive pruning can bias selection against configurations that learn slowly; intermediate scores must be informative before stopping trials."
+    },
+    {
+      "number": 44,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A churn model performs well offline but uses customer status recorded after the prediction date. What is the main defect?",
+      "options": {
+        "A": "The evaluator should maximize log loss",
+        "B": "Too few model aliases exist",
+        "C": "The cluster lacks enough visualization tools",
+        "D": "Future information leaks into the features"
+      },
+      "correct_option": "D",
+      "explanation": "Post-outcome information would be unavailable when predicting; features must be reconstructed as of the prediction time."
+    },
+    {
+      "number": 45,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "Random row splitting gives excellent performance when each customer has many nearly identical events. Which diagnostic split is useful?",
+      "options": {
+        "A": "Hold out entire customers",
+        "B": "Duplicate the positive rows before splitting",
+        "C": "Sort by prediction score",
+        "D": "Train and validate on the same customers' duplicate rows"
+      },
+      "correct_option": "A",
+      "explanation": "A group split tests generalization to unseen customers and reduces contamination from closely related observations."
+    },
+    {
+      "number": 46,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A model's input schema is unchanged, but a feature switches from dollars to cents. Why can predictions fail?",
+      "options": {
+        "A": "A feature's name guarantees its meaning",
+        "B": "Schema compatibility does not guarantee semantic compatibility",
+        "C": "Numeric schemas automatically convert currencies",
+        "D": "MLflow always retrains after unit changes"
+      },
+      "correct_option": "B",
+      "explanation": "Data contracts need units and semantics as well as types; a hundredfold scale change can invalidate learned relationships."
+    },
+    {
+      "number": 47,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A model with lower RMSE systematically underpredicts demand during costly peaks. What should evaluation add?",
+      "options": {
+        "A": "Only average endpoint uptime",
+        "B": "Only the number of trials",
+        "C": "Peak-period slices and an asymmetric business-cost measure",
+        "D": "Only the global row count"
+      },
+      "correct_option": "C",
+      "explanation": "An aggregate symmetric error can conceal economically important failures; slice evaluation and cost-sensitive metrics expose them."
+    },
+    {
+      "number": 48,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A search space includes learning rate and tree depth, but only learning rate strongly affects results. Why can random search be efficient?",
+      "options": {
+        "A": "It guarantees the global optimum",
+        "B": "It never evaluates weak configurations",
+        "C": "It eliminates the need for validation",
+        "D": "It explores more distinct influential-parameter values than a coarse grid under a similar budget"
+      },
+      "correct_option": "D",
+      "explanation": "A grid repeats a small set of values for important dimensions; random sampling can cover them more broadly under a limited trial budget."
+    },
+    {
+      "number": 49,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A streaming inference job reprocesses events after a restart and downstream rows duplicate. What design should be checked?",
+      "options": {
+        "A": "Checkpoint recovery and idempotent output keys",
+        "B": "Whether the model has a longer name",
+        "C": "Whether labels are one-hot encoded",
+        "D": "Whether every batch changes the model version"
+      },
+      "correct_option": "A",
+      "explanation": "Reliable streaming requires recovery state and sink semantics that prevent repeated processing from creating duplicate business records."
+    },
+    {
+      "number": 50,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "An endpoint's mean latency is acceptable but occasional requests exceed the SLA. Which measure should guide investigation?",
+      "options": {
+        "A": "Only the number of registered versions",
+        "B": "Tail latency such as p95 or p99",
+        "C": "Only training accuracy",
+        "D": "Only average batch size"
+      },
+      "correct_option": "B",
+      "explanation": "Mean latency hides slow requests; high percentiles reveal the experience of users at the tail."
+    },
+    {
+      "number": 51,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A trial resumes from a checkpoint produced with a different feature order. What should happen?",
+      "options": {
+        "A": "Rename the study and ignore the mismatch",
+        "B": "Compare only the training durations",
+        "C": "Reject or reconcile the incompatible feature contract before resuming",
+        "D": "Continue because all columns are numeric"
+      },
+      "correct_option": "C",
+      "explanation": "Checkpoint state assumes a particular input representation; changing feature order can silently alter meaning or break shapes."
+    },
+    {
+      "number": 52,
+      "kind": "concept",
+      "difficulty": "hard",
+      "question_text": "A feature store reduces duplicate engineering work. Which risk still requires explicit control?",
+      "options": {
+        "A": "All feature tables becoming inaccessible by definition",
+        "B": "All model metrics becoming incomparable",
+        "C": "No longer being able to version data",
+        "D": "Features containing information unavailable at prediction time"
+      },
+      "correct_option": "D",
+      "explanation": "Centralization does not by itself enforce temporal correctness for every training example."
+    },
+    {
+      "number": 53,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the evaluator choice for precision-recall area on a rare-positive classification task.\n```python\nevaluator = BinaryClassificationEvaluator(metricName=\"____\")\n```",
+      "options": {
+        "A": "areaUnderPR",
+        "B": "rmse",
+        "C": "r2",
+        "D": "silhouette"
+      },
+      "correct_option": "A",
+      "explanation": "areaUnderPR evaluates ranking across precision-recall tradeoffs; task-appropriate evaluation matters when positives are rare."
+    },
+    {
+      "number": 54,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the exception that stops an Optuna trial after a pruning decision.\n```python\nif trial.should_prune():\n    raise optuna.____()\n```",
+      "options": {
+        "A": "ModelRegistered",
+        "B": "TrialPruned",
+        "C": "StudyCompleted",
+        "D": "StopIterationError"
+      },
+      "correct_option": "B",
+      "explanation": "TrialPruned communicates an intentional early stop so the study records the trial as pruned rather than a successful full evaluation."
+    },
+    {
+      "number": 55,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the sklearn pipeline step used to learn numeric fill values only during fit.\n```python\npipe = Pipeline([(\"fill\", ____(strategy=\"median\")),\n                 (\"model\", LogisticRegression())])\n```",
+      "options": {
+        "A": "LabelEncoder",
+        "B": "KFold",
+        "C": "SimpleImputer",
+        "D": "OneHotEncoder"
+      },
+      "correct_option": "C",
+      "explanation": "SimpleImputer learns per-column replacement statistics during fit and reuses them in transform; fitting the pipeline per fold avoids leakage."
+    },
+    {
+      "number": 56,
+      "kind": "code",
+      "difficulty": "hard",
+      "question_text": "Complete the fixed seed argument that makes this split repeatable on the same input and execution conditions.\n```python\ntrain, test = df.randomSplit([0.75, 0.25], ____=17)\n```",
+      "options": {
+        "A": "random_state",
+        "B": "foldCol",
+        "C": "parallelism",
+        "D": "seed"
+      },
+      "correct_option": "D",
+      "explanation": "Spark randomSplit accepts seed; fixing it improves repeatability but does not replace recording data versions and execution conditions."
+    },
+    {
+      "number": 57,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A serialized trial takes 8 minutes. With 24 trials and 4 workers, $T=\\lceil N/P\\rceil t$ under ideal scheduling. What is the wall time excluding overhead?",
+      "options": {
+        "A": "48 minutes",
+        "B": "192 minutes",
+        "C": "6 minutes",
+        "D": "32 minutes"
+      },
+      "correct_option": "A",
+      "explanation": "There are six waves of four trials; six times eight minutes gives an ideal lower-bound estimate of 48 minutes."
+    },
+    {
+      "number": 58,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "For $L=C_{FP}FP+C_{FN}FN$, model A has FP=20,FN=5 and model B has FP=5,FN=12. With costs 1 and 10 respectively, which is cheaper?",
+      "options": {
+        "A": "A, with cost 25",
+        "B": "A, with cost 70",
+        "C": "B, with cost 17",
+        "D": "B, with cost 125"
+      },
+      "correct_option": "B",
+      "explanation": "A costs 20 + 10 times 5 = 70; B costs 5 + 10 times 12 = 125. Lower false negatives outweigh the additional false positives."
+    },
+    {
+      "number": 59,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "Using $s=(b-a)/\\max(a,b)$, what silhouette score results from mean within-cluster distance a=2 and nearest-cluster distance b=5?",
+      "options": {
+        "A": "-0.6",
+        "B": "0.4",
+        "C": "0.6",
+        "D": "1.5"
+      },
+      "correct_option": "C",
+      "explanation": "The silhouette is (5 - 2) / 5 = 0.6, indicating closer average proximity to the assigned cluster than to the nearest alternative."
+    },
+    {
+      "number": 60,
+      "kind": "equation",
+      "difficulty": "hard",
+      "question_text": "A minimization objective is $J=RMSE+\\lambda t$ with time t in minutes and lambda=0.02. A has RMSE=0.8,t=20; B has RMSE=0.9,t=5. Which is preferred?",
+      "options": {
+        "A": "A, with J=0.8",
+        "B": "A, with J=1.2",
+        "C": "B, with J=5.9",
+        "D": "B, with J=1.0"
+      },
+      "correct_option": "D",
+      "explanation": "A has objective 0.8 + 0.4 = 1.2, whereas B has 0.9 + 0.1 = 1.0. The stated objective trades error against runtime."
+    },
+    {
+      "number": 61,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A multi-objective study minimizes both error and inference latency. How should its results be selected for deployment?",
+      "options": {
+        "A": "Choose a Pareto-efficient candidate that meets explicit operational constraints",
+        "B": "Always choose the fastest candidate regardless of error",
+        "C": "Always average raw error and milliseconds with equal weights",
+        "D": "Assume multi-objective optimization produces one universally best model"
+      },
+      "correct_option": "A",
+      "explanation": "The Pareto frontier contains tradeoffs; deployment needs a policy such as a latency ceiling and an acceptable error level."
+    },
+    {
+      "number": 62,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A global model passes aggregate tests but regresses for a small high-risk customer segment. What promotion policy fits?",
+      "options": {
+        "A": "Increase trial count without reevaluating the segment",
+        "B": "Require segment-level gates alongside aggregate and operational checks",
+        "C": "Promote solely on aggregate accuracy",
+        "D": "Remove the segment from reporting"
+      },
+      "correct_option": "B",
+      "explanation": "Risk-sensitive release criteria must detect harmful subgroup regressions rather than allowing large groups to mask them."
+    },
+    {
+      "number": 63,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "Three teams use the same production model but different hand-written feature transformations. What architectural investment has priority?",
+      "options": {
+        "A": "Increase the production replica count",
+        "B": "Disable model logging to simplify deployment",
+        "C": "Version a shared feature contract and reusable preprocessing with the model",
+        "D": "Create three aliases pointing at the same inconsistent pipelines"
+      },
+      "correct_option": "C",
+      "explanation": "Shared versioned transformations reduce training-serving skew and make changes testable across consumers."
+    },
+    {
+      "number": 64,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A retraining trigger fires whenever input drift is detected, although labels arrive a month later. What governance improvement is needed?",
+      "options": {
+        "A": "Automatically replace the model after every distribution change",
+        "B": "Stop collecting labels because drift is sufficient evidence",
+        "C": "Use the same production traffic as unreviewed training labels",
+        "D": "Treat drift as a diagnostic signal and validate candidate quality before promotion"
+      },
+      "correct_option": "D",
+      "explanation": "Drift does not prove performance loss or candidate superiority; delayed-label evaluation and guarded promotion close the evidence gap."
+    },
+    {
+      "number": 65,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A team has a fixed tuning budget and must compare two algorithms fairly. Which plan is strongest?",
+      "options": {
+        "A": "Predefine comparable data splits, objective and compute budgets, then use a final untouched evaluation",
+        "B": "Let each algorithm use its best test-set threshold and report the maximum",
+        "C": "Give the favored algorithm unlimited trials",
+        "D": "Compare training scores from different datasets"
+      },
+      "correct_option": "A",
+      "explanation": "Controlled budgets and common evaluation reduce selection bias; a held-out final assessment estimates generalization after selection."
+    },
+    {
+      "number": 66,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A serving rollback restores model weights but keeps a new incompatible feature transformation. What does this reveal?",
+      "options": {
+        "A": "The endpoint needs more traffic before rollback",
+        "B": "Rollback must restore a compatible bundle of model, features and environment",
+        "C": "Model versioning alone guarantees rollback correctness",
+        "D": "All preprocessing must happen manually"
+      },
+      "correct_option": "B",
+      "explanation": "Operational rollback is a compatibility problem across artifacts, code and data contracts, not only a weights change."
+    },
+    {
+      "number": 67,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A model handles high-value approvals and must explain each historical decision. Which design best supports auditability?",
+      "options": {
+        "A": "Keep only the current model alias",
+        "B": "Overwrite old feature snapshots after each deployment",
+        "C": "Record model version, feature values or reproducible references, decision threshold and request context",
+        "D": "Store only the latest aggregate accuracy"
+      },
+      "correct_option": "C",
+      "explanation": "An auditable decision needs the exact decision context and immutable references sufficient to reconstruct the inference."
+    },
+    {
+      "number": 68,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "An optimizer selects extremely complex models for a tiny validation improvement. What is a defensible selection policy?",
+      "options": {
+        "A": "Promote every highest-scoring trial automatically",
+        "B": "Ignore serving constraints until after launch",
+        "C": "Select whichever model has the most hyperparameters",
+        "D": "Compare uncertainty and operational costs, preferring a simpler model when benefits are not reliable"
+      },
+      "correct_option": "D",
+      "explanation": "Small measured gains may be noise; complexity adds latency, maintenance and reproducibility costs that should be justified by reliable value."
+    },
+    {
+      "number": 69,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A new model is technically healthy in a canary but lowers conversion for eligible users. What should the release process do?",
+      "options": {
+        "A": "Pause expansion and investigate business impact with predefined guardrails",
+        "B": "Expand because HTTP success rate is high",
+        "C": "Ignore business metrics until all traffic migrates",
+        "D": "Delete the baseline before further analysis"
+      },
+      "correct_option": "A",
+      "explanation": "Operational health is necessary but insufficient; business guardrails should constrain rollout and trigger investigation or rollback."
+    },
+    {
+      "number": 70,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A training job can read restricted data but the serving service must not. What boundary should the architecture enforce?",
+      "options": {
+        "A": "Disable audit logs to reduce exposure",
+        "B": "Separate identities and least-privilege access for training artifacts and serving",
+        "C": "Give the serving service all training permissions",
+        "D": "Embed unrestricted database credentials in the model"
+      },
+      "correct_option": "B",
+      "explanation": "Serving should receive only the artifacts and features it needs, while training-data access remains constrained and auditable."
+    },
+    {
+      "number": 71,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A team wants to reuse an Optuna study after changing the objective from RMSE to business profit. What is the safest approach?",
+      "options": {
+        "A": "Reverse the sign of only the old best score",
+        "B": "Rename the metric without changing the objective implementation",
+        "C": "Create a new clearly versioned study for the changed objective",
+        "D": "Append profit values to the old RMSE history unchanged"
+      },
+      "correct_option": "C",
+      "explanation": "Optimization history is meaningful only under a consistent objective definition; a new study prevents incompatible scores from being mixed."
+    },
+    {
+      "number": 72,
+      "kind": "concept",
+      "difficulty": "expert",
+      "question_text": "A model is deployed in multiple regions with different feature-refresh delays. Which reliability policy is most useful?",
+      "options": {
+        "A": "Assume identical schemas imply identical freshness",
+        "B": "Always replace missing values with zero silently",
+        "C": "Track only the total number of regions",
+        "D": "Define feature freshness budgets per use case and safe behavior when inputs are stale"
+      },
+      "correct_option": "D",
+      "explanation": "Freshness is part of the prediction contract; monitoring and fallback behavior should reflect the consequences of stale inputs."
+    },
+    {
+      "number": 73,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "Complete the Optuna configuration for simultaneously minimizing error and latency.\n```python\nstudy = optuna.create_study(____=[\"minimize\", \"minimize\"])\n```",
+      "options": {
+        "A": "directions",
+        "B": "direction",
+        "C": "metrics",
+        "D": "objective_names"
+      },
+      "correct_option": "A",
+      "explanation": "Multi-objective studies use directions with one entry per returned objective; a scalar direction describes single-objective optimization."
+    },
+    {
+      "number": 74,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "Complete the constraint that keeps Optuna's model-size parameter meaningful only for a tree algorithm.\n```python\nkind = trial.suggest_categorical(\"algorithm\", [\"tree\", \"linear\"])\nif kind == \"____\":\n    depth = trial.suggest_int(\"depth\", 2, 12)\n```",
+      "options": {
+        "A": "none",
+        "B": "tree",
+        "C": "linear",
+        "D": "both"
+      },
+      "correct_option": "B",
+      "explanation": "Tree depth belongs to the tree branch of a conditional search space; suggesting it for a linear model wastes search dimensions."
+    },
+    {
+      "number": 75,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "A stable production consumer must load a specifically approved version rather than a movable alias. Complete the model URI.\n```python\nmodel = mlflow.pyfunc.load_model(\"models:/main.ml.risk/____\")\n```",
+      "options": {
+        "A": "latest",
+        "B": "Production",
+        "C": "7",
+        "D": "@champion"
+      },
+      "correct_option": "C",
+      "explanation": "The numeric version URI pins version 7. Reproducible inference also requires compatible features and dependencies; an alias can move over time."
+    },
+    {
+      "number": 76,
+      "kind": "code",
+      "difficulty": "expert",
+      "question_text": "A release check must fail if measured p99 latency exceeds 150 ms. Complete the comparison.\n```python\nif measured_p99_ms ____ 150:\n    raise RuntimeError(\"Latency gate failed\")\n```",
+      "options": {
+        "A": "<",
+        "B": "==",
+        "C": "<=",
+        "D": ">"
+      },
+      "correct_option": "D",
+      "explanation": "A maximum-latency gate rejects measurements above its allowed bound; this operational check complements predictive-quality gates."
+    },
+    {
+      "number": 77,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "Two candidates minimize error and latency. A=(0.10,80ms), B=(0.12,100ms). With dominance defined by $e_A\\le e_B$ and $t_A\\le t_B$, at least one strict, which statement holds?",
+      "options": {
+        "A": "A dominates B",
+        "B": "B dominates A",
+        "C": "Neither dominates because the units differ",
+        "D": "Both must remain on the Pareto frontier"
+      },
+      "correct_option": "A",
+      "explanation": "A has both lower error and lower latency, so B offers no tradeoff advantage under these two objectives."
+    },
+    {
+      "number": 78,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "For arrival rate $\\lambda=120$ requests/s and mean service time $W=0.05$ s, Little's law gives $L=\\lambda W$. What is mean in-flight concurrency in a stable system?",
+      "options": {
+        "A": "0.00042",
+        "B": "6",
+        "C": "2400",
+        "D": "120.05"
+      },
+      "correct_option": "B",
+      "explanation": "Multiplying arrival rate by mean time in system yields six requests in flight on average; capacity planning must also allow for bursts and tail latency."
+    },
+    {
+      "number": 79,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A baseline's business loss is 2000/day and a candidate's is 1700/day, but serving adds 100/day. Using $\\Delta=loss_{base}-loss_{new}-cost_{extra}$, what is daily net benefit?",
+      "options": {
+        "A": "400",
+        "B": "-200",
+        "C": "200",
+        "D": "300"
+      },
+      "correct_option": "C",
+      "explanation": "The reduction in business loss is 300 per day; subtracting 100 of extra serving cost leaves 200 per day before other costs."
+    },
+    {
+      "number": 80,
+      "kind": "equation",
+      "difficulty": "expert",
+      "question_text": "A promotion gate requires $LCB=\\hat\\Delta-1.96SE>0$. With estimated improvement 0.02 and SE 0.015, what decision follows under this rule?",
+      "options": {
+        "A": "Promote: LCB is 0.0494",
+        "B": "Promote: any positive point estimate suffices",
+        "C": "Do not promote: LCB is -1.94",
+        "D": "Do not promote: LCB is -0.0094"
+      },
+      "correct_option": "D",
+      "explanation": "The lower bound is 0.02 - 1.96 times 0.015 = -0.0094. Under the stated rule the evidence does not yet support a positive improvement."
+    }
+  ],
+  "approved_by": "user (explicit generation and database-save instruction in chat)",
+  "approved_on": "2026-11-26",
+  "approval_basis": "User requested generation and saving after category confirmation; no individual question-number review was performed.",
+  "imported_on": "2026-11-26",
+  "import_result": {
+    "inserted_count": 80,
+    "skipped_count": 0,
+    "question_ids": [
+      2421,
+      2422,
+      2423,
+      2424,
+      2425,
+      2426,
+      2427,
+      2428,
+      2429,
+      2430,
+      2431,
+      2432,
+      2433,
+      2434,
+      2435,
+      2436,
+      2437,
+      2438,
+      2439,
+      2440,
+      2441,
+      2442,
+      2443,
+      2444,
+      2445,
+      2446,
+      2447,
+      2448,
+      2449,
+      2450,
+      2451,
+      2452,
+      2453,
+      2454,
+      2455,
+      2456,
+      2457,
+      2458,
+      2459,
+      2460,
+      2461,
+      2462,
+      2463,
+      2464,
+      2465,
+      2466,
+      2467,
+      2468,
+      2469,
+      2470,
+      2471,
+      2472,
+      2473,
+      2474,
+      2475,
+      2476,
+      2477,
+      2478,
+      2479,
+      2480,
+      2481,
+      2482,
+      2483,
+      2484,
+      2485,
+      2486,
+      2487,
+      2488,
+      2489,
+      2490,
+      2491,
+      2492,
+      2493,
+      2494,
+      2495,
+      2496,
+      2497,
+      2498,
+      2499,
+      2500
+    ]
+  }
+}

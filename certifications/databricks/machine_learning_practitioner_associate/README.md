@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-27 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
+28 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -35,6 +35,8 @@
 - Algoritmos e tuning no SparkML (KMeans e Bisecting KMeans, recomendação com ALS, FP-growth e PrefixSpan, Evaluator com AUC/AUPRC, CrossValidator vs TrainValidationSplit, paralelismo data/model/hyperparameter, Pipelines salvos como PipelineModel)
 - Avaliação e metadados no SparkML (BinaryClassificationEvaluator com areaUnderROC/areaUnderPR, colunas prediction e probability, metadados do modelo para reprodutibilidade, MLflow Models com flavors pyfunc e Spark, MLflow Model Registry com Unity Catalog)
 
+- Tuning distribuído: configuração de jobs, grid/random/Bayesian search, Optuna multiobjetivo e multimodelo, Ray Tune e paralelismo
+
 ## Notas
 
 - `00_dtb_mlpa_12082026.md`
@@ -64,9 +66,12 @@
 - `24_dtb_mlpa_07102026.md`
 - `25_dtb_mlpa_29102026.md`
 - `26_dtb_mlpa_04112026.md`
+- `27_dtb_mlpa_05112026.md`
 
 ## Questões de revisão
 
 80 perguntas (20 por nível: `easy`, `medium`, `hard`, `expert`) em [`questions/databricks_mlpa_round1.json`](../../../questions/databricks_mlpa_round1.json), registradas no banco de questões do timesheet.
+
+Rodada 2: mais 80 perguntas (20 por nível) em [`questions/databricks_mlpa_round2.json`](../../../questions/databricks_mlpa_round2.json), registradas no mesmo tópico do timesheet. Total: 160 perguntas.
 
 Voltar para [Databricks Certifications](../README.md).
