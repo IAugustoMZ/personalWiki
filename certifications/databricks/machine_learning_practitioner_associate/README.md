@@ -1,6 +1,6 @@
 # Databricks Certified Machine Learning Practitioner Associate
 
-28 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
+29 notas sobre preparação de dados, feature engineering, seleção de modelos, treinamento, avaliação, deployment, monitoramento e operacionalização de modelos de machine learning na plataforma Databricks.
 
 ## Tópicos cobertos
 
@@ -37,6 +37,8 @@
 
 - Tuning distribuído: configuração de jobs, grid/random/Bayesian search, Optuna multiobjetivo e multimodelo, Ray Tune e paralelismo
 
+- Ray ecosystem e conceitos do Ray Tune: trainables, search spaces, search algorithms, schedulers, trials e ResultGrid
+
 ## Notas
 
 - `00_dtb_mlpa_12082026.md`
@@ -67,6 +69,7 @@
 - `25_dtb_mlpa_29102026.md`
 - `26_dtb_mlpa_04112026.md`
 - `27_dtb_mlpa_05112026.md`
+- `28_dtb_mlpa_09112026.md`
 
 ## Questões de revisão
 
